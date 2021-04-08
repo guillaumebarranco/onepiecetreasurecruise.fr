@@ -1,0 +1,16 @@
+mark {
+  background: yellow;
+}
+
+mark.current {
+  background: orange;
+}
+
+.heade {
+  padding: 10px;
+  width: 27%;
+  background: #eee;
+  position: fixed;
+  top: 30;
+  left: 0;
+}

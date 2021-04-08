@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-127847674-1');
+        </script>
+        <meta charset="utf-8" />
+        <title>Bartolomeo</title>
+        <link href="bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <script src="Personnages utiles/script.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script>
+            jQuery(function(){
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200 ) { 
+                            $('#scrollUp').css('right');
+                        } else { 
+                            $('#scrollUp').removeAttr( 'style' );
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+
+    <div class="entete">
+      <img src="https://i.imgur.com/yOZlv6S.png" class="entetefond">
+      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo"></a>
+    </div>
+    <style>
+      .entetetop
+      {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+      }
+      .entetefond
+      {
+        position: absolute;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+      }
+      .logo
+      {
+        width: 40vw;
+        top: 0;
+        left: 30%;
+        position: relative;
+      }
+      .newsboard
+      {
+        top: 0;
+        right: 1vw;
+        max-width: 25%;
+        width: 25%;
+        position: absolute;
+      }
+    </style>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<style>
+.topnavbar
+{
+top: -1.5vw;
+left: 0;
+max-width: 100%;
+width: 100%;
+position: absolute;
+}
+</style>
+  <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Guides
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Colisee.html">Colisées</a>
+          <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
+          <a class="dropdown-item waves-effect waves-light" href="Attaque ennemie.html">Attaques ennemies</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
+          <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light" href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light" href="Mode Aventure.html">Histoire principale</a>
+          <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
+          <a class="dropdown-item waves-effect waves-light" href="Defi de Garp.html">Défi de Garp</a>
+          <a class="dropdown-item waves-effect waves-light" href="Crane.html">Quêtes pour les super évolutions</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Liste de personnages
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="LegendesBatch.html">Personnages du recrutement rare</a>
+          <a class="dropdown-item" href="Carte aux tresors.html">Personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="Bataille cooperative.html">Personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="Festival des pirates.html">Personnages de la fête des pirates</a>
+          <a class="dropdown-item" href="LRR.html">Personnages limités au recrutement rare</a>
+          <a class="dropdown-item" href="Soutien.html">Personnages limités au recrutement rare de soutien</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Aide
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien debuter.html">Bien débuter</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier List.html">Tier Lists</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Progressions
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
+          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
+          <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
+          <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+          <a class="dropdown-item" href="AvanceeRaids.html">Avancée des combats cruciaux</a>
+          <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
+          <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
+          <a class="dropdown-item" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Artwork/">Artworks</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Événements
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Creations.html">Créations de personnages</a>
+          <a class="dropdown-item" href="Awards/">Awards 2019</a>
+          <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Sites
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
+          <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
+          <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
+          <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Remerciements
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <form action="https://www.google.com" id="cse-search-box">
+          <div id="searchbar">
+            <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
+            <input type="hidden" name="ie" value="UTF-8">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+          </div>
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+        </form>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <header><a href="Legendes.html"><img src="img/logo.png" alt="logo"></img></a></header>
+
+    <body>
+        <body id="Bartolomeo">
+    	<h1><center><u>Bartolomeo</u></center></h1>
+        <center><iframe width="336" height="189" src="https://www.youtube.com/embed/J5NVWLCmSpM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189" src="https://www.youtube.com/embed/9feq908XxTM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+        <h2><center><u>Fiche (6*)</u></center></h2>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1034.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1035.png"></center>
+        <table>
+        	<table align="center"> 	
+        	<caption><img src="https://i.imgur.com/WybxH1X.png" height="50%" width="50%"><img src="https://i.imgur.com/PvdqV0p.png" height="50%" width="50%"></caption>	 		
+        		<tbody>
+        			<tr> 				 		
+        				<td>Nom</td>
+        				<td><b>Bartolomeo le cannibale<b></td> 		 				 	
+        			</tr>
+              <tr>            
+                <td>Histoire</td>
+                <td>Capitaine de l'équipage du Barto Club. Il utilise le fruit de la barrière pour générér des barrières à volonté. Cela lui permet d'en former une autour de son poing pour infuser ce dernier de puissance, une technique qu'il a copiée du Gum Gum Bullet de Luffy.</td>              
+              </tr>
+        			<tr> 				 		
+        				<td>Type</td>
+        				<td><b><p><font color="#DC241C">STR</font></p><b></td> 		 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Classe 1</td>
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td> 				
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Classe 2</td>
+        				<td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>  				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Coût</td>
+        				<td>55</td>  					
+        			</tr> 					
+        			<tr> 						
+        				<td>Combo</td>
+        				<td>4</td>
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Emplacements de pouvoirs</td>
+        				<td>5</td> 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td colspan="2"><center><b>Statistiques</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>HP</td>
+        				<td>3505 puis 3975 après le dépassement de limites puis 4475 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>ATK</td>
+        				<td>1431 puis 1651 après le dépassement de limites puis 1851 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>RCV</td>
+        				<td>341 puis 426 après le dépassement de limites puis 476 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>  
+        			<tr> 						
+        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Captain Ability</td>
+        				<td>Multiplie l'ATK des personnages de classe Ravageur selon le nombre de personnages de classe Ravageur présents dans l'équipe et si le personnage n'attaque pas durant le tour, réduit les dégâts subis de 30%.<br>
+                        <small>Par 1,25 si l'équipe contient un personnage de classe Ravageur, par 1,5 si l'équipe contient 2 personnages de classe Ravageur, par 1,75 si l'équipe contient 3 personnages de classe Ravageur, par 2 si l'équipe contient 4 personnages de classe Ravageur, par 2,5 si l'équipe contient 5 personnages de classe Ravageur et par 2,75 si l'équipe contient 6 personnages de classe Ravageur.</small></td>
+        			</tr>
+              <tr>            
+                <td>Captain Ability (après l'extension du dépassement de limites)</td>
+                <td>Inconnue.</td>
+              </tr>
+        			<tr> 				 		
+        				<td>Special (23→18 puis 14 puis 11)</td>
+        				<td>Empêche la défaite pendant un tour et inflige des dégâts non élémentaires sur un ennemi selon les HP de l'équipe.</td> 	 				 	
+        			</tr>
+        			<tr> 						
+        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 1</td>
+        				<td>Ajoute 60 en HP et ATK pour les personnages de classe Ravageur.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 2</td>
+        				<td>Immunise le personnage contre "Paralysie".</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 1</td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 7%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 2</td>
+        				<td>Ajoute 30 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 60 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 90 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 120 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 3</td>
+        				<td>Réduit la durée de “Soin impossible” de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 2 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 4 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 5 tours.</td> 	 				 	
+        			</tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Nico Robin</ul><br>
+                            <ul style="display: inline;">Cavendish</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 1 tour si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 1 tour si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 1 tour si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 2 tours si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 3 tours si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>             
+                    </tr>
+                    <tr>
+                      <td>Style</td>
+                      <td>DEF</td>
+                    </tr>
+                    <tr>
+                      <td>DEF</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>VIT</td>
+                      <td>127</td>
+                    </tr>
+                    <tr>
+                      <td>Special</td>
+                      <td>Inflige <b>0,4 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>10 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>7 niveaux</b> pendant <b>10 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,45 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>12 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>7 niveaux</b> pendant <b>12 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,49 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>14 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>8 niveaux</b> pendant <b>14 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,54 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>16 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>9 niveaux</b> pendant <b>16 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,59 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>18 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>10 niveaux</b> pendant <b>18 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,64 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>20 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>11 niveaux</b> pendant <b>20 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,68 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>22 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>12 niveaux</b> pendant <b>22 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,73 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>24 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>13 niveaux</b> pendant <b>24 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,78 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>26 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>13 niveaux</b> pendant <b>26 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,85 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>28 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>16 niveaux</b> pendant <b>28 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td>Capacité</td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>1 niveau</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>2 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>3 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>4 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>5 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td>Actions principales</td>
+                      <td>ATK normale → ATK normale → Soigne le personnage au niveau 2</td>
+                    </tr>
+                    <tr>            
+                      <td>Cible des actions</td>
+                      <td>Vise les ennemis dont les HP restants sont faibles.</td>
+                    </tr>
+                    <tr>            
+                      <td>Résistance</td>
+                      <td>50% de chances d'éviter "Lien des coups spéciaux".</td>
+                    </tr>
+        			<tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0084.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0266.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0300.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
+                    </tr>
+        		</tbody> 			
+        	</table>
+       	<h2><center><u>Fiche (6*+)</u></center></h2>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1928.png"></center>
+        <table> 		 		
+        	<table width="85%" align="center"> 	
+        	<caption><img src="https://i.imgur.com/Y64t7Cd.png" height="50%" width="50%"></caption>	 		
+        		<tbody>
+        			<tr> 				 		
+        				<td>Nom</td>
+        				<td><b><small>Armada de Chapeau de paille "Coupe du serment d'allégeance"</small><br>Bartolomeo le cannibale<b></td>
+              <tr>            
+                <td>Histoire</td>
+                <td>Capitaine de l'équipage du Barto Club. Il voue une admiration sans limites à l'équipage de Chapeau de paille. Il fait un discours émouvant après avoir appris pourquoi Luffy désire devenir le roi des pirates, puis échange avec ses camarades d'armes la "Coupe du serment d'allégeance", concrétisant ainsi son rêve de devenir un serviteur de Luffy.</td>              
+              </tr>
+        			</tr>		 			 	
+        			<tr> 				 		
+        				<td>Type</td>
+        				<td><b><p><font color="#4C4CFF">QCK</font></p><b></td> 		 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Classe 1</td>
+        				<td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td> 				
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Classe 2</td>
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>  				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Coût</td>
+        				<td>65</td>  					
+        			</tr> 					
+        			<tr> 						
+        				<td>Combo</td>
+        				<td>4</td>
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Emplacements de pouvoirs</td>
+        				<td>5</td> 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td colspan="2"><center><b>Statistiques</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>HP</td>
+        				<td>3602 puis 4072 après le dépassement de limites puis 4572 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>ATK</td>
+        				<td>1510 puis 1730 après le dépassement de limites puis 1930 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>RCV</td>
+        				<td>380 puis 465 après le dépassement de limites puis 515 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>  
+        			<tr> 						
+        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Captain Ability</td>
+        				<td>Multiplie l'ATK des personnages de classe Ravageur et Ambitieux par 3 et si le personnage n'attaque pas durant le tour, réduit les dégâts subis de 30%.</td> 	 				 	
+        			</tr>
+              <tr>            
+                <td>Captain Ability (après l'extension du dépassement de limites)</td>
+                <td>Multiplie l'ATK des personnages de classe Ravageur et Ambitieux par 3,75, rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Ravageur et Ambitieux et si le personnage n'attaque pas durant le tour, réduit les dégâts subis de 30%.</td>
+              </tr>
+        			<tr> 				 		
+        				<td>Special (22→17 puis 13 puis 10)</td>
+        				<td>Empêche la défaite pendant un tour et multiplie l'ATK et les effets des cercles des personnages de classe Ravageur et Ambitieux par 1,5 pendant un tour.</td>
+        			</tr>
+        			<tr> 						
+        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 1</td>
+        				<td>Ajoute 60 en HP et ATK pour les personnages de classe Ravageur.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 2</td>
+        				<td>Immunise le personnage contre "Paralysie".</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 1</td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 7%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 2</td>
+        				<td>Ajoute 30 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 60 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 90 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 120 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 3</td>
+        				<td>Réduit la durée de “Soin impossible” de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 2 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 4 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 5 tours.</td> 	 				 	
+        			</tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Nico Robin</ul><br>
+                            <ul style="display: inline;">Cavendish</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 1 tour si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 1 tour si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 1 tour si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 2 tours si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Paralysie" de 3 tours si un personnage a été touché par la "Paralysie" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>             
+                    </tr>
+                    <tr>
+                      <td>Style</td>
+                      <td>DEF</td>
+                    </tr>
+                    <tr>
+                      <td>DEF</td>
+                      <td>230</td>
+                    </tr>
+                    <tr>
+                      <td>VIT</td>
+                      <td>132</td>
+                    </tr>
+                    <tr>
+                      <td>Special</td>
+                      <td>Inflige <b>0,5 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>10 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>5 niveaux</b> pendant <b>10 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,57 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>12 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>5 niveaux</b> pendant <b>12 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,63 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>14 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>6 niveaux</b> pendant <b>14 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,7 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>16 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>6 niveaux</b> pendant <b>16 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,77 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>18 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>7 niveaux</b> pendant <b>18 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,84 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>20 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>7 niveaux</b> pendant <b>20 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,9 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>22 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>8 niveaux</b> pendant <b>22 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>0,97 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>24 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>8 niveaux</b> pendant <b>24 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1,04 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>26 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>9 niveaux</b> pendant <b>26 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1,2 fois</b> son ATK à un ennemi, active "Provocation" du personnage pendant <b>28 secondes</b> et augmente les chances de réussite de "Garde" du personnage de <b>10 niveaux</b> pendant <b>28 secondes</b> (CT : 15).</td>
+                    </tr>
+                    <tr>
+                      <td>Capacité</td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>2 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 3 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>3 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 3 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>4 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 3 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>5 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 3 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les chances de réussite de "Garde" des alliés de classe Ravageur et Ambitieux de <b>6 niveaux</b> et si les HP sont en-dessous de 30%, augmente la défense des alliés de classe Ravageur et Ambitieux de 3 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td>Actions principales</td>
+                      <td>ATK normale → ATK normale → Soigne le personnage au niveau 2</td>
+                    </tr>
+                    <tr>            
+                      <td>Cible des actions</td>
+                      <td>Vise les ennemis dont les HP restants sont faibles.</td>
+                    </tr>
+                    <tr>            
+                      <td>Résistance</td>
+                      <td>70% de chances d'éviter "Lien des coups spéciaux".</td>
+                    </tr>
+        			<tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/blue_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0085.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0301.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>             
+                    </tr>
+        		</tbody> 			
+        	</table>
+        <h2><center><u>Personnages du lot</u></center></h2>
+        <div id="1"></div>
+        <h3><center><u>Fiche de Chinjao</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1024.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1025.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/2nmIDma.png" height="50%" width="50%"><img src="https://i.imgur.com/10i2W37.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Gang du pays des fleurs</small><br>Don Chinjao<b></td>
+              </tr>
+              <tr>            
+                <td>Histoire</td>
+                <td>Commandant en chef de la Marine des huit trésors (12e génération). Il était autrefois un grand pirate, actif au temps du Roi des pirates, Roger. Au sommet de sa gloire, sa prime atteignait 500 millions de berrys. Il est également connu sous le nom de "Chinjao le trépan".</td>              
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>         
+              </tr>
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
+              </tr>        
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>4</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>2818 puis 2918 après le dépassement de limites puis 3268 après l'extension du dépassement de limites</td>
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1424 puis 1524 après le dépassement de limites puis 1724 après l'extension du dépassement de limites</td>
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>185 puis 325 après le dépassement de limites puis 400 après l'extension du dépassement de limites</td>
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK des personnages de classe Tenace par 2 et multiplie les HP des personnages de classe Ravageur par 2.</td>
+              </tr>
+              <tr>            
+                <td>Captain Ability (après le dépassement de limites)</td>
+                <td>Réduit le temps de chargement des coups spéciaux de tous les personnages de 2 tours au début de la quête, multiplie l'ATK des personnages de classe Tenace par 2,25 et multiplie les HP des personnages de classe Ravageur par 2.</td>
+              </tr>
+              <tr>            
+                <td>Special (19→13 puis 11 puis 6)</td>
+                <td>Multiplie les effets des cercles de tous les personnages selon les HP de l'équipe au début du tour pendant 2 tours.<br>
+                  <ul style="display: inline;"><small><b>Au-dessus de 70% :</b> Par 1,25.</ul><br>
+                  <ul style="display: inline;"><b>Entre 70% et 30% :</b> Par 1,5.</ul><br>
+                  <ul style="display: inline;"><b>En-dessous de 30% :</b> Par 1,75.</small></ul></td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability</td>
+                <td>Ajoute 50 en HP et ATK pour les personnages de classe Tenace et Ravageur.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 3% l'ATK du personnage en dégâts additionnels.</td>                       
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>                         
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 15% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>                     
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>                      
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>     
+                    </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Ajoute 30 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Ajoute 60 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Ajoute 90 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 3 tours.</td>             
+              </tr>
+              <tr>            
+                <td>Potential Ability 3</td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de 1 tour.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>            
+              </tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Sai</ul><br>
+                            <ul style="display: inline;">Boo</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 3% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 4% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 5% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 7% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 9% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0088.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0266.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0094.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0100.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0104.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="2"></div>
+        <h3><center><u>Fiche de Blue Gilly</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1026.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1027.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/qK3mwwf.png" height="50%" width="50%"><img src="https://i.imgur.com/5qrvCNk.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Expert en jaokundo</small><br>Blue Gilly<b></td>
+              </tr>
+              <tr>            
+                <td>Histoire</td>
+                <td>Un guerrier de la tribu des Longues-jambes. Il utilise l'art martial du jaokundo et ses jambes extrêmement longues pour déchaîner un vaste éventail de puissants coups de pieds que certains ont comparé à un fouet d'acier.</td>              
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>         
+              </tr>
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>         
+              </tr>        
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>7</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>2552 puis 2742 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1300 puis 1420 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>277 puis 337 après le dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK et la RCV des personnages de classe Cogneur par 2.</td>
+              </tr>
+              <tr>            
+                <td>Special (11→5)</td>
+                <td>Change le cercle du capitaine en cercle correspondant et permet d'échanger les cercles d'emplacements 3 fois.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour le personnage.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour le personnage.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de 3 tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de 5 tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tours.</td>
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>             
+              </tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Elizabello II</ul><br>
+                            <ul style="display: inline;">Dagama</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Change le cercle <b><font color="peru">[TND]</font></b> ou <b><font color="#777">[EMP]</font></b> du personnage soutenu en cercle correspondant au début du dernier stage d'une quête.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Mélange le cercle du personnage soutenu au début du dernier stage d'une quête.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Change le cercle du personnage soutenu en cercle correspondant au début du dernier stage d'une quête.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Change le cercle du personnage soutenu en cercle correspondant et permet d'échanger les cercles d'emplacements une fois au début du dernier stage d'une quête.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Change le cercle du personnage soutenu en cercle correspondant et permet d'échanger les cercles d'emplacements 2 fois au début du dernier stage d'une quête.</td> 
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0085.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0096.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0301.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0301.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0101.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="3"></div>
+        <h3><center><u>Fiche des Funk Brothers</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1028.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1029.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/TjOg2lO.png" height="50%" width="50%"><img src="https://i.imgur.com/O6BBwVB.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Assassins originaires du royaume de Mogalo</small><br>Funk Brothers<b></td>
+              </tr>
+              <tr>            
+                <td>Histoire</td>
+                <td>Un duo de frères assassins qui sont apparus dans le colisée de Dressrosa. Les pouvoirs du fruit de la pelisse de Kelly lui permettent de se transformer en une veste que Bobby peut ensuite enfiler pour améliorer ses propres capacités de combat.</td>              
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>         
+              </tr>
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>         
+              </tr>        
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>8</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>2920 puis 3170 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1251 puis 1351 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>226 puis 271 après le dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK de tous les personnages par 2,5 après le 21ème coup dans le combo et par 3,5 après le 36ème coup dans le combo.</td>
+              </tr>
+              <tr>            
+                <td>Special (18→12 puis 10)</td>
+                <td>Inflige des dégâts aléatoires non élémentaires sur tous les ennemis et multiplie l'ATK de tous les personnages par 1,75 après le 30ème coup dans le combo pendant 3 tours.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Ajoute 50 en HP, ATK et RCV pour les personnages de classe Cogneur.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Cogneur.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 1%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 4%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>            
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de ? tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de ? tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de ? tours au début de la quête.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit le temps de chargement de son coup spécial de 8 tours au début de la quête.</td>             
+              </tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Personnages de classe Cogneur</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 6% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 9% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 12% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 15% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0084.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0100.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="4"></div>
+        <h3><center><u>Fiche d'Hajrudin</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1030.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1031.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/7T20nZy.png" height="50%" width="50%"><img src="https://i.imgur.com/DnSbnm9.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Pirate mercenaire</small><br>Hajrudin<b></td>
+              </tr>
+              <tr>
+                <td>Histoire</td>
+                <td>Un guerrier géant de la tribu d'Erbaf. Ayant pour objectif de devenir le roi de tous les géants, il cherche à récupérer le pyro-fruit, la récompense de la compétition.</td>
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>         
+              </tr>
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>         
+              </tr>        
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>4</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>2700 puis 2900 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1402 puis 1492 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>205 puis 255 après le dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK des personnages de classe Tenace par 2,75 si les HP sont au maximum.</td>
+              </tr>
+              <tr>            
+                <td>Special (23→15 puis 12)</td>
+                <td>Réduit les HP de l'équipe à 1, inflige 10 fois les HP perdus en dégâts non élémentaires sur un ennemi et multiplie l'ATK du personnage par 2,25 pendant un tour.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Si le personnage est le dernier à attaquer, ajoute 50 en ATK pour le personnage.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Ajoute 200 en ATK pour tous les personnages si les HP sont en-dessous de ?%.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>             
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Baggy</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 6% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 9% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                       
+                        <td></td>
+                        <td>Ajoute 12% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 15% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0083.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0087.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0098.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0304.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0104.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="5"></div>
+        <h3><center><u>Fiche d'Abdullah et Jeet</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1032.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1033.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/seAImpy.png" height="50%" width="50%"><img src="https://i.imgur.com/rDdBUpH.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Anciens chasseurs de primes</small><br>Abdullah et Jeet<b></td>
+              </tr>
+              <tr>            
+                <td>Histoire</td>
+                <td>Un ex-duo de chasseurs de primes. Abdullah combat avec des tridents tandis que Jeet préfère les sabres. L'un d'entre eux fait diversion pour permettre à l'autre d'attaquer pendant que la garde de leur adversaire est baissée.</td>              
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>         
+              </tr>
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
+              </tr>        
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>6</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>1970 puis 2180 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1345 puis 1435 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>343 puis 423 après le dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Sabreur et Ravageur de 2 tours au début de la quête et multiplie l'ATK des personnages de classe Sabreur et Ravageur par 2,25.</td>
+              </tr>
+              <tr>            
+                <td>Special (11→5)</td>
+                <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Sabreur et Ravageur d'un tour et change les cercles désavantageux des personnages de classe Sabreur et Ravageur en cercles <b><font color="#BC5C0C">[RCV]</font></b>.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Ajoute 50 en HP et ATK pour les personnages de classe Sabreur et Ravageur.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Réduit l'inversion de son coup spécial d'un tour.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Ajoute 20 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>                      
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 40 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>                      
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 60 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>                         
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 80 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>                         
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td>                         
+                    </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 25% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>             
+              </tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Monkey D. Luffy</ul><br>
+                            <ul style="display: inline;">Trafalgar Law</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 3% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 4% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 5% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                       
+                        <td></td>
+                        <td>Ajoute 7% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 9% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0084.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0087.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0300.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0303.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/mdb.js"></script>
+        <div id="scrollUp">
+            <a href="#top"><img src="img/to_top.png" height="60%" width="60%"/></a>
+        </div>
+        <div class="baspage">
+          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+        </div>
+        <style>
+          .baspage
+          {
+            position: relative;
+            bottom: -1vw;
+            max-width: 100%;
+            width: 100%;
+          }
+        </style>
+    </body>
+</html>
+
+<table class="detail b">
+<tbody>

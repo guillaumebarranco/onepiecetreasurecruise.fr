@@ -1,0 +1,41 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 95%;
+    background-color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+td
+{
+    border: 1px solid black;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+    background-image: url("https://i.imgur.com/sxwVXz6.png");
+    background-attachment: fixed;
+}
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}
+
+.tooltip {
+      position: fixed;
+      z-index: 100;
+
+      padding: 10px 20px;
+
+      border: 1px solid #b3c9ce;
+      border-radius: 4px;
+      text-align: center;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    }

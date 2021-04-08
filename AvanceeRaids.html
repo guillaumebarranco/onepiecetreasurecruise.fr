@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-127847674-1');
+        </script>
+        <title>Avancée des combats cruciaux</title>
+        <meta name="title" content="Avancée des combats cruciaux">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleAvancee.css">
+        <link href="bootstrap.css" rel="stylesheet">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="scriptAvanceeRaids.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <meta charset="utf-8" />
+    </head>
+
+    <div class="entete">
+      <img src="https://i.imgur.com/yOZlv6S.png" class="entetefond">
+      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo"></a>
+    </div>
+    <style>
+      .entetetop
+      {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+      }
+      .entetefond
+      {
+        position: absolute;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+      }
+      .logo
+      {
+        width: 40vw;
+        top: 0;
+        left: 30%;
+        position: relative;
+      }
+      .newsboard
+      {
+        top: 0;
+        right: 1vw;
+        max-width: 25%;
+        width: 25%;
+        position: absolute;
+      }
+    </style>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<style>
+.topnavbar
+{
+top: -1.5vw;
+left: 0;
+max-width: 100%;
+width: 100%;
+position: absolute;
+}
+</style>
+  <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Guides
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Colisee.html">Colisées</a>
+          <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
+          <a class="dropdown-item waves-effect waves-light" href="Attaque ennemie.html">Attaques ennemies</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
+          <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light" href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light" href="Mode Aventure.html">Histoire principale</a>
+          <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
+          <a class="dropdown-item waves-effect waves-light" href="Defi de Garp.html">Défi de Garp</a>
+          <a class="dropdown-item waves-effect waves-light" href="Crane.html">Quêtes pour les super évolutions</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Liste de personnages
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="LegendesBatch.html">Personnages du recrutement rare</a>
+          <a class="dropdown-item" href="Carte aux tresors.html">Personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="Bataille cooperative.html">Personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="Festival des pirates.html">Personnages de la fête des pirates</a>
+          <a class="dropdown-item" href="LRR.html">Personnages limités au recrutement rare</a>
+          <a class="dropdown-item" href="Soutien.html">Personnages limités au recrutement rare de soutien</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Aide
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien debuter.html">Bien débuter</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier List.html">Tier Lists</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Progressions
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
+          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
+          <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
+          <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+          <a class="dropdown-item active" href="AvanceeRaids.html">Avancée des combats cruciaux</a>
+          <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
+          <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
+          <a class="dropdown-item" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Artwork/">Artworks</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Événements
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Creations.html">Créations de personnages</a>
+          <a class="dropdown-item" href="Awards/">Awards 2019</a>
+          <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Sites
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
+          <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
+          <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
+          <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Remerciements
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <form action="https://www.google.com" id="cse-search-box">
+          <div id="searchbar">
+            <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
+            <input type="hidden" name="ie" value="UTF-8">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+          </div>
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+        </form>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <header><a href="/"><img src="img/logo.png" alt="logo"></img></a></header>
+
+    <body class="raidlist">
+        <center><h1><u>Avancée des combats cruciaux</u></h1></center>
+        	<div class="characters">
+        		<table>
+        			<table align="center">
+        				<tbody>
+        					<tr>
+        						<td>
+        							<img src="https://imgur.com/QsXQ2kL.png">
+        						</td>
+        						<td>
+        							<h3><font color="#ECAC04">Niveau des statistiques au maximum</font></h3>
+        						</td>
+        						<td>
+        							<img src="https://imgur.com/76MHSCn.png">
+        						</td>
+        						<td>
+        							<h3><font color="#DC241C">Niveau du coup spécial au maximum</font></h3>
+        						</td>
+        					</tr>
+        					<tr>
+        						<td>
+        							<img src="https://imgur.com/BahT39m.png">
+        						</td>
+        						<td>
+        							<h3><font color="#ECAC04">Niveau des emplacements de pouvoirs au maximum</font></h3>
+        						</td>
+        						<td>
+        							<img src="https://i.imgur.com/pqdrdu0.png">
+        						</td>
+        						<td>
+        							<h3><font color="orange">100 barbes à papa HP</font></h3>
+        						</td>
+        					</tr>
+        					<tr>
+        						<td>
+        							<img src="https://i.imgur.com/UAK0erl.png">
+        						</td>
+        						<td>
+        							<h3><font color="#DC241C">100 barbes à papa ATK</font></h3>
+        						</td>
+        						<td>
+        							<img src="https://i.imgur.com/3rglFwY.png">
+        						</td>
+        						<td>
+        							<h3><font color="#1CAC24">100 barbes à papa RCV</font></h3>
+        						</td>
+        					</tr>
+        					<tr>
+        						<td>
+        							<img src="https://imgur.com/LNddvdE.png">
+        						</td>
+        						<td>
+        							<h3><font color="orange">Dépassement de limites au maximum</font></h3>
+        						</td>
+        						<td>
+        							<img src="https://imgur.com/ACQBSqv.png">
+        						</td>
+        						<td>
+        							<h3><font color="#DC241C">Potential Abilities au maximum</font></h3>
+        						</td>
+        					</tr>
+                  <tr>
+                    <td>
+                      <img src="https://imgur.com/g8Fdgu6.png">
+                    </td>
+                    <td>
+                      <h3><font color="#4C4CFF">Effets de soutien au maximum</font></h3>
+                    </td>
+                  </tr>
+        				</tbody>
+        			</table>
+        		</table>
+        	</div>
+            <center><h2>
+            	<div>
+            		<u>Combats cruciaux</u>
+            	</div>
+            </h2></center>
+            <div class="characters">
+                <span class="disabled pictures" id="f0227A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0227.png"></span>&nbsp;<span class="disabled pictures" id="f0227MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0227SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0227SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0227HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0227ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0227RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0227LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0227POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0227ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0249A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0249.png"></span>&nbsp;<span class="disabled pictures" id="f0249MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0249SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0249SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0249HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0249ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0249RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0249LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0249POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0249ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0306A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0306.png"></span>&nbsp;<span class="disabled pictures" id="f0306MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0306SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0306SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0306HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0306ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0306RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0306LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0306POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0306ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0353A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0353.png"></span>&nbsp;<span class="disabled pictures" id="f0353MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0353SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0353SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0353HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0353ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0353RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0353LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0353POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0353ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0390A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0390.png"></span>&nbsp;<span class="disabled pictures" id="f0390MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0390SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0390SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0390HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0390ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0390RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0390LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0390POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0390ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0418A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0418.png"></span>&nbsp;<span class="disabled pictures" id="f0418MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0418SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0418SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0418HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0418ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0418RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0418LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0418POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0418ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0447A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0447.png"></span>&nbsp;<span class="disabled pictures" id="f0447MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0447SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0447SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0447HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0447ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0447RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0447LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0447POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0447ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0516A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0516.png"></span>&nbsp;<span class="disabled pictures" id="f0516MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0516SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0516SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0516HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0516ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0516RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0516LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0516POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0516ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0518A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0518.png"></span>&nbsp;<span class="disabled pictures" id="f0518MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0518SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0518SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0518HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0518ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0518RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0518LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0518POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0518ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0575A"><img src="https://i.imgur.com/FCKSAI6.png"></span>&nbsp;<span class="disabled pictures" id="f0575MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0575SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0575SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0575HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0575ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0575RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0575LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0575POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0575ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0603A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0603.png"></span>&nbsp;<span class="disabled pictures" id="f0603MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0603SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0603SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0603HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0603ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0603RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0603LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0603POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0603ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0654A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0654.png"></span>&nbsp;<span class="disabled pictures" id="f0654MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0654SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0654SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0654HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0654ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0654RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0654LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0654POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0654ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0770A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0770.png"></span>&nbsp;<span class="disabled pictures" id="f0770MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0770SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0770SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0770HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0770ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0770RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0770ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0771A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0771.png"></span>&nbsp;<span class="disabled pictures" id="f0771MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0771SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0771SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0771HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0771ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0771RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0771ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0772A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0772.png"></span>&nbsp;<span class="disabled pictures" id="f0772MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0772SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0772SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0772HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0772ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0772RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0772ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0773A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0773.png"></span>&nbsp;<span class="disabled pictures" id="f0773MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0773SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0773SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0773HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0773ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0773RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0774A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0774.png"></span>&nbsp;<span class="disabled pictures" id="f0774MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0774SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0774SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0774HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0774ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0774RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0775A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0775.png"></span>&nbsp;<span class="disabled pictures" id="f0775MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0775SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0775SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0775HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0775ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0775RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0795A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0795.png"></span>&nbsp;<span class="disabled pictures" id="f0795MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0795SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0795SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0795HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0795ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0795RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0795LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0795POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0795ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0836A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0836.png"></span>&nbsp;<span class="disabled pictures" id="f0836MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0836SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0836SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0836HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0836ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0836RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0836LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0836POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0836ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0865A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0865.png"></span>&nbsp;<span class="disabled pictures" id="f0865MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0865SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0865SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0865HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0865ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0865RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0865LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0865POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0865ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0933A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0933.png"></span>&nbsp;<span class="disabled pictures" id="f0933MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0933SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0933SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0933HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0933ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0933RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0933LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0933POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0933ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0978A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0978.png"></span>&nbsp;<span class="disabled pictures" id="f0978MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0978SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0978SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0978HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0978ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0978RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0978LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f0978POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f0978ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f0989A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0989.png"></span>&nbsp;<span class="disabled pictures" id="f0989MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f0989SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f0989SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f0989HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f0989ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f0989RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f0989ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1047A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1047.png"></span>&nbsp;<span class="disabled pictures" id="f1047MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1047SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1047SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1047HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1047ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1047RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1047LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1047POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1047ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1108A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1108.png"></span>&nbsp;<span class="disabled pictures" id="f1108MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1108SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1108SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1108HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1108ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1108RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1108LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1108POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1108ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1163A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1163.png"></span>&nbsp;<span class="disabled pictures" id="f1163MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1163SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1163SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1163HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1163ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1163RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1163LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1163POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1163ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1298A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1298.png"></span>&nbsp;<span class="disabled pictures" id="f1298MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1298SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1298SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1298HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1298ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1298RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1298LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1298POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1298ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1374A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1374.png"></span>&nbsp;<span class="disabled pictures" id="f1374MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1374SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1374SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1374HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1374ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1374RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1374LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1374POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1374ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1432A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1432.png"></span>&nbsp;<span class="disabled pictures" id="f1432MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1432SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1432SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1432HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1432ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1432RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1432LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1432POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1432ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1518A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1518.png"></span>&nbsp;<span class="disabled pictures" id="f1518MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1518SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1518SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1518HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1518ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1518RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1518LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1518POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1518ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1595A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1595.png"></span>&nbsp;<span class="disabled pictures" id="f1595MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1595SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1595SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1595HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1595ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1595RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1595LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1595POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1595ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1696A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1696.png"></span>&nbsp;<span class="disabled pictures" id="f1696MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1696SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1696SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1696HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1696ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1696RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1696LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1696POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1696ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1815A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1815.png"></span>&nbsp;<span class="disabled pictures" id="f1815MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1815SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1815SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1815HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1815ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1815RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1815LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1815POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1815ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1830A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1830.png"></span>&nbsp;<span class="disabled pictures" id="f1830MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1830SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1830SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1830HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1830ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1830RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1830LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1830POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1830ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1879A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1879.png"></span>&nbsp;<span class="disabled pictures" id="f1879MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1879SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1879SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1879HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1879ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1879RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1879LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1879POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1879ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1924A"><img src="https://i.imgur.com/2owZzx4.png"></span>&nbsp;<span class="disabled pictures" id="f1924MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1924SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1924SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1924HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1924ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1924RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1924LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1924POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1924ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1943A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1943.png"></span>&nbsp;<span class="disabled pictures" id="f1943MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1943SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1943SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1943HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1943ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1943RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1943LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1943POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f1943ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2015A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2015.png"></span>&nbsp;<span class="disabled pictures" id="f2015MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2015SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2015SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2015HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2015ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2015RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2015LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2015POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2015ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2033A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2033.png"></span>&nbsp;<span class="disabled pictures" id="f2033MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2033SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2033SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2033HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2033ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2033RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2033LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2033POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2033ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2097A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2097.png"></span>&nbsp;<span class="disabled pictures" id="f2097MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2097SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2097SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2097HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2097ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2097RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2097LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2097POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2097ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2158A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2158.png"></span>&nbsp;<span class="disabled pictures" id="f2158MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2158SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2158SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2158HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2158ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2158RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2158LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2158POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2158ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2197A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2197.png"></span>&nbsp;<span class="disabled pictures" id="f2197MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2197SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2197SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2197HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2197ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2197RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2197LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2197POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2197ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2263A"><img src="https://i.imgur.com/VsLFRCD.png"></span>&nbsp;<span class="disabled pictures" id="f2263MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2263SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2263SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2263HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2263ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2263RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2263LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2263POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2263ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2281A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2281.png"></span>&nbsp;<span class="disabled pictures" id="f2281MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2281SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2281SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2281HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2281ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2281RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2281LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2281POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2281ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2356A"><img src="https://i.imgur.com/JBHf0sq.png"></span>&nbsp;<span class="disabled pictures" id="f2356MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2356SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2356SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2356HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2356ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2356RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2356LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2356POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2356ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2394A"><img src="https://i.imgur.com/KV69wjf.png"></span>&nbsp;<span class="disabled pictures" id="f2394MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2394SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2394SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2394HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2394ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2394RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2394LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2394POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2394ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2398A"><img src="https://i.imgur.com/QPHxCxj.png"></span>&nbsp;<span class="disabled pictures" id="f2398MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2398SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2398SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2398HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2398ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2398RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2398LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2398POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2398ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2473A"><img src="https://i.imgur.com/dgmmVig.png"></span>&nbsp;<span class="disabled pictures" id="f2473MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2473SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2473SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2473HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2473ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2473RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2473LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2473POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2473ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2504A"><img src="https://i.imgur.com/innJX9C.png"></span>&nbsp;<span class="disabled pictures" id="f2504MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2504SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2504SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2504HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2504ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2504RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2504LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2504POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2504ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2517A"><img src="https://i.imgur.com/S9c6Ddi.png"></span>&nbsp;<span class="disabled pictures" id="f2517MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2517SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2517SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2517HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2517ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2517RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2517LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2517POT"><img src="https://imgur.com/ACQBSqv.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2552A"><img src="https://i.imgur.com/rZ1l1N2.png"></span>&nbsp;<span class="disabled pictures" id="f2552MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2552SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2552SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2552HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2552ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2552RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2552LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2552POT"><img src="https://imgur.com/ACQBSqv.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2642A"><img src="https://i.imgur.com/5HB7aXa.png"></span>&nbsp;<span class="disabled pictures" id="f2642MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2642SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2642SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2642HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2642ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2642RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2642LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2642POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2642ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2643A"><img src="https://i.imgur.com/mQCxvru.png"></span>&nbsp;<span class="disabled pictures" id="f2643MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2643SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2643SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2643HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2643ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2643RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2643LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2643POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2643ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2644A"><img src="https://i.imgur.com/71B381P.png"></span>&nbsp;<span class="disabled pictures" id="f2644MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2644SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2644SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2644HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2644ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2644RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2644LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2644POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2644ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2645A"><img src="https://i.imgur.com/X3H8LBt.png"></span>&nbsp;<span class="disabled pictures" id="f2645MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2645SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2645SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2645HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2645ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2645RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2645LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2645POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2645ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2646A"><img src="https://i.imgur.com/WHgy6jU.png"></span>&nbsp;<span class="disabled pictures" id="f2646MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2646SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2646SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2646HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2646ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2646RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2646ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2647A"><img src="https://i.imgur.com/0Ro6YPx.png"></span>&nbsp;<span class="disabled pictures" id="f2647MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2647SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2647SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2647HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2647ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2647RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2647ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2670A"><img src="https://i.imgur.com/R4WV6Wj.png"></span>&nbsp;<span class="disabled pictures" id="f2670MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2670SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2670SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2670HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2670ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2670RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2670LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2670POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2670ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2684A"><img src="https://i.imgur.com/k8aI0Dv.png"></span>&nbsp;<span class="disabled pictures" id="f2684MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2684SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2684SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2684HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2684ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2684RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2684LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2684POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2684ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2698A"><img src="https://i.imgur.com/bV4892b.png"></span>&nbsp;<span class="disabled pictures" id="f2698MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2698SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2698SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2698HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2698ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2698RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2698LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2698POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2698ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2781A"><img src="https://i.imgur.com/BFswRuC.png"></span>&nbsp;<span class="disabled pictures" id="f2781MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2781SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2781SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2781HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2781ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2781RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2781LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2781POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2781ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2795A"><img src="https://i.imgur.com/zSHNIcG.png"></span>&nbsp;<span class="disabled pictures" id="f2795MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2795SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2795SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2795HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2795ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2795RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2795LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2795POT"><img src="https://imgur.com/ACQBSqv.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5024A"><img src="https://i.imgur.com/fLSdDqb.png"></span>&nbsp;<span class="disabled pictures" id="f5024MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5024SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5024SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5024HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5024ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5024RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f5024LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f5024POT"><img src="https://imgur.com/ACQBSqv.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2846A"><img src="https://i.imgur.com/qMVbNVh.png"></span>&nbsp;<span class="disabled pictures" id="f2846MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2846SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2846SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2846HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2846ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2846RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2846LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2846POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2846ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2885A"><img src="https://i.imgur.com/KosUyV9.png"></span>&nbsp;<span class="disabled pictures" id="f2885MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2885SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2885SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2885HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2885ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2885RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2885LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2885POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2885ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2893A"><img src="https://i.imgur.com/WmO2HMv.png"></span>&nbsp;<span class="disabled pictures" id="f2893MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2893SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2893SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2893HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2893ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2893RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2893LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2893POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2893ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2922A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2922.png"></span>&nbsp;<span class="disabled pictures" id="f2922MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2922SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2922SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2922HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2922ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2922RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2922LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2922POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2922ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2956A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2956.png"></span>&nbsp;<span class="disabled pictures" id="f2956MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2956SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2956SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2956HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2956ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2956RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2956LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2956POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2956ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2987A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2987.png"></span>&nbsp;<span class="disabled pictures" id="f2987MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2987SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2987SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2987HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2987ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2987RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2987LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2987POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2987ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f3078A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3078.png"></span>&nbsp;<span class="disabled pictures" id="f3078MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f3078SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f3078SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f3078HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f3078ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f3078RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f3078LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f3078POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f3078ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+              <span class="disabled pictures" id="f3143A"><img src="https://i.imgur.com/HU2cZIo.png"></span>&nbsp;<span class="disabled pictures" id="f3143MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f3143SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f3143SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f3143HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f3143ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f3143RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f3143LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f3143POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f3143ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <!-- Luffy Udon -->
+            <div class="characters">
+              <span class="disabled pictures" id="f3209A"><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3209.png"></span>&nbsp;<span class="disabled pictures" id="f3209MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f3209SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f3209SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f3209HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f3209ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f3209RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f3209LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f3209POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f3209ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <!-- Marco DEX -->
+            <div class="characters">
+              <span class="disabled pictures" id="f3263A"><img src="http://onepiece-treasurecruise.com/wp-content/uploads/f3263.png"></span>&nbsp;<span class="disabled pictures" id="f3263MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f3263SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f3263SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f3263HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f3263ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f3263RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f3263LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f3263POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f3263ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5052A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5052.png"></span>&nbsp;<span class="disabled pictures" id="f5052MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5052SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5052SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5052HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5052ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5052RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f5052LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f5052POT"><img src="https://imgur.com/ACQBSqv.png"></span>
+            </div>
+            <center><h2>
+              <div>
+                <u>Quêtes de préparation aux combats cruciaux</u>
+              </div>
+            </h2></center>
+            <div class="characters">
+                <span class="disabled pictures" id="f2711A"><img src="https://i.imgur.com/NBEAZ27.png"></span>&nbsp;<span class="disabled pictures" id="f2711MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2711SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2711SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2711HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2711ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2711RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2712A"><img src="https://i.imgur.com/W1GXE8A.png"></span>&nbsp;<span class="disabled pictures" id="f2712MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2712SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2712SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2712HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2712ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2712RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2714A"><img src="https://i.imgur.com/xnXgHC2.png"></span>&nbsp;<span class="disabled pictures" id="f2714MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2714SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2714SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2714HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2714ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2714RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <center><h2>
+            	<div>
+            		<u>Néo-Combats cruciaux</u>
+            	</div>
+            </h2></center>
+            <div class="characters">
+                <span class="disabled pictures" id="f1623A"><img src="https://i.imgur.com/FalDNz8.png"></span>&nbsp;<span class="disabled pictures" id="f1623MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1623SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1623SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1623HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1623ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1623RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1647A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1647.png"></span>&nbsp;<span class="disabled pictures" id="f1647MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1647SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1647SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1647HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1647ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1647RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1669A"><img src="https://i.imgur.com/Wit6pDw.png"></span>&nbsp;<span class="disabled pictures" id="f1669MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1669SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1669SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1669HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1669ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1669RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1680A"><img src="https://i.imgur.com/wqHD6Yj.png"></span>&nbsp;<span class="disabled pictures" id="f1680MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1680SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1680SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1680HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1680ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1680RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f1680LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f1680POT"><img src="https://imgur.com/ACQBSqv.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1727A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1727.png"></span>&nbsp;<span class="disabled pictures" id="f1727MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1727SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1727SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1727HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1727ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1727RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1739A"><img src="https://i.imgur.com/Kw4FEPm.png"></span>&nbsp;<span class="disabled pictures" id="f1739MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1739SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1739SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1739HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1739ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1739RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1772A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1772.png"></span>&nbsp;<span class="disabled pictures" id="f1772MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1772SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1772SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1772HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1772ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1772RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1780A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1780.png"></span>&nbsp;<span class="disabled pictures" id="f1780MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1780SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1780SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1780HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1780ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1780RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1826A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1826.png"></span>&nbsp;<span class="disabled pictures" id="f1826MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1826SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1826SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1826HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1826ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1826RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f1930A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1930.png"></span>&nbsp;<span class="disabled pictures" id="f1930MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f1930SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f1930SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f1930HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f1930ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f1930RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2070A"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2070.png"></span>&nbsp;<span class="disabled pictures" id="f2070MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2070SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2070SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2070HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2070ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2070RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5028A"><img src="https://imgur.com/F9x1uUv.png"></span>&nbsp;<span class="disabled pictures" id="f5028MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5028SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5028SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5028HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5028ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5028RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5034A"><img src="https://imgur.com/Qv8zN3B.png"></span>&nbsp;<span class="disabled pictures" id="f5034MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5034SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5034SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5034HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5034ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5034RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5041A"><img src="https://imgur.com/YzxsJsv.png"></span>&nbsp;<span class="disabled pictures" id="f5041MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5041SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5041SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5041HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5041ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5041RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5043A"><img src="https://imgur.com/ttYOkq5.png"></span>&nbsp;<span class="disabled pictures" id="f5043MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5043SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5043SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5043HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5043ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5043RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5045A"><img src="https://imgur.com/Jqpv2GE.png"></span>&nbsp;<span class="disabled pictures" id="f5045MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5045SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5045SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5045HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5045ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5045RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f5058A"><img src="https://i.imgur.com/Salc7Ls.png"></span>&nbsp;<span class="disabled pictures" id="f5058MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f5058SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f5058SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f5058HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f5058ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f5058RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>
+            </div>
+            <center><h2>
+              <div>
+                <u>Jeux</u>
+              </div>
+            </h2></center>
+            <div class="characters">
+                <span class="disabled pictures" id="f2559A"><img src="https://i.imgur.com/csDIrUI.png"></span>&nbsp;<span class="disabled pictures" id="f2559MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2559SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2559SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2559HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2559ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2559RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2559LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2559POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2559ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+            <div class="characters">
+                <span class="disabled pictures" id="f2707A"><img src="https://i.imgur.com/60XtEmi.png"></span>&nbsp;<span class="disabled pictures" id="f2707MAX"><img src="https://imgur.com/QsXQ2kL.png"></span>&nbsp;<span class="disabled pictures" id="f2707SKILL"><img src="https://imgur.com/76MHSCn.png"></span>&nbsp;<span class="disabled pictures" id="f2707SOCKET"><img src="https://imgur.com/BahT39m.png"></span>&nbsp;<span class="disabled pictures" id="f2707HP"><img src="https://i.imgur.com/pqdrdu0.png"></span>&nbsp;<span class="disabled pictures" id="f2707ATK"><img src="https://i.imgur.com/UAK0erl.png"></span>&nbsp;<span class="disabled pictures" id="f2707RCV"><img src="https://i.imgur.com/3rglFwY.png"></span>&nbsp;<span class="disabled pictures" id="f2707LB"><img src="https://imgur.com/LNddvdE.png"></span>&nbsp;<span class="disabled pictures" id="f2707POT"><img src="https://imgur.com/ACQBSqv.png"></span>&nbsp;<span class="disabled pictures" id="f2707ES"><img src="https://imgur.com/g8Fdgu6.png"></span>
+            </div>
+        </section>
+        <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/mdb.js"></script>
+        <div class="baspage">
+          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+        </div>
+        <style>
+          .baspage
+          {
+            position: relative;
+            bottom: -1vw;
+            max-width: 100%;
+            width: 100%;
+          }
+        </style>
+    </body>
+</html>

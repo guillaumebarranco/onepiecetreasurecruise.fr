@@ -1,0 +1,53 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: white;
+}
+table#type
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 30%;
+    background-color: white;
+}
+td
+{
+    border: 1px solid black;
+}
+
+body#STR{background: url("https://i.imgur.com/CYeWO5Z.png");-webkit-background-size: 100%; }
+body#QCK{background: url("https://i.imgur.com/gIyHbZf.png");-webkit-background-size: 100%; }
+body#DEX{background: url("https://i.imgur.com/wZQRjSO.png");-webkit-background-size: 100%; }
+body#PSY{background: url("https://i.imgur.com/uEGo1Im.png");-webkit-background-size: 100%; }
+body#INT{background: url("https://i.imgur.com/gdHqEUa.png");-webkit-background-size: 100%; }
+body#STRDEX{background: url("https://i.imgur.com/cIudzQ9.png");-webkit-background-size: 100%; }
+body#STRQCK{background: url("https://i.imgur.com/kHXVc2t.png");-webkit-background-size: 100%; }
+body#STRPSY{background: url("https://i.imgur.com/CeDjsqB.png");-webkit-background-size: 100%; }
+body#STRINT{background: url("https://i.imgur.com/45IRZwz.png");-webkit-background-size: 100%; }
+body#DEXSTR{background: url("https://i.imgur.com/RtOyT08.png");-webkit-background-size: 100%; }
+body#DEXQCK{background: url("https://i.imgur.com/EUyXBMW.png");-webkit-background-size: 100%; }
+body#DEXPSY{background: url("https://i.imgur.com/ojSWssw.png");-webkit-background-size: 100%; }
+body#DEXINT{background: url("https://i.imgur.com/5kTgPW4.png");-webkit-background-size: 100%; }
+body#QCKSTR{background: url("https://i.imgur.com/biJq5Lg.png");-webkit-background-size: 100%; }
+body#QCKDEX{background: url("https://i.imgur.com/iIi25SG.png");-webkit-background-size: 100%; }
+body#QCKPSY{background: url("https://i.imgur.com/VOliUl0.png");-webkit-background-size: 100%; }
+body#QCKINT{background: url("https://i.imgur.com/rIRMnSf.png");-webkit-background-size: 100%; }
+body#PSYSTR{background: url("https://i.imgur.com/ADvN6Yp.png");-webkit-background-size: 100%; }
+body#PSYDEX{background: url("https://i.imgur.com/XWrBo5I.png");-webkit-background-size: 100%; }
+body#PSYQCK{background: url("https://i.imgur.com/UOyiOu8.png");-webkit-background-size: 100%; }
+body#PSYINT{background: url("https://i.imgur.com/Sd0rtRl.png");-webkit-background-size: 100%; }
+body#INTSTR{background: url("https://i.imgur.com/z6tAg4Q.png");-webkit-background-size: 100%; }
+body#INTDEX{background: url("https://i.imgur.com/yHcksWt.png");-webkit-background-size: 100%; }
+body#INTQCK{background: url("https://i.imgur.com/2Y4RwCQ.png");-webkit-background-size: 100%; }
+body#INTPSY{background: url("https://i.imgur.com/qWWuv8U.png");-webkit-background-size: 100%; }
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}

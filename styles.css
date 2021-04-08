@@ -1,0 +1,28 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: white;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+td
+{
+    border: 1px solid black;
+}
+
+body#BB , #LuffySTR , #LucciSTR , #SakazukiSTR , #Caborage , #Lucy, #Dent-de-chien , #BigMom{background: linear-gradient(to right, red, white, white, white, white, white, red);}
+body#Ace , #Rosinante , #BN , #Zoro , #Usopp , #Magellan , #RayleighDEX , #DoflamingoDEX , #Nami , #Brook , #JinbeDEX, #LuffyDEX{background: linear-gradient(to right, green, white, white, white, white, white, green);}
+body#BoaQCK , #Marco , #DoflamingoQCK , #Cavendish , #KuzanQCK , #LuffyQCK , #Ener , #LawQCKR , #LucciQCK , #LawQCKI , #Franky , #G4QCK , #Tesoro , #Shiki{background: linear-gradient(to right, blue, white, white, white, white, white, blue);}
+body#ShanksPSY , #Sabo , #LawPSY , #Borsalino , #Shirahoshi , #G4PSY , #Chavipère , #BoaPSY , #Robin , #KuzanPSY , #SanjiPSY , #Garp{background: linear-gradient(to right, yellow, white, white, white, white, white, yellow);}
+body#RayleighINT , #Mihawk , #JinbeINT , #IsshoAmbitieux , #Baggy , #Hody , #SanjiINT , #IsshoSabreur , #ShanksINT , #SakazukiINT, #Bege{background: linear-gradient(to right, purple, white, white, white, white, white, purple);}
+body#Sengoku , #Judge, #BBMarco{background: linear-gradient(to right, yellow, white, white, white, white, white, purple);}
+body#Crocodile{background: linear-gradient(to right, green, white, white, white, white, white, red);}
+body#Bartolomeo{background: linear-gradient(to right, red, white, white, white, white, white, blue);}
+body#LuffyAce{background: linear-gradient(to right, blue, white, white, white, white, white, red);}
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}

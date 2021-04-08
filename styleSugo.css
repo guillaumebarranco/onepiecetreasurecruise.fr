@@ -1,0 +1,44 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    border-collapse: separate;
+    border-spacing: 20px 8px;
+}
+td
+{
+    border: 0px solid black;
+}
+
+.Cadre
+{
+	border: 0px solid black;
+}
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}
+
+.tooltip {
+      position: fixed;
+      z-index: 100;
+
+      padding: 10px 20px;
+
+      border: 1px solid #b3c9ce;
+      border-radius: 4px;
+      text-align: center;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    }
+body {
+    background-image: url("img/sugo.png");
+    background-repeat: no-repeat;
+    font-family:'Comic Sans MS', cursive;
+    background-size: 100% 100%;
+    color: white;
+}

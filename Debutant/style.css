@@ -1,0 +1,106 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: white;
+}
+.Taux
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux1
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux2
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux3
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux4
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux5
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux6
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux7
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux8
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.Taux9
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.TauxRR
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.EX1
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.EX2
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+.EX3
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: transparent;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+    background-image: url("https://i.imgur.com/sxwVXz6.png");
+    background-attachment: fixed;
+}
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}

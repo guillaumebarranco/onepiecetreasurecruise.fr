@@ -1,0 +1,73 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+table#normal
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: white;
+}
+table#Lot
+{
+    background-color: transparent;
+}
+
+.Lot {
+  max-width: 100%;
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+}
+
+td
+{
+    border: 1px solid black;
+}
+
+.Cadre
+{
+  border: 0px solid black;
+}
+
+.LB
+{
+	border: 0px solid black;
+}
+
+body#STR{background: url("https://i.imgur.com/CYeWO5Z.png");-webkit-background-size: 100%; }
+body#QCK{background: url("https://i.imgur.com/gIyHbZf.png");-webkit-background-size: 100%; }
+body#DEX{background: url("https://i.imgur.com/wZQRjSO.png");-webkit-background-size: 100%; }
+body#PSY{background: url("https://i.imgur.com/uEGo1Im.png");-webkit-background-size: 100%; }
+body#INT{background: url("https://i.imgur.com/gdHqEUa.png");-webkit-background-size: 100%; }
+body#SanjiZoro{background: url("https://i.imgur.com/XWrBo5I.png");-webkit-background-size: 100%; }
+body#SmoothieOven{background: url("https://i.imgur.com/UOyiOu8.png");-webkit-background-size: 100%; }
+body#ShanksBeckmann{background: url("https://i.imgur.com/yHcksWt.png");-webkit-background-size: 100%; }
+body#SakazukiIssho{background: url("https://i.imgur.com/45IRZwz.png");-webkit-background-size: 100%; }
+body#RebeccaViola{background: url("https://i.imgur.com/5kTgPW4.png");-webkit-background-size: 100%; }
+body#NamiSanji{background: url("https://i.imgur.com/ojSWssw.png");-webkit-background-size: 100%; }
+body#LuffyAce{background: url("https://i.imgur.com/biJq5Lg.png");-webkit-background-size: 100%; }
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}
+
+.tooltip {
+      position: fixed;
+      z-index: 100;
+
+      padding: 10px 20px;
+
+      border: 1px solid #b3c9ce;
+      border-radius: 4px;
+      text-align: center;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    }

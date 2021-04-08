@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-127847674-1');
+        </script>
+        <meta charset="utf-8" />
+        <title>Ener (1ère version)</title>
+        <link href="bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <script src="Personnages utiles/script.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script>
+            jQuery(function(){
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollTop() > 200 ) { 
+                            $('#scrollUp').css('right');
+                        } else { 
+                            $('#scrollUp').removeAttr( 'style' );
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+
+    <div class="entete">
+      <img src="https://i.imgur.com/yOZlv6S.png" class="entetefond">
+      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo"></a>
+    </div>
+    <style>
+      .entetetop
+      {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+      }
+      .entetefond
+      {
+        position: absolute;
+        top: 0;
+        max-width: 100%;
+        width: 100%;
+      }
+      .logo
+      {
+        width: 40vw;
+        top: 0;
+        left: 30%;
+        position: relative;
+      }
+      .newsboard
+      {
+        top: 0;
+        right: 1vw;
+        max-width: 25%;
+        width: 25%;
+        position: absolute;
+      }
+    </style>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<style>
+.topnavbar
+{
+top: -1.5vw;
+left: 0;
+max-width: 100%;
+width: 100%;
+position: absolute;
+}
+</style>
+  <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Guides
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Colisee.html">Colisées</a>
+          <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
+          <a class="dropdown-item waves-effect waves-light" href="Attaque ennemie.html">Attaques ennemies</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
+          <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light" href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light" href="Mode Aventure.html">Histoire principale</a>
+          <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
+          <a class="dropdown-item waves-effect waves-light" href="Defi de Garp.html">Défi de Garp</a>
+          <a class="dropdown-item waves-effect waves-light" href="Crane.html">Quêtes pour les super évolutions</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Liste de personnages
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="LegendesBatch.html">Personnages du recrutement rare</a>
+          <a class="dropdown-item" href="Carte aux tresors.html">Personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="Bataille cooperative.html">Personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="Festival des pirates.html">Personnages de la fête des pirates</a>
+          <a class="dropdown-item" href="LRR.html">Personnages limités au recrutement rare</a>
+          <a class="dropdown-item" href="Soutien.html">Personnages limités au recrutement rare de soutien</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Aide
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien debuter.html">Bien débuter</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier List.html">Tier Lists</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Progressions
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
+          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
+          <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
+          <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+          <a class="dropdown-item" href="AvanceeRaids.html">Avancée des combats cruciaux</a>
+          <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
+          <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
+          <a class="dropdown-item" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Artwork/">Artworks</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Événements
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Creations.html">Créations de personnages</a>
+          <a class="dropdown-item" href="Awards/">Awards 2019</a>
+          <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Sites
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
+          <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
+          <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
+          <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Remerciements
+        </a>
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <form action="https://www.google.com" id="cse-search-box">
+          <div id="searchbar">
+            <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
+            <input type="hidden" name="ie" value="UTF-8">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+          </div>
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+        </form>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <header><a href="Legendes.html"><img src="img/logo.png" alt="logo"></img></a></header>
+
+    <body>
+        <body id="Ener">
+    	<h1><center><u>Ener (1ère version)</u></center></h1>
+        <center><iframe width="336" height="189" src="https://www.youtube.com/embed/2Dvz07NUMXk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189" src="https://www.youtube.com/embed/CzjWIfNrDlA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+        <h2><center><u>Fiche (6*)</u></center></h2>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1609.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1610.png"></center>
+        <table>
+        	<table align="center"> 	
+        	<caption><img src="https://i.imgur.com/Rga6q9k.png" height="50%" width="50%"><img src="https://i.imgur.com/Ed5Nb5b.png" height="50%" width="50%"></caption>	 		
+        		<tbody>
+        			<tr> 				 		
+        				<td>Nom</td>
+        				<td><b><small>Combat à mort de l'Âge d'or de la piraterie - "Fairy Vearth"</small><br>Dieu Ener<b></td>	 	
+        			</tr>
+              <tr>
+                <td>Histoire</td>
+                <td>"Dieu" de Skypiea. Bien qu'ayant réussi à surmonter le choc que constitue pour lui l'existence d'un être capable de résister à ses pouvoirs, il perd son combat face à Luffy et échoue à détruire Skypiea. Cela ne l'empêche pas pour autant d'atteindre son objectif principal en rejoignant "Fairy Vearth".</td>
+              </tr>
+        			<tr> 				 		
+        				<td>Type</td>
+        				<td><b><p><font color="#4C4CFF">QCK</font></p><b></td> 		 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Classe 1</td>
+        				<td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td> 				
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Classe 2</td>
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>  				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Coût</td>
+        				<td>55</td>  					
+        			</tr> 					
+        			<tr> 						
+        				<td>Combo</td>
+        				<td>4</td>
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Emplacements de pouvoirs</td>
+        				<td>5</td> 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td colspan="2"><center><b>Statistiques</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>HP</td>
+        				<td>2890 puis 3240 après le dépassement de limites puis 3290 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>ATK</td>
+        				<td>1503 puis 1653 après le dépassement de limites puis 1803 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>RCV</td>
+        				<td>414 puis 464 après le dépassement de limites puis 614 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>  
+        			<tr> 						
+        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Captain Ability</td>
+        				<td>Réduit les HP de tous les personnages de 20%, augmente les chances d’apparition des cercles <b><font color="#BC5C0C">[RCV]</font></b>, rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages et multiplie l'ATK de tous les personnages selon la quantité d'HP restaurés au tour précédent.<br>
+                        <small>Par 3,25 si 10 000 HP ont été restaurés au tour précédent et par 2 si aucun HP n'a été restauré au tour précédent.</small></td>
+        			</tr>
+        			<tr> 				 		
+        				<td>Special (21→16 puis 14)</td>
+        				<td>Inflige 10 fois la somme des HP restaurés au-dessus de la valeur maximum d'HP en dégâts non élémentaires sur tous les ennemis (2 000 000 au maximum).</td>
+        			</tr>
+        			<tr> 						
+        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 1</td>
+        				<td>Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 2</td>
+        				<td>Ajoute 300 sur les HP restaurés par les cercles <b><font color="#BC5C0C">[RCV]</font></b>.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 1</td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 2</td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 3</td>
+        				<td>Réduit la durée de “Soin impossible” de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 5 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 7 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 10 tours.</td> 	 				 	
+        			</tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Personnages de type <b><font color="#4C4CFF">QCK</font></b></ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1% et ajoute 5% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2% et ajoute 8% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3% et ajoute 12% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4% et ajoute 15% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5% et ajoute 20% de la RCV du personnage en RCV pour les personnages soutenus.</td>  
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>             
+                    </tr>
+                    <tr>
+                      <td>Style</td>
+                      <td>DEF</td>
+                    </tr>
+                    <tr>
+                      <td>DEF</td>
+                      <td>204</td>
+                    </tr>
+                    <tr>
+                      <td>VIT</td>
+                      <td>140</td>
+                    </tr>
+                    <tr>
+                      <td>Special</td>
+                      <td>Inflige <b>1 600 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>30 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 625 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>31 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 650 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>32 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 675 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>33 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 700 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>34 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 725 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>35 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 750 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>1 niveau</b> pendant <b>36 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 775 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>37 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 800 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>38 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>1 950 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>3 niveaux</b> pendant <b>40 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td>Capacité</td>
+                      <td>Augmente les HP de tous les alliés de <b>1 niveau</b> et augmente la défense des alliés avec la RCV élevée de 1 niveau.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>2 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 1 niveau.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>3 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 1 niveau.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>4 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 1 niveau.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>5 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 1 niveau.</td>
+                    </tr>
+                    <tr>            
+                      <td>Actions principales</td>
+                      <td>ATK normale → ATK normale → Soigne le personnage au niveau 3</td>
+                    </tr>
+                    <tr>            
+                      <td>Cible des actions</td>
+                      <td>Vise les ennemis proches.</td>
+                    </tr>
+                    <tr>            
+                      <td>Résistance</td>
+                      <td>70% de chances d'éviter "Paralysie".</td>
+                    </tr>
+        			<tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0266.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0096.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0301.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
+                    </tr>
+        		</tbody> 			
+        	</table>
+       	<h2><center><u>Fiche (6*+)</u></center></h2>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2232.png"></center>
+        <table> 		 		
+        	<table align="center"> 	
+        	<caption><img src="https://i.imgur.com/WkmAj8t.png" height="50%" width="50%"></caption>	 		
+        		<tbody>
+        			<tr> 				 		
+        				<td>Nom</td>
+        				<td><b><small>Retour sur Fairy Vearth</small><br>Dieu Ener<b></td>	
+        			</tr>
+              <tr>
+                <td>Histoire</td>
+                <td>"Dieu" de Skypiea. Grâce à l'arche Maxim et à ses propres pouvoirs, il crée un nuage orageux sphérique nommé "Raigo" qu'il utilise pour détruire Angel Island et plonger les habitants de Skypiea dans le désespoir.</td>
+              </tr>
+        			<tr> 				 		
+        				<td>Type</td>
+        				<td><b><p><font color="#4C4CFF">QCK</font></p><b></td> 		 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Classe 1</td>
+        				<td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td> 				
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Classe 2</td>
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>  				 	
+        			</tr> 					
+        			<tr> 						
+        				<td>Coût</td>
+        				<td>65</td>  					
+        			</tr> 					
+        			<tr> 						
+        				<td>Combo</td>
+        				<td>4</td>
+        			</tr> 				 	
+        			<tr> 				 		
+        				<td>Emplacements de pouvoirs</td>
+        				<td>5</td> 				 	
+        			</tr> 					
+        			<tr> 						
+        				<td colspan="2"><center><b>Statistiques</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>HP</td>
+        				<td>3029 puis 3379 après le dépassement de limites puis 3429 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>ATK</td>
+        				<td>1539 puis 1689 après le dépassement de limites puis 1839 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>RCV</td>
+        				<td>432 puis 482 après le dépassement de limites puis 632 après l'extension du dépassement de limites</td> 	 				 	
+        			</tr>  
+        			<tr> 						
+        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Captain Ability</td>
+        				<td>Réduit les HP de tous les personnages de 20%, réduit les dégâts subis de 13%, augmente les chances d’apparition des cercles <b><font color="#BC5C0C">[RCV]</font></b>, rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages et multiplie l'ATK de tous les personnages selon la quantité d'HP restaurés au tour précédent.<br>
+                        <small>Par 3,75 si 10 000 HP ont été restaurés au tour précédent et par 2 si aucun HP n'a été restauré au tour précédent.</small></td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Special (21→16 puis 14)</td>
+        				<td>Inflige 25 fois la somme des HP restaurés au-dessus de la valeur maximum d'HP en dégâts non élémentaires sur tous les ennemis (5 000 000 au maximum).</td>
+        			</tr>
+        			<tr> 						
+        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>				
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 1</td>
+        				<td>Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Crewmate Ability 2</td>
+        				<td>Ajoute 300 sur les HP restaurés par les cercles <b><font color="#BC5C0C">[RCV]</font></b>.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 1</td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 2</td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td>Potential Ability 3</td>
+        				<td>Réduit la durée de “Soin impossible” de 1 tour.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 3 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 5 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 7 tours.</td> 	 				 	
+        			</tr>
+        			<tr> 				 		
+        				<td></td>
+        				<td>Réduit la durée de “Soin impossible” de 10 tours.</td> 	 				 	
+        			</tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Personnages de type <b><font color="#4C4CFF">QCK</font></b></ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1% et ajoute 5% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2% et ajoute 8% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3% et ajoute 12% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4% et ajoute 15% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5% et ajoute 20% de la RCV du personnage en RCV pour les personnages soutenus.</td>  
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>             
+                    </tr>
+                    <tr>
+                      <td>Style</td>
+                      <td>DEF</td>
+                    </tr>
+                    <tr>
+                      <td>DEF</td>
+                      <td>229</td>
+                    </tr>
+                    <tr>
+                      <td>VIT</td>
+                      <td>145</td>
+                    </tr>
+                    <tr>
+                      <td>Special</td>
+                      <td>Inflige <b>2 050 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>30 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 075 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>31 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 100 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>32 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 125 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>33 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 150 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>34 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 175 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>35 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 200 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>2 niveaux</b> pendant <b>36 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 225 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>3 niveaux</b> pendant <b>37 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 250 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>3 niveaux</b> pendant <b>38 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>Inflige <b>2 400 points de dégâts</b> à tous les ennemis et réduit la défense de tous les ennemis de <b>4 niveaux</b> pendant <b>40 secondes</b> (CT : 55).</td>
+                    </tr>
+                    <tr>
+                      <td>Capacité</td>
+                      <td>Augmente les HP de tous les alliés de <b>2 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>3 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>4 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>5 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td></td>
+                      <td>Augmente les HP de tous les alliés de <b>6 niveaux</b> et augmente la défense des alliés avec la RCV élevée de 2 niveaux.</td>
+                    </tr>
+                    <tr>            
+                      <td>Actions principales</td>
+                      <td>ATK normale → ATK normale → Soigne le personnage au niveau 3</td>
+                    </tr>
+                    <tr>            
+                      <td>Cible des actions</td>
+                      <td>Vise les ennemis proches.</td>
+                    </tr>
+                    <tr>            
+                      <td>Résistance</td>
+                      <td>Permet d'éviter "Paralysie".</td>
+                    </tr>
+        			<tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>             
+                    </tr>
+                    <tr>     
+                    	<td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/enel_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/enel_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/enel_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/enel_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/enel_skull_f.png" height="8%" width="8%"></center></td>
+                    </tr>
+        		</tbody> 			
+        	</table>
+        <h2><center><u>Personnages du lot</u></center></h2>
+        <div id="1"></div>
+        <h3><center><u>Fiche de Bartholomew Kuma</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1611.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1612.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/Hh3aJ4z.png" height="50%" width="50%"><img src="https://i.imgur.com/PybIU9t.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Combat à mort de l'Âge d'or de la piraterie - “Massacre d'équipage”</small><br>Bartholomew Kuma<b></td>
+              </tr>
+              <tr>
+                <td>Histoire</td>
+                <td>Membre de l'ordre des sept grands corsaires. Bien qu'il ait pour mission d'anéatir l'équipage et que celui-ci ait refusé de lui livrer Luffy en échange de sa clémence, il se contente de lui infliger une défaite écrasante et repart sans tuer personne, décision pour le moins surprenante de la part d'une "arme humaine" dotée de pouvoirs du fruit du démon.</td>
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>         
+              </tr>           
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>            
+              </tr>           
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>4</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>3035 puis 3185 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1300 puis 1400 après le dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>220 puis 270 après le dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK des personnages de classe Tireur par 2,5 et les HP par 1,25.</td>
+              </tr>
+              <tr>            
+                <td>Special (20→15)</td>
+                <td>Réduit la durée de “Lien” et de “Désespoir du capitaine” de 7 tours, restaure 20% des HP maximum de l'équipe et peut éliminer un ou plusieurs ennemis selon une faible probabilité.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Si le personnage a un cercle <b style='color:#ECAC04'>[PSY]</b> et qu'il fait un coup “PARFAIT”, garde son cercle <b style='color:#ECAC04'>[PSY]</b> pour le tour suivant.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Ne peut pas être projeté en dehors de l'écran.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 4%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>            
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Réduit le temps de chargement du coup spécial du personnage de 1 tour après l'avoir utilisé (une fois par quête).</td>                  
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 3 tours après l'avoir utilisé (une fois par quête).</td>   
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 5 tours après l'avoir utilisé (une fois par quête).</td>   
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 7 tours après l'avoir utilisé (une fois par quête).</td>                  
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit totalement le temps de chargement du coup spécial du personnage après l'avoir utilisé (une fois par quête).</td>   
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Gecko Moria</ul><br>
+                            <ul style="display: inline;">Perona</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Désespoir du capitaine" de 1 tour si un personnage a été touché par le "Désespoir du capitaine" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Désespoir du capitaine" de 2 tours si un personnage a été touché par le "Désespoir du capitaine" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Désespoir du capitaine" de 3 tours si un personnage a été touché par le "Désespoir du capitaine" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Désespoir du capitaine" de 4 tours si un personnage a été touché par le "Désespoir du capitaine" (une fois par quête).</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit la durée de "Désespoir du capitaine" de 5 tours si un personnage a été touché par le "Désespoir du capitaine" (une fois par quête).</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0087.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0098.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1180.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0303.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0103.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="2"></div>
+        <h3><center><u>Fiche de Rob Lucci</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1613.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1614.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/JJBuhjF.png" height="50%" width="50%"><img src="https://i.imgur.com/aGQ1VG1.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Combat à mort de l'Âge d'or de la piraterie - “Justice de l'ombre”</small><br>Rob Lucci<b></td>
+              </tr>
+              <tr>
+                <td>Histoire</td>
+                <td>>Membre d'une organisation gouvernementale chargée de l'espionnage et du renseignement. Bien que travaillant pour le Gouvernement, il se déclare davantage intéressé par le "sang" que par le pouvoir ou les honneurs, ce qui le conduit notamment à se montrer souriant et enthousiaste lorsque commence son combat à mort contre Luffy.</td>
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>         
+              </tr>           
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>            
+              </tr>           
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>4</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>2814 puis 3024 après le dépassement de limites puis 3374 après l'extension du dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1490 puis 1590 après le dépassement de limites puis 1790 après l'extension du dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>177 puis 197 après le dépassement de limites puis 272 après l'extension du dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK des personnages de classe Cogneur par 2,5 et les HP par 1,25.</td>
+              </tr>
+              <tr>            
+                <td>Special (16→10 puis 9)</td>
+                <td>Enlève 10% des HP de chaque ennemi, réduit de 50% la défense de tous les ennemis pendant un tour et multiplie les effets des cercles de tous les personnages par 1,75 pendant un tour.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Ajoute 2 fois son ATK en dégâts additionnels non élémentaires.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Si le personnage a un cercle <b style='color:#1CAC24'>[DEX]</b> et qu'il fait un coup “PARFAIT”, garde son cercle <b style='color:#1CAC24'>[DEX]</b> pour le tour suivant.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 1%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 4%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>            
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
+                    </tr>
+                    <tr>            
+                <td>Potential Ability 3</td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de 1 tour.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Aptitude du bateau annulée” de ? tours.</td>            
+              </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Kaku</ul><br>
+                            <ul style="display: inline;">Jabura</ul><br>
+                            <ul style="display: inline;">Blueno</ul><br>
+                            <ul style="display: inline;">Kumadori</ul><br>
+                            <ul style="display: inline;">Fukuro</ul><br>
+                            <ul style="display: inline;">Kalifa</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 1% et ajoute 4% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2% et ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3% et ajoute 10% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 4% et ajoute 12% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5% et ajoute 13% des HP du personnage en HP pour les personnages soutenus.</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0083.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0094.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="3"></div>
+        <h3><center><u>Fiche de Mr 0</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1615.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1616.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/0pe4OLS.png" height="50%" width="50%"><img src="https://i.imgur.com/9kpyJra.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Combat à mort de l'Âge d'or de la piraterie - “Nation idéale”</small><br>Mr 0<b></td>
+              </tr>
+              <tr>
+                <td>Histoire</td>
+                <td>Patron de Baroque Works. Jouissant d'une force et d'une renommée considérables, ce dont il apporte la preuve en humiliant Luffy et en lui montrant ce que valent les pirates de Grand Line lors de leur premier affrontement, ce personnage maléfique est prêt à tout pour réaliser son rêve de créer une "nation idéale".</td>
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
+              </tr>           
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>            
+              </tr>           
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>4</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>2760 puis 2910 après le dépassement de limites puis 3260 après l'extension du dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1457 puis 1577 après le dépassement de limites puis 1777 après l'extension du dépassement de limites</td>             
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>197 puis 247 après le dépassement de limites puis 322 après l'extension du dépassement de limites</td>             
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK des personnages de classe Ravageur par 2,5 et restaure les HP avec 5 fois sa RCV à la fin de chaque tour.</td>
+              </tr>
+              <tr>            
+                <td>Special (21→15 puis 13 puis 9)</td>
+                <td>Inflige 20 fois son ATK en dégâts de type <b style='color:#A916B6'>INT</b> sur tous les ennemis, réduit le temps de chargement des coups spéciaux des personnages de classe Ravageur d'un tour et multiplie l'ATK et les effets des cercles des personnages de classe Ravageur par 1,5 pendant un tour.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Réduit l'inversion de son coup spécial de 2 tours.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Réduit la durée de “Lien des coups spéciaux” du personnage de 3 tours.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 4%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>            
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 1%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 2%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 3%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 4%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 5%.</td>            
+              </tr>
+              <tr>            
+                <td>Potential Ability 3</td>
+                <td>Réduit la durée de “Désespoir des coéquipiers” de 1 tour.</td>
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Désespoir des coéquipiers” de ? tours.</td>
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Désespoir des coéquipiers” de ? tours.</td>
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Désespoir des coéquipiers” de ? tours.</td>
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Désespoir des coéquipiers” de ? tours.</td>
+              </tr>
+                    <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Nico Robin</ul><br>
+                            <ul style="display: inline;">Das Bones (Mr 1)</ul><br>
+                            <ul style="display: inline;">Bentham (Mr 2 Bonclay)</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage soutenu d'un tour au début du dernier stage d'une quête.</td>  
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage soutenu d'un tour au début du dernier stage d'une quête.</td> 
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage soutenu d'un tour et réduit la durée de "Lien des coups spéciaux" du personnage soutenu d'un tour au début du dernier stage d'une quête.</td> 
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage soutenu d'un tour et réduit la durée de "Lien des coups spéciaux" du personnage soutenu de 2 tours au début du dernier stage d'une quête.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Réduit le temps de chargement du coup spécial du personnage soutenu d'un tour et réduit la durée de "Lien des coups spéciaux" du personnage soutenu de 3 tours au début du dernier stage d'une quête.</td>
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0082.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0088.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0266.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0304.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <div id="4"></div>
+        <h3><center><u>Fiche de Gecko Moria</u></center></h3>
+        <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1617.png"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1618.png"></center>
+        <table>
+          <table width="85%" align="center">  
+          <caption><img src="https://i.imgur.com/TwSvlXT.png" height="50%" width="50%"><img src="https://i.imgur.com/4Y5qmn0.png" height="50%" width="50%"></caption>
+            <tbody>
+              <tr>            
+                <td>Nom</td>
+                <td><b><small>Combat à mort de l'Âge d'or de la piraterie - “Serviteur surpuissant”</small><br>Gecko Moria<b></td>
+              </tr>
+              <tr>
+                <td>Histoire</td>
+                <td>Maître de Thriller Bark. Bien que sa technique ultime consistant à aspirer 1 000 ombres d'un coup se révèle finalement suicidaire, cet adepte du "j'ordonne, vous exécutez" parvient tout de même à épuiser l'équipage et à lui montrer ce que vaut un grand corsaire.</td>
+              </tr>
+              <tr>            
+                <td>Type</td>
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>              
+              </tr>           
+              <tr>            
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>         
+              </tr>           
+              <tr>            
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>            
+              </tr>           
+              <tr>            
+                <td>Coût</td>
+                <td>30</td>           
+              </tr>           
+              <tr>            
+                <td>Combo</td>
+                <td>4</td>
+              </tr>           
+              <tr>            
+                <td>Emplacements de pouvoirs</td>
+                <td>4 puis 5 après le dépassement de limites</td>          
+              </tr>           
+              <tr>            
+                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              </tr>
+              <tr>            
+                <td>HP</td>
+                <td>3002 puis 3232 après le dépassement de limites puis 3732 après l'extension du dépassement de limites</td>
+              </tr>
+              <tr>            
+                <td>ATK</td>
+                <td>1501 puis 1621 après le dépassement de limites puis 1821 après l'extension du dépassement de limites</td>
+              </tr>
+              <tr>            
+                <td>RCV</td>
+                <td>0 puis 30 après le dépassement de limites puis 80 après l'extension du dépassement de limites</td>
+              </tr>  
+              <tr>            
+                <td colspan="2"><center><b>Abilités</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Captain Ability</td>
+                <td>Multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#1CAC24'>DEX</b> et <b style='color:#A916B6'>INT</b> par 2,5.</td>
+              </tr>
+              <tr>            
+                <td>Special (24→17 puis 16 puis 9)</td>
+                <td>Mélange les cercles qui ne sont pas correspondants des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#1CAC24'>DEX</b> et <b style='color:#A916B6'>INT</b> aléatoirement et multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#1CAC24'>DEX</b> et <b style='color:#A916B6'>INT</b> par 1,75 pendant 2 tours.</td>
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 1</td>
+                <td>Si un autre personnage utilise son coup spécial, réduit le temps de chargement du coup spécial du personnage d'un tour.</td>
+              </tr>
+              <tr>            
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              </tr>
+              <tr>            
+                <td>Crewmate Ability 2</td>
+                <td>Rend les cercles de type avantageux pour le personnage.</td>
+              </tr>
+              <tr>            
+                <td>Potential Ability 1</td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>            
+              </tr>
+              <tr>            
+                <td>Potential Ability 2</td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>             
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+              </tr>
+              <tr>            
+                <td></td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>             
+              </tr>
+              <tr>                        
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Personnages soutenus :<br>
+                            <ul style="display: inline;">Hogback</ul><br>
+                            <ul style="display: inline;">Perona</ul><br>
+                            <ul style="display: inline;">Absalom</ul>
+                        </td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 4% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 7% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 10% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                    </tr>
+                    <tr>                        
+                        <td></td>
+                        <td>Ajoute 13% de l'ATK du personnage en ATK pour les personnages soutenus.</td>   
+                    </tr>
+             <tr>                        
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    </tr>
+                    <tr>                        
+                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0083.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0084.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0095.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1180.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0100.png" height="8%" width="8%"></center></td>
+                    </tr>
+            </tbody>      
+          </table>
+        <h2><center><u>Guide de la quête pour l'obtention des crânes de cristal</u></center></h2>
+        	<center><a href="Crane/Ener.html"><button class="btn btn-primary">Accédez au guide</button></a></center><br>
+        <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="Accueil/js/mdb.js"></script>
+        <div id="scrollUp">
+            <a href="#top"><img src="img/to_top.png" height="60%" width="60%"/></a>
+        </div>
+        <div class="baspage">
+          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+        </div>
+        <style>
+          .baspage
+          {
+            position: relative;
+            bottom: -1vw;
+            max-width: 100%;
+            width: 100%;
+          }
+        </style>
+    </body>
+</html>
+
+<table class="detail b">
+<tbody>

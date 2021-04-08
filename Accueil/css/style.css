@@ -1,0 +1,13 @@
+body
+{
+	background: url("https://i.imgur.com/HCz82HI.png");
+	background-attachment: fixed;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}
