@@ -1,0 +1,6 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.configPath": ".prettierrc"
+}

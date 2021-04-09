@@ -1,0 +1,70 @@
+.entetetop {
+  position: relative;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.entetefond {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 40vw;
+  top: 0;
+  left: 30%;
+  position: relative;
+}
+
+.newsboard {
+  top: 0;
+  right: 1vw;
+  max-width: 25%;
+  width: 25%;
+  position: absolute;
+}
+
+.topnavbar {
+  top: -1.5vw;
+  left: 0;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.baspage {
+  position: relative;
+  bottom: -1vw;
+  max-width: 100%;
+  width: 100%;
+}
+
+h1,
+h2 {
+  text-decoration: underline;
+}
+
+.fiche-container {
+  text-align: center;
+}
+
+.fiche-table {
+  margin: 0 auto;
+}
+
+.fiche-table tr td {
+  padding: 2px;
+  padding-left: 4px;
+}
+
+.fiche-table tr td:first-of-type {
+  width: 200px;
+}
+
+.fiche-table tr td.centered-td {
+  text-align: center;
+  padding: 10px;
+}
