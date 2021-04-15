@@ -98,10 +98,17 @@ function replaceTypesColors() {
         `<strong style="color: ${type.color};"> ${type.name}.</strong>`
       );
 
-      const regex3 = new RegExp(escapeRegExp(`<strong>${type.name}</strong>`), 'gi');
+      const regex3 = new RegExp(escapeRegExp(` ${type.name}<`), 'gi');
 
       $section = $section.replace(
         regex3,
+        `<strong style="color: ${type.color};"> ${type.name}</strong><`
+      );
+
+      const regex4 = new RegExp(escapeRegExp(`<strong>${type.name}</strong>`), 'gi');
+
+      $section = $section.replace(
+        regex4,
         `<strong style="color: ${type.color};">${type.name}</strong>`
       );
     });
