@@ -1,10 +1,10 @@
 setTimeout(() => {
   replaceOrbsColors();
   replaceTypesColors();
-}, 500);
+}, 100);
 
-function replaceOrbsColors() {
-  let $section = $('.fiche-table').html();
+function replaceOrbsColors(chosenSection = '.fiche-table') {
+  let $section = $(chosenSection).html();
 
   const orbs = [
     {
@@ -39,7 +39,14 @@ function replaceOrbsColors() {
       name: 'RCV',
       color: '#BC5C0C',
     },
-
+    {
+      name: 'BOMB',
+      color: 'maroon',
+    },
+    {
+      name: 'EMP',
+      color: '#777',
+    },
   ];
 
   if ($section) {
@@ -52,12 +59,12 @@ function replaceOrbsColors() {
       );
     });
 
-    $('.fiche-table').html($section);
+    $(chosenSection).html($section);
   }
 }
 
-function replaceTypesColors() {
-  let $section = $('.fiche-table').html();
+function replaceTypesColors(chosenSection = '.fiche-table') {
+  let $section = $(chosenSection).html();
 
   const types = [
     {
@@ -113,7 +120,7 @@ function replaceTypesColors() {
       );
     });
 
-    $('.fiche-table').html($section);
+    $(chosenSection).html($section);
   }
 }
 
