@@ -175,7 +175,7 @@
 
     <a href="../"><img src="img/logo.png"></img></a>
 
-    <div id="sixplus" class="fiche-container">
+    <div class="fiche-container">
       <h1>Equipage de Capone Bege</h1>
       <h2>Fiche</h2>
 
@@ -481,8 +481,15 @@
     <script src="shared/fiches.js"></script>
     <script>
       setTimeout(() => {
+        replaceOrbsColors();
+        replaceTypesColors();
+      }, 100);
+    </script>
+    <script>
+      setTimeout(() => {
         replaceTMCharactersColors();
       }, 700);
+
       function replaceTMCharactersColors() {
         const characters = [
           {
