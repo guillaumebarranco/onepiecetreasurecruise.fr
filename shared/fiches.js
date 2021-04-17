@@ -1,9 +1,8 @@
-setTimeout(() => {
-  replaceOrbsColors();
-  replaceTypesColors();
-}, 100);
-
 function replaceOrbsColors(chosenSection = '.fiche-table') {
+
+  $(chosenSection).each((index) => {
+  });
+
   let $section = $(chosenSection).html();
 
   const orbs = [

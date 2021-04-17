@@ -1,23 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-127847674-1");
-    </script>
     <meta charset="utf-8" />
     <title>Guide de la prochaine Carte aux trésors</title>
     <link href="../bootstrap.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../shared/generic.css" />
+    <link rel="stylesheet" href="../shared/guides.css" />
+    <link rel="stylesheet" href="../shared/backgrounds.css" />
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png" />
     <link
@@ -79,121 +68,12 @@
       content="https://i.imgur.com/0Rbziea.png"
     />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <style>
-      .baspage {
-        position: relative;
-        bottom: -1vw;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetetop {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-      .topnavbar {
-        top: -1.5vw;
-        left: 0;
-        max-width: 100%;
-        width: 100%;
-        position: absolute;
-      }
-      h1,
-      h2,
-      h3 {
-        text-decoration: underline;
-        text-align: center;
-      }
-
-      table ul li {
-        list-style: none;
-      }
-
-      table ul li.li-mt {
-        margin-top: 10px;
-      }
-
-      button.btn-primary {
-        width: auto;
-        margin: 0 auto;
-        display: block;
-      }
-
-      .btn-container {
-        margin-top: 30px;
-      }
-
-      .tm-guides table tr td {
-        padding: 2px;
-        padding-left: 4px;
-      }
-
-      .tm-guides tbody > tr > td:first-of-type {
-        width: 150px;
-      }
-
-      .tm-guides table {
-        border-collapse: collapse;
-        max-width: 85%;
-        background-color: white;
-      }
-
-      .tm-guides .collapse {
-        margin-top: 20px;
-      }
-
-      .tm-guides button {
-        font-weight: bold;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .tm-guides button img {
-        margin-right: 5px;
-      }
-
-      .tm-intro a:hover {
-        text-decoration: none;
-      }
-
-      td a img {
-        margin-top: 5px;
-      }
-
-      td img[data-tooltip] {
-        margin-top: 7px;
-      }
-
-      td a.boosted-char img {
-        border: solid 5px red;
-      }
-
-      .recommended-characters tr td {
-        text-align: center;
-      }
-    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
   </head>
 
   <body id="PSY">
@@ -628,11 +508,9 @@
       </div>
     </nav>
 
-    <header>
-      <a href="../Carte aux tresors.html">
-        <img src="../img/logo.png" alt="logo" />
-      </a>
-    </header>
+    <a href="../Carte aux tresors.html">
+      <img src="../img/logo.png" alt="logo" />
+    </a>
 
     <!-- Intro -->
     <div class="tm-intro">
@@ -701,13 +579,13 @@
     </div>
 
     <!-- Guides -->
-    <div class="tm-guides">
+    <div class="page-guides">
       <!-- Invasion : Barbe Noire -->
       <div>
-        <h3><u>Barbe Noire</u></h3>
+        <h3>Barbe Noire</h3>
 
         <!-- Guide -->
-        <table class="tm-guide" width="85%" align="center">
+        <table class="tm-guide">
           <tbody>
             <tr>
               <td>Contrainte</td>
@@ -896,7 +774,7 @@
             </button>
 
             <div id="HPInva1" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/Kwtf7SX.png" /></td>
@@ -918,7 +796,7 @@
             </button>
 
             <div id="HPInva2" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/CCRbaAk.png" /></td>
@@ -940,7 +818,7 @@
             </button>
 
             <div id="LienBarbeNoire" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -1154,20 +1032,17 @@
           <!-- Bloquage du multiplicateur de combos -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#BloquageMultiplicateurBarbeNoire"
+              style="background-image: url('https://i.imgur.com/Axq2up1.png')"
             >
-              <img src="https://i.imgur.com/Axq2up1.png" />
-              <span
-                >Réduction de la durée de "Bloquage du multiplicateur de
-                combos"</span
-              >
+              Réduction de la durée de "Bloquage du multiplicateur de combos"
             </button>
 
             <div id="BloquageMultiplicateurBarbeNoire" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -1267,7 +1142,7 @@
             </button>
 
             <div id="SilenceBarbeNoire" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -1438,17 +1313,17 @@
           <!-- Resistance à 1 HP -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#ResilienceBarbeNoire"
+              style="background-image: url('https://i.imgur.com/StAnFTi.png')"
             >
-              <img src="https://i.imgur.com/StAnFTi.png" />
-              <span>Réduction de la durée de "Resistance à 1 HP"</span>
+              Réduction de la durée de "Resistance à 1 HP"
             </button>
 
             <div id="ResilienceBarbeNoire" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -1538,7 +1413,7 @@
             </button>
 
             <div id="DegatsFinTourBarbeNoire" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Captain Ability -->
                   <tr>
@@ -1626,10 +1501,10 @@
 
       <!-- Boss 1 : Barbe Brune -->
       <div>
-        <h3><u>Barbe Brune</u></h3>
+        <h3>Barbe Brune</h3>
 
         <!-- Guide -->
-        <table class="tm-guide" width="85%" align="center">
+        <table class="tm-guide">
           <tbody>
             <!-- Stage 5 : Barbe Brune -->
             <tr>
@@ -1683,7 +1558,7 @@
             </button>
 
             <div id="HPBoss1" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/uPHIuC5.png" /></td>
@@ -1696,20 +1571,17 @@
           <!-- Réduction durée augmentation défense -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#AugmentationDefenseBarbeBrune"
+              style="background-image: url('https://i.imgur.com/GhVbCs9.png')"
             >
-              <img src="https://i.imgur.com/GhVbCs9.png" />
-              <span
-                >Réduction de la durée de "Augmentation de défense" des
-                ennemis</span
-              >
+              Réduction de la durée de "Augmentation de défense" des ennemis
             </button>
 
             <div id="AugmentationDefenseBarbeBrune" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -1829,17 +1701,17 @@
           <!-- Diminution de la  défense -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#DiminutionDefenseBarbeBrune"
+              style="background-image: url('https://i.imgur.com/GhVbCs9.png')"
             >
-              <img src="https://i.imgur.com/GhVbCs9.png" />
-              <span>Diminution de la défense des ennemis</span>
+              Diminution de la défense des ennemis
             </button>
 
             <div id="DiminutionDefenseBarbeBrune" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -1951,10 +1823,10 @@
 
       <!-- Boss 2 : Rayleigh -->
       <div>
-        <h3><u>Rayleigh</u></h3>
+        <h3>Rayleigh</h3>
 
         <!-- Guide -->
-        <table class="tm-guide" width="85%" align="center">
+        <table class="tm-guide">
           <tbody>
             <!-- Stage 5 : Rayleigh -->
             <tr>
@@ -2028,7 +1900,7 @@
             </button>
 
             <div id="HPBoss2" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/NqNSeFm.png" /></td>
@@ -2041,20 +1913,18 @@
           <!-- Réduction de dégâts au-dessus d'un certain seuil -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#ThreesholdRayleigh"
+              style="background-image: url('https://i.imgur.com/YvtNGvf.png')"
             >
-              <img src="https://i.imgur.com/YvtNGvf.png" />
-              <span
-                >Réduction de la durée de "Réduction de dégâts au-dessus d'un
-                certain seuil" des ennemis</span
-              >
+              Réduction de la durée de "Réduction de dégâts au-dessus d'un
+              certain seuil" des ennemis
             </button>
 
             <div id="ThreesholdRayleigh" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -2235,7 +2105,7 @@
             </button>
 
             <div id="BLKRayleigh" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -2370,10 +2240,10 @@
 
       <!-- Boss 3 : Sengoku -->
       <div>
-        <h3><u>Sengoku</u></h3>
+        <h3>Sengoku</h3>
 
         <!-- Guide -->
-        <table class="tm-guide" width="85%" align="center">
+        <table class="tm-guide">
           <tbody>
             <!-- Stage 5 : Sengoku -->
             <tr>
@@ -2485,7 +2355,7 @@
             </button>
 
             <div id="HPBoss3" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/NqNSeFm.png" /></td>
@@ -2507,7 +2377,7 @@
             </button>
 
             <div id="LienSengoku" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -2729,7 +2599,7 @@
             </button>
 
             <div id="DespairSengoku" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -2970,7 +2840,7 @@
             </button>
 
             <div id="ParalysieSengoku" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -3169,10 +3039,10 @@
 
       <!-- Boss 4 : Barbe Blanche -->
       <div>
-        <h3><u>Barbe Blanche</u></h3>
+        <h3>Barbe Blanche</h3>
 
         <!-- Guide -->
-        <table class="tm-guide" width="85%" align="center">
+        <table class="tm-guide">
           <tbody>
             <!-- Stage 5 : Barbe Blanche -->
             <tr>
@@ -3266,7 +3136,7 @@
             </button>
 
             <div id="HPBoss4" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/Kwtf7SX.png" /></td>
@@ -3288,7 +3158,7 @@
             </button>
 
             <div id="BLKBarbeBlanche" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -3432,7 +3302,7 @@
             </button>
 
             <div id="AnnulationEffetsDefensifBarbeBlanche" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Captain Ability -->
                   <tr>
@@ -3475,20 +3345,17 @@
           <!-- Réduction de dégâts -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#ReductionDegatsBarbeBlanche"
+              style="background-image: url('https://i.imgur.com/t35aV9F.png')"
             >
-              <img src="https://i.imgur.com/t35aV9F.png" />
-              <span
-                >Réduction de la durée de "Réduction de dégâts" des
-                ennemis</span
-              >
+              Réduction de la durée de "Réduction de dégâts" des ennemis
             </button>
 
             <div id="ReductionDegatsBarbeBlanche" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -3662,7 +3529,7 @@
             </button>
 
             <div id="BarrierBarbeBlanche" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -3726,7 +3593,7 @@
             </button>
 
             <div id="TranspercementBarrierBarbeBlanche" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -3843,20 +3710,18 @@
           <!-- Réduction de dégâts au-dessus d'un certain seuil -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#ThreesholdBarbeBlanche"
+              style="background-image: url('https://i.imgur.com/YvtNGvf.png')"
             >
-              <img src="https://i.imgur.com/YvtNGvf.png" />
-              <span
-                >Réduction de la durée de "Réduction de dégâts au-dessus d'un
-                certain seuil" des ennemis</span
-              >
+              Réduction de la durée de "Réduction de dégâts au-dessus d'un
+              certain seuil" des ennemis
             </button>
 
             <div id="ThreesholdBarbeBlanche" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -4029,10 +3894,10 @@
 
       <!-- Boss final : Garp -->
       <div>
-        <h3><u>Garp</u></h3>
+        <h3>Garp</h3>
 
         <!-- Guide -->
-        <table class="tm-guide" width="85%" align="center">
+        <table class="tm-guide">
           <tbody>
             <!-- Stage 2 - Coby -->
             <tr>
@@ -4174,7 +4039,7 @@
             </button>
 
             <div id="HPFinalBoss1" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/ZDX3KTJ.png" /></td>
@@ -4196,7 +4061,7 @@
             </button>
 
             <div id="HPFinalBoss2" class="collapse">
-              <table width="30%" align="center">
+              <table width="30%">
                 <tbody>
                   <tr>
                     <td><img src="https://i.imgur.com/CCRbaAk.png" /></td>
@@ -4218,7 +4083,7 @@
             </button>
 
             <div id="DespairGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -4450,17 +4315,17 @@
           <!-- Brûlure -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#BrulureGarp"
+              style="background-image: url('https://i.imgur.com/kTSvHWp.png')"
             >
-              <img src="https://i.imgur.com/kTSvHWp.png" />
-              <span>Réduction de la durée de "Brûlure"</span>
+              Réduction de la durée de "Brûlure"
             </button>
 
             <div id="BrulureGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -4571,7 +4436,7 @@
             </button>
 
             <div id="BLKGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -4705,17 +4570,17 @@
           <!-- Onomatopées dissimulées -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#OnomatopeesGarp"
+              style="background-image: url('https://i.imgur.com/Wu6tLbX.png')"
             >
-              <img src="https://i.imgur.com/Wu6tLbX.png" />
-              <span>Réduction de la durée de "Onomatopées dissimulées"</span>
+              Réduction de la durée de "Onomatopées dissimulées"
             </button>
 
             <div id="OnomatopeesGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -4789,7 +4654,7 @@
             </button>
 
             <div id="AnnulationEffetsDefensifGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Captain Ability -->
                   <tr>
@@ -4841,7 +4706,7 @@
             </button>
 
             <div id="BarrierGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -4905,7 +4770,7 @@
             </button>
 
             <div id="TranspercementBarrierGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -5022,17 +4887,17 @@
           <!-- ATK Down -->
           <div class="btn-container">
             <button
-              class="btn btn-primary"
+              class="btn btn-primary btn-picture"
               type="button"
               data-toggle="collapse"
               data-thetarget="#AtkDownGarp"
+              style="background-image: url('https://i.imgur.com/6E3CVMr.png')"
             >
-              <img src="https://i.imgur.com/6E3CVMr.png" />
-              <span>Réduction de la durée de "Réductions d'attaque"</span>
+              Réduction de la durée de "Réductions d'attaque"
             </button>
 
             <div id="AtkDownGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -5194,7 +5059,7 @@
             </button>
 
             <div id="SilenceGarp" class="collapse">
-              <table class="recommended-characters" width="85%" align="center">
+              <table class="recommended-characters">
                 <tbody>
                   <!-- Coups spéciaux -->
                   <tr>
@@ -5383,15 +5248,15 @@
     <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
     <script src="script.js"></script>
     <script src="../shared/fiches.js"></script>
+    <script src="../shared/button-toggle.js"></script>
     <script>
       setTimeout(() => {
-        $(`.tm-guides table.tm-guide`).each((index) => {
-          replaceOrbsColors($(`.tm-guides table.tm-guide`)[index]);
-          replaceTypesColors($(`.tm-guides table.tm-guide`)[index]);
+        $(`.page-guides table.tm-guide`).each((index) => {
+          replaceOrbsColors($(`.page-guides table.tm-guide`)[index]);
+          replaceTypesColors($(`.page-guides table.tm-guide`)[index]);
         });
 
-        replaceTMCharactersColors(".tm-guides");
-        initButtons();
+        replaceTMCharactersColors(".page-guides");
       }, 100);
 
       function replaceTMCharactersColors(chosenSection) {
@@ -5447,24 +5312,6 @@
           });
 
           $($(`${chosenSection} table.tm-guide`)[index]).html($section);
-        });
-      }
-
-      function initButtons() {
-        document.querySelectorAll("button").forEach((button) => {
-          button.addEventListener("click", (element) => {
-            console.log("element", element);
-
-            const target =
-              element.target.attributes["data-thetarget"].textContent;
-            const targetDisplay = document.querySelector(target).style.display;
-
-            if (!targetDisplay || targetDisplay === "none") {
-              document.querySelector(target).style.display = "block";
-            } else {
-              document.querySelector(target).style.display = "none";
-            }
-          });
         });
       }
     </script>

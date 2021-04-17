@@ -1,0 +1,91 @@
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+table ul li {
+  list-style: none;
+}
+
+table ul li.li-mt {
+  margin-top: 10px;
+}
+
+button.btn-primary {
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-container {
+  margin-top: 30px;
+}
+
+.page-guides table tr td {
+  padding: 2px;
+  padding-left: 4px;
+}
+
+.page-guides tbody > tr > td:first-of-type {
+  width: 150px;
+}
+
+.page-guides table {
+  border-collapse: collapse;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.page-guides .collapse {
+  margin-top: 20px;
+}
+
+.page-guides button {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-guides button img {
+  margin-right: 5px;
+}
+
+.tm-intro a:hover {
+  text-decoration: none;
+}
+
+td a img {
+  margin-top: 5px;
+}
+
+td img[data-tooltip] {
+  margin-top: 7px;
+}
+
+td a.boosted-char img {
+  border: solid 5px red;
+}
+
+.recommended-characters tr td {
+  text-align: center;
+}
+
+.btn-picture {
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  padding-left: 35px;
+}
+
+.guide-section {
+  margin-top: 50px;
+}

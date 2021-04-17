@@ -1,0 +1,169 @@
+#NO-COLOR {
+  background-image: url(https://i.imgur.com/sxwVXz6.png);
+  background-attachment: fixed;
+}
+
+#STR,
+#DEX,
+#QCK,
+#PSY,
+#INT,
+#STR-STR,
+#STR-DEX,
+#STR-QCK,
+#STR-PSY,
+#STR-INT,
+#DEX-STR,
+#DEX-DEX,
+#DEX-QCK,
+#DEX-PSY,
+#DEX-INT,
+#QCK-STR,
+#QCK-DEX,
+#QCK-QCK,
+#QCK-PSY,
+#QCK-INT,
+#PSY-STR,
+#PSY-DEX,
+#PSY-QCK,
+#PSY-PSY,
+#PSY-INT,
+#INT-STR,
+#INT-DEX,
+#INT-QCK,
+#INT-PSY,
+#INT-INT {
+  -webkit-background-size: 100%;
+}
+
+/* Mono type */
+
+#STR {
+  background: url("https://i.imgur.com/CYeWO5Z.png");
+}
+
+#DEX {
+  background: url("https://i.imgur.com/wZQRjSO.png");
+}
+
+#QCK {
+  background: url("https://i.imgur.com/gIyHbZf.png");
+}
+
+#PSY {
+  background: url("https://i.imgur.com/uEGo1Im.png");
+}
+
+#INT {
+  background: url("https://i.imgur.com/gdHqEUa.png");
+}
+
+/* Dual STR first */
+
+#STR-STR {
+  background: url("https://i.imgur.com/CYeWO5Z.png");
+}
+
+#STR-DEX {
+  background: url("https://i.imgur.com/cIudzQ9.png");
+}
+
+#STR-QCK {
+  background: url("https://i.imgur.com/kHXVc2t.png");
+}
+
+#STR-PSY {
+  background: url("https://i.imgur.com/CeDjsqB.png");
+}
+
+#STR-INT {
+  background: url("https://i.imgur.com/45IRZwz.png");
+}
+
+/* Dual DEX first */
+
+#DEX-STR {
+  background: url("https://i.imgur.com/RtOyT08.png");
+}
+
+#DEX-DEX {
+  background: url("https://i.imgur.com/wZQRjSO.png");
+}
+
+#DEX-QCK {
+  background: url("https://i.imgur.com/EUyXBMW.png");
+}
+
+#DEX-PSY {
+  background: url("https://i.imgur.com/ojSWssw.png");
+}
+
+#DEX-INT {
+  background: url("https://i.imgur.com/5kTgPW4.png");
+}
+
+/* Dual QCK first */
+
+#QCK-STR {
+  background: url("https://i.imgur.com/biJq5Lg.png");
+}
+
+#QCK-DEX {
+  background: url("https://i.imgur.com/iIi25SG.png");
+}
+
+#QCK-QCK {
+  background: url("https://i.imgur.com/gIyHbZf.png");
+}
+
+#QCK-PSY {
+  background: url("https://i.imgur.com/VOliUl0.png");
+}
+
+#QCK-INT {
+  background: url("https://i.imgur.com/rIRMnSf.png");
+}
+
+/* Dual PSY first */
+
+#PSY-STR {
+  background: url("https://i.imgur.com/KAQtY4W.png");
+}
+
+#PSY-DEX {
+  background: url("https://i.imgur.com/XWrBo5I.png");
+}
+
+#PSY-QCK {
+  background: url("https://i.imgur.com/UOyiOu8.png");
+}
+
+#PSY-PSY {
+  background: url("https://i.imgur.com/uEGo1Im.png");
+}
+
+#PSY-INT {
+  background: url("https://i.imgur.com/Sd0rtRl.png");
+}
+
+/* Dual INT first */
+
+#INT-STR {
+  background: url("https://i.imgur.com/LIdL5sq.png");
+}
+
+#INT-DEX {
+  background: url("https://i.imgur.com/yHcksWt.png");
+}
+
+#INT-QCK {
+  background: url("https://i.imgur.com/2Y4RwCQ.png");
+}
+
+#INT-PSY {
+  background: url("https://i.imgur.com/qWWuv8U.png");
+}
+
+#INT-INT {
+  background: url("https://i.imgur.com/gdHqEUa.png");
+}
