@@ -1,435 +1,790 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    	<!-- Global site tag (gtag.js) - Google Analytics -->
-    	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-    	<script>
-    		window.dataLayer = window.dataLayer || [];
-    		function gtag(){dataLayer.push(arguments);}
-    		gtag('js', new Date());
-    		gtag('config', 'UA-127847674-1');
-    	</script>
-        <meta charset="utf-8" />
-        <title>Personnages limités au recrutement rare</title>
-        <link href="bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="styleRaids.css" />
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Personnages limités au recrutement rare</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="shared/generic.css" rel="stylesheet" />
+    <link href="shared/backgrounds.css" rel="stylesheet" />
+    <link href="shared/listes.css" rel="stylesheet" />
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="shared/analytics.js"></script>
+  </head>
 
+  <body id="NO-COLOR">
     <div class="entete">
-      <img src="https://i.imgur.com/yOZlv6S.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo"></a>
+      <img class="entetefond" src="https://i.imgur.com/yOZlv6S.png" />
+      <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
+      <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
+      <a href="/"><img class="logo" src="https://i.imgur.com/1OcsZvS.png" /></a>
     </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
-<style>
-.topnavbar
-{
-top: -1.5vw;
-left: 0;
-max-width: 100%;
-width: 100%;
-position: absolute;
-}
-</style>
-  <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Guides
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés ?</a>
-          <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Colisee.html">Colisées</a>
-          <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
-          <a class="dropdown-item waves-effect waves-light" href="Attaque ennemie.html">Attaques ennemies</a>
-          <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
-          <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
-          <a class="dropdown-item waves-effect waves-light" href="Mode Aventure.html">Histoire principale</a>
-          <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
-          <a class="dropdown-item waves-effect waves-light" href="Defi de Garp.html">Défi de Garp</a>
-          <a class="dropdown-item waves-effect waves-light" href="Crane.html">Quêtes pour les super évolutions</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Liste de personnages
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="LegendesBatch.html">Personnages du recrutement rare</a>
-          <a class="dropdown-item" href="Carte aux tresors.html">Personnages des Cartes aux trésors</a>
-          <a class="dropdown-item" href="Bataille cooperative.html">Personnages des combats de l'amitié</a>
-          <a class="dropdown-item" href="Festival des pirates.html">Personnages de la fête des pirates</a>
-          <a class="dropdown-item active" href="LRR.html">Personnages limités au recrutement rare</a>
-          <a class="dropdown-item" href="Soutien.html">Personnages limités au recrutement rare de soutien</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Aide
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien debuter.html">Bien débuter</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
-          <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la fête des pirates</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier List.html">Tier Lists</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Progressions
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
-          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
-          <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
-          <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
-          <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
-          <a class="dropdown-item" href="AvanceeRaids.html">Avancée des combats cruciaux</a>
-          <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
-          <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
-          <a class="dropdown-item" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-          <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Artwork/">Artworks</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Événements
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Creations.html">Créations de personnages</a>
-          <a class="dropdown-item" href="Awards/">Awards 2019</a>
-          <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Sites
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
-          <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
-          <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
-          <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Remerciements
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <form action="https://www.google.com" id="cse-search-box">
-          <div id="searchbar">
-            <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
-            <input type="hidden" name="ie" value="UTF-8">
-            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
-          </div>
-          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
-        </form>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-	<header><a href="/"><img src="img/logo.png" alt="logo"></img></a></header>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark"
+    >
+      <img class="topnavbar" src="https://i.imgur.com/QvxN4d8.png" />
+      <a class="navbar-brand" href="/"
+        ><img src="https://imgur.com/SOSubWn.png"
+      /></a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-target="#navbarSupportedContent"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle waves-effect waves-light"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Guides</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Coulisses.html"
+                >Comment les guides sont-ils rédigés ?</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Raids.html"
+                >Combats cruciaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Colisee.html"
+                >Colisées</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Arene.html"
+                >Arènes</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Attaque%20ennemie.html"
+                >Attaques ennemies</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Fortnight.html"
+                >Quêtes permanentes</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Special.html"
+                >Événements spéciaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Carte%20aux%20tresors/Prochaine%20Carte%20aux%20tresors.html"
+                >Prochaine Carte aux trésors</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Bataille%20cooperative/Prochaine%20bataille%20cooperative.html"
+                >Prochain combat de l'amitié</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Mode%20Aventure.html"
+                >Histoire principale</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Forets.html"
+                >Forêts d'entraînement</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Defi%20de%20Garp.html"
+                >Défi de Garp</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Crane.html"
+                >Quêtes pour les super évolutions</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Liste de personnages</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="LegendesBatch.html"
+                >Personnages du recrutement rare</a
+              >
+              <a class="dropdown-item" href="Carte%20aux%20tresors.html"
+                >Personnages des Cartes aux trésors</a
+              >
+              <a class="dropdown-item" href="Bataille%20cooperative.html"
+                >Personnages des combats de l'amitié</a
+              >
+              <a class="dropdown-item" href="Festival%20des%20pirates.html"
+                >Personnages de la fête des pirates</a
+              >
+              <a class="dropdown-item active" href="LRR.html"
+                >Personnages limités au recrutement rare</a
+              >
+              <a class="dropdown-item" href="Soutien.html"
+                >Personnages limités au recrutement rare de soutien</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Aide</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Bien%20debuter.html"
+                >Bien débuter</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Souhaits%20de%20Chopper%20Man.html"
+                >Souhaits de Chopper Man</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Taux%20des%20legendes.html"
+                >Taux des personnages Sugo-Rare</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Extension%20du%20depassement%20de%20limites.html"
+                >Extension du dépassement de limites</a
+              >
+              <a class="dropdown-item waves-effect waves-light" href="Bateau/"
+                >Liste des bateaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Soutien.html"
+                >Effets de soutien spécifiques</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Fete%20des%20pirates.html"
+                >Personnages par style sur la fête des pirates</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Ile%20des%20collectionneurs.html"
+                >Île des collectionneurs</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Tier%20List.html"
+                >Tier Lists</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Progressions</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="RR.html"
+                >Liste à cocher des personnages du recrutement rare (version
+                normale)</a
+              >
+              <a class="dropdown-item" href="RRBatch.html"
+                >Liste à cocher des personnages du recrutement rare (version par
+                lot)</a
+              >
+              <a class="dropdown-item" href="Aventure.html"
+                >Liste à cocher des personnages de l'Histoire principale</a
+              >
+              <a class="dropdown-item" href="Avancee.html"
+                >Avancée des personnages Sugo-Rare</a
+              >
+              <a class="dropdown-item" href="AvanceeRR.html"
+                >Avancée des personnages du recrutement rare</a
+              >
+              <a class="dropdown-item" href="AvanceeRaids.html"
+                >Avancée des combats cruciaux</a
+              >
+              <a class="dropdown-item" href="AvanceeColisee.html"
+                >Avancée des Colisées</a
+              >
+              <a class="dropdown-item" href="AvanceeAttaque.html"
+                >Avancée des attaques ennemies</a
+              >
+              <a class="dropdown-item" href="AvanceeCarte.html"
+                >Avancée des personnages des Cartes aux trésors</a
+              >
+              <a class="dropdown-item" href="AvanceeCombatAmitie.html"
+                >Avancée des personnages des combats de l'amitié</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Artwork/">Artworks</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Événements</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="Creations.html"
+                >Créations de personnages</a
+              >
+              <a class="dropdown-item" href="Awards/">Awards 2019</a>
+              <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Sites</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item"
+                href="https://optc-db.github.io/"
+                target="_blank"
+                >OPTC Database</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://lukforce.bitbucket.io/"
+                target="_blank"
+                >OPTC Voyage Log</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.nakama.network/"
+                target="_blank"
+                >Nakama Network</a
+              >
+              <a
+                class="dropdown-item"
+                href="http://optc-tierlist.com/"
+                target="_blank"
+                >Tier List Maker</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Remerciements</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="Remerciements.html"
+                >Remerciements</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+                target="_blank"
+                >Chaîne de Timinou</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+                target="_blank"
+                >Chaîne de D. coza</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+                target="_blank"
+                >Chaîne de Towercorner</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+                target="_blank"
+                >Chaîne de Kaku OPTC</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/user/Scaragnark9"
+                target="_blank"
+                >Chaîne de Scaragnark</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/user/basibidi"
+                target="_blank"
+                >Chaîne de Basibidi</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+                target="_blank"
+                >Chaîne de SkyTrick</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+                target="_blank"
+                >Chaîne de B-Bro</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://discord.gg/6bJvuT8"
+              target="_blank"
+              >Discord</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <form
+              action="https://www.google.com"
+              id="cse-search-box"
+              name="cse-search-box"
+            >
+              <div id="searchbar">
+                <input
+                  name="cx"
+                  type="hidden"
+                  value="011516564617436617087:3cpi9kq7ujc"
+                />
+                <input name="ie" type="hidden" value="UTF-8" />
+                <input
+                  id="search_area"
+                  name="q"
+                  placeholder="Rechercher"
+                  size="20"
+                  style="
+                    border: 1px solid rgb(126, 157, 185);
+                    margin-bottom: 5px;
+                    background: url('https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png')
+                      left center no-repeat rgb(255, 255, 255);
+                    text-indent: 48px;
+                  "
+                  type="text"
+                  value=""
+                />
+              </div>
+              <input
+                name="siteurl"
+                type="hidden"
+                value="onepiecetreasurecruise.fr"
+              /><input name="ref" type="hidden" value="" /><input
+                name="ss"
+                type="hidden"
+                value=""
+              />
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <body>
-    	<h1><center><u>Personnages limités au recrutement rare</u></center></h1>
-    	<table> 		 		
-        	<table align="center"> 		 		
-        		<tbody>
-        			<tr> 				 		
-        				<td>
-        					<a href="LRR/Eustass Kidd.html">
-								<img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1621.png" alt="KiddLRR"/>
-							</a>
-						</td>
-                        <td>
-                            <a href="LRR/Fisher Tiger.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1632.png" alt="TigerLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Aokiji.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1665.png" alt="AokijiLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Trafalgar Law.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1678.png" alt="LawLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Akainu.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1713.png" alt="AkainuLRR"/>
-                            </a>
-                        </td>
-        			</tr>
-                    <tr>                        
-                        <td>
-                            <a href="LRR/Jinbe.html">
-                                <img src="https://i.imgur.com/LLWI9bH.png" alt="JinbeLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Ben Beckmann.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1770.png" alt="BeckmannLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Kizaru.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1778.png" alt="KizaruLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Byrnndi World.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1824.png" alt="WorldLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Leo.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1859.png" alt="LeoLRR"/>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>                        
-                        <td>
-                            <a href="LRR/Urouge 1.html">
-                                <img src="https://i.imgur.com/pSRgu7S.png" alt="UrougeQCKLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Kobby.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1926.png" alt="KobbyLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Basil Hawkins.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1974.png" alt="HawkinsLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Jewelry Bonney.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2013.png" alt="BonneyLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Koala.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2048.png" alt="KoalaLRR"/>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>                        
-                        <td>
-                            <a href="LRR/Gecko Moria.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2050.png" alt="MoriaLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Tashigi.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2068.png" alt="TashigiLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Don Quijote Doflamingo.html">
-                                <img src="https://i.imgur.com/p4AY9XF.png" alt="DoflamingoLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Killer.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2199.png" alt="KillerLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Nefertari Vivi.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2247.png" alt="ViviLRR"/>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="LRR/Hody Jones.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2285.png" alt="HodyLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Usoland.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2325.png" alt="UsolandLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Pedro.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2349.png" alt="PedroLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Charlotte Pudding.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2431.png" alt="PuddingLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Franky.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2463.png" alt="FrankyLRR"/>
-                            </a>
-                        </td>
-                    <tr>
-                      <td>
-                            <a href="LRR/Kinemon.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2487.png" alt="KinemonLRR"/>
-                            </a>
-                        </td>
-                      <td>
-                            <a href="LRR/Urouge 2.html">
-                                <img src="https://i.imgur.com/aq15yY2.png" alt="UrougePSYLRR"/>
-                            </a>
-                        </td>
-                      <td>
-                            <a href="LRR/Carrot.html">
-                                <img src="https://i.imgur.com/9vEY4Zm.png" alt="CarrotLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Marco.html">
-                                <img src="https://i.imgur.com/ZGT56Ns.png" alt="MarcoLRR"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="LRR/Cesar Clown.html">
-                                <img src="https://i.imgur.com/LuRJclA.png" alt="CesarLRR"/>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <a href="LRR/Sniperking.html">
-                          <img src="https://i.imgur.com/dYs1rkj.png" alt="SniperkingLRR"/>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="LRR/Lucy.html">
-                          <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2914.png" alt="LucyLRR"/>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="LRR/Sanji et Pudding.html">
-                          <img src="https://i.imgur.com/L3UZT6L.png" alt="SanjiPuddingLRR"/>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="LRR/Alvida.html">
-                          <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3051.png" alt="AlvidaLRR"/>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="LRR/Sengoku.html">
-                          <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3097.png" alt="SengokuLRR"/>
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>                        
-                        <td>
-                            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                        </td>
-                    </tr>
-        		</tbody>
-        </table>
-        <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/mdb.js"></script>
-        <div class="baspage">
-          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-        </div>
-        <style>
-          .baspage
-          {
-            position: relative;
-            bottom: -1vw;
-            max-width: 100%;
-            width: 100%;
-          }
-        </style>
-    </body>
-</html> 			 	
+    <header>
+      <a href="/"><img alt="logo" src="img/logo.png" /></a>
+    </header>
+
+    <div class="list-container">
+      <h1>Personnages limités au recrutement rare</h1>
+      <ul>
+        <li>
+          <a href="LRR/Eustass Kidd.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1621.png"
+              alt="KiddLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Fisher Tiger.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1632.png"
+              alt="TigerLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Aokiji.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1665.png"
+              alt="AokijiLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Trafalgar Law.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1678.png"
+              alt="LawLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Akainu.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1713.png"
+              alt="AkainuLRR"
+            />
+          </a>
+        </li>
+
+        <li>
+          <a href="LRR/Jinbe.html">
+            <img src="https://i.imgur.com/LLWI9bH.png" alt="JinbeLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Ben Beckmann.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1770.png"
+              alt="BeckmannLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Kizaru.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1778.png"
+              alt="KizaruLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Byrnndi World.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1824.png"
+              alt="WorldLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Leo.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1859.png"
+              alt="LeoLRR"
+            />
+          </a>
+        </li>
+
+        <li>
+          <a href="LRR/Urouge 1.html">
+            <img src="https://i.imgur.com/pSRgu7S.png" alt="UrougeQCKLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Kobby.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1926.png"
+              alt="KobbyLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Basil Hawkins.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1974.png"
+              alt="HawkinsLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Jewelry Bonney.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2013.png"
+              alt="BonneyLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Koala.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2048.png"
+              alt="KoalaLRR"
+            />
+          </a>
+        </li>
+
+        <li>
+          <a href="LRR/Gecko Moria.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2050.png"
+              alt="MoriaLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Tashigi.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2068.png"
+              alt="TashigiLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Don Quijote Doflamingo.html">
+            <img src="https://i.imgur.com/p4AY9XF.png" alt="DoflamingoLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Killer.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2199.png"
+              alt="KillerLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Nefertari Vivi.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2247.png"
+              alt="ViviLRR"
+            />
+          </a>
+        </li>
+
+        <li>
+          <a href="LRR/Hody Jones.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2285.png"
+              alt="HodyLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Usoland.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2325.png"
+              alt="UsolandLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Pedro.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2349.png"
+              alt="PedroLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Charlotte Pudding.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2431.png"
+              alt="PuddingLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Franky.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2463.png"
+              alt="FrankyLRR"
+            />
+          </a>
+        </li>
+
+        <li>
+          <a href="LRR/Kinemon.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2487.png"
+              alt="KinemonLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Urouge 2.html">
+            <img src="https://i.imgur.com/aq15yY2.png" alt="UrougePSYLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Carrot.html">
+            <img src="https://i.imgur.com/9vEY4Zm.png" alt="CarrotLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Marco.html">
+            <img src="https://i.imgur.com/ZGT56Ns.png" alt="MarcoLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Cesar Clown.html">
+            <img src="https://i.imgur.com/LuRJclA.png" alt="CesarLRR" />
+          </a>
+        </li>
+
+        <li>
+          <a href="LRR/Sniperking.html">
+            <img src="https://i.imgur.com/dYs1rkj.png" alt="SniperkingLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Lucy.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2914.png"
+              alt="LucyLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Sanji et Pudding.html">
+            <img src="https://i.imgur.com/L3UZT6L.png" alt="SanjiPuddingLRR" />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Alvida.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3051.png"
+              alt="AlvidaLRR"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="LRR/Sengoku.html">
+            <img
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3097.png"
+              alt="SengokuLRR"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="baspage">
+      <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
+    </div>
+
+    <script
+      src="Accueil/js/jquery-3.3.1.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/mdb.js" type="text/javascript"></script>
+  </body>
+</html>
