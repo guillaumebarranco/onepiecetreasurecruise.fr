@@ -15,8 +15,9 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  max-width: 625px;
+  max-width: 600px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .list-container ul li {
