@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,18 +223,18 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/TTfDXhv.png"></center>  
-          <caption><img src="https://i.imgur.com/jEZKzzz.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/TTfDXhv.png"></center>
+          <caption><img src="https://i.imgur.com/jEZKzzz.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Fin du rêve</small><br>Bellamy et Sarquiss<b></td>
-              </tr>         
-              <tr>            
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font> (Bellamy) / <font color="#1CAC24">DEX</font> (Sarquiss)</p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#DC241C">STR</font> (Bellamy) / <font color="#1CAC24">DEX</font> (Sarquiss)</p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Bellamy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
@@ -241,57 +242,57 @@ position: absolute;
                             <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
                         </td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Bellamy</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
-                    </tr>                     
-              <tr>            
-                <td>Coût</td>
-                <td>60</td>           
-              </tr>
-              <tr>                         
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
                     </tr>
-                    <tr>                        
+              <tr>
+                <td>Coût</td>
+                <td>60</td>
+              </tr>
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                         <td>HP</td>
                         <td>
                             <b><font color="#DC241C">Bellamy</font></b> : 3022 puis 3402 après le dépassement de limites<br>
                             <b><font color="#1CAC24">Sarquiss</font></b> : 3202 puis 3582 après le dépassement de limites<br>
                             <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : 3302 puis 3682 après le dépassement de limites
-                        </td>                       
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
                         <td>
                             <b><font color="#DC241C">Bellamy</font></b> : 1322 puis 1522 après le dépassement de limites<br>
                             <b><font color="#1CAC24">Sarquiss</font></b> : 1282 puis 1482 après le dépassement de limites<br>
                             <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : 1532 puis 1732 après le dépassement de limites
-                        </td>              
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
                         <td>
                             <b><font color="#DC241C">Bellamy</font></b> : 162 puis 272 après le dépassement de limites<br>
                             <b><font color="#1CAC24">Sarquiss</font></b> : 242 puis 352 après le dépassement de limites<br>
                             <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : 342 puis 452 après le dépassement de limites
-                        </td>                
-                    </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#DC241C">Bellamy</font></b> : Multiplie l'ATK des personnages de classe Cogneur et Ambitieux par 2,75 et réduit les dégâts subis de 10%. Si le personnage n'a pas attaqué au tour précédent, multiplie l'ATK des personnages de classe Cogneur et Ambitieux par 3,25 et réduit les dégâts subis de 20%.<br>
                             <b><font color="#1CAC24">Sarquiss</font></b> : Multiplie l'ATK des personnages de classe Intellectuel et Ambitieux par 2,75 et rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Intellectuel et Ambitieux. Si le personnage n'a pas attaqué au tour précédent, multiplie l'ATK des personnages de classe Intellectuel et Ambitieux par 3,25.<br>
                             <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : Multiplie l'ATK des personnages de classe Cogneur, Intellectuel et Ambitieux par 3,25, puis par 3,5 après 3 "PARFAIT" d'affilée et par 3,75 après 5 "PARFAIT" d'affilée. Rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Cogneur, Intellectuel et Ambitieux.<br>
-                        </td>  
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (32→26 puis 10)</td>
                 <td>Réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis de 5 tours, devient "Bellamy et Sarquiss" pendant 2 tours et multiplie l'ATK des personnages de classe Cogneur, Intellectuel et Ambitieux selon le nombre de tours durant lesquels le personnage n'a pas attaqué pendant 2 tours.<br>
                 <ul style="display: inline;"><small><b>2 tours ou moins :</b> Par 1,5.</ul><br>
@@ -300,55 +301,55 @@ position: absolute;
                 <ul style="display: inline;"><b>8 à 9 tours :</b> Par 2,25.</ul><br>
                 <ul style="display: inline;"><b>10 tours ou plus :</b> Par 2,5.</small></ul></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Ajoute 50 en HP, ATK et RCV pour les personnages de classe Cogneur, Intellectuel et Ambitieux.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
                     <tr>
                         <td>Effets du changement</td>
                         <td>Inflige 50 fois son ATK en dégâts élémentaires sur un ennemi et réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis d'un tour.</td>
-                    </tr> 
-                    <tr>            
+                    </tr>
+                    <tr>
                 <td>Potential Ability 1</td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 2% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 3% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
                         <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 80 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
@@ -371,4 +372,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

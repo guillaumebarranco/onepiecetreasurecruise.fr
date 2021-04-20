@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,22 +226,22 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/NVf9B1o.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Barbe Blanche VS Shanks<b></td>              
+                <td><b>Barbe Blanche VS Shanks<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Barbe Blanche) / <font color="#4C4CFF">QCK</font> (Shanks)</p><b></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Barbe Blanche</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#4C4CFF">Shanks</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Barbe Blanche</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
@@ -262,37 +263,37 @@ position: absolute;
           <td>Emplacements de pouvoirs</td>
           <td>5</td>
         </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                     <b><font color="#DC241C">Barbe Blanche</font></b> : 4550 puis 4950 après le dépassement de limites<br>
                     <b><font color="#4C4CFF">Shanks</font></b> : 3900 puis 4300 après le dépassement de limites<br>
                     <b><font color="#DC241C">Barbe Blanche</font></b> <b>VS</b> <b><font color="#4C4CFF">Shanks</font></b> : 4800 puis 5200 après le dépassement de limites<br>
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                     <b><font color="#DC241C">Barbe Blanche</font></b> : 1640 puis 1840 après le dépassement de limites<br>
                     <b><font color="#4C4CFF">Shanks</font></b> : 1620 puis 1820 après le dépassement de limites<br>
                     <b><font color="#DC241C">Barbe Blanche</font></b> <b>VS</b> <b><font color="#4C4CFF">Shanks</font></b> : 1740 puis 1940 après le dépassement de limites<br>
-                </td>     
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                     <b><font color="#DC241C">Barbe Blanche</font></b> : 275 puis 375 après le dépassement de limites<br>
                     <b><font color="#4C4CFF">Shanks</font></b> : 440 puis 540 après le dépassement de limites<br>
                     <b><font color="#DC241C">Barbe Blanche</font></b> <b>VS</b> <b><font color="#4C4CFF">Shanks</font></b> : 525 puis 625 après le dépassement de limites<br>
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                     <b><font color="#DC241C">Barbe Blanche</font></b> : ATK x5 pour le Type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b>, leur HP par 1,2, Réduit les dégats proportionnellement au HP restant (Jusqu'à 90% de Réduction à 10% HP), rend les Orbes <b><font color="#DC241C">[STR]</font></b> Bénéfiques pour l'équipe et Augmente les chances d'Avoir des cercles <b><font color="#DC241C">[STR]</font></b>.<br>
@@ -303,8 +304,8 @@ position: absolute;
                       <ul style="display: inline;"><b>700 000 dégâts totaux infligés ou plus :</b> 70% de chances d'étourdir les ennemis.</ul><br>
                       <ul style="display: inline;"><b>1 000 000 dégâts totaux infligés ou plus :</b> Étourdit les ennemis.</ul><br>
                       <ul style="display: inline;"><b>1 500 000 dégâts totaux infligés ou plus :</b> Étourdit les ennemis en ignorant l'immunité aux altérations d'état et l'immunité aux retards.</small></ul><br>
-                </td>    
-              <tr>            
+                </td>
+              <tr>
                 <td>Special (20→15 puis 14)</td>
                 <td>
                     <b><font color="#DC241C">Barbe Blanche</font></b> : Enlève 30% des HP à tous les ennemis, Change Tous les Cercles (<b><font color="darkslateblue">[BLK]</font></b> inclus) en Cercle <b><font color="#DC241C">[STR]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> ou <b><font color="#A916B6">[INT]</font></b> et Multiplie par 2,25 l'Attaque de types <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> pendant 1 tour.<br>
@@ -312,18 +313,18 @@ position: absolute;
                     <b><font color="#4C4CFF">Shanks</font></b> : Ajoute 1,4 au multiplicateur de Combo pendant 1 tour, Change Tous les Cercles (<b><font color="darkslateblue">[BLK]</font></b> inclus) en Cercle <b><font color="#DC241C">[STR]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> ou <b><font color="#ECAC04">[PSY]</font></b> et Multiplie par 2,25 les effets de type des attaques normales des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#ECAC04">PSY</font></b> pendant 1 tour.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
-                <td>Ne peut pas être projeté en dehors de l'écran.</td>    
+                <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Effet "VS"</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Effet "VS"</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Consommer 10 orbes <b><font color="#DC241C">[STR]</font></b> ou <b><font color="#4C4CFF">[QCK]</font></b>.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Activation d'effets</td>
                         <td>
                           <b><font color="#DC241C">Barbe Blanche</font></b> : Annule tous les effets défensifs dont bénéficient les ennemis contre les attaques du personnage pendant 2 tours et inflige à l'ennemi qui a le plus de HP 5 fois son attaque en dégats non élémentaires pendant 2 tours.<br>
@@ -331,24 +332,24 @@ position: absolute;
                           <b><font color="#4C4CFF">Shanks</font></b> : Multiplie x2,5 les dégâts infligés aux ennemis étourdis pendant 2 tours et ajoute +1000 aux stats d'attaque de toute l'équipe pendant 1 tour.
                         </td>
                     </tr>
-                    <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+                    <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Orbes <b><font color="#DC241C">[STR]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> bénéfiques pour les personnages de type <b><font color="#DC241C">STR</font></b> et <b><font color="#4C4CFF">QCK</font></b>.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Résistance à “Lien des cercles”.</td>            
+                <td>Résistance à “Lien des cercles”.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Augmentation d'ATK en cas de dégâts subis.</td>            
+                <td>Augmentation d'ATK en cas de dégâts subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Résistance à “Soin impossible”.</td>            
+                <td>Résistance à “Soin impossible”.</td>
               </tr>
                 </tbody>
           </table>
@@ -369,4 +370,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

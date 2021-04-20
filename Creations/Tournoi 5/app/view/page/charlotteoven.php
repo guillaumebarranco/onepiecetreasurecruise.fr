@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,141 +223,141 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/nsVDBcf.png"></center>  
-          <caption><img src="https://i.imgur.com/bBEC33g.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/nsVDBcf.png"></center>
+          <caption><img src="https://i.imgur.com/bBEC33g.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Venger son frère : Éliminer "Mugiwara"</small><br>Charlotte Oven<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Venger son frère : Éliminer "Mugiwara"</small><br>Charlotte Oven<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Combo</td>
-                <td>6</td>            
-              </tr>    
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>6</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>3512 puis 3882 après le dépassement de limites</td>             
+                <td>3512 puis 3882 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1446 puis 1816 après le dépassement de limites</td>             
+                <td>1446 puis 1816 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>215 puis 275 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>215 puis 275 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td><u>Ministre du Bien Cuit :</u> Réduit le temps de chargement des coups spéciaux d'un tour au début de la quête, multiplie l'ATK des personnages de classe Ravageur et Cogneur par 4,75 s'ils ont un cercle <b><font color="#DC241C">[Poing de feu]</font></b>, sinon par 3, et multiplie les HP des personnages de classe Ravageur et Cogneur par 1,2. Les cercles <b><font color="#DC241C">[STR]</font></b> sont remplacés par les cercles <b><font color="#DC241C">[Poing de feu]</font></b>, augmente les chances d'apparition des cercles <b><font color="#DC241C">[Poing de feu]</font></b> et rend les cercles <b><font color="#DC241C">[Poing de feu]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (19→14 puis 13)</td>
                 <td><u>La défaite de Dent-de-chien :</u> Réduit la durée de "Désespoir du capitaine", de "Lien" et de "Paralysie" selon le nombre de cercles <b><font color="#DC241C">[Poing de feu]</font></b> consommés avant l’activation du coup spécial et si l'équipe contient le personnage "Dent-de-chien" et si les HP sont en-dessous de 40%, ajoute 15 fois la somme des dégâts infligés au tour précédent en dégâts additionnels non élémentaires pendant un tour (5 000 000 au maximum par personnage) et si le personnage attaque en dernier, garanti une attaque critique.<br>
                 <ul style="display: inline;"><small><b>15 à 24 cercles :</b> 3 tours.</ul><br>
                 <ul style="display: inline;"><b>25 à 29 cercles :</b> 7 tours.</ul><br>
                 <ul style="display: inline;"><b>30 cercles ou plus :</b> 15 tours.</small></ul></td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 25 en ATK pour le personnage et le personnage "Dent-de-chien" s'il est présent dans l'équipe.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour le personnage et le personnage "Dent-de-chien" s'il est présent dans l'équipe.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>            
+                <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>             
+                <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit le temps de chargement de son coup spécial de 3 tours au début de la quête.</td>             
+                <td>Réduit le temps de chargement de son coup spécial de 3 tours au début de la quête.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>             
+                <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit le temps de chargement de son coup spécial de 5 tours au début de la quête.</td>            
+                <td>Réduit le temps de chargement de son coup spécial de 5 tours au début de la quête.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>             
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 4%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 7%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 7%.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Charlotte Dent-de-chien</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 0,8 au multiplicateur de combos pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>  
+                        <td>Ajoute 0,8 au multiplicateur de combos pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
                     </tr>
                 </tbody>
           </table>
@@ -379,4 +380,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

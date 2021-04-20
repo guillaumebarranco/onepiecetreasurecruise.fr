@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,53 +223,53 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/lY5PjvZ.png"></center>  
-          <caption><img src="https://i.imgur.com/qujcMyM.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/lY5PjvZ.png"></center>
+          <caption><img src="https://i.imgur.com/qujcMyM.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b>Sanji et Judge<b></td>
-              </tr>         
-              <tr>                         
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#ECAC04">PSY</font> (Sanji Vinsmoke) / <font color="#ECAC04">PSY</font> (Judge Vinsmoke)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#ECAC04">Judge Vinsmoke</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                             <b><font color="#ECAC04">Judge Vinsmoke</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
                         </td>
-                    </tr>             
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>65</td>           
-              </tr>         
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>65</td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : 2994 puis 3514 après le dépassement de limites puis 4014 après l'extension du dépassement de limites<br>
                             <b><font color="#ECAC04">Judge Vinsmoke</font></b> : 3352 puis 3872 après le dépassement de limites puis 4372 après l'extension du dépassement de limites<br>
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : 4166 puis 4686 après le dépassement de limites puis 5186 après l'extension du dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : 1716 puis 1926 après le dépassement de limites puis 2126 après l'extension du dépassement de limites<br>
@@ -276,18 +277,18 @@ position: absolute;
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : 1766 puis 1976 après le dépassement de limites puis 2176 après l'extension du dépassement de limites
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : 334 puis 414 après le dépassement de limites puis 464 après l'extension du dépassement de limites<br>
                             <b><font color="#ECAC04">Judge Vinsmoke</font></b> : 276 puis 356 après le dépassement de limites puis 406 après l'extension du dépassement de limites<br>
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : 366 puis 446 après le dépassement de limites puis 496 après l'extension du dépassement de limites
                         </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : Si l'équipe contient 6 personnages de classe Tenace, multiplie l'ATK des personnages de classe Tenace par 3,75, les HP par 1,5 et rend les cercles <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour les personnages de classe Tenace.<br>
@@ -295,17 +296,17 @@ position: absolute;
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : Si l'équipe contient 6 personnages de classe Tenace, multiplie l'ATK des personnages de classe Tenace par 4,5 et si l'équipe contient un personnage de chaque type, multiplie les HP de tous les personnages par 1,5 et rend les cercles <b><font color="#ECAC04">[PSY]</font></b>, <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages. Si Sanji, Judge, Reiju, Ichiji, Niji et Yonji sont présents dans l'équipe, rend l'attaque Tandem possible.
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→15 puis 14 puis 13)</td>
-                <td>Multiplie l'ATK et les effets des cercles des personnages de classe Tenace par 2,25 pendant un tour, réduit la durée de "Paralysie" de 6 tours et devient "Sanji et Judge" pendant 3 tours.</td> 
+                <td>Multiplie l'ATK et les effets des cercles des personnages de classe Tenace par 2,25 pendant un tour, réduit la durée de "Paralysie" de 6 tours et devient "Sanji et Judge" pendant 3 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>
                             <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : Rend les cercles <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour le personnage.<br>
                             <b><font color="#ECAC04">Judge Vinsmoke</font></b> : Ajoute 50 en HP, ATK et RCV pour les personnages de classe Tenace.<br>
                             <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : Ajoute 75 en HP, ATK et RCV pour les personnages de classe Tenace.
-                        </td>                
+                        </td>
                     </tr>
                     <tr>
                         <td>Effets du changement</td>
@@ -315,77 +316,77 @@ position: absolute;
                         <td>Attaque Tandem</td>
                         <td>Si l'équipe contient 6 personnages ayant un cercle <b><font color="peru">[TND]</font></b> et s'ils attaquent dans un ordre précis (Yonji > Niji > Ichiji > Reiju > Sanji et Judge), inflige 0,5 fois les dégâts infligés par tous les personnages en dégâts non élémentaires sur tous les ennemis à la fin du tour.</td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b><font color="#ECAC04">[PSY]</font></b>, <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour les personnages de classe Tenace.</td>             
+                <td>Rend les cercles <b><font color="#ECAC04">[PSY]</font></b>, <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour les personnages de classe Tenace.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 7%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 7%.</td>
                     </tr>
-                    <tr>            
+                    <tr>
                 <td>Potential Ability 2</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-                    <tr>                         
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>                       
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Annule le “Lien des cercles” du personnage.</td>                       
+                        <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Sanji et Judge.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2446.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -407,4 +408,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

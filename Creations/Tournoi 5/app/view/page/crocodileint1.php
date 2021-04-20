@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,71 +223,71 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/U8urSBX.jpg"></center>  
-          <caption><img src="https://i.imgur.com/1TZ2TwZ.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/U8urSBX.jpg"></center>
+          <caption><img src="https://i.imgur.com/1TZ2TwZ.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Ancien Grand corsaire</small><br>Crocodile<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Ancien Grand corsaire</small><br>Crocodile<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
-              </tr>         
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>4020 puis 4234 après le dépassement de limites</td>             
+                <td>4020 puis 4234 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1930 puis 2080 après le dépassement de limites</td>             
+                <td>1930 puis 2080 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>234 puis 302 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>234 puis 302 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td><u>Haine du plus fort du monde :</u> Multiplie l'ATK des personnages de classe Intellectuel par 4, les HP par 1,2, rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour tous les personnages et réduit les dégâts subis de 15%. Si le coup spécial est utilisé, pendant un tour, multiplie l'ATK de tous les personnages par 4, les HP par 1,2, rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour tous les personnages, permet aux attaques normales d'ignorer les effets défensifs dont bénéficient les ennemis et inflige 10 fois son ATK en dégâts non élémentaires sur l'ennemi avec le plus d'HP.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (19→14 puis 12)</td>
                 <td><u>Ground Death :</u> Multiplie l'ATK des personnages de classe Intellectuel par 2,25 pendant un tour, change les cercles de tous les personnages en cercles <b><font color="#A916B6">[INT]</font></b>, annule les dégâts subis pendant un tour et multiplie les dégâts infligés par le personnage par 2 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 75 en HP, ATK et RCV pour les personnages de classe Intellectuel.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
                 <td>Augmente les dégâts infligés aux ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 7%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Augmente les dégâts infligés aux ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
                 <td>Augmente les dégâts infligés aux ennemis de type <b><font color="#ECAC04">PSY</font></b> de 7%.</td>
               </tr>
@@ -309,4 +310,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

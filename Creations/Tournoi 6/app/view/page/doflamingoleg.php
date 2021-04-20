@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,26 +223,26 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/rFgBAlB.png"></center>  
-          <caption><img src="https://i.imgur.com/ETu4lWC.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/rFgBAlB.png"></center>
+          <caption><img src="https://i.imgur.com/ETu4lWC.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Pirates à la tête de Dressrosa</small><br>Don Quijote Family<b></td>
-              </tr>         
-              <tr>                         
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#A916B6">INT</font> (Don Quijote Doflamingo) / <font color="#1CAC24">DEX</font> (Trébol, Pica et Diamante)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
                             <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
@@ -249,53 +250,53 @@ position: absolute;
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Coût</td>
-                        <td>55</td>                     
-                    </tr>       
-              <tr>            
+                        <td>55</td>
+                    </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : 4<br>
                             <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : 4<br>
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : 5
                         </td>
-              </tr>           
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>     
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : 3636 puis 4116 après le dépassement de limites puis 4616 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : 3636 puis 4116 après le dépassement de limites puis 4616 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : 3950 puis 4430 après le dépassement de limites puis 4930 après l'extension du dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : 1482 puis 1702 après le dépassement de limites puis 1902 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : 1481 puis 1701 après le dépassement de limites puis 1901 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : 1575 puis 1795 après le dépassement de limites puis 1995 après l'extension du dépassement de limites
-                        </td>           
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : 155 puis 255 après le dépassement de limites puis 345 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : 182 puis 282 après le dépassement de limites puis 372 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : 220 puis 320 après le dépassement de limites puis 410 après l'extension du dépassement de limites
-                        </td>   
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : Multiplie l'ATK des personnages de classe Ambitieux par 3,5, les HP par 1,2, rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Ambitieux et active la "cage à oiseaux".<br>
@@ -303,15 +304,15 @@ position: absolute;
                             <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : Multiplie l'ATK des personnages de classe Ambitieux par 4,5, les HP par 1,2, rend les cercles <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#A916B6">[INT]</font></b> et désavantageux avantageux pour les personnages de classe Ambitieux et active la "cage à oiseaux".<br>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Cage à oiseaux</td>
                 <td>Cet effet s'active automatiquement dès le début de la quête si le personnage est capitaine ou capitaine ami. Il est considéré comme étant un effet de carte pendant 99+ tours qui ne peut être ni accumulé, ni annulé. Après l'activation de cet effet, réduit la durée des effets positifs dont bénéficient les ennemis d'un tour au début de chaque tour pendant 99+ tours et enlève 5% des HP de chaque ennemi à la fin de chaque tour pendant 99+ tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (19→14 puis 13)</td>
                 <td>Multiplie les effets des cercles des personnages de classe Ambitieux par 2,5 pendant un tour si l'effet "Cage à oiseaux" est activé, sinon par 2,25, et devient "Don Quijote Family" pendant 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>
                             <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : Ajoute 50 en ATK pour les personnages de classe Ambitieux.<br>
@@ -323,77 +324,77 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Change son cercle (cercle <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercle correspondant et réduit la durée de "Lien", de "Désespoir du capitaine", de "Désespoir des coéquipiers" et de "Paralysie" de tous les personnages d'un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles désavantageux avantageux pour le personnage.</td>            
+                <td>Rend les cercles désavantageux avantageux pour le personnage.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>            
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 2</td>
                         <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>         
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>       
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Annule le “Lien des cercles” du personnage.</td>       
+                <td>Annule le “Lien des cercles” du personnage.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0104.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
                     </tr>
                 </tbody>
@@ -415,4 +416,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

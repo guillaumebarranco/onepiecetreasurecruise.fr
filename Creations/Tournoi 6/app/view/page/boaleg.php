@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,64 +223,64 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/x2oyfvs.png"></center>  
-          <caption><img src="https://i.imgur.com/JkOmv4q.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/x2oyfvs.png"></center>
+          <caption><img src="https://i.imgur.com/JkOmv4q.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Fureur des sœurs gorgones</small><br>Équipage Kuja<b></td>               
-              </tr>         
-              <tr>                         
+                <td><b><small>Fureur des sœurs gorgones</small><br>Équipage Kuja<b></td>
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#A916B6">INT</font> (Boa Hancock) / <font color="#1CAC24">DEX</font> (Boa Sandersonia et Boa Marigold)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Boa Hancock</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
                             <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Boa Hancock</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                             <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur<br>
                             <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
                         </td>
-                    </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#A916B6">Boa Hancock</font></b> : 3260 puis 3700 après le dépassement de limites<br>
                             <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : 3583 puis 4023 après le dépassement de limites<br>
                             <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : 3865 puis 4505 après le dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#A916B6">Boa Hancock</font></b> : 1590 puis 1810 après le dépassement de limites<br>
                             <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : 1490 puis 1710 après le dépassement de limites<br>
                             <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : 1682 puis 1902 après le dépassement de limites
-                        </td>           
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#A916B6">Boa Hancock</font></b> : 445 puis 545 après le dépassement de limites<br>
                             <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : 294 puis 394 après le dépassement de limites<br>
                             <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : 490 puis 590 après le dépassement de limites
-                        </td>   
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">Boa Hancock</font></b> : Multiplie l'ATK des personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b> par 3,5, les HP et la RCV par 1,2, rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b>, restaure les HP avec 0,5 fois sa RCV à chaque "PARFAIT" à la fin du tour et réduit la durée de "Lien des coups spéciaux" de 10 tours.<br>
@@ -287,7 +288,7 @@ position: absolute;
                             <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : Multiplie l'ATK des personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b> par 4,2, les HP et la RCV par 1,2, rend les cercles <b><font color="#A916B6">[INT]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b>, restaure les HP avec 1 fois sa RCV à chaque "PARFAIT" à la fin du tour et réduit la durée de "Lien des coups spéciaux" de 10 tours.<br>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (19→15 puis 14)</td>
                 <td>Inflige 75 fois son ATK en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs, change les cercles de tous les personnages en cercles <b><font color="#A916B6">[INT]</font></b> et <b><font color="#1CAC24">[DEX]</font></b>, multiplie l'ATK des personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b> par 2 pendant un tour et si au moins 3 personnages font un coup "PARFAIT",  multiplie les effets des cercles des personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b> par 2 au tour suivant.</td>
               </tr>
@@ -295,28 +296,28 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Réduit la durée de "Désespoir du capitaine" et de "Paralysie" de tous les personnages d'un tour et rend les effets de type de l'ATK du personnage avantageux contre tous les types pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 100 en HP, ATK et RCV pour les personnages de type <b><font color="#A916B6">INT</font></b> et <b><font color="#1CAC24">DEX</font></b>.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Immunise le personnage contre "Lien des coups spéciaux".</td>            
+                <td>Immunise le personnage contre "Lien des coups spéciaux".</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Augmentation d'ATK en cas de dégâts subis.</td>       
+                <td>Augmentation d'ATK en cas de dégâts subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Résistance à “Soin impossible”.</td>            
+                <td>Résistance à “Soin impossible”.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 3</td>
-                        <td>Soin d'urgence.</td>                         
+                        <td>Soin d'urgence.</td>
                     </tr>
                 </tbody>
           </table>
@@ -337,4 +338,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

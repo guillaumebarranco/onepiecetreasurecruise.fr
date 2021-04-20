@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,110 +226,110 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/KcKTepD.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Ace, Luffy et Sabo<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Ace, Luffy et Sabo<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>            
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>3430 puis 4030 après le dépassement de limites et avec les barbes à papa</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>1500 puis 1780 après le dépassement de limites et avec les barbes à papa</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>360 puis 580 après le dépassement de limites et avec les barbes à papa</td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#ECAC04">PSY</font></b> par 4,5 et les HP par 1,5. Multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> et <b><font color="#A916B6">INT</font></b> par 4 et les HP par 1,2. Augmente les chances d'apparition des cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b>, <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b>.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→13 puis 11)</td>
                 <td>Multiplie l'ATK de tous les personnages par 3 pendant un tour, change les cercles des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#ECAC04">PSY</font></b> en cercles correspondants et réduit la durée de "Désespoir du capitaine" de 3 tours.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Super type</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Super type</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Lorsque l'équipe comprend au moins 3 personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#ECAC04">PSY</font></b> se trouvent dans l'équipe (le personnage n'est pas comptabilisé).</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Special</td>
                         <td>Réduit la durée des effets négatifs subis par l'équipe de 3 tours et renforce les personnages de type <b><font color="#DC241C">STR</font></b> en les transformant en personnages de <b><font color="#DC241C">super type STR</font></b>.<br>
                         <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#DC241C">STR</font></b> par 2,5 contre les ennemis de type <b><font color="#1CAC24">DEX</font></b> et par 0,75 contre les ennemis de type <b><font color="#4C4CFF">QCK</font></b>.</small></td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Immunise le personnage contre "Lien".</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ajoute 50 en ATK pour les personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#ECAC04">PSY</font></b>.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
                         <td>Réduction de la durée de “Lien des cercles”.</td>
               </tr>
-              <tr>             
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Transpercement des barrières.</td>
               </tr>
-                    <tr>            
+                    <tr>
                 <td>Potential Ability 3</td>
-                <td>Attaque critique.</td>             
+                <td>Attaque critique.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Garp</ul><br>
                             <ul style="display: inline;">Curly Dadan</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de "Lien" de 1 tour si un personnage a été touché par le "Lien" (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de "Lien" et de "Désespoir du capitaine" de 1 tour si un personnage a été touché par le "Lien" ou le "Désespoir du capitaine" (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de "Lien" et de "Désespoir du capitaine" de 2 tours si un personnage a été touché par le "Lien" ou le "Désespoir du capitaine" (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de "Lien" et de "Désespoir du capitaine" de 2 tours et réduit la durée des réductions de dégâts dont bénéficient les ennemis de 2 tours si un personnage a été touché par le "Lien" ou le "Désespoir du capitaine" ou si un ennemi réduit les dégâts subis des ennemis (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de "Lien" et de "Désespoir du capitaine" de 3 tours et réduit la durée des réductions de dégâts dont bénéficient les ennemis de 3 tours si un personnage a été touché par le "Lien" ou le "Désespoir du capitaine" ou si un ennemi réduit les dégâts subis des ennemis (une fois par quête).</td>
                     </tr>
@@ -351,4 +352,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

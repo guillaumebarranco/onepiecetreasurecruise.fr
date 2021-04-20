@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,26 +223,26 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/AVGzUy1.png"></center>  
-          <caption><img src="https://i.imgur.com/H2gK91N.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/AVGzUy1.png"></center>
+          <caption><img src="https://i.imgur.com/H2gK91N.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Pirates voulant se venger de l'Empereur</small><br>Luffy et Kidd<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Pirates voulant se venger de l'Empereur</small><br>Luffy et Kidd<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Monkey D. Luffy) / <font color="#DC241C">STR</font> (Eustass Kidd)</p><b></td>
-              </tr>           
-              <tr>                        
+              </tr>
+              <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                             <b><font color="#DC241C">Eustass Kidd</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
@@ -249,34 +250,34 @@ position: absolute;
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
                         </td>
                     </tr>
-                    <tr>            
+                    <tr>
                       <td>Coût</td>
-                      <td>55</td>           
+                      <td>55</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Combo</td>
                         <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : 6<br>
                             <b><font color="#DC241C">Eustass Kidd</font></b> : 5<br>
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : 6
                         </td>
-                    </tr>     
-                    <tr>            
+                    </tr>
+                    <tr>
                       <td>Emplacements de pouvoirs</td>
-                      <td>5</td>          
-                    </tr>   
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                      <td>5</td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : 3957 puis 4307 après le dépassement de limites<br>
                             <b><font color="#DC241C">Eustass Kidd</font></b> : 3857 puis 4207 après le dépassement de limites<br>
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : 4157 puis 4507 après le dépassement de limites
-                        </td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : 1656 puis 1856 après le dépassement de limites<br>
@@ -284,18 +285,18 @@ position: absolute;
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : 1956 puis 2156 après le dépassement de limites
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : 335 puis 385 après le dépassement de limites<br>
                             <b><font color="#DC241C">Eustass Kidd</font></b> : 285 puis 335 après le dépassement de limites<br>
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : 385 puis 435 après le dépassement de limites
-                        </td>       
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : Multiplie l'ATK de tous les personnages par 3,5, les HP par 1,25 et rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages.<br><br>
@@ -305,7 +306,7 @@ position: absolute;
                             <small>Aucun dégât si aucun "PARFAIT" n'a été effectué au tour précédent, 100 fois son ATK si un "PARFAIT" a été effectué au tour précédent, 200 fois son ATK si 2 "PARFAIT" ont été effectués au tour précédent, 300 fois son ATK si 3 "PARFAIT" ont été effectués au tour précédent, 400 fois son ATK si 4 "PARFAIT" ont été effectués au tour précédent, 500 fois son ATK si 5 "PARFAIT" ont été effectués au tour précédent et 600 fois son ATK si 6 "PARFAIT" ont été effectués au tour précédent.</small>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→15 puis 14)</td>
                 <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : Inflige 300 fois son ATK en dégâts non élémentaires sur un ennemi en ignorant les effets défensifs, devient "Luffy et Kidd" pendant 3 tours et multiplie l'ATK de tous les personnages selon les cercles de l'équipe.<br>
@@ -318,88 +319,88 @@ position: absolute;
                             <ul style="display: inline;"><b>Tous les cercles sont identiques :</b> Par 2,5.</small></ul></td>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>
                   <b><font color="#DC241C">Monkey D. Luffy</font></b> : Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.<br>
                   <b><font color="#DC241C">Eustass Kidd</font></b> : Rend les cercles <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages.<br>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#DC241C">Kidd</font></b> : Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages.
-                </td>             
+                </td>
               </tr>
               <tr>
                 <td>Effets du changement</td>
                 <td>Libère le personnage de "Désespoir du capitaine", change les cercles de sa colonne en cercles de type, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> et ajoute 50 fois son ATK en dégâts additionnels non élémentaires pendant un tour.</td>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Immunise le personnage contre "Paralysie".</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>             
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>             
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>           
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>                       
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 9% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 9% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>                      
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>            
+                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0300.png" height="8%" width="8%"> <img src="https://i.imgur.com/83DcaEZ.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0100.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
                     </tr>
                 </tbody>
@@ -421,4 +422,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

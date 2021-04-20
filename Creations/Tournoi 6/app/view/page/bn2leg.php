@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,79 +223,79 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/0jgq5Gr.png"></center>  
-          <caption><img src="https://i.imgur.com/AN49ZgB.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/0jgq5Gr.png"></center>
+          <caption><img src="https://i.imgur.com/AN49ZgB.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>L'Empereur aux 2 milliards de Berrys</small><br>Marshall D. Teach "Barbe Noire"<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>            
+                <td><b><small>L'Empereur aux 2 milliards de Berrys</small><br>Marshall D. Teach "Barbe Noire"<b></td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+              </tr>
+              <tr>
                 <td>Coût</td>
-                <td>55</td>           
-              </tr>           
-              <tr>            
+                <td>55</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>5</td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>4</td>          
-              </tr> 
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>4</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>4536 puis 5136 après le dépassement de limites puis 5536 après l'extension du dépassement de limites</td>             
+                <td>4536 puis 5136 après le dépassement de limites puis 5536 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1605 puis 1923 après le dépassement de limites puis 2102 après l'extension du dépassement de limites</td>             
+                <td>1605 puis 1923 après le dépassement de limites puis 2102 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>25 puis 50 après le dépassement de limites puis 120 après l'extension du dépassement de limites</td>            
+                <td>25 puis 50 après le dépassement de limites puis 120 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Quête</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Quête</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Quête</td>
                 <td>Effectuer 12 "PARFAIT" d'affilée.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Récompense (passive)</td>
                 <td>Augmente les chances d'apparition des cercles <b><font color="maroon">[BOMB]</font></b> de 30% (cumulable avec la Captain Ability).</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Récompense (action de capitaine)</td>
                 <td>Consomme les cercles <b><font color="maroon">[BOMB]</font></b> et inflige des dégâts non élémentaires équivalents au nombre de cercles <b><font color="maroon">[BOMB]</font></b> consommés (15 fois son ATK par cercle <b><font color="maroon">[BOMB]</font></b> consommé) sur tous les ennemis en ignorant les effets défensifs à la fin du tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Ambitieux et Tenace par 3, les HP par 1,3 et les cercles <b><font color="#BC5C0C">[RCV]</font></b> sont remplacés par les cercles <b><font color="maroon">[BOMB]</font></b>. Bloque à 30% les chances d'apparition des cercles <b><font color="maroon">[BOMB]</font></b>, annule les dégâts subis par les cercles <b><font color="maroon">[BOMB]</font></b>, restaure les HP avec 0,1 fois la RCV de l'équipe à chaque cercle <b><font color="maroon">[BOMB]</font></b> consommé et 0,2 fois la RCV de l'équipe à chaque "PARFAIT" avec un cercle <b><font color="maroon">[BOMB]</font></b> à la fin du tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Captain Ability (après l'extension du dépassement de limites)</td>
                 <td>Multiplie l'ATK des personnages de classe Ambitieux et Tenace par 3,5, les HP par 1,3 et les cercles <b><font color="#BC5C0C">[RCV]</font></b> sont remplacés par les cercles <b><font color="maroon">[BOMB]</font></b>. Bloque à 30% les chances d'apparition des cercles <b><font color="maroon">[BOMB]</font></b>, annule les dégâts subis par les cercles <b><font color="maroon">[BOMB]</font></b>, restaure les HP avec 0,1 fois la RCV de l'équipe à chaque cercle <b><font color="maroon">[BOMB]</font></b> consommé et 0,2 fois la RCV de l'équipe à chaque "PARFAIT" avec un cercle <b><font color="maroon">[BOMB]</font></b> à la fin du tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (24→19 puis 15 puis 13)</td>
                 <td>Augmente le multiplicateur de combos selon le nombre de personnages ayant un cercle <b><font color="maroon">[BOMB]</font></b>.<br>
                 <ul style="display: inline;"><small><b>1 personnage :</b> Ajoute 0,2 au multiplicateur de combos pendant un tour.</ul><br>
@@ -304,76 +305,76 @@ position: absolute;
                 <ul style="display: inline;"><b>5 personnages :</b> Ajoute 1,0 au multiplicateur de combos pendant un tour.</ul><br>
                 <ul style="display: inline;"><b>6 personnages :</b> Ajoute 1,3 au multiplicateur de combos pendant 2 tours.</small></ul></td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Rend les cercles <b><font color="#A916B6">[INT]</font></b> et <b><font color="maroon">[BOMB]</font></b> avantageux pour les personnages de classe Ambitieux et Tenace.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Ne peut pas être projeté en dehors de l'écran.</td>             
+                <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>             
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 15 tours.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 2</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>         
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>         
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>         
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
                 </tbody>
           </table>
@@ -394,4 +395,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

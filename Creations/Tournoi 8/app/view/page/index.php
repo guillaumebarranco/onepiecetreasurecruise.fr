@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -218,10 +219,10 @@ position: absolute;
     <body>
       <h1><center><u>Tournoi de créations de personnages 8</u></center></h1>
         <h2><center><u>Participants</u></center></h2>
-      <table>         
-          <table align="center">        
+      <table>
+          <table align="center">
             <tbody>
-              <tr>            
+              <tr>
                 <td>
                   <a href="index.php?page=bbshanks">
                 <img src="https://i.imgur.com/O1sVNM8.png" alt="BBShanks"/>
@@ -264,7 +265,7 @@ position: absolute;
         <h3><center><u>Match 1</u></center></h3>
         <center><a href="index.php?page=bbshanks"><img src="https://i.imgur.com/O1sVNM8.png" alt="BBShanks"/></a> <a href="index.php?page=enerluffy"><img src="https://i.imgur.com/VFlv9Ru.png" alt="EnerLuffy"/></a></center>
         <table>
-      <table align="center" width="50%">        
+      <table align="center" width="50%">
             <tbody>
               <tr>
                 <td>
@@ -286,7 +287,7 @@ position: absolute;
         <h3><center><u>Match 2</u></center></h3>
         <center><a href="index.php?page=acebn"><img src="https://i.imgur.com/L93wJy3.png" alt="AceBN"/></a> <a href="index.php?page=kuzansakazuki"><img src="https://i.imgur.com/VkxDJFe.png" alt="KuzanSakazuki"/></a></center>
         <table>
-      <table align="center" width="50%">        
+      <table align="center" width="50%">
             <tbody>
               <tr>
                 <td>
@@ -308,7 +309,7 @@ position: absolute;
         <h3><center><u>Match 3</u></center></h3>
         <center><a href="index.php?page=rayleighkizaru"><img src="https://i.imgur.com/GsoqmWy.png" alt="RayleighKizaru"/></a> <a href="index.php?page=usoppluffy"><img src="https://i.imgur.com/IS52PRe.png" alt="UsoppLuffy"/></a></center>
         <table>
-      <table align="center" width="50%">        
+      <table align="center" width="50%">
             <tbody>
               <tr>
                 <td>
@@ -329,8 +330,8 @@ position: absolute;
 </table> -->
         <h2><center><u>Résultats</u></center></h2>
         <h3><center><u>Classement général</u></center></h3>
-        <table>         
-          <table id="classement" align="center">        
+        <table>
+          <table id="classement" align="center">
             <tbody>
               <tr>
                 <td id="classement"><center><b>Place</b></center></td>
@@ -406,4 +407,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

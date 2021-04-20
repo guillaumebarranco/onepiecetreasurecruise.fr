@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,125 +223,125 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/A2goU7C.png"></center>  
-          <caption><img src="https://i.imgur.com/3ahOVlP.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/A2goU7C.png"></center>
+          <caption><img src="https://i.imgur.com/3ahOVlP.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Un dieu parmis les hommes</small><br>Ener<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Un dieu parmis les hommes</small><br>Ener<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>            
-              </tr>         
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>3687 puis 3987 après le dépassement de limites</td>             
+                <td>3687 puis 3987 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1854 puis 2100 après le dépassement de limites</td>             
+                <td>1854 puis 2100 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>454 puis 550 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>454 puis 550 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td><u>Dieu unique des cieux :</u> Multiplie l'ATK des personnages de classe Ambitieux par 3,75, les HP par 1,25 et rend les cercles <b><font color="#ECAC04">[PSY]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ambitieux.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Action de capitaine (3 tours)</td>
                 <td><u>Châtiment divin :</u> Multiplie l'ATK des personnages de classe Ambitieux par 4, les HP par 1,25 et rend les cercles <b><font color="#ECAC04">[PSY]</font></b>, <b><font color="#A916B6">[INT]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ambitieux. Empêche le personnage d'attaquer pendant 2 tours, l'immunisant contre le "Désespoir du capitaine", le "Lien" et la projection hors de l'écran, et à la fin de chaque tour, inflige 23% des dégâts infligés par l'équipe en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs (les dégâts infligés par les coups spéciaux sont comptabilisés).</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→14)</td>
                 <td><u>Raigo :</u> Inflige 250 fois son ATK en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs, change son cercle en cercle <b><font color="#ECAC04">[PSY]</font></b>, bloque les cercles pendant un tour et multiplie les effets de type des ATK normales de tous les personnages par 2 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 125 en ATK pour les personnages de classe Ambitieux.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour le personnage.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Multiplie les dégâts infligés par le capitaine par 1,05.</td>             
+                <td>Multiplie les dégâts infligés par le capitaine par 1,05.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Multiplie les dégâts infligés par le capitaine par 1,075.</td>          
+                <td>Multiplie les dégâts infligés par le capitaine par 1,075.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Multiplie les dégâts infligés par le capitaine par 1,1.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Multiplie les dégâts infligés par le capitaine par 1,15.</td>  
+                <td>Multiplie les dégâts infligés par le capitaine par 1,15.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Multiplie les dégâts infligés par le capitaine par 1,2.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
                 <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 3%.</td>  
+                <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 5%.</td>        
+                <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 7%.</td>     
+                <td>Augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b> de 7%.</td>
               </tr>
                 </tbody>
           </table>
@@ -361,4 +362,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

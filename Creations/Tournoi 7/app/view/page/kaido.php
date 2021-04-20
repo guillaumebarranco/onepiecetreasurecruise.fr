@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,15 +226,15 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/qjkFFBf.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Équipage de Kaido<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Équipage de Kaido<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">R</font><font color="orange">A</font><font color="#ECAC04">I</font><font color="lime">N</font><font color="deepskyblue">B</font><font color="#4C4CFF">O</font><font color="#A916B6">W</font></td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                 <td>
                   <b><font color="#DC241C">Ka</font><font color="orange">id</font><font color="#ECAC04">o</font> <font color="lime">(for</font><font color="deepskyblue">me </font><font color="#4C4CFF">sim</font><font color="#A916B6">ple)</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
@@ -243,8 +244,8 @@ position: absolute;
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">simple)</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">Zoan)</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                 </td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Classe 2</td>
                 <td>
                   <b><font color="#DC241C">Ka</font><font color="orange">id</font><font color="#ECAC04">o</font> <font color="lime">(for</font><font color="deepskyblue">me </font><font color="#4C4CFF">sim</font><font color="#A916B6">ple)</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
@@ -255,14 +256,14 @@ position: absolute;
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">Zoan)</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Particularité</td>
                 <td>Le personnage commence dans sa "forme simple". Après chaque tour, vous gagnez un "tour de charge" (2 charges si le personnage est en mode "Équipage"). Au bout de 12 tours, le personnage passera en "forme Zoan". En mode "Équipage", seul King apparaît sur l'écran mais lorsque vous attaquerez, les 3 personnages apparaîtront. Le type <b><font color="#DC241C">R</font><font color="orange">A</font><font color="#ECAC04">I</font><font color="lime">N</font><font color="deepskyblue">B</font><font color="#4C4CFF">O</font><font color="#A916B6">W</font></b> rend les effets de type de l'ATK du personnage avantageux contre tous les types. Tous les cercles de type sont avantageux pour le personnage. L'augmentation des effets de type des ATK normales fonctionnera peu importe le type de l'ennemi. Le personnage conserve sa particularité qu'il soit joué en capitaine ou en coéquipier.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                   <b><font color="#DC241C">Ka</font><font color="orange">id</font><font color="#ECAC04">o</font> <font color="lime">(for</font><font color="deepskyblue">me </font><font color="#4C4CFF">sim</font><font color="#A916B6">ple)</font></b> : 4400 après l'extension du dépassement de limites et avec les barbes à papa<br>
@@ -273,7 +274,7 @@ position: absolute;
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">Zoan)</font></b> : 6200 après l'extension du dépassement de limites et avec les barbes à papa<br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                   <b><font color="#DC241C">Ka</font><font color="orange">id</font><font color="#ECAC04">o</font> <font color="lime">(for</font><font color="deepskyblue">me </font><font color="#4C4CFF">sim</font><font color="#A916B6">ple)</font></b> : 1750 après l'extension du dépassement de limites et avec les barbes à papa<br>
@@ -284,7 +285,7 @@ position: absolute;
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">Zoan)</font></b> : 2550 après l'extension du dépassement de limites et avec les barbes à papa<br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                   <b><font color="#DC241C">Ka</font><font color="orange">id</font><font color="#ECAC04">o</font> <font color="lime">(for</font><font color="deepskyblue">me </font><font color="#4C4CFF">sim</font><font color="#A916B6">ple)</font></b> : 350 après l'extension du dépassement de limites et avec les barbes à papa<br>
@@ -294,11 +295,11 @@ position: absolute;
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">simple)</font></b> : 350 après l'extension du dépassement de limites et avec les barbes à papa<br>
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">Zoan)</font></b> : 350 après l'extension du dépassement de limites et avec les barbes à papa<br>
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                   <b><font color="#DC241C">Ka</font><font color="orange">id</font><font color="#ECAC04">o</font> <font color="lime">(for</font><font color="deepskyblue">me </font><font color="#4C4CFF">sim</font><font color="#A916B6">ple)</font></b> : Multiplie l'ATK de tous les personnages par 3,5, les HP par 1,3 et réduit la durée de "Désespoir du capitaine" et de "Désespoir des coéquipiers" de 10 tours.<br>
@@ -309,7 +310,7 @@ position: absolute;
                   <b><font color="#DC241C">Équi</font><font color="orange">page </font><font color="#ECAC04">de</font> <font color="lime">Kai</font><font color="deepskyblue">do </font><font color="#4C4CFF">(forme</font> <font color="#A916B6">Zoan)</font></b> : Multiplie l'ATK de tous les personnages par 4,5, les HP par 1,3 et si l'équipe contient 6 personnages de classe Tenace ou Ravageur, multiplie l'ATK des personnages de classe Tenace et Ravageur par 5. Réduit la durée de "Désespoir du capitaine" et de "Désespoir des coéquipiers" de 10 tours.<br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (13)</td>
                 <td>Si le personnage est dans sa "forme simple", enlève 20% des HP de chaque ennemi, change les cercles de type de tous les personnages en cercles correspondants et si le personnage possède un cercle <b><font color="#DC241C">R</font><font color="orange">A</font><font color="#ECAC04">I</font><font color="lime">N</font><font color="deepskyblue">B</font><font color="#4C4CFF">O</font><font color="#A916B6">W</font></b>, multiplie l'ATK de tous les personnages par 2 pendant un tour si l'équipe contient 6 personnages de classe Tenace ou Ravageur, sinon par 1,75 pendant un tour. Si le personnage est dans sa "forme Zoan", enlève 20% des HP de chaque ennemi en ignorant les effets défensifs, change les cercles de type et les cercles <b style='color:darkslateblue'>[BLK]</b> de tous les personnages en cercles correspondants et si le personnage possède un cercle <b><font color="#DC241C">R</font><font color="orange">A</font><font color="#ECAC04">I</font><font color="lime">N</font><font color="deepskyblue">B</font><font color="#4C4CFF">O</font><font color="#A916B6">W</font></b>, multiplie l'ATK de tous les personnages par 2,25 pendant un tour si l'équipe contient 6 personnages de classe Tenace ou Ravageur, sinon par 2 pendant un tour. Devient "Équipage de Kaido" pendant 3 tours.</td>
               </tr>
@@ -317,28 +318,28 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Change son cercle (cercle <b style='color:darkslateblue'>[BLK]</b> inclus) en cercle <b><font color="#DC241C">R</font><font color="orange">A</font><font color="#ECAC04">I</font><font color="lime">N</font><font color="deepskyblue">B</font><font color="#4C4CFF">O</font><font color="#A916B6">W</font></b>, change les cercles <b><font color="maroon">[BOMB]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> des personnages de classe Tenace et Ravageur en cercles correspondants et multiplie les effets des cercles des personnages de classe Tenace et Ravageur par 1,5 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 150 en ATK pour les personnages de classe Tenace et Ravageur.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 11% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
                 </tbody>
           </table>
@@ -359,4 +360,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

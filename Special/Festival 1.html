@@ -32,9 +32,9 @@
             jQuery(function(){
                 $(function () {
                     $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) { 
+                        if ($(this).scrollTop() > 200 ) {
                             $('#scrollUp').css('right');
-                        } else { 
+                        } else {
                             $('#scrollUp').removeAttr( 'style' );
                         }
                     });
@@ -161,6 +161,7 @@ position: absolute;
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -235,71 +236,71 @@ position: absolute;
         <h2><center><u>Fiche de Sanji</u></center></h2>
         <center><img src="https://i.imgur.com/FoSBJbU.png"></center>
         <table>
-        	<table width="85%" align="center"> 	
-        	<caption><img src="https://i.imgur.com/w2DUYVd.png" height="50%" width="50%"></caption>	 		
+        	<table width="85%" align="center">
+        	<caption><img src="https://i.imgur.com/w2DUYVd.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Sanji<b></td>
         			</tr>
-              <tr>            
+              <tr>
                 <td>Histoire</td>
-                <td>Cuisinier de l'équipage de Chapeau de paille. Sur le chemin de l'île où est organisé le festival des pirates auquel il a été convié avec le reste de l'équipage, il décide de préparer de délicieux plats afin que tout le monde puisse bien profiter de la fête.</td>              
+                <td>Cuisinier de l'équipage de Chapeau de paille. Sur le chemin de l'île où est organisé le festival des pirates auquel il a été convié avec le reste de l'équipage, il décide de préparer de délicieux plats afin que tout le monde puisse bien profiter de la fête.</td>
               </tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#DC241C">STR</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#DC241C">STR</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>  				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
+        			</tr>
+        			<tr>
         				<td>Coût</td>
-        				<td>1</td>  					
-        			</tr> 					
-        			<tr> 						
+        				<td>1</td>
+        			</tr>
+        			<tr>
         				<td>Combo</td>
         				<td>5</td>
-        			</tr> 				 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Emplacements de pouvoirs</td>
-        				<td>4</td> 				 	
-        			</tr> 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Statistiques</b></center></td>				
+        				<td>4</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
+        				<td colspan="2"><center><b>Statistiques</b></center></td>
+        			</tr>
+        			<tr>
         				<td>HP</td>
-        				<td>1880</td> 	 				 	
+        				<td>1880</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>ATK</td>
-        				<td>1250</td> 	 				 	
+        				<td>1250</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>RCV</td>
-        				<td>220</td> 	 				 	
-        			</tr>  
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        				<td>220</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
+        			</tr>
+        			<tr>
         				<td>Captain Ability</td>
         				<td>Multiplie l'ATK des personnages de classe Cogneur par 1,5 et la RCV par 1,2.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Special (18→10)</td>
         				<td>Réduit la durée des "RCV en baisse" et de "Onomatopées dissimulées" de 10 tours, restaure 5 000 HP et mélange les cercles des personnages de classe Libre (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) aléatoirement en cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b>.</td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -312,96 +313,96 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% de la RCV du personnage en RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% de la RCV du personnage en RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% de la RCV du personnage en RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% de la RCV du personnage en RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 3% de la RCV du personnage en RCV pour les personnages soutenus.</td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <h2><center><u>Fiche de Nami</u></center></h2>
         <center><img src="https://i.imgur.com/8YXpFTy.png"></center>
         <table>
-          <table width="85%" align="center">  
-          <caption><img src="https://i.imgur.com/LKc62FI.png" height="50%" width="50%"></caption>      
+          <table width="85%" align="center">
+          <caption><img src="https://i.imgur.com/LKc62FI.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Nami<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Histoire</td>
                 <td>Navigatrice de l'équipage de Chapeau de paille. Bien que l'invitation au festival des pirates lui semble trop polie pour ne pas cacher quelque chose, elle n'oublie pas que toute chasse au trésor nécessite une solide préparation physique, raison pour laquelle elle profite du voyage pour faire un peu de gymnastique.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>        
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
                 <td>Coût</td>
-                <td>1</td>            
-              </tr>           
-              <tr>            
+                <td>1</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>5</td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>4</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>4</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>2320</td>             
+                <td>2320</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1090</td>             
+                <td>1090</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>200</td>            
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>200</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Ravageur par 1,5 et la RCV par 1,2.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→12)</td>
                 <td>Réduit les dégâts subis de 50% pendant un tour et réduit la durée des réductions de dégâts au-dessus d'un seuil et de "Résistance avec 1 HP" dont bénéficient les ennemis de 3 tours.</td>
               </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -414,96 +415,96 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-            </tbody>      
+            </tbody>
           </table>
         <h2><center><u>Fiche d'Usopp</u></center></h2>
         <center><img src="https://i.imgur.com/R0XIf3k.png"></center>
         <table>
-          <table width="85%" align="center">  
-          <caption><img src="https://i.imgur.com/c3SMNHm.png" height="50%" width="50%"></caption>      
+          <table width="85%" align="center">
+          <caption><img src="https://i.imgur.com/c3SMNHm.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Usopp<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Histoire</td>
-                <td>Tireur d'élite de l'équipage de Chapeau de paille. Sur le chemin de l'île où est organisé le festival des pirates auquel il a été convié avec le reste de l'équipage, son amour pour les chasses au trésor laisse soudain place à la peur lorsqu'il apprend que de dangereux pirates seront présents, si bien qu'il songe à feindre une mystérieuse maladie pour annuler sa participation.</td>              
+                <td>Tireur d'élite de l'équipage de Chapeau de paille. Sur le chemin de l'île où est organisé le festival des pirates auquel il a été convié avec le reste de l'équipage, son amour pour les chasses au trésor laisse soudain place à la peur lorsqu'il apprend que de dangereux pirates seront présents, si bien qu'il songe à feindre une mystérieuse maladie pour annuler sa participation.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>        
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>            
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+              </tr>
+              <tr>
                 <td>Coût</td>
-                <td>1</td>            
-              </tr>           
-              <tr>            
+                <td>1</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>4</td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>4</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>4</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>2070</td>             
+                <td>2070</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1170</td>             
+                <td>1170</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>215</td>            
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>215</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Libre par 2,25 et les HP par 1,2.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→11)</td>
                 <td>Inflige 20 fois son ATK en dégâts de type <b><font color="#A916B6">INT</font></b> sur tous les ennemis et multiplie les effets des cercles des personnages de classe Tireur par 1,75 pendant un tour.</td>
               </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -516,96 +517,96 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-            </tbody>      
+            </tbody>
           </table>
         <h2><center><u>Fiche de Nico Robin</u></center></h2>
         <center><img src="https://i.imgur.com/Itcfbdi.png"></center>
         <table>
-          <table width="85%" align="center">  
-          <caption><img src="https://i.imgur.com/JVnvfNN.png" height="50%" width="50%"></caption>      
+          <table width="85%" align="center">
+          <caption><img src="https://i.imgur.com/JVnvfNN.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Nico Robin<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Histoire</td>
-                <td>Archéologue de l'équipage de Chapeau de paille. Sur le chemin de l'île où est organisé le festival des pirates auquel elle a été conviée avec le reste de l'équipage, elle informe ses camarades des sombres rumeurs qui entourent l'homme à l'origine de cette invitation, un dénommé Festa.</td>              
+                <td>Archéologue de l'équipage de Chapeau de paille. Sur le chemin de l'île où est organisé le festival des pirates auquel elle a été conviée avec le reste de l'équipage, elle informe ses camarades des sombres rumeurs qui entourent l'homme à l'origine de cette invitation, un dénommé Festa.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>        
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>            
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
+              </tr>
+              <tr>
                 <td>Coût</td>
-                <td>1</td>            
-              </tr>           
-              <tr>            
+                <td>1</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>4</td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>4</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>4</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>2432</td>             
+                <td>2432</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1040</td>             
+                <td>1040</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>198</td>            
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>198</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> par 1,5 et les HP par 1,2.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→10)</td>
                 <td>Réduit la durée de "Paralysie" et de "Désespoir du capitaine" de 3 tours.</td>
               </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -618,31 +619,31 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 3% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
-            </tbody>      
+            </tbody>
           </table>
         <h2><center><u>Manuels disponibles</u></center></h2>
-        <table>                 
-            <table align="center" id="Lot">              
+        <table>
+            <table align="center" id="Lot">
                 <tbody>
                     <tr>
                         <td class="Cadre"><center><img src="https://i.imgur.com/oRhuG8p.png"> <img src="https://i.imgur.com/J8pHpO6.png"> <img src="https://i.imgur.com/iCE55A1.png"> <img src="https://i.imgur.com/UDw4LeC.png"> <img src="https://i.imgur.com/TUbeEh6.png"> <img src="https://i.imgur.com/i2c0Vq6.png"> <img src="https://i.imgur.com/gEKVL8m.png"> <img src="https://i.imgur.com/sJEJHS7.png"></center></td>
@@ -667,7 +668,7 @@ position: absolute;
                                         <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il restaurera 100 000 HP à l'équipe.<br>
                                         <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il réduira le temps de chargement des coups spéciaux de tous les personnages de 10 tours.<br>
                                         <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                      </ul> 
+                                      </ul>
                                   </ul>
                             </td>
                         </tr>
@@ -680,7 +681,7 @@ position: absolute;
                                       <ul>
                                         <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Elle parlera.<br>
                                         <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Elle partira.<br>
-                                      </ul> 
+                                      </ul>
                                   </ul>
                             </td>
                         </tr>

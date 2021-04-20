@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,26 +223,26 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/i1bGjX6.png"></center>  
-          <caption><img src="https://i.imgur.com/W1Rm7f2.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/i1bGjX6.png"></center>
+          <caption><img src="https://i.imgur.com/W1Rm7f2.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>La Bête assoiffée de justice</small><br>Rob Lucci<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>La Bête assoiffée de justice</small><br>Rob Lucci<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Forme Semi-Léopard Résurrection) / <font color="#4C4CFF">QCK</font> (Forme Léopard)</p><b></td>
-              </tr>           
-              <tr>                        
+              </tr>
+              <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Forme Semi-Léopard Résurrection</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#4C4CFF">Forme Léopard</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#DC241C">Forme Se</font></b><b><font color="#4C4CFF">mi-Léopard</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Forme Semi-Léopard Résurrection</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
@@ -249,18 +250,18 @@ position: absolute;
                             <b><font color="#DC241C">Forme Se</font></b><b><font color="#4C4CFF">mi-Léopard</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#DC241C">Forme Semi-Léopard Résurrection</font></b> : 4235 puis 4642 après le dépassement de limites<br>
                             <b><font color="#4C4CFF">Forme Léopard</font></b> : 4151 puis 4558 après le dépassement de limites<br>
                             <b><font color="#DC241C">Forme Se</font></b><b><font color="#4C4CFF">mi-Léopard</font></b> : 4475 puis 4882 après le dépassement de limites
-                        </td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#DC241C">Forme Semi-Léopard Résurrection</font></b> : 1652 puis 1862 après le dépassement de limites<br>
@@ -268,18 +269,18 @@ position: absolute;
                             <b><font color="#DC241C">Forme Se</font></b><b><font color="#4C4CFF">mi-Léopard</font></b> : 1688 puis 1898 après le dépassement de limites
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#DC241C">Forme Semi-Léopard Résurrection</font></b> : 212 puis 304 après le dépassement de limites<br>
                             <b><font color="#4C4CFF">Forme Léopard</font></b> : 301 puis 393 après le dépassement de limites<br>
                             <b><font color="#DC241C">Forme Se</font></b><b><font color="#4C4CFF">mi-Léopard</font></b> : 234 puis 326 après le dépassement de limites
-                        </td>       
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#DC241C">Forme Semi-Léopard Résurrection</font></b> : Multiplie l'ATK des personnages de classe Tenace et Ambitieux par 3,5 s'ils ont un cercle correspondant, sinon par 3, les HP par 1,25, réduit les dégâts subis de 10%, réduit la RCV de l'équipe de 25%, rend les cercles <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Tenace et Ambitieux et à chaque "PARFAIT" du personnage, réduit la durée des effets positifs et défensifs dont bénéficient les ennemis (icônes en haut à droite) d'un tour.<br><br>
@@ -287,7 +288,7 @@ position: absolute;
                             <b><font color="#DC241C">Forme Se</font></b><b><font color="#4C4CFF">mi-Léopard</font></b> : Multiplie l'ATK des personnages de classe Tenace et Ambitieux par 4,5 s'ils ont un cercle correspondant, sinon par 4, les HP par 1,25, réduit les dégâts subis de 10%, réduit la RCV de l'équipe de 25%, rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Tenace et Ambitieux et à chaque "PARFAIT" du personnage, réduit la durée des effets positifs et défensifs dont bénéficient les ennemis (icônes en haut à droite) de 2 tours et réduit la durée des effets négatifs de l'équipe (icônes en bas à gauche) de 2 tours.<br><br>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (12)</td>
                 <td>Inflige 200 fois son ATK en dégâts non élémentaires sur un ennemi en ignorant les effets défensifs, annule le "Lien des cercles" de tous les personnages, se transforme en "Semi-Léopard" pendant 3 tours et multiplie l'ATK des personnages de classe Tenace et Ambitieux selon le nombre d'effets dont la durée a été réduite d'un tour (si un coup "PARFAIT" réduit la durée de deux effets, les deux effets sont comptabilisés) avant l’activation du coup spécial pendant un tour.<br>
                 <ul style="display: inline;"><small><b>3 effets ou moins :</b> Par 2.</ul><br>
@@ -297,42 +298,42 @@ position: absolute;
               <tr>
                 <td>Effets du changement</td>
                 <td>Libère le personnage de "Lien" et de "Paralysie", change son cercle en cercle correspondant et change les cercles des personnages de classe Tenace et Ambitieux (sauf <b><font color="darkslateblue">[BLK]</font></b>) en cercles <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b>.</td>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 100 en HP et ATK pour les personnages de classe Tenace et Ambitieux et enlève 100 en RCV pour les personnages de classe Tenace et Ambitieux.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Tenace et Ambitieux.</td>
               </tr>
-              <tr>           
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 11% l'ATK du personnage en dégâts additionnels.</td>                       
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 11% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Personnages de classe Tenace</ul><br>
                             <ul style="display: inline;">Personnages de classe Ambitieux</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus, réduit la durée des réductions d'ATK de 2 tours et réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis de 2 tours si ces effets sont actifs.</td> 
+                        <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus, réduit la durée des réductions d'ATK de 2 tours et réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis de 2 tours si ces effets sont actifs.</td>
                     </tr>
                 </tbody>
           </table>
@@ -353,4 +354,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

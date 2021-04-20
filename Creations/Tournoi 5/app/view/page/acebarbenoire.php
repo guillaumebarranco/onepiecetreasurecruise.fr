@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,45 +223,45 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/vNzgFFm.png"></center>  
-          <caption><img src="https://i.imgur.com/qxc3SPZ.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/vNzgFFm.png"></center>
+          <caption><img src="https://i.imgur.com/qxc3SPZ.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Combat décisif sur l’île de Banaro</small><br>Ace et Barbe Noire<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Combat décisif sur l’île de Banaro</small><br>Ace et Barbe Noire<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#ECAC04">PSY</font> (Portgas D. Ace) / <font color="#A916B6">INT</font> (Marshall D. Teach)</p><b></td>
-              </tr>           
-              <tr>                        
+              </tr>
+              <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#A916B6">Marshall D. Teach</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
                             <b><font color="#A916B6">Marshall D. Teach</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
                         </td>
-                    </tr>        
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : 3215 puis 3690 après le dépassement de limites<br>
                             <b><font color="#A916B6">Marshall D. Teach</font></b> : 3815 puis 4290 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : 4030 puis 4505 après le dépassement de limites
-                        </td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : 1615 puis 1825 après le dépassement de limites<br>
@@ -268,18 +269,18 @@ position: absolute;
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : 1725 puis 1925 après le dépassement de limites
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : 235 puis 335 après le dépassement de limites<br>
                             <b><font color="#A916B6">Marshall D. Teach</font></b> : 415 puis 515 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : 465 puis 565 après le dépassement de limites
-                        </td>       
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : Multiplie l'ATK de tous les personnages par 3,5 s'ils ont un cercle <b><font color="#ECAC04">[PSY]</font></b>, sinon par 3, rend les cercles <b><font color="#ECAC04">[PSY]</font></b> avantageux pour tous les personnages et augmente les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b>.<br>
@@ -287,7 +288,7 @@ position: absolute;
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : Multiplie l'ATK de tous les personnages par 4,25, les HP par 1,4, rend les cercles <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour tous les personnages et empêche l'apparition des cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b>.
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (19→14 puis 12)</td>
                 <td>
                             Si <b><font color="#ECAC04">Portgas D. Ace</font></b> a vaincu le plus d'ennemis : Enlève tous les effets positifs à l'équipe, change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#ECAC04">[PSY]</font></b>, inflige des dégâts non élémentaires équivalents à 50 fois son ATK par cercles <b><font color="#ECAC04">[PSY]</font></b> consommés par le personnage (11 cercles au maximum) sur un ennemi en ignorant les effets défensifs et les effets d'"attaques normales uniquement", multiplie les effets des cercles de tous les personnages par 2,25 pendant un tour et devient "Ace et Barbe Noire" pendant 3 tours en prenant le type <b><font color="#ECAC04">PSY</font></b>.<br><br>
@@ -295,87 +296,87 @@ position: absolute;
                             Si <b><font color="#ECAC04">Portgas D. Ace</font></b> <b>et</b> <b><font color="#A916B6">Marshall D. Teach</font></b> ont vaincu le même nombre d'ennemis : Enlève tous les effets positifs à l'équipe, change les cercles des personnages de la colonne de gauche (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#ECAC04">[PSY]</font></b>, change les cercles des personnages de la colonne de droite (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#A916B6">[INT]</font></b>, multiplie les effets des cercles et les effets de type des ATK normales de tous les personnages par 2,25 pendant un tour et devient "Ace et Barbe Noire" pendant 3 tours.
                         </td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Crewmate Ability 1</td>
                         <td>
                             <b><font color="#ECAC04">Portgas D. Ace</font></b> : Ajoute 50 en ATK pour tous les personnages.<br>
                             <b><font color="#A916B6">Marshall D. Teach</font></b> : Ajoute 50 en RCV pour tous les personnages.<br>
                             <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : Ajoute 50 en HP, ATK et RCV pour tous les personnages.
-                        </td>                       
+                        </td>
                     </tr>
               <tr>
                 <td>Effets du changement</td>
                 <td>
                             De <b><font color="#ECAC04">Portgas D. Ace</font></b> à <b><font color="#A916B6">Marshall D. Teach</font></b> : Libère le personnage de "Désespoir du capitaine", consomme tous les cercles <b><font color="#ECAC04">[PSY]</font></b>, restaure les HP avec 3 fois sa RCV par cercle <b><font color="#ECAC04">[PSY]</font></b> consommé et change les cercles <b><font color="#777">[EMP]</font></b> en cercles <b><font color="#A916B6">[INT]</font></b>.<br>
                             De <b><font color="#A916B6">Marshall D. Teach</font></b> à <b><font color="#ECAC04">Portgas D. Ace</font></b> : Libère le personnage de "Désespoir du capitaine", change les cercles <b><font color="#A916B6">[INT]</font></b> en cercles <b><font color="#ECAC04">[PSY]</font></b> et inflige des dégâts non élémentaires équivalents à 30 fois son ATK par cercle <b><font color="#A916B6">[INT]</font></b> changé en cercle <b><font color="#ECAC04">[PSY]</font></b> sur un ennemi.
-                        </td>  
+                        </td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>                       
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Annule le “Lien des cercles” du personnage.</td>                       
+                        <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 4 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
                 </tbody>
           </table>
@@ -396,4 +397,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

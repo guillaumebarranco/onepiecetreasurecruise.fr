@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,82 +223,82 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/V0M9Pab.png"></center>  
-          <caption><img src="https://i.imgur.com/Pvm0tvf.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/V0M9Pab.png"></center>
+          <caption><img src="https://i.imgur.com/Pvm0tvf.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Franky<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Franky<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>            
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Coût</td>
-                        <td>60</td>                     
+                        <td>60</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>1 puis 5 après le dépassement de limites</td>           
+                <td>1 puis 5 après le dépassement de limites</td>
               </tr>
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>            
+                    <tr>
                 <td>HP</td>
-                <td>3238 puis 3638 après le dépassement de limites puis 3988 après l'extension du dépassement de limites</td>             
+                <td>3238 puis 3638 après le dépassement de limites puis 3988 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1406 puis 1656 après le dépassement de limites puis 1856 après l'extension du dépassement de limites</td>             
+                <td>1406 puis 1656 après le dépassement de limites puis 1856 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>278 puis 403 après le dépassement de limites puis 503 après l'extension du dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>278 puis 403 après le dépassement de limites puis 503 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability (après le dépassement de limites)</td>
                 <td>Multiplie l'ATK des personnages de classe Tireur et Tenace par 3,5 et réduit les dégâts subis de 20%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (36→29 puis 14)</td>
                 <td>Enlève 15% des HP d'un ennemi et multiplie les effets des cercles des personnages de classe Tireur et Tenace selon le nombre d'ennemis présents au moment où le coup spécial est activé pendant un tour.<br>
                 <ul style="display: inline;"><small><b>2 ennemis ou moins :</b> Multiplie les effets des cercles des personnages de classe Tireur et Tenace par 2.</ul><br>
                 <ul style="display: inline;"><b>3 à 4 ennemis :</b> Multiplie les effets des cercles des personnages de classe Tireur et Tenace par 2,25.</ul><br>
                 <ul style="display: inline;"><b>5 ennemis ou plus :</b> Multiplie les effets des cercles des personnages de classe Tireur et Tenace par 2,5.</small></ul></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ajoute 50 en HP, ATK et RCV pour les personnages de classe Tireur et Tenace.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Transpercement des barrières.</td>                         
+                        <td>Transpercement des barrières.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Résistance à “Lien des cercles”.</td>            
+                <td>Résistance à “Lien des cercles”.</td>
               </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -310,9 +311,9 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>   
+                        <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
                 </tbody>
           </table>
@@ -333,4 +334,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

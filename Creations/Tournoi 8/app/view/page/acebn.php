@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,59 +226,59 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/iCYg8EZ.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Ace VS Barbe Noire<b></td>              
+                <td><b>Ace VS Barbe Noire<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Ace) / <font color="#A916B6">INT</font> (Barbe Noire)</p><b></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Ace</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
                             <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Ace</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                     <b><font color="#DC241C">Ace</font></b> : 3810 puis 4301 après le dépassement de limites puis 4826 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Barbe Noire</font></b> : 3614 puis 4102 après le dépassement de limites puis 4526 après l'extension du dépassement de limites<br>
                     <b><font color="#DC241C">Ace</font></b> <b>VS</b> <b><font color="#A916B6">Barbe Noire</font></b> : 3713 puis 4199 après le dépassement de limites puis 4677 après l'extension du dépassement de limites<br>
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                     <b><font color="#DC241C">Ace</font></b> : 1558 puis 1800 après le dépassement de limites puis 2002 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Barbe Noire</font></b> : 1607 puis 1912 après le dépassement de limites puis 2109 après l'extension du dépassement de limites<br>
                     <b><font color="#DC241C">Ace</font></b> <b>VS</b> <b><font color="#A916B6">Barbe Noire</font></b> : 1701 puis 2005 après le dépassement de limites puis 2215 après l'extension du dépassement de limites<br>
-                </td>     
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                     <b><font color="#DC241C">Ace</font></b> : 230 puis 298 après le dépassement de limites puis 341 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Barbe Noire</font></b> : 210 puis 270 après le dépassement de limites puis 302 après l'extension du dépassement de limites<br>
                     <b><font color="#DC241C">Ace</font></b> <b>VS</b> <b><font color="#A916B6">Barbe Noire</font></b> : 230 puis 288 après le dépassement de limites puis 324 après l'extension du dépassement de limites<br>
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                     <b><font color="#DC241C">Ace</font></b> : Au début du combat l'équipe reçoit 99 tours de brulure, reçoit 5 000 points de dégâts par coup "PARFAIT". Multiplie la RCV de tous les personnages par 1,25, multiplie les HP de tous les personnages par 1.25. Multiplie l'ATK de tous les personnages par 4.25, après un enchainement suivant "PARFAIT" "BIEN", "SUPER" multiplie l'ATK de tous les personnages par 5. Si l'équipe réussit 2 "PARFAIT" ou plus pendant un tour inflige 400x l'ATK du personnage aux ennemis, et rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour tous les personnages.<br>
@@ -286,8 +287,8 @@ position: absolute;
                       <ul style="display: inline;"><small><b>1-2 "BIEN" :</b> Enlève 10% des HP de chaque ennemi.</ul><br>
                       <ul style="display: inline;"><b>3 "BIEN" :</b> Enlève 20% des HP de chaque ennemi.</ul><br>
                       <ul style="display: inline;"><b>4 "BIEN" :</b> Enlève 30% des HP de chaque ennemi.</small></ul><br>
-                </td>    
-              <tr>            
+                </td>
+              <tr>
                 <td>Special</td>
                 <td>
                     <b><font color="#DC241C">Ace</font></b> : Rend les cercles <b><font color="#A916B6">[INT]</font></b> et <b><font color="#ECAC04">[PSY]</font></b> avantageux pour tous les membres de l'équipe. Inflige 600 000 dégâts aux adversaires par nombre de "PARFAIT" réussis pendant le combat (6 000 000 au maximum). Si l'adversaire possède une immunité, bloque le multiplicateur de combos à 3.25 pendant un tour. Multiplie l'ATK de tous les personnages x2.25 pendant 2 tours, si les HP de l'équipe sont en dessous de 20% au moment de déclencher le coup spécial, multiplie l'ATK de tous les personnages x2.5 pendant 1 tour.<br>
@@ -298,14 +299,14 @@ position: absolute;
                     <ul style="display: inline;"><b>6 "PARFAIT"  :</b> Ajoute 500 en ATK de base pour tous les personnages.</small></ul></td>
                 </td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Effet "VS"</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Effet "VS"</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Lorsque l'équipe a effectué 6 "PARFAIT" ou plus pendant le combat.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Activation d'effets</td>
                         <td>
                           <b><font color="#DC241C">Ace</font></b> : Permet d'annuler un effet négatif au choix subit par l'équipe. Annule les dégâts subis pendant 1 tour et multiplie les effets des cercles des personnages x2.25 pendant 1 tour.<br>
@@ -332,4 +333,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

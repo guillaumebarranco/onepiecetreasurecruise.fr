@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,49 +226,49 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/H0f1Pvs.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Héritier du Enma « Sabre capable de trancher jusqu’au fin fond des enfers »</small><br>Zoro<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Héritier du Enma « Sabre capable de trancher jusqu’au fin fond des enfers »</small><br>Zoro<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Coût</td>
-                <td>55</td>           
-              </tr>         
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>     
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>55</td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>4050 puis 4450 après le dépassement de limites puis 4650 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>1956 puis 2156 après le dépassement de limites puis 2356 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>250 puis 300 après le dépassement de limites puis 450 après l'extension du dépassement de limites</td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Les cercles de type sont remplacés par les cercles <b><font color="saddlebrown">[RYUO]</font></b>, rend les cercles <b><font color="saddlebrown">[RYUO]</font></b> avantageux pour tous les personnages, augmente les chances d'apparition des cercles <b><font color="saddlebrown">[RYUO]</font></b> et les cercles <b><font color="#BC5C0C">[RCV]</font></b>, <b><font color="peru">[TND]</font></b> et arc-en-ciel sont remplacés par les cercles <b><font color="orange">[REPOS]</font></b>. Multiplie les HP des personnages de classe Sabreur par 1,35 et multiplie l'ATK des personnages de classe Sabreur par 5 s'ils ont un cercle <b><font color="saddlebrown">[SUPER RYUO]</font></b>, par 4,5 s'ils ont un cercle <b><font color="saddlebrown">[RYUO]</font></b> et par 4 s'ils ont un cercle <b><font color="orange">[REPOS]</font></b>.<br><br>
                 Explications des cercles <b><font color="saddlebrown">[RYUO]</font></b> et <b><font color="saddlebrown">[SUPER RYUO]</font></b> :<br>
@@ -278,18 +279,18 @@ position: absolute;
                   <ul style="display: inline;">Les cercles <b><font color="orange">[REPOS]</font></b> restaurent les HP avec 2,25 fois la RCV du personnage mais réduisent de 80% les HP restaurés par les coups spéciaux si un personnage possède un cercle <b><font color="orange">[REPOS]</font></b>.</ul><br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→14 puis 12 puis 11)</td>
                 <td>Enlève 25% des HP de tous les ennemis, inflige 300 fois son ATK en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs et ajoute 300 en ATK de base des personnages de classe Sabreur pendant 3 tours.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Super type</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Super type</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Le personnage doit être capitaine ou capitaine ami et 2 500 000 points de dégâts doivent avoir été infligés en un tour en utilisant au maximum un coup spécial.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Special</td>
                         <td>Change les cercles des personnages la colonne du personnage en cercles <b><font color="saddlebrown">[SUPER RYUO]</font></b>, permet au prochain coup spécial d'ignorer les effets d'"Attaques normales uniquement" ainsi que les interruptions des coups spéciaux suite à un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis et renforce le type des personnages de classe Sabreur en les transformant en personnages de <b><font color="#DC241C">super type de classe Sabreur</font></b>.<br>
                         <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#DC241C">STR</font></b> par 2,5 contre les ennemis de type <b><font color="#1CAC24">DEX</font></b> et par 0,75 contre les ennemis de type <b><font color="#4C4CFF">QCK</font></b>.</small><br>
@@ -298,81 +299,81 @@ position: absolute;
                         <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#ECAC04">PSY</font></b> par 2,5 contre les ennemis de type <b><font color="#A916B6">INT</font></b>.</small><br>
                         <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#A916B6">INT</font></b> par 2,5 contre les ennemis de type <b><font color="#ECAC04">PSY</font></b>.</small></td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Rend les effets de type de l'ATK du personnage avantageux contre les ennemis de type <b><font color="#ECAC04">PSY</font></b>.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#ECAC04">[PSY]</font></b> avantageux pour tous les personnages si le capitaine est un personnage de classe Sabreur ou Ravageur.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td> 
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 275 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 275 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>            
+                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>           
+                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>     
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>           
+                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>     
+                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Kikunojo (O-Kiku)</ul><br>
@@ -383,7 +384,7 @@ position: absolute;
                             <ul style="display: inline;">Kawamatsu</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Bloque le minimum du multiplicateur de combos à 1,4 pendant un tour au début du dernier stage d'une quête.</td>
                     </tr>
@@ -406,4 +407,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

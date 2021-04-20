@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,173 +223,173 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/Ap0Obhv.png"></center>  
-          <caption><img src="https://i.imgur.com/RWkq9sS.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/Ap0Obhv.png"></center>
+          <caption><img src="https://i.imgur.com/RWkq9sS.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Superstar de l'équipage des cent bêtes</small><br>Jack la sécheresse<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>            
+                <td><b><small>Superstar de l'équipage des cent bêtes</small><br>Jack la sécheresse<b></td>
               </tr>
-              <tr>                        
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+              </tr>
+              <tr>
                         <td>Coût</td>
-                        <td>65</td>                     
-                    </tr>                               
-                    <tr>                        
+                        <td>65</td>
+                    </tr>
+                    <tr>
                         <td>Combo</td>
                         <td>5</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>5</td>                  
-                    </tr>    
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>5</td>
                     </tr>
-                    <tr>            
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                 <td>HP</td>
-                <td>3762 puis 4277 après le dépassement de limites</td>             
+                <td>3762 puis 4277 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1646 puis 1848 après le dépassement de limites</td>             
+                <td>1646 puis 1848 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>206 puis 296 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>206 puis 296 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie l'ATK de tous les personnages par 3, les HP par 1,25 et l'EXP gagnée par 2,25. Si le coup spécial est utilisé, multiplie l'ATK de tous les personnages par 3,5 pendant 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→14 puis 13)</td>
                 <td>Enlève 20% des HP de chaque ennemi en ignorant les effets défensifs, ajoute un tour aux réductions de dégâts, aux réductions de dégâts au-dessus d'un seuil, aux dégâts à la fin de chaque tour et aux restaurations d'HP à la fin de chaque tour et si le personnage est capitaine ou capitaine ami, réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour et rend les cercles de type, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages pendant 3 tours.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
-                <td>Ajoute 60 en HP, ATK et RCV pour tous les personnages.</td>             
+                <td>Ajoute 60 en HP, ATK et RCV pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b><font color="#4C4CFF">[QCK]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour le personnage.</td>             
+                <td>Rend les cercles <b><font color="#4C4CFF">[QCK]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour le personnage.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 7%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 7%.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 10%.</td>                       
+                        <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 10%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 15%.</td>                       
+                        <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 15%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 20%.</td>                       
+                        <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 20%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>                         
+                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>                         
+                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Kaido</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 6% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 7% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 9% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 11% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 13% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>   
+                        <td>Ajoute 13% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/red_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0095.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0300.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Jack.html"><img src="https://i.imgur.com/oBDGGbY.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -410,4 +411,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

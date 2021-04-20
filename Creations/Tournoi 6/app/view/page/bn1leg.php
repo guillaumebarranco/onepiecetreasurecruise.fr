@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,26 +223,26 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/eKDpHwS.png"></center>  
-          <caption><img src="https://i.imgur.com/F2A7VSF.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/eKDpHwS.png"></center>
+          <caption><img src="https://i.imgur.com/F2A7VSF.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Quatre Empereurs</small><br>Barbe Noire - Ténèbres et Tremblements<b></td>
-              </tr>         
-              <tr>                         
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#A916B6">INT</font> (Barbe Noire - Ténèbres) / <font color="#A916B6">INT</font> (Barbe Noire - Tremblements)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
@@ -249,53 +250,53 @@ position: absolute;
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Coût</td>
-                        <td>55</td>                     
-                    </tr>       
-              <tr>            
+                        <td>55</td>
+                    </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : 5<br>
                             <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : 4<br>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : 5
                         </td>
-              </tr>           
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>     
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : 3870 puis 4370 après le dépassement de limites puis 4870 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : 3870 puis 4370 après le dépassement de limites puis 4870 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : 4270 puis 4770 après le dépassement de limites puis 5270 après l'extension du dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : 1602 puis 1852 après le dépassement de limites puis 2102 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : 1602 puis 1852 après le dépassement de limites puis 2102 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : 1664 puis 1914 après le dépassement de limites puis 2164 après l'extension du dépassement de limites
-                        </td>           
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : 142 puis 217 après le dépassement de limites puis 292 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : 142 puis 217 après le dépassement de limites puis 292 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : 184 puis 259 après le dépassement de limites puis 334 après l'extension du dépassement de limites
-                        </td>   
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : Multiplie l'ATK des personnages de classe Libre, Intellectuel, Tenace et Ambitieux par 3,75, les HP par 1,35, augmente les chances d'apparition des cercles <b><font color="#A916B6">[INT]</font></b>, rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Libre, Intellectuel, Tenace et Ambitieux et inflige 30 fois les dégâts subis au tour précédent en dégâts non élémentaires sur tous les ennemis à la fin de chaque tour. Permet aux attaques normales d'ignorer les effets défensifs dont bénéficient les ennemis et l'équipe.<br>
@@ -303,14 +304,14 @@ position: absolute;
                             <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : Multiplie l'ATK des personnages de classe Libre, Intellectuel, Tenace et Ambitieux par 4,5, les HP par 1,35, augmente les chances d'apparition des cercles <b><font color="#A916B6">[INT]</font></b>, rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Libre, Intellectuel, Tenace et Ambitieux, enlève 20% des HP de chaque ennemi au début de chaque tour et inflige 30 fois les dégâts subis au tour précédent en dégâts non élémentaires sur tous les ennemis à la fin de chaque tour. Permet aux attaques normales d'ignorer les effets défensifs dont bénéficient les ennemis et l'équipe.<br>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (19→14 puis 13)</td>
                 <td>
                   <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : Inflige 50 fois les dégâts subis au tour précédent en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs, change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#A916B6">[INT]</font></b>, réduit la durée de "Lien", de "Désespoir du capitaine" et de "Brûlure" de 7 tours, ajoute 1,5 au multiplicateur de combos pendant un tour et devient "Barbe Noire - Ténèbres et Tremblements" pendant 3 tours.<br>
                   <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : Enlève 30% des HP de chaque ennemi en ignorant les effets défensifs, change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#A916B6">[INT]</font></b>, réduit la durée de "Lien", de "Désespoir du capitaine" et de "Brûlure" de 7 tours, bloque le multiplicateur de combos à 3,75 pendant un tour et devient "Barbe Noire - Ténèbres et Tremblements" pendant 3 tours.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>
                             <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : Ajoute 50 en HP et ATK pour les personnages de classe Libre, Intellectuel, Tenace et Ambitieux.<br>
@@ -322,77 +323,77 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Change son cercle (cercle <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercle correspondant, réduit la durée de "Lien", de "Désespoir du capitaine" et de "Paralysie" de tous les personnages d'un tour et multiplie l'ATK et les effets des cercles de tous les personnages par 1,5 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles de type, <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour le personnage.</td>            
+                <td>Rend les cercles de type, <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour le personnage.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>             
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0104.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0099.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0304.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
                     </tr>
                 </tbody>
@@ -414,4 +415,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

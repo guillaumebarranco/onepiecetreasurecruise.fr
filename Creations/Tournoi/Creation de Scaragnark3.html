@@ -32,9 +32,9 @@
             jQuery(function(){
                 $(function () {
                     $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) { 
+                        if ($(this).scrollTop() > 200 ) {
                             $('#scrollUp').css('right');
-                        } else { 
+                        } else {
                             $('#scrollUp').removeAttr( 'style' );
                         }
                     });
@@ -161,6 +161,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -236,89 +237,89 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
         	<table align="center">
-            <center><img src="img/fScaragnark3.png"></center> 	
-        	<caption><img src="img/cScaragnark3.png" height="50%" width="50%"></caption>	 		
+            <center><img src="img/fScaragnark3.png"></center>
+        	<caption><img src="img/cScaragnark3.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b>Gecko Moria<b></td>
-        			</tr>	 			 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#1CAC24">DEX</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>  				 	
-        			</tr> 	             
-                    <tr>                        
+        				<td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+        			</tr>
+                    <tr>
                         <td>Combo</td>
                         <td>5</td>
-                    </tr>                   
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>5</td>                  
-                    </tr>								
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>5</td>
                     </tr>
-                    <tr>                        
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                         <td>HP</td>
-                        <td>3743 puis 3993 après le dépassement de limites</td>                         
+                        <td>3743 puis 3993 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
-                        <td>1586 puis 1776 après le dépassement de limites</td>                         
+                        <td>1586 puis 1776 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
-                        <td>265 puis 345 après le dépassement de limites</td>                       
-                    </tr>   				 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+                        <td>265 puis 345 après le dépassement de limites</td>
+                    </tr>
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Captain Ability</td>
         				<td>Multiplie l'ATK des personnages de classe Cogneur et Tenace par 3,5 et multiplie les HP des personnages de classe Cogneur et Tenace par 1,25. Pour chaque ennemi que Moria (capitaine et capitaine ami) élimine, il(s) absorbe(ent) une ombre (10 ombres au maximum). Augmente les chances d'apparition des cercles correspondants pour les personnages de classe Cogneur et Tenace et si le coup spécial est utilisé lorsque 10 ombres ont été absorbés, multiplie l'ATK des personnages de classe Cogneur et Tenace par 3,75 pendant 3 tours.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Special (19→13)</td>
         				<td>Change les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> des personnages de classe Cogneur et Tenace en cercles correspondants et change le cercle du personnage en cercle correspondant (cercle <b><font color="darkslateblue">[BLK]</font></b> inclus). Si le personnage est capitaine, consomme toutes les ombres absorbés et offres des effets selon le nombre d'ombres consommées :
                         <li>3 ombres : Multiplie l'ATK des personnages de classe Cogneur et Tenace par 1,5 pendant un tour.</li>
                         <li>6 ombres : Multiplie l'ATK des personnages de classe Cogneur et Tenace par 1,5 pendant un tour et ajoute 0,3 au multiplicateur de combos pendant un tour..</li>
                         <li>10 ombres : Multiplie l'ATK des personnages de classe Cogneur et Tenace par 2 pendant un tour, ajoute 0,5 au multiplicateur de combos pendant un tour et ajoute 80 fois son ATK en dégâts élémentaires pendant un tour.</li></td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Crewmate Ability 1</td>
         				<td>Ajoute 80 en ATK pour les personnages de classe Cogneur et Tenace.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Crewmate Ability 2</td>
         				<td>Réduit la durée de "Lien des coups spéciaux" du personnage de 3 tours.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
                         <td>Réduit les dégâts subis des ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
                         <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Potential Ability 3</td>
-        				<td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td> 	 				 	
+        				<td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Don Quijote Doflamingo</ul><br>
@@ -327,11 +328,11 @@ position: absolute;
                             <ul style="display: inline;">Dracule Mihawk</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 15% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <script type="text/javascript" src="../../Accueil/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../../Accueil/js/popper.min.js"></script>

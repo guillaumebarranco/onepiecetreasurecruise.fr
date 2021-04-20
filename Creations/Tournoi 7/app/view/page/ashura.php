@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,161 +226,161 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/nYnr2Ps.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Ashura Doji (Shutenmaru)<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Ashura Doji (Shutenmaru)<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>4159 puis 4679 après le dépassement de limites puis 5179 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>1814 puis 2094 après le dépassement de limites puis 2374 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>349 puis 449 après le dépassement de limites puis 499 après l'extension du dépassement de limites</td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Sabreur, Intellectuel et Ravageur par 5,5 si les HP sont au maximum ou au-delà des HP maximum, sinon par 5, et les HP par 1,35. Si l'équipe a fait 22 coups ou plus durant le tour, change les cercles de tous les personnages en cercles correspondants au tour suivant. Les cercles correspondants sont remplacés par les cercles <b><font color="#FF1493">[SHU]</font></b>. Rend les cercles <b><font color="#FF1493">[SHU]</font></b> avantageux pour tous les personnages et si l'équipe ne fait pas au moins 12 coups durant le tour, change les cercles de tous les personnages en cercles <b><font color="#777">[EMP]</font></b> au tour suivant.<br><br>
                 Explications des cercles <b><font color="#FF1493">[SHU]</font></b> :<br>
                   <ul style="display: inline;">Les cercles <b><font color="#FF1493">[SHU]</font></b> restaurent 2 111 HP si le personnage effectue un coup "PARFAIT", 1 333 HP si le personnage effectue un coup "SUPER" et 777 HP si le personnage effectue un coup "BIEN".</ul><br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→12)</td>
                 <td>Ajoute 33 fois le nombre de cercles <b><font color="#FF1493">[SHU]</font></b> consommés avant l'activation du coup spécial à l'ATK de base de tous les personnages pendant un tour (au maximum 1000 avec 30 cercles consommés), multiplie les effets des cercles de tous les personnages par 2,25 après le 10ème coup dans le combo pendant un tour et multiplie les effets de type des ATK normales des personnages de classe Sabreur, Intellectuel et Ravageur par 2 après le 15ème coup dans le combo pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Super type</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Super type</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>66 coups doivent avoir été comptabilisés depuis le début du combat.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Special</td>
                         <td>Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour, annule les effets défensifs dont bénéficient les ennemis contre les ATK normales de tous les personnages pendant un tour et renforce les personnages de type <b><font color="#A916B6">INT</font></b> en les transformant en personnages de <b><font color="#A916B6">super type INT</font></b>.<br>
                         <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#A916B6">INT</font></b> par 2,5 contre les ennemis de type <b><font color="#ECAC04">PSY</font></b>.</small></td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Rend les cercles <b><font color="#ECAC04">[PSY]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Si le personnage est le dernier à attaquer, ajoute 99 en ATK pour le personnage.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
                         <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>             
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
               </tr>
-                    <tr>            
+                    <tr>
                 <td>Potential Ability 3</td>
-                <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Personnages de classe Sabreur</ul><br>
                             <ul style="display: inline;">Personnages de classe Intellectuel</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et réduit la durée des réductions d'ATK de 2 tours si l'ATK de l'équipe est réduite (une fois par quête).</td>
                     </tr>
@@ -402,4 +403,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

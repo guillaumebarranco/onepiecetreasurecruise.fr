@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,70 +226,70 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/FHsQrLZ.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Rayleigh VS Kizaru<b></td>              
+                <td><b>Rayleigh VS Kizaru<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#A916B6">INT</font> (Rayleigh) / <font color="#DC241C">STR</font> (Kizaru)</p><b></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Rayleigh</font></b> : Intelllectuel<br>
                             <b><font color="#DC241C">Kizaru</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Rayleigh</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#DC241C">Kizaru</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
                         </td>
-                    </tr>                 
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>55</td>           
-              </tr>           
-              <tr>            
+                <td>55</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#A916B6">Rayleigh</font></b> : 4<br>
                             <b><font color="#DC241C">Kizaru</font></b> : 4
                         </td>
-              </tr>      
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                     <b><font color="#A916B6">Rayleigh</font></b> : 3879 puis 4780 après l'extension du dépassement de limites<br>
                     <b><font color="#DC241C">Kizaru</font></b> : 3799 puis 4650 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Rayleigh</font></b> <b>VS</b> <b><font color="#DC241C">Kizaru</font></b> : 4579 puis 5480 après l'extension du dépassement de limites<br>
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                     <b><font color="#A916B6">Rayleigh</font></b> : 1660 puis 2100 après l'extension du dépassement de limites<br>
                     <b><font color="#DC241C">Kizaru</font></b> : 1740 puis 2179 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Rayleigh</font></b> <b>VS</b> <b><font color="#DC241C">Kizaru</font></b> : 1840 puis 2279 après l'extension du dépassement de limites<br>
-                </td>     
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                     <b><font color="#A916B6">Rayleigh</font></b> : 220 puis 403 après l'extension du dépassement de limites<br>
                     <b><font color="#DC241C">Kizaru</font></b> : 222 puis 407 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Rayleigh</font></b> <b>VS</b> <b><font color="#DC241C">Kizaru</font></b> : 232 puis 417 après l'extension du dépassement de limites<br>
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                     <b><font color="#A916B6">Rayleigh</font></b> : ATK des personnages de type <b><font color="#4C4CFF">QCK</font></b>, <b><font color="#ECAC04">PSY</font></b> et <b><font color="#A916B6">INT</font></b> x5, ATK des personnages de type <b><font color="#DC241C">STR</font></b> et <b><font color="#1CAC24">DEX</font></b> x3.5. A chaque début de tour, réduit la durée des barrières ennemies de 1 tour, et rend les orbes <b><font color="peru">[TND]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b>, <b><font color="#ECAC04">[PSY]</font></b>, et <b><font color="#A916B6">[INT]</font></b> avantageux pour toute l'équipe.
@@ -297,8 +298,8 @@ position: absolute;
                       <ul style="display: inline;"><small><b>4 parfaits :</b> Enlève jusqu'à 20% des HP des ennemis au prochain stage en ignorant les effets defensifs.</ul><br>
                       <ul style="display: inline;"><b>5 parfaits :</b> Enlève jusqu'à 30% des HP des ennemis au prochain stage en ignorant les effets defensifs.</ul><br>
                       <ul style="display: inline;"><b>6 parfaits :</b> Enlève jusqu'à 40% des HP des ennemis au prochain stage en ignorant les effets defensifs.</small></ul><br>
-                </td>    
-              <tr>            
+                </td>
+              <tr>
                 <td>Special (19→14 puis 12)</td>
                 <td>
                     <b><font color="#A916B6">Rayleigh</font></b> : Réduit les dégâts subis de 30% pendant 3 tours, et, en fonction du nombre d'orbes bénéfiques consommées lorsque le spécial est déclenché, augmente les effets de cercles de l'équipe x2.75 (x2 pour 3 orbes bénéfiques, x2.25 pour 5 orbes bénéfiques, x2.75 pour 6 orbes bénéfiques). Si le spécial est déclenché durant le dernier stage, augmente également les effets de type de l'équipe x2.<br>
@@ -306,18 +307,18 @@ position: absolute;
                     <b><font color="#DC241C">Kizaru</font></b> : Si uniquement des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#1CAC24">DEX</font></b> et <b><font color="#A916B6">INT</font></b> sont présents dans l'équipe, augmente l'ATK de base de l'équipe de 500 et multiplie l'ATK de l'équipe par 2.75(sinon, ATK de base augmentée de 200 et ATK de l'équipe multipliée par 2.25). Si le spécial est déclenché durant le dernier stage, annule tous les dégâts subis par l'équipe pendant 1 tour.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
-                <td>Ne peut pas être projeté en dehors de l'écran.</td>    
+                <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Effet "VS"</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Effet "VS"</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Lorsque l'équipe a effectué au moins 1 250 000 dégâts en un seul tour.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Activation d'effets</td>
                         <td>
                           <b><font color="#A916B6">Rayleigh</font></b> : Annule tous les effets défensifs des ennemis, change toutes les orbes de l'équipe en orbes avantageuses (<b><font color="darkslateblue">[BLK]</font></b> comprises) et ajoute x250 l'ATK du personnage en dégâts additionnels non élémentaires pendant un tour.<br>
@@ -325,25 +326,25 @@ position: absolute;
                           <b><font color="#DC241C">Kizaru</font></b> : Réduit les HP de tous les ennemis en ignorant les effets défensifs de 30% et restaure 50 000 HP à la fin du tour pendant 2 tours.
                         </td>
                     </tr>
-              <tr>               
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Réduit la paralysie et les onnomatopées dissimulées de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 3 tours.</td> 
+                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
                 </tbody>
           </table>
@@ -364,4 +365,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,166 +223,166 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/CPajCp2.png"></center>  
-          <caption><img src="https://i.imgur.com/l4tcS9x.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/CPajCp2.png"></center>
+          <caption><img src="https://i.imgur.com/l4tcS9x.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b>Zeus, Prométhée et Big Mom<b></td>
-              </tr>         
-              <tr>            
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#A916B6">INT</font> (Zeus et Big Mom) / <font color="#A916B6">INT</font> (Prométhée et Big Mom)</p><b></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Zeus et Big Mom</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#A916B6">Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Zeus et Big Mom</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#A916B6">Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur
                         </td>
-                    </tr>                 
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>65</td>           
-              </tr>         
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>65</td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                   <b><font color="#A916B6">Zeus et Big Mom</font></b> : 4128 puis 4678 après le dépassement de limites<br>
                   <b><font color="#A916B6">Prométhée et Big Mom</font></b> : 4128 puis 4678 après le dépassement de limites<br>
                   <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : 4482 puis 5032 après le dépassement de limites
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#A916B6">Zeus et Big Mom</font></b> : 1702 puis 1932 après le dépassement de limites<br>
                             <b><font color="#A916B6">Prométhée et Big Mom</font></b> : 1702 puis 1932 après le dépassement de limites<br>
                             <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : 1768 puis 1998 après le dépassement de limites
-                        </td>             
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#A916B6">Zeus et Big Mom</font></b> : 112 puis 182 après le dépassement de limites<br>
                             <b><font color="#A916B6">Prométhée et Big Mom</font></b> : 112 puis 182 après le dépassement de limites<br>
                             <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : 148 puis 218 après le dépassement de limites
-                        </td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">Zeus et Big Mom</font></b> : Si l'équipe contient un personnage de chaque type, multiplie les dégâts subis par 1,5, multiplie l'ATK de tous les personnages par 3,5, les HP par 2 et restaure des HP proportionnellement aux ennemis vaincus et à la RCV de l'équipe à la fin de chaque tour.<br>
                             <b><font color="#A916B6">Prométhée et Big Mom</font></b> : Si l'équipe contient un personnage de chaque type, multiplie les dégâts subis par 1,5, multiplie l'ATK de tous les personnages par 3,5, les HP par 2 et restaure des HP proportionnellement aux ennemis vaincus et à la RCV de l'équipe à la fin de chaque tour.<br>
                             <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : Si l'équipe contient un personnage de chaque type, multiplie les dégâts subis par 1,5, multiplie l'ATK de tous les personnages par 4, les HP par 2 et restaure des HP proportionnellement aux ennemis vaincus et à la RCV de l'équipe à la fin de chaque tour.
-                        </td>   
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (16→10)</td>
                 <td>Ajoute de l'ATK de base à tous les personnages selon les HP pendant un tour (au maximum 1000 avec 50 000 HP), réduit la durée des diminutions du multiplicateur de combos pendant 10 tours, multiplie le multiplicateur de combos par 3,5 pendant un tour et devient "Zeus, Prométhée et Big Mom" pendant 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>
                   <b><font color="#A916B6">Zeus et Big Mom</font></b> : Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour le personnage.<br>
                   <b><font color="#A916B6">Prométhée et Big Mom</font></b> : Rend les cercles <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour le personnage.<br>
                   <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : Rend les cercles de type, <b><font color="peru">[TND]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour le personnage.
-                </td>             
+                </td>
               </tr>
               <tr>
                 <td>Effets du changement</td>
                 <td>Libère le personnage de "Paralysie", change son cercle en cercle correspondant et muliplie l'ATK et l'effet du cercle du personnage par 1,5 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Ajoute 150 en HP pour tous les personnages.</td>            
+                <td>Ajoute 150 en HP pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 4%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 7%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 7%.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 2</td>
-                        <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>                        
+                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 3 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 5 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 7 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 10 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Zeus et Promethee et Big Mom.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2536.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -403,4 +404,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

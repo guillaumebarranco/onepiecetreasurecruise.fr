@@ -32,9 +32,9 @@
             jQuery(function(){
                 $(function () {
                     $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) { 
+                        if ($(this).scrollTop() > 200 ) {
                             $('#scrollUp').css('right');
-                        } else { 
+                        } else {
                             $('#scrollUp').removeAttr( 'style' );
                         }
                     });
@@ -161,6 +161,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -236,48 +237,48 @@ position: absolute;
         <h2><center><u>Fiche du combat crucial</u></center></h2>
         <table>
         	<table align="center">
-            <center><img src="img/fBasibidi.png"></center> 	
-        	<caption><img src="img/cBasibidi.png" height="50%" width="50%"></caption>	 		
+            <center><img src="img/fBasibidi.png"></center>
+        	<caption><img src="img/cBasibidi.png" height="50%" width="50%"></caption>
         		<tbody>
-                    <tr>                        
+                    <tr>
                         <td>Nom</td>
-                        <td><b><small>Puissance de frappe du Germa 66</small><br>Ichiji, Niji et Yonji<b></td>                             
-                    </tr>                   
-                    <tr>                         
+                        <td><b><small>Puissance de frappe du Germa 66</small><br>Ichiji, Niji et Yonji<b></td>
+                    </tr>
+                    <tr>
                         <td>Type</td>
                         <td><b><p><font color="#DC241C">STR</font></p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>HP</td>
-                        <td>2560 puis 2780 après le dépassement de limites</td>                       
+                        <td>2560 puis 2780 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
-                        <td>1602 puis 1732 après le dépassement de limites</td>                         
+                        <td>1602 puis 1732 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
-                        <td>110 puis 125 après le dépassement de limites</td>                       
+                        <td>110 puis 125 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Abilités</b></center></td>               
+                    <tr>
+                        <td colspan="2"><center><b>Abilités</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Captain Ability</td>
                         <td>Multiplie l'ATK des personnages de type STR, DEX et QCK par 2,5 et les HP par 1,2. Si le coup spécial est utilisé, multiplie l'ATK du personnage par 3 pendant un tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Special (28→14 puis 13)</td>
                         <td>Le personnage change de type (<b><font color="#DC241C">STR</font></b>, <b><font color="#1CAC24">DEX</font></b> ou <b><font color="#4C4CFF">QCK</font></b> au choix) puis augmente les dégâts infligés sur certains ennemis selon le type choisi :
                             <ul>
@@ -287,61 +288,61 @@ position: absolute;
                             </ul>
                         <small>Une fois le type sélectionné, il est conservé jusqu'à la fin de la quête ou jusqu’au prochain lancement du coup spécial.</small></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
-                        <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour le personnage.</td>                       
+                        <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour le personnage.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 2</td>
-                        <td>Ajoute 50 en ATK pour les personnages de classe Tenace.</td>                        
+                        <td>Ajoute 50 en ATK pour les personnages de classe Tenace.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>  
+                        <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
                         <td>Réduit la durée des réductions d'ATK de l'équipe de 1 tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK de l'équipe de 1 tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK de l'équipe de 1 tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK de l'équipe de 2 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK de l'équipe de 3 tours.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Judge Vinsmoke</ul><br>
@@ -350,25 +351,25 @@ position: absolute;
                             <ul style="display: inline;">Reiju Vinsmoke</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 7% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 9% de l'ATK du personnage en ATK pour les personnages soutenus.</td>   
+                        <td>Ajoute 9% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
                 </tbody>
         	</table>

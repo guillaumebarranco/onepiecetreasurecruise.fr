@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,131 +226,131 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/m48bZwu.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Maître du Tatakau Music</small><br>Scratchmen Apoo la Marée Rugissante<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>            
+                <td><b><small>Maître du Tatakau Music</small><br>Scratchmen Apoo la Marée Rugissante<b></td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+              </tr>
+              <tr>
                 <td>Coût</td>
-                <td>55</td>           
-              </tr>           
-              <tr>            
+                <td>55</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>6</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>2919 puis 3920 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>1731 puis 1998 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>256 puis 350 après le dépassement de limites</td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td><u>La musique du démon :</u> Les cercles <b><font color="peru">[TND]</font></b> sont remplacés par les cercles <b><font color="#FF1493">[MUSIC]</font></b> et rend les cercles <b><font color="#FF1493">[MUSIC]</font></b> avantageux pour tous les personnages. Multiplie l'ATK des personnages de classe Tireur et Libre par 4 s'ils ont un cercle <b><font color="#FF1493">[MUSIC]</font></b>, sinon par 3,5, et ajoute 0,15 à chaque tour où un ennemi a été vaincu, jusqu'à un maximum de 4,25 (4,75 avec un cercle <b><font color="#FF1493">[MUSIC]</font></b>). Réduit les HP de l'équipe de 5% à la fin de chaque tour et augmente les chances d'apparition des cercles <b><font color="#FF1493">[MUSIC]</font></b>. Si l'équipe contient un personnage de chaque type, réduit les HP de chaque ennemi de 10% à la fin de chaque tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (22→17 puis 15)</td>
                 <td><u>Tatakau Music Bon :</u> Enlève 30% des HP de chaque ennemi en ignorant les effets défensifs, change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#FF1493">[MUSIC]</font></b> et multiplie les effets de type des ATK normales des personnages de classe Tireur et Libre par 2,25 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 75 en ATK pour les personnages de classe Tireur et Libre.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Si le personnage est le dernier à attaquer, ajoute 300 en ATK pour le personnage.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 2% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 2% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>                   
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 2</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>                       
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Annule le “Lien des cercles” du personnage.</td>                      
+                        <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
-                    <tr>                         
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -364,7 +365,7 @@ position: absolute;
                             <ul style="display: inline;">Capone Bege</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Annule le "Lien des cercles" du personnage soutenu, ajoute 10% du personnage en ATK pour le personnage soutenu pendant un tour et enlève 10% des HP de chaque ennemi en ignorant les effets défensifs si le personnage soutenu a été touché par le "Lien des cercles" (une fois par quête).</td>
                     </tr>
@@ -387,4 +388,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

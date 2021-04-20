@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,91 +223,91 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/0wWm5nH.png"></center>  
-          <caption><img src="https://i.imgur.com/Eb71ogS.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/0wWm5nH.png"></center>
+          <caption><img src="https://i.imgur.com/Eb71ogS.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Kurozumi Orochi<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
+                <td><b>Kurozumi Orochi<b></td>
               </tr>
-              <tr>                        
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
                         <td>Coût</td>
-                        <td>60</td>                     
+                        <td>60</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Combo</td>
                         <td>8</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>5 après le dépassement de limites</td>           
+                <td>5 après le dépassement de limites</td>
               </tr>
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>            
+                    <tr>
                 <td>HP</td>
-                <td>2988 après le dépassement de limites puis 3388 après l'extension du dépassement de limites</td>             
+                <td>2988 après le dépassement de limites puis 3388 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1488 après le dépassement de limites puis 1688 après l'extension du dépassement de limites</td>             
+                <td>1488 après le dépassement de limites puis 1688 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>188 après le dépassement de limites puis 288 après l'extension du dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>188 après le dépassement de limites puis 288 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability (après le dépassement de limites)</td>
                 <td>Multiplie l'ATK des personnages de classe Tenace, Ravageur et Ambitieux par 3,5 s'ils ont un cercle correspondant, sinon par 3, et rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (14 puis 13)</td>
                 <td>Inflige 8 coups avec 8 fois son ATK en dégâts fixes sur des ennemis aléatoires, change son cercle en cercle correspondant et bloque son cercle pendant un tour. Si le capitaine est un personnage de classe Tenace, Ravageur ou Ambitieux, bloque le multiplicateur de combos à 2,75 pendant 3 tours, multiplie l'ATK des personnages de classe Tenace, Ravageur et Ambitieux par 1,75 pendant un tour et un tour après l'activation du coup spécial, multiplie l'ATK des personnages de classe Tenace, Ravageur et Ambitieux par 1,75 pendant un tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 40 en HP, ATK et RCV pour les personnages de classe Tenace, Ravageur et Ambitieux.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour tous les personnages si le capitaine est un personnage de classe Tenace, Ravageur ou Ambitieux.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 88% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>                         
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 88% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Ajoute 188 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 188 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Personnages de type <b><font color="#1CAC24">DEX</font></b></ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 8% de l'ATK du personnage en ATK pour les personnages soutenus.</td>   
+                        <td>Ajoute 8% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
                 </tbody>
           </table>
@@ -327,4 +328,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,144 +223,144 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/xfivell.png"></center>  
-          <caption><img src="https://i.imgur.com/YxdwS2c.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/xfivell.png"></center>
+          <caption><img src="https://i.imgur.com/YxdwS2c.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Héros de la marine</small><br>Monkey D. Garp<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>            
+                <td><b><small>Héros de la marine</small><br>Monkey D. Garp<b></td>
               </tr>
-              <tr>                        
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+              </tr>
+              <tr>
                         <td>Coût</td>
-                        <td>65</td>                     
-                    </tr>                               
-                    <tr>                        
+                        <td>65</td>
+                    </tr>
+                    <tr>
                         <td>Combo</td>
                         <td>4</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>5</td>                  
-                    </tr>    
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>5</td>
                     </tr>
-                    <tr>            
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                 <td>HP</td>
-                <td>3380 puis 3870 après le dépassement de limites</td>             
+                <td>3380 puis 3870 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1550 puis 1770 après le dépassement de limites</td>             
+                <td>1550 puis 1770 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>396 puis 476 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>396 puis 476 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Cogneur, Libre et Tenace par 4,25, les HP par 1,3, rend les cercles <b><font color="#ECAC04">[PSY]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Cogneur, Libre et Tenace et réduit l'ATK de tous les personnages selon le nombre de personnages de classe Ravageur, Tireur et Ambitieux présents dans l'équipe.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→15 puis 13)</td>
                 <td>Réduit la durée de "Lien" et de "Lien des coups spéciaux" de 5 tours, bloque le multiplicateur de combos à 3,5 pendant un tour et si le personnage est capitaine ou capitaine ami, enlève 30% des HP de chaque ennemi en ignorant les effets défensifs et réduit la durée des annulations de dégâts et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 5 tours.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Réduit la durée de "Lien des coups spéciaux" du personnage de 20 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Ajoute 70 en HP, ATK et RCV pour le personnage.</td>            
+                <td>Ajoute 70 en HP, ATK et RCV pour le personnage.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 4%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>            
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 90%.</td>             
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 90%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 70%.</td>             
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 70%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 50%.</td>             
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières.</td>            
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>            
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/yellow_skull2_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/yellow_skull2_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0103.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Monkey D. Garp.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2251.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -381,4 +382,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

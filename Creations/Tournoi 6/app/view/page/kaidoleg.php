@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,18 +223,18 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/BdWE6dK.png"></center>  
-          <caption><img src="https://i.imgur.com/QjcIsGW.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/BdWE6dK.png"></center>
+          <caption><img src="https://i.imgur.com/QjcIsGW.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b>Kaido et son équipage<b></td>
-              </tr>         
-              <tr>                         
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#DC241C">STR</font> (Kaido) / <font color="#4C4CFF">QCK</font> (King, Queen et Jack)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Kaido</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
@@ -241,8 +242,8 @@ position: absolute;
                             <b><font color="#DC241C">Kaido Saoul</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Kaido</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
@@ -250,8 +251,8 @@ position: absolute;
                             <b><font color="#DC241C">Kaido Saoul</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
-                    </tr>    
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#DC241C">Kaido</font></b> : 4<br>
@@ -259,45 +260,45 @@ position: absolute;
                             <b><font color="#DC241C">Kaido Saoul</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 4<br>
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 5
                         </td>
-              </tr>           
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>     
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#DC241C">Kaido</font></b> : 3693 puis 3993 après le dépassement de limites puis 4693 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">King, Queen et Jack</font></b> : 3393 puis 3693 après le dépassement de limites puis 4393 après l'extension du dépassement de limites<br>
                             <b><font color="#DC241C">Kaido Saoul</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 3393 puis 4293 après le dépassement de limites puis 4993 après l'extension du dépassement de limites<br>
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 3393 puis 4293 après le dépassement de limites puis 4993 après l'extension du dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#DC241C">Kaido</font></b> : 1646 puis 1849 après le dépassement de limites puis 2049 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">King, Queen et Jack</font></b> : 1549 puis 1749 après le dépassement de limites puis 1949 après l'extension du dépassement de limites<br>
                             <b><font color="#DC241C">Kaido Saoul</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 1749 puis 1949 après le dépassement de limites puis 2149 après l'extension du dépassement de limites<br>
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 1749 puis 1949 après le dépassement de limites puis 2149 après l'extension du dépassement de limites
-                        </td>           
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#DC241C">Kaido</font></b> : 129 puis 159 après le dépassement de limites puis 259 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">King, Queen et Jack</font></b> : 149 puis 179 après le dépassement de limites puis 279 après l'extension du dépassement de limites<br>
                             <b><font color="#DC241C">Kaido Saoul</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 158 puis 188 après le dépassement de limites puis 288 après l'extension du dépassement de limites<br>
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : 158 puis 188 après le dépassement de limites puis 288 après l'extension du dépassement de limites
-                        </td>   
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#DC241C">Kaido</font></b> : Multiplie l'ATK des personnages de classe Ravageur, Tenace et Ambitieux par 3,5, les HP par 1,25, multiplie l'ATK du personnage par 3,75, réduit la RCV de l'équipe de 50%, rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages et réduit la durée de "Paralysie" de 10 tours. Les cercles <b><font color="#BC5C0C">[RCV]</font></b> sont remplacés par les cercles <b><font color="saddlebrown">[SAKÉ]</font></b> (cercle qui restaure 6% des HP maximum de l'équipe) et si 5 cercles <b><font color="saddlebrown">[SAKÉ]</font></b> sont consommés durant le même tour, devient "Kaido Saoul et son équipage" pendant un tour et projette hors de l'écran tous les autres personnages pendant un tour (ne peut devenir "Kaido Saoul et son équipage" qu'une fois par quête).<br>
@@ -306,7 +307,7 @@ position: absolute;
                             <b><font color="#DC241C">Kaido</font></b> <b>et</b> <b><font color="#4C4CFF">son équipage</font></b> : Multiplie l'ATK des personnages de classe Ravageur, Tenace et Ambitieux par 4,5, les HP par 1,25, multiplie l'ATK du personnage par 4,75, réduit la RCV de l'équipe de 50%, rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages, réduit les dégâts subis de 20% et réduit la durée de "Paralysie" de 10 tours. Les cercles <b><font color="#BC5C0C">[RCV]</font></b> sont remplacés par les cercles <b><font color="saddlebrown">[SAKÉ]</font></b> (cercle qui restaure 6% des HP maximum de l'équipe).<br>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (15 puis 14)</td>
                 <td>
                             <b><font color="#DC241C">Kaido</font></b> : Inflige 450 fois son ATK en dégâts non élémentaires sur un ennemi en ignorant les effets défensifs, change les cercles <b><font color="darkslateblue">[BLK]</font></b> en cercles <b><font color="#BC5C0C">[RCV]</font></b>, applique l'effet "Désespoir" sur un ennemi pendant un tour (l'ennemi ne peut pas activer d'effet pour contrer les actions de l'équipe), devient "Kaido et son équipage" pendant 3 tours et multiplie l'ATK contre les ennemis victime de l'effet "Désespoir" selon le nombre de cercles <b><font color="saddlebrown">[SAKÉ]</font></b> consommés avant l’activation du coup spécial pendant un tour.<br>
@@ -319,7 +320,7 @@ position: absolute;
                             <ul style="display: inline;"><b>8 cercles ou plus :</b> Par 2,5.</small></ul><br>
                         </td>
                       </tr>
-                        <tr>            
+                        <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ne peut pas être projeté en dehors de l'écran.</td>
               </tr>
@@ -327,72 +328,72 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Change son cercle (cercle <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercle <b><font color="#BC5C0C">[RCV]</font></b>, change les cercles désavantageux des personnages de classe Ravageur, Tenace et Ambitieux en cercles correspondants et multiplie les effets des cercles des personnages de classe Ravageur, Tenace et Ambitieux par 1,5 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ravageur, Tenace et Ambitieux.</td>            
+                <td>Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ravageur, Tenace et Ambitieux.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>         
+                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>       
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>       
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 12% l'ATK du personnage en dégâts additionnels.</td>            
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 12% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 3</td>
-                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
                 </tbody>
           </table>
@@ -413,4 +414,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>
