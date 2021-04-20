@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,172 +223,172 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/fHZe7Jv.png"></center>  
-          <caption><img src="https://i.imgur.com/m6JpXB3.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/fHZe7Jv.png"></center>
+          <caption><img src="https://i.imgur.com/m6JpXB3.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>L'homme surpassant "Gear Fourth"</small><br>Charlotte Cracker<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>            
+                <td><b><small>L'homme surpassant "Gear Fourth"</small><br>Charlotte Cracker<b></td>
               </tr>
-              <tr>                        
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+              </tr>
+              <tr>
                         <td>Coût</td>
-                        <td>65</td>                     
-                    </tr>                               
-                    <tr>                        
+                        <td>65</td>
+                    </tr>
+                    <tr>
                         <td>Combo</td>
                         <td>4</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>5</td>                  
-                    </tr>    
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>5</td>
                     </tr>
-                    <tr>            
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                 <td>HP</td>
-                <td>3623 puis 4173 après le dépassement de limites puis 4523 après l'extension du dépassement de limites</td>             
+                <td>3623 puis 4173 après le dépassement de limites puis 4523 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1683 puis 1903 après le dépassement de limites puis 2103 après l'extension du dépassement de limites</td>             
+                <td>1683 puis 1903 après le dépassement de limites puis 2103 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>443 puis 518 après le dépassement de limites puis 593 après l'extension du dépassement de limites</td>            
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>443 puis 518 après le dépassement de limites puis 593 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>                        
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                         <td>Captain Ability</td>
                         <td>Multiplie l'ATK des personnages de classe Tenace et Sabreur par 4,1 environ s'ils ont un cercle correspondant, sinon par 3,75, multiplie les HP des personnages de classe Intellectuel, Cogneur, Sabreur et Tireur par 1,35, augmente légèrement les chances d'apparition des cercles <b><font color="#ECAC04">[PSY]</font></b>, réduit les chances d'apparition des cercles <b><font color="#A916B6">[INT]</font></b> et augmente la RCV de l'équipe de 333.</td>
                     </tr>
-                    <tr>            
+                    <tr>
                 <td>Action de capitaine (1 fois par quête)</td>
                 <td><u>Hard Biscuit :</u> Le personnage forme une armure de soldats biscuits pour protéger l'équipe pendant 3 tours. Réduit les dégâts subis de 40% et multiplie l'ATK de tous les personnages par 3,9.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (23→18 puis 16 puis 13)</td>
                 <td><u>Force extraordinaire du 3ème Général Sucré :</u> Change les cercles <b><font color="#777">[EMP]</font></b>, <b><font color="darkslateblue">[BLK]</font></b>, <b><font color="maroon">[BOMB]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b>, <b><font color="orange">[G]</font></b> et son cercle en cercles correspondants. Si le capitaine est un personnage de classe Cogneur, Sabreur, Ravageur ou Tireur, ajoute 1,1 au multiplicateur de combos pendant 2 tours et si le capitaine est un personnage de classe Libre, Intellectuel, Tenace ou Ambitieux, multiplie les effets de type des ATK normales des personnages de classe Libre, Intellectuel, Tenace et Ambitieux par 2,25 pendant 2 tours si aucun autre coup spécial n’est utilisé durant ce tour, sinon par 1,75 pendant 2 tours.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Si un autre personnage de classe Sabreur ou Tenace utilise son coup spécial, réduit le temps de chargement du coup spécial du personnage d'un tour.</td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ajoute 100 en HP, ATK et RCV pour les personnages de classe Sabreur et Tenace.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 2</td>
-                        <td>Réduit la durée de “Soin impossible” de 3 tours.</td>                        
+                        <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 4 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 5 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 7 tours.</td>                       
+                        <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Soin impossible” de 10 tours.</td>                      
+                        <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>                   
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Charlotte Dent-de-chien</ul><br>
                             <ul style="display: inline;">Charlotte Smoothie</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos d'un tour et ajoute 0,3 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>   
+                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos d'un tour et ajoute 0,3 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos d'un tour et ajoute 0,4 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>   
+                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos d'un tour et ajoute 0,4 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos de 2 tours et ajoute 0,4 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>   
+                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos de 2 tours et ajoute 0,4 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos de 2 tours et ajoute 0,5 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>   
+                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos de 2 tours et ajoute 0,5 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos de 3 tours et ajoute 0,7 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>   
+                        <td>Réduit la durée des blocages et des diminutions de hausse du multiplicateur de combos de 3 tours et ajoute 0,7 au multiplicateur de combos pendant un tour si le multiplicateur de combos est réduit ou bloqué (une fois par quête).</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Charlotte Cracker.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2465.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -409,4 +410,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

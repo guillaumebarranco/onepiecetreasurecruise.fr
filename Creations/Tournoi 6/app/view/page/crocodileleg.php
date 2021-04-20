@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,62 +223,62 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/TtoqhW6.png"></center>  
-          <caption><img src="https://i.imgur.com/ujt4ZDf.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/TtoqhW6.png"></center>
+          <caption><img src="https://i.imgur.com/ujt4ZDf.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Plan visant à changer toute une nation</small><br>Crocodile<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Plan visant à changer toute une nation</small><br>Crocodile<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>            
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
               </tr>
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>            
+                    <tr>
                 <td>HP</td>
-                <td>4952 après le dépassement de limites</td>             
+                <td>4952 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>2099 après le dépassement de limites</td>             
+                <td>2099 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>530 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>530 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Intellectuel et Tenace selon les HP de l'équipe au début du tour et réduit les dégâts subis de 20%. Si le personnage devient capitaine pendant la quête, multiplie l'ATK des personnages de classe Intellectuel et Tenace par 4,7, restaure les HP avec 0,5 fois sa RCV à chaque "PARFAIT", 1 fois sa RCV à chaque "SUPER" et 1,5 fois sa RCV à chaque "BIEN" à la fin du tour, annule l'"Évanouissement" et réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour.<br>
                         <small>Par 3,75 si les HP de l'équipe sont au maximum et par 4,7 s'il ne reste qu'un HP à l'équipe.</small></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (17→12)</td>
                 <td>Multiplie les effets de type des ATK normales des personnages de classe Intellectuel et Tenace par 2,25 pendant un tour, change les cercles de tous les personnages en cercles correspondants, annule les effets défensifs dont bénéficient les ennemis contre les ATK normales du personnage pendant 2 tours et si les HP sont en-dessous de 50%, multiplie les effets des cercles des personnages de classe Intellectuel et Tenace par 2 pendant un tour. Si le personnage n'est pas capitaine, échange sa place avec le capitaine pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
-                <td>Si un autre personnage utilise son coup spécial, réduit le temps de chargement du coup spécial du personnage de 2 tours.</td>             
+                <td>Si un autre personnage utilise son coup spécial, réduit le temps de chargement du coup spécial du personnage de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour les personnages de classe Intellectuel et Tenace.</td>             
+                <td>Rend les cercles <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour les personnages de classe Intellectuel et Tenace.</td>
               </tr>
                 </tbody>
           </table>
@@ -298,4 +299,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

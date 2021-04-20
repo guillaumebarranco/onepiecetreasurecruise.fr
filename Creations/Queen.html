@@ -32,9 +32,9 @@
             jQuery(function(){
                 $(function () {
                     $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) { 
+                        if ($(this).scrollTop() > 200 ) {
                             $('#scrollUp').css('right');
-                        } else { 
+                        } else {
                             $('#scrollUp').removeAttr( 'style' );
                         }
                     });
@@ -161,6 +161,7 @@ position: absolute;
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -236,448 +237,448 @@ position: absolute;
         <h2><center><u>Fiche de Queen (6*)</u></center></h2>
         <table>
         	<table align="center">
-            <center><img src="img/fQueen.png"></center> 	
-        	<caption><img src="img/cQueen.png" height="50%" width="50%"></caption>	 		
+            <center><img src="img/fQueen.png"></center>
+        	<caption><img src="img/cQueen.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b><small>Superstar de l'équipage des cent bêtes</small><br>Queen la pandémie<b></td>
-        			</tr>	 			 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#1CAC24">DEX</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>  				 	
-        			</tr> 									
-        			<tr> 						
+        				<td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+        			</tr>
+        			<tr>
         				<td>Combo</td>
         				<td>6</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Emplacements de pouvoirs</td>
-        				<td>5</td> 				 	
-        			</tr> 
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
-                    </tr>
-                    <tr>                        
-                        <td>HP</td>
-                        <td>4182 puis 4682 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>ATK</td>
-                        <td>1563 puis 1763 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>RCV</td>
-                        <td>130 puis 230 après le dépassement de limites</td>                       
-                    </tr>   				 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        				<td>5</td>
         			</tr>
-        			<tr> 				 		
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
+                        <td>HP</td>
+                        <td>4182 puis 4682 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>ATK</td>
+                        <td>1563 puis 1763 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>RCV</td>
+                        <td>130 puis 230 après le dépassement de limites</td>
+                    </tr>
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
+        			</tr>
+        			<tr>
         				<td>Captain Ability</td>
         				<td>Multiplie les HP des personnages de classe Ravageur par 1,25, multiplie l'ATK des personnages de classe Ravageur par 4,2 s'ils ont un cercle correspondant, sinon par 3,5, et rend les cercles <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ravageur si les HP sont en-dessous de 50%, sinon, multiplie la RCV des personnages de classe Ravageur par 1,25.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Special (21→16 puis 14)</td>
         				<td><u>Brachio Bomber :</u> Enlève 25% des HP d'un ennemi, réduit la durée de "Désespoir du capitaine" de 5 tours, retarde toutes les attaques ennemies d'un tour si les ennemis bénéficient d'une immunité aux altérations d'état ou d'une immunité aux retards, sinon de 2 tours et multiplie l'ATK contre les ennemis avec leurs attaques retardées par 2 pendant 2 tours.</td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Crewmate Ability 1</td>
         				<td>Ajoute 50 en HP, ATK et RCV pour les personnages de classe Ravageur.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Crewmate Ability 2</td>
         				<td>Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour le personnage.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
                         <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
                         <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Potential Ability 3</td>
-        				<td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td> 	 				 	
+        				<td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
         			</tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <h2><center><u>Fiche de Pouilleux</u></center></h2>
         <table>
         	<table align="center">
-            <center><img src="img/fBabanuki.png"></center> 	
-        	<caption><img src="img/cBabanuki.png" height="50%" width="50%"></caption>	 		
+            <center><img src="img/fBabanuki.png"></center>
+        	<caption><img src="img/cBabanuki.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b><small>Vedette de l'équipage des cent bêtes</small><br>Pouilleux<b></td>
-        			</tr>	 			 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#DC241C">STR</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#DC241C">STR</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>  				 	
-        			</tr> 									
-        			<tr> 						
+        				<td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+        			</tr>
+        			<tr>
         				<td>Combo</td>
         				<td>5</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Emplacements de pouvoirs</td>
-        				<td>4 puis 5 après le dépassement de limites</td> 				 	
-        			</tr> 
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
-                    </tr>
-                    <tr>                        
-                        <td>HP</td>
-                        <td>2625 puis 2825 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>ATK</td>
-                        <td>1354 puis 1454 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>RCV</td>
-                        <td>181 puis 231 après le dépassement de limites</td>                       
-                    </tr>   				 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        				<td>4 puis 5 après le dépassement de limites</td>
         			</tr>
-        			<tr> 				 		
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
+                        <td>HP</td>
+                        <td>2625 puis 2825 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>ATK</td>
+                        <td>1354 puis 1454 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>RCV</td>
+                        <td>181 puis 231 après le dépassement de limites</td>
+                    </tr>
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
+        			</tr>
+        			<tr>
         				<td>Special (20→15 puis 14)</td>
         				<td><u>Elephant Atchoum :</u> Inflige 75 fois son ATK en dégâts non élémentaires sur tous les ennemis, réduit la durée de "Lien", de "Paralysie" et de "Lien des coups spéciaux" de 5 tours, multiplie les effets des cercles des personnages de classe Ravageur par 1,75 pendant un tour et si au moins 4 personnages font un coup "PARFAIT", multiplie les effets des cercles des personnages de classe Ravageur par 2,25 au tour suivant.</td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Crewmate Ability 1</td>
         				<td>Réduit la durée de "Lien des coups spéciaux" du personnage de 5 tours.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Crewmate Ability 2</td>
         				<td>Ajoute 50 en ATK pour les personnages de classe Ravageur.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit la durée de "Soin impossible" de 5 tours.</td>                 
+                        <td>Réduit la durée de "Soin impossible" de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>    
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <h2><center><u>Fiche de Trouduc</u></center></h2>
         <table>
         	<table align="center">
-            <center><img src="img/fDaifugo.png"></center> 	
-        	<caption><img src="img/cDaifugo.png" height="50%" width="50%"></caption>	 		
+            <center><img src="img/fDaifugo.png"></center>
+        	<caption><img src="img/cDaifugo.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b><small>Vedette de l'équipage des cent bêtes</small><br>Trouduc<b></td>
-        			</tr>	 			 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#A916B6">INT</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#A916B6">INT</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>  				 	
-        			</tr> 									
-        			<tr> 						
+        				<td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+        			</tr>
+        			<tr>
         				<td>Combo</td>
         				<td>4</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Emplacements de pouvoirs</td>
-        				<td>4 puis 5 après le dépassement de limites</td> 				 	
-        			</tr> 
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
-                    </tr>
-                    <tr>                        
-                        <td>HP</td>
-                        <td>2420 puis 2620 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>ATK</td>
-                        <td>1345 puis 1445 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>RCV</td>
-                        <td>220 puis 270 après le dépassement de limites</td>                       
-                    </tr>   				 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        				<td>4 puis 5 après le dépassement de limites</td>
         			</tr>
-        			<tr> 				 		
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
+                        <td>HP</td>
+                        <td>2420 puis 2620 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>ATK</td>
+                        <td>1345 puis 1445 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>RCV</td>
+                        <td>220 puis 270 après le dépassement de limites</td>
+                    </tr>
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
+        			</tr>
+        			<tr>
         				<td>Special (20→15 puis 14)</td>
         				<td><u>Momie :</u> Inocule à tous les ennemis un poison progressif (50 fois son ATK au début puis jusqu'à 2 000 000 de dégâts au maximum), réduit la durée des augmentations de défense, des réductions de dégâts, des annulations de dégâts et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 5 tours et si l'ennemi ciblé a moins de 80% d'HP, multiplie l'ATK des personnages de classe Ravageur par 2 pendant 2 tours, sinon, multiplie l'ATK des personnages de classe Ravageur et Tireur par 1,75 pendant 3 tours.</td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Crewmate Ability 1</td>
         				<td>Rend les cercles <b><font color="#ECAC04">[PSY]</font></b> avantageux pour le personnage.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Crewmate Ability 2</td>
         				<td>Rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Ravageur.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
                         <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>           
+                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <h2><center><u>Fiche de Hyogoro</u></center></h2>
         <table>
         	<table align="center">
-            <center><img src="img/fHyogoro.png"></center> 	
-        	<caption><img src="img/cHyogoro.png" height="50%" width="50%"></caption>	 		
+            <center><img src="img/fHyogoro.png"></center>
+        	<caption><img src="img/cHyogoro.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b><small>Ancien chef des yakuzas du pays des Wa</small><br>Hyogoro de la fleur<b></td>
-        			</tr>	 			 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#ECAC04">PSY</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#ECAC04">PSY</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>  				 	
-        			</tr> 									
-        			<tr> 						
+        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+        			</tr>
+        			<tr>
         				<td>Combo</td>
         				<td>4</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Emplacements de pouvoirs</td>
-        				<td>4 puis 5 après le dépassement de limites</td> 				 	
-        			</tr> 
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
-                    </tr>
-                    <tr>                        
-                        <td>HP</td>
-                        <td>2345 puis 2545 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>ATK</td>
-                        <td>1321 puis 1421 après le dépassement de limites</td>                         
-                    </tr>
-                    <tr>                        
-                        <td>RCV</td>
-                        <td>222 puis 272 après le dépassement de limites</td>                       
-                    </tr>   				 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+        				<td>4 puis 5 après le dépassement de limites</td>
         			</tr>
-        			<tr> 				 		
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
+                        <td>HP</td>
+                        <td>2345 puis 2545 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>ATK</td>
+                        <td>1321 puis 1421 après le dépassement de limites</td>
+                    </tr>
+                    <tr>
+                        <td>RCV</td>
+                        <td>222 puis 272 après le dépassement de limites</td>
+                    </tr>
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
+        			</tr>
+        			<tr>
         				<td>Special (20→15 puis 14)</td>
         				<td><u>Ryuo avancé :</u> Réduit les HP de l'équipe de 60%, ajoute 0,7 au multiplicateur de combos pendant 2 tours, réduit les dégâts subis de 70% pendant 2 tours et si le capitaine est un personnage de classe Ravageur, change les cercles <b><font color="darkslateblue">[BLK]</font></b>, <b><font color="orange">[G]</font></b>, <b><font color="maroon">[BOMB]</font></b> et <b><font color="#777">[EMP]</font></b> en cercles <b><font color="#BC5C0C">[RCV]</font></b>.</td>
         			</tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr> 				 		
+                    <tr>
         				<td>Crewmate Ability 1</td>
         				<td>Rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour le personnage.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Crewmate Ability 2</td>
         				<td>Si le personnage est le dernier à attaquer, ajoute 300 en ATK pour le personnage.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td> 
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>   
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <h2><center><u>Fiche de Yasuie Shimotsuki</u></center></h2>
         <table>
             <table align="center">
-            <center><img src="img/fYasuie.png"></center>     
-            <caption><img src="img/cYasuie.png" height="50%" width="50%"></caption>          
+            <center><img src="img/fYasuie.png"></center>
+            <caption><img src="img/cYasuie.png" height="50%" width="50%"></caption>
                 <tbody>
-                    <tr>                        
+                    <tr>
                         <td>Nom</td>
                         <td><b><small>Ancien seigneur de la région d'Hakumai</small><br>Yasuie Shimotsuki<b></td>
-                    </tr>                   
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Type</td>
-                        <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>                             
-                    </tr>                   
-                    <tr>                        
+                        <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
+                    </tr>
+                    <tr>
                         <td>Classe 1</td>
-                        <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>               
-                    </tr>                   
-                    <tr>                        
+                        <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
-                        <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>                    
-                    </tr>                                   
-                    <tr>                        
+                        <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
+                    </tr>
+                    <tr>
                         <td>Combo</td>
                         <td>4</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>4 puis 5 après le dépassement de limites</td>                   
-                    </tr> 
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>4 puis 5 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                         <td>HP</td>
-                        <td>1764 puis 1964 après le dépassement de limites</td>                         
+                        <td>1764 puis 1964 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
-                        <td>1145 puis 1245 après le dépassement de limites</td>                         
+                        <td>1145 puis 1245 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
-                        <td>450 puis 500 après le dépassement de limites</td>                       
-                    </tr>                                       
-                    <tr>                        
-                        <td colspan="2"><center><b>Abilités</b></center></td>               
+                        <td>450 puis 500 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
+                        <td colspan="2"><center><b>Abilités</b></center></td>
+                    </tr>
+                    <tr>
                         <td>Special (20→15 puis 14)</td>
                         <td><u>Sacrifice pour la rébellion :</u> Restaure les HP avec 60 fois sa RCV et annule le "Désespoir du capitaine" et les dégâts augmentés.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Réduit la durée de "Paralysie" de 1 tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 2</td>
                         <td>Réduit la durée de "Lien des coups spéciaux" de 1 tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit la durée de "Soin impossible" de 5 tours.</td>            
+                        <td>Réduit la durée de "Soin impossible" de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>           
+                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>
                     </tr>
-                </tbody>            
+                </tbody>
             </table>
         <h2><center><u>Fiche de Kawamatsu (Carte aux trésors)</u></center></h2>
         <table>
             <table align="center">
-            <center><img src="img/fKawamatsu.png"></center>     
-            <caption><img src="img/cKawamatsu.png" height="50%" width="50%"></caption>          
+            <center><img src="img/fKawamatsu.png"></center>
+            <caption><img src="img/cKawamatsu.png" height="50%" width="50%"></caption>
                 <tbody>
-                    <tr>                        
+                    <tr>
                         <td>Nom</td>
                         <td><b><small>Neuf fourreaux rouges</small><br>Kawamatsu le kappa<b></td>
-                    </tr>                   
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Type</td>
-                        <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>                             
-                    </tr>                   
-                    <tr>                        
+                        <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
+                    </tr>
+                    <tr>
                         <td>Classe 1</td>
-                        <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>               
-                    </tr>                   
-                    <tr>                        
+                        <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
-                        <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>                    
-                    </tr>                                   
-                    <tr>                        
+                        <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+                    </tr>
+                    <tr>
                         <td>Combo</td>
                         <td>4</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>4 puis 5 après le dépassement de limites</td>                   
-                    </tr> 
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>4 puis 5 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                         <td>HP</td>
-                        <td>3174 puis 3674 après le dépassement de limites</td>                         
+                        <td>3174 puis 3674 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
-                        <td>1472 puis 1672 après le dépassement de limites</td>                         
+                        <td>1472 puis 1672 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
-                        <td>188 puis 288 après le dépassement de limites</td>                       
-                    </tr>                                       
-                    <tr>                        
-                        <td colspan="2"><center><b>Abilités</b></center></td>               
+                        <td>188 puis 288 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
+                        <td colspan="2"><center><b>Abilités</b></center></td>
+                    </tr>
+                    <tr>
                         <td>Special (20→15 puis 14)</td>
                         <td><u>Rivière de vindicte :</u> Réduit la durée de "Soin impossible", de "RCV en baisse" et des réductions d'ATK de 5 tours, annule le poison et si le capitaine est un personnage de classe Ravageur, annule les effets défensifs dont bénéficient les ennemis contre les coups spéciaux des personnages de classe Ravageur pendant un tour.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Réduit la durée de "Lien des coups spéciaux" du personnage d'un tour.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 2</td>
                         <td>Ajoute 60 en RCV pour les personnages de classe Ravageur.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>           
+                        <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
                     </tr>
-                </tbody>            
+                </tbody>
             </table>
         <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>

@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,129 +226,129 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/ckTG2ub.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Supernova au service de l’équipage aux cents bêtes</small><br>X-Drake<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>            
+                <td><b><small>Supernova au service de l’équipage aux cents bêtes</small><br>X-Drake<b></td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>4</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>3210 puis 3710 après le dépassement de limites puis 4010 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>1710 puis 1910 après le dépassement de limites puis 2010 après l'extension du dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>210 puis 310 après le dépassement de limites puis 370 après l'extension du dépassement de limites</td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Si l'équipe ne contient aucun personnage de type <b><font color="#DC241C">STR</font></b> et <b><font color="#ECAC04">PSY</font></b>, multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> par 4,25, les HP par 1,2 et rend les cercles <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de type <b><font color="#1CAC24">DEX</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b>, sinon,  multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> par 3,75 et les HP par 1,1. Lorsque le personnage est en forme Allosaure, multiplie l'ATK du personnage par 4,5, ajoute 0,1 par ennemi vaincu par le personnage depuis le début de la quête (jusqu'à un maximum de 6) et permet aux attaques normales du personnage d'ignorer les barrières dont bénéficient les ennemis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→14 puis 13)</td>
                 <td>Inflige 100 fois son ATK en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs, réduit à 0 la défense de tous les ennemis pendant un tour, multiplie l'ATK contre les ennemis avec leur défense réduite par 2 pendant un tour, multiplie les effets de type des ATK normales des personnages de type <b><font color="#1CAC24">DEX</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> par 2,25 pendant un tour et selon le nombre d'ennemis vaincus par le personnage avant l'activation du coup spécial, permet au personnage de se transformer en Allosaure.<br>
                 <ul style="display: inline;"><small><b>5 à 10 ennemis :</b> Se transforme en Allosaure pendant un tour.</ul><br>
                 <ul style="display: inline;"><b>10 ennemis ou plus :</b> Se transforme en Allosaure pendant 3 tours et réduit à 0 la défense de tous les ennemis pendant 3 tours en ignorant l'immunité aux altérations d'état et l'immunité aux réductions de défense.</ul><br>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 75 en HP, ATK et RCV pour les personnages de type <b><font color="#1CAC24">DEX</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b>.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Si le personnage est le dernier à attaquer, ajoute 300 en ATK pour le personnage.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                      
+                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 2</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>                   
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 3</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>                       
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Annule le “Lien des cercles” du personnage.</td>                      
+                        <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Personnages de type <b><font color="#1CAC24">DEX</font></b></ul><br>
@@ -355,23 +356,23 @@ position: absolute;
                             <ul style="display: inline;">Personnages de type <b><font color="#A916B6">INT</font></b></ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
@@ -394,4 +395,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

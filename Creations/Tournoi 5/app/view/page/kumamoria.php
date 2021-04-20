@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,26 +223,26 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/qgElw1k.png"></center>  
-          <caption><img src="https://i.imgur.com/zfkh4Ja.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/qgElw1k.png"></center>
+          <caption><img src="https://i.imgur.com/zfkh4Ja.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Kuma et Moria<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Kuma et Moria<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Bartholomew Kuma) / <font color="#ECAC04">PSY</font> (Gecko Moria)</p><b></td>
-              </tr>           
-              <tr>                        
+              </tr>
+              <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#ECAC04">Gecko Moria</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
@@ -249,34 +250,34 @@ position: absolute;
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur
                         </td>
                     </tr>
-                    <tr>            
+                    <tr>
                       <td>Coût</td>
-                      <td>55</td>           
+                      <td>55</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Combo</td>
                         <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : 4<br>
                             <b><font color="#ECAC04">Gecko Moria</font></b> : 5<br>
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : 5
                         </td>
-                    </tr>     
-                    <tr>            
+                    </tr>
+                    <tr>
                       <td>Emplacements de pouvoirs</td>
-                      <td>5</td>          
-                    </tr>   
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                      <td>5</td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : 3700 puis 4200 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Gecko Moria</font></b> : 3900 puis 4400 après le dépassement de limites<br>
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : 4200 puis 4700 après le dépassement de limites
-                        </td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : 1803 puis 2003 après le dépassement de limites<br>
@@ -284,18 +285,18 @@ position: absolute;
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : 1917 puis 2117 après le dépassement de limites
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : 296 puis 396 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Gecko Moria</font></b> : 322 puis 422 après le dépassement de limites<br>
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : 412 puis 512 après le dépassement de limites
-                        </td>       
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#DC241C">Bartholomew Kuma</font></b> : Multiplie l'ATK des personnages de classe Tireur, Tenace, Sabreur, Ambitieux et Ravageur par 1,825 (par 3,33 pour les personnages qui ont 2 classes), les HP par 1,35, réduit le temps de chargement des coups spéciaux de 2 tours au début de la quête, ajoute 0,2 au multiplicateur de combos et si l'équipe contient un personnage de classe Tireur, un de classe Tenace, un de classe Sabreur et un de classe Ambitieux et un de classe Ravageur, multiplie l'ATK de tous les personnages par 1,5 (par 2,7375 pour les personnages qui ont une classe et par 4,995 pour les personnages qui ont 2 classes).<br><br>
@@ -303,83 +304,83 @@ position: absolute;
                             <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : Multiplie l'ATK des personnages de classe Tireur, Tenace, Sabreur, Ambitieux et Ravageur par 1,825 (par 3,33 pour les personnages qui ont 2 classes), les HP par 1,35, réduit le temps de chargement des coups spéciaux de 2 tours au début de la quête, ajoute 0,4 au multiplicateur de combos, réduit les dégâts subis de 15% et si l'équipe contient un personnage de classe Tireur, un de classe Tenace, un de classe Sabreur et un de classe Ambitieux et un de classe Ravageur, multiplie l'ATK de tous les personnages par 1,5 (par 2,7375 pour les personnages qui ont une classe et par 4,995 pour les personnages qui ont 2 classes).
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→13 puis 12)</td>
                 <td>Multiplie les effets des cercles des personnages de classe Tireur, Tenace, Sabreur, Ambitieux et Ravageur par 2 pendant un tour, rend le timing des coups "PARFAIT" plus facile pendant un tour et bloque le multiplicateur de combos à 3,25 pendant un tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.</td>
               </tr>
               <tr>
                 <td>Effets du changement</td>
                 <td>Change les cercles de tous les personnages en cercles correspondants, réduit la durée de "Paralysie" de tous les personnages d'un tour et multiplie l'ATK de tous les personnages par 1,5 pendant un tour.</td>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>
               </tr>
-              <tr>           
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 1%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 7%.</td>            
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#A916B6">INT</font></b> de 7%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>            
+                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
               </tr>
                 </tbody>
           </table>
@@ -400,4 +401,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

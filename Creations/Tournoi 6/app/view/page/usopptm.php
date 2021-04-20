@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,18 +223,18 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/W1aPVUU.png"></center>  
-          <caption><img src="https://i.imgur.com/fakZOON.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/W1aPVUU.png"></center>
+          <caption><img src="https://i.imgur.com/fakZOON.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>L'équipage du brave guerrier des mers</small><br>Usopp, Oignon, Piment et Carotte<b></td>
-              </tr>         
-              <tr>            
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font> (Usopp) / <font color="#4C4CFF">QCK</font> (Oignon, Piment et Carotte)</p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font> (Usopp) / <font color="#4C4CFF">QCK</font> (Oignon, Piment et Carotte)</p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Usopp</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
@@ -241,77 +242,77 @@ position: absolute;
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
                         </td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Usopp</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
-                    </tr>                     
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>60</td>           
-              </tr>           
-              <tr>            
+                <td>60</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#A916B6">Usopp</font></b> : 4<br>
                             <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : 10<br>
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : 4
                         </td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>1 puis 5 après le dépassement de limites</td>           
-              </tr>           
-              <tr>                         
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                <td>1 puis 5 après le dépassement de limites</td>
+              </tr>
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>HP</td>
                         <td>
                             <!-- <b><font color="#A916B6">Usopp</font></b> : ? puis ? après le dépassement de limites<br>
                             <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : ? puis ? après le dépassement de limites<br> -->
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : 2470 puis 2790 après le dépassement de limites
-                        </td>                       
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
                         <td>
                             <!-- <b><font color="#A916B6">Usopp</font></b> : ? puis ? après le dépassement de limites<br>
                             <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : ? puis ? après le dépassement de limites<br> -->
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : 1454 puis 1835 après le dépassement de limites
-                        </td>              
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
                         <td>
                             <!-- <b><font color="#A916B6">Usopp</font></b> : ? puis ? après le dépassement de limites<br>
                             <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : ? puis ? après le dépassement de limites<br> -->
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : 210 puis 310 après le dépassement de limites
-                        </td>                
-                    </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">Usopp</font></b> : Multiplie l'ATK des personnages de classe Tireur par 2,25, ajoute 0,2 au multiplicateur de combos au prochain tour à chaque "PARFAIT" et rend grandement le timing des coups "PARFAIT" plus facile.<br>
                             <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : Multiplie l'ATK des personnages de classe Tireur par 2 et bloque le minimum du multiplicateur de combos à 1,5.<br>
                             <b><font color="#A916B6">Usopp</font></b><b>,</b> <b><font color="#4C4CFF">Oignon, Piment et Carotte</font></b> : Multiplie l'ATK des personnages de classe Tireur par 2,5, bloque le minimum du multiplicateur de combos à 2,1 et rend grandement le timing des coups "PARFAIT" plus facile.<br>
-                        </td>  
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (30→22 puis 15)</td>
                 <td>Si le capitaine ou le capitaine ami est un personnage de classe Tireur, annule les réductions d'ATK, les blocages et les diminutions de hausse du multiplicateur de combos, réduit la durée de "Lien" et de "Déseespoir du capitaine" de 3 tours et si des ennemis sont retardés ou bénéficient d'une immunité ou d'une immunité aux retards, multiplie l'ATK contre les ennemis avec leurs attaques retardées et immunisé contre les retards par 2 pendant un tour. Devient "Usopp, Oignon, Piment et Carotte" pendant 3 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Ajoute 75 en ATK pour les personnages de classe Tireur.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Tireur.</td>
               </tr>
@@ -319,44 +320,44 @@ position: absolute;
                         <td>Effets du changement</td>
                         <td>Change son cercle en cercle correspondant et si au moins 3 personnages ont effectué un coup "PARFAIT" au tour précédent, retarde toutes les attaques ennemies d'un tour, sinon, retarde les attaques ennemies des "ennemis normaux" d'un tour. Si les ennemis sont retardés ou bénéficient d'une immunité ou d'une immunité aux retards lorsque les effets du changement sont activés, mélange les cercles qui ne sont pas correspondants des personnages adjacents aléatoirement.<br>
                         <small>Les ennemis normaux sont les ennemis non nommés, tels que les boosters, les évolueurs ou les ennemis remplissant les stages tels que des pirates ou des soldats de la Marine. Les ennemis non normaux sont les personnages nommés (tel que Luffy, Doflamingo, Kobby, Garp, Wapol...) ou les boss.</small></td>
-                    </tr> 
-                    <tr>            
+                    </tr>
+                    <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
                         <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 180 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
@@ -379,4 +380,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

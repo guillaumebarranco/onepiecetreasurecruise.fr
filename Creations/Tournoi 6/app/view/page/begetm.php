@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,18 +223,18 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/s8hxZgj.png"></center>  
-          <caption><img src="https://i.imgur.com/ILanGFj.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/s8hxZgj.png"></center>
+          <caption><img src="https://i.imgur.com/ILanGFj.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Équipage visant un Empereur</small><br>Équipage de Bege<b></td>
-              </tr>         
-              <tr>            
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font> (Capone Bege) / <font color="#ECAC04">PSY</font> (Chiffon, Vito et Gotti)</p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font> (Capone Bege) / <font color="#ECAC04">PSY</font> (Chiffon, Vito et Gotti)</p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
@@ -241,69 +242,69 @@ position: absolute;
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
                         </td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#ECAC04">Chiffon, Vito et Gotti</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
-                    </tr>                     
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>60</td>           
-              </tr>           
-              <tr>            
+                <td>60</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : 6<br>
                             <b><font color="#ECAC04">Chiffon, Vito et Gotti</font></b> : 6<br>
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : 6
                         </td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>1 puis 5 après le dépassement de limites</td>           
-              </tr>           
-              <tr>                         
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                <td>1 puis 5 après le dépassement de limites</td>
+              </tr>
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>HP</td>
                         <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : 2578 puis 2978 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Chiffon, Vito et Gotti</font></b> : 2748 puis 3148 après le dépassement de limites<br>
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : 2995 puis 3395 après le dépassement de limites
-                        </td>                       
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
                         <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : 1298 puis 1498 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Chiffon, Vito et Gotti</font></b> : 1223 puis 1423 après le dépassement de limites<br>
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : 1394 puis 1594 après le dépassement de limites
-                        </td>              
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
                         <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : 357 puis 467 après le dépassement de limites<br>
                             <b><font color="#ECAC04">Chiffon, Vito et Gotti</font></b> : 330 puis 440 après le dépassement de limites<br>
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : 402 puis 512 après le dépassement de limites
-                        </td>                
-                    </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">Capone Bege</font></b> : Multiplie l'ATK des personnages de classe Tireur par 3 et restaure les HP avec 0,5 fois sa RCV à la fin de chaque tour.<br>
                             <b><font color="#ECAC04">Chiffon, Vito et Gotti</font></b> : Multiplie l'ATK des personnages de classe Tireur par 2,5 et restaure les HP avec 0,5 fois sa RCV à chaque "PARFAIT" à la fin du tour.<br>
                             <b><font color="#A916B6">Équipage de</font></b> <b><font color="#ECAC04">Bege</font></b> : Multiplie l'ATK des personnages de classe Tireur par 3,75 et restaure les HP avec 1 fois sa RCV à chaque "PARFAIT" à la fin du tour.<br>
-                        </td>  
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (32→24 puis 13)</td>
                 <td>Réduit de 80% la partie des dégâts infligés par chaque ennemi qui excède 3 000 pendant 3 tours, devient "Équipage de Bege" pendant 2 tours, change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#777">[EMP]</font></b> et restaure des HP à l'équipe selon le nombre de cercles de type consommés.<br>
                 <ul style="display: inline;"><small><b>1 cercle :</b> Restaure les HP avec 10 fois sa RCV.</ul><br>
@@ -313,62 +314,62 @@ position: absolute;
                 <ul style="display: inline;"><b>5 cercles :</b> Restaure les HP avec 50 fois sa RCV.</ul><br>
                 <ul style="display: inline;"><b>6 cercles :</b> Restaure les HP avec 60 fois sa RCV.</small></ul></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Réduit la durée de "Onomatopées dissimulées" de 10 tours.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour les personnages de classe Tireur.</td>
               </tr>
                     <tr>
                         <td>Effets du changement</td>
                         <td>Réduit la durée de "Désespoir du capitaine" et de "Paralysie" de tous les personnages d'un tour et réduit la durée de "Soin impossible" d'un tour.</td>
-                    </tr> 
-                    <tr>            
+                    </tr>
+                    <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 10%.</td>             
+                        <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 10%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 20%.</td>             
+                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 20%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>             
+                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 40%.</td>             
+                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 40%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>             
+                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0117.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0103.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0104.png" height="8%" width="8%"></center></td>
                     </tr>
                 </tbody>
@@ -390,4 +391,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

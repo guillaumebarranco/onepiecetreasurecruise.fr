@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,118 +223,118 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/tVTVZfd.png"></center>  
-          <caption><img src="https://i.imgur.com/YwZqEZ2.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/tVTVZfd.png"></center>
+          <caption><img src="https://i.imgur.com/YwZqEZ2.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>L'ange gardien d'Alabasta</small><br>Crocodile<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>L'ange gardien d'Alabasta</small><br>Crocodile<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>            
-              </tr>         
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>3030 puis 3945 après le dépassement de limites</td>             
+                <td>3030 puis 3945 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1789 puis 1917 après le dépassement de limites</td>             
+                <td>1789 puis 1917 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>496 puis 800 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>496 puis 800 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Si l'équipe contient un personnage de classe Libre, un de classe Ambitieux, un de classe Tenace et un de classe Intellectuel, multiplie l'ATK de tous les personnages selon les HP de l'équipe au début du tour et si l'équipe ne contient aucun personnage de classe Cogneur, Sabreur, Tireur et Ravageur, réduit les dégâts subis de 30% et rend les cercles <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#A916B6">[INT]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour tous les personnages.<br>
                   <ul style="display: inline;"><small><b>Au-maximum :</b> Par 4,5.</ul><br>
                   <ul style="display: inline;"><b>Entre 99% et 50% :</b> Par 3,5.</ul><br>
                   <ul style="display: inline;"><b>En-dessous de 50% :</b> Par 2,5.</small></ul></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (13 puis 12)</td>
                 <td>Rend les effets de type de l'ATK de tous les personnages avantageux contre tous les types pendant un tour, multiplie les effets de type des ATK normales de tous les personnages par 2 pendant un tour et si les HP sont en-dessous de 30%, annule les "RCV en baisse" et le "Soin impossible" et restaure les HP avec 100 fois sa RCV.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability</td>
                 <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel d'un tour au début de la quête.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 1% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 1% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 2% l'ATK du personnage en dégâts additionnels.</td>                 
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 2% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 3% l'ATK du personnage en dégâts additionnels.</td>                 
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 3% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>                 
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>        
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 99% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Restaure les HP à hauteur de 0,3 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>             
+                <td>Restaure les HP à hauteur de 0,3 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,6 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>  
+                <td>Restaure les HP à hauteur de 0,6 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,9 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>  
+                <td>Restaure les HP à hauteur de 0,9 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1,2 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>  
+                <td>Restaure les HP à hauteur de 1,2 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>  
+                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 90%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 70%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 50%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 30%.</td>
               </tr>
@@ -356,4 +357,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

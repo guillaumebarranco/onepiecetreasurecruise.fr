@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,72 +223,72 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/uSorQxV.png"></center>  
-          <caption><img src="https://i.imgur.com/AP2Gs3h.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/uSorQxV.png"></center>
+          <caption><img src="https://i.imgur.com/AP2Gs3h.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Dernier souffle au sommet de Marine Ford</small><br>Luffy et Ace<b></td>              
-              </tr>         
-              <tr>            
+                <td><b><small>Dernier souffle au sommet de Marine Ford</small><br>Luffy et Ace<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Monkey D. Luffy) / <font color="#1CAC24">DEX</font> (Portgas D. Ace)</p><b></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#1CAC24">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                             <b><font color="#1CAC24">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                             <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                         </td>
-                    </tr>                 
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>65</td>           
-              </tr>       
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>65</td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                   <b><font color="#DC241C">Monkey D. Luffy</font></b> : 3335 puis 3885 après le dépassement de limites puis 4085 après l'extension du dépassement de limites<br>
                   <b><font color="#1CAC24">Portgas D. Ace</font></b> : 3050 puis 3600 après le dépassement de limites puis 3800 après l'extension du dépassement de limites<br>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : 3530 puis 4080 après le dépassement de limites puis 4280 après l'extension du dépassement de limites
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                   <b><font color="#DC241C">Monkey D. Luffy</font></b> : 1532 puis 1732 après le dépassement de limites puis 1932 après l'extension du dépassement de limites<br>
                   <b><font color="#1CAC24">Portgas D. Ace</font></b> : 1647 puis 1847 après le dépassement de limites puis 2047 après l'extension du dépassement de limites<br>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : 1690 puis 1890 après le dépassement de limites puis 2090 après l'extension du dépassement de limites
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                   <b><font color="#DC241C">Monkey D. Luffy</font></b> : 426 puis 486 après le dépassement de limites puis 586 après l'extension du dépassement de limites<br>
                   <b><font color="#1CAC24">Portgas D. Ace</font></b> : 412 puis 472 après le dépassement de limites puis 572 après l'extension du dépassement de limites<br>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : 440 puis 500 après le dépassement de limites puis 600 après l'extension du dépassement de limites
-                </td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                   <b><font color="#DC241C">Monkey D. Luffy</font></b> : Multiplie l'ATK des personnages de classe Ravageur, Cogneur et Tenace par 4, les HP par 1,2 et rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Ravageur, Cogneur et Tenace.<br>
@@ -295,93 +296,93 @@ position: absolute;
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : Multiplie l'ATK des personnages de classe Ravageur, Cogneur et Tenace par 4,5, les HP par 1,2, rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Ravageur, Cogneur et Tenace et conserve les cercles avantageux des personnages après un "PARFAIT".<br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→15 puis 14 puis 12)</td>
                 <td>Multiplie les effets des cercles des personnages de classe Ravageur, Cogneur et Tenace par 2,15 pendant 2 tours (immunise le coup spécial aux attaques préventives des ennemis) et devient "Luffy et Ace" pendant 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>
                   <b><font color="#DC241C">Monkey D. Luffy</font></b> : Augmente les chances d'apparition des cercles <b><font color="#1CAC24">[DEX]</font></b> pour les personnages de classe Ravageur, Cogneur et Tenace et ajoute 50 en ATK pour les personnages de classe Ravageur, Cogneur et Tenace.<br>
                   <b><font color="#1CAC24">Portgas D. Ace</font></b> : Augmente les chances d'apparition des cercles <b><font color="#DC241C">[STR]</font></b> pour les personnages de classe Ravageur, Cogneur et Tenace et ajoute 50 en ATK pour les personnages de classe Ravageur, Cogneur et Tenace.<br>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : Augmente grandement les chances d'apparition des cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> pour les personnages de classe Ravageur, Cogneur et Tenace et ajoute 150 en ATK pour les personnages de classe Ravageur, Cogneur et Tenace.
-                </td>             
+                </td>
               </tr>
               <tr>
                 <td>Effets du changement</td>
                 <td>Change son cercle (cercle <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercle correspondant, multiplie l'effet du cercle du personnage par 2 (cumulable avec les autres augmentations des effets des cercles) et réduit les dégâts subis de 15% pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Immunise le personnage contre "Lien des cercles" et aux effets négatifs impactant son coup spécial.</td>             
+                <td>Immunise le personnage contre "Lien des cercles" et aux effets négatifs impactant son coup spécial.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 7%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 7%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 10%.</td>             
+                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 10%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 15%.</td>             
+                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 15%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 20%.</td>             
+                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 20%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>             
+                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 30%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>             
+                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Luffy et Ace.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1985.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -403,4 +404,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,18 +223,18 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/vfP1i0X.png"></center>  
-          <caption><img src="https://i.imgur.com/gvVgGy9.png" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/vfP1i0X.png"></center>
+          <caption><img src="https://i.imgur.com/gvVgGy9.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Alliance Ninja-Pirate-Mink-Samouraï</small><br>Équipage du Heart<b></td>
-              </tr>         
-              <tr>            
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font> (Trafalgar Law) / <font color="#4C4CFF">QCK</font> (Bepo, Shachi et Pingouin)</p><b></td>              
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#1CAC24">DEX</font> (Trafalgar Law) / <font color="#4C4CFF">QCK</font> (Bepo, Shachi et Pingouin)</p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                         <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
@@ -241,121 +242,121 @@ position: absolute;
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
                         </td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
                         </td>
-                    </tr>                     
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>60</td>           
-              </tr>           
-              <tr>            
+                <td>60</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : 4<br>
                             <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : 6<br>
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : 5
                         </td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>1 puis 5 après le dépassement de limites</td>           
-              </tr>           
-              <tr>                         
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                <td>1 puis 5 après le dépassement de limites</td>
+              </tr>
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>HP</td>
                         <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : 2804 puis 3304 après le dépassement de limites puis 3654 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : 2944 puis 3444 après le dépassement de limites puis 3794 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : 3142 puis 3642 après le dépassement de limites puis 3992 après l'extension du dépassement de limites<br>
-                        </td>                       
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
                         <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : 1436 puis 1636 après le dépassement de limites puis 1836 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : 1392 puis 1592 après le dépassement de limites puis 1792 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : 1524 puis 1724 après le dépassement de limites puis 1924 après l'extension du dépassement de limites<br>
-                        </td>              
+                        </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
                         <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : 245 puis 345 après le dépassement de limites puis 445 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : 256 puis 356 après le dépassement de limites puis 456 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : 336 puis 436 après le dépassement de limites puis 536 après l'extension du dépassement de limites<br>
-                        </td>                
-                    </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#1CAC24">Trafalgar Law</font></b> : Multiplie l'ATK des personnages de classe Libre et Ravageur par 2,75, les HP par 1,25, restaure les HP avec 0,5 fois sa RCV à chaque "PARFAIT" à la fin du tour et rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour les personnages de classe Libre et Ravageur.<br>
                             <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : Multiplie l'ATK des personnages de classe Libre et Ravageur par 3,25, les HP par 1,25 et rend les cercles <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour les personnages de classe Libre et Ravageur.<br>
                             <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : Multiplie l'ATK des personnages de classe Libre et Ravageur par 3,75, les HP par 1,25, restaure les HP avec 0,75 fois sa RCV à chaque "PARFAIT" à la fin du tour et rend les cercles <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour les personnages de classe Libre et Ravageur.<br>
-                        </td>  
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (33→26 puis 11 puis 10)</td>
                 <td>Inflige 150 000 points de dégâts fixes sur tous les ennemis en ignorant les effets défensifs, multiplie les effets des cercles des personnages de classe Libre et Ravageur par 2 pendant un tour, réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour et si le capitaine est un personnage de classe Libre ou Ravageur, annule les effets défensifs des ennemis contre les coups spéciaux de tous les personnages pendant 2 tours. Devient "Équipage du Heart" pendant 2 tours.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Ajoute 75 en HP, ATK et RCV pour les personnages de classe Libre et Ravageur.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Si un autre personnage de classe Libre ou Ravageur utilise son coup spécial, réduit le temps de chargement du coup spécial du personnage de 3 tours.</td>
               </tr>
                     <tr>
                         <td>Effets du changement</td>
                         <td>Inflige 30 fois son ATK en dégâts élémentaires sur tous les ennemis à la fin du tour et annule les effets défensifs dont bénéficient les ennemis contre les ATK normales du personnage pendant un tour.</td>
-                    </tr> 
-                    <tr>            
+                    </tr>
+                    <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>            
+                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 4 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>            
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>             
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>             
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 80%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 50%.</td>
               </tr>
@@ -378,4 +379,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

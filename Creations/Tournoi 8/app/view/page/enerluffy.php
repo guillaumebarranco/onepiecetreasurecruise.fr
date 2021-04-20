@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -309,7 +310,7 @@ position: absolute;
           <td>
             <b><font color="#ECAC04">Ener</font></b> : Multiplie les HP de l'équipe par 1,3, l'ATK des personnages de type <b><font color="#ECAC04">PSY</font></b> et <b><font color="#1CAC24">DEX</font></b> par 5 et l'ATK des personnages de types <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> par 4. Inflige la Paralysie à tous les ennemis en arrivant sur chaque nouveau stage. La probabilité de Paralysie des ennemis au moment de leur attaque est proportionnelle au nombres de HP restants à l'équipe (70% à 1 HP restant et 30% avec les HP au maximum). Récupère 5x sa RCV en HP lorsqu'aucun ennemi n'a pu attaquer pour cause de Paralysie pendant le tour.
             <hr>
-            <b><font color="#1CAC24">Luffy</font></b> : Multiplie les HP de l'équipe par 1,2. l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> et <b><font color="#ECAC04">PSY</font></b> par 4,25 et l'ATK des personnages de types <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> par 3,5. Lorsque l'équipe se voit infliger la Paralysie, multiplie l'ATK de tous les personnages par 1,1 (cumulable sur l'ensemble de la quête) et annule la Paralysie subie par l'équipe. Réduit les dégâts subis de 33% lorsque le personnage n'attaque pas durant le tour. 
+            <b><font color="#1CAC24">Luffy</font></b> : Multiplie les HP de l'équipe par 1,2. l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> et <b><font color="#ECAC04">PSY</font></b> par 4,25 et l'ATK des personnages de types <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> par 3,5. Lorsque l'équipe se voit infliger la Paralysie, multiplie l'ATK de tous les personnages par 1,1 (cumulable sur l'ensemble de la quête) et annule la Paralysie subie par l'équipe. Réduit les dégâts subis de 33% lorsque le personnage n'attaque pas durant le tour.
           </td>
         <tr>
           <td>Special (19→14 puis 12)</td>
@@ -435,4 +436,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

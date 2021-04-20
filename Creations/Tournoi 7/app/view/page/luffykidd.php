@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,23 +226,23 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/BBFtJCd.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Supernovæ emprisonnées à Udon</small><br>Luffy et Kidd<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Supernovæ emprisonnées à Udon</small><br>Luffy et Kidd<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#DC241C">STR</font> (Luffy) / <font color="#1CAC24">DEX</font> (Kidd)</p><b></td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                 <td>
                   <b><font color="#DC241C">Luffy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
                   <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur ou Ravageur (selon si le coup spécial est activé avec <b><font color="#DC241C">Luffy</font></b> ou avec <b><font color="#1CAC24">Kidd</font></b>)
                 </td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Classe 2</td>
                 <td>
                   <b><font color="#DC241C">Luffy</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
@@ -249,35 +250,35 @@ position: absolute;
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Combo</td>
                 <td>4</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : 5067 après l'extension du dépassement de limites
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : 2076 après l'extension du dépassement de limites
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                   <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : 501 après l'extension du dépassement de limites
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Réduit de 100% les chances d'appartion des cercles <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> et les cercles <b><font color="#BC5C0C">[RCV]</font></b> sont remplacés par les cercles <b><font color="#F6BC9D">[DANGO]</font></b>. Si un personnage fait un coup "PARFAIT", change le cercle du personnage en cercle <b><font color="#F6BC9D">[DANGO]</font></b> au tour suivant. Multiplie les HP de tous les personnages par 1,3 et réduit la durée de "Lien" de 10 tours. Selon le personnage :<br>
                   <ul style="display: inline;"><b><font color="#DC241C">Luffy</font></b> : Multiplie la RCV de tous les personnages par 1,25, multiplie l'ATK de tous les personnages par 3,5 et rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour tous les personnages.</ul><br>
@@ -289,7 +290,7 @@ position: absolute;
                   <ul style="display: inline;">Lorsqu’un personnage consomme un cercle <b><font color="#F6BC9D">[DANGO]</font></b>, ses dégâts seront multipliés par 1,2 au tour suivant.</ul><br>
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (12)</td>
                 <td>Change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#BC5C0C">[RCV]</font></b>, réduit la durée de "Lien" de 20 tours, annule le poison, les "RCV en baisse" et le "Soin impossible", ajoute 30 fois le nombre de cercles <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="#F6BC9D">[DANGO]</font></b> consommés avant l'activation du coup spécial à l'ATK de base de tous les personnages pendant un tour (au maximum 1500 avec 50 cercles consommés) et si au moins 2 personnages font un coup "SUPER", multiplie l'ATK de tous les personnages par 2,5 au tour suivant.</td>
               </tr>
@@ -297,28 +298,28 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Change son cercle en cercle <b><font color="#BC5C0C">[RCV]</font></b>, multiplie la RCV de tous les personnages par 1,5 pendant un tour et libère le personnage de "Paralysie", de "Désespoir du capitaine" et de "Lien des cercles".</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 150 en HP, ATK et RCV pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>                         
+                        <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-                    <tr>             
+                    <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 3</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
                 </tbody>
           </table>
@@ -339,4 +340,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

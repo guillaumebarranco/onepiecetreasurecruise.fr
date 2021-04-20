@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -219,15 +220,15 @@ position: absolute;
       <h1><center><u>Tournoi de créations de personnages 6</u></center></h1>
       <h2><center><u>Partie 2</u></center></h2>
         <h2><center><u>Participants</u></center></h2>
-      <table>         
-          <table align="center">        
+      <table>
+          <table align="center">
             <tbody>
               <tr>
                 <td>
                   <a href="index.php?page=orochitm">
                 <img src="https://i.imgur.com/0wWm5nH.png" alt="Orochi"/>
               </a>
-            </td>       
+            </td>
                 <td>
                   <a href="index.php?page=luffytm">
                 <img src="https://i.imgur.com/H1IOEU5.png" alt="Luffy"/>
@@ -260,7 +261,7 @@ position: absolute;
                 <img src="https://i.imgur.com/V0M9Pab.png" alt="Franky"/>
               </a>
             </td>
-                
+
                     </tr>
                     <tr>
                         <td><br></td>
@@ -270,7 +271,7 @@ position: absolute;
         <!-- <h2><center><u>Match en cours</u></center></h2>
         <center><a href="index.php?page=usopptm"><img src="https://i.imgur.com/W1aPVUU.png" alt="Usopp"/></a> <a href="index.php?page=lawtm"><img src="https://i.imgur.com/vfP1i0X.png" alt="Law"/></a></center>
         <table>
-      <table align="center" width="50%">        
+      <table align="center" width="50%">
             <tbody>
               <tr>
                 <td>
@@ -308,4 +309,4 @@ position: absolute;
           }
         </style>
     </body>
-</html>         
+</html>

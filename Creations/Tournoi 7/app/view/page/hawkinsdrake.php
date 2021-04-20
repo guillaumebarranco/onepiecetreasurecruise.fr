@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,23 +226,23 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/bseDqrM.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Membres de la pire génération au service d'un empereur</small><br>Hawkins et X-Drake<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Membres de la pire génération au service d'un empereur</small><br>Hawkins et X-Drake<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#ECAC04">PSY</font> (Basil Hawkins) / <font color="#4C4CFF">QCK</font> (X-Drake)</p><b></td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Classe 1</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
                   <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
                 </td>
-              </tr>           
-              <tr>            
+              </tr>
+              <tr>
                 <td>Classe 2</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
@@ -249,11 +250,11 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Coût</td>
-                <td>55</td>           
-              </tr>           
-              <tr>            
+                <td>55</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : 4<br>
@@ -261,10 +262,10 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : 5
                 </td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : 3051 puis 3501 après le dépassement de limites<br>
@@ -272,7 +273,7 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : 4544 puis 4994 après le dépassement de limites
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : 1494 puis 1744 après le dépassement de limites<br>
@@ -280,18 +281,18 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : 1655 puis 1905 après le dépassement de limites
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : 336 puis 456 après le dépassement de limites<br>
                   <b><font color="#4C4CFF">X-Drake</font></b> : 104 puis 224 après le dépassement de limites<br>
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : 234 puis 354 après le dépassement de limites
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : Multiplie l'ATK des personnages de classe Tenace et Intellectuel par 3,25 et les HP par 1,35. Si les HP de l'équipe tombent à 0, éjecte l'un des coéquipiers (personnage à gauche sur la rangée du bas, personnage à droite sur la rangée du bas, personnage à gauche sur la rangée du milieu ou personnage à droite sur la rangée du milieu), restaure les HP de l'équipe à hauteur de 30% des HP de l'équipe et bloque l'utilisation des coups spéciaux de l'équipe pendant un tour.<br>
@@ -299,7 +300,7 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : Multiplie l'ATK des personnages de classe Tenace et Intellectuel par 4,25, les HP par 1,35, annule les dégâts inférieurs ou égaux à 3 000 points de dégâts et inflige 100 fois les dégâts annulés en dégâts non élémentaires sur tous les ennemis à la fin de chaque tour.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (22→17 puis 16)</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : Élimine tous les ennemis dont les HP sont inférieurs à 20%, multiplie les effets des cercles des personnages de classe Tenace et Intellectuel par 2,25 pendant un tour et devient "Hawkins et X-Drake" pendant 3 tours.<br>
@@ -310,10 +311,10 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Restaure 10% des HP maximum de l'équipe, affiche le statut de tous les ennemis pendant un tour et change son cercle en cercle correspondant.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : Ajoute 75 en RCV pour les personnages de classe Intellectuel.<br>
@@ -321,7 +322,7 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : Ajoute 200 en ATK pour les personnages de classe Tenace et Intellectuel.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>
                   <b><font color="#ECAC04">Basil Hawkins</font></b> : Rend les cercles <b><font color="peru">[TND]</font></b> avantageux pour le personnage.<br>
@@ -329,65 +330,65 @@ position: absolute;
                   <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour le personnage.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>    
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 8 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 12 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 350 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
                 </tbody>
           </table>
@@ -408,4 +409,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

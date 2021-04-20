@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,138 +223,138 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/9GW2Xbk.png"></center>  
-          <caption><img src="https://i.imgur.com/AsAuZ2k.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/9GW2Xbk.png"></center>
+          <caption><img src="https://i.imgur.com/AsAuZ2k.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Combat contre la créature la plus puissante</small><br>Eustass "Captain" Kidd<b></td>               
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>            
+                <td><b><small>Combat contre la créature la plus puissante</small><br>Eustass "Captain" Kidd<b></td>
               </tr>
-              <tr>                        
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
                         <td>Coût</td>
-                        <td>55</td>                     
-                    </tr>                               
-                    <tr>                        
+                        <td>55</td>
+                    </tr>
+                    <tr>
                         <td>Combo</td>
                         <td>4</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Emplacements de pouvoirs</td>
-                        <td>5</td>                  
-                    </tr>    
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                        <td>5</td>
                     </tr>
-                    <tr>                        
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
+                    </tr>
+                    <tr>
                         <td>HP</td>
-                        <td>3187 puis 3687 après le dépassement de limites</td>                         
+                        <td>3187 puis 3687 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
-                        <td>1605 puis 1805 après le dépassement de limites</td>                         
+                        <td>1605 puis 1805 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
-                        <td>245 puis 345 après le dépassement de limites</td>                       
-                    </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        <td>245 puis 345 après le dépassement de limites</td>
+                    </tr>
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Captain Ability</td>
                         <td><u>Ambition démesurée :</u> Réduit le temps de chargement des coups spéciaux des personnages de classe Tireur, Ravageur et Ambitieux de 2 tours au début de la quête, multiplie l'ATK des personnages de classe Tireur, Ravageur et Ambitieux par 4,25 si les HP sont en-dessous de 30%, sinon par 3,75, les HP par 1,25, inflige 300 000 points de dégâts fixes à la fin de chaque tour et réduit la durée des réductions d'ATK et des diminutions de hausse du multiplicateur de combos de 10 tours.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→13 puis 12)</td>
                 <td><u>Puissance de l'électromagnétisme :</u> Réduit les HP de l'équipe de 50%, inflige 200 fois les HP perdus en dégâts non élémentaires sur un ennemi, réduit le temps de chargement des coups spéciaux des personnages de classe Tireur, Ravageur et Ambitieux de 2 tours et si les HP sont en-dessous de 50%, ajoute 0,7 au multiplicateur de combos pendant 2 tours et si le coup spécial est utilisé une nouvelle fois lors du même tour, ajoute 1,4 au multiplicateur de combos pendant 2 tours.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Ajoute 150 en ATK pour tous les personnages.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ajoute 4 fois son ATK en dégâts additionnels non élémentaires.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
                 <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 2</td>
-                        <td>Réduit le temps de chargement du coup spécial du personnage de 1 tour après l'avoir utilisé (une fois par quête).</td>                  
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 1 tour après l'avoir utilisé (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement du coup spécial du personnage de 2 tours après l'avoir utilisé (une fois par quête).</td>   
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 2 tours après l'avoir utilisé (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement du coup spécial du personnage de 5 tours après l'avoir utilisé (une fois par quête).</td>   
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 5 tours après l'avoir utilisé (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement du coup spécial du personnage de 7 tours après l'avoir utilisé (une fois par quête).</td>                  
+                        <td>Réduit le temps de chargement du coup spécial du personnage de 7 tours après l'avoir utilisé (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit totalement le temps de chargement du coup spécial du personnage après l'avoir utilisé (une fois par quête).</td>   
+                        <td>Réduit totalement le temps de chargement du coup spécial du personnage après l'avoir utilisé (une fois par quête).</td>
                     </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 3</td>
-                        <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>                      
+                        <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>                         
+                        <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>                         
+                        <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 6 tours au début de la quête.</td>                         
+                        <td>Réduit le temps de chargement de son coup spécial de 6 tours au début de la quête.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 8 tours au début de la quête.</td>                         
+                        <td>Réduit le temps de chargement de son coup spécial de 8 tours au début de la quête.</td>
                     </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -362,23 +363,23 @@ position: absolute;
                             <ul style="display: inline;">Raizo</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK de 1 tour si l'ATK de l'équipe est réduite (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK de 1 tour si l'ATK de l'équipe est réduite (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK et des diminutions de hausse du multiplicateur de combos de 1 tour si l'ATK de l'équipe est réduite ou si le multiplicateur de combos est réduit (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK et des diminutions de hausse du multiplicateur de combos de 2 tours si l'ATK de l'équipe est réduite ou si le multiplicateur de combos est réduit (une fois par quête).</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée des réductions d'ATK et des diminutions de hausse du multiplicateur de combos de 3 tours si l'ATK de l'équipe est réduite ou si le multiplicateur de combos est réduit (une fois par quête).</td>
                     </tr>
@@ -401,4 +402,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

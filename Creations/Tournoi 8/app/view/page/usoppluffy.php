@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -301,7 +302,7 @@ position: absolute;
           <td>
             <b><font color="#ECAC04">Usopp</font></b> :  Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie l'ATK des personnages de classe Tireur par 5, les HP par 1,5, rend les cercles <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Tireur, et réduit la durée de "Désespoir du capitaine" et de "Lien des bateaux" de 10 tours.
             <hr>
-            <b><font color="#4C4CFF">Luffy</font></b> : Multiplie l'ATK des personnages de type Cogneur par 5, réduit les dégâts subis de 20%, rend les cercles <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Cogneur, et réduit la durée de "Désespoir du capitaine" et de "Lien des bateaux" de 10 tours. 
+            <b><font color="#4C4CFF">Luffy</font></b> : Multiplie l'ATK des personnages de type Cogneur par 5, réduit les dégâts subis de 20%, rend les cercles <b><font color="#4C4CFF">[QCK]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Cogneur, et réduit la durée de "Désespoir du capitaine" et de "Lien des bateaux" de 10 tours.
           </td>
         <tr>
           <td>Special (20→15 puis 13)</td>
@@ -388,23 +389,23 @@ position: absolute;
           <td></td>
           <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
         </tr>
-        <tr>            
+        <tr>
                 <td>Potential Ability 3</td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>            
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont au maximum.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 90%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 70%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 60%.</td>             
+                <td>Permet aux attaques normales du personnage d'ignorer les barrières si les HP sont supérieurs ou égaux à 60%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Permet aux attaques normales du personnage d'ignorer les barrières.</td>
               </tr>
@@ -427,4 +428,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

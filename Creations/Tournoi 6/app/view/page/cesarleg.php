@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,26 +223,26 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/YERst8L.png"></center>  
-          <caption><img src="https://i.imgur.com/juoNzko.jpg" height="50%" width="50%"><img src="https://i.imgur.com/ImRJR2E.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/YERst8L.png"></center>
+          <caption><img src="https://i.imgur.com/juoNzko.jpg" height="50%" width="50%"><img src="https://i.imgur.com/ImRJR2E.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Danger à Punk Hazard</small><br>César et Monet<b></td>
-              </tr>         
-              <tr>                         
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#A916B6">INT</font> (César Clown) / <font color="#1CAC24">DEX</font> (Monet)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">César Clown</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#1CAC24">Monet</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#A916B6">César</font></b> <b>et</b> <b><font color="#1CAC24">Monet</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">César Clown</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
@@ -249,37 +250,37 @@ position: absolute;
                             <b><font color="#A916B6">César</font></b> <b>et</b> <b><font color="#1CAC24">Monet</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel
                         </td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#A916B6">César Clown</font></b> : 3246 puis 3616 après le dépassement de limites puis 3966 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Monet</font></b> : 3122 puis 3492 après le dépassement de limites puis 3842 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">César</font></b> <b>et</b> <b><font color="#1CAC24">Monet</font></b> : 3325 puis 3695 après le dépassement de limites puis 4045 après l'extension du dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#A916B6">César Clown</font></b> : 1649 puis 1849 après le dépassement de limites puis 2049 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Monet</font></b> : 1415 puis 1615 après le dépassement de limites puis 1815 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">César</font></b> <b>et</b> <b><font color="#1CAC24">Monet</font></b> : 1771 puis 1971 après le dépassement de limites puis 2171 après l'extension du dépassement de limites
-                        </td>           
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#A916B6">César Clown</font></b> : 201 puis 276 après le dépassement de limites puis 351 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Monet</font></b> : 633 puis 708 après le dépassement de limites puis 883 après l'extension du dépassement de limites<br>
                             <b><font color="#A916B6">César</font></b> <b>et</b> <b><font color="#1CAC24">Monet</font></b> : 597 puis 672 après le dépassement de limites puis 747 après l'extension du dépassement de limites
-                        </td>   
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                        </td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#A916B6">César Clown</font></b> : Multiplie l'ATK des personnages de classe Ambitieux et Intellectuel par 3,5, rend les cercles <b><font color="#A916B6">[INT]</font></b>, <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#ECAC04">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ambitieux et Intellectuel et le personnage a une chance d'inoculer à tous les ennemis un poison (100 fois son ATK) pendant 99 tours selon les dégâts totaux infligés par des ATK normales au tour précédent.<br>
@@ -291,11 +292,11 @@ position: absolute;
                             <b><font color="#A916B6">César</font></b> <b>et</b> <b><font color="#1CAC24">Monet</font></b> : Multiplie l'ATK des personnages de classe Ambitieux et Intellectuel par 4,25 si les HP de l'ennemi sont inférieurs à 50%, sinon par 4, rend les cercles <b><font color="#A916B6">[INT]</font></b>, <b><font color="#1CAC24">[DEX]</font></b>, <b><font color="#ECAC04">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Ambitieux et Intellectuel et réduit les dégâts subis de 30%.<br>
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (20→15 puis 13 puis 12)</td>
                 <td>Annule le poison, les réductions d'ATK et les dégâts augmentés, élimine les ennemis empoisonnés si leurs HP sont inférieurs à 35%, sinon, envenime tous les ennemis (inflige 300 fois l'ATK du personnage en dégâts fixes à la fin de chaque tour) et multiplie l'ATK contre les ennemis empoisonnés par 2 pendant 3 tours. Devient "César et Monet" pendant 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 75 en HP, ATK et RCV pour les personnages de classe Ambitieux et Intellectuel.</td>
               </tr>
@@ -303,72 +304,72 @@ position: absolute;
                 <td>Effets du changement</td>
                 <td>Libère le personnage de "Désespoir du capitaine", réduit la durée de "Désespoir des coéquipiers" de tous les personnages d'un tour et mélange les cercles de type de tous les personnages aléatoirement.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Ambitieux et Intellectuel.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>            
+                <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>                        
+              <tr>
                         <td>Potential Ability 2</td>
                         <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 4 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
                     </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>             
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>            
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
                 </tbody>
           </table>
@@ -389,4 +390,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

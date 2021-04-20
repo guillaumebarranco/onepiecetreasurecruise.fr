@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,118 +223,118 @@ position: absolute;
         <h2><center><u>Fiche du personnage de la Carte aux trésors</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/H1IOEU5.png"></center>  
-          <caption><img src="https://i.imgur.com/O5CvIcA.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/H1IOEU5.png"></center>
+          <caption><img src="https://i.imgur.com/O5CvIcA.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
                 <td><b><small>Nouveau membre du Germa 66</small><br>Monkey D. Luffy<b></td>
-              </tr>         
-              <tr>            
-                <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>               
-              </tr>           
-              <tr>            
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
-              </tr>           
-              <tr>            
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>            
               </tr>
-              <tr>                        
+              <tr>
+                <td>Type</td>
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>
+              </tr>
+              <tr>
+                <td>Classe 1</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
+                <td>Classe 2</td>
+                <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
+              </tr>
+              <tr>
                         <td>Coût</td>
-                        <td>60</td>                     
-                    </tr>           
-              <tr>            
+                        <td>60</td>
+                    </tr>
+              <tr>
                 <td>Combo</td>
                 <td>5</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Emplacements de pouvoirs</td>
-                <td>1 puis 5 après le dépassement de limites</td>           
+                <td>1 puis 5 après le dépassement de limites</td>
               </tr>
-              <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+              <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>            
+                    <tr>
                 <td>HP</td>
-                <td>3256 puis 3656 après le dépassement de limites</td>             
+                <td>3256 puis 3656 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1584 puis 1984 après le dépassement de limites</td>             
+                <td>1584 puis 1984 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>143 puis 221 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>143 puis 221 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability (après le dépassement de limites)</td>
                 <td>Si l'équipe contient 6 personnages de classe Ravageur ou Cogneur, multiplie l'ATK de tous les personnages par 1,25 et ajoute 5 656 HP à la barre d'HP au début de la quête. Si le personnage est utilisé sur l'événement "Carte aux trésors", ajoute 0,8 au multiplicateur de points de trésors</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (35→28 puis 14 puis 12)</td>
                 <td><u>Transformation :</u> Réduit la durée de "Désespoir du capitaine" et de "Aptitude du bateau annulée" de 5 tours et active un effet selon le nombre de tours de "Désespoir du capitaine" infligés sur le personnage après la réduction de la durée de "Désespoir du capitaine" pendant un tour.<br>
                 <ul style="display: inline;"><small><b>3 tours :</b> Change les cercles adjacents en cercles correspondants.</ul><br>
                 <ul style="display: inline;"><b>4 tours :</b> Multiplie l'ATK de tous les personnages par 1,75.</ul><br>
                 <ul style="display: inline;"><b>5 tours :</b> Réduit les dégâts subis de 95%.</small></ul></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 66 en HP, ATK et RCV pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Si le personnage est touché par le "Lien", réduit le temps de chargement des coups spéciaux des personnages de classe Cogneur de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>             
+                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>            
+                <td>Réduit la durée de “Soin impossible” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>             
+                <td>Réduit la durée de “Soin impossible” de 7 tours.</td>
               </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Roronoa Zoro</ul><br>
@@ -346,30 +347,30 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>   
+                        <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>   
+                        <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>   
+                        <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>   
+                        <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>   
+                        <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0115.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0117.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0100.png" height="8%" width="8%"></center></td>
                     </tr>
                 </tbody>
@@ -391,4 +392,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

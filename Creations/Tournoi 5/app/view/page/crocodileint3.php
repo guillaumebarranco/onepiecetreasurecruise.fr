@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,72 +223,72 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/H82Hr2H.png"></center>  
-          <caption><img src="https://i.imgur.com/x48dBa5.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/H82Hr2H.png"></center>
+          <caption><img src="https://i.imgur.com/x48dBa5.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Crocodile<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Crocodile<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>            
-              </tr>         
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>3550 puis 4050 après le dépassement de limites</td>             
+                <td>3550 puis 4050 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1590 puis 1790 après le dépassement de limites</td>             
+                <td>1590 puis 1790 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>230 puis 330 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>230 puis 330 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Ambitieux et Ravageur selon les HP de l'équipe au début du tour, réduit la durée de "Paralysie" du personnage de 10 tours et rend les cercles <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Ambitieux et Ravageur.<br>
                         <small>Par 3 si les HP de l'équipe sont au maximum et par 4,25 s'il ne reste qu'un HP à l'équipe.</small></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→13 puis 12)</td>
                 <td>Inflige 300 000 points de dégâts fixes sur tous les ennemis en ignorant les effets défensifs, multiplie les effets des cercles des personnages de classe Ambitieux et Ravageur par 2 pendant un tour et si les HP sont en-dessous de 10%, annule les dégâts subis pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 70 en HP, ATK et RCV pour les personnages de classe Ambitieux et Ravageur.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b><font color="#ECAC04">[PSY]</font></b> et <b><font color="#A916B6">[INT]</font></b> avantageux pour les personnages de classe Ambitieux et Ravageur.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit les dégâts subis par les ennemis de type <b><font color="#ECAC04">PSY</font></b> de 5%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>             
+                <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
@@ -310,4 +311,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

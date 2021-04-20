@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,74 +226,74 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/JZuCUVS.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Affrontement décisif à Punk Hazard</small><br>Kuzan VS Sakazuki<b></td>              
+                <td><b><small>Affrontement décisif à Punk Hazard</small><br>Kuzan VS Sakazuki<b></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Type</td>
                 <td><b><p><font color="#A916B6">INT</font> (Kuzan) / <font color="#ECAC04">PSY</font> (Sakazuki)</p><b></td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Kuzan</font></b> : Intelllectuel<br>
                             <b><font color="#ECAC04">Sakazuki</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#A916B6">Kuzan</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
                             <b><font color="#ECAC04">Sakazuki</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
                         </td>
-                    </tr>                 
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>55</td>           
-              </tr>           
-              <tr>            
+                <td>55</td>
+              </tr>
+              <tr>
                 <td>Combo</td>
                 <td>
                             <b><font color="#A916B6">Kuzan</font></b> : 4<br>
                             <b><font color="#ECAC04">Sakazuki</font></b> : 4
                         </td>
-              </tr>           
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                     <b><font color="#A916B6">Kuzan</font></b> : 4240 puis 4440 après le dépassement de limites puis 4740 après l'extension du dépassement de limites<br>
                     <b><font color="#ECAC04">Sakazuki</font></b> : 4167 puis 4367 après le dépassement de limites puis 4667 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Kuzan</font></b> <b>VS</b> <b><font color="#ECAC04">Sakazuki</font></b> : 4838 puis 5138 après le dépassement de limites puis 5438 après l'extension du dépassement de limites<br>
-                </td>             
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                     <b><font color="#A916B6">Kuzan</font></b> : 1648 puis 1898 après le dépassement de limites puis 2098 après l'extension du dépassement de limites<br>
                     <b><font color="#ECAC04">Sakazuki</font></b> : 1744 puis 1994 après le dépassement de limites puis 2194 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Kuzan</font></b> <b>VS</b> <b><font color="#ECAC04">Sakazuki</font></b> : 1813 puis 2013 après le dépassement de limites puis 2213 après l'extension du dépassement de limites<br>
-                </td>     
+                </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                     <b><font color="#A916B6">Kuzan</font></b> : 235 puis 285 après le dépassement de limites puis 385 après l'extension du dépassement de limites<br>
                     <b><font color="#ECAC04">Sakazuki</font></b> : 195 puis 245 après le dépassement de limites puis 345 après l'extension du dépassement de limites<br>
                     <b><font color="#A916B6">Kuzan</font></b> <b>VS</b> <b><font color="#ECAC04">Sakazuki</font></b> : 247 puis 297 après le dépassement de limites puis 397 après l'extension du dépassement de limites<br>
                 </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                     <b><font color="#A916B6">Kuzan</font></b> : ATK des personnages des classes « Intellectuel » et « Tireur » x5 et HP x1,35. Rend les cercles <b><font color="#A916B6">[INT]</font></b> avantageux pour l’équipe et, lors de l’attaque, augmente l’ATK de base des personnages ayant un cercle <b><font color="#A916B6">[INT]</font></b> de +25 jusqu’à un maximum de +350 ATK.<br>
@@ -308,8 +309,8 @@ position: absolute;
                       <ul style="display: inline;"><b>2 000 000 dégâts totaux infligés ou plus :</b> Élimine les ennemis ayants moins de 10% HP de leurs HP max.</ul><br>
                       <ul style="display: inline;"><b>3 000 000 dégâts totaux infligés ou plus :</b> Élimine les ennemis ayants moins de 15% HP de leurs HP max..</ul><br>
                       <ul style="display: inline;"><b>5 000 000 dégâts totaux infligés ou plus :</b> Élimine les ennemis ayants moins de 20% HP de leurs HP max.</small></ul><br>
-                </td>    
-              <tr>            
+                </td>
+              <tr>
                 <td>Special (20→14 puis 13)</td>
                 <td>
                     <b><font color="#A916B6">Kuzan</font></b> : Réduit de 10 tours la durée des brûlures et si « changement des cercles impossible » est infligé à l’équipe, remplace les cercles <b><font color="#777">[EMP]</font></b>, <b><font color="maroon">[BOMB]</font></b>, <b><font color="darkslateblue">[BLK]</font></b> et désavantageux en cercles <b><font color="#A916B6">[INT]</font></b> en ignorant le « changement de cercles impossible » et multiplie les effets des cercles des personnages des classes « Intellectuel » et « Tireur » x2.25 pendant 3 tours, sinon change les cercles de type et <b><font color="darkslateblue">[BLK]</font></b> en <b><font color="#A916B6">[INT]</font></b> et multiplie les effets des cercles de ces personnages x2.5 pendant 1 tour.<br>
@@ -317,18 +318,18 @@ position: absolute;
                     <b><font color="#ECAC04">Sakazuki</font></b> : Réduit de 10 tours la durée des brûlures et si « changement des cercles impossible » est infligé à l’équipe, remplace les cercles <b><font color="#777">[EMP]</font></b>, <b><font color="maroon">[BOMB]</font></b>, <b><font color="darkslateblue">[BLK]</font></b> et désavantageux en cercles <b><font color="#ECAC04">[PSY]</font></b> en ignorant le « changement de cercles impossible » et multiplie les effets des cercles des personnages des classes « Ravageur » et « Cogneur » x2.25 pendant 3 tours, sinon change les cercles de type et <b><font color="darkslateblue">[BLK]</font></b> en <b><font color="#ECAC04">[PSY]</font></b> et multiplie les effets des cercles de ces personnages x2.5 pendant 1 tour.
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
-                <td>ATK et HP des personnages de type <b><font color="#ECAC04">PSY</font></b> et <b><font color="#A916B6">INT</font></b> +150.</td>    
+                <td>ATK et HP des personnages de type <b><font color="#ECAC04">PSY</font></b> et <b><font color="#A916B6">INT</font></b> +150.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Effet "VS"</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Effet "VS"</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Réduire 8 tours d'effets négatifs avec des coups spéciaux, des effets de soutien ou des effets de changement.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Activation d'effets</td>
                         <td>
                           <b><font color="#A916B6">Kuzan</font></b> : Change le type de tous les personnages de l’équipe en <b><font color="#A916B6">INT</font></b> pendant 3 tours et effets de type des attaques normales des personnages des classes « Intellectuel » et « Tireur » x1,75 pendant 1 tour puis x2.5 au tour suivant en cas de 3 « PARFAIT » exécutés.<br>
@@ -336,76 +337,76 @@ position: absolute;
                           <b><font color="#ECAC04">Sakazuki</font></b> : Réduit drastiquement la partie des dégâts qui dépasse 7 500 pendant 1 tour, multiplie les effets des cercles des personnages des classes « Ravageur » et « Cogneur » x2 pendant 3 tours et réduit de 2 tours la durée des barrières sur les ennemis. Si une augmentation des effets des cercles était déjà présente, multiplie les effets des cercles des personnages des classes « Ravageur » et « Cogneur » x2.75 à la place et réduit de 3 tours supplémentaire la durée des barrières sur les ennemis.
                         </td>
                     </tr>
-              <tr>               
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>
                   <b><font color="#A916B6">Kuzan</font></b> : Rend les orbes <b><font color="#A916B6">[INT]</font></b> avantageuses pour les personnages des classes "Intellectuel" et "Tireur".<br>
                   <b><font color="#ECAC04">Sakazuki</font></b> : Rend les orbes <b><font color="#ECAC04">[PSY]</font></b> avantageuses pour les personnages des classes "Ravageur" et "Cogneur".
                 </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 10%.</td>            
+                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 10%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 15%.</td>          
+                <td>Restaure les HP à hauteur de 0,5 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 15%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 20%.</td> 
+                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 20%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 25%.</td> 
+                <td>Restaure les HP à hauteur de 1 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 25%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 30%.</td> 
+                <td>Restaure les HP à hauteur de 1,5 fois les RCV du personnage si ce dernier réussit un "PARFAIT" lorsque les HP restants sont inférieurs ou égaux à 30%.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Aptitude du bateau annulée” de 1 tour.</td>            
+                <td>Réduit la durée de “Aptitude du bateau annulée” de 1 tour.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Aptitude du bateau annulée” de 2 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Aptitude du bateau annulée” de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Aptitude du bateau annulée” de 4 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
                 <td>Réduit la durée de “Aptitude du bateau annulée” de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 3</td>
                 <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td></td>
-                <td>Annule “Lien des cercles” du personnage.</td>             
+                <td>Annule “Lien des cercles” du personnage.</td>
               </tr>
                 </tbody>
           </table>
@@ -426,4 +427,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

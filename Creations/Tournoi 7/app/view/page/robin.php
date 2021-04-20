@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -225,52 +226,52 @@ position: absolute;
           <table align="center">
           <caption><img src="https://i.imgur.com/xqHLH34.png" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b>Nico Robin<b></td>               
-              </tr>         
-              <tr>            
+                <td><b>Nico Robin<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#DC241C">STR</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>            
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>HP</td>
                 <td>3200 puis 3600 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>1650 puis 1850 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>520 puis 620 après le dépassement de limites</td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de classe Intellectuel et Libre par 4,5, multiplie l'ATK des personnages des autres classes par 3,75, multiplie les HP et la RCV de tous les personnages par 1,2 et rend les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→14 puis 13)</td>
                 <td>Annule les réductions d'ATK, mélange les cercles de tous les personnages aléatoirement en cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#BC5C0C">[RCV]</font></b> et multiplie l'ATK des personnages de classe Intellectuel et Libre par 2 pendant un tour.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Super type</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Super type</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Condition d'activation</td>
                 <td>Lorsque l'équipe comprend un des personnages suivants (personnages de soutien exclus) :<br>
                   <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -283,38 +284,38 @@ position: absolute;
                   <ul style="display: inline;">Brook</ul>
                 </td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Special</td>
                         <td>Crée un double du personnage pendant un tour (le double agira comme un personnage avec des statistiques identiques) et renforce les personnages de type <b><font color="#DC241C">STR</font></b> en les transformant en personnages de <b><font color="#DC241C">super type STR</font></b>.<br>
                         <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#DC241C">STR</font></b> par 2,5 contre les ennemis de type <b><font color="#1CAC24">DEX</font></b> et par 0,75 contre les ennemis de type <b><font color="#4C4CFF">QCK</font></b>.</small></td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Immunise le personnage contre "Paralysie".</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Ajoute 100 en HP, ATK et RCV pour les personnages de classe Intellectuel et Libre.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
                         <td>Soin d'urgence.</td>
               </tr>
-              <tr>             
+              <tr>
                 <td>Potential Ability 2</td>
                 <td>Réduction de la durée de “Soin impossible”.</td>
               </tr>
-                    <tr>            
+                    <tr>
                 <td>Potential Ability 3</td>
-                <td>Attaque critique.</td>             
+                <td>Attaque critique.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -327,7 +328,7 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
                     </tr>
@@ -350,4 +351,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

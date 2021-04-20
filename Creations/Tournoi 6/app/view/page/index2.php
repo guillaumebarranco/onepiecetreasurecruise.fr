@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -219,8 +220,8 @@ position: absolute;
       <h1><center><u>Tournoi de créations de personnages 6</u></center></h1>
       <center><a class="btn btn-primary" href="index.php?page=indexpart1">Partie 1</a> <a class="btn btn-primary" href="index.php?page=indexpart2">Partie 2</a> <a class="btn btn-primary" href="index.php?page=indexpart3">Partie 3</a></center><br>
         <h2><center><u>Classement général</u></center></h2>
-      <table>         
-          <table id="classement" align="center">        
+      <table>
+          <table id="classement" align="center">
             <tbody>
               <tr>
                 <td><center><b>Place</b></center></td>

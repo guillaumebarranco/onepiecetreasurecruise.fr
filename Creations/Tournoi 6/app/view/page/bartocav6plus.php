@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,53 +223,53 @@ position: absolute;
         <h2><center><u>Fiche de la super évolution</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/Vq1Do3t.png"></center>  
-          <caption><img src="https://i.imgur.com/HulVBTN.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/Vq1Do3t.png"></center>
+          <caption><img src="https://i.imgur.com/HulVBTN.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Sauvetage périlleux</small><br>Bartolomeo et Cavendish<b></td>              
-              </tr>         
-              <tr>                         
+                <td><b><small>Sauvetage périlleux</small><br>Bartolomeo et Cavendish<b></td>
+              </tr>
+              <tr>
                         <td>Type</td>
                         <td><b><p><font color="#1CAC24">DEX</font> (Bartolomeo) / <font color="#4C4CFF">QCK</font> (Cavendish)</p><b></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#4C4CFF">Cavendish</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
                         </td>
-                    </tr>  
-                    <tr>                        
+                    </tr>
+                    <tr>
                         <td>Classe 2</td>
                         <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
                             <b><font color="#4C4CFF">Cavendish</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur<br>
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur
                         </td>
-                    </tr>             
-              <tr>            
+                    </tr>
+              <tr>
                 <td>Coût</td>
-                <td>65</td>           
-              </tr>         
-              <tr>            
-                <td>Emplacements de pouvoirs</td>
-                <td>5</td>          
-              </tr>           
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td>65</td>
               </tr>
-              <tr>            
+              <tr>
+                <td>Emplacements de pouvoirs</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
                 <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : 3238 puis 3713 après le dépassement de limites puis 4013 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">Cavendish</font></b> : 3238 puis 3713 après le dépassement de limites puis 4013 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : 3924 puis 4399 après le dépassement de limites puis 4699 après l'extension du dépassement de limites
-                        </td>     
+                        </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
                 <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : 1612 puis 1822 après le dépassement de limites puis 1972 après l'extension du dépassement de limites<br>
@@ -276,18 +277,18 @@ position: absolute;
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : 1778 puis 1988 après le dépassement de limites puis 2138 après l'extension du dépassement de limites
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
                 <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : 402 puis 502 après le dépassement de limites puis 602 après l'extension du dépassement de limites<br>
                             <b><font color="#4C4CFF">Cavendish</font></b> : 352 puis 452 après le dépassement de limites puis 552 après l'extension du dépassement de limites<br>
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : 428 puis 528 après le dépassement de limites puis 628 après l'extension du dépassement de limites
                         </td>
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : Multiplie l'ATK des personnages de classe Ambitieux par 3,5 et si le personnage n'attaque pas durant le tour, réduit les dégâts subis de 30%.<br>
@@ -295,99 +296,99 @@ position: absolute;
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : Multiplie l'ATK des personnages de classe Ambitieux par 4,25, rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#1CAC24">[DEX]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> avantageux pour les personnages de classe Ambitieux et réduit les dégâts subis de 30%.
                         </td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (21→16 puis 15 puis 14)</td>
-                <td>Inflige 125 fois son ATK en dégâts non élémentaires sur tous les ennemis, réduit drastiquement la partie des dégâts infligés par chaque ennemi qui excède 5 000 pendant un tour, multiplie l'ATK des personnages de classe Ambitieux par 2,25 pendant un tour, devient "Bartolomeo et Cavendish" pendant 3 tours et si au moins 2 personnages font un coup "PARFAIT", multiplie les effets des cercles des personnages de classe Ambitieux par 2,25 au tour suivant.</td> 
+                <td>Inflige 125 fois son ATK en dégâts non élémentaires sur tous les ennemis, réduit drastiquement la partie des dégâts infligés par chaque ennemi qui excède 5 000 pendant un tour, multiplie l'ATK des personnages de classe Ambitieux par 2,25 pendant un tour, devient "Bartolomeo et Cavendish" pendant 3 tours et si au moins 2 personnages font un coup "PARFAIT", multiplie les effets des cercles des personnages de classe Ambitieux par 2,25 au tour suivant.</td>
               </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>
                             <b><font color="#1CAC24">Bartolomeo</font></b> : Ajoute 50 en HP pour les personnages de classe Ambitieux.<br>
                             <b><font color="#4C4CFF">Cavendish</font></b> : Ajoute 50 en ATK pour les personnages de classe Ambitieux.<br>
                             <b><font color="#1CAC24">Bartolomeo</font></b> <b>et</b> <b><font color="#4C4CFF">Cavendish</font></b> : Ajoute 100 en HP et ATK pour les personnages de classe Ambitieux.
-                        </td>                       
+                        </td>
                     </tr>
                     <tr>
                         <td>Effets du changement</td>
                         <td>Change son cercle en cercle correspondant, multiplie l'effet du cercle du personnage par 1,75 pendant un tour, restaure 5% des HP maximum de l'équipe et réduit les dégâts subis de 30% pendant un tour.</td>
                     </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Si le personnage est le dernier à attaquer, ajoute 250 en ATK pour le personnage.</td>            
+                <td>Si le personnage est le dernier à attaquer, ajoute 250 en ATK pour le personnage.</td>
               </tr>
-              <tr>                         
+              <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 1%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 2%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 3%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#DC241C">STR</font></b> de 7%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 1%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 1%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5%.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 7%.</td>                         
+                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 7%.</td>
                     </tr>
-                    <tr>                         
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>                        
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>                       
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Annule le “Lien des cercles” du personnage.</td>                       
+                        <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/green_skull2_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/blue_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0301.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><a href="../../../Bartolomeo et Cavendish.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2418.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
@@ -409,4 +410,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

@@ -32,9 +32,9 @@
             jQuery(function(){
                 $(function () {
                     $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) { 
+                        if ($(this).scrollTop() > 200 ) {
                             $('#scrollUp').css('right');
-                        } else { 
+                        } else {
                             $('#scrollUp').removeAttr( 'style' );
                         }
                     });
@@ -161,6 +161,7 @@ position: absolute;
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -236,79 +237,79 @@ position: absolute;
         <center><img src="img/fBartholomewKuma.png"></center>
         <h2><center><u>Fiche</u></center></h2>
         <table>
-        	<table align="center"> 	
-        	<caption><img src="img/cBartholomewKuma.png" height="50%" width="50%"></caption>	 		
+        	<table align="center">
+        	<caption><img src="img/cBartholomewKuma.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
-        				<td><b>Bartholomew Kuma<b></td> 		 				 	
-        			</tr>	 			 	
-        			<tr> 				 		
+        				<td><b>Bartholomew Kuma<b></td>
+        			</tr>
+        			<tr>
         				<td>Type</td>
-        				<td><b><p><font color="#A916B6">INT</font></p><b></td> 		 				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><b><p><font color="#A916B6">INT</font></p><b></td>
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>  				 	
+        				<td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
         			</tr>
-                    <tr>                    
-                        <td colspan="2"><center><b>Statistiques</b></center></td>               
+                    <tr>
+                        <td colspan="2"><center><b>Statistiques</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>HP</td>
-                        <td>4123 puis 4433 après le dépassement de limites</td>                         
+                        <td>4123 puis 4433 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>ATK</td>
-                        <td>1475 puis 1795 après le dépassement de limites</td>                         
+                        <td>1475 puis 1795 après le dépassement de limites</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>RCV</td>
-                        <td>432 puis 495 après le dépassement de limites</td>                       
-                    </tr> 												 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Abilités</b></center></td>				
+                        <td>432 puis 495 après le dépassement de limites</td>
+                    </tr>
+        			<tr>
+        				<td colspan="2"><center><b>Abilités</b></center></td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Captain Ability</td>
         				<td>Boost l'attaque des Libres et des cerebral de 3.25x et leurs HP par 1.15. Si vous avez subis des dégats lors des 3 tours précédents, boost leurs attaque de 1.2 supplémentaire ( x3.9). Réduit grandement le taux d'apparition des orbes <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b>, mais rend les orbes <b><font color="#DC241C">[STR]</font></b> et <b><font color="#1CAC24">[DEX]</font></b> matching pour l'équipe. A chaque fin de tour, si un ennemi a été éliminé, soigne 15% de vos HP max le tour suivant.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Action de capitaine (2 tours)</td>
         				<td>Change les orbes de la rangée du bas et du personnage en <b><font color="maroon">[BOMB]</font></b>, considère les <b><font color="maroon">[BOMB]</font></b> comme matching pendant 1 tour, réduit les dégats subis de 15% et renvoi x50 des dégats subis à la fin du tour à tous les ennemis au début du tour suivant.</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Special (15 puis 13)</td>
         				<td>Change toutes les orbes en <b><font color="maroon">[BOMB]</font></b> (<b><font color="darkslateblue">[BLK]</font></b> incluses) et inflige x80 son attaque sans type à tous ennemis passant à travers tous les effets défensives (barrières, immunity, ...). Si l'ennemi possède une immunité totale ou à la réduction de défense, réduit la défense des ennemis d'un tour (passant au travers de l'immunity), et boost l'attaque contre les ennemis à défense réduite par 2. Sinon, réduit la défense pendant 3 tours et boost l'attaque contre les ennemis à défense réduite par 1.75 pendant 3 tours.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 1</td>
                         <td>Rend les cercles <b><font color="maroon">[BOMB]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour le personnage.</td>
                     </tr>
-                    <tr>                        
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>             
+                    <tr>
+                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
                     </tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Crewmate Ability 2</td>
         				<td>Ne peut pas être projeté en dehors de l'écran.</td>
         			</tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 15 tours.</td> 
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 15 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 2</td>
                         <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 3</td>
-                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>  	 
+                        <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis.</td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>

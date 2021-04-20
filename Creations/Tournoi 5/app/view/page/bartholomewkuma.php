@@ -147,6 +147,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -222,78 +223,78 @@ position: absolute;
         <h2><center><u>Fiche du personnage Sugo-Rare</u></center></h2>
         <table>
           <table align="center">
-            <center><img src="https://i.imgur.com/xKC78yk.png"></center>  
-          <caption><img src="https://i.imgur.com/sWntKO9.jpg" height="50%" width="50%"></caption>     
+            <center><img src="https://i.imgur.com/xKC78yk.png"></center>
+          <caption><img src="https://i.imgur.com/sWntKO9.jpg" height="50%" width="50%"></caption>
             <tbody>
-              <tr>            
+              <tr>
                 <td>Nom</td>
-                <td><b><small>Homme de promesse</small><br>Kuma<b></td>               
-              </tr>         
-              <tr>            
+                <td><b><small>Homme de promesse</small><br>Kuma<b></td>
+              </tr>
+              <tr>
                 <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>               
-              </tr>           
-              <tr>            
+                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+              </tr>
+              <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>         
-              </tr>           
-              <tr>            
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+              </tr>
+              <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>            
-              </tr>         
-              <tr>            
-                <td colspan="2"><center><b>Statistiques</b></center></td>       
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Statistiques</b></center></td>
+              </tr>
+              <tr>
                 <td>HP</td>
-                <td>3089 puis 3589 après le dépassement de limites</td>             
+                <td>3089 puis 3589 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>ATK</td>
-                <td>1555 puis 1705 après le dépassement de limites</td>             
+                <td>1555 puis 1705 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>RCV</td>
-                <td>499 puis 599 après le dépassement de limites</td>             
-              </tr>  
-              <tr>            
-                <td colspan="2"><center><b>Abilités</b></center></td>       
+                <td>499 puis 599 après le dépassement de limites</td>
               </tr>
-              <tr>            
+              <tr>
+                <td colspan="2"><center><b>Abilités</b></center></td>
+              </tr>
+              <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie les HP de tous les personnages par 1,1, la RCV par 1,2, rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages et multiplie l'ATK de tous les personnages par 3,5 puis ajoute 0,1 au multiplicateur d'ATK de tous les personnages à chaque cercle <b><font color="#BC5C0C">[RCV]</font></b> consommé lors de l'attaque (jusqu'à 4 après 5 cercles <b><font color="#BC5C0C">[RCV]</font></b> consommés).</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Special (18→12)</td>
                 <td>Change les cercles de tous les personnages (cercles <b><font color="darkslateblue">[BLK]</font></b> inclus) en cercles <b><font color="#BC5C0C">[RCV]</font></b>, annule les dégâts augmentés et les "RCV en baisse", annule les augmentations d'ATK et l'enragement dont bénéficient les ennemis et si au moins 4 cercles <b><font color="#BC5C0C">[RCV]</font></b> sont consommés, annule les dégâts subis au tour suivant.</td>
               </tr>
-              <tr>            
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>       
+              <tr>
+                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Rend les cercles <b><font color="#BC5C0C">[RCV]</font></b> avantageux pour tous les personnages.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Réduit la durée de "Lien des coups spéciaux" du personnage de 5 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 1</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>            
+                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
               </tr>
-              <tr>            
+              <tr>
                 <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>            
+                <td>Réduit la durée de “Soin impossible” de 10 tours.</td>
               </tr>
-              <tr>                        
+              <tr>
                 <td>Potential Ability 3</td>
                 <td>Restaure les HP à hauteur de 2 fois les RCV du personnage si ce dernier réussit un “PARFAIT” lorsque les HP restants sont inférieurs ou égaux à 50%.</td>
               </tr>
-              <tr>                        
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+              <tr>
+                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Monkey D. Luffy</ul><br>
@@ -307,9 +308,9 @@ position: absolute;
                             <ul style="display: inline;">Brook</ul>
                         </td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Réduit la durée des dégâts augmentés de 3 tours, réduit les dégâts subis de 50% pendant un tour et change le cercle du personnage soutenu en cercle <b><font color="#BC5C0C">[RCV]</font></b> si les dégâts sont augmentés par les ennemis (une fois par quête).</td>  
+                        <td>Réduit la durée des dégâts augmentés de 3 tours, réduit les dégâts subis de 50% pendant un tour et change le cercle du personnage soutenu en cercle <b><font color="#BC5C0C">[RCV]</font></b> si les dégâts sont augmentés par les ennemis (une fois par quête).</td>
                     </tr>
                 </tbody>
           </table>
@@ -330,4 +331,4 @@ position: absolute;
           }
         </style>
     </body>
-</html> 			 	
+</html>

@@ -32,9 +32,9 @@
             jQuery(function(){
                 $(function () {
                     $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) { 
+                        if ($(this).scrollTop() > 200 ) {
                             $('#scrollUp').css('right');
-                        } else { 
+                        } else {
                             $('#scrollUp').removeAttr( 'style' );
                         }
                     });
@@ -161,6 +161,7 @@ position: absolute;
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
+<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
@@ -235,154 +236,154 @@ position: absolute;
         <h2><center><u>Fiche</u></center></h2>
         <center><img src="https://i.imgur.com/XIgu6zK.png"> <img src="https://i.imgur.com/44hdmxu.png"></center>
         <table>
-        	<table width="85%" align="center"> 	
+        	<table width="85%" align="center">
         	<caption><img src="https://i.imgur.com/HafeOiQ.png" height="50%" width="50%"><img src="https://i.imgur.com/UvZ03JY.png" height="50%" width="50%"></caption>
         		<tbody>
-        			<tr> 				 		
+        			<tr>
         				<td>Nom</td>
         				<td><b><small>Équipage de Kidd</small><br>Killer "le massacreur"<b></td>
         			</tr>
-              <tr>            
+              <tr>
                 <td>Histoire</td>
-                <td>Combattant de l'équipage de Kidd. Surnommé "le massacreur", ce pirate dont la prime dépasse les 100 millions - alors qu'il n'est pas capitaine - lacère ses ennemis en faisant tournoyer des faucilles.</td>              
+                <td>Combattant de l'équipage de Kidd. Surnommé "le massacreur", ce pirate dont la prime dépasse les 100 millions - alors qu'il n'est pas capitaine - lacère ses ennemis en faisant tournoyer des faucilles.</td>
               </tr>
-        			<tr> 				 		
+        			<tr>
         				<td>Type</td>
         				<td><b><p><font color="#1CAC24">DEX</font></p><b></td>
-        			</tr> 					
-        			<tr> 						
+        			</tr>
+        			<tr>
         				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td> 				
-        			</tr> 				 	
-        			<tr> 				 		
+        				<td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+        			</tr>
+        			<tr>
         				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>  				 	
-        			</tr> 					
-        			<tr> 						
+        				<td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+        			</tr>
+        			<tr>
         				<td>Coût</td>
-        				<td>40</td>  					
-        			</tr> 					
-        			<tr> 						
+        				<td>40</td>
+        			</tr>
+        			<tr>
         				<td>Combo</td>
         				<td>4</td>
-        			</tr> 				 	
-        			<tr> 				 		
+        			</tr>
+        			<tr>
         				<td>Emplacements de pouvoirs</td>
-        				<td>3</td> 				 	
-        			</tr> 					
-        			<tr> 						
-        				<td colspan="2"><center><b>Statistiques</b></center></td>				
+        				<td>3</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
+        				<td colspan="2"><center><b>Statistiques</b></center></td>
+        			</tr>
+        			<tr>
         				<td>HP</td>
-        				<td>1879 puis 1999 après le dépassement de limites</td> 	 				 	
+        				<td>1879 puis 1999 après le dépassement de limites</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>ATK</td>
-        				<td>1424 puis 1534 après le dépassement de limites</td> 	 				 	
+        				<td>1424 puis 1534 après le dépassement de limites</td>
         			</tr>
-        			<tr> 				 		
+        			<tr>
         				<td>RCV</td>
-        				<td>189 puis 289 après le dépassement de limites</td> 	 				 	
-        			</tr>  
-        			<tr>                         
-                        <td colspan="2"><center><b>Abilités</b></center></td>               
+        				<td>189 puis 289 après le dépassement de limites</td>
+        			</tr>
+        			<tr>
+                        <td colspan="2"><center><b>Abilités</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Captain Ability</td>
                         <td>Multiplie l'ATK des personnages de classe Ravageur et Sabreur par 2,75 s'ils ont un cercle correspondant, sinon par 2, et réduit la RCV de l'équipe à 0.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Special (18→8 puis 6)</td>
                         <td>Change les cercles <b><font color="#DC241C">[STR]</font></b> et <b><font color="#4C4CFF">[QCK]</font></b> des personnages de classe Ravageur et Sabreur en cercles correspondants et enlève 7% des HP d'un ennemi.</td>
                     </tr>
-        			<tr> 						
-        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>				
+        			<tr>
+        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>
         			</tr>
-        			<tr>                        
+        			<tr>
                         <td>Crewmate Ability 1</td>
                         <td>Ajoute 30 en ATK pour les personnages de classe Sabreur.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Crewmate Ability 2</td>
                         <td>Ajoute 60 en HP pour les personnages de classe Sabreur.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td>Potential Ability 1</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>                         
+                        <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
                     </tr>
-                    <tr>                        
-                        <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>                        
-                    </tr>
-                    <tr>                        
-                        <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>                        
-                    </tr>
-                    <tr>                        
-                        <td></td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>                        
-                    </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
+                        <td></td>
+                        <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Réduit la durée de “Lien des cercles” du personnage de ? tours.</td>
+                    </tr>
+                    <tr>
                         <td>Potential Ability 2</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>                   
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>                       
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>   
+                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, ?% de chances de faire ?% l'ATK du personnage en dégâts additionnels.</td>
                     </tr>
-                    <tr>                        
-                <td colspan="2"><center><b>Effets de soutien</b></center></td>             
+                    <tr>
+                <td colspan="2"><center><b>Effets de soutien</b></center></td>
               </tr>
-                    <tr>                        
+                    <tr>
                 <td></td>
                 <td>Personnages soutenus :<br>
                             <ul style="display: inline;">Personnages de classe Ravageur</ul>
                         </td>
               </tr>
-              <tr>                        
+              <tr>
                         <td></td>
                         <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 4% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td></td>
                         <td>Ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
                     </tr>
-        			<tr>                        
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>             
+        			<tr>
+                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
                     </tr>
-                    <tr>                        
+                    <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0097.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png" height="8%" width="8%"></center></td>
                     </tr>
-        		</tbody> 			
+        		</tbody>
         	</table>
         <h2><center><u>Guide du stage 5 du Colisée</u></center></h2>
             <table>
