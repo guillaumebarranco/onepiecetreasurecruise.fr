@@ -1,916 +1,1438 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-    	<!-- Global site tag (gtag.js) - Google Analytics -->
-    	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-    	<script>
-    		window.dataLayer = window.dataLayer || [];
-    		function gtag(){dataLayer.push(arguments);}
-    		gtag('js', new Date());
-    		gtag('config', 'UA-127847674-1');
-    	</script>
-        <meta charset="utf-8" />
-        <title>Guides des Colisées (par ordre de sortie)</title>
-        <link href="bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="styleRaids.css" />
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    </head>
+  <head>
+    <meta charset="utf-8" />
 
+    <title>Guides des Colisées (par ordre de sortie)</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="shared/generic.css" rel="stylesheet" />
+    <link href="shared/backgrounds.css" rel="stylesheet" />
+    <link href="shared/listes.css" rel="stylesheet" />
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="shared/analytics.js"></script>
+  </head>
+
+  <body id="NO-COLOR">
     <div class="entete">
-      <img src="https://i.imgur.com/yOZlv6S.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo"></a>
+      <img class="entetefond" src="https://i.imgur.com/yOZlv6S.png" />
+      <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
+      <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
+      <a href="/"><img class="logo" src="https://i.imgur.com/1OcsZvS.png" /></a>
     </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
-<style>
-.topnavbar
-{
-top: -1.5vw;
-left: 0;
-max-width: 100%;
-width: 100%;
-position: absolute;
-}
-</style>
-  <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
-      </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Guides
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés ?</a>
-          <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
-          <a class="dropdown-item active waves-effect waves-light" href="Colisee.html">Colisées</a>
-          <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
-          <a class="dropdown-item waves-effect waves-light" href="Attaque ennemie.html">Attaques ennemies</a>
-          <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
-          <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
-          <a class="dropdown-item waves-effect waves-light" href="Mode Aventure.html">Histoire principale</a>
-          <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
-          <a class="dropdown-item waves-effect waves-light" href="Defi de Garp.html">Défi de Garp</a>
-          <a class="dropdown-item waves-effect waves-light" href="Crane.html">Quêtes pour les super évolutions</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Liste de personnages
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="LegendesBatch.html">Personnages du recrutement rare</a>
-          <a class="dropdown-item" href="Carte aux tresors.html">Personnages des Cartes aux trésors</a>
-          <a class="dropdown-item" href="Bataille cooperative.html">Personnages des combats de l'amitié</a>
-          <a class="dropdown-item" href="Festival des pirates.html">Personnages de la fête des pirates</a>
-          <a class="dropdown-item" href="LRR.html">Personnages limités au recrutement rare</a>
-          <a class="dropdown-item" href="Soutien.html">Personnages limités au recrutement rare de soutien</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Aide
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien debuter.html">Bien débuter</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
-          <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la fête des pirates</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier List.html">Tier Lists</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Progressions
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
-          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
-          <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
-          <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
-          <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
-<a class="dropdown-item" href="AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
-          <a class="dropdown-item" href="AvanceeRaids.html">Avancée des combats cruciaux</a>
-          <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
-          <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
-          <a class="dropdown-item" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-<a class="dropdown-item" href="AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
-          <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="Artwork/">Artworks</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Événements
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Creations.html">Créations de personnages</a>
-          <a class="dropdown-item" href="Awards/">Awards 2019</a>
-          <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Sites
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
-          <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
-          <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
-          <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Remerciements
-        </a>
-        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <form action="https://www.google.com" id="cse-search-box">
-          <div id="searchbar">
-            <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
-            <input type="hidden" name="ie" value="UTF-8">
-            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
-          </div>
-          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
-        </form>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-	<header><a href="/"><img src="img/logo.png" alt="logo"></img></a></header>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark"
+    >
+      <img class="topnavbar" src="https://i.imgur.com/QvxN4d8.png" />
+      <a class="navbar-brand" href="/"
+        ><img src="https://imgur.com/SOSubWn.png"
+      /></a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-target="#navbarSupportedContent"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <body>
-    	<h1><center><u>Guides des Colisées</u></center></h1>
-      <center>
-        <!-- Basic dropdown -->
-        <button class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Autres formats ou guides</button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="ColiseeDiff.html">Par difficulté</a>
-          <a class="dropdown-item" href="Attaque ennemie.html">Attaques ennemies</a>
-        </div>
-        <!-- Basic dropdown -->
-      </center><br>
-    	<h2><center><u>Colisées</u></center></h2>
-    	<table>
-        	<table align="center">
-        		<tbody>
-                    <tr>
-                        <td>
-                            <a href="Colisee/Lucky Roo.html">
-                                <img src="https://i.imgur.com/6hy1Bww.png" alt="LuckyRooColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Rebecca.html">
-                                <img src="https://i.imgur.com/gHUOZjN.png" alt="RebeccaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Urouge.html">
-                                <img src="https://i.imgur.com/RlLw3VM.png" alt="UrougeColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Hina.html">
-                                <img src="https://i.imgur.com/RufMsKa.png" alt="HinaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Smoker.html">
-                                <img src="https://i.imgur.com/PDFqNKB.png" alt="SmokerColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Basil Hawkins.html">
-                                <img src="https://i.imgur.com/Jf7L4D0.png" alt="HawkinsColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Wiper.html">
-                                <img src="https://i.imgur.com/2xPwUMH.png" alt="WiperColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Mr 7 et Miss Fathersday.html">
-                                <img src="https://i.imgur.com/jTlD3oY.png" alt="Mr7Colisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kobby.html">
-                                <img src="https://i.imgur.com/hfPfNia.png" alt="KobbyColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Alvida.html">
-                                <img src="https://i.imgur.com/TfDm8Rx.png" alt="AlvidaColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Scratchmen Apoo.html">
-                                <img src="https://i.imgur.com/fgmknKy.png" alt="ApooColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Dorry.html">
-                                <img src="https://i.imgur.com/TpBXsGX.png" alt="DorryColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Franky.html">
-                                <img src="https://i.imgur.com/I1q5Dle.png" alt="FrankyColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Broggy.html">
-                                <img src="https://i.imgur.com/Ev4I6X6.png" alt="BroggyColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Yokozuna.html">
-                                <img src="https://i.imgur.com/0cNxS9K.png" alt="YokozunaColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Eustass Kidd 1.html">
-                                <img src="https://i.imgur.com/42XM8eE.png" alt="KiddSTRColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Sadi.html">
-                                <img src="https://i.imgur.com/GsSjDqz.png" alt="SadiColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Doberman.html">
-                                <img src="https://i.imgur.com/Q6kvnwH.png" alt="DobermanColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Portgas D. Ace.html">
-                                <img src="https://i.imgur.com/ZVGWDAK.png" alt="AceColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Ben Beckmann.html">
-                                <img src="https://i.imgur.com/ywE85QM.png" alt="BeckmannColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Vista.html">
-                                <img src="https://i.imgur.com/LI0KlyE.png" alt="VistaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Pauly.html">
-                                <img src="https://i.imgur.com/iZVuMWv.png" alt="PaulyColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Capone Bege.html">
-                                <img src="https://i.imgur.com/dUYx9K5.png" alt="BegeColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Barbe Brune.html">
-                                <img src="https://i.imgur.com/3yi4y6A.png" alt="BarbeBruneColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Peeply Lulu.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1019.png" alt="LuluColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Joz.html">
-                                <img src="https://i.imgur.com/qO5hlcH.png" alt="JozColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Killer.html">
-                                <img src="https://i.imgur.com/44hdmxu.png" alt="KillerColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Musshul.html">
-                                <img src="https://i.imgur.com/sVOFM7A.png" alt="MusshulColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Saga.html">
-                                <img src="https://i.imgur.com/L5Z9MH6.png" alt="SagaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/X-Drake.html">
-                                <img src="https://i.imgur.com/k4gmizP.png" alt="XDrakeColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Zephyr.html">
-                                <img src="https://i.imgur.com/kGxK6Je.png" alt="ZephyrColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Ain.html">
-                                <img src="https://i.imgur.com/CE5Kre8.png" alt="AinColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Bins.html">
-                                <img src="https://i.imgur.com/g8IEexl.png" alt="BinsColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Gecko Moria.html">
-                                <img src="https://i.imgur.com/oo1Q1w9.png" alt="MoriaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Foxy.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1143.png" alt="FoxyColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Porche.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1145.png" alt="PorcheColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Gan Forr.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1196.png" alt="GanForrColisee"/>
-                              </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Om.html">
-                                <img src="https://i.imgur.com/R1TRImD.png" alt="OmColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Byrnndi World.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1220.png" alt="WorldColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Little Oz Junior.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1222.png" alt="OzColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Marco.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1251.png" alt="MarcoColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Doma.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1252.png" alt="DomaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Shura.html">
-                                <img src="https://i.imgur.com/LuY0RXV.png" alt="ShuraColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Lao G.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1292.png" alt="LaoGColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Boa Sandersonia.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1294.png" alt="SandersoniaColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                             <a href="Colisee/Kinemon.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1310.png" alt="KinemonColisee"/>
-                             </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Boa Marigold.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1312.png" alt="MarigoldColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kanjuro.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1338.png" alt="KanjuroColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Tony-Tony Chopper.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1339.png" alt="ChopperColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Gedatsu.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1341.png" alt="GedatsuColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Dellinger.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1376.png" alt="DellingerColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Margaret.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1378.png" alt="MargaretColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Gladius.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1401.png" alt="GladiusColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Dolton.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1402.png" alt="DoltonColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Diamante.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1422.png" alt="DiamanteColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/T. Bone.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1423.png" alt="T-BoneColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Gyn.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1424.png" alt="GynColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Chinjao.html">
-                                <img src="https://i.imgur.com/uyyEXzl.png" alt="ChinjaoColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kuro.html">
-                                <img src="https://i.imgur.com/dDMlK6w.png" alt="KuroColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Miss Valentine.html">
-                                <img src="https://i.imgur.com/Ii0rg84.png" alt="MissValentineColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Ideo.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1487.png" alt="IdeoColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Krieg.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1489.png" alt="KriegColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Mr 5.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1491.png" alt="Mr5Colisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Suleiman.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1525.png" alt="SuleimanColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Arlong.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1527.png" alt="ArlongColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Blenheim.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1528.png" alt="BlenheimColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Hajrudin.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1553.png" alt="HajrudinColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Ryuma.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1555.png" alt="RyumaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Orlumbus.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1584.png" alt="OrlumbusColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Hermep.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1586.png" alt="HermepColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Shiliew.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1602.png" alt="ShiliewColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Mc Guy.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1603.png" alt="McGuyColisee"/></a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Machvise.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1628.png" alt="MachviseColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Ikaros Much.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1630.png" alt="IkarosColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kyros.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1667.png" alt="KyrosColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Caborage 1.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1694.png" alt="CaborageColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Chavipere.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1733.png" alt="ChavipereColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Lucy.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1792.png" alt="LucyColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Sicilion.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1828.png" alt="SicilionColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Raizo.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1861.png" alt="RaizoColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Ener.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1897.png" alt="EnerColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Pedro.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1945.png" alt="PedroColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Silvers Rayleigh.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1978.png" alt="RayleighColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Jesus Burgess.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2037.png" alt="BurgessColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Eustass Kidd 2.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2111.png" alt="KiddDEXColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Neptune.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2123.png" alt="NeptuneColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Charlotte Opera.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2163.png" alt="OperaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Bartholomew Kuma.html">
-                                <img src="https://i.imgur.com/D5Djpg3.png" alt="KumaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Charlotte Daifuku.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2249.png" alt="DaifukuColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Comte Ducoq.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2290.png" alt="LeCoqColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Charlotte Oven.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2323.png" alt="OvenColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Magellan.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2354.png" alt="MagellanColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Charlotte Smoothie.html">
-                                <img src="https://i.imgur.com/mHcZGUt.png" alt="SmoothieColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Pica.html">
-                                <img src="https://i.imgur.com/gLCPIz6.png" alt="PicaColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Charlotte Dent-de-chien.html">
-                                <img src="https://i.imgur.com/FR95QCL.png" alt="Dent-de-chienColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Brook.html">
-                                <img src="https://i.imgur.com/GOXFtu9.png" alt="BrookColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Doflamingo et Trebol.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2550.png" alt="DoflamingoTrebolColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Morley.html">
-                                <img src="https://i.imgur.com/9VZKblp.png" alt="MorleyColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Jinbe.html">
-                                <img src="https://i.imgur.com/83en7cF.png" alt="JinbeColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Trafalgar Law.html">
-                                <img src="https://i.imgur.com/97UnNUF.png" alt="LawColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Hody Jones.html">
-                                <img src="https://i.imgur.com/wrsV2IH.png" alt="HodyJonesColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Oz.html">
-                                <img src="https://i.imgur.com/rDmt9HT.png" alt="OzColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kyoshiro.html">
-                                <img src="https://i.imgur.com/AVPaHxG.png" alt="KyoshiroColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Shutenmaru.html">
-                                <img src="https://i.imgur.com/NKK6G5P.png" alt="ShutenmaruColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Sangoro.html">
-                                <img src="https://i.imgur.com/XyMHw2o.png" alt="SangoroColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Komurasaki.html">
-                                <img src="https://i.imgur.com/aS1XY48.png" alt="KomurasakiColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Caborage 2.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2908.png" alt="CaborageColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Borsalino.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2953.png" alt="BorsalinoColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/King.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2990.png" alt="KingColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Gyukimaru.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3017.png" alt="GyukimaruColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                            <a href="Colisee/Orochi Kurozumi.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3049.png" alt="OrochiColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kikunojo.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3083.png" alt="KikunojoColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Page One.html">
-                                <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3110.png" alt="PageOneColisee"/>
-                            </a>
-                        </td>
-                      </tr>
-        		</tbody>
-        </table>
-        <h2><center><u>Néo-colisées</u></center></h2>
-    	<table>
-        	<table align="center">
-        		<tbody>
-        			<tr>
-        				<td>
-        					<a href="Colisee/Neo Kinemon.html">
-								<img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1863.png" alt="KinemonNeoColisee"/>
-							</a>
-						</td>
-        				<td>
-        					<a href="Colisee/Neo Killer.html">
-								<img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1899.png" alt="KillerNeoColisee"/>
-							</a>
-						</td>
-        				<td>
-        					<a href="Colisee/Neo X-Drake.html">
-								<img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1976.png" alt="DrakeNeoColisee"/>
-							</a>
-						</td>
-        				<td>
-        					<a href="Colisee/Neo Diamante.html">
-								<img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2017.png" alt="DiamanteNeoColisee"/>
-							</a>
-						</td>
-        			</tr>
-        		</tbody>
-        </table>
-        <h2><center><u>Colisées "Ex"</u></center></h2>
-        <table>
-            <table align="center">
-                <tbody>
-                    <tr>
-                        <td>
-                            <a href="Colisee/Gecko Moria EX.html">
-                                <img src="https://i.imgur.com/tZ6fAL6.png" alt="MoriaEXColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Neptune EX.html">
-                                <img src="https://i.imgur.com/PtZcPai.png" alt="NeptuneEXColisee"/>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="Colisee/Kobby EX.html">
-                                <img src="https://i.imgur.com/VLs3PAt.png" alt="KobbyEXColisee"/>
-                            </a>
-                        </td>
-                    </tr>
-                </tbody>
-        </table>
-        <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/mdb.js"></script>
-        <div class="baspage">
-          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-        </div>
-        <style>
-          .baspage
-          {
-            position: relative;
-            bottom: -1vw;
-            max-width: 100%;
-            width: 100%;
-          }
-        </style>
-    </body>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle waves-effect waves-light"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Guides</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Coulisses.html"
+                >Comment les guides sont-ils rédigés ?</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Raids.html"
+                >Combats cruciaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light active"
+                href="Colisee.html"
+                >Colisées</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Arene.html"
+                >Arènes</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Attaque%20ennemie.html"
+                >Attaques ennemies</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Fortnight.html"
+                >Quêtes permanentes</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Special.html"
+                >Événements spéciaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Carte%20aux%20tresors/Prochaine%20Carte%20aux%20tresors.html"
+                >Prochaine Carte aux trésors</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Bataille%20cooperative/Prochaine%20bataille%20cooperative.html"
+                >Prochain combat de l'amitié</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Mode%20Aventure.html"
+                >Histoire principale</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Forets.html"
+                >Forêts d'entraînement</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Defi%20de%20Garp.html"
+                >Défi de Garp</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Crane.html"
+                >Quêtes pour les super évolutions</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Liste de personnages</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="LegendesBatch.html"
+                >Personnages du recrutement rare</a
+              >
+              <a class="dropdown-item" href="Carte%20aux%20tresors.html"
+                >Personnages des Cartes aux trésors</a
+              >
+              <a class="dropdown-item" href="Bataille%20cooperative.html"
+                >Personnages des combats de l'amitié</a
+              >
+              <a class="dropdown-item" href="Festival%20des%20pirates.html"
+                >Personnages de la fête des pirates</a
+              >
+              <a class="dropdown-item" href="LRR.html"
+                >Personnages limités au recrutement rare</a
+              >
+              <a class="dropdown-item" href="Soutien.html"
+                >Personnages limités au recrutement rare de soutien</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Aide</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Bien%20debuter.html"
+                >Bien débuter</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Souhaits%20de%20Chopper%20Man.html"
+                >Souhaits de Chopper Man</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Taux%20des%20legendes.html"
+                >Taux des personnages Sugo-Rare</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Extension%20du%20depassement%20de%20limites.html"
+                >Extension du dépassement de limites</a
+              >
+              <a class="dropdown-item waves-effect waves-light" href="Bateau/"
+                >Liste des bateaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Soutien.html"
+                >Effets de soutien spécifiques</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Fete%20des%20pirates.html"
+                >Personnages par style sur la fête des pirates</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Ile%20des%20collectionneurs.html"
+                >Île des collectionneurs</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Tier%20List.html"
+                >Tier Lists</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Progressions</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="RR.html"
+                >Liste à cocher des personnages du recrutement rare (version
+                normale)</a
+              >
+              <a class="dropdown-item" href="RRBatch.html"
+                >Liste à cocher des personnages du recrutement rare (version par
+                lot)</a
+              >
+              <a class="dropdown-item" href="Aventure.html"
+                >Liste à cocher des personnages de l'Histoire principale</a
+              >
+              <a class="dropdown-item" href="Avancee.html"
+                >Avancée des personnages Sugo-Rare</a
+              >
+              <a class="dropdown-item" href="AvanceeRR.html"
+                >Avancée des personnages du recrutement rare</a
+              >
+              <a class="dropdown-item" href="AvanceeLRR.html"
+                >Avancée des personnages limités au recrutement rare</a
+              >
+              <a class="dropdown-item" href="AvanceeRaids.html"
+                >Avancée des combats cruciaux</a
+              >
+              <a class="dropdown-item" href="AvanceeColisee.html"
+                >Avancée des Colisées</a
+              >
+              <a class="dropdown-item" href="AvanceeAttaque.html"
+                >Avancée des attaques ennemies</a
+              >
+              <a class="dropdown-item" href="AvanceeCarte.html"
+                >Avancée des personnages des Cartes aux trésors</a
+              ><a class="dropdown-item" href="AvanceeFetePirates.html"
+                >Avancée des personnages de la Fête des Pirates</a
+              >
+              <a class="dropdown-item" href="AvanceeCombatAmitie.html"
+                >Avancée des personnages des combats de l'amitié</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Artwork/">Artworks</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Événements</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="Creations.html"
+                >Créations de personnages</a
+              >
+              <a class="dropdown-item" href="Awards/">Awards 2019</a>
+              <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Sites</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item"
+                href="https://optc-db.github.io/"
+                target="_blank"
+                >OPTC Database</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://lukforce.bitbucket.io/"
+                target="_blank"
+                >OPTC Voyage Log</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.nakama.network/"
+                target="_blank"
+                >Nakama Network</a
+              >
+              <a
+                class="dropdown-item"
+                href="http://optc-tierlist.com/"
+                target="_blank"
+                >Tier List Maker</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Remerciements</a
+            >
+
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="Remerciements.html"
+                >Remerciements</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+                target="_blank"
+                >Chaîne de Timinou</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+                target="_blank"
+                >Chaîne de D. coza</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+                target="_blank"
+                >Chaîne de Towercorner</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+                target="_blank"
+                >Chaîne de Kaku OPTC</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/user/Scaragnark9"
+                target="_blank"
+                >Chaîne de Scaragnark</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/user/basibidi"
+                target="_blank"
+                >Chaîne de Basibidi</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+                target="_blank"
+                >Chaîne de SkyTrick</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+                target="_blank"
+                >Chaîne de B-Bro</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://discord.gg/6bJvuT8"
+              target="_blank"
+              >Discord</a
+            >
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <form
+              action="https://www.google.com"
+              id="cse-search-box"
+              name="cse-search-box"
+            >
+              <div id="searchbar">
+                <input
+                  name="cx"
+                  type="hidden"
+                  value="011516564617436617087:3cpi9kq7ujc"
+                />
+                <input name="ie" type="hidden" value="UTF-8" />
+                <input
+                  id="search_area"
+                  name="q"
+                  placeholder="Rechercher"
+                  size="20"
+                  style="
+                    border: 1px solid rgb(126, 157, 185);
+                    margin-bottom: 5px;
+                    background: url('https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png')
+                      left center no-repeat rgb(255, 255, 255);
+                    text-indent: 48px;
+                  "
+                  type="text"
+                  value=""
+                />
+              </div>
+              <input
+                name="siteurl"
+                type="hidden"
+                value="onepiecetreasurecruise.fr"
+              /><input name="ref" type="hidden" value="" /><input
+                name="ss"
+                type="hidden"
+                value=""
+              />
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <a href="/"><img alt="logo" src="img/logo.png" /></a>
+    </header>
+
+    <div class="list-container">
+      <h1>Guides des Colisées</h1>
+      <!-- Basic dropdown -->
+      <button
+        aria-expanded="false"
+        aria-haspopup="true"
+        class="btn btn-primary dropdown-toggle mr-4"
+        data-toggle="dropdown"
+        type="button"
+      >
+        Autres formats ou guides
+      </button>
+
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="ColiseeDiff.html">Par difficulté</a>
+        <a class="dropdown-item" href="Attaque%20ennemie.html"
+          >Attaques ennemies</a
+        >
+      </div>
+      <!-- Basic dropdown -->
+      <br />
+
+      <h2>Colisées</h2>
+
+      <ul>
+        <li>
+          <a href="Colisee/Lucky%20Roo.html"
+            ><img alt="LuckyRooColisee" src="https://i.imgur.com/6hy1Bww.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Rebecca.html"
+            ><img alt="RebeccaColisee" src="https://i.imgur.com/gHUOZjN.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Urouge.html"
+            ><img alt="UrougeColisee" src="https://i.imgur.com/RlLw3VM.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Hina.html"
+            ><img alt="HinaColisee" src="https://i.imgur.com/RufMsKa.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Smoker.html"
+            ><img alt="SmokerColisee" src="https://i.imgur.com/PDFqNKB.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Basil%20Hawkins.html"
+            ><img alt="HawkinsColisee" src="https://i.imgur.com/Jf7L4D0.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Wiper.html"
+            ><img alt="WiperColisee" src="https://i.imgur.com/2xPwUMH.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Mr%207%20et%20Miss%20Fathersday.html"
+            ><img alt="Mr7Colisee" src="https://i.imgur.com/jTlD3oY.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kobby.html"
+            ><img alt="KobbyColisee" src="https://i.imgur.com/hfPfNia.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Alvida.html"
+            ><img alt="AlvidaColisee" src="https://i.imgur.com/TfDm8Rx.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Scratchmen%20Apoo.html"
+            ><img alt="ApooColisee" src="https://i.imgur.com/fgmknKy.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Dorry.html"
+            ><img alt="DorryColisee" src="https://i.imgur.com/TpBXsGX.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Franky.html"
+            ><img alt="FrankyColisee" src="https://i.imgur.com/I1q5Dle.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Broggy.html"
+            ><img alt="BroggyColisee" src="https://i.imgur.com/Ev4I6X6.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Yokozuna.html"
+            ><img alt="YokozunaColisee" src="https://i.imgur.com/0cNxS9K.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Eustass%20Kidd%201.html"
+            ><img alt="KiddSTRColisee" src="https://i.imgur.com/42XM8eE.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Sadi.html"
+            ><img alt="SadiColisee" src="https://i.imgur.com/GsSjDqz.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Doberman.html"
+            ><img alt="DobermanColisee" src="https://i.imgur.com/Q6kvnwH.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Portgas%20D.%20Ace.html"
+            ><img alt="AceColisee" src="https://i.imgur.com/ZVGWDAK.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Ben%20Beckmann.html"
+            ><img alt="BeckmannColisee" src="https://i.imgur.com/ywE85QM.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Vista.html"
+            ><img alt="VistaColisee" src="https://i.imgur.com/LI0KlyE.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Pauly.html"
+            ><img alt="PaulyColisee" src="https://i.imgur.com/iZVuMWv.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Capone%20Bege.html"
+            ><img alt="BegeColisee" src="https://i.imgur.com/dUYx9K5.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Barbe%20Brune.html"
+            ><img alt="BarbeBruneColisee" src="https://i.imgur.com/3yi4y6A.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Peeply%20Lulu.html"
+            ><img
+              alt="LuluColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1019.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Joz.html"
+            ><img alt="JozColisee" src="https://i.imgur.com/qO5hlcH.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Killer.html"
+            ><img alt="KillerColisee" src="https://i.imgur.com/44hdmxu.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Musshul.html"
+            ><img alt="MusshulColisee" src="https://i.imgur.com/sVOFM7A.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Saga.html"
+            ><img alt="SagaColisee" src="https://i.imgur.com/L5Z9MH6.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/X-Drake.html"
+            ><img alt="XDrakeColisee" src="https://i.imgur.com/k4gmizP.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Zephyr.html"
+            ><img alt="ZephyrColisee" src="https://i.imgur.com/kGxK6Je.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Ain.html"
+            ><img alt="AinColisee" src="https://i.imgur.com/CE5Kre8.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Bins.html"
+            ><img alt="BinsColisee" src="https://i.imgur.com/g8IEexl.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Gecko%20Moria.html"
+            ><img alt="MoriaColisee" src="https://i.imgur.com/oo1Q1w9.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Foxy.html"
+            ><img
+              alt="FoxyColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1143.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Porche.html"
+            ><img
+              alt="PorcheColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1145.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Gan%20Forr.html"
+            ><img
+              alt="GanForrColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1196.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Om.html"
+            ><img alt="OmColisee" src="https://i.imgur.com/R1TRImD.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Byrnndi%20World.html"
+            ><img
+              alt="WorldColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1220.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Little%20Oz%20Junior.html"
+            ><img
+              alt="OzColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1222.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Marco.html"
+            ><img
+              alt="MarcoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1251.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Doma.html"
+            ><img
+              alt="DomaColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1252.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Shura.html"
+            ><img alt="ShuraColisee" src="https://i.imgur.com/LuY0RXV.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Lao%20G.html"
+            ><img
+              alt="LaoGColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1292.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Boa%20Sandersonia.html"
+            ><img
+              alt="SandersoniaColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1294.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kinemon.html"
+            ><img
+              alt="KinemonColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1310.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Boa%20Marigold.html"
+            ><img
+              alt="MarigoldColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1312.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kanjuro.html"
+            ><img
+              alt="KanjuroColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1338.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Tony-Tony%20Chopper.html"
+            ><img
+              alt="ChopperColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1339.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Gedatsu.html"
+            ><img
+              alt="GedatsuColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1341.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Dellinger.html"
+            ><img
+              alt="DellingerColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1376.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Margaret.html"
+            ><img
+              alt="MargaretColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1378.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Gladius.html"
+            ><img
+              alt="GladiusColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1401.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Dolton.html"
+            ><img
+              alt="DoltonColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1402.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Diamante.html"
+            ><img
+              alt="DiamanteColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1422.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/T.%20Bone.html"
+            ><img
+              alt="T-BoneColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1423.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Gyn.html"
+            ><img
+              alt="GynColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1424.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Chinjao.html"
+            ><img alt="ChinjaoColisee" src="https://i.imgur.com/uyyEXzl.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kuro.html"
+            ><img alt="KuroColisee" src="https://i.imgur.com/dDMlK6w.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Miss%20Valentine.html"
+            ><img
+              alt="MissValentineColisee"
+              src="https://i.imgur.com/Ii0rg84.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Ideo.html"
+            ><img
+              alt="IdeoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1487.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Krieg.html"
+            ><img
+              alt="KriegColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1489.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Mr%205.html"
+            ><img
+              alt="Mr5Colisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1491.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Suleiman.html"
+            ><img
+              alt="SuleimanColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1525.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Arlong.html"
+            ><img
+              alt="ArlongColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1527.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Blenheim.html"
+            ><img
+              alt="BlenheimColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1528.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Hajrudin.html"
+            ><img
+              alt="HajrudinColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1553.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Ryuma.html"
+            ><img
+              alt="RyumaColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1555.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Orlumbus.html"
+            ><img
+              alt="OrlumbusColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1584.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Hermep.html"
+            ><img
+              alt="HermepColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1586.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Shiliew.html"
+            ><img
+              alt="ShiliewColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1602.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Mc%20Guy.html"
+            ><img
+              alt="McGuyColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1603.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Machvise.html"
+            ><img
+              alt="MachviseColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1628.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Ikaros%20Much.html"
+            ><img
+              alt="IkarosColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1630.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kyros.html"
+            ><img
+              alt="KyrosColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1667.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Caborage%201.html"
+            ><img
+              alt="CaborageColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1694.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Chavipere.html"
+            ><img
+              alt="ChavipereColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1733.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Lucy.html"
+            ><img
+              alt="LucyColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1792.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Sicilion.html"
+            ><img
+              alt="SicilionColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1828.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Raizo.html"
+            ><img
+              alt="RaizoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1861.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Ener.html"
+            ><img
+              alt="EnerColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1897.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Pedro.html"
+            ><img
+              alt="PedroColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1945.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Silvers%20Rayleigh.html"
+            ><img
+              alt="RayleighColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1978.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Jesus%20Burgess.html"
+            ><img
+              alt="BurgessColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2037.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Eustass%20Kidd%202.html"
+            ><img
+              alt="KiddDEXColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2111.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Neptune.html"
+            ><img
+              alt="NeptuneColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2123.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Charlotte%20Opera.html"
+            ><img
+              alt="OperaColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2163.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Bartholomew%20Kuma.html"
+            ><img alt="KumaColisee" src="https://i.imgur.com/D5Djpg3.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Charlotte%20Daifuku.html"
+            ><img
+              alt="DaifukuColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2249.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Comte%20Ducoq.html"
+            ><img
+              alt="LeCoqColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2290.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Charlotte%20Oven.html"
+            ><img
+              alt="OvenColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2323.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Magellan.html"
+            ><img
+              alt="MagellanColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2354.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Charlotte%20Smoothie.html"
+            ><img alt="SmoothieColisee" src="https://i.imgur.com/mHcZGUt.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Pica.html"
+            ><img alt="PicaColisee" src="https://i.imgur.com/gLCPIz6.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Charlotte%20Dent-de-chien.html"
+            ><img
+              alt="Dent-de-chienColisee"
+              src="https://i.imgur.com/FR95QCL.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Brook.html"
+            ><img alt="BrookColisee" src="https://i.imgur.com/GOXFtu9.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Doflamingo%20et%20Trebol.html"
+            ><img
+              alt="DoflamingoTrebolColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2550.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Morley.html"
+            ><img alt="MorleyColisee" src="https://i.imgur.com/9VZKblp.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Jinbe.html"
+            ><img alt="JinbeColisee" src="https://i.imgur.com/83en7cF.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Trafalgar%20Law.html"
+            ><img alt="LawColisee" src="https://i.imgur.com/97UnNUF.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Hody%20Jones.html"
+            ><img alt="HodyJonesColisee" src="https://i.imgur.com/wrsV2IH.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Oz.html"
+            ><img alt="OzColisee" src="https://i.imgur.com/rDmt9HT.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kyoshiro.html"
+            ><img alt="KyoshiroColisee" src="https://i.imgur.com/AVPaHxG.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Shutenmaru.html"
+            ><img alt="ShutenmaruColisee" src="https://i.imgur.com/NKK6G5P.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Sangoro.html"
+            ><img alt="SangoroColisee" src="https://i.imgur.com/XyMHw2o.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Komurasaki.html"
+            ><img alt="KomurasakiColisee" src="https://i.imgur.com/aS1XY48.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Caborage%202.html"
+            ><img
+              alt="CaborageColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2908.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Borsalino.html"
+            ><img
+              alt="BorsalinoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2953.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/King.html"
+            ><img
+              alt="KingColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2990.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Gyukimaru.html"
+            ><img
+              alt="GyukimaruColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3017.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Orochi%20Kurozumi.html"
+            ><img
+              alt="OrochiColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3049.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kikunojo.html"
+            ><img
+              alt="KikunojoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3083.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Page%20One.html"
+            ><img
+              alt="PageOneColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3110.png"
+          /></a>
+        </li>
+      </ul>
+
+      <h2>Néo-colisées</h2>
+
+      <ul>
+        <li>
+          <a href="Colisee/Neo%20Kinemon.html"
+            ><img
+              alt="KinemonNeoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1863.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Neo%20Killer.html"
+            ><img
+              alt="KillerNeoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1899.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Neo%20X-Drake.html"
+            ><img
+              alt="DrakeNeoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1976.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Neo%20Diamante.html"
+            ><img
+              alt="DiamanteNeoColisee"
+              src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2017.png"
+          /></a>
+        </li>
+      </ul>
+
+      <h2>Colisées "Ex"</h2>
+
+      <ul>
+        <li>
+          <a href="Colisee/Gecko%20Moria%20EX.html"
+            ><img alt="MoriaEXColisee" src="https://i.imgur.com/tZ6fAL6.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Neptune%20EX.html"
+            ><img alt="NeptuneEXColisee" src="https://i.imgur.com/PtZcPai.png"
+          /></a>
+        </li>
+
+        <li>
+          <a href="Colisee/Kobby%20EX.html"
+            ><img alt="KobbyEXColisee" src="https://i.imgur.com/VLs3PAt.png"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="baspage">
+      <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
+    </div>
+    <script
+      src="Accueil/js/jquery-3.3.1.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/mdb.js" type="text/javascript"></script>
+  </body>
 </html>

@@ -8,23 +8,23 @@ function replaceOrbsColors(chosenSection = '.fiche-table') {
   const orbs = [
     {
       name: 'STR',
-      color: '#DC241C',
+      color: $STR,
     },
     {
       name: 'DEX',
-      color: '#1CAC24',
+      color: $DEX,
     },
     {
       name: 'QCK',
-      color: '#4C4CFF',
+      color: $QCK,
     },
     {
       name: 'PSY',
-      color: '#ECAC04',
+      color: $PSY,
     },
     {
       name: 'INT',
-      color: '#A916B6',
+      color: $INT,
     },
     {
       name: 'BLK',
@@ -68,23 +68,23 @@ function replaceTypesColors(chosenSection = '.fiche-table') {
   const types = [
     {
       name: 'STR',
-      color: '#DC241C',
+      color: $STR,
     },
     {
       name: 'DEX',
-      color: '#1CAC24',
+      color: $DEX,
     },
     {
       name: 'QCK',
-      color: '#4C4CFF',
+      color: $QCK,
     },
     {
       name: 'PSY',
-      color: '#ECAC04',
+      color: $PSY,
     },
     {
       name: 'INT',
-      color: '#A916B6',
+      color: $INT,
     },
   ];
 
