@@ -123,6 +123,58 @@ function replaceTypesColors(chosenSection = '.fiche-table') {
   }
 }
 
+function addIconsToClasses(chosenSection = '.fiche-table') {
+  const classes = [
+    {
+      name: 'Ravageur',
+      icon: 'https://i.imgur.com/2aO4RiX.png',
+    },
+    {
+      name: 'Tenace',
+      icon: 'https://i.imgur.com/aUz26fE.png',
+    },
+    {
+      name: 'Cogneur',
+      icon: 'https://i.imgur.com/MrF9dbp.png',
+    },
+    {
+      name: 'Intellectuel',
+      icon: 'https://i.imgur.com/Uw1DT3w.png',
+    },
+    {
+      name: 'Libre',
+      icon: 'https://i.imgur.com/fDfi5ff.png',
+    },
+    {
+      name: 'Tireur',
+      icon: 'https://i.imgur.com/3m4dfE7.png',
+    },
+    {
+      name: 'Sabreur',
+      icon: 'https://i.imgur.com/LgeJ3v7.png',
+    },
+    {
+      name: 'Ambitieux',
+      icon: 'https://i.imgur.com/iFDU5wQ.png',
+    },
+  ];
+
+  $(`${chosenSection} .character-classes`).each((index) => {
+    let $section = $($(`${chosenSection} .character-classes`)[index]).html();
+
+    classes.forEach(characterClass => {
+      const regex1 = new RegExp(escapeRegExp(`${characterClass.name}`), 'gi');
+
+      $section = $section.replace(
+        regex1,
+        `<img style="vertical-align: bottom;" src="${characterClass.icon}" /> ${characterClass.name}`
+      );
+    });
+
+    $($(`${chosenSection} .character-classes`)[index]).html($section);
+  });
+}
+
 function escapeRegExp(text) {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
 }
