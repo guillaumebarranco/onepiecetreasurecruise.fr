@@ -111,12 +111,21 @@ function replaceTypesColors(chosenSection = '.fiche-table') {
         `<strong style="color: ${type.color};"> ${type.name}</strong><`
       );
 
+      const regex5 = new RegExp(escapeRegExp(` ${type.name},`), 'gi');
+
+      $section = $section.replace(
+        regex5,
+        `<strong style="color: ${type.color};"> ${type.name}</strong>,`
+      );
+
       const regex4 = new RegExp(escapeRegExp(`<strong>${type.name}</strong>`), 'gi');
 
       $section = $section.replace(
         regex4,
         `<strong style="color: ${type.color};">${type.name}</strong>`
       );
+
+
     });
 
     $(chosenSection).html($section);
