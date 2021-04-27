@@ -1,655 +1,978 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Avancée des personnages des cartes aux trésors</title>
+    <meta
+      content="Avancée des personnages des cartes aux trésors"
+      name="title"
+    />
+    <meta content="" name="description" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="shared/generic.css" rel="stylesheet" />
+    <link href="shared/backgrounds.css" rel="stylesheet" />
+    <link href="shared/avancees.css" rel="stylesheet" />
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="scriptAvanceeRaids.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="shared/analytics.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Avancée des personnages des cartes aux trésors</title>
-  <meta content="Avancée des personnages des cartes aux trésors" name="title" />
-  <meta content="" name="description" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <link href="bootstrap.css" rel="stylesheet" />
-  <link href="shared/generic.css" rel="stylesheet" />
-  <link href="shared/backgrounds.css" rel="stylesheet" />
-  <link href="shared/avancees.css" rel="stylesheet" />
-  <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
-  <link href="https://i.imgur.com/8878Ai5.png" rel="icon" sizes="32x32" type="image/png" />
-  <link href="https://i.imgur.com/g9Z1vTh.png" rel="icon" sizes="64x64" type="image/png" />
-  <link href="https://i.imgur.com/JrwHqpx.png" rel="icon" sizes="96x96" type="image/png" />
-  <link href="https://i.imgur.com/RlxE1HW.png" rel="icon" sizes="196x196" type="image/png" />
-  <link href="https://i.imgur.com/JLXSWVX.png" rel="apple-touch-icon" sizes="152x152" />
-  <link href="https://i.imgur.com/Qu453Fa.png" rel="apple-touch-icon" sizes="60x60" />
-  <link href="https://i.imgur.com/Axrgthf.png" rel="apple-touch-icon" sizes="76x76" />
-  <link href="https://i.imgur.com/lrkVWWl.png" rel="apple-touch-icon" sizes="114x114" />
-  <link href="https://i.imgur.com/dQsf6vt.png" rel="apple-touch-icon" sizes="120x120" />
-  <link href="https://i.imgur.com/fayMNRr.png" rel="apple-touch-icon" sizes="144x144" />
-  <meta content="https://i.imgur.com/0Rbziea.png" name="msapplication-TileImage" />
-  <meta content="#FFFFFF" name="msapplication-TileColor" />
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
-  <script src="scriptAvanceeRaids.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script src="shared/analytics.js"></script>
-</head>
+  <body id="NO-COLOR" class="raidlist">
+    <div class="entete">
+      <img class="entetefond" src="https://i.imgur.com/adWoClY.png" />
+      <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
+      <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
+      <a href="/"><img class="logo" src="https://i.imgur.com/1OcsZvS.png" /></a>
+    </div>
 
-<body id="NO-COLOR" class="raidlist">
-  <div class="entete">
-    <img class="entetefond" src="https://i.imgur.com/yOZlv6S.png" />
-    <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
-    <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
-    <a href="/"><img class="logo" src="https://i.imgur.com/1OcsZvS.png" /></a>
-  </div>
-
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-    <img class="topnavbar" src="https://i.imgur.com/QvxN4d8.png" />
-    <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png" /></a>
-    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-      class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-light"
-            data-toggle="dropdown" id="navbarDropdownMenuLink">Guides</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés
-              ?</a>
-            <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
-            <a class="dropdown-item waves-effect waves-light" href="Colisee.html">Colisées</a>
-            <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
-            <a class="dropdown-item waves-effect waves-light" href="Attaque%20ennemie.html">Attaques ennemies</a>
-            <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
-            <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
-            <a class="dropdown-item waves-effect waves-light"
-              href="Carte%20aux%20tresors/Prochaine%20Carte%20aux%20tresors.html">Prochaine Carte aux trésors</a>
-            <a class="dropdown-item waves-effect waves-light"
-              href="Bataille%20cooperative/Prochaine%20bataille%20cooperative.html">Prochain combat de l'amitié</a>
-            <a class="dropdown-item waves-effect waves-light" href="Mode%20Aventure.html">Histoire principale</a>
-            <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
-            <a class="dropdown-item waves-effect waves-light" href="Defi%20de%20Garp.html">Défi de Garp</a>
-            <a class="dropdown-item waves-effect waves-light" href="Crane.html">Quêtes pour les super évolutions</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            id="navbarDropdownMenuLink">Liste de personnages</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item" href="LegendesBatch.html">Personnages du recrutement rare</a>
-            <a class="dropdown-item" href="Carte%20aux%20tresors.html">Personnages des Cartes aux trésors</a>
-            <a class="dropdown-item" href="Bataille%20cooperative.html">Personnages des combats de l'amitié</a>
-            <a class="dropdown-item" href="Festival%20des%20pirates.html">Personnages de la fête des pirates</a>
-            <a class="dropdown-item" href="LRR.html">Personnages limités au recrutement rare</a>
-            <a class="dropdown-item" href="Soutien.html">Personnages limités au recrutement rare de soutien</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            id="navbarDropdownMenuLink">Aide</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien%20debuter.html">Bien débuter</a>
-            <a class="dropdown-item waves-effect waves-light"
-              href="Debutant/Souhaits%20de%20Chopper%20Man.html">Souhaits de Chopper Man</a>
-            <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux%20des%20legendes.html">Taux des
-              personnages Sugo-Rare</a>
-            <a class="dropdown-item waves-effect waves-light"
-              href="Debutant/Extension%20du%20depassement%20de%20limites.html">Extension du dépassement de limites</a>
-            <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
-            <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien
-              spécifiques</a>
-            <a class="dropdown-item waves-effect waves-light" href="Fete%20des%20pirates.html">Personnages par style sur
-              la fête des pirates</a>
-            <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile%20des%20collectionneurs.html">Île des
-              collectionneurs</a>
-            <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier%20List.html">Tier Lists</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown active">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            id="navbarDropdownMenuLink">Progressions</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version
-              normale)</a>
-            <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par
-              lot)</a>
-            <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
-            <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
-            <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
-            <a class="dropdown-item" href="AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
-            <a class="dropdown-item" href="AvanceeRaids.html">Avancée des combats cruciaux</a>
-            <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
-            <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
-            <a class="dropdown-item active" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-            <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Artwork/">Artworks</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            id="navbarDropdownMenuLink">Événements</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item" href="Creations.html">Créations de personnages</a>
-            <a class="dropdown-item" href="Awards/">Awards 2019</a>
-            <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            id="navbarDropdownMenuLink">Sites</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
-            <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
-            <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
-            <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-            id="navbarDropdownMenuLink">Remerciements</a>
-          <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
-            <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
-              target="_blank">Chaîne de Timinou</a>
-            <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
-              target="_blank">Chaîne de D. coza</a>
-            <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
-              target="_blank">Chaîne de Towercorner</a>
-            <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
-              target="_blank">Chaîne de Kaku OPTC</a>
-            <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de
-              Scaragnark</a>
-            <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-            <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
-              target="_blank">Chaîne de SkyTrick</a>
-            <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
-              target="_blank">Chaîne de B-Bro</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <form action="https://www.google.com" id="cse-search-box" name="cse-search-box">
-            <div id="searchbar">
-              <input name="cx" type="hidden" value="011516564617436617087:3cpi9kq7ujc" />
-              <input name="ie" type="hidden" value="UTF-8" />
-              <input id="search_area" name="q" placeholder="Rechercher" size="20" style="
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark"
+    >
+      <img class="topnavbar" src="https://i.imgur.com/QvxN4d8.png" />
+      <a class="navbar-brand" href="/"
+        ><img src="https://imgur.com/SOSubWn.png"
+      /></a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-target="#navbarSupportedContent"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle waves-effect waves-light"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Guides</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Coulisses.html"
+                >Comment les guides sont-ils rédigés ?</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Raids.html"
+                >Combats cruciaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Colisee.html"
+                >Colisées</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Arene.html"
+                >Arènes</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Attaque%20ennemie.html"
+                >Attaques ennemies</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Fortnight.html"
+                >Quêtes permanentes</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Special.html"
+                >Événements spéciaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Carte%20aux%20tresors/Prochaine%20Carte%20aux%20tresors.html"
+                >Prochaine Carte aux trésors</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Bataille%20cooperative/Prochaine%20bataille%20cooperative.html"
+                >Prochain combat de l'amitié</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Mode%20Aventure.html"
+                >Histoire principale</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Forets.html"
+                >Forêts d'entraînement</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Defi%20de%20Garp.html"
+                >Défi de Garp</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Crane.html"
+                >Quêtes pour les super évolutions</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Liste de personnages</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="LegendesBatch.html"
+                >Personnages du recrutement rare</a
+              >
+              <a class="dropdown-item" href="Carte%20aux%20tresors.html"
+                >Personnages des Cartes aux trésors</a
+              >
+              <a class="dropdown-item" href="Bataille%20cooperative.html"
+                >Personnages des combats de l'amitié</a
+              >
+              <a class="dropdown-item" href="Festival%20des%20pirates.html"
+                >Personnages de la fête des pirates</a
+              >
+              <a class="dropdown-item" href="LRR.html"
+                >Personnages limités au recrutement rare</a
+              >
+              <a class="dropdown-item" href="Soutien.html"
+                >Personnages limités au recrutement rare de soutien</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Aide</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Bien%20debuter.html"
+                >Bien débuter</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Souhaits%20de%20Chopper%20Man.html"
+                >Souhaits de Chopper Man</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Taux%20des%20legendes.html"
+                >Taux des personnages Sugo-Rare</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Extension%20du%20depassement%20de%20limites.html"
+                >Extension du dépassement de limites</a
+              >
+              <a class="dropdown-item waves-effect waves-light" href="Bateau/"
+                >Liste des bateaux</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Soutien.html"
+                >Effets de soutien spécifiques</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Fete%20des%20pirates.html"
+                >Personnages par style sur la fête des pirates</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Ile%20des%20collectionneurs.html"
+                >Île des collectionneurs</a
+              >
+              <a
+                class="dropdown-item waves-effect waves-light"
+                href="Debutant/Tier%20List.html"
+                >Tier Lists</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Progressions</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="RR.html"
+                >Liste à cocher des personnages du recrutement rare (version
+                normale)</a
+              >
+              <a class="dropdown-item" href="RRBatch.html"
+                >Liste à cocher des personnages du recrutement rare (version par
+                lot)</a
+              >
+              <a class="dropdown-item" href="Aventure.html"
+                >Liste à cocher des personnages de l'Histoire principale</a
+              >
+              <a class="dropdown-item" href="Avancee.html"
+                >Avancée des personnages Sugo-Rare</a
+              >
+              <a class="dropdown-item" href="AvanceeRR.html"
+                >Avancée des personnages du recrutement rare</a
+              >
+              <a class="dropdown-item" href="AvanceeLRR.html"
+                >Avancée des personnages limités au recrutement rare</a
+              >
+              <a class="dropdown-item" href="AvanceeRaids.html"
+                >Avancée des combats cruciaux</a
+              >
+              <a class="dropdown-item" href="AvanceeColisee.html"
+                >Avancée des Colisées</a
+              >
+              <a class="dropdown-item" href="AvanceeAttaque.html"
+                >Avancée des attaques ennemies</a
+              >
+              <a class="dropdown-item active" href="AvanceeCarte.html"
+                >Avancée des personnages des Cartes aux trésors</a
+              >
+              <a class="dropdown-item" href="AvanceeCombatAmitie.html"
+                >Avancée des personnages des combats de l'amitié</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Artwork/">Artworks</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Événements</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="Creations.html"
+                >Créations de personnages</a
+              >
+              <a class="dropdown-item" href="Awards/">Awards 2019</a>
+              <a class="dropdown-item" href="Awards2020/">Awards 2020</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Sites</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a
+                class="dropdown-item"
+                href="https://optc-db.github.io/"
+                target="_blank"
+                >OPTC Database</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://lukforce.bitbucket.io/"
+                target="_blank"
+                >OPTC Voyage Log</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.nakama.network/"
+                target="_blank"
+                >Nakama Network</a
+              >
+              <a
+                class="dropdown-item"
+                href="http://optc-tierlist.com/"
+                target="_blank"
+                >Tier List Maker</a
+              >
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              aria-expanded="false"
+              aria-haspopup="true"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              id="navbarDropdownMenuLink"
+              >Remerciements</a
+            >
+            <div
+              aria-labelledby="navbarDropdownMenuLink"
+              class="dropdown-menu dropdown-secondary"
+            >
+              <a class="dropdown-item" href="Remerciements.html"
+                >Remerciements</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+                target="_blank"
+                >Chaîne de Timinou</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+                target="_blank"
+                >Chaîne de D. coza</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+                target="_blank"
+                >Chaîne de Towercorner</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+                target="_blank"
+                >Chaîne de Kaku OPTC</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/user/Scaragnark9"
+                target="_blank"
+                >Chaîne de Scaragnark</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/user/basibidi"
+                target="_blank"
+                >Chaîne de Basibidi</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+                target="_blank"
+                >Chaîne de SkyTrick</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+                target="_blank"
+                >Chaîne de B-Bro</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://discord.gg/6bJvuT8"
+              target="_blank"
+              >Discord</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <form
+              action="https://www.google.com"
+              id="cse-search-box"
+              name="cse-search-box"
+            >
+              <div id="searchbar">
+                <input
+                  name="cx"
+                  type="hidden"
+                  value="011516564617436617087:3cpi9kq7ujc"
+                />
+                <input name="ie" type="hidden" value="UTF-8" />
+                <input
+                  id="search_area"
+                  name="q"
+                  placeholder="Rechercher"
+                  size="20"
+                  style="
                     border: 1px solid rgb(126, 157, 185);
                     margin-bottom: 5px;
                     background: url('https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png')
                       left center no-repeat rgb(255, 255, 255);
                     text-indent: 48px;
-                  " type="text" value="" />
-            </div>
-            <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr" /><input name="ref" type="hidden"
-              value="" /><input name="ss" type="hidden" value="" />
-          </form>
-        </li>
-      </ul>
+                  "
+                  type="text"
+                  value=""
+                />
+              </div>
+              <input
+                name="siteurl"
+                type="hidden"
+                value="onepiecetreasurecruise.fr"
+              /><input name="ref" type="hidden" value="" /><input
+                name="ss"
+                type="hidden"
+                value=""
+              />
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <a href="/"><img alt="logo" src="img/logo.png" /></a>
+    </header>
+
+    <div class="avancees-container">
+      <h1>Avancée des personnages des cartes aux trésors</h1>
+      <table>
+        <tbody>
+          <tr>
+            <td><img src="https://imgur.com/QsXQ2kL.png" /></td>
+            <td>
+              <h3>Niveau des statistiques au maximum</h3>
+            </td>
+            <td><img src="https://imgur.com/76MHSCn.png" /></td>
+            <td>
+              <h3>Niveau du coup spécial au maximum</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://imgur.com/BahT39m.png" /></td>
+            <td>
+              <h3>Niveau des emplacements de pouvoirs au maximum</h3>
+            </td>
+            <td><img src="https://i.imgur.com/pqdrdu0.png" /></td>
+            <td>
+              <h3>100 barbes à papa HP</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://i.imgur.com/UAK0erl.png" /></td>
+            <td>
+              <h3>100 barbes à papa ATK</h3>
+            </td>
+            <td><img src="https://i.imgur.com/3rglFwY.png" /></td>
+            <td>
+              <h3>100 barbes à papa RCV</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://imgur.com/LNddvdE.png" /></td>
+            <td>
+              <h3>Dépassement de limites au maximum</h3>
+            </td>
+            <td><img src="https://imgur.com/ACQBSqv.png" /></td>
+            <td>
+              <h3>Potential Abilities au maximum</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://imgur.com/g8Fdgu6.png" /></td>
+            <td>
+              <h3>Effets de soutien au maximum</h3>
+            </td>
+            <td>
+              <img src="https://i.imgur.com/qQl7YXh.png" />
+            </td>
+            <td>
+              <h3>Extension du dépassement de limites effectuée</h3>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="characters-container"></div>
     </div>
-  </nav>
 
-  <header>
-    <a href="/"><img alt="logo" src="img/logo.png" /></a>
-  </header>
+    <div class="baspage">
+      <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
+    </div>
 
-  <div class="avancees-container">
-    <h1>Avancée des personnages des cartes aux trésors</h1>
-    <table>
-      <tbody>
-        <tr>
-          <td><img src="https://imgur.com/QsXQ2kL.png" /></td>
-          <td>
-            <h3>Niveau des statistiques au maximum</h3>
-          </td>
-          <td><img src="https://imgur.com/76MHSCn.png" /></td>
-          <td>
-            <h3>Niveau du coup spécial au maximum</h3>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="https://imgur.com/BahT39m.png" /></td>
-          <td>
-            <h3>Niveau des emplacements de pouvoirs au maximum</h3>
-          </td>
-          <td><img src="https://i.imgur.com/pqdrdu0.png" /></td>
-          <td>
-            <h3>100 barbes à papa HP</h3>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="https://i.imgur.com/UAK0erl.png" /></td>
-          <td>
-            <h3>100 barbes à papa ATK</h3>
-          </td>
-          <td><img src="https://i.imgur.com/3rglFwY.png" /></td>
-          <td>
-            <h3>100 barbes à papa RCV</h3>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="https://imgur.com/LNddvdE.png" /></td>
-          <td>
-            <h3>Dépassement de limites au maximum</h3>
-          </td>
-          <td><img src="https://imgur.com/ACQBSqv.png" /></td>
-          <td>
-            <h3>Potential Abilities au maximum</h3>
-          </td>
-        </tr>
-        <tr>
-          <td><img src="https://imgur.com/g8Fdgu6.png" /></td>
-          <td>
-            <h3>Effets de soutien au maximum</h3>
-          </td>
-          <td>
-            <img src="https://i.imgur.com/qQl7YXh.png" />
-          </td>
-          <td>
-            <h3>Extension du dépassement de limites effectuée</h3>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <script src="Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="shared/avancees.js"></script>
+    <script>
+      const TMCharactersList = [
+        {
+          id: "1808",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1808.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "1853",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1853.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "1889",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1889.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "1916",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1916.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "1941",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1941.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "1972",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1972.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2000",
+          imgUrl: "https://i.imgur.com/b6RCc49.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: false,
+        },
+        {
+          id: "2064",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2064.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2109",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2109.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2137",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2137.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2175",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2175.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2211",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2211.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2261",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2261.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2299",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2299.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2336",
+          imgUrl: "https://i.imgur.com/aSMceyi.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2362",
+          imgUrl: "https://i.imgur.com/49gRmQg.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2387",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2387.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2443",
+          imgUrl: "https://i.imgur.com/KsZi2le.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2469",
+          imgUrl: "https://i.imgur.com/pkFL6AA.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: false,
+        },
+        {
+          id: "2510",
+          imgUrl: "https://i.imgur.com/QWluk3X.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2557",
+          imgUrl: "https://i.imgur.com/KCC4EAU.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: false,
+        },
+        {
+          id: "2583",
+          imgUrl: "https://i.imgur.com/65pqsgI.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2618",
+          imgUrl: "https://i.imgur.com/yGmIYl3.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: false,
+        },
+        {
+          id: "2659",
+          imgUrl: "https://i.imgur.com/1HUTfn2.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2690",
+          imgUrl: "https://i.imgur.com/KSIrZB8.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2729",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2729.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2763",
+          imgUrl: "https://i.imgur.com/O1Iivb7.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2792",
+          imgUrl: "https://i.imgur.com/KK114em.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2823",
+          imgUrl: "https://i.imgur.com/htGLd6b.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2850",
+          imgUrl: "https://i.imgur.com/UOsNBB1.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: false,
+        },
+        {
+          id: "2879",
+          imgUrl: "https://i.imgur.com/XCiLVdl.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2913",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2913.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2977",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2977.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "2995",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2995.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3022",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3022.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3058",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3058.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: false,
+        },
+        {
+          id: "3094",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3094.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3115",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3115.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3150",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3150.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3197",
+          imgUrl: "https://i.imgur.com/8yVUgWc.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3217",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3217.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3239",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3239.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3273",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3273.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+        {
+          id: "3297",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3297.png",
+          hasLb: true,
+          hasKeyLb: true,
+          hasSupport: true,
+        },
+      ];
 
-    <div class="characters-container"></div>
-  </div>
+      const rewardsTMCharactersList = [
+        {
+          id: "2439",
+          imgUrl: "https://i.imgur.com/w0IRP1b.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "2661",
+          imgUrl: "https://i.imgur.com/bh2ccMM.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "2880",
+          imgUrl: "https://i.imgur.com/Z65gjIH.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+      ];
 
-  <div class="baspage">
-    <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
-  </div>
+      const bazarTMCharactersList = [
+        {
+          id: "2632",
+          imgUrl: "https://imgur.com/99zwFBr.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+      ];
 
-  <script src="Accueil/js/popper.min.js" type="text/javascript"></script>
-  <script src="Accueil/js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="Accueil/js/mdb.js" type="text/javascript"></script>
-  <script src="shared/avancees.js"></script>
-  <script>
-    const TMCharactersList = [
-      {
-        id: "1808",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1808.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "1853",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1853.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "1889",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1889.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "1916",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1916.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "1941",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1941.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "1972",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1972.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2000",
-        imgUrl: "https://i.imgur.com/b6RCc49.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: false,
-      },
-      {
-        id: "2064",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2064.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2109",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2109.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2137",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2137.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2175",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2175.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2211",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2211.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2261",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2261.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2299",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2299.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2336",
-        imgUrl: "https://i.imgur.com/aSMceyi.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2362",
-        imgUrl: "https://i.imgur.com/49gRmQg.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2387",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2387.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2443",
-        imgUrl: "https://i.imgur.com/KsZi2le.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2469",
-        imgUrl: "https://i.imgur.com/pkFL6AA.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: false,
-      },
-      {
-        id: "2510",
-        imgUrl: "https://i.imgur.com/QWluk3X.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2557",
-        imgUrl: "https://i.imgur.com/KCC4EAU.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: false,
-      },
-      {
-        id: "2583",
-        imgUrl: "https://i.imgur.com/65pqsgI.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2618",
-        imgUrl: "https://i.imgur.com/yGmIYl3.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: false,
-      },
-      {
-        id: "2659",
-        imgUrl: "https://i.imgur.com/1HUTfn2.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2690",
-        imgUrl: "https://i.imgur.com/KSIrZB8.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2729",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2729.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2763",
-        imgUrl: "https://i.imgur.com/O1Iivb7.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2792",
-        imgUrl: "https://i.imgur.com/KK114em.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2823",
-        imgUrl: "https://i.imgur.com/htGLd6b.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2850",
-        imgUrl: "https://i.imgur.com/UOsNBB1.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: false,
-      },
-      {
-        id: "2879",
-        imgUrl: "https://i.imgur.com/XCiLVdl.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2913",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2913.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2977",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2977.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "2995",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2995.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3022",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3022.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3058",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3058.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: false,
-      },
-      {
-        id: "3094",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3094.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3115",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3115.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3150",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3150.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3197",
-        imgUrl:
-          "https://i.imgur.com/8yVUgWc.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3217",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3217.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3239",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3239.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3273",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3273.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-      {
-        id: "3297",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/f3297.png",
-        hasLb: true,
-        hasKeyLb: true,
-        hasSupport: true,
-      },
-    ];
-
-    const rewardsTMCharactersList = [
-      {
-        id: "2439",
-        imgUrl: "https://i.imgur.com/w0IRP1b.png",
-        hasLb: true,
-        hasKeyLb: false,
-        hasSupport: false,
-      },
-      {
-        id: "2661",
-        imgUrl: "https://i.imgur.com/bh2ccMM.png",
-        hasLb: true,
-        hasKeyLb: false,
-        hasSupport: false,
-      },
-      {
-        id: "2880",
-        imgUrl: "https://i.imgur.com/Z65gjIH.png",
-        hasLb: true,
-        hasKeyLb: false,
-        hasSupport: true,
-      },
-    ];
-
-    const bazarTMCharactersList = [
-      {
-        id: "2632",
-        imgUrl: "https://imgur.com/99zwFBr.png",
-        hasLb: true,
-        hasKeyLb: false,
-        hasSupport: false,
-      },
-    ];
-
-    addAvanceeCategoryTitle("Cartes Aux Trésors");
-    generateAvanceeList(TMCharactersList, "tms");
-    addAvanceeCategoryTitle("Personnages limités");
-    generateAvanceeList(rewardsTMCharactersList);
-    addAvanceeCategoryTitle("Bazar des trésors");
-    generateAvanceeList(bazarTMCharactersList);
-  </script>
-</body>
-
+      addAvanceeCategoryTitle("Cartes Aux Trésors");
+      generateAvanceeList(TMCharactersList, "tms");
+      addAvanceeCategoryTitle("Personnages limités");
+      generateAvanceeList(rewardsTMCharactersList);
+      addAvanceeCategoryTitle("Bazar des trésors");
+      generateAvanceeList(bazarTMCharactersList);
+    </script>
+  </body>
 </html>
