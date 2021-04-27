@@ -52,10 +52,10 @@
 
   <body id="PSY">
     <div class="entete">
-      <img src="https://i.imgur.com/yOZlv6S.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+      <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
+      <!-- <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard"> -->
       <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo"></a>
+      <a href="/"><img src="https://i.imgur.com/1OcsZvS.png" class="logo" style="opacity: 0;"></a>
     </div>
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
