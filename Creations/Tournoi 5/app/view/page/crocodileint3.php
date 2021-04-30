@@ -225,7 +225,7 @@ position: absolute;
         <table>
           <table align="center">
             <center><img src="https://i.imgur.com/H82Hr2H.png"></center>
-          <caption><img src="https://i.imgur.com/x48dBa5.jpg" height="50%" width="50%"></caption>
+          <caption><img src="https://i.imgur.com/x48dBa5.jpg"></caption>
             <tbody>
               <tr>
                 <td>Nom</td>

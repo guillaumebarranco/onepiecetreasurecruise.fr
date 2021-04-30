@@ -1,123 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-127847674-1');
-        </script>
-        <meta charset="utf-8" />
-        <title>Zorojuro</title>
-        <link href="bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" />
-        <script src="Personnages utiles/script.js"></script>
-        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script>
-            jQuery(function(){
-                $(function () {
-                    $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) {
-                            $('#scrollUp').css('right');
-                        } else {
-                            $('#scrollUp').removeAttr( 'style' );
-                        }
-                    });
-                });
-            });
-        </script>
-    </head>
 
-    <div class="entete">
-      <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-    </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-127847674-1');
+  </script>
+  <meta charset="utf-8" />
+  <title>Zorojuro</title>
+  <link href="bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="Personnages utiles/script.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script>
+    jQuery(function () {
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $('#scrollUp').css('right');
+          } else {
+            $('#scrollUp').removeAttr('style');
+          }
+        });
+      });
+    });
+  </script>
+</head>
+
+<div class="entete">
+  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
+  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
+</div>
 <style>
-.topnavbar
-{
-top: -1.5vw;
-left: 0;
-max-width: 100%;
-width: 100%;
-position: absolute;
-}
+  .entetetop {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .entetefond {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    width: 40vw;
+    top: 0;
+    left: 30%;
+    position: relative;
+  }
+
+  .newsboard {
+    top: 0;
+    right: 1vw;
+    max-width: 25%;
+    width: 25%;
+    position: absolute;
+  }
 </style>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+  <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+  <style>
+    .topnavbar {
+      top: -1.5vw;
+      left: 0;
+      max-width: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
   <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="Legendes.html">Personnages Sugo-Rare</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Guides
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Guides
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="Coulisses.html">Comment les guides sont-ils rédigés
+            ?</a>
           <a class="dropdown-item waves-effect waves-light" href="Raids.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="Attaque ennemie.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="Fortnight.html">Quêtes permanentes</a>
           <a class="dropdown-item waves-effect waves-light" href="Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="Mode Aventure.html">Histoire principale</a>
           <a class="dropdown-item waves-effect waves-light" href="Forets.html">Forêts d'entraînement</a>
           <a class="dropdown-item waves-effect waves-light" href="Defi de Garp.html">Défi de Garp</a>
@@ -143,13 +145,19 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item waves-effect waves-light" href="Debutant/Bien debuter.html">Bien débuter</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Souhaits de Chopper Man.html">Souhaits de
+            Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Taux des legendes.html">Taux des personnages
+            Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
           <a class="dropdown-item waves-effect waves-light" href="Bateau/">Liste des bateaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la fête des pirates</a>
-          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Soutien.html">Effets de soutien
+            spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="Fete des pirates.html">Personnages par style sur la
+            fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="Debutant/Ile des collectionneurs.html">Île des
+            collectionneurs</a>
           <a class="dropdown-item waves-effect waves-light" href="Debutant/Tier List.html">Tier Lists</a>
         </div>
       </li>
@@ -158,8 +166,10 @@ position: absolute;
           aria-expanded="false">Progressions
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
-          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="RR.html">Liste à cocher des personnages du recrutement rare (version
+            normale)</a>
+          <a class="dropdown-item" href="RRBatch.html">Liste à cocher des personnages du recrutement rare (version par
+            lot)</a>
           <a class="dropdown-item" href="Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="AvanceeRR.html">Avancée des personnages du recrutement rare</a>
@@ -167,7 +177,7 @@ position: absolute;
           <a class="dropdown-item" href="AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="AvanceeAttaque.html">Avancée des attaques ennemies</a>
           <a class="dropdown-item" href="AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-<a class="dropdown-item" href="AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
+          <a class="dropdown-item" href="AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
           <a class="dropdown-item" href="AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
         </div>
       </li>
@@ -201,14 +211,21 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="Remerciements.html">Remerciements</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+            target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+            target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+            target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+            target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de
+            Scaragnark</a>
           <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+            target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+            target="_blank">Chaîne de B-Bro</a>
         </div>
       </li>
       <li class="nav-item">
@@ -221,553 +238,798 @@ position: absolute;
           <div id="searchbar">
             <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
             <input type="hidden" name="ie" value="UTF-8">
-            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher"
+              style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
           </div>
-          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden"
+            value=""><input name="ss" type="hidden" value="">
         </form>
       </li>
     </ul>
   </div>
 </nav>
 
-    <header><a href="Legendes.html"><img src="img/logo.png" alt="logo"></img></a></header>
+<header><a href="Legendes.html"><img src="img/logo.png" alt="logo"></img></a></header>
 
-    <body>
-        <body id="Ace">
-    	<h1><center><u>Zorojuro</u></center></h1>
-        <center><iframe width="336" height="189" src="https://www.youtube.com/embed/NSorPzzqn5A?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189" src="https://www.youtube.com/embed/SSftkNqh5-I?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-        <h2><center><u>Fiche</u></center></h2>
-        <center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3224.png"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3225.png"></center>
-        <table>
-            <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/j655p3B.png" height="50%" width="50%"><img src="https://i.imgur.com/NCbZicM.png" height="50%" width="50%"></caption>
-                <tbody>
-                    <tr>
-                        <td>Nom</td>
-                        <td><b><small>Vagabond démoniaque</small><br>Zorojuro<b></td>
-                    </tr>
-                    <tr>
-                <td>Histoire</td>
-                <td>Sabreur à trois lames de l'équipage de Chapeau de paille. Alors qu'il combattait Kamazo qui pourchassait Hiyori et Toko, il réussit à le vaincre en utilisant une faucille et alors qu'il avait été prit en traître par Gyukimaru.</td>
-              </tr>
-                    <tr>
-                        <td>Type</td>
-                        <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
-                    </tr>
-                    <tr>
-                        <td>Classe 1</td>
-                        <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
-                    </tr>
-                    <tr>
-                        <td>Classe 2</td>
-                        <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
-                    </tr>
-                    <tr>
-                        <td>Coût</td>
-                        <td>55</td>
-                    </tr>
-                    <tr>
-                        <td>Combo</td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td>Emplacements de pouvoirs</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Statistiques</b></center></td>
-                    </tr>
-                    <tr>
-                        <td>HP</td>
-                        <td>3780 puis 4280 après le dépassement de limites puis 4780 après l'extension du dépassement de limites</td>
-                    </tr>
-                    <tr>
-                        <td>ATK</td>
-                        <td>1644 puis 1844 après le dépassement de limites puis 2044 après l'extension du dépassement de limites</td>
-                    </tr>
-                    <tr>
-                        <td>RCV</td>
-                        <td>222 puis 322 après le dépassement de limites puis 372 après l'extension du dépassement de limites</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Abilités</b></center></td>
-                    </tr>
-                    <tr>
-                        <td>Captain Ability</td>
-                        <td>Multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> par 4,5, multiplie l'ATK des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#4C4CFF">QCK</font></b>, <b><font color="#ECAC04">PSY</font></b> et <b><font color="#A916B6">INT</font></b> par 4, multiplie les HP de tous les personnages par 1,5, réduit la durée de "Lien des coups spéciaux" de 10 tours et si le total des dégâts infligés par les ennemis est supérieur à 20 000, multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> par 5 et enlève 20% des HP de chaque ennemi au début de chaque stage.</td>
-                    </tr>
-                    <tr>
-                        <td>Special (20→15 puis 14 puis 13)</td>
-                        <td>Réduit le temps de chargement des coups spéciaux de tous les personnages de 2 tours, annule les effets défensifs dont bénéficient les ennemis contre les ATK normales du personnage pendant un tour, inflige 100 fois son ATK en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs et multiplie les effets des cercles des personnages de type <b><font color="#1CAC24">DEX</font></b> selon le total des dégâts infligés par les ennemis avant l'activation du coup spécial pendant un tour.<br>
-                        <ul style="display: inline;"><small><b>20 000 points de dégâts ou moins :</b> Par 2,5.</ul><br>
-                        <ul style="display: inline;"><b>20 000 points de dégâts ou plus :</b> Par 2,75.</small></ul></td>.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Super type</b></center></td>
-                    </tr>
-                    <tr>
-                <td>Condition d'activation</td>
-                <td>Lorsque l'équipe comprend un des personnages suivants (personnages de soutien exclus) :<br>
-                  <ul style="display: inline;">Hiyori Kozuki (Komurasaki)</ul><br>
-                  <ul style="display: inline;">O-Toko</ul><br>
-                  <ul style="display: inline;">Monkey D. Luffy</ul><br>
-                  <ul style="display: inline;">Nami</ul><br>
-                  <ul style="display: inline;">Usopp</ul><br>
-                  <ul style="display: inline;">Sanji Vinsmoke</ul><br>
-                  <ul style="display: inline;">Tony-Tony Chopper</ul><br>
-                  <ul style="display: inline;">Nico Robin</ul><br>
-                  <ul style="display: inline;">Franky</ul><br>
-                  <ul style="display: inline;">Brook</ul>
-              </tr>
-                    <tr>
-                        <td>Special</td>
-                        <td>Inflige 75 fois son ATK en dégâts non élémentaires sur tous les ennemis, multiplie les effets de type des ATK normales des personnages de type <b><font color="#1CAC24">DEX</font></b> par 2 pendant un tour et renforce les personnages de type <b><font color="#1CAC24">DEX</font></b> en les transformant en personnages de <b><font color="#1CAC24">super type DEX</font></b>.<br>
-                        <small>Multiplie les effets de type des ATK normales des personnages de type <b><font color="#1CAC24">DEX</font></b> par 2,5 contre les ennemis de type <b><font color="#4C4CFF">QCK</font></b> et par 0,75 contre les ennemis de type <b><font color="#DC241C">STR</font></b>.</small></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Dépassement de limites</b></center></td>
-                    </tr>
-                    <tr>
-                        <td>Crewmate Ability 1</td>
-                        <td>Rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour tous les personnages.</td>
-                    </tr>
-                    <tr>
-                        <td>Crewmate Ability 2</td>
-                        <td>Immunise le personnage contre l'inversion de son coup spécial.</td>
-                    </tr>
-                    <tr>
-                        <td>Potential Ability 1</td>
-                        <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 3 tours au début de la quête.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit le temps de chargement de son coup spécial de 5 tours au début de la quête.</td>
-                    </tr>
-                    <tr>
-                        <td>Potential Ability 2</td>
-                        <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 3 tours.</td>
-                    </tr>
-                    <tr>
-                        <td>Potential Ability 3</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Annule le “Lien des cercles” du personnage.</td>
-              </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Personnages de type <b><font color="#1CAC24">DEX</font></b></ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Multiplie les effets des cercles des personnages de type <b><font color="#1CAC24">DEX</font></b> par 1,5 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Multiplie les effets des cercles des personnages de type <b><font color="#1CAC24">DEX</font></b> par 1,55 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Multiplie les effets des cercles des personnages de type <b><font color="#1CAC24">DEX</font></b> par 1,6 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Multiplie les effets des cercles des personnages de type <b><font color="#1CAC24">DEX</font></b> par 1,65 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Multiplie les effets des cercles des personnages de type <b><font color="#1CAC24">DEX</font></b> par 1,75 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>
-                    </tr>
-                    <tr>
-                      <td>Style</td>
-                      <td>ATK</td>
-                    </tr>
-                    <tr>
-                      <td>DEF</td>
-                      <td>190</td>
-                    </tr>
-                    <tr>
-                      <td>VIT</td>
-                      <td>167</td>
-                    </tr>
-                    <tr>
-                      <td>Special</td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,1 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,1 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,2 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,2 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,3 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,3 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,4 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,4 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,5 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,5 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,6 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,6 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,7 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,7 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>1,8 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>1,8 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins, inflige <b>2 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins, inflige <b>2 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td>Capacité</td>
-                      <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du personnage de <b>1 niveau</b>, augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>1 niveau</b> et augmente la vitesse des alliés de type <b><font color="#1CAC24">DEX</font></b> de 3 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du personnage de <b>2 niveaux</b>, augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>2 niveaux</b> et augmente la vitesse des alliés de type <b><font color="#1CAC24">DEX</font></b> de 3 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du personnage de <b>3 niveaux</b>, augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>3 niveaux</b> et augmente la vitesse des alliés de type <b><font color="#1CAC24">DEX</font></b> de 3 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du personnage de <b>4 niveaux</b>, augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>4 niveaux</b> et augmente la vitesse des alliés de type <b><font color="#1CAC24">DEX</font></b> de 3 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du personnage de <b>5 niveaux</b>, augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>5 niveaux</b> et augmente la vitesse des alliés de type <b><font color="#1CAC24">DEX</font></b> de 3 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td>Actions principales</td>
-                      <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
-                    </tr>
-                    <tr>
-                      <td>Cible des actions</td>
-                      <td>Vise les ennemis proches.</td>
-                    </tr>
-                    <tr>
-                      <td>Résistance</td>
-                      <td>Permet d'éviter "Lien des coups spéciaux" et réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 30%.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1180.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
-                    </tr>
-                </tbody>
-            </table>
-        <h2><center><u>Personnages du lot</u></center></h2>
-        <h3><center><u>Fiche de Kaido</u></center></h3>
-        <center><a href="Kaido 2.html" target="_blank"><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3227.png"></a></center>
-        <div id="1"></div>
-        <h3><center><u>Fiche de Kamazo</u></center></h3>
-        <center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3228.png"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3229.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/7Zi066y.png" height="50%" width="50%"><img src="https://i.imgur.com/5C9dGi3.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Assassin d'Orochi</small><br>Kamazo le tueur à la faucille<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Assassin de la capitale des fleurs. Afin de tuer Toko, il affronta Zoro qui fait barrage et il l'attaque avec ses deux faucilles, réussissant même à le blesser lorsque son adversaire a été déconcentré.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>30</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>4 puis 5 après le dépassement de limites</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>2888 puis 3088 après le dépassement de limites</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>1421 puis 1521 après le dépassement de limites</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>245 puis 295 après le dépassement de limites</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Multiplie l'ATK des personnages de type <b><font color="#4C4CFF">QCK</font></b> par 3 et les HP par 1,2.</td>
-              </tr>
-              <tr>
-                <td>Special (20→14 puis 13)</td>
-                <td>Enlève 20% des HP d'un ennemi en ignorant les effets défensifs, réduit la durée de "Brûlure" de 4 tours, réduit la durée des augmentations de défense dont bénéficient les ennemis de 4 tours et bloque le multiplicateur de combos à 3 pendant un tour.</td>
-              </tr>
-              <tr>
-                <td>Crewmate Ability 1</td>
-                <td>Ajoute 50 en ATK pour les personnages de type <b><font color="#4C4CFF">QCK</font></b>.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
-              </tr>
-              <tr>
-                <td>Crewmate Ability 2</td>
-                <td>Multiplie l'ATK du personnage contre les ennemis de type <b><font color="#1CAC24">DEX</font></b> par 2.</td>
-              </tr>
-                    <tr>
-                        <td>Potential Ability 1</td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 3% l'ATK du personnage en dégâts additionnels.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
-              </tr>
-              <tr>
-                        <td>Potential Ability 2</td>
-                        <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 1 tour.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts augmentés de 2 tours.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Personnages de type <b><font color="#4C4CFF">QCK</font></b></ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1% et ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2% et ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3% et ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4% et ajoute 7% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5% et ajoute 9% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>
-                    </tr>
-                    <tr>
-                      <td>Style</td>
-                      <td>Malus</td>
-                    </tr>
-                    <tr>
-                      <td>DEF</td>
-                      <td>165</td>
-                    </tr>
-                    <tr>
-                      <td>VIT</td>
-                      <td>134</td>
-                    </tr>
-                    <tr>
-                      <td>Special</td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>1 niveau</b> pendant <b>11 secondes</b> et inflige <b>0,7 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>1 niveau</b> pendant <b>12 secondes</b> et inflige <b>0,8 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>1 niveau</b> pendant <b>13 secondes</b> et inflige <b>0,9 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>2 niveaux</b> pendant <b>14 secondes</b> et inflige <b>1 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>2 niveaux</b> pendant <b>15 secondes</b> et inflige <b>1,1 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>3 niveaux</b> pendant <b>16 secondes</b> et inflige <b>1,2 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>3 niveaux</b> pendant <b>17 secondes</b> et inflige <b>1,3 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>3 niveaux</b> pendant <b>18 secondes</b> et inflige <b>1,4 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>4 niveaux</b> pendant <b>19 secondes</b> et inflige <b>1,5 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Réduit l'ATK de tous les ennemis de <b>5 niveaux</b> pendant <b>20 secondes</b> et inflige <b>1,7 fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
-                    </tr>
-                    <tr>
-                      <td>Capacité</td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#4C4CFF">QCK</font></b> de <b>1 niveau</b> et augmente les chances des alliés de type <b><font color="#4C4CFF">QCK</font></b> d'effectuer une attaque critique de <b>1 niveau</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#4C4CFF">QCK</font></b> de <b>2 niveaux</b> et augmente les chances des alliés de type <b><font color="#4C4CFF">QCK</font></b> d'effectuer une attaque critique de <b>2 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#4C4CFF">QCK</font></b> de <b>3 niveaux</b> et augmente les chances des alliés de type <b><font color="#4C4CFF">QCK</font></b> d'effectuer une attaque critique de <b>3 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#4C4CFF">QCK</font></b> de <b>4 niveaux</b> et augmente les chances des alliés de type <b><font color="#4C4CFF">QCK</font></b> d'effectuer une attaque critique de <b>4 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#4C4CFF">QCK</font></b> de <b>5 niveaux</b> et augmente les chances des alliés de type <b><font color="#4C4CFF">QCK</font></b> d'effectuer une attaque critique de <b>5 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td>Actions principales</td>
-                      <td>ATK normale → Soigne les alliés environnants au niveau 2 (moyenne portée) → ATK normale → Soigne les alliés environnants au niveau 2 (courte portée)</td>
-                    </tr>
-                    <tr>
-                      <td>Cible des actions</td>
-                      <td>Vise les ennemis proches.</td>
-                    </tr>
-                    <tr>
-                      <td>Résistance</td>
-                      <td>60% de chances d'éviter "Lien des actions".</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0117.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0090.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0094.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0096.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0101.png" height="8%" width="8%"></center></td>
-                    </tr>
-            </tbody>
-          </table>
+<body>
+
+  <body id="Ace">
+    <h1>
+      <center><u>Zorojuro</u></center>
+    </h1>
+    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/NSorPzzqn5A?rel=0&amp;showinfo=0"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
+        src="https://www.youtube.com/embed/SSftkNqh5-I?rel=0&amp;showinfo=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+    <h2>
+      <center><u>Fiche</u></center>
+    </h2>
+    <center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3224.png"> <img
+        src="https://onepiece-treasurecruise.com/wp-content/uploads/f3225.png"></center>
+    <table>
+      <table width="85%" align="center">
+        <caption><img src="https://i.imgur.com/j655p3B.png"><img src="https://i.imgur.com/NCbZicM.png"></caption>
+        <tbody>
+          <tr>
+            <td>Nom</td>
+            <td><b><small>Vagabond démoniaque</small><br>Zorojuro<b></td>
+          </tr>
+          <tr>
+            <td>Histoire</td>
+            <td>Sabreur à trois lames de l'équipage de Chapeau de paille. Alors qu'il combattait Kamazo qui pourchassait
+              Hiyori et Toko, il réussit à le vaincre en utilisant une faucille et alors qu'il avait été prit en traître
+              par Gyukimaru.</td>
+          </tr>
+          <tr>
+            <td>Type</td>
+            <td><b>
+                <p>
+                  <font color="#1CAC24">DEX</font>
+                </p><b></td>
+          </tr>
+          <tr>
+            <td>Classe 1</td>
+            <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
+          </tr>
+          <tr>
+            <td>Classe 2</td>
+            <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;" /> Ambitieux</td>
+          </tr>
+          <tr>
+            <td>Coût</td>
+            <td>55</td>
+          </tr>
+          <tr>
+            <td>Combo</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Emplacements de pouvoirs</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Statistiques</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>HP</td>
+            <td>3780 puis 4280 après le dépassement de limites puis 4780 après l'extension du dépassement de limites
+            </td>
+          </tr>
+          <tr>
+            <td>ATK</td>
+            <td>1644 puis 1844 après le dépassement de limites puis 2044 après l'extension du dépassement de limites
+            </td>
+          </tr>
+          <tr>
+            <td>RCV</td>
+            <td>222 puis 322 après le dépassement de limites puis 372 après l'extension du dépassement de limites</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Abilités</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Captain Ability</td>
+            <td>Multiplie l'ATK des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 4,5, multiplie l'ATK des personnages de type <b>
+                <font color="#DC241C">STR</font>
+              </b>, <b>
+                <font color="#4C4CFF">QCK</font>
+              </b>, <b>
+                <font color="#ECAC04">PSY</font>
+              </b> et <b>
+                <font color="#A916B6">INT</font>
+              </b> par 4, multiplie les HP de tous les personnages par 1,5, réduit la durée de "Lien des coups spéciaux"
+              de 10 tours et si le total des dégâts infligés par les ennemis est supérieur à 20 000, multiplie l'ATK des
+              personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 5 et enlève 20% des HP de chaque ennemi au début de chaque stage.</td>
+          </tr>
+          <tr>
+            <td>Special (20→15 puis 14 puis 13)</td>
+            <td>Réduit le temps de chargement des coups spéciaux de tous les personnages de 2 tours, annule les effets
+              défensifs dont bénéficient les ennemis contre les ATK normales du personnage pendant un tour, inflige 100
+              fois son ATK en dégâts non élémentaires sur tous les ennemis en ignorant les effets défensifs et multiplie
+              les effets des cercles des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> selon le total des dégâts infligés par les ennemis avant l'activation du coup spécial pendant un
+              tour.<br>
+              <ul style="display: inline;"><small><b>20 000 points de dégâts ou moins :</b> Par 2,5.</ul><br>
+              <ul style="display: inline;"><b>20 000 points de dégâts ou plus :</b> Par 2,75.</small></ul>
+            </td>.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Super type</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Condition d'activation</td>
+            <td>Lorsque l'équipe comprend un des personnages suivants (personnages de soutien exclus) :<br>
+              <ul style="display: inline;">Hiyori Kozuki (Komurasaki)</ul><br>
+              <ul style="display: inline;">O-Toko</ul><br>
+              <ul style="display: inline;">Monkey D. Luffy</ul><br>
+              <ul style="display: inline;">Nami</ul><br>
+              <ul style="display: inline;">Usopp</ul><br>
+              <ul style="display: inline;">Sanji Vinsmoke</ul><br>
+              <ul style="display: inline;">Tony-Tony Chopper</ul><br>
+              <ul style="display: inline;">Nico Robin</ul><br>
+              <ul style="display: inline;">Franky</ul><br>
+              <ul style="display: inline;">Brook</ul>
+          </tr>
+          <tr>
+            <td>Special</td>
+            <td>Inflige 75 fois son ATK en dégâts non élémentaires sur tous les ennemis, multiplie les effets de type
+              des ATK normales des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 2 pendant un tour et renforce les personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> en les transformant en personnages de <b>
+                <font color="#1CAC24">super type DEX</font>
+              </b>.<br>
+              <small>Multiplie les effets de type des ATK normales des personnages de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> par 2,5 contre les ennemis de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> et par 0,75 contre les ennemis de type <b>
+                  <font color="#DC241C">STR</font>
+                </b>.</small>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Dépassement de limites</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Crewmate Ability 1</td>
+            <td>Rend les cercles <b>
+                <font color="#1CAC24">[DEX]</font>
+              </b> avantageux pour tous les personnages.</td>
+          </tr>
+          <tr>
+            <td>Crewmate Ability 2</td>
+            <td>Immunise le personnage contre l'inversion de son coup spécial.</td>
+          </tr>
+          <tr>
+            <td>Potential Ability 1</td>
+            <td>Réduit le temps de chargement de son coup spécial de 1 tour au début de la quête.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit le temps de chargement de son coup spécial de 2 tours au début de la quête.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit le temps de chargement de son coup spécial de 3 tours au début de la quête.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit le temps de chargement de son coup spécial de 4 tours au début de la quête.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit le temps de chargement de son coup spécial de 5 tours au début de la quête.</td>
+          </tr>
+          <tr>
+            <td>Potential Ability 2</td>
+            <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+              augmentés de 1 tour.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+              augmentés de 1 tour.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+              augmentés de 2 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+              augmentés de 2 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+              augmentés de 3 tours.</td>
+          </tr>
+          <tr>
+            <td>Potential Ability 3</td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 10 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Annule le “Lien des cercles” du personnage.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Effets de soutien</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Personnages soutenus :<br>
+              <ul style="display: inline;">Personnages de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b></ul>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Multiplie les effets des cercles des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 1,5 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage
+              d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Multiplie les effets des cercles des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 1,55 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage
+              d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Multiplie les effets des cercles des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 1,6 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage
+              d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Multiplie les effets des cercles des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 1,65 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage
+              d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Multiplie les effets des cercles des personnages de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> par 1,75 pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage
+              d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Statistiques de la fête des pirates</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Style</td>
+            <td>ATK</td>
+          </tr>
+          <tr>
+            <td>DEF</td>
+            <td>190</td>
+          </tr>
+          <tr>
+            <td>VIT</td>
+            <td>167</td>
+          </tr>
+          <tr>
+            <td>Special</td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins,
+              inflige <b>1 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,1 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,1 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,2 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,2 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,3 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,3 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,4 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,4 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,5 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,5 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,6 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,6 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,7 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,7 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>1,8 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou
+              moins, inflige <b>1,8 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige 1 fois son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 50 secondes ou moins,
+              inflige <b>2 fois</b> son ATK aux ennemis à longue portée (frontal). Lorsqu'il reste 30 secondes ou moins,
+              inflige <b>2 fois</b> son ATK aux ennemis à longue portée (frontal) (CT : 28).</td>
+          </tr>
+          <tr>
+            <td>Capacité</td>
+            <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du
+              personnage de <b>1 niveau</b>, augmente l'ATK des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de <b>1 niveau</b> et augmente la vitesse des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 3 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du
+              personnage de <b>2 niveaux</b>, augmente l'ATK des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de <b>2 niveaux</b> et augmente la vitesse des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 3 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du
+              personnage de <b>3 niveaux</b>, augmente l'ATK des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de <b>3 niveaux</b> et augmente la vitesse des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 3 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du
+              personnage de <b>4 niveaux</b>, augmente l'ATK des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de <b>4 niveaux</b> et augmente la vitesse des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 3 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente la vitesse de chargement du coup spécial du personnage de 3 niveaux, augmente l'ATK du
+              personnage de <b>5 niveaux</b>, augmente l'ATK des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de <b>5 niveaux</b> et augmente la vitesse des alliés de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 3 niveaux.</td>
+          </tr>
+          <tr>
+            <td>Actions principales</td>
+            <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
+          </tr>
+          <tr>
+            <td>Cible des actions</td>
+            <td>Vise les ennemis proches.</td>
+          </tr>
+          <tr>
+            <td>Résistance</td>
+            <td>Permet d'éviter "Lien des coups spéciaux" et réduit les dégâts subis par les ennemis de type <b>
+                <font color="#4C4CFF">QCK</font>
+              </b> de 30%.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Évolueurs requis</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%"
+                  width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png"
+                  height="8%" width="8%"> <img
+                  src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1180.png" height="8%"
+                  width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png"
+                  height="8%" width="8%"> <img
+                  src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%"
+                  width="8%"></center>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>
+        <center><u>Personnages du lot</u></center>
+      </h2>
+      <h3>
+        <center><u>Fiche de Kaido</u></center>
+      </h3>
+      <center><a href="Kaido 2.html" target="_blank"><img
+            src="https://onepiece-treasurecruise.com/wp-content/uploads/f3227.png"></a></center>
+      <div id="1"></div>
+      <h3>
+        <center><u>Fiche de Kamazo</u></center>
+      </h3>
+      <center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3228.png"> <img
+          src="https://onepiece-treasurecruise.com/wp-content/uploads/f3229.png"></center>
+      <table>
+        <table width="85%" align="center">
+          <caption><img src="https://i.imgur.com/7Zi066y.png"><img src="https://i.imgur.com/5C9dGi3.png"></caption>
+          <tbody>
+            <tr>
+              <td>Nom</td>
+              <td><b><small>Assassin d'Orochi</small><br>Kamazo le tueur à la faucille<b></td>
+            </tr>
+            <tr>
+              <td>Histoire</td>
+              <td>Assassin de la capitale des fleurs. Afin de tuer Toko, il affronta Zoro qui fait barrage et il
+                l'attaque avec ses deux faucilles, réussissant même à le blesser lorsque son adversaire a été
+                déconcentré.</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td><b>
+                  <p>
+                    <font color="#4C4CFF">QCK</font>
+                  </p><b></td>
+            </tr>
+            <tr>
+              <td>Classe 1</td>
+              <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;" /> Ambitieux</td>
+            </tr>
+            <tr>
+              <td>Classe 2</td>
+              <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
+            </tr>
+            <tr>
+              <td>Coût</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td>Combo</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Emplacements de pouvoirs</td>
+              <td>4 puis 5 après le dépassement de limites</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Statistiques</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>HP</td>
+              <td>2888 puis 3088 après le dépassement de limites</td>
+            </tr>
+            <tr>
+              <td>ATK</td>
+              <td>1421 puis 1521 après le dépassement de limites</td>
+            </tr>
+            <tr>
+              <td>RCV</td>
+              <td>245 puis 295 après le dépassement de limites</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Abilités</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>Captain Ability</td>
+              <td>Multiplie l'ATK des personnages de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> par 3 et les HP par 1,2.</td>
+            </tr>
+            <tr>
+              <td>Special (20→14 puis 13)</td>
+              <td>Enlève 20% des HP d'un ennemi en ignorant les effets défensifs, réduit la durée de "Brûlure" de 4
+                tours, réduit la durée des augmentations de défense dont bénéficient les ennemis de 4 tours et bloque le
+                multiplicateur de combos à 3 pendant un tour.</td>
+            </tr>
+            <tr>
+              <td>Crewmate Ability 1</td>
+              <td>Ajoute 50 en ATK pour les personnages de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b>.</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Dépassement de limites</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>Crewmate Ability 2</td>
+              <td>Multiplie l'ATK du personnage contre les ennemis de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> par 2.</td>
+            </tr>
+            <tr>
+              <td>Potential Ability 1</td>
+              <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 3% l'ATK du personnage
+                en dégâts additionnels.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage
+                en dégâts additionnels.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage
+                en dégâts additionnels.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 5% l'ATK du personnage
+                en dégâts additionnels.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage
+                en dégâts additionnels.</td>
+            </tr>
+            <tr>
+              <td>Potential Ability 2</td>
+              <td>Ajoute 50 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+                augmentés de 1 tour.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+                augmentés de 1 tour.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+                augmentés de 1 tour.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 125 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+                augmentés de 1 tour.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 150 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+                augmentés de 2 tours.</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Effets de soutien</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Personnages soutenus :<br>
+                <ul style="display: inline;">Personnages de type <b>
+                    <font color="#4C4CFF">QCK</font>
+                  </b></ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis par les ennemis de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> de 1% et ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis par les ennemis de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> de 2% et ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis par les ennemis de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> de 3% et ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis par les ennemis de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> de 4% et ajoute 7% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis par les ennemis de type <b>
+                  <font color="#1CAC24">DEX</font>
+                </b> de 5% et ajoute 9% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Statistiques de la fête des pirates</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>Style</td>
+              <td>Malus</td>
+            </tr>
+            <tr>
+              <td>DEF</td>
+              <td>165</td>
+            </tr>
+            <tr>
+              <td>VIT</td>
+              <td>134</td>
+            </tr>
+            <tr>
+              <td>Special</td>
+              <td>Réduit l'ATK de tous les ennemis de <b>1 niveau</b> pendant <b>11 secondes</b> et inflige <b>0,7
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>1 niveau</b> pendant <b>12 secondes</b> et inflige <b>0,8
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>1 niveau</b> pendant <b>13 secondes</b> et inflige <b>0,9
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>2 niveaux</b> pendant <b>14 secondes</b> et inflige <b>1
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>2 niveaux</b> pendant <b>15 secondes</b> et inflige <b>1,1
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>3 niveaux</b> pendant <b>16 secondes</b> et inflige <b>1,2
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>3 niveaux</b> pendant <b>17 secondes</b> et inflige <b>1,3
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>3 niveaux</b> pendant <b>18 secondes</b> et inflige <b>1,4
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>4 niveaux</b> pendant <b>19 secondes</b> et inflige <b>1,5
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit l'ATK de tous les ennemis de <b>5 niveaux</b> pendant <b>20 secondes</b> et inflige <b>1,7
+                  fois</b> son ATK aux ennemis à moyenne portée (CT : 28).</td>
+            </tr>
+            <tr>
+              <td>Capacité</td>
+              <td>Augmente l'ATK des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> de <b>1 niveau</b> et augmente les chances des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> d'effectuer une attaque critique de <b>1 niveau</b>.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Augmente l'ATK des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> de <b>2 niveaux</b> et augmente les chances des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> d'effectuer une attaque critique de <b>2 niveaux</b>.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Augmente l'ATK des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> de <b>3 niveaux</b> et augmente les chances des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> d'effectuer une attaque critique de <b>3 niveaux</b>.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Augmente l'ATK des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> de <b>4 niveaux</b> et augmente les chances des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> d'effectuer une attaque critique de <b>4 niveaux</b>.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Augmente l'ATK des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> de <b>5 niveaux</b> et augmente les chances des alliés de type <b>
+                  <font color="#4C4CFF">QCK</font>
+                </b> d'effectuer une attaque critique de <b>5 niveaux</b>.</td>
+            </tr>
+            <tr>
+              <td>Actions principales</td>
+              <td>ATK normale → Soigne les alliés environnants au niveau 2 (moyenne portée) → ATK normale → Soigne les
+                alliés environnants au niveau 2 (courte portée)</td>
+            </tr>
+            <tr>
+              <td>Cible des actions</td>
+              <td>Vise les ennemis proches.</td>
+            </tr>
+            <tr>
+              <td>Résistance</td>
+              <td>60% de chances d'éviter "Lien des actions".</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Évolueurs requis</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0117.png"
+                    height="8%" width="8%"> <img
+                    src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0090.png" height="8%"
+                    width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0094.png"
+                    height="8%" width="8%"> <img
+                    src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0096.png" height="8%"
+                    width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0101.png"
+                    height="8%" width="8%"></center>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <div id="2"></div>
-        <h3><center><u>Fiche de Gyukimaru</u></center></h3>
-        <center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3230.png"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3231.png"></center>
+        <h3>
+          <center><u>Fiche de Gyukimaru</u></center>
+        </h3>
+        <center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/f3230.png"> <img
+            src="https://onepiece-treasurecruise.com/wp-content/uploads/f3231.png"></center>
         <table>
           <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/DtqW6hr.png" height="50%" width="50%"><img src="https://i.imgur.com/9d27LaA.png" height="50%" width="50%"></caption>
+            <caption><img src="https://i.imgur.com/DtqW6hr.png"><img src="https://i.imgur.com/9d27LaA.png"></caption>
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -775,19 +1037,24 @@ position: absolute;
               </tr>
               <tr>
                 <td>Histoire</td>
-                <td>Moine soldat et bandit. Sa véritable identité est "Onimaru", compagnon du daimyo de Ringo "Shimotsuki Ushimaru", et pendant 5 ans après la mort de son maître, il a protégé les tombes des pilleurs de tombes.</td>
+                <td>Moine soldat et bandit. Sa véritable identité est "Onimaru", compagnon du daimyo de Ringo
+                  "Shimotsuki Ushimaru", et pendant 5 ans après la mort de son maître, il a protégé les tombes des
+                  pilleurs de tombes.</td>
               </tr>
               <tr>
                 <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+                <td><b>
+                    <p>
+                      <font color="#1CAC24">DEX</font>
+                    </p><b></td>
               </tr>
               <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
               </tr>
               <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;" /> Ravageur</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -802,7 +1069,9 @@ position: absolute;
                 <td>4 puis 5 après le dépassement de limites</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
+                <td colspan="2">
+                  <center><b>Statistiques</b></center>
+                </td>
               </tr>
               <tr>
                 <td>HP</td>
@@ -817,30 +1086,41 @@ position: absolute;
                 <td>250 puis 300 après le dépassement de limites</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
+                <td colspan="2">
+                  <center><b>Abilités</b></center>
+                </td>
               </tr>
               <tr>
                 <td>Captain Ability</td>
-                <td>Multiplie l'ATK des personnages de type <b><font color="#1CAC24">DEX</font></b> par 3 et réduit les dégâts subis de 10%.</td>
+                <td>Multiplie l'ATK des personnages de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> par 3 et réduit les dégâts subis de 10%.</td>
               </tr>
               <tr>
                 <td>Special (17→11 puis 10)</td>
-                <td>Change les cercles de tous les personnages en cercle identique au personnage, réduit la durée de "Désespoir du capitaine", de "Paralysie" et des réductions d'ATK de 3 tours et réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 5 tours.</td>
+                <td>Change les cercles de tous les personnages en cercle identique au personnage, réduit la durée de
+                  "Désespoir du capitaine", de "Paralysie" et des réductions d'ATK de 3 tours et réduit la durée des
+                  réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 5 tours.</td>
               </tr>
               <tr>
                 <td>Crewmate Ability 1</td>
-                <td>Si le personnage a un cercle <b style='color:#1CAC24'>[DEX]</b> et qu'il fait un coup “PARFAIT”, garde son cercle <b style='color:#1CAC24'>[DEX]</b> pour le tour suivant.</td>
+                <td>Si le personnage a un cercle <b style='color:#1CAC24'>[DEX]</b> et qu'il fait un coup “PARFAIT”,
+                  garde son cercle <b style='color:#1CAC24'>[DEX]</b> pour le tour suivant.</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Dépassement de limites</b></center></td>
+                <td colspan="2">
+                  <center><b>Dépassement de limites</b></center>
+                </td>
               </tr>
               <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Ajoute 50 en ATK pour les personnages de type <b><font color="#1CAC24">DEX</font></b>.</td>
+                <td>Ajoute 50 en ATK pour les personnages de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b>.</td>
               </tr>
               <tr>
-                        <td>Potential Ability 1</td>
-                        <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
+                <td>Potential Ability 1</td>
+                <td>Réduit la durée de “Lien des cercles” du personnage de 1 tour.</td>
               </tr>
               <tr>
                 <td></td>
@@ -860,169 +1140,241 @@ position: absolute;
               </tr>
               <tr>
                 <td>Potential Ability 2</td>
-                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage en dégâts additionnels.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage en dégâts additionnels.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage en dégâts additionnels.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage en dégâts additionnels.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage en dégâts additionnels.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Personnages de type <b><font color="#1CAC24">DEX</font></b></ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 1% et ajoute 4% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 2% et ajoute 5% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 3% et ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 4% et ajoute 10% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Réduit les dégâts subis par les ennemis de type <b><font color="#4C4CFF">QCK</font></b> de 5% et ajoute 13% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>
-                    </tr>
-                    <tr>
-                      <td>Style</td>
-                      <td>ATK</td>
-                    </tr>
-                    <tr>
-                      <td>DEF</td>
-                      <td>114</td>
-                    </tr>
-                    <tr>
-                      <td>VIT</td>
-                      <td>161</td>
-                    </tr>
-                    <tr>
-                      <td>Special</td>
-                      <td>Inflige <b>1 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>6 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,1 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>7 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,2 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>8 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,3 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>9 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,4 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>10 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,5 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>11 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,6 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>12 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,7 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>13 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>1,8 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>14 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>2 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b><font color="#1CAC24">DEX</font></b> de 2 niveaux pendant <b>15 secondes</b> (CT : 35).</td>
-                    </tr>
-                    <tr>
-                      <td>Capacité</td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>1 niveau</b> et augmente les chances des alliés de type <b><font color="#1CAC24">DEX</font></b> d'effectuer une attaque critique de <b>1 niveau</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>2 niveaux</b> et augmente les chances des alliés de type <b><font color="#1CAC24">DEX</font></b> d'effectuer une attaque critique de <b>2 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>3 niveaux</b> et augmente les chances des alliés de type <b><font color="#1CAC24">DEX</font></b> d'effectuer une attaque critique de <b>3 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>4 niveaux</b> et augmente les chances des alliés de type <b><font color="#1CAC24">DEX</font></b> d'effectuer une attaque critique de <b>4 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente l'ATK des alliés de type <b><font color="#1CAC24">DEX</font></b> de <b>5 niveaux</b> et augmente les chances des alliés de type <b><font color="#1CAC24">DEX</font></b> d'effectuer une attaque critique de <b>5 niveaux</b>.</td>
-                    </tr>
-                    <tr>
-                      <td>Actions principales</td>
-                      <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
-                    </tr>
-                    <tr>
-                      <td>Cible des actions</td>
-                      <td>Vise les ennemis proches.</td>
-                    </tr>
-                    <tr>
-                      <td>Résistance</td>
-                      <td>80% de chances d'éviter "Paralysie".</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0083.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/0266.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0097.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png" height="8%" width="8%"></center></td>
-                    </tr>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 4% l'ATK du personnage
+                  en dégâts additionnels.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 5% l'ATK du personnage
+                  en dégâts additionnels.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 60% de chances de faire 6% l'ATK du personnage
+                  en dégâts additionnels.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 70% de chances de faire 7% l'ATK du personnage
+                  en dégâts additionnels.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Si un coup "PARFAIT" est effectué avec ce personnage, 80% de chances de faire 8% l'ATK du personnage
+                  en dégâts additionnels.</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <center><b>Effets de soutien</b></center>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Personnages soutenus :<br>
+                  <ul style="display: inline;">Personnages de type <b>
+                      <font color="#1CAC24">DEX</font>
+                    </b></ul>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b>
+                    <font color="#4C4CFF">QCK</font>
+                  </b> de 1% et ajoute 4% des HP du personnage en HP pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b>
+                    <font color="#4C4CFF">QCK</font>
+                  </b> de 2% et ajoute 5% des HP du personnage en HP pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b>
+                    <font color="#4C4CFF">QCK</font>
+                  </b> de 3% et ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b>
+                    <font color="#4C4CFF">QCK</font>
+                  </b> de 4% et ajoute 10% des HP du personnage en HP pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Réduit les dégâts subis par les ennemis de type <b>
+                    <font color="#4C4CFF">QCK</font>
+                  </b> de 5% et ajoute 13% des HP du personnage en HP pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <center><b>Statistiques de la fête des pirates</b></center>
+                </td>
+              </tr>
+              <tr>
+                <td>Style</td>
+                <td>ATK</td>
+              </tr>
+              <tr>
+                <td>DEF</td>
+                <td>114</td>
+              </tr>
+              <tr>
+                <td>VIT</td>
+                <td>161</td>
+              </tr>
+              <tr>
+                <td>Special</td>
+                <td>Inflige <b>1 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>6 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,1 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>7 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,2 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>8 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,3 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>9 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,4 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>10 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,5 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>11 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,6 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>12 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,7 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>13 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>1,8 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>14 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Inflige <b>2 fois</b> son ATK à 3 ennemis et augmente la défense des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de 2 niveaux pendant <b>15 secondes</b> (CT : 35).</td>
+              </tr>
+              <tr>
+                <td>Capacité</td>
+                <td>Augmente l'ATK des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de <b>1 niveau</b> et augmente les chances des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> d'effectuer une attaque critique de <b>1 niveau</b>.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Augmente l'ATK des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de <b>2 niveaux</b> et augmente les chances des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> d'effectuer une attaque critique de <b>2 niveaux</b>.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Augmente l'ATK des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de <b>3 niveaux</b> et augmente les chances des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> d'effectuer une attaque critique de <b>3 niveaux</b>.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Augmente l'ATK des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de <b>4 niveaux</b> et augmente les chances des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> d'effectuer une attaque critique de <b>4 niveaux</b>.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Augmente l'ATK des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> de <b>5 niveaux</b> et augmente les chances des alliés de type <b>
+                    <font color="#1CAC24">DEX</font>
+                  </b> d'effectuer une attaque critique de <b>5 niveaux</b>.</td>
+              </tr>
+              <tr>
+                <td>Actions principales</td>
+                <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
+              </tr>
+              <tr>
+                <td>Cible des actions</td>
+                <td>Vise les ennemis proches.</td>
+              </tr>
+              <tr>
+                <td>Résistance</td>
+                <td>80% de chances d'éviter "Paralysie".</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <center><b>Évolueurs requis</b></center>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0083.png"
+                      height="8%" width="8%"> <img
+                      src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/0266.png" height="8%"
+                      width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0097.png"
+                      height="8%" width="8%"> <img
+                      src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%"
+                      width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0102.png"
+                      height="8%" width="8%"></center>
+                </td>
+              </tr>
             </tbody>
           </table>
-        <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="Accueil/js/mdb.js"></script>
-        <div id="scrollUp">
-            <a href="#top"><img src="img/to_top.png" height="60%" width="60%"/></a>
-        </div>
-        <div class="baspage">
-          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-        </div>
-        <style>
-          .baspage
-          {
-            position: relative;
-            bottom: -1vw;
-            max-width: 100%;
-            width: 100%;
-          }
-        </style>
-    </body>
+          <script type="text/javascript" src="Accueil/js/jquery-3.3.1.min.js"></script>
+          <script type="text/javascript" src="Accueil/js/popper.min.js"></script>
+          <script type="text/javascript" src="Accueil/js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="Accueil/js/mdb.js"></script>
+          <div id="scrollUp">
+            <a href="#top"><img src="img/to_top.png" height="60%" width="60%" /></a>
+          </div>
+          <div class="baspage">
+            <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+          </div>
+          <style>
+            .baspage {
+              position: relative;
+              bottom: -1vw;
+              max-width: 100%;
+              width: 100%;
+            }
+          </style>
+  </body>
+
 </html>
 
 <table class="detail b">
-<tbody>
+  <tbody>

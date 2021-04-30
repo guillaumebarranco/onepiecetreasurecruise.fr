@@ -1,97 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-127847674-1');
-        </script>
-        <meta charset="utf-8" />
-        <title>Festival des pirates ! Célébration</title>
-        <link href="../bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="special.css" />
-        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script>
-            jQuery(function(){
-                $(function () {
-                    $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) {
-                            $('#scrollUp').css('right');
-                        } else {
-                            $('#scrollUp').removeAttr( 'style' );
-                        }
-                    });
-                });
-            });
-        </script>
-    </head>
 
-    <div class="entete">
-      <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-    </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-127847674-1');
+  </script>
+  <meta charset="utf-8" />
+  <title>Festival des pirates ! Célébration</title>
+  <link href="../bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="special.css" />
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script>
+    jQuery(function () {
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $('#scrollUp').css('right');
+          } else {
+            $('#scrollUp').removeAttr('style');
+          }
+        });
+      });
+    });
+  </script>
+</head>
+
+<div class="entete">
+  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
+  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
+</div>
 <style>
-.topnavbar
-{
-top: -1.5vw;
-left: 0;
-max-width: 100%;
-width: 100%;
-position: absolute;
-}
+  .entetetop {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .entetefond {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    width: 40vw;
+    top: 0;
+    left: 30%;
+    position: relative;
+  }
+
+  .newsboard {
+    top: 0;
+    right: 1vw;
+    max-width: 25%;
+    width: 25%;
+    position: absolute;
+  }
 </style>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+  <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+  <style>
+    .topnavbar {
+      top: -1.5vw;
+      left: 0;
+      max-width: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
   <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,19 +102,22 @@ position: absolute;
         <a class="nav-link" href="../Legendes.html">Personnages Sugo-Rare</a>
       </li>
       <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Guides
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Guides
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="../Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Coulisses.html">Comment les guides sont-ils rédigés
+            ?</a>
           <a class="dropdown-item waves-effect waves-light" href="../Raids.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../Attaque ennemie.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../Fortnight.html">Quêtes permanentes</a>
           <a class="dropdown-item active waves-effect waves-light" href="../Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../Mode Aventure.html">Histoire principale</a>
           <a class="dropdown-item waves-effect waves-light" href="../Forets.html">Forêts d'entraînement</a>
           <a class="dropdown-item waves-effect waves-light" href="../Defi de Garp.html">Défi de Garp</a>
@@ -141,13 +143,19 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item waves-effect waves-light" href="../Debutant/Bien debuter.html">Bien débuter</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Souhaits de Chopper Man.html">Souhaits de
+            Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Taux des legendes.html">Taux des
+            personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
           <a class="dropdown-item waves-effect waves-light" href="../Bateau/">Liste des bateaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Fete des pirates.html">Personnages par style sur la fête des pirates</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Soutien.html">Effets de soutien
+            spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Fete des pirates.html">Personnages par style sur la
+            fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Ile des collectionneurs.html">Île des
+            collectionneurs</a>
           <a class="dropdown-item waves-effect waves-light" href="../Debutant/Tier List.html">Tier Lists</a>
         </div>
       </li>
@@ -156,18 +164,21 @@ position: absolute;
           aria-expanded="false">Progressions
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="../RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
-          <a class="dropdown-item" href="../RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="../RR.html">Liste à cocher des personnages du recrutement rare (version
+            normale)</a>
+          <a class="dropdown-item" href="../RRBatch.html">Liste à cocher des personnages du recrutement rare (version
+            par lot)</a>
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
-<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
+          <a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
           <a class="dropdown-item" href="../AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-<a class="dropdown-item" href="../AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
-          <a class="dropdown-item" href="../AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="../AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
+          <a class="dropdown-item" href="../AvanceeCombatAmitie.html">Avancée des personnages des combats de
+            l'amitié</a>
         </div>
       </li>
       <li class="nav-item">
@@ -200,14 +211,21 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../Remerciements.html">Remerciements</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+            target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+            target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+            target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+            target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de
+            Scaragnark</a>
           <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+            target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+            target="_blank">Chaîne de B-Bro</a>
         </div>
       </li>
       <li class="nav-item">
@@ -220,249 +238,305 @@ position: absolute;
           <div id="searchbar">
             <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
             <input type="hidden" name="ie" value="UTF-8">
-            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher"
+              style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
           </div>
-          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden"
+            value=""><input name="ss" type="hidden" value="">
         </form>
       </li>
     </ul>
   </div>
 </nav>
 
-    <header><a href="../Special.html"><img src="../img/logo.png" alt="logo"></img></a></header>
+<header><a href="../Special.html"><img src="../img/logo.png" alt="logo"></img></a></header>
 
-    <body>
-        <body id="SaboPSY">
-    	<h1><center><u>Festival des pirates ! Célébration</u></center></h1>
-        <h2><center><u>Fiche de Monkey D. Luffy</u></center></h2>
-        <center><img src="https://i.imgur.com/qX0107R.png"></center>
-        <table>
-        	<table width="85%" align="center">
-        	<caption><img src="https://i.imgur.com/kde8g6I.png" height="50%" width="50%"></caption>
-        		<tbody>
-        			<tr>
-        				<td>Nom</td>
-        				<td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Monkey D. Luffy<b></td>
-        			</tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Capitaine de l'équipage de Chapeau de paille en route vers le festival des pirates. Depuis qu'il sait qu'une chasse au trésor en lien avec le roi des pirates va y être organisée, il n'a plus qu'une idée en tête : arriver dès que possible au festival.</td>
-              </tr>
-        			<tr>
-        				<td>Type</td>
-        				<td><b><p><font color="#ECAC04">PSY</font></p><b></td>
-        			</tr>
-        			<tr>
-        				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
-        			</tr>
-        			<tr>
-        				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
-        			</tr>
-        			<tr>
-        				<td>Coût</td>
-        				<td>1</td>
-        			</tr>
-        			<tr>
-        				<td>Combo</td>
-        				<td>4</td>
-        			</tr>
-        			<tr>
-        				<td>Emplacements de pouvoirs</td>
-        				<td>4</td>
-        			</tr>
-        			<tr>
-        				<td colspan="2"><center><b>Statistiques</b></center></td>
-        			</tr>
-        			<tr>
-        				<td>HP</td>
-        				<td>2316</td>
-        			</tr>
-        			<tr>
-        				<td>ATK</td>
-        				<td>1356</td>
-        			</tr>
-        			<tr>
-        				<td>RCV</td>
-        				<td>112</td>
-        			</tr>
-        			<tr>
-        				<td colspan="2"><center><b>Abilités</b></center></td>
-        			</tr>
-        			<tr>
-        				<td>Captain Ability</td>
-        				<td>Multiplie l'ATK de tous les personnages par 2,25 et l'EXP et les berrys gagnés par 1,2. Si le coup spécial "Coup estival" est utilisé, multiplie l'ATK de tous les personnages par 2,5 pendant un tour.</td>
-        			</tr>
-        			<tr>
-        				<td>Special (18→12)</td>
-        				<td>Inflige 30 fois son ATK en dégâts de type <b><font color="#ECAC04">PSY</font></b> sur un ennemi et multiplie l'ATK des personnages de classe Libre par 1,75 pendant un tour.</td>
-        			</tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Roronoa Zoro</ul><br>
-                            <ul style="display: inline;">Nami</ul><br>
-                            <ul style="display: inline;">Usopp</ul><br>
-                            <ul style="display: inline;">Sanji</ul><br>
-                            <ul style="display: inline;">Tony-Tony Chopper</ul><br>
-                            <ul style="display: inline;">Nico Robin</ul><br>
-                            <ul style="display: inline;">Franky</ul><br>
-                            <ul style="display: inline;">Brook</ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-                    </tr>
-        		</tbody>
-        	</table>
-        <h2><center><u>Fiche de Roronoa Zoro</u></center></h2>
-        <center><img src="https://i.imgur.com/4YkimMg.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/5wxrcWd.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Roronoa Zoro<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Sabreur de l'équipage de Chapeau de paille en route vers le festival des pirates. Ayant eu vent des mille et une curiosités proposées par le festival, il se prend à rêver des délicieux alcools qu'il pourra y déguster.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>2448</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>1311</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>105</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Multiplie l'ATK des personnages de classe Sabreur par 2.</td>
-              </tr>
-              <tr>
-                <td>Special (18→12)</td>
-                <td>Rend les cercles <b><font color="#DC241C">[STR]</font></b>, <b><font color="#BC5C0C">[RCV]</font></b> et <b><font color="peru">[TND]</font></b> avantageux pour les personnages de classe Libre pendant 2 tours et multiplie les effets de type des ATK normales des personanges de classe Libre par 1,75 pendant un tour.</td>
-              </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Monkey D. Luffy</ul><br>
-                            <ul style="display: inline;">Nami</ul><br>
-                            <ul style="display: inline;">Usopp</ul><br>
-                            <ul style="display: inline;">Sanji Vinsmoke</ul><br>
-                            <ul style="display: inline;">Tony-Tony Chopper</ul><br>
-                            <ul style="display: inline;">Nico Robin</ul><br>
-                            <ul style="display: inline;">Franky</ul><br>
-                            <ul style="display: inline;">Brook</ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-            </tbody>
-          </table>
-        <h2><center><u>Fiche de Tony-Tony Chopper</u></center></h2>
+<body>
+
+  <body id="SaboPSY">
+    <h1>
+      <center><u>Festival des pirates ! Célébration</u></center>
+    </h1>
+    <h2>
+      <center><u>Fiche de Monkey D. Luffy</u></center>
+    </h2>
+    <center><img src="https://i.imgur.com/qX0107R.png"></center>
+    <table>
+      <table width="85%" align="center">
+        <caption><img src="https://i.imgur.com/kde8g6I.png"></caption>
+        <tbody>
+          <tr>
+            <td>Nom</td>
+            <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Monkey D. Luffy<b>
+            </td>
+          </tr>
+          <tr>
+            <td>Histoire</td>
+            <td>Capitaine de l'équipage de Chapeau de paille en route vers le festival des pirates. Depuis qu'il sait
+              qu'une chasse au trésor en lien avec le roi des pirates va y être organisée, il n'a plus qu'une idée en
+              tête : arriver dès que possible au festival.</td>
+          </tr>
+          <tr>
+            <td>Type</td>
+            <td><b>
+                <p>
+                  <font color="#ECAC04">PSY</font>
+                </p><b></td>
+          </tr>
+          <tr>
+            <td>Classe 1</td>
+            <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
+          </tr>
+          <tr>
+            <td>Classe 2</td>
+            <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;" /> Cogneur</td>
+          </tr>
+          <tr>
+            <td>Coût</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Combo</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Emplacements de pouvoirs</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Statistiques</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>HP</td>
+            <td>2316</td>
+          </tr>
+          <tr>
+            <td>ATK</td>
+            <td>1356</td>
+          </tr>
+          <tr>
+            <td>RCV</td>
+            <td>112</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Abilités</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Captain Ability</td>
+            <td>Multiplie l'ATK de tous les personnages par 2,25 et l'EXP et les berrys gagnés par 1,2. Si le coup
+              spécial "Coup estival" est utilisé, multiplie l'ATK de tous les personnages par 2,5 pendant un tour.</td>
+          </tr>
+          <tr>
+            <td>Special (18→12)</td>
+            <td>Inflige 30 fois son ATK en dégâts de type <b>
+                <font color="#ECAC04">PSY</font>
+              </b> sur un ennemi et multiplie l'ATK des personnages de classe Libre par 1,75 pendant un tour.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Effets de soutien</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Personnages soutenus :<br>
+              <ul style="display: inline;">Roronoa Zoro</ul><br>
+              <ul style="display: inline;">Nami</ul><br>
+              <ul style="display: inline;">Usopp</ul><br>
+              <ul style="display: inline;">Sanji</ul><br>
+              <ul style="display: inline;">Tony-Tony Chopper</ul><br>
+              <ul style="display: inline;">Nico Robin</ul><br>
+              <ul style="display: inline;">Franky</ul><br>
+              <ul style="display: inline;">Brook</ul>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>
+        <center><u>Fiche de Roronoa Zoro</u></center>
+      </h2>
+      <center><img src="https://i.imgur.com/4YkimMg.png"></center>
+      <table>
+        <table width="85%" align="center">
+          <caption><img src="https://i.imgur.com/5wxrcWd.png"></caption>
+          <tbody>
+            <tr>
+              <td>Nom</td>
+              <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Roronoa Zoro<b>
+              </td>
+            </tr>
+            <tr>
+              <td>Histoire</td>
+              <td>Sabreur de l'équipage de Chapeau de paille en route vers le festival des pirates. Ayant eu vent des
+                mille et une curiosités proposées par le festival, il se prend à rêver des délicieux alcools qu'il
+                pourra y déguster.</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td><b>
+                  <p>
+                    <font color="#DC241C">STR</font>
+                  </p><b></td>
+            </tr>
+            <tr>
+              <td>Classe 1</td>
+              <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
+            </tr>
+            <tr>
+              <td>Classe 2</td>
+              <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
+            </tr>
+            <tr>
+              <td>Coût</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Combo</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Emplacements de pouvoirs</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Statistiques</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>HP</td>
+              <td>2448</td>
+            </tr>
+            <tr>
+              <td>ATK</td>
+              <td>1311</td>
+            </tr>
+            <tr>
+              <td>RCV</td>
+              <td>105</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Abilités</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>Captain Ability</td>
+              <td>Multiplie l'ATK des personnages de classe Sabreur par 2.</td>
+            </tr>
+            <tr>
+              <td>Special (18→12)</td>
+              <td>Rend les cercles <b>
+                  <font color="#DC241C">[STR]</font>
+                </b>, <b>
+                  <font color="#BC5C0C">[RCV]</font>
+                </b> et <b>
+                  <font color="peru">[TND]</font>
+                </b> avantageux pour les personnages de classe Libre pendant 2 tours et multiplie les effets de type des
+                ATK normales des personanges de classe Libre par 1,75 pendant un tour.</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Effets de soutien</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Personnages soutenus :<br>
+                <ul style="display: inline;">Monkey D. Luffy</ul><br>
+                <ul style="display: inline;">Nami</ul><br>
+                <ul style="display: inline;">Usopp</ul><br>
+                <ul style="display: inline;">Sanji Vinsmoke</ul><br>
+                <ul style="display: inline;">Tony-Tony Chopper</ul><br>
+                <ul style="display: inline;">Nico Robin</ul><br>
+                <ul style="display: inline;">Franky</ul><br>
+                <ul style="display: inline;">Brook</ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>
+          <center><u>Fiche de Tony-Tony Chopper</u></center>
+        </h2>
         <center><img src="https://i.imgur.com/uXLCQIQ.png"></center>
         <table>
           <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/dMxmdEZ.png" height="50%" width="50%"></caption>
+            <caption><img src="https://i.imgur.com/dMxmdEZ.png"></caption>
             <tbody>
               <tr>
                 <td>Nom</td>
-                <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Tony-Tony Chopper<b></td>
+                <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Tony-Tony
+                    Chopper<b></td>
               </tr>
               <tr>
                 <td>Histoire</td>
-                <td>Médecin de bord de l'équipage de Chapeau de paille en route vers le festival des pirates. Voyant qu'Usopp est pris d'une crise de "je ne peux pas partir à la chasse au trésor", il se résout à prendre soin de son camarade alors même que celui-ci se fait une joie de participer à l'évènement.</td>
+                <td>Médecin de bord de l'équipage de Chapeau de paille en route vers le festival des pirates. Voyant
+                  qu'Usopp est pris d'une crise de "je ne peux pas partir à la chasse au trésor", il se résout à prendre
+                  soin de son camarade alors même que celui-ci se fait une joie de participer à l'évènement.</td>
               </tr>
               <tr>
                 <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>
+                <td><b>
+                    <p>
+                      <font color="#A916B6">INT</font>
+                    </p><b></td>
               </tr>
               <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
               </tr>
               <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;" /> Tenace</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -477,7 +551,9 @@ position: absolute;
                 <td>4</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
+                <td colspan="2">
+                  <center><b>Statistiques</b></center>
+                </td>
               </tr>
               <tr>
                 <td>HP</td>
@@ -492,7 +568,9 @@ position: absolute;
                 <td>301</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
+                <td colspan="2">
+                  <center><b>Abilités</b></center>
+                </td>
               </tr>
               <tr>
                 <td>Captain Ability</td>
@@ -500,406 +578,515 @@ position: absolute;
               </tr>
               <tr>
                 <td>Special (18→12)</td>
-                <td>Restaure 4 000 HP, restaure les HP avec 3 fois sa RCV à la fin de chaque tour pendant 3 tours et réduit la durée de "Lien" de 3 tours.</td>
+                <td>Restaure 4 000 HP, restaure les HP avec 3 fois sa RCV à la fin de chaque tour pendant 3 tours et
+                  réduit la durée de "Lien" de 3 tours.</td>
               </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Monkey D. Luffy</ul><br>
-                            <ul style="display: inline;">Roronoa Zoro</ul><br>
-                            <ul style="display: inline;">Nami</ul><br>
-                            <ul style="display: inline;">Usopp</ul><br>
-                            <ul style="display: inline;">Sanji Vinsmoke</ul><br>
-                            <ul style="display: inline;">Nico Robin</ul><br>
-                            <ul style="display: inline;">Franky</ul><br>
-                            <ul style="display: inline;">Brook</ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% de la RCV du personnage en RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% de la RCV du personnage en RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% de la RCV du personnage en RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% de la RCV du personnage en RCV pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 3% de la RCV du personnage en RCV pour les personnages soutenus.</td>
-                    </tr>
+              <tr>
+                <td colspan="2">
+                  <center><b>Effets de soutien</b></center>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Personnages soutenus :<br>
+                  <ul style="display: inline;">Monkey D. Luffy</ul><br>
+                  <ul style="display: inline;">Roronoa Zoro</ul><br>
+                  <ul style="display: inline;">Nami</ul><br>
+                  <ul style="display: inline;">Usopp</ul><br>
+                  <ul style="display: inline;">Sanji Vinsmoke</ul><br>
+                  <ul style="display: inline;">Nico Robin</ul><br>
+                  <ul style="display: inline;">Franky</ul><br>
+                  <ul style="display: inline;">Brook</ul>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ajoute 1% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ajoute 1% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ajoute 2% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ajoute 2% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Ajoute 3% de la RCV du personnage en RCV pour les personnages soutenus.</td>
+              </tr>
             </tbody>
           </table>
-        <h2><center><u>Fiche de Franky</u></center></h2>
-        <center><img src="https://i.imgur.com/JFPAfss.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/DK5cnHl.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Franky<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Charpentier de l'équipage de Chapeau de paille en route vers le festival des pirates. En plus d'assurer en permanence la maintenance du Sunny, il s'est permis de lui ajouter une arme secrète à utiliser en cas de nécessité.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>2454</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>1296</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>109</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Multiplie l'ATK des personnages de type <b><font color="#4C4CFF">QCK</font></b> par 2.</td>
-              </tr>
-              <tr>
-                <td>Special (18→12)</td>
-                <td>Retarde toutes les attaques ennemies de 2 tours et réduit la durée des réductions de dégâts, des augmentations d'ATK et de l'enragement dont bénéficient les ennemis de 3 tours.</td>
-              </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Monkey D. Luffy</ul><br>
-                            <ul style="display: inline;">Roronoa Zoro</ul><br>
-                            <ul style="display: inline;">Nami</ul><br>
-                            <ul style="display: inline;">Usopp</ul><br>
-                            <ul style="display: inline;">Sanji Vinsmoke</ul><br>
-                            <ul style="display: inline;">Tony-Tony Chopper</ul><br>
-                            <ul style="display: inline;">Nico Robin</ul><br>
-                            <ul style="display: inline;">Brook</ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-            </tbody>
-          </table>
-        <h2><center><u>Fiche de Brook</u></center></h2>
-        <center><img src="https://i.imgur.com/SmM19QR.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/qihVJ02.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Brook<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Musicien de l'équipage de Chapeau de paille en route vers le festival des pirates. Ayant déjà entendu parler du festival des pirates en tant que musicien, il en profite pour partager ses connaissances avec les autres membres de l'équipage, les rendant encore plus impatients d'arriver à bon port.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>1</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>2082</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>1143</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>222</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Multiplie l'ATK des personnages de classe Sabreur par 1,5 et les HP par 1,2</td>
-              </tr>
-              <tr>
-                <td>Special (16→10)</td>
-                <td>Ajoute 0,4 au multiplicateur de combos pendant 2 tours et réduit de 80% la défense de tous les ennemis pendant 2 tours.</td>
-              </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Monkey D. Luffy</ul><br>
-                            <ul style="display: inline;">Roronoa Zoro</ul><br>
-                            <ul style="display: inline;">Nami</ul><br>
-                            <ul style="display: inline;">Usopp</ul><br>
-                            <ul style="display: inline;">Sanji Vinsmoke</ul><br>
-                            <ul style="display: inline;">Tony-Tony Chopper</ul><br>
-                            <ul style="display: inline;">Nico Robin</ul><br>
-                            <ul style="display: inline;">Franky</ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 1% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 3% des HP du personnage en HP pour les personnages soutenus.</td>
-                    </tr>
-            </tbody>
-          </table>
-        <h2><center><u>Manuels disponibles</u></center></h2>
-        <table>
-            <table align="center" id="Lot">
-                <tbody>
-                    <tr>
-                        <td class="Cadre"><center><img src="https://i.imgur.com/4Uk4GEA.png"> <img src="https://i.imgur.com/LCcR4zC.png"> <img src="https://i.imgur.com/0DaEYFz.png"> <img src="https://i.imgur.com/q3mrGuX.png"> <img src="https://i.imgur.com/LCTlhSd.png"> <img src="https://i.imgur.com/96QamzK.png"> <img src="https://i.imgur.com/WmFHbkH.png"> <img src="https://i.imgur.com/k7VMJYk.png"></center></td>
-                    </tr>
-                    <tr>
-                        <td class="Cadre"><center><img src="https://i.imgur.com/Rqal3rA.png"> <img src="https://i.imgur.com/nWsvcs8.png"> <img src="https://i.imgur.com/g0WE3r6.png"> <img src="https://i.imgur.com/l9xbFhg.png"> <img src="https://i.imgur.com/APbbyHp.png"> <img src="https://i.imgur.com/9qvXsLC.png"> <img src="https://i.imgur.com/X8nI2VG.png"></center></td>
-                    </tr>
-                </tbody>
-        </table>
-        <h2><center><u>Guide de la quête spéciale</u></center></h2>
-        	<table>
-                <table align="center">
-                    <tbody>
-                        <tr>
-                            <td width=10%>Stage secret</td>
-                            <td>
-                                <b>Information importante :</b> L'EXP sera multipliée par 2 à la fin de la quête.<br><br>
-                                <b><font color="#A916B6">Baggy</font></b>
-                                  <ul><br>
-                                    <u><b>Actions préventives :</b></u>
-                                      <ul>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il restaurera 100 000 HP à l'équipe.<br>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il réduira le temps de chargement des coups spéciaux de tous les personnages de 10 tours.<br>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                      </ul>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 1</td>
-                            <td>
-                                <b><font color="#A916B6">Tony-Tony Chopper</font></b>
-                                  <ul><br>
-                                    <u><b>Actions préventives :</b></u>
-                                      <ul>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il parlera.<br>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                      </ul>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 5</td>
-                            <td>
-                                <b><font color="#ECAC04">Brook</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 100 000 HP.<br>
-                                    <u>ATK :</u> 1 400 points de dégâts tous les tours.<br><br>
-                                    <u><b>Actions préventives :</b></u> Il parlera.<br>
-                                    <u><b><font color="#DC241C">Action ultime :</font></b></u> Il mettra des cercles <b><font color="orange">[G]</font></b> à toute l'équipe.<br>
-                                  </ul>
-                                <b><font color="#DC241C">Deux</font></b> <b><font color="#4C4CFF">pirates</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 19 617 HP.<br>
-                                    <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première attaque).<br>
-                                  </ul>
-                                <b><font color="#ECAC04">Tortue noble</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 8 HP.<br>
-                                    <u>ATK :</u> 1 150 points de dégâts tous les 2 tours (de un à 3 tours avant la première attaque).<br><br>
-                                    <u>Défense :</u> 20 000.<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 6</td>
-                            <td>
-                                <b><font color="#4C4CFF">Franky</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 120 000 HP.<br>
-                                    <u>ATK :</u> 2 800 points de dégâts tous les 2 tours.<br><br>
-                                    <u><b>Actions préventives :</b></u> Il mettra des cercles <b><font color="maroon">[BOMB]</font></b> aux personnages de la rangée du haut.<br>
-                                  </ul>
-                                <b><font color="#1CAC24">Deux</font></b> <b><font color="#ECAC04">pirates</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 19 617 HP.<br>
-                                    <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première attaque).<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 7</td>
-                            <td>
-                                <b><font color="#A916B6">Tony-Tony Chopper</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 80 000 HP.<br>
-                                    <u>ATK :</u> 1 200 points de dégâts tous les tours.<br><br>
-                                    <u><b>Actions préventives :</b></u> <img src="https://i.imgur.com/6r0rETL.png" style="vertical-align: bottom;"/> Il multipliera l'attaque de tous les ennemis par 1,2 pendant 5 tours.<br>
-                                  </ul>
-                                <b><font color="#DC241C">Roronoa Zoro</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 200 000 HP.<br>
-                                    <u>ATK :</u> 3 000 points de dégâts tous les 2 tours.<br>
-                                  </ul>
-                                <b><font color="#A916B6">Pirate</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 19 617 HP.<br>
-                                    <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première attaque).<br>
-                                  </ul>
-                                <b><font color="#ECAC04">Deux tortues nobles</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 8 HP.<br>
-                                    <u>ATK :</u> 1 150 points de dégâts tous les 2 tours (de un à 3 tours avant la première attaque).<br><br>
-                                    <u>Défense :</u> 20 000.<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Boss</td>
-                            <td>
-                                <b><font color="#ECAC04">Monkey D. Luffy</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 850 000 HP.<br>
-                                      <u>ATK :</u> 3 000 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Axq2up1.png" style="vertical-align: bottom;"/> Il bloquera le multiplicateur de combos à 1,5 pendant 2 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra des cercles <b><font color="#BC5C0C">[RCV]</font></b> à toute l'équipe.<br>
-                                        </ul>
-                                      <u>1er tour :</u> <img src="https://i.imgur.com/GhVbCs9.png" style="vertical-align: bottom;"/> Il augmentera sa défense à 5 000 pendant 3 tours.<br>
-                                      <u>2ème tour :</u> <img src="https://i.imgur.com/6r0rETL.png" style="vertical-align: bottom;"/> Il multipliera son attaque par 1,5 (4 500 points de dégâts) pendant 99 tours.<br>
-                                      <u>En-dessous des 20% d'HP :</u> Il projettera hors de l'écran un personnage aléatoire pendant 2 tours.<br>
-                                    </ul>
-                                <b><font color="#DC241C">Trois</font></b> <b><font color="#1CAC24">pira</font></b><b><font color="#4C4CFF">tes</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 19 617 HP.<br>
-                                    <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première attaque).<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                    </tbody>
+          <h2>
+            <center><u>Fiche de Franky</u></center>
+          </h2>
+          <center><img src="https://i.imgur.com/JFPAfss.png"></center>
+          <table>
+            <table width="85%" align="center">
+              <caption><img src="https://i.imgur.com/DK5cnHl.png"></caption>
+              <tbody>
+                <tr>
+                  <td>Nom</td>
+                  <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Franky<b></td>
+                </tr>
+                <tr>
+                  <td>Histoire</td>
+                  <td>Charpentier de l'équipage de Chapeau de paille en route vers le festival des pirates. En plus
+                    d'assurer en permanence la maintenance du Sunny, il s'est permis de lui ajouter une arme secrète à
+                    utiliser en cas de nécessité.</td>
+                </tr>
+                <tr>
+                  <td>Type</td>
+                  <td><b>
+                      <p>
+                        <font color="#4C4CFF">QCK</font>
+                      </p><b></td>
+                </tr>
+                <tr>
+                  <td>Classe 1</td>
+                  <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
+                </tr>
+                <tr>
+                  <td>Classe 2</td>
+                  <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;" /> Tenace</td>
+                </tr>
+                <tr>
+                  <td>Coût</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>Combo</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>Emplacements de pouvoirs</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Statistiques</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td>HP</td>
+                  <td>2454</td>
+                </tr>
+                <tr>
+                  <td>ATK</td>
+                  <td>1296</td>
+                </tr>
+                <tr>
+                  <td>RCV</td>
+                  <td>109</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Abilités</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Captain Ability</td>
+                  <td>Multiplie l'ATK des personnages de type <b>
+                      <font color="#4C4CFF">QCK</font>
+                    </b> par 2.</td>
+                </tr>
+                <tr>
+                  <td>Special (18→12)</td>
+                  <td>Retarde toutes les attaques ennemies de 2 tours et réduit la durée des réductions de dégâts, des
+                    augmentations d'ATK et de l'enragement dont bénéficient les ennemis de 3 tours.</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Effets de soutien</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Personnages soutenus :<br>
+                    <ul style="display: inline;">Monkey D. Luffy</ul><br>
+                    <ul style="display: inline;">Roronoa Zoro</ul><br>
+                    <ul style="display: inline;">Nami</ul><br>
+                    <ul style="display: inline;">Usopp</ul><br>
+                    <ul style="display: inline;">Sanji Vinsmoke</ul><br>
+                    <ul style="display: inline;">Tony-Tony Chopper</ul><br>
+                    <ul style="display: inline;">Nico Robin</ul><br>
+                    <ul style="display: inline;">Brook</ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 1% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 2% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+                </tr>
+              </tbody>
             </table>
-        <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-        <div id="scrollUp">
-            <a href="#top"><img src="../img/to_top.png" height="60%" width="60%"/></a>
-        </div>
-        <div class="baspage">
-          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-        </div>
-        <style>
-          .baspage
-          {
-            position: relative;
-            bottom: -1vw;
-            max-width: 100%;
-            width: 100%;
-          }
-        </style>
-    </body>
+            <h2>
+              <center><u>Fiche de Brook</u></center>
+            </h2>
+            <center><img src="https://i.imgur.com/SmM19QR.png"></center>
+            <table>
+              <table width="85%" align="center">
+                <caption><img src="https://i.imgur.com/qihVJ02.png"></caption>
+                <tbody>
+                  <tr>
+                    <td>Nom</td>
+                    <td><b><small>Équipage de Chapeau de paille en habits de vacances estivales</small><br>Brook<b></td>
+                  </tr>
+                  <tr>
+                    <td>Histoire</td>
+                    <td>Musicien de l'équipage de Chapeau de paille en route vers le festival des pirates. Ayant déjà
+                      entendu parler du festival des pirates en tant que musicien, il en profite pour partager ses
+                      connaissances avec les autres membres de l'équipage, les rendant encore plus impatients d'arriver
+                      à bon port.</td>
+                  </tr>
+                  <tr>
+                    <td>Type</td>
+                    <td><b>
+                        <p>
+                          <font color="#ECAC04">PSY</font>
+                        </p><b></td>
+                  </tr>
+                  <tr>
+                    <td>Classe 1</td>
+                    <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
+                  </tr>
+                  <tr>
+                    <td>Classe 2</td>
+                    <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
+                  </tr>
+                  <tr>
+                    <td>Coût</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>Combo</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Emplacements de pouvoirs</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Statistiques</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>HP</td>
+                    <td>2082</td>
+                  </tr>
+                  <tr>
+                    <td>ATK</td>
+                    <td>1143</td>
+                  </tr>
+                  <tr>
+                    <td>RCV</td>
+                    <td>222</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Abilités</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Captain Ability</td>
+                    <td>Multiplie l'ATK des personnages de classe Sabreur par 1,5 et les HP par 1,2</td>
+                  </tr>
+                  <tr>
+                    <td>Special (16→10)</td>
+                    <td>Ajoute 0,4 au multiplicateur de combos pendant 2 tours et réduit de 80% la défense de tous les
+                      ennemis pendant 2 tours.</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Effets de soutien</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Personnages soutenus :<br>
+                      <ul style="display: inline;">Monkey D. Luffy</ul><br>
+                      <ul style="display: inline;">Roronoa Zoro</ul><br>
+                      <ul style="display: inline;">Nami</ul><br>
+                      <ul style="display: inline;">Usopp</ul><br>
+                      <ul style="display: inline;">Sanji Vinsmoke</ul><br>
+                      <ul style="display: inline;">Tony-Tony Chopper</ul><br>
+                      <ul style="display: inline;">Nico Robin</ul><br>
+                      <ul style="display: inline;">Franky</ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Ajoute 1% des HP du personnage en HP pour les personnages soutenus.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Ajoute 1% des HP du personnage en HP pour les personnages soutenus.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Ajoute 3% des HP du personnage en HP pour les personnages soutenus.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h2>
+                <center><u>Manuels disponibles</u></center>
+              </h2>
+              <table>
+                <table align="center" id="Lot">
+                  <tbody>
+                    <tr>
+                      <td class="Cadre">
+                        <center><img src="https://i.imgur.com/4Uk4GEA.png"> <img src="https://i.imgur.com/LCcR4zC.png">
+                          <img src="https://i.imgur.com/0DaEYFz.png"> <img src="https://i.imgur.com/q3mrGuX.png"> <img
+                            src="https://i.imgur.com/LCTlhSd.png"> <img src="https://i.imgur.com/96QamzK.png"> <img
+                            src="https://i.imgur.com/WmFHbkH.png"> <img src="https://i.imgur.com/k7VMJYk.png"></center>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="Cadre">
+                        <center><img src="https://i.imgur.com/Rqal3rA.png"> <img src="https://i.imgur.com/nWsvcs8.png">
+                          <img src="https://i.imgur.com/g0WE3r6.png"> <img src="https://i.imgur.com/l9xbFhg.png"> <img
+                            src="https://i.imgur.com/APbbyHp.png"> <img src="https://i.imgur.com/9qvXsLC.png"> <img
+                            src="https://i.imgur.com/X8nI2VG.png"></center>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2>
+                  <center><u>Guide de la quête spéciale</u></center>
+                </h2>
+                <table>
+                  <table align="center">
+                    <tbody>
+                      <tr>
+                        <td width=10%>Stage secret</td>
+                        <td>
+                          <b>Information importante :</b> L'EXP sera multipliée par 2 à la fin de la quête.<br><br>
+                          <b>
+                            <font color="#A916B6">Baggy</font>
+                          </b>
+                          <ul><br>
+                            <u><b>Actions préventives :</b></u>
+                            <ul>
+                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il
+                              restaurera 100 000 HP à l'équipe.<br>
+                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il réduira
+                              le temps de chargement des coups spéciaux de tous les personnages de 10 tours.<br>
+                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il
+                              partira.<br>
+                            </ul>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Stage 1</td>
+                        <td>
+                          <b>
+                            <font color="#A916B6">Tony-Tony Chopper</font>
+                          </b>
+                          <ul><br>
+                            <u><b>Actions préventives :</b></u>
+                            <ul>
+                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il
+                              parlera.<br>
+                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il
+                              partira.<br>
+                            </ul>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Stage 5</td>
+                        <td>
+                          <b>
+                            <font color="#ECAC04">Brook</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 100 000 HP.<br>
+                            <u>ATK :</u> 1 400 points de dégâts tous les tours.<br><br>
+                            <u><b>Actions préventives :</b></u> Il parlera.<br>
+                            <u><b>
+                                <font color="#DC241C">Action ultime :</font>
+                              </b></u> Il mettra des cercles <b>
+                              <font color="orange">[G]</font>
+                            </b> à toute l'équipe.<br>
+                          </ul>
+                          <b>
+                            <font color="#DC241C">Deux</font>
+                          </b> <b>
+                            <font color="#4C4CFF">pirates</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 19 617 HP.<br>
+                            <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première
+                            attaque).<br>
+                          </ul>
+                          <b>
+                            <font color="#ECAC04">Tortue noble</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 8 HP.<br>
+                            <u>ATK :</u> 1 150 points de dégâts tous les 2 tours (de un à 3 tours avant la première
+                            attaque).<br><br>
+                            <u>Défense :</u> 20 000.<br>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Stage 6</td>
+                        <td>
+                          <b>
+                            <font color="#4C4CFF">Franky</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 120 000 HP.<br>
+                            <u>ATK :</u> 2 800 points de dégâts tous les 2 tours.<br><br>
+                            <u><b>Actions préventives :</b></u> Il mettra des cercles <b>
+                              <font color="maroon">[BOMB]</font>
+                            </b> aux personnages de la rangée du haut.<br>
+                          </ul>
+                          <b>
+                            <font color="#1CAC24">Deux</font>
+                          </b> <b>
+                            <font color="#ECAC04">pirates</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 19 617 HP.<br>
+                            <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première
+                            attaque).<br>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Stage 7</td>
+                        <td>
+                          <b>
+                            <font color="#A916B6">Tony-Tony Chopper</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 80 000 HP.<br>
+                            <u>ATK :</u> 1 200 points de dégâts tous les tours.<br><br>
+                            <u><b>Actions préventives :</b></u> <img src="https://i.imgur.com/6r0rETL.png"
+                              style="vertical-align: bottom;" /> Il multipliera l'attaque de tous les ennemis par 1,2
+                            pendant 5 tours.<br>
+                          </ul>
+                          <b>
+                            <font color="#DC241C">Roronoa Zoro</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 200 000 HP.<br>
+                            <u>ATK :</u> 3 000 points de dégâts tous les 2 tours.<br>
+                          </ul>
+                          <b>
+                            <font color="#A916B6">Pirate</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 19 617 HP.<br>
+                            <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première
+                            attaque).<br>
+                          </ul>
+                          <b>
+                            <font color="#ECAC04">Deux tortues nobles</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 8 HP.<br>
+                            <u>ATK :</u> 1 150 points de dégâts tous les 2 tours (de un à 3 tours avant la première
+                            attaque).<br><br>
+                            <u>Défense :</u> 20 000.<br>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Boss</td>
+                        <td>
+                          <b>
+                            <font color="#ECAC04">Monkey D. Luffy</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 850 000 HP.<br>
+                            <u>ATK :</u> 3 000 points de dégâts tous les tours.<br><br>
+                            <u><b>Actions préventives :</b></u>
+                            <ul>
+                              <img src="https://i.imgur.com/Axq2up1.png" style="vertical-align: bottom;" /> Il bloquera
+                              le multiplicateur de combos à 1,5 pendant 2 tours.<br>
+                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il mettra
+                              des cercles <b>
+                                <font color="#BC5C0C">[RCV]</font>
+                              </b> à toute l'équipe.<br>
+                            </ul>
+                            <u>1er tour :</u> <img src="https://i.imgur.com/GhVbCs9.png"
+                              style="vertical-align: bottom;" /> Il augmentera sa défense à 5 000 pendant 3 tours.<br>
+                            <u>2ème tour :</u> <img src="https://i.imgur.com/6r0rETL.png"
+                              style="vertical-align: bottom;" /> Il multipliera son attaque par 1,5 (4 500 points de
+                            dégâts) pendant 99 tours.<br>
+                            <u>En-dessous des 20% d'HP :</u> Il projettera hors de l'écran un personnage aléatoire
+                            pendant 2 tours.<br>
+                          </ul>
+                          <b>
+                            <font color="#DC241C">Trois</font>
+                          </b> <b>
+                            <font color="#1CAC24">pira</font>
+                          </b><b>
+                            <font color="#4C4CFF">tes</font>
+                          </b>
+                          <ul><br>
+                            <u>HP :</u> 19 617 HP.<br>
+                            <u>ATK :</u> 4 003 points de dégâts tous les 2 tours (de un à 3 tours avant la première
+                            attaque).<br>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
+                  <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
+                  <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
+                  <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
+                  <div id="scrollUp">
+                    <a href="#top"><img src="../img/to_top.png" height="60%" width="60%" /></a>
+                  </div>
+                  <div class="baspage">
+                    <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+                  </div>
+                  <style>
+                    .baspage {
+                      position: relative;
+                      bottom: -1vw;
+                      max-width: 100%;
+                      width: 100%;
+                    }
+                  </style>
+  </body>
+
 </html>
 
 <table class="detail b">
-<tbody>
+  <tbody>

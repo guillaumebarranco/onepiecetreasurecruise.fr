@@ -1,97 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-127847674-1');
-        </script>
-        <meta charset="utf-8" />
-        <title>Jinbe</title>
-        <link href="../bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" />
-        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script>
-            jQuery(function(){
-                $(function () {
-                    $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) {
-                            $('#scrollUp').css('right');
-                        } else {
-                            $('#scrollUp').removeAttr( 'style' );
-                        }
-                    });
-                });
-            });
-        </script>
-    </head>
 
-    <div class="entete">
-      <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-    </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-127847674-1');
+  </script>
+  <meta charset="utf-8" />
+  <title>Jinbe</title>
+  <link href="../bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script>
+    jQuery(function () {
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $('#scrollUp').css('right');
+          } else {
+            $('#scrollUp').removeAttr('style');
+          }
+        });
+      });
+    });
+  </script>
+</head>
+
+<div class="entete">
+  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
+  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
+</div>
 <style>
-.topnavbar
-{
-top: -1.5vw;
-left: 0;
-max-width: 100%;
-width: 100%;
-position: absolute;
-}
+  .entetetop {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .entetefond {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    width: 40vw;
+    top: 0;
+    left: 30%;
+    position: relative;
+  }
+
+  .newsboard {
+    top: 0;
+    right: 1vw;
+    max-width: 25%;
+    width: 25%;
+    position: absolute;
+  }
 </style>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+  <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+  <style>
+    .topnavbar {
+      top: -1.5vw;
+      left: 0;
+      max-width: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
   <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,19 +102,22 @@ position: absolute;
         <a class="nav-link" href="../Legendes.html">Personnages Sugo-Rare</a>
       </li>
       <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Guides
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Guides
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="../Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Coulisses.html">Comment les guides sont-ils rédigés
+            ?</a>
           <a class="dropdown-item active waves-effect waves-light" href="../Raids.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../Attaque ennemie.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../Fortnight.html">Quêtes permanentes</a>
           <a class="dropdown-item waves-effect waves-light" href="../Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../Mode Aventure.html">Histoire principale</a>
           <a class="dropdown-item waves-effect waves-light" href="../Forets.html">Forêts d'entraînement</a>
           <a class="dropdown-item waves-effect waves-light" href="../Defi de Garp.html">Défi de Garp</a>
@@ -141,13 +143,19 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item waves-effect waves-light" href="../Debutant/Bien debuter.html">Bien débuter</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Souhaits de Chopper Man.html">Souhaits de
+            Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Taux des legendes.html">Taux des
+            personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
           <a class="dropdown-item waves-effect waves-light" href="../Bateau/">Liste des bateaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Fete des pirates.html">Personnages par style sur la fête des pirates</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Soutien.html">Effets de soutien
+            spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Fete des pirates.html">Personnages par style sur la
+            fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Ile des collectionneurs.html">Île des
+            collectionneurs</a>
           <a class="dropdown-item waves-effect waves-light" href="../Debutant/Tier List.html">Tier Lists</a>
         </div>
       </li>
@@ -156,18 +164,21 @@ position: absolute;
           aria-expanded="false">Progressions
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="../RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
-          <a class="dropdown-item" href="../RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="../RR.html">Liste à cocher des personnages du recrutement rare (version
+            normale)</a>
+          <a class="dropdown-item" href="../RRBatch.html">Liste à cocher des personnages du recrutement rare (version
+            par lot)</a>
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
-<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
+          <a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
           <a class="dropdown-item" href="../AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-<a class="dropdown-item" href="../AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
-          <a class="dropdown-item" href="../AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="../AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
+          <a class="dropdown-item" href="../AvanceeCombatAmitie.html">Avancée des personnages des combats de
+            l'amitié</a>
         </div>
       </li>
       <li class="nav-item">
@@ -200,14 +211,21 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../Remerciements.html">Remerciements</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+            target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+            target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+            target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+            target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de
+            Scaragnark</a>
           <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+            target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+            target="_blank">Chaîne de B-Bro</a>
         </div>
       </li>
       <li class="nav-item">
@@ -220,419 +238,583 @@ position: absolute;
           <div id="searchbar">
             <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
             <input type="hidden" name="ie" value="UTF-8">
-            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher"
+              style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
           </div>
-          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden"
+            value=""><input name="ss" type="hidden" value="">
         </form>
       </li>
     </ul>
   </div>
 </nav>
 
-    <header><a href="../Raids.html"><img src="../img/logo.png" alt="logo"></img></a></header>
+<header><a href="../Raids.html"><img src="../img/logo.png" alt="logo"></img></a></header>
 
-    <body>
-        <body id="STR">
-    	<h1><center><u>Jinbe</u></center></h1>
-        <h2><center><u>Fiche</u></center></h2>
-        <center><img src="https://i.imgur.com/WmO2HMv.png"></center>
-        <table>
-        	<table align="center">
-        	<caption><img src="https://i.imgur.com/YVOhjYR.png" height="50%" width="50%"></caption>
-        		<tbody>
-        			<tr>
-        				<td>Nom</td>
-        				<td><b><small>Duel de blessés</small><br>Jinbe<b></td>
-        			</tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Capitaine de l'équipage des hommes-poissons et ancien grand corsaire. Fidèle à la promesse qu'il a faite à Ace lors de son passage à Impel Down, il veille sur Luffy en le protégeant des attaques d'Akainu pendant la guerre au sommet et en l'empêchant de se faire du mal sur l'île des femmes.</td>
-              </tr>
-        			<tr>
-        				<td>Type</td>
-        				<td><b><p><font color="#DC241C">STR</font></p><b></td>
-        			</tr>
-        			<tr>
-        				<td>Classe 1</td>
-        				<td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur</td>
-        			</tr>
-        			<tr>
-        				<td>Classe 2</td>
-        				<td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
-        			</tr>
-        			<tr>
-        				<td>Coût</td>
-        				<td>50</td>
-        			</tr>
-        			<tr>
-        				<td>Combo</td>
-        				<td>4</td>
-        			</tr>
-        			<tr>
-        				<td>Emplacements de pouvoirs</td>
-        				<td>3 puis 5 après le dépassement de limites</td>
-        			</tr>
-        			<tr>
-        				<td colspan="2"><center><b>Statistiques</b></center></td>
-        			</tr>
-        			<tr>
-        				<td>HP</td>
-        				<td>2920 puis 3120 après le dépassement de limites</td>
-        			</tr>
-        			<tr>
-        				<td>ATK</td>
-        				<td>1387 puis 1487 après le dépassement de limites</td>
-        			</tr>
-        			<tr>
-        				<td>RCV</td>
-        				<td>251 puis 301 après le dépassement de limites</td>
-        			</tr>
-        			<tr>
-        				<td colspan="2"><center><b>Abilités</b></center></td>
-        			</tr>
-        			<tr>
-        				<td>Captain Ability</td>
-        				<td>Multiplie l'ATK des personnages de type <b><font color="#DC241C">STR</font></b> et <b><font color="#ECAC04">PSY</font></b> par 3 et réduit les dégâts subis de 20%.</td>
-        			</tr>
-        			<tr>
-        				<td>Special (27→13 puis 12)</td>
-        				<td>Inflige 100 fois son ATK en dégâts de type <b><font color="#DC241C">STR</font></b> sur tous les ennemis, réduit la durée des réductions d'ATK de 3 tours, réduit à 0 la défense de tous les ennemis pendant un tour et si le capitaine est un personnage de type <b><font color="#DC241C">STR</font></b>, multiplie les effets de type des ATK normales des personnages de type <b><font color="#DC241C">STR</font></b> par 2 pendant un tour.</td>
-        			</tr>
-              <tr>
-                        <td>Crewmate Ability 1</td>
-                        <td>Ajoute 50 en HP, ATK et RCV pour les personnages de type <b><font color="#DC241C">STR</font></b>.</td>
-                    </tr>
-        			<tr>
-        				<td colspan="2"><center><b>Dépassement de limites</b></center></td>
-        			</tr>
-        			<tr>
-                <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b><font color="#DC241C">[STR]</font></b> avantageux pour les personnages de classe Cogneur et Intellectuel.</td>
-              </tr>
-              <tr>
-                <td>Potential Ability 1</td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 1%.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 2%.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 3%.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 4%.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis par les ennemis de type <b><font color="#1CAC24">DEX</font></b> de 5%.</td>
-              </tr>
-              <tr>
-                <td>Potential Ability 2</td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
-              </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Effets de soutien</b></center></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Personnages soutenus :<br>
-                            <ul style="display: inline;">Monkey D. Luffy</ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 4% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 7% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Ajoute 9% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><center><b>Statistiques de la fête des pirates</b></center></td>
-                    </tr>
-                    <tr>
-                      <td>Style</td>
-                      <td>ATK</td>
-                    </tr>
-                    <tr>
-                      <td>DEF</td>
-                      <td>150</td>
-                    </tr>
-                    <tr>
-                      <td>VIT</td>
-                      <td>158</td>
-                    </tr>
-                    <tr>
-                      <td>Special</td>
-                      <td>Inflige <b>0,4 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,42 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,43 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,45 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,47 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>3 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,49 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>3 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,5 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>3 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,52 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>4 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,54 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>4 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>3 niveaux</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Inflige <b>0,65 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite de "Garde" des ennemis à moyenne portée (frontal) de <b>5 niveaux</b> pendant 15 secondes et augmente l'ATK des alliés de type <b><font color="#DC241C">STR</font></b> de <b>4 niveaux</b> pendant 15 secondes (CT : 24).</td>
-                    </tr>
-                    <tr>
-                      <td>Capacité</td>
-                      <td>Augmente les chances des alliés de type <b><font color="#DC241C">STR</font></b> d'effectuer une attaque critique de <b>1 niveau</b> et augmente les risques de projection hors de l'écran du personnage de 2 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente les chances des alliés de type <b><font color="#DC241C">STR</font></b> d'effectuer une attaque critique de <b>2 niveaux</b> et augmente les risques de projection hors de l'écran du personnage de 2 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente les chances des alliés de type <b><font color="#DC241C">STR</font></b> d'effectuer une attaque critique de <b>3 niveaux</b> et augmente les risques de projection hors de l'écran du personnage de 2 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente les chances des alliés de type <b><font color="#DC241C">STR</font></b> d'effectuer une attaque critique de <b>4 niveaux</b> et augmente les risques de projection hors de l'écran du personnage de 2 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>Augmente les chances des alliés de type <b><font color="#DC241C">STR</font></b> d'effectuer une attaque critique de <b>5 niveaux</b> et augmente les risques de projection hors de l'écran du personnage de 2 niveaux.</td>
-                    </tr>
-                    <tr>
-                      <td>Actions principales</td>
-                      <td>ATK normale → ATK renforcée → ATK renforcée → ATK à pleine puissance</td>
-                    </tr>
-                    <tr>
-                      <td>Cible des actions</td>
-                      <td>Vise les ennemis proches.</td>
-                    </tr>
-        		</tbody>
-        	</table>
-        <h2><center><u>Guide du combat crucial</u></center></h2>
-        	<table>
-                <table align="center">
-                    <tbody>
-                        <tr>
-                            <td width=10%>Contrainte</td>
-                            <td>
-                                Seuls les personnages des types <b><font color="#DC241C">STR</font></b> et <b><font color="#ECAC04">PSY</font></b> pourront être utilisés.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 1</td>
-                            <td>
-                                <b><font color="#A916B6">Deux pirates à l'avant</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 167 254 HP.<br>
-                                    <u>ATK :</u> 5 150 points de dégâts tous les tours (de un à 3 tours avant la première attaque).<br>
-                                  </ul>
-                                <b><font color="#A916B6">Pirate à l'arrière</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 160 500 HP.<br>
-                                    <u>ATK :</u> 6 521 points de dégâts tous les tours.<br>
-                                  </ul>
-                                <b><font color="#A916B6">Deux tortues anciennes</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 8 HP.<br>
-                                    <u>ATK :</u> 4 950 points de dégâts tous les 3 tours (de 2 à 4 tours avant la première attaque).<br>
-                                    <u>Défense :</u> 100 000.<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 2</td>
-                            <td>
-                                <b><font color="#A916B6">Deux pirates en haut et en bas à l'avant</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 168 500 HP.<br>
-                                    <u>ATK :</u> 5 275 points de dégâts tous les tours.<br>
-                                    <u>Barrière :</u> 1 coup avec un cercle <b><font color="#DC241C">[STR]</font></b> pendant 4 tours.<br><br>
-                                    <u>Lorsqu'ils attaqueront :</u> Ils mettront le "Lien" sur un personnage aléatoire pendant 5 tours.<br>
-                                  </ul>
-                                <b><font color="#A916B6">Pirate au centre à l'avant</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 162 402 HP.<br>
-                                    <u>ATK :</u> 6 721 points de dégâts tous les tours.<br>
-                                    <u>Barrière :</u> 1 coup avec un cercle <b><font color="#ECAC04">[PSY]</font></b> pendant 4 tours.<br><br>
-                                    <u>Lorsqu'il attaquera :</u> Il mettra le "Lien" sur un personnage aléatoire pendant 5 tours.<br>
-                                  </ul>
-                                <b><font color="#A916B6">Deux pirates à l'arrière</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 160 500 HP.<br>
-                                    <u>ATK :</u> 6 521 points de dégâts tous les tours.<br>
-                                  </ul>
-                                <b><font color="#ECAC04">Étalon marin</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 7 HP.<br>
-                                    <u>ATK :</u> 7 000 points de dégâts tous les tours.<br>
-                                    <u>Défense :</u> 20 000.<br><br>
-                                    <u>Lorsqu'il attaquera :</u> Il mettra le "Lien" sur un personnage aléatoire pendant 3 tours.<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 3</td>
-                            <td>
-                                <b><font color="#A916B6">Shachi et Pingouin</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 1 200 000 HP.<br>
-                                      <u>ATK :</u> 6 000 points de dégâts tous les tours.<br>
-                                      <u>Barrière :</u> 1 coup "SUPER" pendant 2 tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/u2O1BNQ.png" style="vertical-align: bottom;"/> Ils mettront une immunité pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Ils appelleront 5 pirates.<br>
-                                        </ul>
-                                      <u>1er tour et tous les tours :</u> Ils appelleront 5 pirates.<br>
-                                      <u>3ème tour :</u> Ils mettront le "Lien des cercles" sur tous les personnages pendant 5 tours.<br>
-                                    </ul>
-                                <b><font color="#A916B6">Deux pirates à l'avant</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 160 000 HP.<br>
-                                    <u>ATK :</u> 6 721 points de dégâts tous les 2 tours (de un à 2 tours avant la première attaque).<br>
-                                    <u>Lorsqu'ils attaqueront :</u>
-                                      <ul>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Ils n'attaqueront pas.<br>
-                                        <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Ils mettront la "Paralysie" sur tous les personnages pendant un tour.<br>
-                                      </ul>
-                                  </ul>
-                                <b><font color="#A916B6">Trois pirates à l'arrière</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 166 023 HP.<br>
-                                    <u>ATK :</u> 5 502 points de dégâts tous les tours (de un à 2 tours avant la première attaque).<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Stage 4</td>
-                            <td>
-                                <b><font color="#A916B6">Bepo</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 3 550 000 HP.<br>
-                                      <u>ATK :</u> 7 023 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/bj2AsN0.png" style="vertical-align: bottom;"/> Il mettra une immunité aux réductions de défense pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/6r0rETL.png" style="vertical-align: bottom;"/> Il multipliera l'attaque de tous les ennemis par 1,3 pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/GhVbCs9.png" style="vertical-align: bottom;"/> Il multipliera la défense de tous les ennemis par 450 pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/rlltiyj.png" style="vertical-align: bottom;"/> Seules les attaques normales infligeront des dégâts sur les ennemis pendant 5 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra des cercles désavantageux à toute l'équipe.<br>
-                                        </ul>
-                                      <u>3ème tour :</u> Il rendra les cercles de type désavantageux pendant 9 tours.<br>
-                                      <u>4ème tour :</u> Il projettera hors de l'écran les personnages de la rangée du milieu pendant 5 tours.<br>
-                                    </ul>
-                                <b><font color="#A916B6">Trois pirates</font></b>
-                                  <ul><br>
-                                    <u>HP :</u> 158 000 HP.<br>
-                                    <u>ATK :</u> 4 803 points de dégâts tous les tours.<br><br>
-                                    <u>1er tour :</u> Ils mettront le "Lien" sur un personnage aléatoire pendant 5 tours.<br>
-                                  </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Boss</td>
-                            <td>
-                                <b><font color="#DC241C">Jinbe</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 9 800 000 HP.<br>
-                                      <u>ATK :</u> 11 335 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/aF0nEcN.png" style="vertical-align: bottom;"/> Il se mettra une immunité aux retards pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/zzJP1uS.png" style="vertical-align: bottom;"/> Il se mettra une immunité aux poisons pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/o2tZz5W.png" style="vertical-align: bottom;"/> Il se mettra une immunité aux poisons progressifs pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/cfpn1TS.png" style="vertical-align: bottom;"/> Il se mettra une immunité aux envenimements pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il changera son type en <b><font color="#A916B6">INT</font></b>.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Lien" sur les capitaines pendant 5 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra la "Paralysie" sur tous les personnages pendant 4 tours.<br>
-                                          <img src="https://i.imgur.com/YvtNGvf.png" style="vertical-align: bottom;"/> Il réduira de 99% la partie des dégâts infligés par l'équipe qui excède 1 000 pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra des cercles <b><font color="darkslateblue">[BLK]</font></b> à toute l'équipe.<br>
-                                        </ul>
-                                      <u>1er tour :</u> Il inversera le temps de chargement des coups spéciaux de tous les personnages de 4 tours.<br>
-                                      <u>2ème tour :</u> <img src="https://i.imgur.com/6r0rETL.png" style="vertical-align: bottom;"/> Il augmentera son attaque pendant 6 tours.<br>
-                                      <u>En-dessous des 50% d'HP :</u> Il projettera hors de l'écran 3 personnages aléatoires.<br>
-                                      <u>En-dessous des 20% d'HP :</u> Il attaquera à 50 000 points de dégâts.<br>
-                                    </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-            </table>
+<body>
+
+  <body id="STR">
+    <h1>
+      <center><u>Jinbe</u></center>
+    </h1>
+    <h2>
+      <center><u>Fiche</u></center>
+    </h2>
+    <center><img src="https://i.imgur.com/WmO2HMv.png"></center>
+    <table>
+      <table align="center">
+        <caption><img src="https://i.imgur.com/YVOhjYR.png"></caption>
+        <tbody>
+          <tr>
+            <td>Nom</td>
+            <td><b><small>Duel de blessés</small><br>Jinbe<b></td>
+          </tr>
+          <tr>
+            <td>Histoire</td>
+            <td>Capitaine de l'équipage des hommes-poissons et ancien grand corsaire. Fidèle à la promesse qu'il a faite
+              à Ace lors de son passage à Impel Down, il veille sur Luffy en le protégeant des attaques d'Akainu pendant
+              la guerre au sommet et en l'empêchant de se faire du mal sur l'île des femmes.</td>
+          </tr>
+          <tr>
+            <td>Type</td>
+            <td><b>
+                <p>
+                  <font color="#DC241C">STR</font>
+                </p><b></td>
+          </tr>
+          <tr>
+            <td>Classe 1</td>
+            <td><img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;" /> Cogneur</td>
+          </tr>
+          <tr>
+            <td>Classe 2</td>
+            <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;" /> Intellectuel</td>
+          </tr>
+          <tr>
+            <td>Coût</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Combo</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Emplacements de pouvoirs</td>
+            <td>3 puis 5 après le dépassement de limites</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Statistiques</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>HP</td>
+            <td>2920 puis 3120 après le dépassement de limites</td>
+          </tr>
+          <tr>
+            <td>ATK</td>
+            <td>1387 puis 1487 après le dépassement de limites</td>
+          </tr>
+          <tr>
+            <td>RCV</td>
+            <td>251 puis 301 après le dépassement de limites</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Abilités</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Captain Ability</td>
+            <td>Multiplie l'ATK des personnages de type <b>
+                <font color="#DC241C">STR</font>
+              </b> et <b>
+                <font color="#ECAC04">PSY</font>
+              </b> par 3 et réduit les dégâts subis de 20%.</td>
+          </tr>
+          <tr>
+            <td>Special (27→13 puis 12)</td>
+            <td>Inflige 100 fois son ATK en dégâts de type <b>
+                <font color="#DC241C">STR</font>
+              </b> sur tous les ennemis, réduit la durée des réductions d'ATK de 3 tours, réduit à 0 la défense de tous
+              les ennemis pendant un tour et si le capitaine est un personnage de type <b>
+                <font color="#DC241C">STR</font>
+              </b>, multiplie les effets de type des ATK normales des personnages de type <b>
+                <font color="#DC241C">STR</font>
+              </b> par 2 pendant un tour.</td>
+          </tr>
+          <tr>
+            <td>Crewmate Ability 1</td>
+            <td>Ajoute 50 en HP, ATK et RCV pour les personnages de type <b>
+                <font color="#DC241C">STR</font>
+              </b>.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Dépassement de limites</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Crewmate Ability 2</td>
+            <td>Rend les cercles <b>
+                <font color="#DC241C">[STR]</font>
+              </b> avantageux pour les personnages de classe Cogneur et Intellectuel.</td>
+          </tr>
+          <tr>
+            <td>Potential Ability 1</td>
+            <td>Réduit les dégâts subis par les ennemis de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 1%.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit les dégâts subis par les ennemis de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 2%.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit les dégâts subis par les ennemis de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 3%.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit les dégâts subis par les ennemis de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 4%.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit les dégâts subis par les ennemis de type <b>
+                <font color="#1CAC24">DEX</font>
+              </b> de 5%.</td>
+          </tr>
+          <tr>
+            <td>Potential Ability 2</td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 2 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 3 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 4 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 5 tours.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Réduit la durée de “Lien des cercles” du personnage de 7 tours.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Effets de soutien</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Personnages soutenus :<br>
+              <ul style="display: inline;">Monkey D. Luffy</ul>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 3% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 4% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 5% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 7% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 9% de l'ATK du personnage en ATK pour les personnages soutenus.</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Statistiques de la fête des pirates</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Style</td>
+            <td>ATK</td>
+          </tr>
+          <tr>
+            <td>DEF</td>
+            <td>150</td>
+          </tr>
+          <tr>
+            <td>VIT</td>
+            <td>158</td>
+          </tr>
+          <tr>
+            <td>Special</td>
+            <td>Inflige <b>0,4 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,42 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,43 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,45 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>2 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>1 niveau</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,47 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>3 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,49 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>3 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,5 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>3 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,52 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>4 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>2 niveaux</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,54 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>4 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>3 niveaux</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Inflige <b>0,65 fois</b> son ATK aux ennemis à moyenne portée (frontal), réduit les chances de réussite
+              de "Garde" des ennemis à moyenne portée (frontal) de <b>5 niveaux</b> pendant 15 secondes et augmente
+              l'ATK des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> de <b>4 niveaux</b> pendant 15 secondes (CT : 24).</td>
+          </tr>
+          <tr>
+            <td>Capacité</td>
+            <td>Augmente les chances des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> d'effectuer une attaque critique de <b>1 niveau</b> et augmente les risques de projection hors de
+              l'écran du personnage de 2 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente les chances des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> d'effectuer une attaque critique de <b>2 niveaux</b> et augmente les risques de projection hors de
+              l'écran du personnage de 2 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente les chances des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> d'effectuer une attaque critique de <b>3 niveaux</b> et augmente les risques de projection hors de
+              l'écran du personnage de 2 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente les chances des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> d'effectuer une attaque critique de <b>4 niveaux</b> et augmente les risques de projection hors de
+              l'écran du personnage de 2 niveaux.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Augmente les chances des alliés de type <b>
+                <font color="#DC241C">STR</font>
+              </b> d'effectuer une attaque critique de <b>5 niveaux</b> et augmente les risques de projection hors de
+              l'écran du personnage de 2 niveaux.</td>
+          </tr>
+          <tr>
+            <td>Actions principales</td>
+            <td>ATK normale → ATK renforcée → ATK renforcée → ATK à pleine puissance</td>
+          </tr>
+          <tr>
+            <td>Cible des actions</td>
+            <td>Vise les ennemis proches.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>
+        <center><u>Guide du combat crucial</u></center>
+      </h2>
+      <table>
+        <table align="center">
+          <tbody>
+            <tr>
+              <td width=10%>Contrainte</td>
+              <td>
+                Seuls les personnages des types <b>
+                  <font color="#DC241C">STR</font>
+                </b> et <b>
+                  <font color="#ECAC04">PSY</font>
+                </b> pourront être utilisés.
+              </td>
+            </tr>
+            <tr>
+              <td>Stage 1</td>
+              <td>
+                <b>
+                  <font color="#A916B6">Deux pirates à l'avant</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 167 254 HP.<br>
+                  <u>ATK :</u> 5 150 points de dégâts tous les tours (de un à 3 tours avant la première attaque).<br>
+                </ul>
+                <b>
+                  <font color="#A916B6">Pirate à l'arrière</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 160 500 HP.<br>
+                  <u>ATK :</u> 6 521 points de dégâts tous les tours.<br>
+                </ul>
+                <b>
+                  <font color="#A916B6">Deux tortues anciennes</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 8 HP.<br>
+                  <u>ATK :</u> 4 950 points de dégâts tous les 3 tours (de 2 à 4 tours avant la première attaque).<br>
+                  <u>Défense :</u> 100 000.<br>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Stage 2</td>
+              <td>
+                <b>
+                  <font color="#A916B6">Deux pirates en haut et en bas à l'avant</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 168 500 HP.<br>
+                  <u>ATK :</u> 5 275 points de dégâts tous les tours.<br>
+                  <u>Barrière :</u> 1 coup avec un cercle <b>
+                    <font color="#DC241C">[STR]</font>
+                  </b> pendant 4 tours.<br><br>
+                  <u>Lorsqu'ils attaqueront :</u> Ils mettront le "Lien" sur un personnage aléatoire pendant 5
+                  tours.<br>
+                </ul>
+                <b>
+                  <font color="#A916B6">Pirate au centre à l'avant</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 162 402 HP.<br>
+                  <u>ATK :</u> 6 721 points de dégâts tous les tours.<br>
+                  <u>Barrière :</u> 1 coup avec un cercle <b>
+                    <font color="#ECAC04">[PSY]</font>
+                  </b> pendant 4 tours.<br><br>
+                  <u>Lorsqu'il attaquera :</u> Il mettra le "Lien" sur un personnage aléatoire pendant 5 tours.<br>
+                </ul>
+                <b>
+                  <font color="#A916B6">Deux pirates à l'arrière</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 160 500 HP.<br>
+                  <u>ATK :</u> 6 521 points de dégâts tous les tours.<br>
+                </ul>
+                <b>
+                  <font color="#ECAC04">Étalon marin</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 7 HP.<br>
+                  <u>ATK :</u> 7 000 points de dégâts tous les tours.<br>
+                  <u>Défense :</u> 20 000.<br><br>
+                  <u>Lorsqu'il attaquera :</u> Il mettra le "Lien" sur un personnage aléatoire pendant 3 tours.<br>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Stage 3</td>
+              <td>
+                <b>
+                  <font color="#A916B6">Shachi et Pingouin</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 1 200 000 HP.<br>
+                  <u>ATK :</u> 6 000 points de dégâts tous les tours.<br>
+                  <u>Barrière :</u> 1 coup "SUPER" pendant 2 tours.<br><br>
+                  <u><b>Actions préventives :</b></u>
+                  <ul>
+                    <img src="https://i.imgur.com/u2O1BNQ.png" style="vertical-align: bottom;" /> Ils mettront une
+                    immunité pendant 99 tours.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Ils appelleront 5
+                    pirates.<br>
+                  </ul>
+                  <u>1er tour et tous les tours :</u> Ils appelleront 5 pirates.<br>
+                  <u>3ème tour :</u> Ils mettront le "Lien des cercles" sur tous les personnages pendant 5 tours.<br>
+                </ul>
+                <b>
+                  <font color="#A916B6">Deux pirates à l'avant</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 160 000 HP.<br>
+                  <u>ATK :</u> 6 721 points de dégâts tous les 2 tours (de un à 2 tours avant la première attaque).<br>
+                  <u>Lorsqu'ils attaqueront :</u>
+                  <ul>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Ils n'attaqueront
+                    pas.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Ils mettront la
+                    "Paralysie" sur tous les personnages pendant un tour.<br>
+                  </ul>
+                </ul>
+                <b>
+                  <font color="#A916B6">Trois pirates à l'arrière</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 166 023 HP.<br>
+                  <u>ATK :</u> 5 502 points de dégâts tous les tours (de un à 2 tours avant la première attaque).<br>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Stage 4</td>
+              <td>
+                <b>
+                  <font color="#A916B6">Bepo</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 3 550 000 HP.<br>
+                  <u>ATK :</u> 7 023 points de dégâts tous les tours.<br><br>
+                  <u><b>Actions préventives :</b></u>
+                  <ul>
+                    <img src="https://i.imgur.com/bj2AsN0.png" style="vertical-align: bottom;" /> Il mettra une immunité
+                    aux réductions de défense pendant 99 tours.<br>
+                    <img src="https://i.imgur.com/6r0rETL.png" style="vertical-align: bottom;" /> Il multipliera
+                    l'attaque de tous les ennemis par 1,3 pendant 3 tours.<br>
+                    <img src="https://i.imgur.com/GhVbCs9.png" style="vertical-align: bottom;" /> Il multipliera la
+                    défense de tous les ennemis par 450 pendant 3 tours.<br>
+                    <img src="https://i.imgur.com/rlltiyj.png" style="vertical-align: bottom;" /> Seules les attaques
+                    normales infligeront des dégâts sur les ennemis pendant 5 tours.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il mettra des cercles
+                    désavantageux à toute l'équipe.<br>
+                  </ul>
+                  <u>3ème tour :</u> Il rendra les cercles de type désavantageux pendant 9 tours.<br>
+                  <u>4ème tour :</u> Il projettera hors de l'écran les personnages de la rangée du milieu pendant 5
+                  tours.<br>
+                </ul>
+                <b>
+                  <font color="#A916B6">Trois pirates</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 158 000 HP.<br>
+                  <u>ATK :</u> 4 803 points de dégâts tous les tours.<br><br>
+                  <u>1er tour :</u> Ils mettront le "Lien" sur un personnage aléatoire pendant 5 tours.<br>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>Boss</td>
+              <td>
+                <b>
+                  <font color="#DC241C">Jinbe</font>
+                </b>
+                <ul><br>
+                  <u>HP :</u> 9 800 000 HP.<br>
+                  <u>ATK :</u> 11 335 points de dégâts tous les tours.<br><br>
+                  <u><b>Actions préventives :</b></u>
+                  <ul>
+                    <img src="https://i.imgur.com/aF0nEcN.png" style="vertical-align: bottom;" /> Il se mettra une
+                    immunité aux retards pendant 99 tours.<br>
+                    <img src="https://i.imgur.com/zzJP1uS.png" style="vertical-align: bottom;" /> Il se mettra une
+                    immunité aux poisons pendant 99 tours.<br>
+                    <img src="https://i.imgur.com/o2tZz5W.png" style="vertical-align: bottom;" /> Il se mettra une
+                    immunité aux poisons progressifs pendant 99 tours.<br>
+                    <img src="https://i.imgur.com/cfpn1TS.png" style="vertical-align: bottom;" /> Il se mettra une
+                    immunité aux envenimements pendant 99 tours.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il changera son type
+                    en <b>
+                      <font color="#A916B6">INT</font>
+                    </b>.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il mettra le "Lien"
+                    sur les capitaines pendant 5 tours.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il mettra la
+                    "Paralysie" sur tous les personnages pendant 4 tours.<br>
+                    <img src="https://i.imgur.com/YvtNGvf.png" style="vertical-align: bottom;" /> Il réduira de 99% la
+                    partie des dégâts infligés par l'équipe qui excède 1 000 pendant 3 tours.<br>
+                    <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;" /> Il mettra des cercles
+                    <b>
+                      <font color="darkslateblue">[BLK]</font>
+                    </b> à toute l'équipe.<br>
+                  </ul>
+                  <u>1er tour :</u> Il inversera le temps de chargement des coups spéciaux de tous les personnages de 4
+                  tours.<br>
+                  <u>2ème tour :</u> <img src="https://i.imgur.com/6r0rETL.png" style="vertical-align: bottom;" /> Il
+                  augmentera son attaque pendant 6 tours.<br>
+                  <u>En-dessous des 50% d'HP :</u> Il projettera hors de l'écran 3 personnages aléatoires.<br>
+                  <u>En-dessous des 20% d'HP :</u> Il attaquera à 50 000 points de dégâts.<br>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
         <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
         <div id="scrollUp">
-            <a href="#top"><img src="../img/to_top.png" height="60%" width="60%"/></a>
+          <a href="#top"><img src="../img/to_top.png" height="60%" width="60%" /></a>
         </div>
         <div class="baspage">
           <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
         </div>
         <style>
-          .baspage
-          {
+          .baspage {
             position: relative;
             bottom: -1vw;
             max-width: 100%;
             width: 100%;
           }
         </style>
-    </body>
+  </body>
+
 </html>
 
 <table class="detail b">
-<tbody>
+  <tbody>
