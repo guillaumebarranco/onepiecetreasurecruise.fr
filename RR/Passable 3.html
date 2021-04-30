@@ -1,97 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-127847674-1');
-        </script>
-        <meta charset="utf-8" />
-        <title>Personnages "passables" - Partie 3</title>
-        <link href="../bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css" />
-        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script>
-            jQuery(function(){
-                $(function () {
-                    $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) {
-                            $('#scrollUp').css('right');
-                        } else {
-                            $('#scrollUp').removeAttr( 'style' );
-                        }
-                    });
-                });
-            });
-        </script>
-    </head>
 
-    <div class="entete">
-      <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-    </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
-      <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-127847674-1');
+  </script>
+  <meta charset="utf-8" />
+  <title>Personnages "passables" - Partie 3</title>
+  <link href="../bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script>
+    jQuery(function () {
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 200) {
+            $('#scrollUp').css('right');
+          } else {
+            $('#scrollUp').removeAttr('style');
+          }
+        });
+      });
+    });
+  </script>
+</head>
+
+<div class="entete">
+  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
+  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
+</div>
 <style>
-.topnavbar
-{
-top: -1.5vw;
-left: 0;
-max-width: 100%;
-width: 100%;
-position: absolute;
-}
+  .entetetop {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .entetefond {
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .logo {
+    width: 40vw;
+    top: 0;
+    left: 30%;
+    position: relative;
+  }
+
+  .newsboard {
+    top: 0;
+    right: 1vw;
+    max-width: 25%;
+    width: 25%;
+    position: absolute;
+  }
 </style>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
+  <img src="https://i.imgur.com/QvxN4d8.png" class="topnavbar">
+  <style>
+    .topnavbar {
+      top: -1.5vw;
+      left: 0;
+      max-width: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
   <a class="navbar-brand" href="/"><img src="https://imgur.com/SOSubWn.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,19 +102,22 @@ position: absolute;
         <a class="nav-link" href="../Legendes.html">Personnages Sugo-Rare</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Guides
+        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Guides
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="../Coulisses.html">Comment les guides sont-ils rédigés ?</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Coulisses.html">Comment les guides sont-ils rédigés
+            ?</a>
           <a class="dropdown-item waves-effect waves-light" href="../Raids.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../Attaque ennemie.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../Fortnight.html">Quêtes permanentes</a>
           <a class="dropdown-item waves-effect waves-light" href="../Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../Mode Aventure.html">Histoire principale</a>
           <a class="dropdown-item waves-effect waves-light" href="../Forets.html">Forêts d'entraînement</a>
           <a class="dropdown-item waves-effect waves-light" href="../Defi de Garp.html">Défi de Garp</a>
@@ -141,13 +143,19 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item waves-effect waves-light" href="../Debutant/Bien debuter.html">Bien débuter</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Souhaits de Chopper Man.html">Souhaits de
+            Chopper Man</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Taux des legendes.html">Taux des
+            personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light"
+            href="../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
           <a class="dropdown-item waves-effect waves-light" href="../Bateau/">Liste des bateaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Fete des pirates.html">Personnages par style sur la fête des pirates</a>
-          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Soutien.html">Effets de soutien
+            spécifiques</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Fete des pirates.html">Personnages par style sur la
+            fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="../Debutant/Ile des collectionneurs.html">Île des
+            collectionneurs</a>
           <a class="dropdown-item waves-effect waves-light" href="../Debutant/Tier List.html">Tier Lists</a>
         </div>
       </li>
@@ -156,18 +164,21 @@ position: absolute;
           aria-expanded="false">Progressions
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="../RR.html">Liste à cocher des personnages du recrutement rare (version normale)</a>
-          <a class="dropdown-item" href="../RRBatch.html">Liste à cocher des personnages du recrutement rare (version par lot)</a>
+          <a class="dropdown-item" href="../RR.html">Liste à cocher des personnages du recrutement rare (version
+            normale)</a>
+          <a class="dropdown-item" href="../RRBatch.html">Liste à cocher des personnages du recrutement rare (version
+            par lot)</a>
           <a class="dropdown-item" href="../Aventure.html">Liste à cocher des personnages de l'Histoire principale</a>
           <a class="dropdown-item" href="../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
-<a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
+          <a class="dropdown-item" href="../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../AvanceeRaids.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../AvanceeAttaque.html">Avancée des attaques ennemies</a>
           <a class="dropdown-item" href="../AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
-<a class="dropdown-item" href="../AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
-          <a class="dropdown-item" href="../AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="../AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
+          <a class="dropdown-item" href="../AvanceeCombatAmitie.html">Avancée des personnages des combats de
+            l'amitié</a>
         </div>
       </li>
       <li class="nav-item">
@@ -200,14 +211,21 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../Remerciements.html">Remerciements</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ" target="_blank">Chaîne de Timinou</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g" target="_blank">Chaîne de D. coza</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ" target="_blank">Chaîne de Towercorner</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw" target="_blank">Chaîne de Kaku OPTC</a>
-          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de Scaragnark</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
+            target="_blank">Chaîne de Timinou</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
+            target="_blank">Chaîne de D. coza</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
+            target="_blank">Chaîne de Towercorner</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
+            target="_blank">Chaîne de Kaku OPTC</a>
+          <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de
+            Scaragnark</a>
           <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw" target="_blank">Chaîne de SkyTrick</a>
-          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ" target="_blank">Chaîne de B-Bro</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
+            target="_blank">Chaîne de SkyTrick</a>
+          <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
+            target="_blank">Chaîne de B-Bro</a>
         </div>
       </li>
       <li class="nav-item">
@@ -220,232 +238,287 @@ position: absolute;
           <div id="searchbar">
             <input type="hidden" name="cx" value="011516564617436617087:3cpi9kq7ujc">
             <input type="hidden" name="ie" value="UTF-8">
-            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher" style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
+            <input type="text" name="q" size="20" value="" id="search_area" placeholder="Rechercher"
+              style="border: 1px solid rgb(126, 157, 185); margin-bottom: 5px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;">
           </div>
-          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden" value=""><input name="ss" type="hidden" value="">
+          <input name="siteurl" type="hidden" value="onepiecetreasurecruise.fr"><input name="ref" type="hidden"
+            value=""><input name="ss" type="hidden" value="">
         </form>
       </li>
     </ul>
   </div>
 </nav>
 
-    <header><a href="../LegendesBatch.html"><img src="../img/logo.png" alt="logo"></img></a></header>
+<header><a href="../LegendesBatch.html"><img src="../img/logo.png" alt="logo"></img></a></header>
 
-    <body>
-        <body id="STR">
-    	<h1><center><u>Personnages du lot sans personnage Sugo-Rare "Personnages "passables" - Partie 3"</u></center></h1>
-        <div id="1"></div>
-        <h3><center><u>Fiche de Genzo</u></center></h3>
-        <center><img src="https://i.imgur.com/hTBEASw.png"> <img src="https://i.imgur.com/waLBe4P.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/n3gmBXr.png" height="50%" width="50%"><img src="https://i.imgur.com/KKwRd5m.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Habitant du village de Cocoyashi</small><br>Genzo<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Un habitant du village de Cocoyashi. Il savait que Nami avait rejoint l'équipage d'Arlong pour rassembler les 100 millions de berrys nécessaires au rachat du village. Une fois l'argent saisi par le colonel Nezumi, il s'est décidé à prendre les armes.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#DC241C">STR</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>1324</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>501</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>299</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Réduit les dégâts subis de 20%.</td>
-              </tr>
-              <tr>
-                <td>Special (15→8)</td>
-                <td>Réduit la durée de "Désespoir du capitaine" de 2 tours et annule les "Onomatopées dissimulées".</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Effets de soutien</b></center></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Personnages soutenus :<br>
-                  <ul style="display: inline;">Nami</ul><br>
-                  <ul style="display: inline;">Belmer</ul><br>
-                  <ul style="display: inline;">Nojiko</ul>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0089.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0095.png" height="8%" width="8%"></center></td>
-              </tr>
-            </tbody>
-          </table>
-        <div id="2"></div>
-        <h3><center><u>Fiche d'Hiluluk</u></center></h3>
-        <center><img src="https://i.imgur.com/tdzUZD0.png"> <img src="https://i.imgur.com/qP7Jjjw.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/RDzZfZv.png" height="50%" width="50%"><img src="https://i.imgur.com/KJQB9rT.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Médecin charlatan</small><br>Dr Hiluluk<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Un médecin charlatan qui vit sur l'île de Drum. Il a traité Chopper, qui était rejeté comme un monstre aussi bien par les habitants locaux que par son vieux troupeau de cerfs, comme son propre fils, lui donnant jusqu'à son nom.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#ECAC04">PSY</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>5</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>1248</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>518</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>312</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Réduit les dégâts subis de 50% et réduit les HP de l'équipe de 10% à la fin de chaque tour.</td>
-              </tr>
-              <tr>
-                <td>Special (23→17)</td>
-                <td>Inflige le "Lien" sur le personnage pendant 10 tours, retarde toutes les attaques ennemies d'un tour et réduit les dégâts subis de 50% pendant 4 tours.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Effets de soutien</b></center></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Personnages soutenus :<br>
-                  <ul style="display: inline;">Tony-Tony Chopper</ul>
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis de 5% pendant un tour au début du dernier stage d'une quête.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis de 5% pendant un tour au début du dernier stage d'une quête.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis de 10% pendant un tour au début du dernier stage d'une quête.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis de 10% pendant un tour au début du dernier stage d'une quête.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Réduit les dégâts subis de 15% pendant un tour au début du dernier stage d'une quête.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0081.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0087.png" height="8%" width="8%"></center></td>
-              </tr>
-            </tbody>
-          </table>
+<body>
+
+  <body id="STR">
+    <h1>
+      <center><u>Personnages du lot sans personnage Sugo-Rare "Personnages "passables" - Partie 3"</u></center>
+    </h1>
+    <div id="1"></div>
+    <h3>
+      <center><u>Fiche de Genzo</u></center>
+    </h3>
+    <center><img src="https://i.imgur.com/hTBEASw.png"> <img src="https://i.imgur.com/waLBe4P.png"></center>
+    <table>
+      <table width="85%" align="center">
+        <caption><img src="https://i.imgur.com/n3gmBXr.png"><img src="https://i.imgur.com/KKwRd5m.png"></caption>
+        <tbody>
+          <tr>
+            <td>Nom</td>
+            <td><b><small>Habitant du village de Cocoyashi</small><br>Genzo<b></td>
+          </tr>
+          <tr>
+            <td>Histoire</td>
+            <td>Un habitant du village de Cocoyashi. Il savait que Nami avait rejoint l'équipage d'Arlong pour
+              rassembler les 100 millions de berrys nécessaires au rachat du village. Une fois l'argent saisi par le
+              colonel Nezumi, il s'est décidé à prendre les armes.</td>
+          </tr>
+          <tr>
+            <td>Type</td>
+            <td><b>
+                <p>
+                  <font color="#DC241C">STR</font>
+                </p><b></td>
+          </tr>
+          <tr>
+            <td>Classe 1</td>
+            <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
+          </tr>
+          <tr>
+            <td>Classe 2</td>
+            <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;" /> Intellectuel</td>
+          </tr>
+          <tr>
+            <td>Coût</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>Combo</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Emplacements de pouvoirs</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Statistiques</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>HP</td>
+            <td>1324</td>
+          </tr>
+          <tr>
+            <td>ATK</td>
+            <td>501</td>
+          </tr>
+          <tr>
+            <td>RCV</td>
+            <td>299</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Abilités</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td>Captain Ability</td>
+            <td>Réduit les dégâts subis de 20%.</td>
+          </tr>
+          <tr>
+            <td>Special (15→8)</td>
+            <td>Réduit la durée de "Désespoir du capitaine" de 2 tours et annule les "Onomatopées dissimulées".</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Effets de soutien</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Personnages soutenus :<br>
+              <ul style="display: inline;">Nami</ul><br>
+              <ul style="display: inline;">Belmer</ul><br>
+              <ul style="display: inline;">Nojiko</ul>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><b>Évolueurs requis</b></center>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%"
+                  width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0089.png"
+                  height="8%" width="8%"> <img
+                  src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0095.png" height="8%"
+                  width="8%"></center>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="2"></div>
+      <h3>
+        <center><u>Fiche d'Hiluluk</u></center>
+      </h3>
+      <center><img src="https://i.imgur.com/tdzUZD0.png"> <img src="https://i.imgur.com/qP7Jjjw.png"></center>
+      <table>
+        <table width="85%" align="center">
+          <caption><img src="https://i.imgur.com/RDzZfZv.png"><img src="https://i.imgur.com/KJQB9rT.png"></caption>
+          <tbody>
+            <tr>
+              <td>Nom</td>
+              <td><b><small>Médecin charlatan</small><br>Dr Hiluluk<b></td>
+            </tr>
+            <tr>
+              <td>Histoire</td>
+              <td>Un médecin charlatan qui vit sur l'île de Drum. Il a traité Chopper, qui était rejeté comme un monstre
+                aussi bien par les habitants locaux que par son vieux troupeau de cerfs, comme son propre fils, lui
+                donnant jusqu'à son nom.</td>
+            </tr>
+            <tr>
+              <td>Type</td>
+              <td><b>
+                  <p>
+                    <font color="#ECAC04">PSY</font>
+                  </p><b></td>
+            </tr>
+            <tr>
+              <td>Classe 1</td>
+              <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;" /> Tireur</td>
+            </tr>
+            <tr>
+              <td>Classe 2</td>
+              <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
+            </tr>
+            <tr>
+              <td>Coût</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Combo</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Emplacements de pouvoirs</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Statistiques</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>HP</td>
+              <td>1248</td>
+            </tr>
+            <tr>
+              <td>ATK</td>
+              <td>518</td>
+            </tr>
+            <tr>
+              <td>RCV</td>
+              <td>312</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Abilités</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td>Captain Ability</td>
+              <td>Réduit les dégâts subis de 50% et réduit les HP de l'équipe de 10% à la fin de chaque tour.</td>
+            </tr>
+            <tr>
+              <td>Special (23→17)</td>
+              <td>Inflige le "Lien" sur le personnage pendant 10 tours, retarde toutes les attaques ennemies d'un tour
+                et réduit les dégâts subis de 50% pendant 4 tours.</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Effets de soutien</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Personnages soutenus :<br>
+                <ul style="display: inline;">Tony-Tony Chopper</ul>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis de 5% pendant un tour au début du dernier stage d'une quête.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis de 5% pendant un tour au début du dernier stage d'une quête.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis de 10% pendant un tour au début du dernier stage d'une quête.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis de 10% pendant un tour au début du dernier stage d'une quête.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Réduit les dégâts subis de 15% pendant un tour au début du dernier stage d'une quête.</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><b>Évolueurs requis</b></center>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png"
+                    height="8%" width="8%"> <img
+                    src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0081.png" height="8%"
+                    width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0087.png"
+                    height="8%" width="8%"></center>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <div id="3"></div>
-        <h3><center><u>Fiche de Kuina</u></center></h3>
+        <h3>
+          <center><u>Fiche de Kuina</u></center>
+        </h3>
         <center><img src="https://i.imgur.com/sUDma8X.png"> <img src="https://i.imgur.com/4BSGasB.png"></center>
         <table>
           <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/NLEJUOD.png" height="50%" width="50%"><img src="https://i.imgur.com/P3bZJ9D.png" height="50%" width="50%"></caption>
+            <caption><img src="https://i.imgur.com/NLEJUOD.png"><img src="https://i.imgur.com/P3bZJ9D.png"></caption>
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -453,19 +526,24 @@ position: absolute;
               </tr>
               <tr>
                 <td>Histoire</td>
-                <td>Une petite fille épéiste et l'amie d'enfance de Zoro. C'est la fille de l'homme qui dirige le dojo où s'est entraîné Zoro. Elle s'est entraînée aux côtés de Zoro pour devenir la meilleure épéiste du monde, mais a ensuite trouvé la mort dans un accident.</td>
+                <td>Une petite fille épéiste et l'amie d'enfance de Zoro. C'est la fille de l'homme qui dirige le dojo
+                  où s'est entraîné Zoro. Elle s'est entraînée aux côtés de Zoro pour devenir la meilleure épéiste du
+                  monde, mais a ensuite trouvé la mort dans un accident.</td>
               </tr>
               <tr>
                 <td>Type</td>
-                <td><b><p><font color="#1CAC24">DEX</font></p><b></td>
+                <td><b>
+                    <p>
+                      <font color="#1CAC24">DEX</font>
+                    </p><b></td>
               </tr>
               <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur</td>
+                <td><img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;" /> Sabreur</td>
               </tr>
               <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
+                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;" /> Ambitieux</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -480,7 +558,9 @@ position: absolute;
                 <td>3</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
+                <td colspan="2">
+                  <center><b>Statistiques</b></center>
+                </td>
               </tr>
               <tr>
                 <td>HP</td>
@@ -495,7 +575,9 @@ position: absolute;
                 <td>338</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
+                <td colspan="2">
+                  <center><b>Abilités</b></center>
+                </td>
               </tr>
               <tr>
                 <td>Captain Ability</td>
@@ -503,10 +585,13 @@ position: absolute;
               </tr>
               <tr>
                 <td>Special (15→8)</td>
-                <td>Si 6 personnages font un coup "PARFAIT", multiplie l'ATK des personnages de classe Sabreur par 1,75 au tour suivant.</td>
+                <td>Si 6 personnages font un coup "PARFAIT", multiplie l'ATK des personnages de classe Sabreur par 1,75
+                  au tour suivant.</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Effets de soutien</b></center></td>
+                <td colspan="2">
+                  <center><b>Effets de soutien</b></center>
+                </td>
               </tr>
               <tr>
                 <td></td>
@@ -516,257 +601,340 @@ position: absolute;
               </tr>
               <tr>
                 <td></td>
-                <td>Multiplie l'effet du cercle du personnage soutenu par 1,1 pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
+                <td>Multiplie l'effet du cercle du personnage soutenu par 1,1 pendant un tour si le personnage soutenu
+                  utilise son coup spécial (une fois par quête).</td>
               </tr>
               <tr>
                 <td></td>
-                <td>Multiplie l'effet du cercle du personnage soutenu par 1,15 pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
+                <td>Multiplie l'effet du cercle du personnage soutenu par 1,15 pendant un tour si le personnage soutenu
+                  utilise son coup spécial (une fois par quête).</td>
               </tr>
               <tr>
                 <td></td>
-                <td>Multiplie l'effet du cercle du personnage soutenu par 1,2 pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
+                <td>Multiplie l'effet du cercle du personnage soutenu par 1,2 pendant un tour si le personnage soutenu
+                  utilise son coup spécial (une fois par quête).</td>
               </tr>
               <tr>
                 <td></td>
-                <td>Multiplie l'effet du cercle du personnage soutenu par 1,25 pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
+                <td>Multiplie l'effet du cercle du personnage soutenu par 1,25 pendant un tour si le personnage soutenu
+                  utilise son coup spécial (une fois par quête).</td>
               </tr>
               <tr>
                 <td></td>
-                <td>Multiplie l'effet du cercle du personnage soutenu par 1,3 pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
+                <td>Multiplie l'effet du cercle du personnage soutenu par 1,3 pendant un tour si le personnage soutenu
+                  utilise son coup spécial (une fois par quête).</td>
               </tr>
               <tr>
-                <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0080.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png" height="8%" width="8%"></center></td>
-              </tr>
-            </tbody>
-          </table>
-        <div id="4"></div>
-        <h3><center><u>Fiche d'Oignon, Piment et Carotte</u></center></h3>
-        <center><img src="https://i.imgur.com/NjITVJn.png"> <img src="https://i.imgur.com/e3v6jgG.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/zRHY81Q.png" height="50%" width="50%"><img src="https://i.imgur.com/cZqwVvP.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Équipage du pirate Usopp</small><br>Oignon, Piment et Carotte<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Les gamins qui composent l'équipage du pirate Usopp. Après avoir empêché le complot de l'équipage du Chat Noir d'être mis à exécution, la bande s'est dissoute, même si elle a récemment repris la vieille habitude d'Usopp de crier gare à des attaques imaginaires de pirates chaque matin.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#4C4CFF">QCK</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>6</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>1200</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>333</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>350</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Multiplie l'ATK, les HP et la RCV des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#1CAC24">DEX</font></b> et <b><font color="#4C4CFF">QCK</font></b> par 1,25.</td>
-              </tr>
-              <tr>
-                <td>Special (17→10)</td>
-                <td>Inflige 3 fois son ATK en dégâts de type <b><font color="#4C4CFF">QCK</font></b> sur un ennemi et multiplie l'ATK des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#1CAC24">DEX</font></b> et <b><font color="#4C4CFF">QCK</font></b> par 1,2 pendant 3 tours.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Effets de soutien</b></center></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Personnages soutenus :<br>
-                  <ul style="display: inline;">Usopp</ul>
+                <td colspan="2">
+                  <center><b>Évolueurs requis</b></center>
                 </td>
               </tr>
               <tr>
-                <td></td>
-                <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0090.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0091.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0092.png" height="8%" width="8%"></center></td>
-              </tr>
-            </tbody>
-          </table>
-        <div id="5"></div>
-        <h3><center><u>Fiche d'Icebarg</u></center></h3>
-        <center><img src="https://i.imgur.com/XFx51l1.png"> <img src="https://i.imgur.com/cKQzHYv.png"></center>
-        <table>
-          <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/NTbkcSe.png" height="50%" width="50%"><img src="https://i.imgur.com/fNOWS6T.png" height="50%" width="50%"></caption>
-            <tbody>
-              <tr>
-                <td>Nom</td>
-                <td><b><small>Maire de Water Seven et directeur de la "Galley-La Company"</small><br>Icebarg<b></td>
-              </tr>
-              <tr>
-                <td>Histoire</td>
-                <td>Directeur de la Galley-La Company. Il était l'apprenti du légendaire constructeur Tom aux côtés de Franky. Avant sa mort, Tom lui a donné les plans du Pluton en secret. Il a ensuite formé la Galley-La Company pour garder les plans en sécurité.</td>
-              </tr>
-              <tr>
-                <td>Type</td>
-                <td><b><p><font color="#A916B6">INT</font></p><b></td>
-              </tr>
-              <tr>
-                <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
-              </tr>
-              <tr>
-                <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
-              </tr>
-              <tr>
-                <td>Coût</td>
-                <td>15</td>
-              </tr>
-              <tr>
-                <td>Combo</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>Emplacements de pouvoirs</td>
-                <td>3</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Statistiques</b></center></td>
-              </tr>
-              <tr>
-                <td>HP</td>
-                <td>1401</td>
-              </tr>
-              <tr>
-                <td>ATK</td>
-                <td>702</td>
-              </tr>
-              <tr>
-                <td>RCV</td>
-                <td>224</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Abilités</b></center></td>
-              </tr>
-              <tr>
-                <td>Captain Ability</td>
-                <td>Multiplie l'ATK et la RCV des personnages de classe Intellectuel.</td>
-              </tr>
-              <tr>
-                <td>Special (22→16)</td>
-                <td>Change les cercles de tous les personnages en cercles de type, permet d'échanger les cercles d'emplacements 2 fois et bloque les cercles pendant un tour.</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Effets de soutien</b></center></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Personnages soutenus :<br>
-                  <ul style="display: inline;">Franky</ul>
+                <td colspan="2">
+                  <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png"
+                      height="8%" width="8%"> <img
+                      src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0080.png" height="8%"
+                      width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png"
+                      height="8%" width="8%"></center>
                 </td>
               </tr>
-              <tr>
-                <td></td>
-                <td>Permet d'échanger les cercles d'emplacements une fois si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Permet d'échanger les cercles d'emplacements une fois si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Permet d'échanger les cercles d'emplacements 2 fois si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Permet d'échanger les cercles d'emplacements 2 fois si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>Permet d'échanger les cercles d'emplacements 2 fois et bloque les cercles pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><b>Évolueurs requis</b></center></td>
-              </tr>
-              <tr>
-                <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0117.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0099.png" height="8%" width="8%"></center></td>
-              </tr>
             </tbody>
           </table>
-        <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-        <div id="scrollUp">
-            <a href="#top"><img src="../img/to_top.png" height="60%" width="60%"/></a>
-        </div>
-        <div class="baspage">
-          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-        </div>
-        <style>
-          .baspage
-          {
-            position: relative;
-            bottom: -1vw;
-            max-width: 100%;
-            width: 100%;
-          }
-        </style>
-    </body>
+          <div id="4"></div>
+          <h3>
+            <center><u>Fiche d'Oignon, Piment et Carotte</u></center>
+          </h3>
+          <center><img src="https://i.imgur.com/NjITVJn.png"> <img src="https://i.imgur.com/e3v6jgG.png"></center>
+          <table>
+            <table width="85%" align="center">
+              <caption><img src="https://i.imgur.com/zRHY81Q.png"><img src="https://i.imgur.com/cZqwVvP.png"></caption>
+              <tbody>
+                <tr>
+                  <td>Nom</td>
+                  <td><b><small>Équipage du pirate Usopp</small><br>Oignon, Piment et Carotte<b></td>
+                </tr>
+                <tr>
+                  <td>Histoire</td>
+                  <td>Les gamins qui composent l'équipage du pirate Usopp. Après avoir empêché le complot de l'équipage
+                    du Chat Noir d'être mis à exécution, la bande s'est dissoute, même si elle a récemment repris la
+                    vieille habitude d'Usopp de crier gare à des attaques imaginaires de pirates chaque matin.</td>
+                </tr>
+                <tr>
+                  <td>Type</td>
+                  <td><b>
+                      <p>
+                        <font color="#4C4CFF">QCK</font>
+                      </p><b></td>
+                </tr>
+                <tr>
+                  <td>Classe 1</td>
+                  <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;" /> Ravageur</td>
+                </tr>
+                <tr>
+                  <td>Classe 2</td>
+                  <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;" /> Libre</td>
+                </tr>
+                <tr>
+                  <td>Coût</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>Combo</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>Emplacements de pouvoirs</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Statistiques</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td>HP</td>
+                  <td>1200</td>
+                </tr>
+                <tr>
+                  <td>ATK</td>
+                  <td>333</td>
+                </tr>
+                <tr>
+                  <td>RCV</td>
+                  <td>350</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Abilités</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Captain Ability</td>
+                  <td>Multiplie l'ATK, les HP et la RCV des personnages de type <b>
+                      <font color="#DC241C">STR</font>
+                    </b>, <b>
+                      <font color="#1CAC24">DEX</font>
+                    </b> et <b>
+                      <font color="#4C4CFF">QCK</font>
+                    </b> par 1,25.</td>
+                </tr>
+                <tr>
+                  <td>Special (17→10)</td>
+                  <td>Inflige 3 fois son ATK en dégâts de type <b>
+                      <font color="#4C4CFF">QCK</font>
+                    </b> sur un ennemi et multiplie l'ATK des personnages de type <b>
+                      <font color="#DC241C">STR</font>
+                    </b>, <b>
+                      <font color="#1CAC24">DEX</font>
+                    </b> et <b>
+                      <font color="#4C4CFF">QCK</font>
+                    </b> par 1,2 pendant 3 tours.</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Effets de soutien</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Personnages soutenus :<br>
+                    <ul style="display: inline;">Usopp</ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
+                    soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
+                    soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
+                    soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
+                    soutenus.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
+                    soutenus.</td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><b>Évolueurs requis</b></center>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0090.png"
+                        height="8%" width="8%"> <img
+                        src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0091.png" height="8%"
+                        width="8%"> <img
+                        src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0092.png" height="8%"
+                        width="8%"></center>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div id="5"></div>
+            <h3>
+              <center><u>Fiche d'Icebarg</u></center>
+            </h3>
+            <center><img src="https://i.imgur.com/XFx51l1.png"> <img src="https://i.imgur.com/cKQzHYv.png"></center>
+            <table>
+              <table width="85%" align="center">
+                <caption><img src="https://i.imgur.com/NTbkcSe.png"><img src="https://i.imgur.com/fNOWS6T.png">
+                </caption>
+                <tbody>
+                  <tr>
+                    <td>Nom</td>
+                    <td><b><small>Maire de Water Seven et directeur de la "Galley-La Company"</small><br>Icebarg<b></td>
+                  </tr>
+                  <tr>
+                    <td>Histoire</td>
+                    <td>Directeur de la Galley-La Company. Il était l'apprenti du légendaire constructeur Tom aux côtés
+                      de Franky. Avant sa mort, Tom lui a donné les plans du Pluton en secret. Il a ensuite formé la
+                      Galley-La Company pour garder les plans en sécurité.</td>
+                  </tr>
+                  <tr>
+                    <td>Type</td>
+                    <td><b>
+                        <p>
+                          <font color="#A916B6">INT</font>
+                        </p><b></td>
+                  </tr>
+                  <tr>
+                    <td>Classe 1</td>
+                    <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;" /> Tireur</td>
+                  </tr>
+                  <tr>
+                    <td>Classe 2</td>
+                    <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;" /> Intellectuel</td>
+                  </tr>
+                  <tr>
+                    <td>Coût</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>Combo</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Emplacements de pouvoirs</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Statistiques</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>HP</td>
+                    <td>1401</td>
+                  </tr>
+                  <tr>
+                    <td>ATK</td>
+                    <td>702</td>
+                  </tr>
+                  <tr>
+                    <td>RCV</td>
+                    <td>224</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Abilités</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Captain Ability</td>
+                    <td>Multiplie l'ATK et la RCV des personnages de classe Intellectuel.</td>
+                  </tr>
+                  <tr>
+                    <td>Special (22→16)</td>
+                    <td>Change les cercles de tous les personnages en cercles de type, permet d'échanger les cercles
+                      d'emplacements 2 fois et bloque les cercles pendant un tour.</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Effets de soutien</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Personnages soutenus :<br>
+                      <ul style="display: inline;">Franky</ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Permet d'échanger les cercles d'emplacements une fois si le personnage soutenu utilise son coup
+                      spécial (une fois par quête).</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Permet d'échanger les cercles d'emplacements une fois si le personnage soutenu utilise son coup
+                      spécial (une fois par quête).</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Permet d'échanger les cercles d'emplacements 2 fois si le personnage soutenu utilise son coup
+                      spécial (une fois par quête).</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Permet d'échanger les cercles d'emplacements 2 fois si le personnage soutenu utilise son coup
+                      spécial (une fois par quête).</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>Permet d'échanger les cercles d'emplacements 2 fois et bloque les cercles pendant un tour si le
+                      personnage soutenu utilise son coup spécial (une fois par quête).</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><b>Évolueurs requis</b></center>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0116.png"
+                          height="8%" width="8%"> <img
+                          src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0117.png" height="8%"
+                          width="8%"> <img
+                          src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0099.png" height="8%"
+                          width="8%"></center>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
+              <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
+              <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
+              <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
+              <div id="scrollUp">
+                <a href="#top"><img src="../img/to_top.png" height="60%" width="60%" /></a>
+              </div>
+              <div class="baspage">
+                <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+              </div>
+              <style>
+                .baspage {
+                  position: relative;
+                  bottom: -1vw;
+                  max-width: 100%;
+                  width: 100%;
+                }
+              </style>
+  </body>
+
 </html>
 
 <table class="detail b">
-<tbody>
+  <tbody>
