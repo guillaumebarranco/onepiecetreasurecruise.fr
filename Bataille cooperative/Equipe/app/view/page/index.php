@@ -247,6 +247,10 @@ position: absolute;
 ?></div></div>
         <br><br><br>
         <script type="text/javascript" src="../../Accueil/js/jquery-3.3.1.min.js"></script>
+        <script src="../../shared/navbar.js"></script>
+        <script>
+          addNavbar("lists", 'kizuna', 2);
+        </script>
         <script type="text/javascript" src="../../Accueil/js/popper.min.js"></script>
         <script type="text/javascript" src="../../Accueil/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="../../Accueil/js/mdb.js"></script>
