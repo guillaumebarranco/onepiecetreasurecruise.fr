@@ -1,975 +1,1207 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-127847674-1');
-        </script>
-        <meta charset="utf-8" />
-        <title>Guide du prochain combat de l'amitié</title>
-        <link href="../bootstrap.css" rel="stylesheet">
-  <link href="../shared/generic.css" rel="stylesheet" />
-        <link href="../shared/generic.css" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-<link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-<link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-<link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-<link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-<meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="script.js"></script>
-        <script>
-            jQuery(function(){
-                $(function () {
-                    $(window).scroll(function () {
-                        if ($(this).scrollTop() > 200 ) {
-                            $('#scrollUp').css('right');
-                        } else {
-                            $('#scrollUp').removeAttr( 'style' );
-                        }
-                    });
-                });
-            });
-        </script>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Guide du prochain combat de l'amitié</title>
+    <link href="../bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../shared/generic.css" />
+    <link rel="stylesheet" href="../shared/guides.css" />
+    <link rel="stylesheet" href="../shared/backgrounds.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png" />
+    <link
+      rel="icon"
+      sizes="32x32"
+      href="https://i.imgur.com/8878Ai5.png"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      sizes="64x64"
+      href="https://i.imgur.com/g9Z1vTh.png"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      sizes="96x96"
+      href="https://i.imgur.com/JrwHqpx.png"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      sizes="196x196"
+      href="https://i.imgur.com/RlxE1HW.png"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://i.imgur.com/JLXSWVX.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="https://i.imgur.com/Qu453Fa.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="https://i.imgur.com/Axrgthf.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="https://i.imgur.com/lrkVWWl.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://i.imgur.com/dQsf6vt.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="https://i.imgur.com/fayMNRr.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://i.imgur.com/0Rbziea.png"
+    />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+  </head>
 
+  <body id="DEX">
     <div class="entete">
-      <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-      <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
+      <img src="https://i.imgur.com/adWoClY.png" class="entetefond" />
+      <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard" />
+      <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop" />
+      <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo" /></a>
     </div>
-    <style>
-      .entetetop
-      {
-        position: relative;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .entetefond
-      {
-        position: absolute;
-        top: 0;
-        max-width: 100%;
-        width: 100%;
-      }
-      .logo
-      {
-        width: 40vw;
-        top: 0;
-        left: 30%;
-        position: relative;
-      }
-      .newsboard
-      {
-        top: 0;
-        right: 1vw;
-        max-width: 25%;
-        width: 25%;
-        position: absolute;
-      }
-    </style>
+
     <div id="optcnavbar"></div>
 
-    <header><a href="../Bataille cooperative.html"><img src="../img/logo.png" alt="logo"></img></a></header>
+    <a href="../Carte aux tresors.html">
+      <img src="../img/logo.png" alt="logo" />
+    </a>
 
-    <body>
-        <body id="PSY">
-            <h1><center><u>Guide du prochain combat de l'amitié</u></center></h1>
-            <!-- <h2><center><u>Équipes pour le combat de l'amitié</u></center></h2>
-            <center><a href="../Bataille cooperative/Equipe/" target="_blank"><button class="btn btn-primary">Accéder à la page</button></a></center> -->
-            <h2><center><u>Personnage du prochain combat de l'amitié</u></center></h2>
-            <center><a href="../Bataille cooperative/Basil Hawkins.html" target="_blank"><img src="https://i.imgur.com/ch3lb2r.png"></a></center>
-            <!-- <h2><center><u>Personnage de préparation au combat de l'amitié</u></center></h2>
-            <center><a href="../Bataille cooperative/Neo Kobby.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3111.png"></a></center><br> -->
-            <h2><center><u>Guide du combat de l'amitié</u></center></h2>
-            <h3><center><u>Personnage avec ses statistiques multipliées par 2,5, son coup spécial réduit de 15 tours, les tickets reçus multipliés par 1,3, une Captain Ability améliorée pour l'événement et rend les effets de type de l'ATK du personnage avantageux contre tous les types</u></center></h3>
-            <h4><center><u>Multiplie l'ATK des personnages de classe Sabreur et Tenace par 5, les HP par 1,25 et rend les cercles <b><font color="#1CAC24">[DEX]</font></b> avantageux pour tous les personnages.</u></center></h4>
-            <center><a href="../Bataille cooperative/Limites/Zorojuro.html" target="_blank"><img src="https://i.imgur.com/Pcf6iEs.png" style="border:solid 3px black"></a></center><br>
-            <h3><center><u>Personnage avec ses statistiques multipliées par 2,5, son coup spécial réduit de 15 tours, les tickets reçus multipliés par 1,3 et rend les effets de type de l'ATK du personnage avantageux contre tous les types</u></center></h3>
-            <center><a href="../Bataille cooperative/Limites/Heart.html" target="_blank"><img src="https://i.imgur.com/EEasgl1.png" style="border:solid 3px purple"></a> <a href="../Bataille cooperative/Limites/Trafalgar Law.html" target="_blank"><img src="https://i.imgur.com/LQSUZKo.png" style="border:solid 3px purple"></a></center><br>
-            <h3><center><u>Personnages avec leurs statistiques multipliées par 2 et leurs coups spéciaux réduits de 15 tours</u></center></h3>
-            <center><a href="../Barbe Noire 1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1268.png"></a> <a href="../Barbe Noire 1.html" target="_blank"><img src="https://i.imgur.com/stPKPuN.png"></a> <a href="../Kaido VS Big Mom.html" target="_blank"><img src="https://i.imgur.com/OF7rnud.png"></a> <a href="../Kaido VS Big Mom.html" target="_blank"><img src="https://i.imgur.com/WjyES0B.png"></a> <a href="../Kaido VS Big Mom.html#1" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3137.png"></a> <a href="../Kaido VS Big Mom.html#2" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3139.png"></a><br><a href="../Kaido VS Big Mom.html#3" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3141.png"></a> <a href="../Bataille cooperative/Eustass Kidd.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3124.png"></a> <a href="../Festival des pirates/X-Drake.html" target="_blank"><img src="https://i.imgur.com/vY7NNUY.png"></a> <a href="../Raids/O-Nami et Shinobu.html" target="_blank"><img src="https://i.imgur.com/HU2cZIo.png"></a> <a href="../Carte aux tresors/Eustass Kidd.html" target="_blank"><img src="https://i.imgur.com/eSny13n.png"></a> <a href="../Arene/Kamazo.html" target="_blank"><img src="https://i.imgur.com/h261z28.png"></a></center><br>
-            <!-- <h3><center><u>Personnages avec leurs statistiques multipliées par 1,5 et leurs coups spéciaux réduits de 15 tours</u></center></h3>
-            <center><a href="../Bataille cooperative/Limites/Tony-Tony Chopper.html" target="_blank"><img src="https://i.imgur.com/0JToNcv.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Monet.html" target="_blank"><img src="https://i.imgur.com/bNKtIyR.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Akainu.html" target="_blank"><img src="https://i.imgur.com/g92SsFZ.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Belo Betty.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2853.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Nightmare Luffy.html" target="_blank"><img src="https://i.imgur.com/1Y50rDU.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Nami.html" target="_blank"><img src="https://i.imgur.com/ps0ycpG.png" style="border:solid 3px blue"></a><br><a href="../Bataille cooperative/Limites/Brook.html" target="_blank"><img src="https://i.imgur.com/4YVMuIb.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Sandersonia et Marigold.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2996.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Margaret.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2997.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Nyon.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2998.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Ben Beckmann.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3120.png" style="border:solid 3px blue"></a> <a href="../Bataille cooperative/Limites/Yasopp.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3121.png" style="border:solid 3px blue"></a></center><br>
-            <h3><center><u>Personnages avec leurs statistiques multipliées par 1,25 et leurs coups spéciaux réduits de 15 tours</u></center></h3>
-            <center><a href="../Shanks 3.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3118.png"></a> <a href="../Dracule Mihawk 3.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3100.png"></a> <a href="../Trafalgar Law 4.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3102.png"></a> <a href="../Trafalgar Law 4.html#1" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3104.png"></a> <a href="../Trafalgar Law 4.html#2" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3106.png"></a> <a href="../Raids/Shiki.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1108.png"></a> <a href="../Raids/Sanji Vinsmoke.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1815.png"></a> <a href="../Raids/CP9.html" target="_blank"><img src="https://i.imgur.com/KosUyV9.png"></a> <a href="../Attaque ennemie/Neo CP9.html" target="_blank"><img src="https://i.imgur.com/G5bjY4W.png"></a><br><a href="../Raids/Charlotte Cracker.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2158.png"></a> <a href="../Raids/Judge Vinsmoke.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2281.png"></a> <a href="../Raids/O-Soba Mask.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2987.png"></a> <a href="../Raids/Rob Lucci 1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2015.png"></a> <a href="../Raids/Kaido.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2922.png"></a> <a href="../Attaque ennemie/Neo Kaido.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2923.png"></a> <a href="../Raids/Crocodile 2.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2956.png"></a> <a href="../Fortnight/Carrot.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1812.png"> <a href="../Fortnight/Rebecca.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2146.png"><br><a href="../Fortnight/Shanks.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2019.png"> <a href="../Fortnight/Scratchmen Apoo.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1855.png"> <a href="../Fortnight/Vista.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1997.png"> <a href="../Fortnight/Elizabello II.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1564.png"> <a href="../Fortnight/Aventure 1.html" target="_blank"><img src="https://i.imgur.com/FZeamvI.png"> <a href="../Fortnight/Aventure 2.html" target="_blank"><img src="https://i.imgur.com/k3ydz5w.png"> <a href="../Fortnight/Aventure 1.html" target="_blank"><img src="https://i.imgur.com/Rol4rDc.png"> <a href="../Fortnight/Aventure 1.html" target="_blank"><img src="https://i.imgur.com/1ru6sl7.png"> <a href="../Fortnight/Aventure 2.html" target="_blank"><img src="https://i.imgur.com/KdWoZLL.png"><br><a href="../Fortnight/Aventure 1.html" target="_blank"><img src="https://i.imgur.com/lRLqMoz.png"> <a href="../Fortnight/Aventure 2.html" target="_blank"><img src="https://i.imgur.com/XNWmtN0.png"> <a href="../Fortnight/Aventure 1.html" target="_blank"><img src="https://i.imgur.com/iMYiC3a.png"> <a href="../Fortnight/Aventure 2.html" target="_blank"><img src="https://i.imgur.com/xUInfiO.png"></a></center><br> -->
-            <h3><center><u>Personnages ne pouvant pas être utilisés</u></center></h3>
-            <center><a href="../Barbe Noire 1.html#4" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1275.png"></a> <a href="../Barbe Noire 1.html#4" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1276.png"></a> <a href="../Ener.html#1" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1611.png"></a> <a href="../Ener.html#1" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1612.png"></a> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1608.png">
-            <!-- <h3><center><u>Quête de préparation au combat de l'amitié</u></center></h3>
-            <table>
-                <table id="normal" align="center">
-                    <tbody>
-                          <tr>
-                            <td width=10%>Boss</td>
-                            <td>
-                                <b><font color="#A916B6">Kobby</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 500 000 HP.<br>
-                                      <u>ATK :</u> 3 100 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il fera une action aléatoire :
-                                            <ul>
-                                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Lien" sur un personnage aléatoire pendant 4 tours.<br>
-                                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Désespoir du capitaine" sur les capitaines pendant 3 tours.<br>
-                                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il se mettra une barrière avec un cercle <b><font color="#A916B6">[INT]</font></b> pendant 2 tours.<br>
-                                            </ul>
-                                        </ul>
-                                    </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table> -->
-            <h3><center><u>Quête avec le boss de type <b><font color="#1CAC24">DEX</font></b></u></center></h3>
-            <table>
-                <table id="normal" align="center">
-                    <tbody>
-                        <tr>
-                            <td width=10%>Stage 1</td>
-                            <td>
-                                <b><font color="#A916B6">O-Tama</font></b>
-                                    <ul><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Elle réduira le temps de chargement des coups spéciaux des personnages de type <b><font color="#DC241C">STR</font></b>, <b><font color="#1CAC24">DEX</font></b> et <b><font color="#4C4CFF">QCK</font></b> de 15 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Elle partira.<br>
-                                        </ul>
-                                    </ul>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Stage 2</td>
-                            <td>
-                                <b><font color="#ECAC04">Holdem</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 2 000 000 HP.<br>
-                                      <u>ATK :</u> 7 100 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/aF0nEcN.png" style="vertical-align: bottom;"/> Il mettra une immunité aux retards pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/kTSvHWp.png" style="vertical-align: bottom;"/> Il mettra la "Brûlure" sur l'équipe (5 000 points de dégâts par coup "PARFAIT") pendant 4 tours.<br>
-                                        </ul>
-                                      <u>1er tour :</u> <img src="https://i.imgur.com/Wu6tLbX.png" style="vertical-align: bottom;"/> Il mettra les "Onomatopées dissimulées" pendant 3 tours.<br>
-                                      <u>3ème tour et tous les 2 tours :</u> Il inversera le temps de chargement des coups spéciaux de tous les personnages de 5 tours.<br>
-                                    </ul>
-                                <b><font color="#DC241C">Deux Pleasures</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 60 000 HP.<br>
-                                      <u>ATK :</u> 6 592 points de dégâts tous les 2 tours.<br>
-                                    </ul>
-                            </td>
-                          </tr>
-                          <!-- <tr>
-                            <td>Stage 2 (B, rare)</td>
-                            <td>
-                                <b><font color="#ECAC04">Trafalgar Law</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 2 000 000 HP.<br>
-                                      <u>ATK :</u> 7 100 points de dégâts tous les tours.<br>
-                                      <u>Barrière :</u> 12 coups pendant 4 tours.<br><br>
-                                      <u><b>Actions préventives :</b></u> <img src="https://i.imgur.com/GhVbCs9.png" style="vertical-align: bottom;"/> Il multipliera sa défense par 300 pendant 4 tours.<br>
-                                      <u>1er tour :</u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il enlèvera 50% des HP de l'équipe.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                        </ul>
-                                      <u><b><font color="#DC241C">Action ultime :</font></b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il multipliera les effets des cercles par 2,25 pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                        </ul>
-                                    </ul>
-                            </td>
-                          </tr> -->
-                          <tr>
-                            <td>Boss</td>
-                            <td>
-                                <b><font color="#1CAC24">Basil Hawkins</font></b>
-                                    <ul><br>
-                                      <u>HP (au 1er niveau) :</u> 5 500 000 HP.<br>
-                                      <u>ATK (au 1er niveau) :</u> 10 000 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/u2O1BNQ.png" style="vertical-align: bottom;"/> Il se mettra une immunité pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra la "Paralysie" sur tous les personnages pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il inversera le temps de chargement des coups spéciaux de tous les personnages d'un tour.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra des cercles désavantageux à toute l'équipe.<br>
-                                          <img src="https://i.imgur.com/rlltiyj.png" style="vertical-align: bottom;"/> Seules les attaques normales infligeront des dégâts sur les ennemis pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> À partir d'un seuil entre 24 156 000 et 24 687 000 (70ème niveau) :
-                                            <ul>
-                                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Lien des coups spéciaux" sur tous les personnages pendant 5 tours.<br>
-                                            </ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> À partir d'un seuil entre 110 810 000 et 113 250 000 (142ème niveau) :
-                                            <ul>
-                                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra la "Paralysie" sur tous les personnages pendant 5 tours.<br>
-                                            </ul>
-                                        </ul>
-                                      <u>Si un coup spécial qui enlève un pourcentage d'HP est utilisé :</u> Il se restaurera tous leurs HP.<br>
-                                      <u>1er tour :</u> Il mettra le "Lien des cercles" sur tous les personnages pendant 3 tours.<br>
-                                      <u>2ème tour :</u> Il mettra le "Lien des cercles" sur tous les personnages pendant 2 tours.<br>
-                                      <u>3ème tour :</u> Il projettera hors de l'écran 2 personnages aléatoires.<br>
-                                      <u>5ème tour :</u> Il attaquera avec beaucoup de points de dégâts.<br>
-                                      <u>En-dessous des 20% d'HP :</u> <img src="https://i.imgur.com/tvWlo3c.png" style="vertical-align: bottom;"/> Il annulera les dégâts subis pendant 2 tours.<br>
-                                    </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#HP1"><b>Voir les HP de Basil Hawkins</b></button></center>
-              <br>
-              <div id="HP1" class="collapse">
-              <table>
-                <table id="normal" width="30%" align="center">
-                    <tbody>
-                        <tr>
-                            <td><center><img src="https://i.imgur.com/97tYATN.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss11"><b><img src="https://i.imgur.com/kTSvHWp.png" style="vertical-align: bottom;"/> Réduction de la durée de "Brûlure"</b></button></center>
-              <br>
-              <div id="Boss11" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>4 tours ou plus</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3137.png"> <img src="https://i.imgur.com/h261z28.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1577.png" data-tooltip="<li>Personnages concernés : Momonosuké Kozuki</li><li>Effets de soutien : Change le cercle du personnage soutenu en cercle correspondant et réduit la durée de “Brûlure” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3183.png" data-tooltip="<li>Personnages concernés : Gol D. Roger, Silvers Rayleigh et Laboon</li><li>Effets de soutien : Réduit les dégâts subis de 50% pendant un tour, restaure 2 000 HP et réduit la durée de “Brûlure” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://i.imgur.com/W25qRfi.png" data-tooltip="<li>Personnages concernés : Neptune</li><li>Effets de soutien : Réduit la durée de “Brûlure” de 3 tours et change les cercles <b style='color:#777'>[EMP]</b>, <b style='color:orange'>[G]</b>, <b style='color:maroon'>[BOMB]</b> et <b style='color:peru'>[TND]</b> en cercles correspondants si le personnage soutenu utilise un coup spécial qui manipule les cercles (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss12"><b>Réduction de la durée de "Paralysie"</b></button></center>
-              <br>
-              <div id="Boss12" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>5 tours ou plus</td>
-                            <td><center><img src="https://i.imgur.com/EEasgl1.png" style="border:solid 3px purple"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour</td>
-                          <td><center><img src="https://i.imgur.com/0JToNcv.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke</li><li>Effets de soutien : Réduit la durée de “Paralysie” et des réductions d'ATK de 1 tour et restaure 3 000 HP si un personnage a été touché par la “Paralysie” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0367.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1001.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://i.imgur.com/u9CRe34.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy et Roronoa Zoro</li><li>Effets de soutien : Réduit la durée de “Paralysie” et de “Désespoir du capitaine” de 2 tours si un personnage a été touché par la “Paralysie” ou le “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://i.imgur.com/KBeErRM.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1660.png" data-tooltip="<li>Personnages concernés : Kinémon, Kanjuro Kurozumi, Caborage, Chavipère et Momonosuké Kozuki</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1759.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro, Nami, Sanji Vinsmoke et Tony-Tony Chopper</li><li>Effets de soutien : Réduit la durée de “Paralysie” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise un coup spécial qui réduit la durée de “Paralysie” ou de “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1959.png" data-tooltip="<li>Personnages concernés : Neptune et Fukaboshi</li><li>Effets de soutien : Réduit la durée de “Paralysie” et des réductions d'ATK de 2 tours si un personnage a été touché par la “Paralysie” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2195.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://i.imgur.com/UPraIoX.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Nico Robin, Franky et Brook</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://i.imgur.com/8MABpVf.png" data-tooltip="<li>Personnages concernés : Eustass Kidd</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1035.png" data-tooltip="<li>Personnages concernés : Nico Robin et Cavendish</li><li>Effets de soutien : Réduit la durée de “Paralysie” de 3 tours si un personnage a été touché par la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1440.png" data-tooltip="<li>Personnages concernés : Hody Jones, Hyozo, Ikaros Much, Dosun et Zeo</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Paralysie” du personnage soutenu de 3 tours si un personnage a été touché par le “Lien des coups spéciaux” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1928.png" data-tooltip="<li>Personnages concernés : Nico Robin et Cavendish</li><li>Effets de soutien : Réduit la durée de “Paralysie” de 3 tours si un personnage a été touché par la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2461.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Sanji Vinsmoke, Carrot et Pedro</li><li>Effets de soutien : Réduit la durée de “Paralysie” du personnage soutenu de 3 tours, réduit le temps de chargement du coup spécial du personnage soutenu de 3 tours et réduit les dégâts subis de 75% pendant un tour si un personnage a été touché par la “Paralysie” ou l'inversion des coups spéciaux (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss13"><b>Réduction du temps de chargement des coups spéciaux</b></button></center>
-              <br>
-              <div id="Boss13" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Captain Ability</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>1 tour ou plus</td>
-                            <td><center><img src="https://i.imgur.com/eSny13n.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td width="10%">1 tour ou plus</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3137.png"> <img src="https://i.imgur.com/Pcf6iEs.png" style="border:solid 3px black"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0453.png" data-tooltip="<li>Personnages concernés : Barbe Blanche (Edward Newgate), Marco, Portgas D. Ace et Vista</li><li>Effets de soutien : Change le cercle du personnage soutenu en cercle <b style='color:#ECAC04'>[PSY]</b> et réduit le temps de chargement du coup spécial du personnage soutenu de 1 tour au début du dernier stage d'une quête.</li>"> <img src="https://i.imgur.com/MEO8XzT.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy et Don Quijote Rosinante</li><li>Effets de soutien : Restaure 3 000 HP et réduit le temps de chargement du coup spécial du personnage soutenu de 1 tour au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1616.png" data-tooltip="<li>Personnages concernés : Nico Robin, Das Bones (Mr 1) et Bentham (Mr 2 Bonclay)</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” du personnage soutenu de 3 tours et réduit le temps de chargement du coup spécial du personnage soutenu d'un tour au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2001.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy et Don Quijote Rosinante</li><li>Effets de soutien : Restaure 3 000 HP et réduit le temps de chargement du coup spécial du personnage soutenu de 1 tour au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2455.png" data-tooltip="<li>Personnages concernés : Judge Vinsmoke, Reiju Vinsmoke, Ichiji Vinsmoke, Niji Vinsmoke, Sanji Vinsmoke et Yonji Vinsmoke</li><li>Effets de soutien : Restaure 3 000 HP, réduit le temps de chargement du coup spécial du personnage soutenu de 1 tour et change le cercle du personnage soutenu (cercle <b style='color:darkslateblue'>[BLK]</b> inclus) en cercle <b style='color:peru'>[TND]</b> au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3175.png" data-tooltip="<li>Personnages concernés : Kinémon, Kanjuro Kurozumi, Raizo, Kikunojo (O-Kiku), Ashura Doji (Shutenmaru), Caborage, Chavipère, Kawamatsu, Denjiro (Kyoshiro), Momonosuké Kozuki, Hiyori Kozuki (Komurasaki), Gol D. Roger et Barbe Blanche (Edward Newgate)</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu d'un tour et change le cercle du personnage soutenu en cercle <b style='color:saddlebrown'>[WA]</b> au début du dernier stage d'une quête.</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1230.png" data-tooltip="<li>Personnages concernés : Borsalino (Kizaru)</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours et change les cercles du personnage soutenu et du capitaine ami en cercles correspondants au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1310.png" data-tooltip="<li>Personnages concernés : Kanjuro Kurozumi, Momonosuké Kozuki et Raizo</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1434.png" data-tooltip="<li>Personnages concernés : Zeo, Dosun, Ikaros Much, Daruma, Hyouzo, Arlong, Wadatsumi et Fisher Tiger</li><li>Effets de soutien : Réduit le temps de chargement des coups spéciaux des personnages de classe Tenace de 2 tours si un personnage a été touché par l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1880.png" data-tooltip="<li>Personnages concernés : Zeo, Dosun, Ikaros Much, Daruma, Hyouzo, Arlong, Wadatsumi et Fisher Tiger</li><li>Effets de soutien : Réduit le temps de chargement des coups spéciaux des personnages de classe Tenace de 2 tours si un personnage a été touché par l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2702.png" data-tooltip="<li>Personnages concernés : Kaido</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://i.imgur.com/3rInSq6.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Nami, Tony-Tony Chopper, Pekoms, Carrot et Charlotte Dent-de-chien</li><li>Effets de soutien : Restaure 2 000 HP, réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours, change les cercles <b style='color:darkslateblue'>[BLK]</b> en cercles correspondants et change le cercle du personnage soutenu en cercle correspondant au début du dernier stage d'une quête.</li>"> <img src="https://i.imgur.com/FJqE403.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” du personnage soutenu de 2 tours et réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2973.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy et Tony-Tony Chopper</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours et change le cercle du personnage soutenu en cercle correspondant au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3020.png" data-tooltip="<li>Personnages concernés : Reiju Vinsmoke</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par l'inversion des coups spéciaux (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1794.png" data-tooltip="<li>Personnages concernés : Koala, Rebecca et Hack</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 3 tours si un personnage a été touché par l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2392.png" data-tooltip="<li>Personnages concernés : Franky</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Désespoir du capitaine” du personnage soutenu de 3 tours et réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou le “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2461.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Sanji Vinsmoke, Carrot et Pedro</li><li>Effets de soutien : Réduit la durée de “Paralysie” du personnage soutenu de 3 tours, réduit le temps de chargement du coup spécial du personnage soutenu de 3 tours et réduit les dégâts subis de 75% pendant un tour si un personnage a été touché par la “Paralysie” ou l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://i.imgur.com/GQgWFOd.png" data-tooltip="<li>Personnages concernés : Koala, Rebecca et Hack</li><li>Effets de soutien : Réduit le temps de chargement du coup spécial du personnage soutenu de 3 tours si un personnage a été touché par l'inversion des coups spéciaux (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss14"><b>Réduction de la durée de "Lien des coups spéciaux"</b></button></center>
-              <br>
-              <div id="Boss14" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td width="10%">5 tours ou plus</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3137.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1660.png" data-tooltip="<li>Personnages concernés : Kinémon, Kanjuro Kurozumi, Caborage, Chavipère et Momonosuké Kozuki</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1947.png" data-tooltip="<li>Personnages concernés : Hody Jones</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Lien des coups spéciaux” de 2 tours si un personnage a été touché par le “Lien” ou le “Lien des coups spéciaux” (une fois par quête).</li>"> <img src="https://i.imgur.com/FJqE403.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” du personnage soutenu de 2 tours et réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou l'inversion des coups spéciaux (une fois par quête).</li>"> <img src="https://i.imgur.com/ps0ycpG.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke et Brook</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” du personnage soutenu de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3073.png" data-tooltip="<li>Personnages concernés : Charlotte Linlin (Big Mom) et Charlotte Slurp</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et de “Lien des coups spéciaux” de 2 tours si un personnage a été touché par le “Désespoir du capitaine” ou le “Lien des coups spéciaux” (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1440.png" data-tooltip="<li>Personnages concernés : Hody Jones, Hyozo, Ikaros Much, Dosun et Zeo</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Paralysie” du personnage soutenu de 3 tours si un personnage a été touché par le “Lien des coups spéciaux” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1616.png" data-tooltip="<li>Personnages concernés : Nico Robin, Das Bones (Mr 1) et Bentham (Mr 2 Bonclay)</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” du personnage soutenu de 3 tours et réduit le temps de chargement du coup spécial du personnage soutenu d'un tour au début du dernier stage d'une quête.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2251.png" data-tooltip="<li>Personnages concernés : Kobby, Hermep et Kuzan (Aokiji)</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” de 3 tours si un personnage a été touché par le “Lien des coups spéciaux” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2392.png" data-tooltip="<li>Personnages concernés : Franky</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Désespoir du capitaine” du personnage soutenu de 3 tours et réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou le “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2481.png" data-tooltip="<li>Personnages concernés : Hody Jones, Ikaros Much, Daruma et Dosun</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et de “Lien des coups spéciaux” de 3 tours si le personnage soutenu utilise un coup spécial qui manipule les cercles (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2991.png" data-tooltip="<li>Personnages concernés : Kobby, Hermep et Kuzan (Aokiji)</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” de 3 tours si un personnage a été touché par le “Lien des coups spéciaux” (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-            <h3><center><u>Quête avec le boss de type <b><font color="#4C4CFF">QCK</font></b></u></center></h3>
-            <table>
-                <table id="normal" align="center">
-                    <tbody>
-                        <tr>
-                            <td width=10%>Stage 1</td>
-                            <td>
-                                <b><font color="#1CAC24">O-Kiku</font></b>
-                                    <ul><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il/Elle réduira le temps de chargement des coups spéciaux des personnages de classe Tenace, Sabreur et Cogneur de 15 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il/Elle partira.<br>
-                                        </ul>
-                                    </ul>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Stage 2</td>
-                            <td>
-                                <b><font color="#A916B6">Page One</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 2 000 000 HP.<br>
-                                      <u>ATK :</u> 7 100 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/aF0nEcN.png" style="vertical-align: bottom;"/> Il mettra une immunité aux retards pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il se mettra une barrière de 2 coups "PARFAIT" pendant 3 tours.<br>
-                                        </ul>
-                                      <u>1er tour :</u>
-                                        <ul>
-                                          Il mettra des cercles <b><font color="#777">[EMP]</font></b> à toute l'équipe.<br>
-                                          Il bloquera les cercles pendant un tour.<br>
-                                        </ul>
-                                      <u>3ème tour et tous les 2 tours :</u> Il inversera le temps de chargement des coups spéciaux de tous les personnages de 5 tours.<br>
-                                    </ul>
-                                <b><font color="#1CAC24">Deux Pleasures</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 60 000 HP.<br>
-                                      <u>ATK :</u> 6 592 points de dégâts tous les 2 tours.<br>
-                                    </ul>
-                            </td>
-                          </tr>
-                          <!-- <tr>
-                            <td>Stage 2 (B, rare)</td>
-                            <td>
-                                <b><font color="#ECAC04">Trafalgar Law</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 2 000 000 HP.<br>
-                                      <u>ATK :</u> 7 100 points de dégâts tous les tours.<br>
-                                      <u>Barrière :</u> 2 coups "PARFAIT" pendant 4 tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/YvtNGvf.png" style="vertical-align: bottom;"/> Il réduira drastiquement la partie des dégâts infligés par l'équipe qui excède ? pendant 4 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra des cercles <b><font color="1CAC24">[DEX]</font></b> aux personnages de la rangée du haut.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra un cercle <b><font color="#A916B6">[INT]</font></b> au personnage à gauche de la rangée du milieu.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra un cercle <b><font color="#DC241C">[STR]</font></b> au personnage à droite de la rangée du milieu.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra un cercle <b><font color="#ECAC04">[PSY]</font></b> au personnage à gauche de la rangée du bas.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra un cercle <b><font color="#4C4CFF">[QCK]</font></b> au personnage à droite de la rangée du bas.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il bloquera les cercles des personnages de la rangée du haut jusqu'à un coup "PARFAIT".<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il bloquera les cercles des personnages de la rangée du milieu et de la rangée du bas pendant un tour.<br>
-                                        </ul>
-                                      <u>1er tour :</u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il enlèvera 50% des HP de l'équipe.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                        </ul>
-                                      <u><b><font color="#DC241C">Action ultime :</font></b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il multipliera les effets des cercles par 2,25 pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                        </ul>
-                                    </ul>
-                            </td>
-                          </tr> -->
-                          <tr>
-                            <td>Boss</td>
-                            <td>
-                                <b><font color="#4C4CFF">Basil Hawkins</font></b>
-                                    <ul><br>
-                                      <u>HP (au 1er niveau) :</u> 5 621 000 HP.<br>
-                                      <u>ATK (au 1er niveau) :</u> ? points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/aF0nEcN.png" style="vertical-align: bottom;"/> Il se mettra une immunité aux retards pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Lien" sur les personnages de la rangée du bas pendant 5 tours.<br>
-                                          <img src="https://i.imgur.com/t35aV9F.png" style="vertical-align: bottom;"/> Il réduira les dégâts subis pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra des cercles <b><font color="darkslateblue">[BLK]</font></b> à toute l'équipe.<br>
-                                          <img src="https://i.imgur.com/rlltiyj.png" style="vertical-align: bottom;"/> Seules les attaques normales infligeront des dégâts sur les ennemis pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> À partir d'un seuil entre 24 156 000 et 24 687 000 (71ème niveau) :
-                                            <ul>
-                                               <img src="https://i.imgur.com/t35aV9F.png" style="vertical-align: bottom;"/> Il réduira les dégâts subis pendant 5 tours.<br>
-                                            </ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> À partir d'un seuil entre 110 810 000 et 113 250 000 (140ème niveau) :
-                                            <ul>
-                                              <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Lien" sur les personnages de la rangée du bas pendant 8 tours.<br>
-                                            </ul>
-                                        </ul>
-                                      <u>Si un coup spécial qui enlève un pourcentage d'HP est utilisé :</u> Il se restaurera tous leurs HP.<br>
-                                      <u>1er tour et tous les 3 tours :</u> Il rendra les cercles de type désavantageux pour l'équipe pendant 3 tours.<br>
-                                      <u>3ème tour :</u> Il projettera hors de l'écran 2 personnages aléatoires.<br>
-                                      <u>5ème tour :</u> Il attaquera avec beaucoup de points de dégâts.<br>
-                                      <u>En-dessous des 20% d'HP :</u> <img src="https://i.imgur.com/tvWlo3c.png" style="vertical-align: bottom;"/> Il annulera les dégâts subis pendant 2 tours.<br>
-                                    </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#HP2"><b>Voir les HP de Basil Hawkins</b></button></center>
-              <br>
-              <div id="HP2" class="collapse">
-              <table>
-                <table id="normal" width="30%" align="center">
-                    <tbody>
-                        <tr>
-                            <td><center><img src="https://i.imgur.com/5mzZ22a.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss21"><b>Réduction de la durée des barrières dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss21" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://i.imgur.com/A5llxUC.png" data-tooltip="<li>Personnages concernés : Gecko Moria</li><li>Effets de soutien : Réduit la durée des barrières et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise un coup spécial qui restaure des HP (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss23"><b>Ignorance des effets défensifs dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss23" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Captain Ability</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1268.png"> <img src="https://i.imgur.com/stPKPuN.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss24"><b>Annulation des effets défensifs dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss24" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>VS Effets</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td width="10%">Uniquement pour le personnage</td>
-                            <td><center><img src="https://i.imgur.com/WjyES0B.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss25"><b>Réduction de la durée de "Lien"</b></button></center>
-              <br>
-              <div id="Boss25" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>2 tours</td>
-                            <td><center><img src="https://i.imgur.com/HU2cZIo.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td>5 tours</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3141.png"> <img src="https://i.imgur.com/EEasgl1.png" style="border:solid 3px purple"> <img src="https://i.imgur.com/stPKPuN.png"> </center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0367.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0645.png" data-tooltip="<li>Personnages concernés : Personnages de classe Sabreur</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise un coup spécial qui réduit la durée de “Lien” ou de “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1001.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1270.png" data-tooltip="<li>Personnages concernés : Barbe Noire (Marshall D. Teach), Jesus Burgess, Van Auger, Shiliew et Doc Q</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Onomatopées dissimulées” de 2 tours si un personnage a été touché par le “Lien” ou le “Désespoir du capitaine” ou si les onomatopées de l'équipe sont dissimulées (une fois par quête).</li>"> <img src="https://i.imgur.com/KBeErRM.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1652.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Caborage et Pedro</li><li>Effets de soutien : Réduit la durée de “Lien” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Lien” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1658.png" data-tooltip="<li>Personnages concernés : Kinémon, Raizo, Momonosuké Kozuki et Kikunojo (O-Kiku)</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si un personnage a été touché par le “Lien” ou la “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1947.png" data-tooltip="<li>Personnages concernés : Hody Jones</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Lien des coups spéciaux” de 2 tours si un personnage a été touché par le “Lien” ou le “Lien des coups spéciaux” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1953.png" data-tooltip="<li>Personnages concernés : Sabo</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1955.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji Vinsmoke, Tony-Tony Chopper, Franky et Brook</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2195.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2373.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Caborage et Pedro</li><li>Effets de soutien : Réduit la durée de “Lien” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Lien” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://i.imgur.com/jAHLiwz.png" data-tooltip="<li>Personnages concernés : Trafalgar Law et Sengoku</li><li>Effets de soutien : Réduit la durée de “Lien” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Lien” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://i.imgur.com/UPraIoX.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Nico Robin, Franky et Brook</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3121.png" data-tooltip="<li>Personnages concernés : Shanks, Ben Beckmann et Lucky Roo</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/8MABpVf.png" data-tooltip="<li>Personnages concernés : Eustass Kidd</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://i.imgur.com/JWmPGj2.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy et Sabo</li><li>Effets de soutien : Réduit la durée de “Lien” de 3 tours si un personnage a été touché par le “Lien” (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">5 tours</td>
-                          <td><center><img src="https://i.imgur.com/K9NZCXc.png" data-tooltip="<li>Personnages concernés : Bartholomew Kuma</li><li>Effets de soutien : Réduit la durée de “Lien” de 5 tours si un personnage a été touché par le “Lien” (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss26"><b><img src="https://i.imgur.com/t35aV9F.png" style="vertical-align: bottom;"/> Réduction de la durée des réductions de dégâts dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss26" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>4 tours</td>
-                            <td><center><img src="https://i.imgur.com/h261z28.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td width="10%">5 tours ou plus</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3139.png"> <img src="https://i.imgur.com/LQSUZKo.png" style="border:solid 3px purple"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour par coup "PARFAIT"</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2031.png" data-tooltip="<li>Personnages concernés : Sengoku</li><li>Effets de soutien : Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des réductions de dégâts dont bénéficient les ennemis d'un tour.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2269.png" data-tooltip="<li>Personnages concernés : Aladdin</li><li>Effets de soutien : Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis d'un tour.</li>"> <img src="https://i.imgur.com/xCJJXPt.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke</li><li>Effets de soutien : Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des réductions de dégâts dont bénéficient les ennemis d'un tour.</li>"> <img src="https://i.imgur.com/BTANvhA.png" data-tooltip="<li>Personnages concernés : Sakazuki (Akainu), Borsalino (Kizaru) et Tsuru</li><li>Effets de soutien : Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des réductions de dégâts dont bénéficient les ennemis d'un tour.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3019.png" data-tooltip="<li>Personnages concernés : Reiju Vinsmoke</li><li>Effets de soutien : Ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des réductions de dégâts dont bénéficient les ennemis d'un tour.</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1908.png" data-tooltip="<li>Personnages concernés : Sugar</li><li>Effets de soutien : Réduit la durée des réductions de dégâts et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/CTsKU9z.png" data-tooltip="<li>Personnages concernés : Zéphyr et Bins</li><li>Effets de soutien : Réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis de 2 tours et restaure 10% des HP maximum de l'équipe si un ennemi augmente la défense des ennemis ou réduit les dégâts subis (une fois par quête).</li>"> <img src="https://i.imgur.com/EEasgl1.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée des réductions de dégâts dont bénéficient les ennemis de 2 tours si un ennemi réduit les dégâts subis (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3100.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro</li><li>Effets de soutien : Réduit la durée des réductions de dégâts dont bénéficient les ennemis de 3 tours si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss27"><b>Changement des cercles <b><font color="darkslateblue">[BLK]</font></b></b></button></center>
-              <br>
-              <div id="Boss27" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td><center><img src="https://i.imgur.com/OF7rnud.png"> <img src="https://i.imgur.com/WjyES0B.png"> <img src="https://i.imgur.com/HU2cZIo.png"> <img src="https://i.imgur.com/EEasgl1.png" style="border:solid 3px purple"> <img src="https://i.imgur.com/stPKPuN.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0365.png" data-tooltip="<li>Personnages concernés : Vito, Gotti et Charlotte Chiffon</li><li>Effets de soutien : Change les cercles <b style='color:darkslateblue'>[BLK]</b> des personnages de classe Tireur en cercles correspondants si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2273.png" data-tooltip="<li>Personnages concernés : Nami, Keimi et Pappag</li><li>Effets de soutien : Change les cercles (cercles <b style='color:darkslateblue'>[BLK]</b> inclus) du personnage soutenu et adjacents en cercles <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/FVbEweM.png" data-tooltip="<li>Personnages concernés : Ain et Bins</li><li>Effets de soutien : Change les cercles des personnages de classe Tireur (cercles <b style='color:darkslateblue'>[BLK]</b> inclus) en cercles correspondants si les cercles sont mélangés par les ennemis (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2455.png" data-tooltip="<li>Personnages concernés : Judge Vinsmoke, Reiju Vinsmoke, Ichiji Vinsmoke, Niji Vinsmoke, Sanji Vinsmoke et Yonji Vinsmoke</li><li>Effets de soutien : Restaure 3 000 HP, réduit le temps de chargement du coup spécial du personnage soutenu de 1 tour et change le cercle du personnage soutenu (cercle <b style='color:darkslateblue'>[BLK]</b> inclus) en cercle <b style='color:peru'>[TND]</b> au début du dernier stage d'une quête.</li>"> <img src="https://i.imgur.com/3rInSq6.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Nami, Tony-Tony Chopper, Pekoms, Carrot et Charlotte Dent-de-chien</li><li>Effets de soutien : Restaure 2 000 HP, réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours, change les cercles <b style='color:darkslateblue'>[BLK]</b> en cercles correspondants et change le cercle du personnage soutenu en cercle correspondant au début du dernier stage d'une quête.</li>"> <img src="https://i.imgur.com/AoSWeIu.png" data-tooltip="<li>Personnages concernés : Douglas Bullet</li><li>Effets de soutien : Change les cercles <b style='color:darkslateblue'>[BLK]</b> et désavantageux en cercles correspondants si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2980.png" data-tooltip="<li>Personnages concernés : Personnages de type <b style='color:green'>DEX</b></li><li>Effets de soutien : Change le cercle du personnage soutenu (cercle <b style='color:darkslateblue'>[BLK]</b> inclus) en cercle <b style='color:maroon'>[BOMB]</b> et rend les cercles <b style='color:maroon'>[BOMB]</b> avantageux pour tous les personnages si les cercles sont mélangés par les ennemis (une fois par quête).</li>"> <img src="https://i.imgur.com/tEmCPPB.png" data-tooltip="<li>Personnages concernés : Bepo et Don Quijote Rosinante</li><li>Effets de soutien : Change les cercles <b style='color:#777'>[EMP]</b>, <b style='color:darkslateblue'>[BLK]</b>, <b style='color:maroon'>[BOMB]</b>, <b style='color:#BC5C0C'>[RCV]</b>, <b style='color:orange'>[G]</b>, désavantageux des personnages de classe Libre en cercles correspondants si les cercles sont mélangés par les ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-            <h3><center><u>Quête avec le boss de type <b><font color="#ECAC04">PSY</font></b></u></center></h3>
-            <table>
-                <table id="normal" align="center">
-                    <tbody>
-                        <tr>
-                            <td width=10%>Stage 1</td>
-                            <td>
-                                <b><font color="#ECAC04">O-Tsuru</font></b>
-                                    <ul><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Elle réduira le temps de chargement des coups spéciaux des personnages de type <b><font color="#1CAC24">DEX</font></b>, <b><font color="#4C4CFF">QCK</font></b> et <b><font color="#A916B6">INT</font></b> de 15 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Elle partira.<br>
-                                        </ul>
-                                    </ul>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>Stage 2</td>
-                            <td>
-                                <b><font color="#DC241C">X-Drake</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 2 000 000 HP.<br>
-                                      <u>ATK :</u> 7 100 points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/aF0nEcN.png" style="vertical-align: bottom;"/> Il mettra une immunité aux retards pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/GhVbCs9.png" style="vertical-align: bottom;"/> Il augmentera sa défense pendant 4 tours.<br>
-                                        </ul>
-                                      <u>1er tour :</u> <img src="https://i.imgur.com/1OY0PAj.png" style="vertical-align: bottom;"/> Il réduira le multiplicateur de combos pendant 3 tours.<br>
-                                      <u>3ème tour et tous les 2 tours :</u> Il inversera le temps de chargement des coups spéciaux de tous les personnages de 5 tours.<br>
-                                    </ul>
-                                <b><font color="#ECAC04">Deux Pleasures</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 60 000 HP.<br>
-                                      <u>ATK :</u> 6 592 points de dégâts tous les 2 tours.<br>
-                                    </ul>
-                            </td>
-                          </tr>
-                          <!-- <tr>
-                            <td>Stage 2 (B, rare)</td>
-                            <td>
-                                <b><font color="#ECAC04">Trafalgar Law</font></b>
-                                    <ul><br>
-                                      <u>HP :</u> 2 000 000 HP.<br>
-                                      <u>ATK :</u> 7 100 points de dégâts tous les tours.<br>
-                                      <u>Barrière :</u> 2 coups avec des cercles <b><font color="#4C4CFF">[QCK]</font></b> pendant 4 tours.<br><br>
-                                      <u><b>Actions préventives :</b></u> <img src="https://i.imgur.com/t35aV9F.png" style="vertical-align: bottom;"/> Il réduira les dégâts subis pendant 4 tours.<br>
-                                      <u>1er tour :</u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il enlèvera 50% des HP de l'équipe.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                        </ul>
-                                      <u><b><font color="#DC241C">Action ultime :</font></b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il multipliera les effets des cercles par 2,25 pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il partira.<br>
-                                        </ul>
-                                    </ul>
-                            </td>
-                          </tr> -->
-                          <tr>
-                            <td>Boss</td>
-                            <td>
-                                <b><font color="#ECAC04">Basil Hawkins</font></b>
-                                    <ul><br>
-                                      <u>HP (au 1er niveau) :</u> 5 744 662 HP.<br>
-                                      <u>ATK (au 1er niveau) :</u> ? points de dégâts tous les tours.<br><br>
-                                      <u><b>Actions préventives :</b></u>
-                                        <ul>
-                                          <img src="https://i.imgur.com/u2O1BNQ.png" style="vertical-align: bottom;"/> Il se mettra une immunité pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> Il mettra le "Désespoir du capitaine" sur les capitaines pendant 5 tours.<br>
-                                          <img src="https://i.imgur.com/6E3CVMr.png" style="vertical-align: bottom;"/> Il réduira l'ATK de l'équipe pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/YvtNGvf.png" style="vertical-align: bottom;"/> Il réduira de ?% la partie des dégâts infligés par l'équipe qui excède 1 000 pendant 3 tours.<br>
-                                          <img src="https://i.imgur.com/rlltiyj.png" style="vertical-align: bottom;"/> Seules les attaques normales infligeront des dégâts sur les ennemis pendant 99 tours.<br>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> À partir d'un seuil entre 24 156 000 et 24 687 000 (72ème niveau) :
-                                            <ul>
-                                              <img src="https://i.imgur.com/6E3CVMr.png" style="vertical-align: bottom;"/> Il réduira l'ATK de l'équipe pendant 5 tours.<br>
-                                            </ul>
-                                          <img src="https://i.imgur.com/Pyo8TY8.png" style="vertical-align: bottom;"/> À partir d'un seuil entre 110 810 000 et 113 250 000 (141ème niveau) :
-                                            <ul>
-                                              <img src="https://i.imgur.com/YvtNGvf.png" style="vertical-align: bottom;"/> Il réduira de ?% la partie des dégâts infligés par l'équipe qui excède 1 000 pendant 5 tours.<br>
-                                            </ul>
-                                        </ul>
-                                      <u>Si un coup spécial qui enlève un pourcentage d'HP est utilisé :</u> Il se restaurera tous leurs HP.<br>
-                                      <u>1er tour :</u> Il inversera le temps de chargement de tous les personnages de 3 tours.<br>
-                                      <u>2ème tour :</u> Il inversera le temps de chargement de tous les personnages de 3 tours.<br>
-                                      <u>3ème tour :</u> Il projettera hors de l'écran 2 personnages aléatoires.<br>
-                                      <u>5ème tour :</u> Il attaquera avec beaucoup de points de dégâts.<br>
-                                      <u>En-dessous des 20% d'HP :</u> <img src="https://i.imgur.com/tvWlo3c.png" style="vertical-align: bottom;"/> Il annulera les dégâts subis pendant 2 tours.<br>
-                                    </ul>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#HP3"><b>Voir les HP de Basil Hawkins</b></button></center>
-              <br>
-              <div id="HP3" class="collapse">
-              <table>
-                <table id="normal" width="30%" align="center">
-                    <tbody>
-                        <tr>
-                            <td><center><img src="https://i.imgur.com/gvLLHCs.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss31"><b><img src="https://i.imgur.com/GhVbCs9.png" style="vertical-align: bottom;"/> Réduction de la durée des augmentations de défense dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss31" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td width="10%">4 tours ou plus</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3139.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour par coup "PARFAIT"</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2269.png" data-tooltip="<li>Personnages concernés : Aladdin</li><li>Effets de soutien : Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis d'un tour.</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2390.png" data-tooltip="<li>Personnages concernés : Nami, Usopp, Sanji Vinsmoke, Gan Forr, Aisa et Wiper</li><li>Effets de soutien : Ajoute 15% de l'ATK du personnage en ATK pour les personnages soutenus, multiplie l'ATK du personnage soutenu par 1,5 contre Ener et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des augmentations de défense dont bénéficient les ennemis d'un tour.</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://i.imgur.com/epN9tKm.png" data-tooltip="<li>Personnages concernés : Don Quijote Doflamingo</li><li>Effets de soutien : Réduit la durée des réductions de dégâts au-dessus d'un seuil et des augmentations de défense de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/CTsKU9z.png" data-tooltip="<li>Personnages concernés : Zéphyr et Bins</li><li>Effets de soutien : Réduit la durée des augmentations de défense et des réductions de dégâts dont bénéficient les ennemis de 2 tours et restaure 10% des HP maximum de l'équipe si un ennemi augmente la défense des ennemis ou réduit les dégâts subis (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3051.png" data-tooltip="<li>Personnages concernés : Baggy, Morge et Richy et Cabaji</li><li>Effets de soutien : Réduit la durée des augmentations de défense dont bénéficient les ennemis de 2 tours et change le cercle du personnage soutenu en cercle correspondant si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3085.png" data-tooltip="<li>Personnages concernés : Charlotte Linlin (Big Mom) et Charlotte Dent-de-chien</li><li>Effets de soutien : Réduit la durée des augmentations de défense et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si un ennemi augmente la défense des ennemis ou réduit les dégâts au-dessus d'un seuil des ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours par coup "PARFAIT"</td>
-                          <td><center><img src="https://i.imgur.com/e25FEt3.png" data-tooltip="<li>Personnages concernés : Nami, Wanda et Charlotte Chiffon</li><li>Effets de soutien : Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des augmentations de défense dont bénéficient les ennemis de 2 tours.</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">4 tours</td>
-                          <td><center><img src="https://i.imgur.com/C6HJVQL.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro</li><li>Effets de soutien : Réduit la durée des augmentations de défense et de “Résistance avec 1 HP” dont bénéficient les ennemis de 4 tours et ajoute 0,7 au multiplicateur de combos pendant un tour si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss32"><b>Réduction de la défense des ennemis</b></button></center>
-              <br>
-              <div id="Boss32" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0310.png" data-tooltip="<li>Personnages concernés : Personnages de classe Intellectuel</li><li>Effets de soutien : Réduit de 50% la défense de tous les ennemis pendant 3 tours si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1688.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Usopp et Nico Robin</li><li>Effets de soutien : Réduit de ?% la défense de tous les ennemis pendant un tour et change le cercle du personnage soutenu en cercle correspondant si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1741.png" data-tooltip="<li>Personnages concernés : Boa Marigold</li><li>Effets de soutien : Réduit de 80% la défense de tous les ennemis pendant 2 tours et change le cercle du personnage soutenu et les cercles adjacents en cercles <b style='color:#1CAC24'>[DEX]</b> si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2367.png" data-tooltip="<li>Personnages concernés : Charlotte Linlin (Big Mom) et Charlotte Dent-de-chien</li><li>Effets de soutien : Réduit de 80% la défense de tous les ennemis pendant un tour et rend le timing des coups “PARFAIT” grandement plus facile pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/pyoIXC4.png" data-tooltip="<li>Personnages concernés : Kuzan (Aokiji) et Borsalino (Kizaru)</li><li>Effets de soutien : Réduit de 80% la défense de tous les ennemis pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/4sbbvEj.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke et Kinémon</li><li>Effets de soutien : Réduit à 0 la défense de tous les ennemis pendant 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2853.png" data-tooltip="<li>Personnages concernés : Sabo et Koala</li><li>Effets de soutien : Réduit de 80% la défense de tous les ennemis pendant un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss33"><b>Ignorance des effets défensifs dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss33" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Captain Ability</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1268.png"> <img src="https://i.imgur.com/stPKPuN.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss34"><b>Annulation des effets défensifs dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss34" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>VS Effets</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td width="10%">Uniquement pour le personnage</td>
-                            <td><center><img src="https://i.imgur.com/WjyES0B.png"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss35"><b>Réduction de la durée de "Désespoir du capitaine"</b></button></center>
-              <br>
-              <div id="Boss35" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>2 tours</td>
-                            <td><center><img src="https://i.imgur.com/HU2cZIo.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td>3 tours</td>
-                            <td><center><img src="https://i.imgur.com/vY7NNUY.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td>5 tours ou plus</td>
-                            <td><center><img src="https://i.imgur.com/Pcf6iEs.png" style="border:solid 3px black"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2029.png" data-tooltip="<li>Personnages concernés : Monkey D. Garp</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et des réductions d'ATK de 1 tour si un personnage a été touché par le “Désespoir du capitaine” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0367.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0645.png" data-tooltip="<li>Personnages concernés : Personnages de classe Sabreur</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise un coup spécial qui réduit la durée de “Lien” ou de “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1001.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1270.png" data-tooltip="<li>Personnages concernés : Barbe Noire (Marshall D. Teach), Jesus Burgess, Van Auger, Shiliew et Doc Q</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Onomatopées dissimulées” de 2 tours si un personnage a été touché par le “Lien” ou le “Désespoir du capitaine” ou si les onomatopées de l'équipe sont dissimulées (une fois par quête).</li>"> <img src="https://i.imgur.com/u9CRe34.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy et Roronoa Zoro</li><li>Effets de soutien : Réduit la durée de “Paralysie” et de “Désespoir du capitaine” de 2 tours si un personnage a été touché par la “Paralysie” ou le “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://i.imgur.com/KBeErRM.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1658.png" data-tooltip="<li>Personnages concernés : Kinémon, Raizo, Momonosuké Kozuki et Kikunojo (O-Kiku)</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si un personnage a été touché par le “Lien” ou la “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1759.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro, Nami, Sanji Vinsmoke et Tony-Tony Chopper</li><li>Effets de soutien : Réduit la durée de “Paralysie” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise un coup spécial qui réduit la durée de “Paralysie” ou de “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1953.png" data-tooltip="<li>Personnages concernés : Sabo</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1955.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy, Roronoa Zoro, Usopp, Sanji Vinsmoke, Tony-Tony Chopper, Franky et Brook</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2123.png" data-tooltip="<li>Personnages concernés : Shirahoshi et Fukaboshi</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” de 2 tours et réduit la durée de “Résistance avec 1 HP” dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2163.png" data-tooltip="<li>Personnages concernés : Personnages de classe Cogneur</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2195.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://i.imgur.com/UPraIoX.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Nico Robin, Franky et Brook</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si un personnage a été touché par le “Lien”, le “Désespoir du capitaine” ou la “Paralysie” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3073.png" data-tooltip="<li>Personnages concernés : Charlotte Linlin (Big Mom) et Charlotte Slurp</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et de “Lien des coups spéciaux” de 2 tours si un personnage a été touché par le “Désespoir du capitaine” ou le “Lien des coups spéciaux” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3086.png" data-tooltip="<li>Personnages concernés : Brook et Carrot</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Désespoir du capitaine” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3121.png" data-tooltip="<li>Personnages concernés : Shanks, Ben Beckmann et Lucky Roo</li><li>Effets de soutien : Réduit la durée de “Lien” et de “Désespoir du capitaine” de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/8MABpVf.png" data-tooltip="<li>Personnages concernés : Eustass Kidd</li><li>Effets de soutien : Réduit la durée de “Lien”, de “Désespoir du capitaine” et de “Paralysie” de 2 tours si le personnage soutenu utilise un coup spécial qui enlève un pourcentage d'HP ou qui inflige des dégâts aux ennemis (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2392.png" data-tooltip="<li>Personnages concernés : Franky</li><li>Effets de soutien : Réduit la durée de “Lien des coups spéciaux” et de “Désespoir du capitaine” du personnage soutenu de 3 tours et réduit le temps de chargement du coup spécial du personnage soutenu de 2 tours si un personnage a été touché par le “Lien des coups spéciaux” ou le “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2481.png" data-tooltip="<li>Personnages concernés : Hody Jones, Ikaros Much, Daruma et Dosun</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et de “Lien des coups spéciaux” de 3 tours si le personnage soutenu utilise un coup spécial qui manipule les cercles (une fois par quête).</li>"> <img src="https://i.imgur.com/uGcinPS.png" data-tooltip="<li>Personnages concernés : Marco et Portgas D. Ace</li><li>Effets de soutien : Réduit la durée de de “Désespoir du capitaine” de 3 tours si un personnage a été touché par le “Désespoir du capitaine” (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5063.png" data-tooltip="<li>Personnages concernés : Marco et Portgas D. Ace</li><li>Effets de soutien : Réduit la durée de de “Désespoir du capitaine” de 3 tours si un personnage a été touché par le “Désespoir du capitaine” (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">5 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1612.png" data-tooltip="<li>Personnages concernés : Gecko Moria et Perona</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” de 5 tours si un personnage a été touché par le “Désespoir du capitaine” (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss36"><b><img src="https://i.imgur.com/6E3CVMr.png" style="vertical-align: bottom;"/> Réduction de la durée des réductions d'ATK</b></button></center>
-              <br>
-              <div id="Boss36" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>3 tours</td>
-                            <td><center><img src="https://i.imgur.com/vY7NNUY.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td>5 tours</td>
-                            <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3141.png"> <img src="https://i.imgur.com/LQSUZKo.png" style="border:solid 3px purple"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2029.png" data-tooltip="<li>Personnages concernés : Monkey D. Garp</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et des réductions d'ATK de 1 tour si un personnage a été touché par le “Désespoir du capitaine” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://i.imgur.com/0JToNcv.png" data-tooltip="<li>Personnages concernés : Sanji Vinsmoke</li><li>Effets de soutien : Réduit la durée de “Paralysie” et des réductions d'ATK de 1 tour et restaure 3 000 HP si un personnage a été touché par la “Paralysie” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1652.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Caborage et Pedro</li><li>Effets de soutien : Réduit la durée de “Lien” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Lien” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1959.png" data-tooltip="<li>Personnages concernés : Neptune et Fukaboshi</li><li>Effets de soutien : Réduit la durée de “Paralysie” et des réductions d'ATK de 2 tours si un personnage a été touché par la “Paralysie” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2068.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro et Smoker</li><li>Effets de soutien : Réduit la durée des réductions d'ATK de 2 tours et change les cercles <b style='color:red'>[STR]</b> et <b style='color:blue'>[QCK]</b> en cercles correspondants si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2373.png" data-tooltip="<li>Personnages concernés : Tony-Tony Chopper, Caborage et Pedro</li><li>Effets de soutien : Réduit la durée de “Lien” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Lien” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://i.imgur.com/jAHLiwz.png" data-tooltip="<li>Personnages concernés : Trafalgar Law et Sengoku</li><li>Effets de soutien : Réduit la durée de “Lien” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Lien” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2984.png" data-tooltip="<li>Personnages concernés : Kaido, X-Drake et Basil Hawkins</li><li>Effets de soutien : Réduit la durée des réductions d'ATK de 2 tours si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3086.png" data-tooltip="<li>Personnages concernés : Brook et Carrot</li><li>Effets de soutien : Réduit la durée de “Désespoir du capitaine” et des réductions d'ATK de 2 tours si un personnage a été touché par le “Désespoir du capitaine” ou si l'ATK de l'équipe est réduite (une fois par quête).</li>"> <img src="https://i.imgur.com/WKVNr6s.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée des réductions d'ATK de 2 tours et réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/LQSUZKo.png" data-tooltip="<li>Personnages concernés : Don Quijote Rosinante, Bepo, Shachi et Pingouin</li><li>Effets de soutien : Réduit la durée des réductions d'ATK de 2 tours si l'ATK de l'équipe est réduite (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">3 tours</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1316.png" data-tooltip="<li>Personnages concernés : Monkey D. Garp et Hermep</li><li>Effets de soutien : Réduit la durée des réductions d'ATK et de “Onomatopées dissimulées” de 3 tours si l'ATK de l'équipe est réduite ou si les onomatopées de l'équipe sont dissimulées (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-              <br>
-              <center><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Boss37"><b><img src="https://i.imgur.com/YvtNGvf.png" style="vertical-align: bottom;"/> Réduction de la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis</b></button></center>
-              <br>
-              <div id="Boss37" class="collapse">
-              <table>
-                <table id="normal" width="85%" align="center">
-                    <tbody>
-                        <tr>
-                            <td colspan="2"><center><h3>Coups spéciaux</h3></center></td>
-                        </tr>
-                        <tr>
-                            <td>3 tours</td>
-                            <td><center><img src="https://i.imgur.com/vY7NNUY.png"></center></td>
-                        </tr>
-                        <tr>
-                            <td>5 tours</td>
-                            <td><center><img src="https://i.imgur.com/EEasgl1.png" style="border:solid 3px purple"></center></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2"><center><h3>Effets de soutien</h3></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1757.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro, Sanji Vinsmoke, Tony-Tony Chopper et Brook</li><li>Effets de soutien : Réduit les dégâts subis de 50% pendant un tour et réduit la durée des réductions de dégâts au-dessus d'un seuil et des augmentations d'ATK dont bénéficient les ennemis d'un tour si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">1 tour par coup "PARFAIT"</td>
-                          <td><center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1749.png" data-tooltip="<li>Personnages concernés : Trafalgar Law</li><li>Effets de soutien : Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus et si le personnage soutenu effectue un “PARFAIT”, réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis d'un tour.</li>"></center></td>
-                        </tr>
-                        <tr>
-                          <td width="10%">2 tours</td>
-                          <td><center> <img src="https://i.imgur.com/epN9tKm.png" data-tooltip="<li>Personnages concernés : Don Quijote Doflamingo</li><li>Effets de soutien : Réduit la durée des réductions de dégâts au-dessus d'un seuil et des augmentations de défense de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1908.png" data-tooltip="<li>Personnages concernés : Sugar</li><li>Effets de soutien : Réduit la durée des réductions de dégâts et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://i.imgur.com/A5llxUC.png" data-tooltip="<li>Personnages concernés : Gecko Moria</li><li>Effets de soutien : Réduit la durée des barrières et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise un coup spécial qui restaure des HP (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2974.png" data-tooltip="<li>Personnages concernés : Roronoa Zoro et Nami</li><li>Effets de soutien : Réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours et restaure 5% des HP maximum de l'équipe si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3021.png" data-tooltip="<li>Personnages concernés : Reiju Vinsmoke</li><li>Effets de soutien : Réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3085.png" data-tooltip="<li>Personnages concernés : Charlotte Linlin (Big Mom) et Charlotte Dent-de-chien</li><li>Effets de soutien : Réduit la durée des augmentations de défense et des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si un ennemi augmente la défense des ennemis ou réduit les dégâts au-dessus d'un seuil des ennemis (une fois par quête).</li>"> <img src="https://i.imgur.com/WKVNr6s.png" data-tooltip="<li>Personnages concernés : Monkey D. Luffy</li><li>Effets de soutien : Réduit la durée des réductions d'ATK de 2 tours et réduit la durée des réductions de dégâts au-dessus d'un seuil dont bénéficient les ennemis de 2 tours si le personnage soutenu utilise son coup spécial (une fois par quête).</li>"></center></td>
-                        </tr>
-                    </tbody>
-                </table>
-              </div>
-        <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-        <script src="../shared/navbar.js"></script>
-        <script>
-          addNavbar("guides", "next-kizuna", 1);
-        </script>
-        <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-        <div id="scrollUp">
-            <a href="#top"><img src="../img/to_top.png" height="60%" width="60%"/></a>
+    <!-- Intro -->
+    <div class="tm-intro">
+      <h1>Guide du prochain combat de l'amitié</h1>
+      <h2>Personnage du prochain combat de l'amitié</h2>
+
+      <div class="guide-boosters">
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Bege%20et%20Pets.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/rRELErH.png"
+        /></a>
+      </div>
+
+      <h2>Guide du combat de l'amitié</h2>
+
+      <h3>
+        Personnage avec ses statistiques multipliées par 2,5, son coup spécial
+        réduit de 15 tours, les tickets reçus multipliés par 1,5, une Captain
+        Ability améliorée pour l'événement et rend les effets de type de l'ATK
+        du personnage avantageux contre tous les types
+      </h3>
+      <div class="guide-boosters">
+        <a
+          href="https://onepiecetreasurecruise.fr/Sanji%20et%20Pudding.html"
+          target="_blank"
+          ><img
+            src="https://i.imgur.com/y2ShEAS.png"
+            style="border: solid 3px black"
+        /></a>
+      </div>
+
+      <h3>
+        Personnage avec ses statistiques multipliées par 2,5, son coup spécial
+        réduit de 15 tours, les tickets reçus multipliés par 1,2 et rend les
+        effets de type de l'ATK du personnage avantageux contre tous les types
+      </h3>
+      <div class="guide-boosters">
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Limites/Charlotte%20Chiffon.html"
+          target="_blank"
+          ><img
+            src="https://i.imgur.com/FueulcG.png"
+            style="border: solid 3px purple"
+        /></a>
+      </div>
+
+      <h3>
+        Personnages avec leurs statistiques multipliées par 2 et leur coup
+        spécial réduit de 15 tours
+      </h3>
+      <div class="guide-boosters">
+        <a
+          href="https://onepiecetreasurecruise.fr/Roronoa%20Zoro%202.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/mSDcvqZ.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Vivi%20et%20Rebecca%202.html"
+          target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/wp-content/uploads/f3164.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Shirahoshi%20et%20Manshelly%202.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/dtoVu1m.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Shirahoshi%20et%20Manshelly%202.html#1"
+          target="_blank"
+          ><img src="https://i.imgur.com/WphYmaK.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Shirahoshi%20et%20Manshelly%202.html#2"
+          target="_blank"
+          ><img src="https://i.imgur.com/JolLaHR.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Special/Kobby.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/fcfgzTy.png" /></a
+        ><br /><a
+          href="https://onepiecetreasurecruise.fr/Attaque%20ennemie/Hina.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/NZ3QxLr.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Festival%20des%20pirates/Bartolomeo.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/9xvcR2x.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Carte%20aux%20tresors/Monkey%20D.%20Garp.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/8yVUgWc.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Arene/Fransuke.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/AWRLekP.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Eustass%20Kidd.html"
+          target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3124.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Basil%20Hawkins.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/ch3lb2r.png"
+        /></a>
+      </div>
+
+      <h3>
+        Personnages avec leurs statistiques multipliées par 1,5 et leur coup
+        spécial réduit de 15 tours
+      </h3>
+      <div class="guide-boosters">
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Limites/Zorojuro.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/Pcf6iEs.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Limites/Trafalgar%20Law.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/LQSUZKo.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Limites/Heart.html"
+          target="_blank"
+          ><img src="https://i.imgur.com/EEasgl1.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Shanks%203.html"
+          target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3118.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Limites/Yasopp.html"
+          target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3121.png"
+        /></a>
+        <a
+          href="https://onepiecetreasurecruise.fr/Bataille%20cooperative/Limites/Ben%20Beckmann.html"
+          target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3120.png"
+        /></a>
+      </div>
+
+      <h3>Personnages ne pouvant pas être utilisés</h3>
+      <div class="guide-boosters">
+        <a href="../Barbe Noire 1.html#4" target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1275.png"
+        /></a>
+        <a href="../Barbe Noire 1.html#4" target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1276.png"
+        /></a>
+        <a href="../Ener.html#1" target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1611.png"
+        /></a>
+        <a href="../Ener.html#1" target="_blank"
+          ><img
+            src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1612.png"
+        /></a>
+        <img
+          src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1608.png"
+        />
+      </div>
+    </div>
+
+    <!-- Guides -->
+    <div class="page-guides">
+      <!-- Boss 1 -->
+      <div>
+        <h3>
+          Quête avec le boss de type <strong style="color: #a916b6">INT</strong>
+        </h3>
+
+        <!-- Guide -->
+        <table class="tm-guide">
+          <tbody>
+            <!-- Stage 1 -->
+            <tr>
+              <td>Stage 1</td>
+              <td>
+                <b>Robin</b>
+                <ul>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle réduira le temps de chargement des coups spéciaux
+                        des personnages de type STR, QCK et PSY de 15 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle partira.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 2 -->
+            <tr>
+              <td>Stage 2</td>
+              <td>
+                <b>Wapol</b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 2 000 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> 7 100 points de dégâts tous
+                    les tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/GhVbCs9.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il multipliera sa défense par ? pendant 4 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Wu6tLbX.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il mettra les "Onomatopées dissimulées" pendant 3 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>3ème tour et tous les 2 tours :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il inversera le temps de chargement des coups spéciaux
+                        de tous les personnages de 5 tours.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 2 (special) -->
+            <tr>
+              <td>Stage 2 (B)</td>
+              <td>
+                <b><strong style="color: #a916b6">Trafalgar Law</strong></b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 2 000 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> 7 100 points de dégâts tous
+                    les tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/GhVbCs9.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il multipliera sa défense par ? pendant 4 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Wu6tLbX.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il mettra les "Onomatopées dissimulées" pendant 3 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>3ème tour et tous les 2 tours :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il inversera le temps de chargement des coups spéciaux
+                        de tous les personnages de 5 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u style="color: red">Action ultime :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il multipliera les effets des cercles de tous les
+                        personnages par 2,5 pendant 99 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il partira.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 3 -->
+            <tr>
+              <td>Stage 3</td>
+              <td>
+                <b><strong style="color: #a916b6">Bege & Petz</strong></b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 7 912 499 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> ? points de dégâts tous les
+                    tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li class="li-mt">
+                        <img
+                          src="https://i.imgur.com/u2O1BNQ.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il se mettra une immunité pendant 99 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils mettront la "Paralysie" sur tous les personnages
+                        pendant 5 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils inverseront le temps de chargement des coups
+                        spéciaux de tous les personnages de 2 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/rlltiyj.png"
+                          style="vertical-align: bottom"
+                        />
+                        Seules les attaques normales infligeront des dégâts sur
+                        les ennemis pendant 99 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>À partir d'un seuil de ? HP (32ème niveau) :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils mettront des cercles désavantageux à toute
+                        l'équipe.<br />
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u
+                      >Si un coup spécial qui enlève un pourcentage d'HP est
+                      utilisé :</u
+                    >
+                    Ils restaureront tous leurs HP.
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour :</u>
+                    Ils mettront le “Lien des cercles” sur tous les personnages
+                    pendant 3 tours.
+                  </li>
+                  <li>
+                    <u>3ème tour :</u>
+                    Ils projetteront hors de l'écran 2 personnages aléatoires.
+                  </li>
+                  <li>
+                    <u>4ème tour :</u>
+                    Ils attaqueront avec beaucoup de points de dégâts.
+                  </li>
+                  <li class="li-mt">
+                    <u>En-dessous des 20% d'HP :</u>
+                    Ils annuleront les dégâts subis pendant 2 tours.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Personnages recommandés -->
+        <div>
+          <!-- HP Boss -->
+          <div class="btn-container">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="collapse"
+              data-thetarget="#HPBoss1"
+            >
+              Voir les HP de Bege & Petz
+            </button>
+
+            <div id="HPBoss1" class="collapse">
+              <table width="30%">
+                <tbody>
+                  <tr>
+                    <td><img src="https://i.imgur.com/97tYATN.png" /></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
-        <div class="baspage">
-          <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+      </div>
+
+      <!-- Boss 2 -->
+      <div>
+        <h3>
+          Quête avec le boss de type <strong style="color: #ecac04">PSY</strong>
+        </h3>
+
+        <!-- Guide -->
+        <table class="tm-guide">
+          <tbody>
+            <!-- Stage 1 -->
+            <tr>
+              <td>Stage 1</td>
+              <td>
+                <b>Chopper</b>
+                <ul>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il réduira le temps de chargement des coups spéciaux des
+                        personnages de classe Sabreur, Tireur et Intellectuel de
+                        15 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle partira.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 2 -->
+            <tr>
+              <td>Stage 2</td>
+              <td>
+                <b>Chavipère</b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 1 750 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> 7 000 points de dégâts tous
+                    les tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il mettra des cercles [TND] et [RCV] à toute l'équipe.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il bloquera les cercles pendant un tour
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>3ème tour et tous les 2 tours :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il inversera le temps de chargement des coups spéciaux
+                        de tous les personnages de 5 tours.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 2 (special) -->
+            <tr>
+              <td>Stage 2 (B)</td>
+              <td>
+                <b><strong style="color: #dc241c">Trafalgar Law</strong></b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 2 000 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> 7 100 points de dégâts tous
+                    les tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il mettra des cercles [TND] et [RCV] à toute l'équipe.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il bloquera les cercles pendant un tour
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>3ème tour et tous les 2 tours :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il inversera le temps de chargement des coups spéciaux
+                        de tous les personnages de 5 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u style="color: red">Action ultime :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il multipliera les effets des cercles de tous les
+                        personnages par 2,5 pendant 99 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il partira.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 3 -->
+            <tr>
+              <td>Stage 3</td>
+              <td>
+                <b><strong style="color: #ecac04">Bege & Petz</strong></b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 8 347 687 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> ? points de dégâts tous les
+                    tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li class="li-mt">
+                        <img
+                          src="https://i.imgur.com/u2O1BNQ.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il se mettra une immunité pendant 99 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils mettront des cercles [BLK] à toute l'équipe.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils mettront le "Désespoir" sur les capitaines pendant 8
+                        tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/rlltiyj.png"
+                          style="vertical-align: bottom"
+                        />
+                        Seules les attaques normales infligeront des dégâts sur
+                        les ennemis pendant 99 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>À partir d'un seuil de ? HP (30ème niveau) :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/YvtNGvf.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils réduiront de ?% la partie des dégâts infligés par
+                        l'équipe qui excède ? pendant 5 tours.<br />
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u
+                      >Si un coup spécial qui enlève un pourcentage d'HP est
+                      utilisé :</u
+                    >
+                    Ils restaureront tous leurs HP.
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour et tous les 3 tours :</u>
+                    Ils rendront les cercles de type désavantageux pour l’équipe
+                    pendant 3 tours.
+                  </li>
+                  <li>
+                    <u>3ème tour :</u>
+                    Ils projetteront hors de l'écran 2 personnages aléatoires.
+                  </li>
+                  <li>
+                    <u>4ème tour :</u>
+                    Ils attaqueront avec beaucoup de points de dégâts.
+                  </li>
+                  <li class="li-mt">
+                    <u>En-dessous des 20% d'HP :</u>
+                    Ils annuleront les dégâts subis pendant 2 tours.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Personnages recommandés -->
+        <div>
+          <!-- HP Boss -->
+          <div class="btn-container">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="collapse"
+              data-thetarget="#HPBoss1"
+            >
+              Voir les HP de Bege & Petz
+            </button>
+
+            <div id="HPBoss1" class="collapse">
+              <table width="30%">
+                <tbody>
+                  <tr>
+                    <td><img src="https://i.imgur.com/97tYATN.png" /></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
-        <style>
-          .baspage
+      </div>
+
+      <!-- Boss 3 -->
+      <div>
+        <h3>
+          Quête avec le boss de type <strong style="color: #dc241c">STR</strong>
+        </h3>
+
+        <!-- Guide -->
+        <table class="tm-guide">
+          <tbody>
+            <!-- Stage 1 -->
+            <tr>
+              <td>Stage 1</td>
+              <td>
+                <b>Nami</b>
+                <ul>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle réduira le temps de chargement des coups spéciaux
+                        des personnages de classe Cogneur, Ravageur et
+                        Intellectuel de 15 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle partira.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 2 -->
+            <tr>
+              <td>Stage 2</td>
+              <td>
+                <b>Monet</b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 2 000 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> 7 100 points de dégâts tous
+                    les tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle mettra le "Lien des coups spéciaux" sur tous les
+                        personnages pendant 4 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/1OY0PAj.png"
+                          style="vertical-align: bottom"
+                        />
+                        Elle réduira le multiplicateur de combos pendant 3
+                        tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>3ème tour et tous les 2 tours :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il inversera le temps de chargement des coups spéciaux
+                        de tous les personnages de 5 tours.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 2 (special) -->
+            <tr>
+              <td>Stage 2 (B)</td>
+              <td>
+                <b><strong style="color: #a916b6">Trafalgar Law</strong></b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 2 000 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> 7 100 points de dégâts tous
+                    les tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il mettra le "Lien des coups spéciaux" sur tous les
+                        personnages pendant 4 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/1OY0PAj.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il réduira le multiplicateur de combos pendant 3 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>3ème tour et tous les 2 tours :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il inversera le temps de chargement des coups spéciaux
+                        de tous les personnages de 5 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u style="color: red">Action ultime :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il multipliera les effets des cercles de tous les
+                        personnages par 2,5 pendant 99 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il partira.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <!-- Stage 3 -->
+            <tr>
+              <td>Stage 3</td>
+              <td>
+                <b><strong style="color: #dc241c">Bege & Petz</strong></b>
+                <ul>
+                  <li class="li-mt">
+                    <u>HP (au premier niveau) :</u> 7 500 000 HP.
+                  </li>
+                  <li>
+                    <u>ATK (au premier niveau) :</u> ? points de dégâts tous les
+                    tours.
+                  </li>
+                  <li class="li-mt">
+                    <u><b>Actions préventives :</b></u>
+                    <ul>
+                      <li class="li-mt">
+                        <img
+                          src="https://i.imgur.com/u2O1BNQ.png"
+                          style="vertical-align: bottom"
+                        />
+                        Il se mettra une immunité pendant 99 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils mettront des cercles [EMP] à toute l'équipe.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/Pyo8TY8.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils mettront le "Lien" sur les personnages de la colonne
+                        de gauche pendant 8 tours.
+                      </li>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/rlltiyj.png"
+                          style="vertical-align: bottom"
+                        />
+                        Seules les attaques normales infligeront des dégâts sur
+                        les ennemis pendant 99 tours.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u>À partir d'un seuil de ? HP (31ème niveau) :</u>
+                    <ul>
+                      <li>
+                        <img
+                          src="https://i.imgur.com/t35aV9F.png"
+                          style="vertical-align: bottom"
+                        />
+                        Ils réduiront les dégâts subis pendant 5 tours.<br />
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="li-mt">
+                    <u
+                      >Si un coup spécial qui enlève un pourcentage d'HP est
+                      utilisé :</u
+                    >
+                    Ils restaureront tous leurs HP.
+                  </li>
+                  <li class="li-mt">
+                    <u>1er tour et tous les 3 tours:</u>
+                    <img
+                      src="https://i.imgur.com/WV0tjgU.png"
+                      style="vertical-align: bottom"
+                    />
+
+                    Ils limiteront le timing des coups à 3 pendant 2 tours.
+                  </li>
+                  <li>
+                    <u>3ème tour :</u>
+                    Ils projetteront hors de l'écran 2 personnages aléatoires.
+                  </li>
+                  <li>
+                    <u>4ème tour :</u>
+                    Ils attaqueront avec beaucoup de points de dégâts.
+                  </li>
+                  <li class="li-mt">
+                    <u>En-dessous des 20% d'HP :</u>
+                    Ils annuleront les dégâts subis pendant 2 tours.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Personnages recommandés -->
+        <div>
+          <!-- HP Boss -->
+          <div class="btn-container">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-toggle="collapse"
+              data-thetarget="#HPBoss1"
+            >
+              Voir les HP de Bege & Petz
+            </button>
+
+            <div id="HPBoss1" class="collapse">
+              <table width="30%">
+                <tbody>
+                  <tr>
+                    <td><img src="https://i.imgur.com/97tYATN.png" /></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="scrollUp">
+      <a href="#top"
+        ><img src="../img/to_top.png" height="60%" width="60%"
+      /></a>
+    </div>
+    <div class="baspage">
+      <img src="https://i.imgur.com/zGoXmaU.png" class="baspage" />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("guides", "next-kizuna", 1);
+    </script>
+    <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
+    <script
+      type="text/javascript"
+      src="../Accueil/js/bootstrap.min.js"
+    ></script>
+    <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
+    <script src="script.js"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script src="../shared/button-toggle.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.page-guides table.tm-guide`).each((index) => {
+          replaceOrbsColors($(`.page-guides table.tm-guide`)[index]);
+          replaceTypesColors($(`.page-guides table.tm-guide`)[index]);
+        });
+
+        replaceTMCharactersColors(".page-guides");
+      }, 100);
+
+      function replaceTMCharactersColors(chosenSection) {
+        const characters = [
           {
-            position: relative;
-            bottom: -1vw;
-            max-width: 100%;
-            width: 100%;
-          }
-        </style>
-    </body>
-</html>
+            name: "Robin",
+            color: "#A916B6",
+          },
+          {
+            name: "Wapol",
+            color: "#A916B6",
+          },
+          {
+            name: "Chopper",
+            color: "#ECAC04",
+          },
+          {
+            name: "Chavipère",
+            color: "#DC241C",
+          },
+          {
+            name: "Nami",
+            color: "#ECAC04",
+          },
+          {
+            name: "Monet",
+            color: "#A916B6",
+          },
+          {
+            name: "Barbe Blanche",
+            color: "#4C4CFF",
+          },
+          {
+            name: "Coby",
+            color: "#A916B6",
+          },
+          {
+            name: "Monkey D. Garp",
+            color: "#DC241C",
+          },
+        ];
 
-<table class="detail b">
-<tbody>
+        $(`${chosenSection} table.tm-guide`).each((index) => {
+          let $section = $($(`${chosenSection} table.tm-guide`)[index]).html();
+
+          characters.forEach((character) => {
+            const regex = new RegExp(escapeRegExp(`${character.name}`), "gi");
+
+            $section = $section.replace(
+              regex,
+              `<strong style="color: ${character.color};">${character.name}</strong>`
+            );
+          });
+
+          $($(`${chosenSection} table.tm-guide`)[index]).html($section);
+        });
+      }
+    </script>
+  </body>
+</html>
