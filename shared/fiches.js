@@ -46,6 +46,10 @@ function replaceOrbsColors(chosenSection = '.fiche-table') {
       name: 'EMP',
       color: '#777',
     },
+    {
+      name: 'WA',
+      color: 'saddlebrown',
+    }
   ];
 
   if ($section) {
