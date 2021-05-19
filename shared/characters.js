@@ -1372,14 +1372,6 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
-              id: "3203",
-              imgUrl:
-                "https://i.imgur.com/y2ShEAS.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: false,
-            },
-            {
               id: "3225",
               imgUrl:
                 "https://onepiece-treasurecruise.com/wp-content/uploads/f3225.png",
