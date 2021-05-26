@@ -49,6 +49,10 @@ function replaceOrbsColors(chosenSection = '.fiche-table') {
     {
       name: 'WA',
       color: 'saddlebrown',
+    },
+    {
+      name: 'G',
+      color: 'orange',
     }
   ];
 
