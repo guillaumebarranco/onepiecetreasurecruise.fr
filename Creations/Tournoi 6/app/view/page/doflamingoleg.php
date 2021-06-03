@@ -238,17 +238,17 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
-                            <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel
+                            <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel<br>
+                            <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
+                            <b><font color="#A916B6">Don Quijote Doflamingo</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#1CAC24">Trébol, Pica et Diamante</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#A916B6">Don Quijote</font></b> <b><font color="#1CAC24">Family</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
                     <tr>

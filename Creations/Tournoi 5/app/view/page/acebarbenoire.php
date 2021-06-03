@@ -238,17 +238,17 @@ position: absolute;
               <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#ECAC04">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#A916B6">Marshall D. Teach</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
-                            <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
+                            <b><font color="#ECAC04">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#A916B6">Marshall D. Teach</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur<br>
+                            <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#ECAC04">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
-                            <b><font color="#A916B6">Marshall D. Teach</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
+                            <b><font color="#ECAC04">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre<br>
+                            <b><font color="#A916B6">Marshall D. Teach</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#ECAC04">Ace</font></b> <b>et</b> <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur
                         </td>
                     </tr>
               <tr>

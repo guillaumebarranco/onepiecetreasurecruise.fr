@@ -238,17 +238,17 @@ position: absolute;
               <tr>
                 <td>Classe 1</td>
                         <td>
-                            <b><font color="#DC241C">Bellamy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
-                            <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
-                            <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
+                            <b><font color="#DC241C">Bellamy</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur<br>
+                            <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel<br>
+                            <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur
                         </td>
               </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#DC241C">Bellamy</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
+                            <b><font color="#DC241C">Bellamy</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#DC241C">Bellamy</font></b> <b>et</b> <b><font color="#1CAC24">Sarquiss</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
               <tr>

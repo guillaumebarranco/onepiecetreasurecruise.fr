@@ -246,15 +246,15 @@ position: absolute;
         <tr>
           <td>Classe 1</td>
           <td>
-            <b><font color="#ECAC04">Ener</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-            <b><font color="#1CAC24">Luffy</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
+            <b><font color="#ECAC04">Ener</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+            <b><font color="#1CAC24">Luffy</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux
           </td>
         </tr>
         <tr>
           <td>Classe 2</td>
           <td>
-            <b><font color="#ECAC04">Ener</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
-            <b><font color="#1CAC24">Luffy</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
+            <b><font color="#ECAC04">Ener</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre<br>
+            <b><font color="#1CAC24">Luffy</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre
           </td>
         </tr>
         <tr>

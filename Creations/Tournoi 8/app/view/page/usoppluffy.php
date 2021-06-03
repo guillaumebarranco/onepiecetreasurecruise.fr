@@ -238,15 +238,15 @@ position: absolute;
         <tr>
           <td>Classe 1</td>
           <td>
-            <b><font color="#ECAC04">Usopp</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
-            <b><font color="#4C4CFF">Luffy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
+            <b><font color="#ECAC04">Usopp</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur<br>
+            <b><font color="#4C4CFF">Luffy</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur
           </td>
         </tr>
         <tr>
           <td>Classe 2</td>
           <td>
-            <b><font color="#ECAC04">Usopp</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
-            <b><font color="#4C4CFF">Luffy</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
+            <b><font color="#ECAC04">Usopp</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel<br>
+            <b><font color="#4C4CFF">Luffy</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre
           </td>
         </tr>
         <tr>

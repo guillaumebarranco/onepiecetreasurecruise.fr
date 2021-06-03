@@ -239,14 +239,14 @@ position: absolute;
                         <td>Classe 1</td>
                         <td>
                             <b><font color="#A916B6">Kuzan</font></b> : Intelllectuel<br>
-                            <b><font color="#ECAC04">Sakazuki</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
+                            <b><font color="#ECAC04">Sakazuki</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#A916B6">Kuzan</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
-                            <b><font color="#ECAC04">Sakazuki</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
+                            <b><font color="#A916B6">Kuzan</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur<br>
+                            <b><font color="#ECAC04">Sakazuki</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur
                         </td>
                     </tr>
               <tr>

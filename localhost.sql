@@ -7299,7 +7299,7 @@ INSERT INTO `artworkf1` (`id`, `nomine1`, `nomine2`, `ip`) VALUES
 (18, '	Komurasaki la grande courtisane (6*)', 'O-Kiku (version Combat de l\'amitiÃ©)', '86.225.92.241'),
 (19, 'Nami (rare recrut limitÃ© du sugofest super type)', 'Luffy/boa combat de l\'amitiÃ©', '91.161.156.192'),
 (20, 'Pudding en version 6*', 'Luffy/Hancock', '109.220.8.142'),
-(21, 'O-nami QCK 6*', 'Nami PSY 5* (Personnage gratuit des Souhaits de chopperman - Personnage PVP)', '81.49.0.127'),
+(21, 'O-nami QCK 6*', 'Nami PSY 5* (Personnage gratuit des Souhaits de Chopper Man - Personnage PVP)', '81.49.0.127'),
 (22, 'Pudding LÃ©gende', 'Komurasaki LÃ©gende', '109.221.187.252'),
 (23, 'Pudding 6* int', '', '92.157.137.168'),
 (24, 'Hancock V3 ', 'Germa 66 PSY', '176.139.204.104'),

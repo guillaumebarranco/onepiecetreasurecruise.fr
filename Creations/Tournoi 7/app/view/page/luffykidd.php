@@ -238,17 +238,17 @@ position: absolute;
               <tr>
                 <td>Classe 1</td>
                 <td>
-                  <b><font color="#DC241C">Luffy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
-                  <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                  <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur ou Ravageur (selon si le coup spécial est activé avec <b><font color="#DC241C">Luffy</font></b> ou avec <b><font color="#1CAC24">Kidd</font></b>)
+                  <b><font color="#DC241C">Luffy</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur<br>
+                  <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                  <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur ou Ravageur (selon si le coup spécial est activé avec <b><font color="#DC241C">Luffy</font></b> ou avec <b><font color="#1CAC24">Kidd</font></b>)
                 </td>
               </tr>
               <tr>
                 <td>Classe 2</td>
                 <td>
-                  <b><font color="#DC241C">Luffy</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
-                  <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
-                  <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
+                  <b><font color="#DC241C">Luffy</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre<br>
+                  <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre<br>
+                  <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Kidd</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre
                 </td>
               </tr>
               <tr>

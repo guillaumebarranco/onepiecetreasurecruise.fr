@@ -237,11 +237,11 @@ position: absolute;
               </tr>
               <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur</td>
+                <td><img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur</td>
               </tr>
               <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace</td>
+                <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace</td>
               </tr>
               <tr>
                         <td>Coût</td>

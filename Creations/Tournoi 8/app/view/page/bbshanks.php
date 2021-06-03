@@ -238,15 +238,15 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#DC241C">Barbe Blanche</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#4C4CFF">Shanks</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
+                            <b><font color="#DC241C">Barbe Blanche</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#4C4CFF">Shanks</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#DC241C">Barbe Blanche</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#4C4CFF">Shanks</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel
+                            <b><font color="#DC241C">Barbe Blanche</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#4C4CFF">Shanks</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel
                         </td>
                     </tr>
                     <tr>

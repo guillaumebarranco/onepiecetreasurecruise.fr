@@ -238,17 +238,17 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
+                            <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
+                            <b><font color="#A916B6">Barbe Noire - Ténèbres</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#A916B6">Barbe Noire - Tremblements</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#A916B6">Barbe Noire - Ténèbres et Tremblements</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
                     <tr>

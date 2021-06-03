@@ -238,17 +238,17 @@ position: absolute;
               <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#DC241C">Bartholomew Kuma</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#ECAC04">Gecko Moria</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
+                            <b><font color="#DC241C">Bartholomew Kuma</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#ECAC04">Gecko Moria</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#DC241C">Bartholomew Kuma</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
-                            <b><font color="#ECAC04">Gecko Moria</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur<br>
-                            <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur
+                            <b><font color="#DC241C">Bartholomew Kuma</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur<br>
+                            <b><font color="#ECAC04">Gecko Moria</font></b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;"/> Sabreur<br>
+                            <b><font color="#DC241C">Kuma</font></b> <b>et</b> <b><font color="#ECAC04">Moria</font></b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;"/> Sabreur
                         </td>
                     </tr>
                     <tr>

@@ -238,17 +238,17 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#A916B6">Zeus et Big Mom</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#A916B6">Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
+                            <b><font color="#A916B6">Zeus et Big Mom</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#A916B6">Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#A916B6">Zeus et Big Mom</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#A916B6">Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur
+                            <b><font color="#A916B6">Zeus et Big Mom</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#A916B6">Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#A916B6">Zeus, Prométhée et Big Mom</font></b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;"/> Sabreur
                         </td>
                     </tr>
               <tr>
