@@ -237,11 +237,11 @@ position: absolute;
               </tr>
               <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur</td>
+                <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur</td>
               </tr>
               <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux</td>
+                <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux</td>
               </tr>
               <tr>
                 <td colspan="2"><center><b>Statistiques</b></center></td>

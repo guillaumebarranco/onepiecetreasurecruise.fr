@@ -238,17 +238,17 @@ position: absolute;
               <tr>
                 <td>Classe 1</td>
                 <td>
-                  <b><font color="#ECAC04">Basil Hawkins</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
-                  <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                  <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
+                  <b><font color="#ECAC04">Basil Hawkins</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel<br>
+                  <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                  <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace
                 </td>
               </tr>
               <tr>
                 <td>Classe 2</td>
                 <td>
-                  <b><font color="#ECAC04">Basil Hawkins</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                  <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel<br>
-                  <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel
+                  <b><font color="#ECAC04">Basil Hawkins</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                  <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel<br>
+                  <b><font color="#ECAC04">Hawkins</font></b> <b>et</b> <b><font color="#4C4CFF">X-Drake</font></b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel
                 </td>
               </tr>
               <tr>

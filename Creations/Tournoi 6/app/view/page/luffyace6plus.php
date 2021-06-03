@@ -238,17 +238,17 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#1CAC24">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
+                            <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#1CAC24">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
-                            <b><font color="#1CAC24">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
+                            <b><font color="#DC241C">Monkey D. Luffy</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur<br>
+                            <b><font color="#1CAC24">Portgas D. Ace</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#DC241C">Luffy</font></b> <b>et</b> <b><font color="#1CAC24">Ace</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace
                         </td>
                     </tr>
               <tr>

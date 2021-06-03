@@ -144,35 +144,35 @@ function addIconsToClasses(chosenSection = '.fiche-table') {
   const classes = [
     {
       name: 'Ravageur',
-      icon: 'https://i.imgur.com/2aO4RiX.png',
+      icon: 'https://i.imgur.com/97ymskP.png',
     },
     {
       name: 'Tenace',
-      icon: 'https://i.imgur.com/aUz26fE.png',
+      icon: 'https://i.imgur.com/EA0ZMlX.png',
     },
     {
       name: 'Cogneur',
-      icon: 'https://i.imgur.com/MrF9dbp.png',
+      icon: 'https://i.imgur.com/Bb886qJ.png',
     },
     {
       name: 'Intellectuel',
-      icon: 'https://i.imgur.com/Uw1DT3w.png',
+      icon: 'https://i.imgur.com/LsINwdq.png',
     },
     {
       name: 'Libre',
-      icon: 'https://i.imgur.com/fDfi5ff.png',
+      icon: 'https://i.imgur.com/zVl1bkZ.png',
     },
     {
       name: 'Tireur',
-      icon: 'https://i.imgur.com/3m4dfE7.png',
+      icon: 'https://i.imgur.com/EgrFZDY.png',
     },
     {
       name: 'Sabreur',
-      icon: 'https://i.imgur.com/LgeJ3v7.png',
+      icon: 'https://i.imgur.com/NPdyphi.png',
     },
     {
       name: 'Ambitieux',
-      icon: 'https://i.imgur.com/iFDU5wQ.png',
+      icon: 'https://i.imgur.com/KD5mQrh.png',
     },
   ];
 
@@ -184,7 +184,7 @@ function addIconsToClasses(chosenSection = '.fiche-table') {
 
       $section = $section.replace(
         regex1,
-        `<img style="vertical-align: bottom;" src="${characterClass.icon}" /> ${characterClass.name}`
+        `<img style="vertical-align: bottom;" src="${characterClass.icon}" width="20" height="20" /> ${characterClass.name}`
       );
     });
 

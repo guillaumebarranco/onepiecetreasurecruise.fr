@@ -238,15 +238,15 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#DC241C">Ace</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
-                            <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
+                            <b><font color="#DC241C">Ace</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur<br>
+                            <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#DC241C">Ace</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux
+                            <b><font color="#DC241C">Ace</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#A916B6">Barbe Noire</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux
                         </td>
                     </tr>
               <tr>

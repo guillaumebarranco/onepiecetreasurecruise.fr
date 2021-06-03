@@ -238,17 +238,17 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#A916B6">Boa Hancock</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur<br>
-                            <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : <img src="https://i.imgur.com/3m4dfE7.png" style="vertical-align: bottom;"/> Tireur
+                            <b><font color="#A916B6">Boa Hancock</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur<br>
+                            <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;"/> Tireur
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#A916B6">Boa Hancock</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
-                            <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : <img src="https://i.imgur.com/LgeJ3v7.png" style="vertical-align: bottom;"/> Sabreur<br>
-                            <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
+                            <b><font color="#A916B6">Boa Hancock</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur<br>
+                            <b><font color="#1CAC24">Boa Sandersonia et Boa Marigold</font></b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;"/> Sabreur<br>
+                            <b><font color="#A916B6">Équipage</font></b> <b><font color="#1CAC24">Kuja</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur
                         </td>
                     </tr>
               <tr>

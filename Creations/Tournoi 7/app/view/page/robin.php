@@ -237,11 +237,11 @@ position: absolute;
               </tr>
               <tr>
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/Uw1DT3w.png" style="vertical-align: bottom;"/> Intellectuel</td>
+                <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;"/> Intellectuel</td>
               </tr>
               <tr>
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre</td>
+                <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre</td>
               </tr>
               <tr>
                 <td colspan="2"><center><b>Statistiques</b></center></td>

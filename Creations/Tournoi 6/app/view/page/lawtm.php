@@ -238,17 +238,17 @@ position: absolute;
               <tr>
                 <td>Classe 1</td>
                         <td>
-                            <b><font color="#1CAC24">Trafalgar Law</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
-                            <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre<br>
-                            <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : <img src="https://i.imgur.com/fDfi5ff.png" style="vertical-align: bottom;"/> Libre
+                            <b><font color="#1CAC24">Trafalgar Law</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre<br>
+                            <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre<br>
+                            <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;"/> Libre
                         </td>
               </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#1CAC24">Trafalgar Law</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur<br>
-                            <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : <img src="https://i.imgur.com/2aO4RiX.png" style="vertical-align: bottom;"/> Ravageur
+                            <b><font color="#1CAC24">Trafalgar Law</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#4C4CFF">Bepo, Shachi et Pingouin</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur<br>
+                            <b><font color="#1CAC24">Équipage du</font></b> <b><font color="#4C4CFF">Heart</font></b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;"/> Ravageur
                         </td>
                     </tr>
               <tr>

@@ -238,17 +238,17 @@ position: absolute;
                     <tr>
                         <td>Classe 1</td>
                         <td>
-                            <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#ECAC04">Judge Vinsmoke</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace<br>
-                            <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : <img src="https://i.imgur.com/aUz26fE.png" style="vertical-align: bottom;"/> Tenace
+                            <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#ECAC04">Judge Vinsmoke</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace<br>
+                            <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;"/> Tenace
                         </td>
                     </tr>
                     <tr>
                         <td>Classe 2</td>
                         <td>
-                            <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur<br>
-                            <b><font color="#ECAC04">Judge Vinsmoke</font></b> : <img src="https://i.imgur.com/iFDU5wQ.png" style="vertical-align: bottom;"/> Ambitieux<br>
-                            <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : <img src="https://i.imgur.com/MrF9dbp.png" style="vertical-align: bottom;"/> Cogneur
+                            <b><font color="#ECAC04">Sanji Vinsmoke</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur<br>
+                            <b><font color="#ECAC04">Judge Vinsmoke</font></b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;"/> Ambitieux<br>
+                            <b><font color="#ECAC04">Sanji</font></b> <b>et</b> <b><font color="#ECAC04">Judge</font></b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;"/> Cogneur
                         </td>
                     </tr>
               <tr>
