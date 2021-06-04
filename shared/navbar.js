@@ -87,7 +87,7 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-progress__avancee-rr" class="dropdown-item" href="${path}AvanceeRR.html">Avancée des personnages du recrutement rare</a>
               <a id="menu-sub-element-progress__avancee-lrr" class="dropdown-item" href="${path}AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
               <a id="menu-sub-element-progress__avancee-raid" class="dropdown-item" href="${path}AvanceeRaids.html">Avancée des combats cruciaux</a>
-              <a id="menu-sub-element-progress__avancee-colo" class="dropdown-item" href="${path}AvanceeColisee.html">Avancée des Colisées</a>
+              <a id="menu-sub-element-progress__avancee-colo" class="dropdown-item" href="${path}AvanceeColisee.html">Avancée des Colisées & Arènes</a>
               <a id="menu-sub-element-progress__avancee-ambush" class="dropdown-item" href="${path}AvanceeAttaque.html">Avancée des attaques ennemies</a>
               <a id="menu-sub-element-progress__avancee-tm" class="dropdown-item" href="${path}AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
               <a id="menu-sub-element-progress__avancee-pvp" class="dropdown-item" href="${path}AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
