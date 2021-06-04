@@ -527,8 +527,6 @@
     </tbody>
   </table>
 
-
-
   <div id="scrollUp">
     <a href="#top"><img src="img/to_top.png" height="60%" width="60%" /></a>
   </div>
@@ -574,8 +572,8 @@
         },
       ];
 
-      $(`table:first-child`).each((index) => {
-        let $section = $($(`table:first-child`)[index]).html();
+      $(`table`).each((index) => {
+        let $section = $($(`table`)[index]).html();
 
         characters.forEach((character) => {
           const regex = new RegExp(escapeRegExp(`<strong>${character.name}</strong>`), "gi");
@@ -586,7 +584,7 @@
           );
         });
 
-        $($(`table:first-child`)[index]).html($section);
+        $($(`table`)[index]).html($section);
       });
     }
   </script>
