@@ -48,8 +48,8 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-guides__next-kizuna" class="dropdown-item waves-effect waves-light"
                 href="${path}Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
               <a id="menu-sub-element-guides__story" class="dropdown-item waves-effect waves-light" href="${path}Mode%20Aventure.html">Histoire principale</a>
-              <a id="menu-sub-element-guides__forests" class="dropdown-item waves-effect waves-light" href="${path}Forets.html">Forêts d'entraînement</a>
-              <a id="menu-sub-element-guides__gc" class="dropdown-item waves-effect waves-light" href="${path}Defi%20de%20Garp.html">Défi de Garp</a>
+              <a id="menu-sub-element-guides__forests" class="dropdown-item waves-effect waves-light" href="${path}Foret.html">Forêts d'entraînement</a>
+              <a id="menu-sub-element-guides__gc" class="dropdown-item waves-effect waves-light" href="${path}Defi_de_Garp.html">Défi de Garp</a>
               <a id="menu-sub-element-guides__skulls" class="dropdown-item waves-effect waves-light" href="${path}Crane.html">Quêtes pour les super évolutions</a>
             </div>
           </li>
@@ -60,7 +60,7 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-lists__rr" class="dropdown-item" href="${path}LegendesBatch.html">Personnages du recrutement rare</a>
               <a id="menu-sub-element-lists__tm" class="dropdown-item" href="${path}Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
               <a id="menu-sub-element-lists__kizuna" class="dropdown-item" href="${path}Kizuna.html">Personnages des combats de l'amitié</a>
-              <a id="menu-sub-element-lists__pvp" class="dropdown-item" href="${path}Festival%20des%20pirates.html">Personnages de la fête des pirates</a>
+              <a id="menu-sub-element-lists__pvp" class="dropdown-item" href="${path}Fete_des_pirates.html">Personnages de la fête des pirates</a>
               <a id="menu-sub-element-lists__lrr" class="dropdown-item" href="${path}LRR.html">Personnages limités au recrutement rare</a>
               <a id="menu-sub-element-lists__support" class="dropdown-item" href="${path}Soutien.html">Personnages limités au recrutement rare de soutien</a>
             </div>
@@ -78,7 +78,7 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-beginner__ships" class="dropdown-item waves-effect waves-light" href="${path}Bateau/">Liste des bateaux</a>
               <a id="menu-sub-element-beginner__supports" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Soutien.html">Effets de soutien
                 spécifiques</a>
-              <a id="menu-sub-element-beginner__pvp-style" class="dropdown-item waves-effect waves-light" href="${path}Fete%20des%20pirates.html">Personnages par style sur la fête des pirates</a>
+              <a id="menu-sub-element-beginner__pvp-style" class="dropdown-item waves-effect waves-light" href="${path}Fete_des_pirates0.html">Personnages par style sur la fête des pirates</a>
               <a id="menu-sub-element-beginner__island" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Ile%20des%20collectionneurs.html">Île des collectionneurs</a>
               <a id="menu-sub-element-beginner__tl" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Tier%20List.html">Tier Lists</a>
             </div>
