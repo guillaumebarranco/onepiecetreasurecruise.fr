@@ -98,11 +98,11 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Raids.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Attaque ennemie.html">Attaques ennemies</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Invasion.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Fortnight.html">Quêtes permanentes</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Événements spéciaux</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Carte aux tresors/Prochaine Carte aux tresors.html">Prochaine Carte aux trésors</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Bataille cooperative/Prochaine bataille cooperative.html">Prochain combat de l'amitié</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Mode Aventure.html">Histoire principale</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Forets.html">Forêts d'entraînement</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Defi de Garp.html">Défi de Garp</a>
@@ -115,8 +115,8 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../../LegendesBatch.html">Personnages du recrutement rare</a>
-          <a class="dropdown-item" href="../../Carte aux tresors.html">Personnages des Cartes aux trésors</a>
-          <a class="dropdown-item" href="../../Bataille cooperative.html">Personnages des combats de l'amitié</a>
+          <a class="dropdown-item" href="../../Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
+          <a class="dropdown-item" href="../../Kizuna.html">Personnages des combats de l'amitié</a>
           <a class="dropdown-item" href="../../Festival des pirates.html">Personnages de la fête des pirates</a>
           <a class="dropdown-item" href="../../LRR.html">Personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../Soutien.html">Personnages limités au recrutement rare de soutien</a>

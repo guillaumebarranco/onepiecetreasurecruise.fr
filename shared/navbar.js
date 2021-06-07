@@ -1,15 +1,21 @@
 function getNavbar(level = 0) {
+  let path = "";
 
-  let path = '';
-
-  switch(level) {
-    case 0: path = ''; break;
-    case 1: path = '../'; break;
-    case 2: path = '../../'; break;
-    default: break;
+  switch (level) {
+    case 0:
+      path = "";
+      break;
+    case 1:
+      path = "../";
+      break;
+    case 2:
+      path = "../../";
+      break;
+    default:
+      break;
   }
 
-  return  `
+  return `
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark primary-color-dark">
       <img class="topnavbar" src="https://i.imgur.com/QvxN4d8.png" />
 
@@ -34,13 +40,13 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-guides__raids" class="dropdown-item waves-effect waves-light" href="${path}Raids.html">Combats cruciaux</a>
               <a id="menu-sub-element-guides__colos" class="dropdown-item waves-effect waves-light" href="${path}Colisee.html">Colisées</a>
               <a id="menu-sub-element-guides__arenas" class="dropdown-item waves-effect waves-light" href="${path}Arene.html">Arènes</a>
-              <a id="menu-sub-element-guides__ambushes" class="dropdown-item waves-effect waves-light" href="${path}Attaque%20ennemie.html">Attaques ennemies</a>
+              <a id="menu-sub-element-guides__ambushes" class="dropdown-item waves-effect waves-light" href="${path}Invasion.html">Attaques ennemies</a>
               <a id="menu-sub-element-guides__fn" class="dropdown-item waves-effect waves-light" href="${path}Fortnight.html">Quêtes permanentes</a>
               <a id="menu-sub-element-guides__special" class="dropdown-item waves-effect waves-light" href="${path}Special.html">Événements spéciaux</a>
               <a id="menu-sub-element-guides__next-tm" class="dropdown-item waves-effect waves-light"
-                href="${path}Carte%20aux%20tresors/Prochaine%20Carte%20aux%20tresors.html">Prochaine Carte aux trésors</a>
+                href="${path}Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
               <a id="menu-sub-element-guides__next-kizuna" class="dropdown-item waves-effect waves-light"
-                href="${path}Bataille%20cooperative/Prochaine%20bataille%20cooperative.html">Prochain combat de l'amitié</a>
+                href="${path}Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
               <a id="menu-sub-element-guides__story" class="dropdown-item waves-effect waves-light" href="${path}Mode%20Aventure.html">Histoire principale</a>
               <a id="menu-sub-element-guides__forests" class="dropdown-item waves-effect waves-light" href="${path}Forets.html">Forêts d'entraînement</a>
               <a id="menu-sub-element-guides__gc" class="dropdown-item waves-effect waves-light" href="${path}Defi%20de%20Garp.html">Défi de Garp</a>
@@ -52,8 +58,8 @@ function getNavbar(level = 0) {
               id="navbarDropdownMenuLink">Liste de personnages</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
               <a id="menu-sub-element-lists__rr" class="dropdown-item" href="${path}LegendesBatch.html">Personnages du recrutement rare</a>
-              <a id="menu-sub-element-lists__tm" class="dropdown-item" href="${path}Carte%20aux%20tresors.html">Personnages des Cartes aux trésors</a>
-              <a id="menu-sub-element-lists__kizuna" class="dropdown-item" href="${path}Bataille%20cooperative.html">Personnages des combats de l'amitié</a>
+              <a id="menu-sub-element-lists__tm" class="dropdown-item" href="${path}Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
+              <a id="menu-sub-element-lists__kizuna" class="dropdown-item" href="${path}Kizuna.html">Personnages des combats de l'amitié</a>
               <a id="menu-sub-element-lists__pvp" class="dropdown-item" href="${path}Festival%20des%20pirates.html">Personnages de la fête des pirates</a>
               <a id="menu-sub-element-lists__lrr" class="dropdown-item" href="${path}LRR.html">Personnages limités au recrutement rare</a>
               <a id="menu-sub-element-lists__support" class="dropdown-item" href="${path}Soutien.html">Personnages limités au recrutement rare de soutien</a>
@@ -220,10 +226,10 @@ thanks
 function addNavbar(parentElement, subElement = null, level = 0) {
   const navbar = getNavbar(level);
 
-  $('#optcnavbar').append(navbar);
-  $(`#menu-element-${parentElement}`).addClass('active');
+  $("#optcnavbar").append(navbar);
+  $(`#menu-element-${parentElement}`).addClass("active");
 
-  if(subElement) {
-    $(`#menu-sub-element-${parentElement}__${subElement}`).addClass('active');
+  if (subElement) {
+    $(`#menu-sub-element-${parentElement}__${subElement}`).addClass("active");
   }
 }
