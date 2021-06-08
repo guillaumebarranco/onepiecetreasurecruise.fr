@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Avancée des personnages des combats cruciaux</title>
+    <meta content="Avancée des personnages des combats cruciaux" name="title" />
+    <meta content="" name="description" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="shared/generic.css" rel="stylesheet" />
+    <link href="shared/backgrounds.css" rel="stylesheet" />
+    <link href="shared/avancees.css" rel="stylesheet" />
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="scriptAvanceeRaid.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="shared/analytics.js"></script>
+  </head>
+  <body id="NO-COLOR" class="raidlist">
+    <div class="entete">
+      <img class="entetefond" src="https://i.imgur.com/adWoClY.png" />
+      <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
+      <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
+      <a href="/"><img class="logo" src="https://i.imgur.com/g0NAqri.png" /></a>
+    </div>
+
+    <div id="optcnavbar"></div>
+
+    <header>
+      <a href="/"><img alt="logo" src="img/logo.png" /></a>
+    </header>
+
+    <div class="avancees-container">
+      <h1>Avancée des personnages des combats cruciaux</h1>
+      <table>
+        <tbody>
+          <tr>
+            <td><img src="https://imgur.com/QsXQ2kL.png" /></td>
+            <td>
+              <h3>Niveau des statistiques au maximum</h3>
+            </td>
+            <td><img src="https://imgur.com/76MHSCn.png" /></td>
+            <td>
+              <h3>Niveau du coup spécial au maximum</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://imgur.com/BahT39m.png" /></td>
+            <td>
+              <h3>Niveau des emplacements de pouvoirs au maximum</h3>
+            </td>
+            <td><img src="https://i.imgur.com/pqdrdu0.png" /></td>
+            <td>
+              <h3>100 barbes à papa HP</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://i.imgur.com/UAK0erl.png" /></td>
+            <td>
+              <h3>100 barbes à papa ATK</h3>
+            </td>
+            <td><img src="https://i.imgur.com/3rglFwY.png" /></td>
+            <td>
+              <h3>100 barbes à papa RCV</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://imgur.com/LNddvdE.png" /></td>
+            <td>
+              <h3>Dépassement de limites au maximum</h3>
+            </td>
+            <td><img src="https://imgur.com/ACQBSqv.png" /></td>
+            <td>
+              <h3>Potential Abilities au maximum</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="https://imgur.com/g8Fdgu6.png" /></td>
+            <td>
+              <h3>Effets de soutien au maximum</h3>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="characters-container"></div>
+    </div>
+
+    <div class="baspage">
+      <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
+    </div>
+
+    <script src="shared/navbar.js"></script>
+    <script>
+      addNavbar("progress", "avancee-raid", 0);
+    </script>
+    <script src="Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="shared/avancees.js"></script>
+    <script>
+      const raidsCharactersList = [
+        {
+          id: "0227",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0227.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0249",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0249.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0306",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0306.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0353",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0353.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0390",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0390.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0418",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0418.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0447",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0447.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0516",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0516.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0518",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0518.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0575",
+          imgUrl: "https://i.imgur.com/FCKSAI6.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0603",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0603.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0654",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0654.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0770",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0770.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0771",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0771.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0772",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0772.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0773",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0773.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "0774",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0774.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "0775",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0775.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "0795",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0795.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0836",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0836.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0865",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0865.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0933",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0933.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0978",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0978.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "0989",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0989.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1047",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1047.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1108",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1108.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1163",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1163.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1298",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1298.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1374",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1374.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1432",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1432.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1518",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1518.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1595",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1595.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1696",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1696.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1815",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1815.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1830",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1830.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1879",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1879.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1924",
+          imgUrl: "https://i.imgur.com/2owZzx4.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1943",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1943.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2015",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2015.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2033",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2033.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2097",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2097.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2158",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2158.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2197",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2197.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2263",
+          imgUrl: "https://i.imgur.com/VsLFRCD.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2281",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2281.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2356",
+          imgUrl: "https://i.imgur.com/JBHf0sq.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2394",
+          imgUrl: "https://i.imgur.com/KV69wjf.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2398",
+          imgUrl: "https://i.imgur.com/QPHxCxj.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2473",
+          imgUrl: "https://i.imgur.com/dgmmVig.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2504",
+          imgUrl: "https://i.imgur.com/innJX9C.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2517",
+          imgUrl: "https://i.imgur.com/S9c6Ddi.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "2552",
+          imgUrl: "https://i.imgur.com/rZ1l1N2.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "2642",
+          imgUrl: "https://i.imgur.com/5HB7aXa.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2643",
+          imgUrl: "https://i.imgur.com/mQCxvru.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2644",
+          imgUrl: "https://i.imgur.com/71B381P.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2645",
+          imgUrl: "https://i.imgur.com/X3H8LBt.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2646",
+          imgUrl: "https://i.imgur.com/WHgy6jU.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2647",
+          imgUrl: "https://i.imgur.com/0Ro6YPx.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2670",
+          imgUrl: "https://i.imgur.com/R4WV6Wj.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2684",
+          imgUrl: "https://i.imgur.com/k8aI0Dv.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2698",
+          imgUrl: "https://i.imgur.com/bV4892b.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2781",
+          imgUrl: "https://i.imgur.com/BFswRuC.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2795",
+          imgUrl: "https://i.imgur.com/zSHNIcG.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "5024",
+          imgUrl: "https://i.imgur.com/fLSdDqb.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+        {
+          id: "2846",
+          imgUrl: "https://i.imgur.com/qMVbNVh.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2885",
+          imgUrl: "https://i.imgur.com/KosUyV9.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2893",
+          imgUrl: "https://i.imgur.com/WmO2HMv.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2922",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2922.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2956",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2956.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2987",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2987.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "3078",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3078.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "3143",
+          imgUrl: "https://i.imgur.com/HU2cZIo.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "3209",
+          imgUrl:
+            "https://i.imgur.com/WOlq1W0.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "3263",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/wp-content/uploads/f3263.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5052",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5052.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: false,
+        },
+      ];
+
+      const preparationRaidsCharactersList = [
+        {
+          id: "2711",
+          imgUrl: "https://i.imgur.com/NBEAZ27.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2712",
+          imgUrl: "https://i.imgur.com/W1GXE8A.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2714",
+          imgUrl: "https://i.imgur.com/xnXgHC2.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+      ];
+
+      const neoRaidsCharactersList = [
+        {
+          id: "1623",
+          imgUrl: "https://i.imgur.com/FalDNz8.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1647",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1647.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1669",
+          imgUrl: "https://i.imgur.com/Wit6pDw.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1680",
+          imgUrl: "https://i.imgur.com/wqHD6Yj.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1727",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1727.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1739",
+          imgUrl: "https://i.imgur.com/Kw4FEPm.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1772",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1772.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1780",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1780.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1826",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1826.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "1930",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1930.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2070",
+          imgUrl:
+            "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2070.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5028",
+          imgUrl: "https://imgur.com/F9x1uUv.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5034",
+          imgUrl: "https://imgur.com/Qv8zN3B.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5041",
+          imgUrl: "https://imgur.com/YzxsJsv.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5043",
+          imgUrl: "https://imgur.com/ttYOkq5.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5045",
+          imgUrl: "https://imgur.com/Jqpv2GE.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "5058",
+          imgUrl: "https://i.imgur.com/Salc7Ls.png",
+          hasLb: false,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+      ];
+
+      const specialRaidsCharactersList = [
+        {
+          id: "2559",
+          imgUrl: "https://i.imgur.com/csDIrUI.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+        {
+          id: "2707",
+          imgUrl: "https://i.imgur.com/60XtEmi.png",
+          hasLb: true,
+          hasKeyLb: false,
+          hasSupport: true,
+        },
+      ];
+
+      addAvanceeCategoryTitle("Combats cruciaux");
+      generateAvanceeList(raidsCharactersList);
+      addAvanceeCategoryTitle("Quêtes de préparation aux combats cruciaux");
+      generateAvanceeList(preparationRaidsCharactersList);
+      addAvanceeCategoryTitle("Néo-Combats cruciaux");
+      generateAvanceeList(neoRaidsCharactersList);
+      addAvanceeCategoryTitle("Spéciaux");
+      generateAvanceeList(specialRaidsCharactersList);
+    </script>
+  </body>
+</html>
