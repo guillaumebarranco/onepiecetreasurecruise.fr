@@ -37,7 +37,7 @@ function getNavbar(level = 0) {
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
               <a id="menu-sub-element-guides__how" class="dropdown-item waves-effect waves-light" href="${path}Coulisses.html">Comment les guides sont-ils rédigés
                 ?</a>
-              <a id="menu-sub-element-guides__raids" class="dropdown-item waves-effect waves-light" href="${path}Raids.html">Combats cruciaux</a>
+              <a id="menu-sub-element-guides__raids" class="dropdown-item waves-effect waves-light" href="${path}Raid.html">Combats cruciaux</a>
               <a id="menu-sub-element-guides__colos" class="dropdown-item waves-effect waves-light" href="${path}Colisee.html">Colisées</a>
               <a id="menu-sub-element-guides__arenas" class="dropdown-item waves-effect waves-light" href="${path}Arene.html">Arènes</a>
               <a id="menu-sub-element-guides__ambushes" class="dropdown-item waves-effect waves-light" href="${path}Invasion.html">Attaques ennemies</a>
@@ -47,7 +47,7 @@ function getNavbar(level = 0) {
                 href="${path}Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
               <a id="menu-sub-element-guides__next-kizuna" class="dropdown-item waves-effect waves-light"
                 href="${path}Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
-              <a id="menu-sub-element-guides__story" class="dropdown-item waves-effect waves-light" href="${path}Mode%20Aventure.html">Histoire principale</a>
+              <a id="menu-sub-element-guides__story" class="dropdown-item waves-effect waves-light" href="${path}Histoire.html">Histoire principale</a>
               <a id="menu-sub-element-guides__forests" class="dropdown-item waves-effect waves-light" href="${path}Foret.html">Forêts d'entraînement</a>
               <a id="menu-sub-element-guides__gc" class="dropdown-item waves-effect waves-light" href="${path}Defi_de_Garp.html">Défi de Garp</a>
               <a id="menu-sub-element-guides__skulls" class="dropdown-item waves-effect waves-light" href="${path}Crane.html">Quêtes pour les super évolutions</a>
@@ -92,7 +92,7 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-progress__avancee-legend" class="dropdown-item" href="${path}Avancee.html">Avancée des personnages Sugo-Rare</a>
               <a id="menu-sub-element-progress__avancee-rr" class="dropdown-item" href="${path}AvanceeRR.html">Avancée des personnages du recrutement rare</a>
               <a id="menu-sub-element-progress__avancee-lrr" class="dropdown-item" href="${path}AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
-              <a id="menu-sub-element-progress__avancee-raid" class="dropdown-item" href="${path}AvanceeRaids.html">Avancée des combats cruciaux</a>
+              <a id="menu-sub-element-progress__avancee-raid" class="dropdown-item" href="${path}AvanceeRaid.html">Avancée des combats cruciaux</a>
               <a id="menu-sub-element-progress__avancee-colo" class="dropdown-item" href="${path}AvanceeColisee.html">Avancée des Colisées & Arènes</a>
               <a id="menu-sub-element-progress__avancee-ambush" class="dropdown-item" href="${path}AvanceeAttaque.html">Avancée des attaques ennemies</a>
               <a id="menu-sub-element-progress__avancee-tm" class="dropdown-item" href="${path}AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>

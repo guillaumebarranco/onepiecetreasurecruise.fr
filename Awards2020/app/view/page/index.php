@@ -96,7 +96,7 @@ position: absolute;
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item waves-effect waves-light" href="../../Coulisses.html">Comment les guides sont-ils rédigés ?</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Raids.html">Combats cruciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Raid.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Invasion.html">Attaques ennemies</a>
@@ -104,7 +104,7 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Événements spéciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Mode Aventure.html">Histoire principale</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Histoire.html">Histoire principale</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Foret.html">Forêts d'entraînement</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Defi_de_Garp.html">Défi de Garp</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Crane.html">Quêtes pour les super évolutions</a>
@@ -150,7 +150,7 @@ position: absolute;
           <a class="dropdown-item" href="../../Avancee.html">Avancée des personnages Sugo-Rare</a>
           <a class="dropdown-item" href="../../AvanceeRR.html">Avancée des personnages du recrutement rare</a>
 <a class="dropdown-item" href="../../AvanceeLRR.html">Avancée des personnages limités au recrutement rare</a>
-          <a class="dropdown-item" href="../../AvanceeRaids.html">Avancée des combats cruciaux</a>
+          <a class="dropdown-item" href="../../AvanceeRaid.html">Avancée des combats cruciaux</a>
           <a class="dropdown-item" href="../../AvanceeColisee.html">Avancée des Colisées</a>
           <a class="dropdown-item" href="../../AvanceeAttaque.html">Avancée des attaques ennemies</a>
           <a class="dropdown-item" href="../../AvanceeCarte.html">Avancée des personnages des Cartes aux trésors</a>
