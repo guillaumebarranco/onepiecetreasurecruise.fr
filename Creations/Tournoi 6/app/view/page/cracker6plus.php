@@ -103,8 +103,8 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Mode Aventure.html">Histoire principale</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Forets.html">Forêts d'entraînement</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Defi de Garp.html">Défi de Garp</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Foret.html">Forêts d'entraînement</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Defi_de_Garp.html">Défi de Garp</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Crane.html">Quêtes pour les super évolutions</a>
         </div>
       </li>
@@ -116,7 +116,7 @@ position: absolute;
           <a class="dropdown-item" href="../../LegendesBatch.html">Personnages du recrutement rare</a>
           <a class="dropdown-item" href="../../Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
           <a class="dropdown-item" href="../../Kizuna.html">Personnages des combats de l'amitié</a>
-          <a class="dropdown-item" href="../../Festival des pirates.html">Personnages de la fête des pirates</a>
+          <a class="dropdown-item" href="../../Fete_des_pirates.html">Personnages de la fête des pirates</a>
           <a class="dropdown-item" href="../../LRR.html">Personnages limités au recrutement rare</a>
           <a class="dropdown-item" href="../../Soutien.html">Personnages limités au recrutement rare de soutien</a>
         </div>
@@ -132,7 +132,7 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Bateau/">Liste des bateaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Soutien.html">Effets de soutien spécifiques</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Fete des pirates.html">Personnages par style sur la fête des pirates</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Fete_des_pirates0.html">Personnages par style sur la fête des pirates</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Ile des collectionneurs.html">Île des collectionneurs</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Tier List.html">Tier Lists</a>
         </div>
