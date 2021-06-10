@@ -92,7 +92,7 @@ position: absolute;
           aria-expanded="false">Guides
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item waves-effect waves-light" href="../../Legendes.html">Personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Legende.html">Personnages Sugo-Rare</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Raid.html">Combats cruciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Colisee.html">Colisées</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
@@ -112,7 +112,7 @@ position: absolute;
           aria-expanded="false">Liste de personnages
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="../../LegendesBatch.html">Personnages du recrutement rare</a>
+          <a class="dropdown-item" href="../../LegendeBatch.html">Personnages du recrutement rare</a>
           <a class="dropdown-item" href="../../Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
           <a class="dropdown-item" href="../../Kizuna.html">Personnages des combats de l'amitié</a>
           <a class="dropdown-item" href="../../Fete_des_pirates.html">Personnages de la fête des pirates</a>
@@ -127,7 +127,7 @@ position: absolute;
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Bien debuter.html">Bien débuter</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Souhaits de Chopper Man.html">Souhaits de Chopper Man</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Taux des legendes.html">Taux des personnages Sugo-Rare</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Taux.html">Taux des personnages Sugo-Rare</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Extension du depassement de limites.html">Extension du dépassement de limites</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Bateau/">Liste des bateaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Debutant/Soutien.html">Effets de soutien spécifiques</a>

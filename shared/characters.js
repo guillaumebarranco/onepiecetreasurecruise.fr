@@ -3193,13 +3193,13 @@ const allRareRecruitCharactersList = [
             {
               id: "3212",
               imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f3212.png",
+                "https://i.imgur.com/8JzHgRR.png",
               jpnOnly: true,
             },
             {
               id: "3242",
               imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f3242.png",
+                "https://i.imgur.com/BS3h6Po.png",
               jpnOnly: true,
             },
             {

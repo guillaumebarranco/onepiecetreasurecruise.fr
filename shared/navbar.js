@@ -29,7 +29,7 @@ function getNavbar(level = 0) {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li id="menu-element-legends" class="nav-item">
-            <a class="nav-link" href="${path}Legendes.html">Personnages Sugo-Rare</a>
+            <a class="nav-link" href="${path}Legende.html">Personnages Sugo-Rare</a>
           </li>
           <li id="menu-element-guides" class="nav-item dropdown">
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-light"
@@ -57,7 +57,7 @@ function getNavbar(level = 0) {
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
               id="navbarDropdownMenuLink">Liste de personnages</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-              <a id="menu-sub-element-lists__rr" class="dropdown-item" href="${path}LegendesBatch.html">Personnages du recrutement rare</a>
+              <a id="menu-sub-element-lists__rr" class="dropdown-item" href="${path}LegendeBatch.html">Personnages du recrutement rare</a>
               <a id="menu-sub-element-lists__tm" class="dropdown-item" href="${path}Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
               <a id="menu-sub-element-lists__kizuna" class="dropdown-item" href="${path}Kizuna.html">Personnages des combats de l'amitié</a>
               <a id="menu-sub-element-lists__pvp" class="dropdown-item" href="${path}Fete_des_pirates.html">Personnages de la fête des pirates</a>
@@ -72,7 +72,7 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Bien%20debuter.html">Bien débuter</a>
               <a id="menu-sub-element-beginner__cm" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Souhaits%20de%20Chopper%20Man.html">Souhaits de Chopper Man</a>
-              <a id="menu-sub-element-beginner__rates" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Taux%20des%20legendes.html">Taux des personnages Sugo-Rare</a>
+              <a id="menu-sub-element-beginner__rates" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Taux.html">Taux des personnages Sugo-Rare</a>
               <a id="menu-sub-element-beginner__lb-plus" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Extension%20du%20depassement%20de%20limites.html">Extension du dépassement de limites</a>
               <a id="menu-sub-element-beginner__ships" class="dropdown-item waves-effect waves-light" href="${path}Bateau/">Liste des bateaux</a>
