@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    max-width: 85%;
+    background-color: white;
+}
+table#Lot
+{
+    background-color: transparent;
+}
+
+.Lot {
+  max-width: 100%;
+}
+td
+{
+    border: 1px solid black;
+}
+
+.Cadre
+{
+	border: 0px solid black;
+}
+
+body#BB , #LuffySTR , #LucciSTR , #SakazukiSTR , #Caborage , #Lucy, #Dent-de-chienSTR , #BigMom, #G4STR, #Jack, #Bullet{background: url("https://i.imgur.com/CYeWO5Z.png");-webkit-background-size: 100%; }
+body#Ace , #Rosinante , #BN , #Zoro , #Usopp , #Magellan , #RayleighDEX , #DoflamingoDEX , #Nami , #Brook , #JinbeDEX, #LuffyDEX, #SaboDEX{background: url("https://i.imgur.com/wZQRjSO.png");-webkit-background-size: 100%; }
+body#BoaQCK , #Marco , #DoflamingoQCK , #Cavendish , #KuzanQCK , #LuffyQCK , #Ener , #LawQCKR , #LucciQCKTN , #LawQCKI , #Franky , #G4QCK , #Tesoro , #Shiki , #Zephyr , #Carrot , #LucciQCKTR{background: url("https://i.imgur.com/gIyHbZf.png");-webkit-background-size: 100%; }
+body#ShanksPSY , #SaboPSY , #LawPSY , #Borsalino , #Shirahoshi , #G4PSY , #Chavipère , #BoaPSY , #JudgePSY , #Robin , #KuzanPSY , #SanjiPSY , #Garp , #Dent-de-chienPSY, #SanjiJudge{background: url("https://i.imgur.com/uEGo1Im.png");-webkit-background-size: 100%; }
+body#RayleighINT , #Mihawk , #JinbeINT , #IsshoAmbitieux , #Baggy , #Hody , #SanjiINT , #IsshoSabreur , #ShanksINT , #SakazukiINT, #JudgeINT , #Bege, #DoflamingoINT{background: url("https://i.imgur.com/gdHqEUa.png");-webkit-background-size: 100%; }
+body#Sengoku, #BBMarco{background: url("https://i.imgur.com/Sd0rtRl.png");-webkit-background-size: 100%; }
+body#Crocodile, #ViviRebecca{background: url("https://i.imgur.com/RtOyT08.png");-webkit-background-size: 100%; }
+body#Bartolomeo{background: url("https://i.imgur.com/kHXVc2t.png");-webkit-background-size: 100%; }
+body#LuffyAce{background: url("https://i.imgur.com/biJq5Lg.png");-webkit-background-size: 100%; }
+body#BartolomeoCavendish,#LuffyLaw{background: url("https://i.imgur.com/EUyXBMW.png");-webkit-background-size: 100%; }
+body#CaborageChavipere{background: url("https://i.imgur.com/CeDjsqB.png");-webkit-background-size: 100%; }
+body#SaboKoala{background: url("https://i.imgur.com/45IRZwz.png");-webkit-background-size: 100%; }
+body#ShirahoshiManshelly{background: url("https://i.imgur.com/qWWuv8U.png");-webkit-background-size: 100%; }
+body#LuffytaroZorojuro{background: url("https://i.imgur.com/cIudzQ9.png");-webkit-background-size: 100%; }
+body#NamiRobin{background: url("https://i.imgur.com/5kTgPW4.png");-webkit-background-size: 100%; }
+body#ShanksCrew{background: url("https://i.imgur.com/UOyiOu8.png");-webkit-background-size: 100%; }
+body#Germa{background: url("https://i.imgur.com/ADvN6Yp.png");-webkit-background-size: 100%; }
+body#Doffy1{background: url("https://i.imgur.com/rIRMnSf.png");-webkit-background-size: 100%; }
+body#ViviRebecca2{background: url("https://i.imgur.com/iIi25SG.png");-webkit-background-size: 100%; }
+body#ShirahoshiManshelly2{background: url("https://i.imgur.com/VOliUl0.png");-webkit-background-size: 100%; }
+body#Coulisses{background: url("https://i.imgur.com/sxwVXz6.png");-webkit-background-size: 100%; }
+body#AceAkainu{background: url("https://i.imgur.com/kHXVc2t.png");-webkit-background-size: 100%; }
+body#DoflamingoRosinante{background: url("https://i.imgur.com/XWrBo5I.png");-webkit-background-size: 100%; }
+
+#scrollUp
+{
+	position: fixed;
+	bottom : 10px;
+	left: 10px;
+}
+
+.tooltip {
+      position: fixed;
+      z-index: 100;
+
+      padding: 10px 20px;
+
+      border: 1px solid #b3c9ce;
+      border-radius: 4px;
+      text-align: center;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    }
+
+
+b.INT{
+  font-color: purple;
+}
