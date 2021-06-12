@@ -388,7 +388,7 @@ position: absolute;
                         <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><center><a href="../../../Sanji et Judge.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2446.png" height="8%" width="8%"></a></center></td>
+                        <td colspan="2"><center><a href="../../../Legende/Sanji_Judge.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2446.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
           </table>

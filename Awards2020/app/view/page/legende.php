@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Luffy et Sanji</h2>
       <p class="card-text"><b>869 votes (36,64 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Luffy%20et%20Sanji.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Luffy_Sanji.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
