@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Usohachi</h2>
       <p class="card-text"><b>1 269 votes (56,1 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Luffytaro%20et%20Zorojuro.html#1" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Luffytaro_Zorojuro.html#1" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
