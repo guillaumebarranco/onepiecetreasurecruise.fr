@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Barbe Blanche</h2>
       <p class="card-text"><b>960 votes (39,51 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Barbe%20Blanche%202.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Barbe_Blanche_V2.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">Trafalgar Law</h2>
       <p class="card-text"><b>736 votes (30,29 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Trafalgar%20Law%203.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Law_Wano.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Charlotte Dent-de-chien</h2>
       <p class="card-text"><b>423 votes (17,41 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Charlotte%20Dent-de-chien%203.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Katakuri_V3.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Barbe Noire</h2>
       <p class="card-text"><b>311 votes (12,8 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Barbe%20Noire%202.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Barbe_Noire_V2.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Kaido VS Big Mom</h2>
       <p class="card-text"><b>419 votes (17,66 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Kaido%20VS%20Big%20Mom.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Kaido_VS_Big_Mom.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Trafalgar Law</h2>
       <p class="card-text"><b>358 votes (15,09 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Trafalgar%20Law%203.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Law_Wano.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

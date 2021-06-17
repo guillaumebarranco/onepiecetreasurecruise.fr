@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Nico Robin</h2>
       <p class="card-text"><b>390 votes (17,24 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Boa%20Hancock%203.html#2" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Boa_V3.html#2" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Boa Hancock</h2>
       <p class="card-text"><b>135 votes (5,97 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Monkey%20D.%20Luffy%206.html#1" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Luffy_Snakeman.html#1" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Boa Hancock</h2>
       <p class="card-text"><b>1 089 votes (44,85 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Boa%20Hancock%203.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Boa_V3.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">Nami et Robin</h2>
       <p class="card-text"><b>597 votes (24,59 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Nami%20et%20Robin.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Nami_Robin.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
