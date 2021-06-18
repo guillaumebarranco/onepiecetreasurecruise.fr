@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Barbe Blanche</h2>
       <p class="card-text"><b>991 votes (43,62 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Barbe%20Blanche%202.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Barbe_Blanche_V2.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">Silvers Rayleigh le seigneur des ténèbres</h2>
       <p class="card-text"><b>748 votes (32,92 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Silvers%20Rayleigh%202.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Rayleigh_V2.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

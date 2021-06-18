@@ -341,7 +341,7 @@ position: absolute;
                                 - Lot de Sabo et Koala - Jeunes as de l'Armée révolutionnaire - 2 votes<br>
                                 - Lot de Monkey D. Luffy - Challenger de l'homme le plus fort du monde - 1 vote<br>
                               </ul>
-                              <center><a href="../../Luffy et Law.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2534.png" alt="LuffyLaw"/></a> <a href="../../Douglas Bullet.html" target="_blank"><img src="https://i.imgur.com/tIzzbu5.png" alt="DouglasBullet"/></a> <a href="../../Sabo et Koala.html" target="_blank"><img src="https://i.imgur.com/ez8oSPA.png" alt="SaboKoala"/></a> <a href="../../Monkey D. Luffy 5.html" target="_blank"><img src="https://i.imgur.com/xrQpinR.png" alt="LuffyStampede"/></a></center>
+                              <center><a href="../../Legende/Luffy_Law.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2534.png" alt="LuffyLaw"/></a> <a href="../../Douglas Bullet.html" target="_blank"><img src="https://i.imgur.com/tIzzbu5.png" alt="DouglasBullet"/></a> <a href="../../Sabo et Koala.html" target="_blank"><img src="https://i.imgur.com/ez8oSPA.png" alt="SaboKoala"/></a> <a href="../../Legende/Luffy_Stampede.html" target="_blank"><img src="https://i.imgur.com/xrQpinR.png" alt="LuffyStampede"/></a></center>
                               <!-- <center><a href="index.php?page=lot"><button class="btn btn-primary">Accédez au vote</center><br> -->
                             </td>
                         </tr>
@@ -361,7 +361,7 @@ position: absolute;
                                 - Dent-de-chien - Plus puissant des généraux sucrés - 4 votes<br>
                                 - Nami - Chaton chapardeur trompant le Nouveau Monde - 0 votes<br>
                               </ul>
-                              <center><a href="../../Monkey D. Luffy 3.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2363.png" alt="G4"/></a> <a href="../../Douglas Bullet.html" target="_blank"><img src="https://i.imgur.com/VAKSMeA.png" alt="DouglasBullet"/></a> <a href="../../Charlotte Dent-de-chien 1.html" target="_blank"><img src="https://i.imgur.com/DPwHC4C.png" alt="Dent-de-chienINT"/></a> <a href="../../Nami.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2588.png" alt="Nami"/></a></center>
+                              <center><a href="../../Legende/Luffy_Gear_4.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2363.png" alt="G4"/></a> <a href="../../Douglas Bullet.html" target="_blank"><img src="https://i.imgur.com/VAKSMeA.png" alt="DouglasBullet"/></a> <a href="../../Legende/Katakuri_V1.html" target="_blank"><img src="https://i.imgur.com/DPwHC4C.png" alt="Dent-de-chienINT"/></a> <a href="../../Legende/Nami_V1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2588.png" alt="Nami"/></a></center>
                               <!-- <center><a href="index.php?page=supevo"><button class="btn btn-primary">Accédez au vote</center><br> -->
                             </td>
                         </tr>
@@ -381,7 +381,7 @@ position: absolute;
                                 - Kaido - Créature la plus puissante - 4 votes<br>
                                 - Monkey D. Luffy - Challenger de l'homme le plus fort du monde - 0 votes<br>
                               </ul>
-                              <center><a href="../../Douglas Bullet.html" target="_blank"><img src="https://i.imgur.com/tIzzbu5.png" alt="DouglasBullet"/></a> <a href="../../Luffy et Law.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2534.png" alt="LuffyLaw"/></a> <a href="../../Kaido 1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2700.png" alt="Kaido"/></a> <a href="../../Monkey D. Luffy 5.html" target="_blank"><img src="https://i.imgur.com/xrQpinR.png" alt="G4Stampede"/></a></center>
+                              <center><a href="../../Douglas Bullet.html" target="_blank"><img src="https://i.imgur.com/tIzzbu5.png" alt="DouglasBullet"/></a> <a href="../../Legende/Luffy_Law.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2534.png" alt="LuffyLaw"/></a> <a href="../../Legende/Kaido_V1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2700.png" alt="Kaido"/></a> <a href="../../Legende/Luffy_Stampede.html" target="_blank"><img src="https://i.imgur.com/xrQpinR.png" alt="G4Stampede"/></a></center>
                               <!-- <center><a href="index.php?page=legende"><button class="btn btn-primary">Accédez au vote</center><br> -->
                             </td>
                         </tr>
