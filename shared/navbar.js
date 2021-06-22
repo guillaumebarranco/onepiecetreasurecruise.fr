@@ -75,7 +75,6 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-beginner__rates" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Taux.html">Taux des personnages Sugo-Rare</a>
               <a id="menu-sub-element-beginner__lb-plus" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Extension%20du%20depassement%20de%20limites.html">Extension du dépassement de limites</a>
-              <a id="menu-sub-element-beginner__ships" class="dropdown-item waves-effect waves-light" href="${path}Bateau/">Liste des bateaux</a>
               <a id="menu-sub-element-beginner__supports" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Soutien.html">Effets de soutien
                 spécifiques</a>
               <a id="menu-sub-element-beginner__pvp-style" class="dropdown-item waves-effect waves-light" href="${path}Fete_des_pirates0.html">Personnages par style sur la fête des pirates</a>
@@ -99,9 +98,6 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-progress__avancee-pvp" class="dropdown-item" href="${path}AvanceeFetePirates.html">Avancée des personnages de la Fête des Pirates</a>
               <a id="menu-sub-element-progress__avancee-kizuna" class="dropdown-item" href="${path}AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
             </div>
-          </li>
-          <li id="menu-element-artworks" class="nav-item">
-            <a class="nav-link" href="${path}Artwork/">Artworks</a>
           </li>
           <li id="menu-element-website-events" class="nav-item dropdown">
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
