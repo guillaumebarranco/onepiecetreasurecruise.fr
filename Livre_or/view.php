@@ -200,7 +200,7 @@
     <div class="container">
       <h1>Livre d'or en hommage pour Anlord</h1>
 
-      <div>
+      <!-- <div>
         <form action="insert.php" method="post">
           <div>
             <label>Pseudo</label>
@@ -216,7 +216,7 @@
 
           <input type="submit" value="Envoyer">
         </form>
-      </div>
+      </div> -->
 
       <br><br>
 
