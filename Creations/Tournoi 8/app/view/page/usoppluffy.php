@@ -215,7 +215,7 @@ position: absolute;
   </div>
 </nav>
 
-	<header><a href="../../../Creations/Tournoi 8"><img src="../../../img/logo.png" alt="logo"></img></a></header>
+	<header><a href="../../../Creations/Tournoi 8"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
 
     <body>
         <body id="PSYQCK">
