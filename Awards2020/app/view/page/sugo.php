@@ -216,7 +216,7 @@ position: absolute;
   </div>
 </nav>
 
-	<header><a href="index.php?page=index"><img src="../../img/logo.png" alt="logo"></img></a></header>
+	<header><a href="index.php?page=index"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
 
     <body>
     	<h1><center><u>Awards 2020 - Meilleur Sugo-Fest</u></center></h1>
