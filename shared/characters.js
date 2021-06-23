@@ -1377,7 +1377,7 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
-              jpnOnly: true,
+              jpnOnly: false,
             },
             {
               id: "3278",
@@ -1526,6 +1526,22 @@ const allRareRecruitCharactersList = [
             {
               id: "3245",
               imgUrl: "https://i.imgur.com/qCaWMU4.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+              jpnOnly: true,
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Personnages exclusifs au Sugo-Fest de la carte aux trésors",
+        enName: "Pirate Rumble Sugo-Fest Exclusive",
+        characters: [
+          [
+            {
+              id: "3364",
+              imgUrl: "https://i.imgur.com/NJLfWZH.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -4971,25 +4987,21 @@ const allRareRecruitCharactersList = [
               id: "3255",
               imgUrl:
                 "https://imgur.com/s8REEjf.png",
-              jpnOnly: true,
             },
             {
               id: "3257",
               imgUrl:
                 "https://imgur.com/qHDOMGL.png",
-              jpnOnly: true,
             },
             {
               id: "3259",
               imgUrl:
                 "https://imgur.com/XmFJ75L.png",
-              jpnOnly: true,
             },
             {
               id: "3261",
               imgUrl:
                 "https://imgur.com/HynHhPk.png",
-              jpnOnly: true,
             },
           ],
         ],
