@@ -1117,8 +1117,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3275",
-              imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f3275.png",
+              imgUrl: "https://i.imgur.com/NQUJa4h.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -1807,8 +1806,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3275",
-              imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f3275.png",
+              imgUrl: "https://i.imgur.com/NQUJa4h.png",
               jpnOnly: true,
             },
           ],
@@ -3074,8 +3072,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3260",
-              imgUrl:
-                "https://i.imgur.com/Vv99ygs.png",
+              imgUrl: "https://i.imgur.com/Vv99ygs.png",
               jpnOnly: true,
             },
             {
@@ -3085,8 +3082,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3262",
-              imgUrl:
-                "https://i.imgur.com/ZswlY7J.png",
+              imgUrl: "https://i.imgur.com/ZswlY7J.png",
               jpnOnly: true,
             },
             {
@@ -3194,8 +3190,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3274",
-              imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f3274.png",
+              imgUrl: "https://i.imgur.com/7c7Dq42.png",
               jpnOnly: true,
             },
             {
