@@ -675,8 +675,11 @@
   <script src="../shared/fiches.js"></script>
   <script>
     setTimeout(() => {
-      replaceOrbsColors();
-      replaceTypesColors();
+      $(`.fiche-table`).each((index) => {
+        replaceOrbsColors($(`.fiche-table`)[index]);
+        replaceTypesColors($(`.fiche-table`)[index]);
+      });
+
       addIconsToClasses();
     }, 100);
   </script>

@@ -618,10 +618,13 @@
 <script src="../shared/fiches.js"></script>
 <script>
   setTimeout(() => {
-    replaceOrbsColors();
-    replaceTypesColors();
-    addIconsToClasses();
-  }, 100);
+      $(`.fiche-table`).each((index) => {
+        replaceOrbsColors($(`.fiche-table`)[index]);
+        replaceTypesColors($(`.fiche-table`)[index]);
+      });
+
+      addIconsToClasses();
+    }, 100);
 </script>
 <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
 <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
