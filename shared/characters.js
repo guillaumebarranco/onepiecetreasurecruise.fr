@@ -3354,7 +3354,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3292",
               imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f3292.png",
+                "https://i.imgur.com/Lz6mfVY.png",
               jpnOnly: true,
             },
             {
