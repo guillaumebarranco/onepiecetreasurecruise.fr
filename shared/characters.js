@@ -3117,17 +3117,17 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3294",
-              imgUrl: "https://i.imgur.com/sLnAOHJ.png",
+              imgUrl: "https://i.imgur.com/dimUOUG.png",
               jpnOnly: true,
             },
             {
               id: "3295",
-              imgUrl: "https://i.imgur.com/VYxwPDS.png",
+              imgUrl: "https://i.imgur.com/kEyLboa.png",
               jpnOnly: true,
             },
             {
               id: "3296",
-              imgUrl: "https://i.imgur.com/FR9QOZX.png",
+              imgUrl: "https://i.imgur.com/iyeQmLD.png",
               jpnOnly: true,
             },
 
