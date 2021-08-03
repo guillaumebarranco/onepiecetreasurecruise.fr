@@ -280,7 +280,7 @@
       </tbody>
     </table>
 <h2><center><u>Guide de l'Arène</u></center></h2>
-<table align="center">
+<table class="fiche-table align="center">
   <tbody>
     <tr>
       <td width="10%">Stage secret</td>
@@ -432,10 +432,13 @@
     <script src="../shared/fiches.js"></script>
     <script>
       setTimeout(() => {
-        replaceOrbsColors();
-        replaceTypesColors();
-        addIconsToClasses();
-      }, 100);
+      $(`.fiche-table`).each((index) => {
+        replaceOrbsColors($(`.fiche-table`)[index]);
+        replaceTypesColors($(`.fiche-table`)[index]);
+      });
+
+      addIconsToClasses();
+    }, 100);
     </script>
     <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
     <script
