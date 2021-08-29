@@ -381,7 +381,7 @@ position: absolute;
                         <td>Annule le “Lien des cercles” du personnage.</td>
                     </tr>
                     <tr>
-                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6★+</b></center></td>
                     </tr>
                     <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/green_skull2_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/blue_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0302.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0301.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
@@ -390,7 +390,7 @@ position: absolute;
                         <td colspan="2"><center><b>Version non super-évoluée du personnage</b></center></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><center><a href="../../../Bartolomeo et Cavendish.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2418.png" height="8%" width="8%"></a></center></td>
+                        <td colspan="2"><center><a href="../../../Legende/Bartolomeo_Cavendish.html"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2418.png" height="8%" width="8%"></a></center></td>
                     </tr>
                 </tbody>
           </table>

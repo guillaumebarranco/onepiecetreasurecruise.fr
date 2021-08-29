@@ -353,7 +353,7 @@ position: absolute;
                 <td>Si un coup "PARFAIT" est effectué avec ce personnage, 90% de chances de faire 10% l'ATK du personnage en dégâts additionnels.</td>
               </tr>
               <tr>
-                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6★+</b></center></td>
                     </tr>
                     <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/yellow_skull2_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/wp-content/uploads/yellow_skull2_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0103.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
