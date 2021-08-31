@@ -382,7 +382,7 @@ position: absolute;
                         <td>Ajoute 13% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.</td>
                     </tr>
               <tr>
-                        <td colspan="2"><center><b>Évolueurs requis pour la 6*+</b></center></td>
+                        <td colspan="2"><center><b>Évolueurs requis pour la 6★+</b></center></td>
                     </tr>
                     <tr>
                         <td colspan="2"><center><img src="https://onepiece-treasurecruise.com/wp-content/uploads/red_skull_f.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0118.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0095.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0300.png" height="8%" width="8%"> <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0267.png" height="8%" width="8%"></center></td>
