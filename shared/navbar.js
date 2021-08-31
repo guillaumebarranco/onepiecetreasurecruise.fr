@@ -72,12 +72,10 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Bien%20debuter.html">Bien débuter</a>
               <a id="menu-sub-element-beginner__cm" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Souhaits%20de%20Chopper%20Man.html">Souhaits de Chopper Man</a>
-              <a id="menu-sub-element-beginner__rates" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Taux.html">Taux des personnages Sugo-Rare</a>
               <a id="menu-sub-element-beginner__lb-plus" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Extension%20du%20depassement%20de%20limites.html">Extension du dépassement de limites</a>
               <a id="menu-sub-element-beginner__supports" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Soutien.html">Effets de soutien
                 spécifiques</a>
-              <a id="menu-sub-element-beginner__pvp-style" class="dropdown-item waves-effect waves-light" href="${path}Fete_des_pirates0.html">Personnages par style sur la fête des pirates</a>
               <a id="menu-sub-element-beginner__island" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Ile%20des%20collectionneurs.html">Île des collectionneurs</a>
               <a id="menu-sub-element-beginner__tl" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Tier%20List.html">Tier Lists</a>
             </div>

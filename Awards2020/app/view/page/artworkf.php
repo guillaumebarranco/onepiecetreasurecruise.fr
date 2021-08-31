@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Vivi et Rebecca</h2>
       <p class="card-text"><b>270 votes (11,12 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Vivi%20et%20Rebecca%202.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Vivi_Rebecca_V2.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
