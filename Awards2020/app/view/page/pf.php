@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">Borsalino</h2>
       <p class="card-text"><b>363 votes (16,43 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Borsalino.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Kizaru_V1.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
