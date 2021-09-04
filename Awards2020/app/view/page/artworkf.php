@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Charlotte Pudding</h2>
       <p class="card-text"><b>472 votes (19,44 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Charlotte%20Pudding.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Pudding.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

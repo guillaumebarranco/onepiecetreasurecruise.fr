@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">Krieg et Gyn</h2>
       <p class="card-text"><b>468 votes (20,69 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Equipage%20de%20Shanks%20le%20Roux.html#1" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Shanks_Crew.html#1" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
