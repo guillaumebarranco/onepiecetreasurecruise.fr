@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Garp le coup de poing</h2>
       <p class="card-text"><b>408 votes (17,96 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Monkey%20D.%20Garp.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Garp.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Marco le Phénix</h2>
       <p class="card-text"><b>125 votes (5,5 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Marco.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Marco_V1.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

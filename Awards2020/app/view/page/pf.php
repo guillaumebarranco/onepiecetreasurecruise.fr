@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Don Quijote Doflamingo</h2>
       <p class="card-text"><b>1 454 votes (65,82 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Don%20Quijote%20Doflamingo%201.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Doflamingo_V1.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Carrot</h2>
       <p class="card-text"><b>318 votes (14,4 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Carrot.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Carrot.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Caborage</h2>
       <p class="card-text"><b>74 votes (3,35 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Caborage.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Inuarashi.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

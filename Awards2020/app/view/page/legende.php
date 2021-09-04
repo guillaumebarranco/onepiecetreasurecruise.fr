@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">Équipage de Shanks le Roux</h2>
       <p class="card-text"><b>726 votes (30,61 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Equipage%20de%20Shanks%20le%20Roux.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Shanks_Crew.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
