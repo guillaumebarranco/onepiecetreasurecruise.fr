@@ -361,7 +361,7 @@ position: absolute;
                                 - Dent-de-chien - Plus puissant des généraux sucrés - 4 votes<br>
                                 - Nami - Chaton chapardeur trompant le Nouveau Monde - 0 votes<br>
                               </ul>
-                              <center><a href="../../Legende/Luffy_Gear_4.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2363.png" alt="G4"/></a> <a href="../../Legende/Bullet.html" target="_blank"><img src="https://i.imgur.com/VAKSMeA.png" alt="DouglasBullet"/></a> <a href="../../Legende/Katakuri_V1.html" target="_blank"><img src="https://i.imgur.com/DPwHC4C.png" alt="Dent-de-chienINT"/></a> <a href="../../Legende/Nami_V1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2588.png" alt="Nami"/></a></center>
+                              <center><a href="../../Legende/Luffy_G4.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2363.png" alt="G4"/></a> <a href="../../Legende/Bullet.html" target="_blank"><img src="https://i.imgur.com/VAKSMeA.png" alt="DouglasBullet"/></a> <a href="../../Legende/Katakuri_V1.html" target="_blank"><img src="https://i.imgur.com/DPwHC4C.png" alt="Dent-de-chienINT"/></a> <a href="../../Legende/Nami_V1.html" target="_blank"><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2588.png" alt="Nami"/></a></center>
                               <!-- <center><a href="index.php?page=supevo"><button class="btn btn-primary">Accédez au vote</center><br> -->
                             </td>
                         </tr>
