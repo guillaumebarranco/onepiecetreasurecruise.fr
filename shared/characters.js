@@ -1850,7 +1850,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3350",
-              imgUrl: "https://i.imgur.com/JWPRRdx.png",
+              imgUrl: "https://i.imgur.com/fLnDXHw.png",
               jpnOnly: true,
             },
             {
