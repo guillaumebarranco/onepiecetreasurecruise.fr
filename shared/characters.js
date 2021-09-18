@@ -1397,7 +1397,6 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
-              jpnOnly: true,
             },
             {
               id: "3355",
@@ -1483,7 +1482,6 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
-              jpnOnly: true,
             },
             {
               id: "3336",
@@ -1491,7 +1489,6 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
-              jpnOnly: true,
             },
             {
               id: "3338",
@@ -1499,7 +1496,6 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
-              jpnOnly: true,
             },
           ],
         ],
@@ -1529,7 +1525,6 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
-              jpnOnly: true,
             },
             {
               id: "3391",
@@ -3381,7 +3376,6 @@ const allRareRecruitCharactersList = [
             {
               id: "3328",
               imgUrl: "https://i.imgur.com/M16dNrI.png",
-              jpnOnly: true,
             },
             {
               id: "3362",
@@ -3803,17 +3797,14 @@ const allRareRecruitCharactersList = [
             {
               id: "3308",
               imgUrl: "https://i.imgur.com/qaOG9yN.png",
-              jpnOnly: true,
             },
             {
               id: "3309",
               imgUrl: "https://i.imgur.com/3JKmgbW.png",
-              jpnOnly: true,
             },
             {
               id: "3310",
               imgUrl: "https://i.imgur.com/1L5waP5.png",
-              jpnOnly: true,
             },
           ],
         ],
@@ -5546,17 +5537,14 @@ const allRareRecruitCharactersList = [
             {
               id: "3343",
               imgUrl: "https://i.imgur.com/fjz6VLY.png",
-              jpnOnly: true,
             },
             {
               id: "3344",
               imgUrl: "https://i.imgur.com/QtdnL64.png",
-              jpnOnly: true,
             },
             {
               id: "3345",
               imgUrl: "https://i.imgur.com/hlYvrbC.png",
-              jpnOnly: true,
             },
           ],
           [
