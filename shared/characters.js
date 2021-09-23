@@ -5550,17 +5550,17 @@ const allRareRecruitCharactersList = [
           [
             {
               id: "3358",
-              imgUrl: "https://i.imgur.com/XhvhxQB.png",
+              imgUrl: "https://i.imgur.com/cD3l6JN.png",
               jpnOnly: true,
             },
             {
               id: "3359",
-              imgUrl: "https://i.imgur.com/5LUpNDq.png",
+              imgUrl: "https://i.imgur.com/LitbZ34.png",
               jpnOnly: true,
             },
             {
               id: "3360",
-              imgUrl: "https://i.imgur.com/VS5yg4q.png",
+              imgUrl: "https://i.imgur.com/vcHpuzK.png",
               jpnOnly: true,
             },
           ],
