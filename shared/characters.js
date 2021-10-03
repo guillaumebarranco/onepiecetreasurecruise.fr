@@ -3379,7 +3379,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3362",
-              imgUrl: "https://i.imgur.com/GMebn3T.png",
+              imgUrl: "https://i.imgur.com/LYxlGlm.png",
               jpnOnly: true,
             },
             {
