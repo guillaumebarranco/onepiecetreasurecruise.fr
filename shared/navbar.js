@@ -42,7 +42,7 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-guides__arenas" class="dropdown-item waves-effect waves-light" href="${path}Arene.html">Arènes</a>
               <a id="menu-sub-element-guides__ambushes" class="dropdown-item waves-effect waves-light" href="${path}Invasion.html">Attaques ennemies</a>
               <a id="menu-sub-element-guides__fn" class="dropdown-item waves-effect waves-light" href="${path}Fortnight.html">Quêtes permanentes</a>
-              <a id="menu-sub-element-guides__special" class="dropdown-item waves-effect waves-light" href="${path}Special.html">Événements spéciaux</a>
+              <a id="menu-sub-element-guides__special" class="dropdown-item waves-effect waves-light" href="${path}Special.html">Évènements spéciaux</a>
               <a id="menu-sub-element-guides__next-tm" class="dropdown-item waves-effect waves-light"
                 href="${path}Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
               <a id="menu-sub-element-guides__next-kizuna" class="dropdown-item waves-effect waves-light"
@@ -99,7 +99,7 @@ function getNavbar(level = 0) {
           </li>
           <li id="menu-element-website-events" class="nav-item dropdown">
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-              id="navbarDropdownMenuLink">Événements</a>
+              id="navbarDropdownMenuLink">Évènements</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
               <a id="menu-sub-element-website-events__creations" class="dropdown-item" href="${path}Creations.html">Créations de personnages</a>
               <a id="menu-sub-element-website-events__awards-2019" class="dropdown-item" href="${path}Awards/">Awards 2019</a>

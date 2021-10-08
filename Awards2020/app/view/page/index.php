@@ -101,7 +101,7 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Invasion.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Fortnight.html">Quêtes permanentes</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Évènements spéciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Histoire.html">Histoire principale</a>
@@ -163,7 +163,7 @@ position: absolute;
       </li>
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Événements
+          aria-expanded="false">Évènements
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../../Creations.html">Créations de personnages</a>
@@ -377,8 +377,8 @@ position: absolute;
           <div class="card">
             <div class="card-body">
               <center><img class="card-img-top" src="https://i.imgur.com/sQaWq1s.png" alt="Card image cap"></center>
-              <center><h2 class="card-title">Meilleur personnage des événements spéciaux</h2></center>
-              <p class="card-text">Cette catégorie permettra de décerner <b>l'Award du meilleur personnage des événements spéciaux</b> parmi les personnages sortis entre le 1er décembre 2019 et le 30 novembre 2020</p>
+              <center><h2 class="card-title">Meilleur personnage des évènements spéciaux</h2></center>
+              <p class="card-text">Cette catégorie permettra de décerner <b>l'Award du meilleur personnage des évènements spéciaux</b> parmi les personnages sortis entre le 1er décembre 2019 et le 30 novembre 2020</p>
               <center><a href="index.php?page=evenement" class="btn btn-primary">Accès aux résultats</a></center>
             </div>
           </div>

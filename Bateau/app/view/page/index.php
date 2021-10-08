@@ -113,7 +113,7 @@
    <?php
 }
 ?></div>
-  <center><h2><u>Bateaux des événements</u></h2></center>
+  <center><h2><u>Bateaux des évènements</u></h2></center>
   <div class="row">
   <?php foreach ($evenement as $evn ) { ?>
   <div class="col-sm-4">
