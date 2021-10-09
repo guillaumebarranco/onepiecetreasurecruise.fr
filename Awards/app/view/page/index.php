@@ -99,7 +99,7 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Invasion.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Fortnight.html">Quêtes permanentes</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Évènements spéciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Histoire.html">Histoire principale</a>
@@ -161,7 +161,7 @@ position: absolute;
       </li>
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Événements
+          aria-expanded="false">Évènements
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../../Creations.html">Créations de personnages</a>
@@ -259,10 +259,10 @@ position: absolute;
                                Nombre de votes : 27 votes<br>
                                Résultats :<br><br>
                                <ul>
-                                - <b>Événements des 55 555 555 téléchargements (octobre 2019 - novembre 2019) - 19 votes</b><br>
-                                - Événements du 4ème anniversaire (février 2019 - mars 2019) - 4 votes<br>
+                                - <b>Évènements des 55 555 555 téléchargements (octobre 2019 - novembre 2019) - 19 votes</b><br>
+                                - Évènements du 4ème anniversaire (février 2019 - mars 2019) - 4 votes<br>
                                 - Luffy VS Dent-de-chien (mai 2019 - juin 2019) - 4 votes<br>
-                                - Événements autour du combat crucial de Portgas D. Ace (septembre 2019) - 0 votes<br>
+                                - Évènements autour du combat crucial de Portgas D. Ace (septembre 2019) - 0 votes<br>
                               </ul>
                             <!-- <center><a href="index.php?page=moment"><button class="btn btn-primary">Accédez au vote</center><br> -->
                             </td>

@@ -10,7 +10,7 @@
     		gtag('js', new Date());
     		gtag('config', 'UA-127847674-1');
     	</script>
-        <title>Awards 2020 - Meilleur personnage des événements spéciaux</title>
+        <title>Awards 2020 - Meilleur personnage des évènements spéciaux</title>
         <link href="app/view/assets/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="app/view/assets/style.css" />
         <link rel="shortcut icon" href="../../img/favicon.ico" type="image/x-icon">
@@ -100,7 +100,7 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Invasion.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Fortnight.html">Quêtes permanentes</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Évènements spéciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Histoire.html">Histoire principale</a>
@@ -162,7 +162,7 @@ position: absolute;
       </li>
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Événements
+          aria-expanded="false">Évènements
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="../../Creations.html">Créations de personnages</a>
@@ -219,7 +219,7 @@ position: absolute;
 	<header><a href="index.php?page=index"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
 
     <body>
-    	<h1><center><u>Awards 2020 - Meilleur personnage des événements spéciaux</u></center></h1>
+    	<h1><center><u>Awards 2020 - Meilleur personnage des évènements spéciaux</u></center></h1>
       <center><img src="https://i.imgur.com/X3EFiKo.png"></img></center>
       <center><a class="btn btn-primary" href="index.php?page=evenement2">English Version</a></center><br>
       <!-- <table>
@@ -229,7 +229,7 @@ position: absolute;
                             <td>
                                <center><h3>Règles</h3></center>
                                - Période de vote : 7 décembre 2020 (13:00) - 15 décembre 2020 (20:59)<br><br>
-                               - Cette catégorie permettra de décerner <b>l'Award du meilleur personnage des événements spéciaux</b> parmi les personnages sortis entre le 1er décembre 2019 et le 30 novembre 2020.<br><br>
+                               - Cette catégorie permettra de décerner <b>l'Award du meilleur personnage des évènements spéciaux</b> parmi les personnages sortis entre le 1er décembre 2019 et le 30 novembre 2020.<br><br>
                                - Un seul envoi par personne, tous les votes provenant d'une même personne seront annulés s'il y en a 2 ou plus.<br><br>
                                - Les votes sont anonymes mais vous pouvez dire qui vous avez choisi sur les réseaux.<br><br>
                                - Pour toute question, posez vos questions à Anlord sur Discord.<br>
@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Douglas Bullet</h2>
       <p class="card-text"><b>825 votes (37,43 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Special/Stampede1.html#Bullet" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Special/Stampede_Bullet.html#Bullet" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -271,7 +271,7 @@ position: absolute;
       <h2 class="card-title">O-Tama</h2>
       <p class="card-text"><b>706 votes (32,03 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Special/O-Tama.html#Tama" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Special/Ranking_O_Tama.html#Tama" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -284,7 +284,7 @@ position: absolute;
       <h2 class="card-title">Équipage de Chapeau de paille</h2>
       <p class="card-text"><b>445 votes (20,09 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Special/Logue%20Town.html#Straw" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Special/Equipage_1.html#Straw" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Seigneur de la côte</h2>
       <p class="card-text"><b>228 votes (10,34 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Special/Seigneur%20de%20la%20cote.html#Seigneur" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Special/Co_Op_Sea_Monster.html#Seigneur" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

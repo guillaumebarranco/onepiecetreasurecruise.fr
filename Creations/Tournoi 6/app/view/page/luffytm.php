@@ -99,7 +99,7 @@ position: absolute;
           <a class="dropdown-item waves-effect waves-light" href="../../Arene.html">Arènes</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Invasion.html">Attaques ennemies</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Fortnight.html">Quêtes permanentes</a>
-          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Événements spéciaux</a>
+          <a class="dropdown-item waves-effect waves-light" href="../../Special.html">Évènements spéciaux</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
           <a class="dropdown-item waves-effect waves-light" href="../../Histoire.html">Histoire principale</a>
@@ -161,7 +161,7 @@ position: absolute;
       </li>
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-          aria-expanded="false">Événements
+          aria-expanded="false">Évènements
         </a>
         <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item active" href="../../Creations.html">Créations de personnages</a>
@@ -275,7 +275,7 @@ position: absolute;
               </tr>
               <tr>
                 <td>Captain Ability (après le dépassement de limites)</td>
-                <td>Si l'équipe contient 6 personnages de classe Ravageur ou Cogneur, multiplie l'ATK de tous les personnages par 1,25 et ajoute 5 656 HP à la barre d'HP au début de la quête. Si le personnage est utilisé sur l'événement "Carte aux trésors", ajoute 0,8 au multiplicateur de points de trésors</td>
+                <td>Si l'équipe contient 6 personnages de classe Ravageur ou Cogneur, multiplie l'ATK de tous les personnages par 1,25 et ajoute 5 656 HP à la barre d'HP au début de la quête. Si le personnage est utilisé sur l'évènement "Carte aux trésors", ajoute 0,8 au multiplicateur de points de trésors</td>
               </tr>
               <tr>
                 <td>Special (35→28 puis 14 puis 12)</td>
