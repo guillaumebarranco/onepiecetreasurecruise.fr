@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Seigneur de la côte</h2>
       <p class="card-text"><b>228 votes (10,34 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Special/Co_Op_Sea_Monster.html#Seigneur" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Raid/Sea_Monster.html#Seigneur" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>

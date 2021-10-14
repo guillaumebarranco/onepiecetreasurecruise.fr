@@ -297,7 +297,7 @@ position: absolute;
       <h2 class="card-title">Mr 0</h2>
       <p class="card-text"><b>325 votes (14,53 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Raid/Crocodile%202.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Raid/Crocodile_INT.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
