@@ -321,7 +321,7 @@ position: absolute;
                                 - Smoker - Front commun - 1 vote<br>
                                 - Sabo - Poings ardents fraternels - 0 votes<br>
                               </ul>
-                              <center><a href="../../Kizuna/Zoro et Sanji.html" target="_blank"><img src="https://i.imgur.com/tdhUxuI.png" alt="ZoroSanji"/></a> <a href="../../Carte_aux_tresors/Nami 2.html" target="_blank"><img src="https://i.imgur.com/O1Iivb7.png" alt="NamiINT"/></a> <a href="../../Carte_aux_tresors/Smoker.html" target="_blank"><img src="https://i.imgur.com/1HUTfn2.png" alt="Smoker"/></a> <a href="../../Raid/Sabo 2.html" target="_blank"><img src="https://i.imgur.com/k8aI0Dv.png" alt="SaboPSY"/></a></center>
+                              <center><a href="../../Kizuna/Zoro et Sanji.html" target="_blank"><img src="https://i.imgur.com/tdhUxuI.png" alt="ZoroSanji"/></a> <a href="../../Carte_aux_tresors/Nami 2.html" target="_blank"><img src="https://i.imgur.com/O1Iivb7.png" alt="NamiINT"/></a> <a href="../../Carte_aux_tresors/Smoker.html" target="_blank"><img src="https://i.imgur.com/1HUTfn2.png" alt="Smoker"/></a> <a href="../../Raid/Sabo_Stampede.html" target="_blank"><img src="https://i.imgur.com/k8aI0Dv.png" alt="SaboPSY"/></a></center>
                               <!-- <center><a href="index.php?page=gratuit"><button class="btn btn-primary">Accédez au vote</center><br> -->
                             </td>
                         </tr>

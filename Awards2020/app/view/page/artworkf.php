@@ -252,7 +252,7 @@ position: absolute;
       <h2 class="card-title">Boa Hancock</h2>
       <p class="card-text"><b>1 089 votes (44,85 %)</b></p>
       <!-- Button -->
-      <a href="https://onepiecetreasurecruise.fr/Legende/Boa_V3.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
+      <a href="https://onepiecetreasurecruise.fr/Legende/Hancock_V3.html" target="_blank" class="btn btn-primary">Fiche du personnage</a>
     </div>
   </div>
   </div>
