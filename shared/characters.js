@@ -4583,6 +4583,26 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1579.png",
             },
+            {
+              id: "1654",
+              imgUrl:
+                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1654.png",
+            },
+            {
+              id: "1656",
+              imgUrl:
+                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1656.png",
+            },
+            {
+              id: "1658",
+              imgUrl:
+                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1658.png",
+            },
+            {
+              id: "1660",
+              imgUrl:
+                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1660.png",
+            },
           ],
         ],
       },
