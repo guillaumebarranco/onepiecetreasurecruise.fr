@@ -59,8 +59,8 @@ function getNavbar(level = 0) {
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
               <a id="menu-sub-element-lists__rr" class="dropdown-item" href="${path}PageRR.html">Personnages du recrutement rare</a>
               <a id="menu-sub-element-lists__tm" class="dropdown-item" href="${path}Carte_aux_tresors.html">Personnages des Cartes aux trésors</a>
-              <a id="menu-sub-element-lists__kizuna" class="dropdown-item" href="${path}Kizuna.html">Personnages des combats de l'amitié</a>
-              <a id="menu-sub-element-lists__pvp" class="dropdown-item" href="${path}Fete_des_pirates.html">Personnages de la fête des pirates</a>
+              <a id="menu-sub-element-lists__kizuna" class="dropdown-item" href="${path}Kizuna.html">Personnages des Combats de l'amitié</a>
+              <a id="menu-sub-element-lists__pvp" class="dropdown-item" href="${path}Fete_des_pirates.html">Personnages de la Fête des pirates</a>
               <a id="menu-sub-element-lists__lrr" class="dropdown-item" href="${path}LRR.html">Personnages limités au recrutement rare</a>
               <a id="menu-sub-element-lists__support" class="dropdown-item" href="${path}Soutien.html">Personnages limités au recrutement rare de soutien</a>
             </div>
