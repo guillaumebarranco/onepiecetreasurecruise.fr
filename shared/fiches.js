@@ -64,6 +64,10 @@ function replaceOrbsColors(chosenSection = ".fiche-table") {
       name: "POISON",
       color: "#A83CCC",
     },
+    {
+      name: "PAILLE",
+      color: "#FEE347",
+    },
   ];
 
   if ($section) {
