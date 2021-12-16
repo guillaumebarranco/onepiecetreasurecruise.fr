@@ -69,7 +69,8 @@ function getNavbar(level = 0) {
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
               id="navbarDropdownMenuLink">Aide</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-              <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Bien%20debuter.html">Bien débuter</a>
+            <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Bien%20debuter.html">Bien débuter</a>
+            <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Bateau/">Liste des bateaux</a>
               <a id="menu-sub-element-beginner__cm" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Souhaits%20de%20Chopper%20Man.html">Souhaits de Chopper Man</a>
               <a id="menu-sub-element-beginner__lb-plus" class="dropdown-item waves-effect waves-light"
