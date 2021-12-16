@@ -1,0 +1,453 @@
+
+ <!DOCTYPE html>
+ <html>
+     <head>
+       <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       <!-- Global site tag (gtag.js) - Google Analytics -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
+       <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'UA-127847674-1');
+       </script>
+         <title>Liste des bateaux</title>
+         <link href="app/view/assets/bootstrap.css" rel="stylesheet">
+         <link rel="stylesheet" href="app/view/assets/style.css" />
+         <link rel="stylesheet" href="../shared/generic.css" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+         <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
+ <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
+ <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
+ <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
+ <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
+ <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
+ <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
+ <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
+ <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
+ <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
+ <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
+ <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
+ <meta name="msapplication-TileColor" content="#FFFFFF">
+         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+         <script src="app/view/assets/script.js"></script>
+     </head>
+
+     <div class="entete">
+       <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
+       <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
+       <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
+       <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
+     </div>
+     <style>
+       .entetetop
+       {
+         position: relative;
+         top: 0;
+         max-width: 100%;
+         width: 100%;
+       }
+       .entetefond
+       {
+         position: absolute;
+         top: 0;
+         max-width: 100%;
+         width: 100%;
+       }
+       .logo
+       {
+         width: 40vw;
+         top: 0;
+         left: 30%;
+         position: relative;
+       }
+       .newsboard
+       {
+         top: 0;
+         right: 1vw;
+         max-width: 25%;
+         width: 25%;
+         position: absolute;
+       }
+     </style>
+     <div id="optcnavbar"></div>
+   <header><a href="/"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
+
+     <body>
+       <h1><center><u>Liste des bateaux</u></center></h1>
+       <!-- <p style="text-align: right"><script async src="https://cse.google.com/cse.js?cx=fa29c101677956b6f"></script><div class="gcse-search"></div></p> -->
+   <div class="col-sm-12">
+   <center><h2><u>Bateaux de l'Aventure</u></h2></center>
+   <div class="row">
+     <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/FgcKFSZ.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Canot</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Canot"><b>Voir les capacités</b></button></center><br><center><div id="Canot" class="collapse">Multiplie les HP de tous les personnages par 1,3, ajoute 120 à la RCV du capitaine et rend le timing des coups “PARFAIT” légèrement plus facile pour tous les personnages.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/FgcKFSZ.png" download="1.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/255i5p7.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Vogue Merry</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Vogue"><b>Voir les capacités</b></button></center><br><center><div id="Vogue" class="collapse">Multiplie l'ATK de tous les personnages par 1,5, ajoute 300 aux HP du capitaine et rend le timing des coups “PARFAIT” plus facile pour tous les personnages.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/255i5p7.png" download="2.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/LYnT94N.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Navire de la marine</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Marine"><b>Voir les capacités</b></button></center><br><center><div id="Marine" class="collapse">Multiplie les HP de tous les personnages par 1,5 et ajoute 100 à l'ATK des personnages de classe Tireur.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/LYnT94N.png" download="3.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/RxltIVm.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Baratie</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Baratie"><b>Voir les capacités</b></button></center><br><center><div id="Baratie" class="collapse">Ajoute 2 000 aux HP du capitaine.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/RxltIVm.png" download="4.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/WRaiOMy.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Vogue Merry volant</small><br>Vogue Merry</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Volant"><b>Voir les capacités</b></button></center><br><center><div id="Volant" class="collapse">Multiplie l'ATK de tous les personnages par 1,2 et restaure 350 HP à la fin de chaque tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/WRaiOMy.png" download="7.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/meBZeey.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Sunny"><b>Voir les capacités</b></button></center><br><center><div id="Sunny" class="collapse">Multiplie l'ATK de tous les personnages par 1,5.<br><br>Coup spécial (15 tours) : Inflige 50 000 points de dégâts non élémentaires sur tous les ennemis.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/meBZeey.png" download="13.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/5iMU76c.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Navire revêtu</small><br>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Revetu"><b>Voir les capacités</b></button></center><br><center><div id="Revetu" class="collapse">Multiplie l'ATK de tous les personnages par 1,5.<br><br>Coup spécial (16 tours) : Réduit les dégâts subis de 50% pendant un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/5iMU76c.png" download="26.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+    </div>
+   <center><h2><u>Bateaux des forêts d'entraînement</u></h2></center>
+   <div class="row">
+     <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/9dY1HAp.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Barque mortuaire</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Barque"><b>Voir les capacités</b></button></center><br><center><div id="Barque" class="collapse">Multiplie l'ATK et les HP des personnages de classe Sabreur par 1,5 et réduit la RCV du capitaine de 700.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/9dY1HAp.png" download="5.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Faucon.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/yaRi1RY.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Moby Dick</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Moby"><b>Voir les capacités</b></button></center><br><center><div id="Moby" class="collapse">Multiplie l'ATK de tous les personnages par 1,5, les HP par 1,4 et réduit les HP de l'équipe de 50% au début de la quête.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/yaRi1RY.png" download="8.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Barbe.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/tQ7jPNw.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Vélo d'Aokiji</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Velo"><b>Voir les capacités</b></button></center><br><center><div id="Velo" class="collapse">Multiplie l'ATK et les HP des personnages de classe Ravageur par 1,5 et réduit les chances d'apparition des cercles <b style='color:#BC5C0C'>[RCV]</b>.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/tQ7jPNw.png" download="11.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Faisan.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/SVXTkDQ.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Striker</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Striker"><b>Voir les capacités</b></button></center><br><center><div id="Striker" class="collapse">Réduit le temps de chargement des coups spéciaux des personnages de classe Tireur d'un tour au début de la quête, multiplie l'ATK des personnages de classe Tireur par 1,5 et les HP par 1,3.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/SVXTkDQ.png" download="12.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Poing_ardent.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/yjfBXOp.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Navire de l'équipage des Kuja</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Kuja"><b>Voir les capacités</b></button></center><br><center><div id="Kuja" class="collapse">Multiplie l'ATK des personnages de classe Libre par 1,5, les HP par 1,35 et réduit les HP des personnages qui ne sont pas de classe Libre de 99%.<br><br>Coup spécial (15 tours) : Restaure 6 500 HP.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/yjfBXOp.png" download="15.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Serpent.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/kxzfSaF.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Arche Maxim</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Arche"><b>Voir les capacités</b></button></center><br><center><div id="Arche" class="collapse">Multiplie l'ATK des personnages de type <b style='color:#4C4CFF'>QCK</font></b> et <b style='color:#ECAC04'>PSY</font></b> par 1,5 et les HP par 1,2.<br><br>Coup spécial (17 tours) : Inflige 56 560 points de dégâts fixes sur tous les ennemis.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/kxzfSaF.png" download="16.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Dieu.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/nQ2BWa0.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Red Force</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Red"><b>Voir les capacités</b></button></center><br><center><div id="Red" class="collapse">Multiplie l'ATK des personnages de classe Intellectuel par 1,5, les HP par 1,35 et augmente les chances d'apparition des cercles correspondants pour les personnages de classe Intellectuel.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/nQ2BWa0.png" download="17.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Le_Roux.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/wmmU0CO.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Navire de l'équipage des pirates du Soleil</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Soleil"><b>Voir les capacités</b></button></center><br><center><div id="Soleil" class="collapse">Multiplie l'ATK et les HP des personnages de classe Cogneur selon le nombre de personnages de classe Cogneur présents dans l'équipe (de 0,05 à 1,5) et réduit drastiquement les HP et l'ATK des personnages qui ne sont pas de classe Cogneur.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/wmmU0CO.png" download="19.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Soleil.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/nnpslig.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Navire de l'équipage de Don Quijote</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Doflamingo"><b>Voir les capacités</b></button></center><br><center><div id="Doflamingo" class="collapse">Multiplie l'ATK des personnages de classe Ambitieux par 1,5, les HP par 1,35 et rend le timing des coups “PARFAIT” plus facile pour les personnages de classe Ambitieux.<br><br>Coup spécial (15 tours) : Ajoute 0,2 au multiplicateur de combos pendant 2 tours.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/nnpslig.png" download="20.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Demon_celeste.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/faEqaEG.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Polar Tang</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Polar"><b>Voir les capacités</b></button></center><br><center><div id="Polar" class="collapse">Multiplie l'ATK des personnages de classe Sabreur et Libre par 1,5, les HP par 1,25 et rend le timing des coups “PARFAIT” légèrement plus facile pour les personnages de classe Sabreur et Libre.<br><br>Coup spécial (18 tours) : Restaure 10 000 HP si les HP sont en-dessous de 20%.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/faEqaEG.png" download="24.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Room.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/i08c5M9.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Panique sur l'archipel des Sabaody</small><br>Boulet de canon du débarquement et de la déclaration de guerre de Kizaru</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Kizaru"><b>Voir les capacités</b></button></center><br><center><div id="Kizaru" class="collapse">Réduit le temps de chargement des coups spéciaux des personnages de classe Tireur de 2 tours au début de la quête, multiplie l'ATK des personnages de classe Tireur par 1,55 et les HP par 1,2.<br><br>Coup spécial (15 tours) : Enlève 7% des HP de chaque ennemi.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/i08c5M9.png" download="27.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Singe.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/W15hj8s.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Navire pirate de Marshall D. Teach</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Teach"><b>Voir les capacités</b></button></center><br><center><div id="Teach" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie les HP de tous les personnages par 1,25 et si l'équipe contient un personnage de classe Cogneur, un de classe Sabreur, un de classe Tireur et un de classe Ravageur, multiplie l'ATK de tous les personnages par 1,55.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/W15hj8s.png" download="33.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Tenebres.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/VOIsApM.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Nostra Castello</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Nostra"><b>Voir les capacités</b></button></center><br><center><div id="Nostra" class="collapse">Multiplie l'ATK de tous les personnages par 1,55, les HP par 1,3, rend le timing des coups “PARFAIT” légèrement plus facile pour tous les personnages, enlève 3% des HP de tous les ennemis à la fin de chaque tour et si l'équipe contient un personnage de classe Sabreur, un de classe Libre ou un de classe Tenace, réduit l'ATK de tous les personnages de 50%.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/VOIsApM.png" download="39.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Gang.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/wCGoGuE.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Queen Mamma Chanteur</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Mamma"><b>Voir les capacités</b></button></center><br><center><div id="Mamma" class="collapse">Multiplie les HP de tous les personnages par 1,2, augmente les chances d'apparition des cercles correspondants et si le capitaine est de classe Ambitieux ou Tenace, multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#1CAC24'>DEX</b> et <b style='color:#4C4CFF'>QCK</b> par 1,5, puis par 1,65 après 3 “PARFAIT” d'affilée.<br><br>Coup spécial (6 tours) : Change le cercle du personnage à droite sur la rangée du bas en cercle <b style='color:#BC5C0C'>[RCV]</b> (6 tours).</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/wCGoGuE.png" download="40.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Mamma.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/U1ihZz0.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Grudge Dolph</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Grudge"><b>Voir les capacités</b></button></center><br><center><div id="Grudge" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie les HP des personnages de classe Sabreur et Ravageur par 1,25, multiplie l'ATK des personnages de classe Sabreur et Ravageur par 1,6 s'ils ont un cercle arc-en-ciel, <b style='color:#B10000'>[WA]</b> ou correspondant, sinon par 1,5, et restaure 1 000 HP à la fin de chaque tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/U1ihZz0.png" download="48.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Poupees_de_paille.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/xPZYIfd.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Victoria Punk</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Victoria"><b>Voir les capacités</b></button></center><br><center><div id="Victoria" class="collapse">Multiplie les HP de tous les personnages par 1,2, augmente légèrement les chances d'apparition des cercles <b style='color:peru'>[TND]</b> et si le capitaine est un personnage de type <b style='color:#DC241C'>STR</b> ou <b style='color:#1CAC24'>DEX</b>, multiplie l'ATK de tous les personnages par 1,65 s'ils ont un cercle <b style='color:peru'>[TND]</b>, <b style='color:maroon'>[BOMB]</b>, <b style='color:#FF6500'>[BOMB+]</b> ou <b style='color:#B10000'>[WA]</b>, sinon par 1,55.<br><br>Coup spécial (10 tours) : Réduit la durée des barrières dont bénéficient les ennemis d'un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/xPZYIfd.png" download="52.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Foret/Magnetique.html" target="_blank"><button class="btn btn-primary">Fiche de la forêt d'entraînement</button></a></center></p></center></p>
+ </div></div><br></div>
+    </div>
+   <center><h2><u>Bateaux des missions</u></h2></center>
+   <div class="row">
+     <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/XwGnNgK.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Miss Love Duck</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Duck"><b>Voir les capacités</b></button></center><br><center><div id="Duck" class="collapse">Multiplie l'ATK des personnages de classe Ravageur par 1,5, augmente légèrement les chances d'apparition des cercles correspondants pour les personnages de classe Ravageur, ajoute 100 en ATK pour les personnages de classe Ravageur et réduit les dégâts subis de 10%.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/XwGnNgK.png" download="6.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/yPKT1kr.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Big Top</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Baggy"><b>Voir les capacités</b></button></center><br><center><div id="Baggy" class="collapse">Multiplie l'ATK des personnages ayant un coût inférieur ou égal à 40 par 1,5 et les HP par 1,4.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/yPKT1kr.png" download="9.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/TCd6MAM.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Bezan Black</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Bezan"><b>Voir les capacités</b></button></center><br><center><div id="Bezan" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie l'ATK des personnages de type <b style='color:#4C4CFF'>QCK</font></b> par 1,5 et les HP par 1,3.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/TCd6MAM.png" download="10.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/iajvi3I.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Dreadnaught Sabre</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Dreadnaught"><b>Voir les capacités</b></button></center><br><center><div id="Dreadnaught" class="collapse">Multiplie les HP de tous les personnages par 1,5 et inflige 10 000 points de dégâts non élémentaires sur tous les ennemis à la fin de chaque tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/iajvi3I.png" download="14.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+    </div>
+   <center><h2><u>Bateaux des évènements</u></h2></center>
+   <div class="row">
+     <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/ITrIGlB.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Modèle spécial 2e anniversaire de Treasure Cruise</small><br>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Anni"><b>Voir les capacités</b></button></center><br><center><div id="Anni" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement : Multiplie l'ATK de tous les personnages par 1,5 et jauges de chargement des coups spéciaux au maximum au début de la quête.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/ITrIGlB.png" download="18.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/jHF5DgE.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Figure héroïque de la guerre au sommet</small><br>Moby Dick</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Guerre"><b>Voir les capacités</b></button></center><br><center><div id="Guerre" class="collapse">Multiplie les HP de tous les personnages par 1,3.<br><br>Pendant l'évènement : Multiplie l'ATK de tous les personnages par 1,5, les HP par 1,4 et enlève 4% des HP de tous les ennemis à la fin de chaque tour.<br><br>Coup spécial (18 tours) : Enlève 20% des HP de chaque ennemi.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/jHF5DgE.png" download="22.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/5kZAhaY.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Banquet de Grand Line</small><br>Big Top</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Banquet"><b>Voir les capacités</b></button></center><br><center><div id="Banquet" class="collapse">Multiplie l'ATK des personnages ayant un coût inférieur ou égal à 20 par 1,2.<br><br>Pendant l'évènement : Multiplie l'ATK de tous les personnages par 1,5, l'EXP gagnée par 1,5 et les berrys gagnés par 1,5.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/5kZAhaY.png" download="25.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/Ce9Jr7E.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Le Corbeau</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Corbeau"><b>Voir les capacités</b></button></center><br><center><div id="Corbeau" class="collapse">Multiplie l'ATK des personnages de classe Tireur par 1,2.<br><br>Coup spécial (16 tours) : Retarde toutes les attaques ennemies d'un tour.<br><br>Pendant l'évènement : Multiplie l'ATK et les HP des personnages de classe Tireur uniquement par 2, multiplie l'ATK des autres personnages par 1,5 et les HP par 1,02.<br><br>Coup spécial (12 tours) : Retarde toutes les attaques ennemies de 2 tours.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/Ce9Jr7E.png" download="30.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/Z8nP45r.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Modèle spécial commémoratif</small><br>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Special"><b>Voir les capacités</b></button></center><br><center><div id="Special" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement (1ère version) : Multiplie l'ATK de tous les personnages par 1,5 et l'EXP gagnée par 3.<br><br>Pendant l'évènement (2ème version) : Multiplie l'ATK de tous les personnages par 1,5 et jauges de chargement des coups spéciaux au maximum au début de la quête.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/Z8nP45r.png" download="31.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/Fpxz6tw.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Laboon</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Laboon"><b>Voir les capacités</b></button></center><br><center><div id="Laboon" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement : Multiplie l'ATK de tous les personnages par 1,5 et jauges de chargement des coups spéciaux au maximum au début de la quête.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/Fpxz6tw.png" download="37.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/rTDKygN.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Modèle spécial 4e anniversaire de Treasure Cruise</small><br>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Anniv"><b>Voir les capacités</b></button></center><br><center><div id="Anniv" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement (1ère version) : Multiplie l'ATK de tous les personnages par 1,5 et l'EXP et les berrys gagnés par 3.<br><br>Pendant l'évènement (2ème version) : Multiplie l'ATK de tous les personnages par 1,5 et jauges de chargement des coups spéciaux au maximum au début de la quête.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/rTDKygN.png" download="38.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/UNvzRZk.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Modèle spécial 5e anniversaire de Treasure Cruise</small><br>Vogue Merry</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Annif"><b>Voir les capacités</b></button></center><br><center><div id="Annif" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement (1ère version) : Multiplie l'ATK de tous les personnages par 1,5 et l'EXP et les berrys gagnés par 3.<br><br>Pendant l'évènement (2ème version) : Multiplie l'ATK de tous les personnages par 1,5 et jauges de chargement des coups spéciaux au maximum au début de la quête.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/UNvzRZk.png" download="42.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/3mlfp0f.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Modèle volant<br>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Stampede"><b>Voir les capacités</b></button></center><br><center><div id="Stampede" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement : Multiplie l'ATK de tous les personnages par 1,5 et l'EXP gagnée par 1,5.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/3mlfp0f.png" download="45.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/AsIJkel.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Peace of Spadil</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Peace"><b>Voir les capacités</b></button></center><br><center><div id="Peace" class="collapse">Multiplie l'ATK des personnages de classe Tenace, Libre et Cogneur par 1,6 si les HP sont en-dessous de 30%, sinon par 1,5, et les HP par 1,2.<br><br>Obtenable en terminant pour la première fois le combat crucial d'Ace au niveau 11★.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/AsIJkel.png" download="46.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> <a href="https://onepiecetreasurecruise.fr/Raid/Portgas%20D.%20Ace.html" target="_blank"><button class="btn btn-primary">Fiche du combat crucial</button></a></center></p></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/LzONDbp.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Derniers instants<br>Vogue Merry</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Mort"><b>Voir les capacités</b></button></center><br><center><div id="Mort" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement : Réduit le temps de chargement des coups spéciaux de tous les personnages de 5 tours au début de la quête, multiplie l'ATK de tous les personnages par 1,5 et rend le timing des coups “PARFAIT” plus facile pour tous les personnages.<br><br>Coup spécial (12 tours) : Restaure 32% des HP maximum de l'équipe.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/LzONDbp.png" download="49.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/fpfNLkh.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center><small>Modèle spécial 6e anniversaire de Treasure Cruise</small><br>Thousand Sunny</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#AnniG"><b>Voir les capacités</b></button></center><br><center><div id="AnniG" class="collapse">Multiplie l'ATK de tous les personnages par 1,2.<br><br>Pendant l'évènement : Réduit le temps de chargement des coups spéciaux de tous les personnages de 5 tours au début de la quête, multiplie l'ATK de tous les personnages par 1,5 et l'EXP gagnée par 3.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/fpfNLkh.png" download="51.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a> </center></p>
+ </div></div><br></div>
+    </div>
+   <center><h2><u>Bateaux du bazar de Rayleigh</u></h2></center>
+   <div class="row">
+     <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/jYDFwb3.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Rocketman</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Rocketman"><b>Voir les capacités</b></button></center><br><center><div id="Rocketman" class="collapse">Multiplie l'ATK des personnages de classe Tenace par 1,55, réduit drastiquement les HP des personnages qui ne sont pas de classe Tenace et restaure des HP à la fin de chaque tour selon le nombre de personnages de classe Tenace présents dans l'équipe (de 1 HP à 900 HP).<br><br>Coup spécial (17 tours) : Inflige 99 999 points de dégâts non élémentaires sur un ennemi.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/jYDFwb3.png" download="21.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/eoLxt4U.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Navire de Garp</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Garp"><b>Voir les capacités</b></button></center><br><center><div id="Garp" class="collapse">Multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</font></b> et <b style='color:#ECAC04'>PSY</font></b> par 1,5 et les HP par 1,25.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/eoLxt4U.png" download="23.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/WKgGHrw.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Vogue M'sieur Luffy</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Bartolomeo"><b>Voir les capacités</b></button></center><br><center><div id="Bartolomeo" class="collapse">Réduit le temps de chargement des coups spéciaux des personnages de classe Ravageur d'un tour au début de la quête et si l'équipe contient 6 personnages de classe Ravageur, multiplie l'ATK des personnages de classe Ravageur par 1,5 et les HP par 1,2.<br><br>Coup spécial (17 tours) : Réduit drastiquement la partie des dégâts infligés par chaque ennemi qui excède 10 000 pendant un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/WKgGHrw.png" download="28.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/0IkAahH.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Thriller Bark</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Thriller"><b>Voir les capacités</b></button></center><br><center><div id="Thriller" class="collapse">Multiplie l'ATK des personnages de type <b style='color:#1CAC24'>DEX</font></b> et <b style='color:#A916B6'>INT</font></b> par 1,5 et les HP par 1,25.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/0IkAahH.png" download="29.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/2SJMXAr.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Hollandais Volant</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Hollandais"><b>Voir les capacités</b></button></center><br><center><div id="Hollandais" class="collapse">Multiplie l'ATK de tous les personnages par 1,5 et l'EXP gagnée par 1,5.<br><br>Coup spécial (16 tours) : Réduit de 25% la défense de tous les ennemis pendant un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/2SJMXAr.png" download="32.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/SsJYZY9.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Oiseau noir de l'Armée révolutionnaire</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Revolutionnaire"><b>Voir les capacités</b></button></center><br><center><div id="Revolutionnaire" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie les HP de tous les personnages par 1,2 et si l'équipe contient un personnage de type <b style='color:#DC241C'>STR</b>, un de type <b style='color:#1CAC24'>DEX</b> et un de type <b style='color:#4C4CFF'>QCK</b>, multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#1CAC24'>DEX</b> et <b style='color:#4C4CFF'>QCK</b> par 1,55.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/SsJYZY9.png" download="34.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/0syYA9m.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Sexy Foxy</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Foxy"><b>Voir les capacités</b></button></center><br><center><div id="Foxy" class="collapse">Multiplie l'ATK de tous les personnages par 1,5, l'EXP gagnée par 1,2 et les berrys gagnés par 2.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/0syYA9m.png" download="36.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+    </div>
+   <center><h2><u>Bateaux des quêtes déblocables</u></h2></center>
+   <div class="row">
+     <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/mX59Mbc.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Zunesh</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Zunesh"><b>Voir les capacités</b></button></center><br><center><div id="Zunesh" class="collapse">Multiplie l'ATK des personnages de classe Tenace et Intellectuel par 1,55, les HP par 1,25, rend les cercles <b style='color:#BC5C0C'>[RCV]</b> et <b style='color:peru'>[TND]</b> avantageux pour les personnages de classe Tenace et Intellectuel et rend le timing des coups “PARFAIT” grandement plus facile pour tous les personnages.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/mX59Mbc.png" download="35.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/jVV7Gqv.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Bateau des Germa 66</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Germa"><b>Voir les capacités</b></button></center><br><center><div id="Germa" class="collapse">Si l'équipe contient un personnage de chaque type, réduit le temps de chargement des coups spéciaux de tous les personnages de 2 tours au début de la quête, multiplie les HP de tous les personnages par 1,25, rend le timing des coups “PARFAIT” légèrement plus facile pour tous les personnages et multiplie l'ATK de tous les personnages par 1,705 s'ils ont un cercle <b style='color:#BC5C0C'>[RCV]</b> ou <b style='color:peru'>[TND]</b>, sinon par 1,55.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/jVV7Gqv.png" download="41.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/3Ute6Ru.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Hoé</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Hoe"><b>Voir les capacités</b></button></center><br><center><div id="Hoe" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie l'ATK de tous les personnages par 1,5 et l'EXP gagnée par 1,75.<br><br>Coup spécial (15 tours) : Restaure 3 500 HP à la fin de chaque tour pendant 2 tours.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/3Ute6Ru.png" download="43.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/LYKPnIN.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Mégalo</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Megalo"><b>Voir les capacités</b></button></center><br><center><div id="Megalo" class="collapse">Multiplie les HP de tous les personnages par 1,25 et si le capitaine est un personnage de type <b style='color:#ECAC04'>PSY</b> ou <b style='color:#A916B6'>INT</b>, multiplie l'ATK de tous les personnages par 1,5, ajoute 200 à la RCV du capitaine et réduit les dégâts subis de 10%.<br><br>Coup spécial (8 tours) : Bloque les cercles pendant un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/LYKPnIN.png" download="44.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/HlfJtWl.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Carpes géantes</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Carpe"><b>Voir les capacités</b></button></center><br><center><div id="Carpe" class="collapse">Multiplie l'ATK des personnages de type <b style='color:#4C4CFF'>QCK</b> et <b style='color:#A916B6'>INT</b> par 1,6 si les HP sont au maximum, sinon par 1,5, les HP par 1,2 et rend les cercles <b style='color:#BC5C0C'>[RCV]</b> avantageux pour les personnages de type <b style='color:#4C4CFF'>QCK</b> et <b style='color:#A916B6'>INT</b>.<br><br>Special (11 tours) : Restaure 5 000 HP et ajoute 0,5 au multiplicateur de combos pendant un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/HlfJtWl.png" download="47.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/YFrPT42.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Shark Superb</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Shark"><b>Voir les capacités</b></button></center><br><center><div id="Shark" class="collapse">Si le capitaine est un personnage de type <b style='color:#DC241C'>STR</b>, <b style='color:#1CAC24'>DEX</b> ou <b style='color:#4C4CFF'>QCK</b>, multiplie l'ATK de tous les personnages par 2, réduit le multiplicateur d'ATK de 0,07 à la fin de chaque tour, réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête et rend le timing des coups “PARFAIT” plus facile pour tous les personnages.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/YFrPT42.png" download="50.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/G3Jn5NO.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Liberal Hind</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Liberal"><b>Voir les capacités</b></button></center><br><center><div id="Liberal" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, ajoute 500 à la RCV du capitaine et restaure 1 000 HP à la fin de chaque tour. Si le capitaine est un personnage de classe Libre, Sabreur ou Intellectuel, multiplie l'ATK de tous les personnages par 1,76 si l'équipe contient 6 personnages de type <b style='color:#ECAC04'>PSY</b>, sinon par 1,6.<br><br>Coup spécial (10 tours) : Réduit le temps de chargement des coups spéciaux des personnages de type <b style='color:#ECAC04'>PSY</b> d'un tour.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/G3Jn5NO.png" download="53.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/rmbDtIi.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Nostra Castello amphibie</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Amphibie"><b>Voir les capacités</b></button></center><br><center><div id="Amphibie" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie les HP des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#ECAC04'>PSY</b> et <b style='color:#A916B6'>INT</b> par 1,4 et si les HP sont au maximum ou en-dessous de 30%, multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b>, <b style='color:#ECAC04'>PSY</b> et <b style='color:#A916B6'>INT</b> par 1,7, sinon par 1,55.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/rmbDtIi.png" download="54.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+      <div class="col-sm-4">
+   <div class="card">
+     <center><img class="card-img-top" src="https://i.imgur.com/vktlYR7.png" alt="Card image cap"></center>
+     <div class="card-body">
+         <h3 class="card-title"><center>Oro Jackson</center></h3><p class="card-text"><center><button class="btn btn-success" type="button" data-toggle="collapse" data-target="#Oro"><b>Voir les capacités</b></button></center><br><center><div id="Oro" class="collapse">Réduit le temps de chargement des coups spéciaux de tous les personnages d'un tour au début de la quête, multiplie l'ATK des personnages de classe Libre et Sabreur par 1,6, les HP par 1,3, rend les cercles <b style='color:#BC5C0C'>[RCV]</b> et <b style='color:peru'>[TND]</b> avantageux pour tous les personnages, rend le timing des coups “PARFAIT” plus facile pour tous les personnages et restaure 1 000 HP à la fin de chaque tour.<br><br>Coup spécial (9 tours) : Réduit la durée de “Paralysie” de 2 tours.</div></center><br><center><a href="https://onepiecetreasurecruise.fr/Bateau/app/view/assets/img/vktlYR7.png" download="55.png"><button class="btn"><i class="fa fa-download"></i> Télécharger</button></a></center></p>
+ </div></div><br></div>
+    </div>
+
+ </div>
+         <br><br><br>
+         <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
+         <script src="../shared/navbar.js"></script>
+         <script>
+           addNavbar("beginner", 'ships', 1);
+         </script>
+         <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
+         <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
+         <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
+         <div class="baspage">
+           <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
+         </div>
+         <style>
+           .baspage
+           {
+             position: relative;
+             bottom: -1vw;
+             max-width: 100%;
+             width: 100%;
+           }
+         </style>
+     </body>
+ </html>
