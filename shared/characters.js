@@ -1491,6 +1491,20 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3493",
+              imgUrl: "https://i.imgur.com/8CuOwE7.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "3495",
+              imgUrl: "https://i.imgur.com/IrV6YxG.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png",
@@ -1548,6 +1562,20 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "3513",
+              imgUrl: "https://i.imgur.com/om4oNww.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "3515",
+              imgUrl: "https://i.imgur.com/j6eF38C.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
           ],
         ],
       },
@@ -1580,6 +1608,13 @@ const allRareRecruitCharactersList = [
             {
               id: "3391",
               imgUrl: "https://i.imgur.com/x66ujbS.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3508",
+              imgUrl: "https://i.imgur.com/oGrKhOU.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1936,6 +1971,14 @@ const allRareRecruitCharactersList = [
             {
               id: "3448",
               imgUrl: "https://i.imgur.com/Pfw5ibZ.png",
+            },
+            {
+              id: "3510",
+              imgUrl: "https://i.imgur.com/7yIdnlH.png",
+            },
+            {
+              id: "3519",
+              imgUrl: "https://i.imgur.com/4M6jnma.png",
             },
           ],
         ],
@@ -5617,6 +5660,16 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/xRt1ia9.png",
             },
           ],
+          [
+            {
+              id: "3496",
+              imgUrl: "https://i.imgur.com/YtH02Li.png",
+            },
+            {
+              id: "3497",
+              imgUrl: "https://i.imgur.com/yTaufk0.png",
+            },
+          ],
         ],
       },
       {
@@ -5643,6 +5696,18 @@ const allRareRecruitCharactersList = [
               id: "3185",
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3185.png",
+            },
+          ],
+          [
+            {
+              id: "3516",
+              imgUrl:
+                "https://i.imgur.com/SOLxHwm.png",
+            },
+            {
+              id: "3517",
+              imgUrl:
+                "https://i.imgur.com/8cejaL0.png",
             },
           ],
         ],
@@ -5713,6 +5778,22 @@ const allRareRecruitCharactersList = [
             {
               id: "3367",
               imgUrl: "https://i.imgur.com/YPasv26.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Ennemis de Luffy",
+        enName: "Luffy's foes",
+        characters: [
+          [
+            {
+              id: "3475",
+              imgUrl: "https://i.imgur.com/IjK6hLL.png",
+            },
+            {
+              id: "3476",
+              imgUrl: "https://i.imgur.com/FOy8bF8.png",
             },
           ],
         ],
