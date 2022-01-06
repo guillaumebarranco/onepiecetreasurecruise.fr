@@ -868,6 +868,14 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3510",
+              imgUrl:
+                "https://i.imgur.com/7yIdnlH.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "2251",
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2251.png",
@@ -933,6 +941,14 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3417",
+              imgUrl:
+                "https://i.imgur.com/GiKW9Yx.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "2365",
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2365.png",
@@ -956,8 +972,22 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3448",
+              imgUrl: "https://i.imgur.com/ZMVG7tJ.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "2441",
               imgUrl: "https://i.imgur.com/AfhYVGS.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3393",
+              imgUrl: "https://i.imgur.com/4oASID7.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -974,6 +1004,14 @@ const allRareRecruitCharactersList = [
               id: "2465",
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2465.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3298",
+              imgUrl:
+                "https://i.imgur.com/91bniXM.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1078,8 +1116,8 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
-              id: "5026",
-              imgUrl: "https://i.imgur.com/uGcinPS.png",
+              id: "5063",
+              imgUrl: "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5063.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1130,6 +1168,13 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3350",
+              imgUrl: "https://i.imgur.com/fLnDXHw.png",
+              hasLb: true,
+              hasKeyLb: false,
+              hasSupport: true,
+            },
+            {
               id: "2797",
               imgUrl: "https://i.imgur.com/sjfSQ3f.png",
               hasLb: true,
@@ -1163,6 +1208,14 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
+            },
+            {
+              id: "3469",
+              imgUrl: "https://i.imgur.com/iPQtvqx.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+              isSixPlus: true,
             },
             {
               id: "2860",
@@ -1289,6 +1342,14 @@ const allRareRecruitCharactersList = [
               id: "3071",
               imgUrl:
                 "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3071.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3369",
+              imgUrl:
+                "https://i.imgur.com/82eL2gQ.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1528,6 +1589,14 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3519",
+              imgUrl: "https://i.imgur.com/4M6jnma.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+              isSixPlus: true,
+            },
+            {
               id: "3177",
               imgUrl: "https://i.imgur.com/lgP1mjV.png",
               hasLb: true,
@@ -1561,6 +1630,14 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
+            },
+            {
+              id: "3430",
+              imgUrl: "https://i.imgur.com/jkRhhu9.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+              isSixPlus: true,
             },
             {
               id: "3513",
@@ -1653,7 +1730,7 @@ const allRareRecruitCharactersList = [
       },
       {
         frName: "Personnages exclusifs au Sugo-Fest de la carte aux trésors",
-        enName: "Pirate Rumble Sugo-Fest Exclusive",
+        enName: "Treasure Map Sugo-Fest Exclusive",
         characters: [
           [
             {
@@ -1971,6 +2048,10 @@ const allRareRecruitCharactersList = [
             {
               id: "3448",
               imgUrl: "https://i.imgur.com/Pfw5ibZ.png",
+            },
+            {
+              id: "3469",
+              imgUrl: "https://i.imgur.com/iPQtvqx.png",
             },
             {
               id: "3510",
@@ -3249,7 +3330,6 @@ const allRareRecruitCharactersList = [
               id: "3386",
               imgUrl: "https://i.imgur.com/849lDAt.png",
             },
-
             {
               id: "3412",
               imgUrl: "https://i.imgur.com/gNKNf2P.png",
@@ -3261,6 +3341,18 @@ const allRareRecruitCharactersList = [
             {
               id: "3414",
               imgUrl: "https://i.imgur.com/dIe5n2N.png",
+            },
+            {
+              id: "3502",
+              imgUrl: "https://i.imgur.com/lWlMkdf.png",
+            },
+            {
+              id: "3503",
+              imgUrl: "https://i.imgur.com/EnljW1M.png",
+            },
+            {
+              id: "3504",
+              imgUrl: "https://i.imgur.com/Jc1FESJ.png",
             },
           ],
         ],
@@ -3392,6 +3484,22 @@ const allRareRecruitCharactersList = [
               id: "3447",
               imgUrl: "https://i.imgur.com/K6dsTZz.png",
             },
+            {
+              id: "3468",
+              imgUrl: "https://i.imgur.com/KdTiIfv.png",
+            },
+            {
+              id: "3487",
+              imgUrl: "https://i.imgur.com/QWpoOyT.png",
+            },
+            {
+              id: "3488",
+              imgUrl: "https://i.imgur.com/oYNruCE.png",
+            },
+            {
+              id: "3509",
+              imgUrl: "https://i.imgur.com/w8Mm6Zh.png",
+            },
           ],
         ],
       },
@@ -3508,6 +3616,14 @@ const allRareRecruitCharactersList = [
             {
               id: "3459",
               imgUrl: "https://i.imgur.com/e0Tvyun.png",
+            },
+            {
+              id: "3480",
+              imgUrl: "https://i.imgur.com/LO8quIy.png",
+            },
+            {
+              id: "3501",
+              imgUrl: "https://i.imgur.com/p7jfcSU.png",
             },
           ],
         ],
