@@ -873,6 +873,7 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
+              isSixPlus: true,
             },
             {
               id: "2251",
@@ -945,6 +946,7 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
+              isSixPlus: true,
             },
             {
               id: "2365",
@@ -975,6 +977,7 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
+              isSixPlus: true,
             },
             {
               id: "2441",
