@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bon Clay</title>
+    <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+  </head>
+
+  <body id="PSY">
+    <div class="entete">
+      <img class="entetefond" src="https://i.imgur.com/adWoClY.png" />
+      <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
+      <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
+      <a href="/"><img class="logo" src="https://i.imgur.com/g0NAqri.png" /></a>
+    </div>
+    <div id="optcnavbar"></div>
+    <a href="../Legende.html"
+      ><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50"
+    /></a>
+
+    <div class="fiche-container">
+      <h3><u>Personnages du lot</u></h3>
+<a href="../Page_RR/Cesar_5.html"><img src="https://i.imgur.com/xcZmVnp.png" /></a>
+<a href="../Page_RR/Ivankov_6.html"><img src="https://i.imgur.com/2uwLLQq.png" /></a>
+      <h1>Bon Clay</h1>
+      <h2>Fiche (6★)</h2>
+      <div>
+        <img src="https://i.imgur.com/pDyNaMD.png" width="110" />
+        <img src="https://i.imgur.com/yotAiDx.png" width="110" />
+      </div>
+      <div>
+        <img src="https://i.imgur.com/UsVhkwd.png" width="640" />
+        <img src="https://i.imgur.com/2rPvGOn.png" width="640" />
+      </div>
+    </div>
+
+
+
+    <div id="scrollUp">
+      <a href="#top"
+        ><img height="60%" src="https://i.imgur.com/0f85aFb.png" width="60%"
+      /></a>
+    </div>
+    <div class="baspage">
+      <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
+  </body>
+</html>
