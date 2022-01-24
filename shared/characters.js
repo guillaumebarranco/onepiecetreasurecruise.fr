@@ -3474,27 +3474,27 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3445",
-              imgUrl: "https://i.imgur.com/ilB8fAu.png",
+              imgUrl: "https://i.imgur.com/hUx2Emq.png",
             },
             {
               id: "3446",
-              imgUrl: "https://i.imgur.com/AxqBnwG.png",
+              imgUrl: "https://i.imgur.com/0z41AwW.png",
             },
             {
               id: "3447",
-              imgUrl: "https://i.imgur.com/K6dsTZz.png",
+              imgUrl: "https://i.imgur.com/WVTfUzS.png",
             },
             {
               id: "3468",
-              imgUrl: "https://i.imgur.com/KdTiIfv.png",
+              imgUrl: "https://i.imgur.com/Pt3tS6Y.png",
             },
             {
               id: "3487",
-              imgUrl: "https://i.imgur.com/QWpoOyT.png",
+              imgUrl: "https://i.imgur.com/ARw4lGZ.png",
             },
             {
               id: "3488",
-              imgUrl: "https://i.imgur.com/oYNruCE.png",
+              imgUrl: "https://i.imgur.com/aAy4F8Z.png",
             },
             {
               id: "3509",
