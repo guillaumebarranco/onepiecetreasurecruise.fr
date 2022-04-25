@@ -11,7 +11,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0261",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0261.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0261.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -27,7 +27,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0367",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0367.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0367.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -43,7 +43,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0416",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0416.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0416.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -59,7 +59,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0459",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0459.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0459.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -67,7 +67,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1847",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1847.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1847.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -83,7 +83,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1707",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1707.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1707.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -92,7 +92,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0562",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0562.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0562.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -100,7 +100,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1816",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1816.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1816.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -109,7 +109,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1121",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1121.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1121.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -117,7 +117,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0649",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0649.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0649.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -133,7 +133,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0669",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0669.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0669.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -141,7 +141,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1492",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1492.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1492.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -150,7 +150,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0718",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0718.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0718.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -158,7 +158,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1881",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1881.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1881.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -167,7 +167,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0720",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0720.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0720.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -175,7 +175,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1927",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1927.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1927.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -184,7 +184,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0748",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0748.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0748.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -192,7 +192,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1663",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1663.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1663.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -201,7 +201,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0870",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0870.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0870.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -224,7 +224,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2066",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2066.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2066.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -233,7 +233,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1001",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1001.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1001.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -241,7 +241,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2195",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2195.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2195.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -250,7 +250,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1035",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1035.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1035.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -258,7 +258,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1928",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1928.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1928.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -274,7 +274,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2001",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2001.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2001.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -283,7 +283,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1085",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1085.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1085.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -291,7 +291,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2954",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2954.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2954.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -300,7 +300,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1123",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1123.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1123.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -323,7 +323,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1764",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1764.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1764.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -332,7 +332,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1240",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1240.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1240.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -340,7 +340,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2034",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2034.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2034.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -349,7 +349,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1268",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1268.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1268.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -365,7 +365,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1314",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1314.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1314.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -381,7 +381,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1362",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1362.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1362.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -389,7 +389,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1921",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1921.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1921.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -398,7 +398,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1391",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1391.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1391.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -406,7 +406,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2035",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2035.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2035.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -422,7 +422,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1593",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1593.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1593.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -431,7 +431,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1434",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1434.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1434.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -439,7 +439,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1880",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1880.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1880.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -448,7 +448,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1473",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1473.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1473.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -456,7 +456,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2631",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2631.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2631.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -465,7 +465,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1532",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1532.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1532.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -473,7 +473,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1543",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1543.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1543.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -482,7 +482,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1571",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1571.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1571.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -490,7 +490,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2372",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2372.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2372.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -499,7 +499,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1588",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1588.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1588.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -507,7 +507,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2245",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2245.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2245.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -516,7 +516,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1610",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1610.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1610.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -524,7 +524,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2232",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2232.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2232.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -533,7 +533,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1652",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1652.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1652.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -541,7 +541,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2373",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2373.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2373.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -550,7 +550,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1698",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1698.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1698.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -558,7 +558,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2159",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2159.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2159.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -567,7 +567,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1747",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1747.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1747.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -575,7 +575,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2434",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2434.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2434.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -584,7 +584,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1751",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1751.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1751.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -592,7 +592,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1922",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1922.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1922.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -601,7 +601,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1763",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1763.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1763.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -617,7 +617,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1794",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1794.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1794.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -633,7 +633,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1832",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1832.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1832.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -641,7 +641,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2138",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2138.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2138.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -650,7 +650,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1869",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1869.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1869.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -666,7 +666,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1883",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1883.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1883.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -674,7 +674,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3018",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3018.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f3018.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -683,7 +683,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1910",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1910.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1910.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -691,7 +691,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1935",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1935.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1935.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -699,7 +699,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2300",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2300.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2300.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -708,7 +708,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1951",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1951.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1951.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -724,7 +724,7 @@ const allRareRecruitCharactersList = [
             {
               id: "1985",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1985.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f1985.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: false,
@@ -732,7 +732,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2007",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2007.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2007.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -740,7 +740,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2023",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2023.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2023.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -748,7 +748,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2025",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2025.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2025.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -756,7 +756,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2074",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2074.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2074.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -764,7 +764,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2363",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2363.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2363.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -773,7 +773,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2076",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2076.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2076.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -781,7 +781,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2588",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2588.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2588.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -790,7 +790,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2099",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2099.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2099.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -798,7 +798,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2113",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2113.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2113.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -814,7 +814,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2148",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2148.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2148.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -830,7 +830,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2181",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2181.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2181.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: false,
@@ -845,7 +845,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2234",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2234.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2234.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -853,7 +853,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2500",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2500.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2500.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -862,7 +862,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2236",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2236.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2236.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -878,7 +878,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2251",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2251.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2251.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -886,7 +886,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2991",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2991.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2991.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -895,7 +895,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2265",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2265.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2265.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -903,7 +903,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3048",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3048.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f3048.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -912,7 +912,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2302",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2302.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2302.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -935,7 +935,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2338",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2338.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2338.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -951,7 +951,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2365",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2365.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2365.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -959,7 +959,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2418",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2418.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2418.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: false,
@@ -996,7 +996,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2446",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2446.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2446.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: false,
@@ -1004,7 +1004,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2465",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2465.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2465.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1019,7 +1019,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2475",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2475.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2475.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1035,7 +1035,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2477",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2477.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2477.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1051,7 +1051,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2534",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2534.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2534.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
@@ -1059,7 +1059,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2536",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2536.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2536.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
@@ -1074,7 +1074,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2577",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2577.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2577.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
@@ -1118,7 +1118,7 @@ const allRareRecruitCharactersList = [
             {
               id: "5063",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5063.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2909.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1134,7 +1134,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2700",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2700.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2700.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1256,7 +1256,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2958",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2958.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2958.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1264,7 +1264,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2960",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2960.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2960.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1272,7 +1272,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2962",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2962.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2962.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1280,7 +1280,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2964",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2964.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2964.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1288,7 +1288,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2980",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2980.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2980.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1296,7 +1296,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2982",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2982.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f2982.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1304,7 +1304,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3002",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3007.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f3007.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1312,7 +1312,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3004",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3009.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f3009.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1327,7 +1327,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3038",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3038.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f3038.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1342,7 +1342,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3071",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3071.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f3071.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -1610,7 +1610,7 @@ const allRareRecruitCharactersList = [
             {
               id: "5014",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5014.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
               hasLb: true,
               hasKeyLb: false,
               hasSupport: true,
@@ -1738,6 +1738,13 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "3590",
+              imgUrl: "https://i.imgur.com/BplT7Nx.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
@@ -1845,17 +1852,17 @@ const allRareRecruitCharactersList = [
             {
               id: "1492",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1492.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1492.png",
             },
             {
               id: "1543",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1543.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1543.png",
             },
             {
               id: "1593",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1593.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1593.png",
             },
             {
               id: "1619",
@@ -1864,107 +1871,107 @@ const allRareRecruitCharactersList = [
             {
               id: "1663",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1663.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1663.png",
             },
             {
               id: "1707",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1707.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1707.png",
             },
             {
               id: "1764",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1764.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1764.png",
             },
             {
               id: "1816",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1816.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1816.png",
             },
             {
               id: "1847",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1847.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1847.png",
             },
             {
               id: "1880",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1880.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1880.png",
             },
             {
               id: "1881",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1881.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1881.png",
             },
             {
               id: "1921",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1921.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1921.png",
             },
             {
               id: "1922",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1922.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1922.png",
             },
             {
               id: "1927",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1927.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1927.png",
             },
             {
               id: "1928",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1928.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1928.png",
             },
             {
               id: "2001",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2001.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2001.png",
             },
             {
               id: "2034",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2034.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2034.png",
             },
             {
               id: "2035",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2035.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2035.png",
             },
             {
               id: "2066",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2066.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2066.png",
             },
             {
               id: "2138",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2138.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2138.png",
             },
             {
               id: "2159",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2159.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2159.png",
             },
             {
               id: "2195",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2195.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2195.png",
             },
             {
               id: "2232",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2232.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2232.png",
             },
             {
               id: "2245",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2245.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2245.png",
             },
             {
               id: "2300",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2300.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2300.png",
             },
             {
               id: "2357",
@@ -1973,22 +1980,22 @@ const allRareRecruitCharactersList = [
             {
               id: "2363",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2363.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2363.png",
             },
             {
               id: "2372",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2372.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2372.png",
             },
             {
               id: "2373",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2373.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2373.png",
             },
             {
               id: "2434",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2434.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2434.png",
             },
             {
               id: "2444",
@@ -1997,7 +2004,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2500",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2500.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2500.png",
             },
             {
               id: "2505",
@@ -2010,12 +2017,12 @@ const allRareRecruitCharactersList = [
             {
               id: "2588",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2588.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2588.png",
             },
             {
               id: "2631",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2631.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2631.png",
             },
             {
               id: "2681",
@@ -2044,32 +2051,32 @@ const allRareRecruitCharactersList = [
             {
               id: "5063",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5063.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2909.png",
             },
             {
               id: "2954",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2954.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2954.png",
             },
             {
               id: "2990",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2991.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f2991.png",
             },
             {
               id: "3018",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3018.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f3018.png",
             },
             {
               id: "3049",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3048.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f3048.png",
             },
             {
               id: "3079",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3079.png",
+                "https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f3079.png",
             },
             {
               id: "3155",
@@ -2135,6 +2142,10 @@ const allRareRecruitCharactersList = [
               id: "3550",
               imgUrl: "https://i.imgur.com/jY8fGXL.png",
             },
+            {
+              id: "3592",
+              imgUrl: "https://i.imgur.com/k5m9KaS.png",
+            },
           ],
         ],
       },
@@ -2152,62 +2163,62 @@ const allRareRecruitCharactersList = [
             {
               id: "0438",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0438.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0438.png",
             },
             {
               id: "0440",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0440.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0440.png",
             },
             {
               id: "0498",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0498.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0498.png",
             },
             {
               id: "0513",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0513.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0513.png",
             },
             {
               id: "0532",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0532.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0532.png",
             },
             {
               id: "0534",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0534.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0534.png",
             },
             {
               id: "0536",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0536.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0536.png",
             },
             {
               id: "0548",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0548.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0548.png",
             },
             {
               id: "0783",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0783.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0783.png",
             },
             {
               id: "0829",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0829.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0829.png",
             },
             {
               id: "0856",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0856.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0856.png",
             },
             {
               id: "0858",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0858.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0858.png",
             },
             {
               id: "0916",
@@ -2224,7 +2235,7 @@ const allRareRecruitCharactersList = [
             {
               id: "0976",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0976.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0976.png",
             },
             {
               id: "1008",
@@ -2237,12 +2248,12 @@ const allRareRecruitCharactersList = [
             {
               id: "1054",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1054.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1054.png",
             },
             {
               id: "1093",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1093.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1093.png",
             },
             {
               id: "1100",
@@ -2251,27 +2262,27 @@ const allRareRecruitCharactersList = [
             {
               id: "1135",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1135.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1135.png",
             },
             {
               id: "1161",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1161.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1161.png",
             },
             {
               id: "1194",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1194.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1194.png",
             },
             {
               id: "1214",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1214.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1214.png",
             },
             {
               id: "1249",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1249.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1249.png",
             },
             {
               id: "1260",
@@ -2288,17 +2299,17 @@ const allRareRecruitCharactersList = [
             {
               id: "1266",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1266.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1266.png",
             },
             {
               id: "1296",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1296.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1296.png",
             },
             {
               id: "1308",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1308.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1308.png",
             },
             {
               id: "1336",
@@ -2315,12 +2326,12 @@ const allRareRecruitCharactersList = [
             {
               id: "1395",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1395.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1395.png",
             },
             {
               id: "1420",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1420.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1420.png",
             },
             {
               id: "1430",
@@ -2333,27 +2344,27 @@ const allRareRecruitCharactersList = [
             {
               id: "1467",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1467.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1467.png",
             },
             {
               id: "1514",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1514.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1514.png",
             },
             {
               id: "1524",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1524.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1524.png",
             },
             {
               id: "1545",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1545.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1545.png",
             },
             {
               id: "1568",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1568.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f1568.png",
             },
             {
               id: "1590",
@@ -2382,52 +2393,52 @@ const allRareRecruitCharactersList = [
             {
               id: "2039",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2039.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2039.png",
             },
             {
               id: "2041",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2041.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2041.png",
             },
             {
               id: "2084",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2084.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2084.png",
             },
             {
               id: "2086",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2086.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2086.png",
             },
             {
               id: "2191",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2191.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2191.png",
             },
             {
               id: "2213",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2213.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2213.png",
             },
             {
               id: "2287",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2287.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2287.png",
             },
             {
               id: "2401",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2401.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2401.png",
             },
             {
               id: "2403",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2403.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2403.png",
             },
             {
               id: "2405",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2405.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2405.png",
             },
             {
               id: "2410",
@@ -2452,12 +2463,12 @@ const allRareRecruitCharactersList = [
             {
               id: "2546",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2546.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2546.png",
             },
             {
               id: "2548",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2548.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2548.png",
             },
             {
               id: "2585",
@@ -2578,22 +2589,22 @@ const allRareRecruitCharactersList = [
             {
               id: "2973",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2973.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2973.png",
             },
             {
               id: "2974",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2974.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f2974.png",
             },
             {
               id: "3023",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3023.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f3023.png",
             },
             {
               id: "3024",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3024.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f3024.png",
             },
             {
               id: "3075",
@@ -2606,7 +2617,7 @@ const allRareRecruitCharactersList = [
             {
               id: "3080",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3085.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f3085.png",
             },
             {
               id: "3122",
@@ -2679,47 +2690,47 @@ const allRareRecruitCharactersList = [
             {
               id: "0580",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0580.png",
+                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0580.png",
             },
             {
               id: "0597",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0597.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0597.png",
             },
             {
               id: "0605",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0605.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0605.png",
             },
             {
               id: "0613",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0613.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0613.png",
             },
             {
               id: "0651",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0651.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0651.png",
             },
             {
               id: "0661",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0661.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0661.png",
             },
             {
               id: "0679",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0679.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0679.png",
             },
             {
               id: "0711",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0711.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0711.png",
             },
             {
               id: "0726",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0726.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0726.png",
             },
             {
               id: "0745",
@@ -2750,27 +2761,27 @@ const allRareRecruitCharactersList = [
             {
               id: "1621",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1621.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1621.png",
             },
             {
               id: "1632",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1632.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1632.png",
             },
             {
               id: "1665",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1665.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1665.png",
             },
             {
               id: "1678",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1678.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1678.png",
             },
             {
               id: "1713",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1713.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1713.png",
             },
             {
               id: "1721",
@@ -2779,22 +2790,22 @@ const allRareRecruitCharactersList = [
             {
               id: "1770",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1770.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1770.png",
             },
             {
               id: "1778",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1778.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1778.png",
             },
             {
               id: "1824",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1824.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1824.png",
             },
             {
               id: "1859",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1859.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1859.png",
             },
             {
               id: "1895",
@@ -2803,32 +2814,32 @@ const allRareRecruitCharactersList = [
             {
               id: "1926",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1926.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1926.png",
             },
             {
               id: "1974",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1974.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f1974.png",
             },
             {
               id: "2013",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2013.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2013.png",
             },
             {
               id: "2048",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2048.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2048.png",
             },
             {
               id: "2050",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2050.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2050.png",
             },
             {
               id: "2068",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2068.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2068.png",
             },
             {
               id: "2161",
@@ -2837,42 +2848,42 @@ const allRareRecruitCharactersList = [
             {
               id: "2199",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2199.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2199.png",
             },
             {
               id: "2247",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2247.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2247.png",
             },
             {
               id: "2285",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2285.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2285.png",
             },
             {
               id: "2325",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2325.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2325.png",
             },
             {
               id: "2349",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2349.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2349.png",
             },
             {
               id: "2431",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2431.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2431.png",
             },
             {
               id: "2463",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2463.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2463.png",
             },
             {
               id: "2487",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2487.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2487.png",
             },
             {
               id: "2515",
@@ -2897,7 +2908,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2914",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2914.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f2914.png",
             },
             {
               id: "5038",
@@ -2906,12 +2917,12 @@ const allRareRecruitCharactersList = [
             {
               id: "3051",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3051.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f3051.png",
             },
             {
               id: "3097",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3097.png",
+                "https://onepiecetreasurecruise.fr/img/characters/lrr/f3097.png",
             },
           ],
         ],
@@ -2924,102 +2935,102 @@ const allRareRecruitCharactersList = [
             {
               id: "1804",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1804.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1804.png",
             },
             {
               id: "1806",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1806.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1806.png",
             },
             {
               id: "1849",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1849.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1849.png",
             },
             {
               id: "1851",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1851.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1851.png",
             },
             {
               id: "1885",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1885.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1885.png",
             },
             {
               id: "1887",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1887.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1887.png",
             },
             {
               id: "1937",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1937.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1937.png",
             },
             {
               id: "1939",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1939.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1939.png",
             },
             {
               id: "1968",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1968.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1968.png",
             },
             {
               id: "1970",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1970.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f1970.png",
             },
             {
               id: "2009",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2009.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2009.png",
             },
             {
               id: "2011",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2011.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2011.png",
             },
             {
               id: "2060",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2060.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2060.png",
             },
             {
               id: "2062",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2062.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2062.png",
             },
             {
               id: "2132",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2132.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2132.png",
             },
             {
               id: "2134",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2134.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2134.png",
             },
             {
               id: "2135",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2135.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2135.png",
             },
             {
               id: "2169",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2169.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2169.png",
             },
             {
               id: "2171",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2171.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2171.png",
             },
             {
               id: "2173",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2173.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2173.png",
             },
             {
               id: "2207",
@@ -3032,82 +3043,82 @@ const allRareRecruitCharactersList = [
             {
               id: "2256",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2256.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2256.png",
             },
             {
               id: "2257",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2257.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2257.png",
             },
             {
               id: "2259",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2259.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2259.png",
             },
             {
               id: "2295",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2295.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2295.png",
             },
             {
               id: "2296",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2296.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2296.png",
             },
             {
               id: "2297",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2297.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2297.png",
             },
             {
               id: "2358",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2358.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2358.png",
             },
             {
               id: "2359",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2359.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2359.png",
             },
             {
               id: "2360",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2360.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2360.png",
             },
             {
               id: "2383",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2383.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2383.png",
             },
             {
               id: "2384",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2384.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2384.png",
             },
             {
               id: "2385",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2385.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2385.png",
             },
             {
               id: "2437",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2437.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2437.png",
             },
             {
               id: "2438",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2438.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2438.png",
             },
             {
               id: "2466",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2466.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2466.png",
             },
             {
               id: "2467",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2467.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2467.png",
             },
             {
               id: "2506",
@@ -3124,17 +3135,17 @@ const allRareRecruitCharactersList = [
             {
               id: "2553",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2553.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2553.png",
             },
             {
               id: "2554",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2554.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2554.png",
             },
             {
               id: "2555",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2555.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2555.png",
             },
             {
               id: "2579",
@@ -3171,17 +3182,17 @@ const allRareRecruitCharactersList = [
             {
               id: "2725",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2725.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2725.png",
             },
             {
               id: "2726",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2726.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2726.png",
             },
             {
               id: "2727",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2727.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2727.png",
             },
             {
               id: "2759",
@@ -3238,87 +3249,87 @@ const allRareRecruitCharactersList = [
             {
               id: "2910",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2910.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2910.png",
             },
             {
               id: "2911",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2911.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2911.png",
             },
             {
               id: "2912",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2912.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2912.png",
             },
             {
               id: "2992",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2992.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2992.png",
             },
             {
               id: "2993",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2993.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2993.png",
             },
             {
               id: "2994",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2994.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f2994.png",
             },
             {
               id: "3019",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3019.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3019.png",
             },
             {
               id: "3020",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3020.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3020.png",
             },
             {
               id: "3021",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3021.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3021.png",
             },
             {
               id: "3057",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3057.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3057.png",
             },
             {
               id: "3059",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3059.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3059.png",
             },
             {
               id: "3087",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3087.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3087.png",
             },
             {
               id: "3088",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3088.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3088.png",
             },
             {
               id: "3089",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3089.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3089.png",
             },
             {
               id: "3112",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3112.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3112.png",
             },
             {
               id: "3113",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3113.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3113.png",
             },
             {
               id: "3114",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3114.png",
+                "https://onepiecetreasurecruise.fr/img/characters/tm_lrr/f3114.png",
             },
             {
               id: "3146",
@@ -3479,7 +3490,7 @@ const allRareRecruitCharactersList = [
             {
               id: "2853",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2853.png",
+                "https://onepiecetreasurecruise.fr/img/characters/kizuna_lrr/f2853.png",
             },
             {
               id: "2887",
@@ -3496,27 +3507,27 @@ const allRareRecruitCharactersList = [
             {
               id: "2996",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2996.png",
+                "https://onepiecetreasurecruise.fr/img/characters/kizuna_lrr/f2996.png",
             },
             {
               id: "2997",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2997.png",
+                "https://onepiecetreasurecruise.fr/img/characters/kizuna_lrr/f2997.png",
             },
             {
               id: "2998",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2998.png",
+                "https://onepiecetreasurecruise.fr/img/characters/kizuna_lrr/f2998.png",
             },
             {
               id: "3118",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3120.png",
+                "https://onepiecetreasurecruise.fr/img/characters/kizuna_lrr/f3120.png",
             },
             {
               id: "3119",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3121.png",
+                "https://onepiecetreasurecruise.fr/img/characters/kizuna_lrr/f3121.png",
             },
             {
               id: "3153",
@@ -3626,6 +3637,10 @@ const allRareRecruitCharactersList = [
               id: "3569",
               imgUrl: "https://i.imgur.com/biZXhGL.png",
             },
+            {
+              id: "3591",
+              imgUrl: "https://i.imgur.com/OP0T3iL.png",
+            },
           ],
         ],
       },
@@ -3637,62 +3652,62 @@ const allRareRecruitCharactersList = [
             {
               id: "2931",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2931.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f2931.png",
             },
             {
               id: "2932",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2932.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f2932.png",
             },
             {
               id: "2933",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2933.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f2933.png",
             },
             {
               id: "2978",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2978.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f2978.png",
             },
             {
               id: "3000",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3000.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3000.png",
             },
             {
               id: "3025",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3025.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3025.png",
             },
             {
               id: "3061",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3061.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3061.png",
             },
             {
               id: "3062",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3062.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3062.png",
             },
             {
               id: "3063",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3063.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3063.png",
             },
             {
               id: "3095",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3095.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3095.png",
             },
             {
               id: "3096",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3096.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3096.png",
             },
             {
               id: "3125",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3125.png",
+                "https://onepiecetreasurecruise.fr/img/characters/pvp/f3125.png",
             },
             {
               id: "3163",
@@ -3764,11 +3779,11 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3566",
-              imgUrl: "https://i.imgur.com/0rGwwFh.png",
+              imgUrl: "https://i.imgur.com/QhpGnUo.png",
             },
             {
               id: "3583",
-              imgUrl: "https://i.imgur.com/tTMrsKp.png",
+              imgUrl: "https://i.imgur.com/xf6SSbZ.png",
             },
 
           ],
@@ -3782,47 +3797,47 @@ const allRareRecruitCharactersList = [
             {
               id: "2388",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2388.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2388.png",
             },
             {
               id: "2389",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2389.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2389.png",
             },
             {
               id: "2390",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2390.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2390.png",
             },
             {
               id: "2391",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2391.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2391.png",
             },
             {
               id: "2392",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2392.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2392.png",
             },
             {
               id: "2435",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2435.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2435.png",
             },
             {
               id: "2436",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2436.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2436.png",
             },
             {
               id: "2460",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2460.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2460.png",
             },
             {
               id: "2461",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2461.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f2461.png",
             },
             {
               id: "2501",
@@ -3887,7 +3902,7 @@ const allRareRecruitCharactersList = [
             {
               id: "5053",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f5053.png",
+                "https://onepiecetreasurecruise.fr/img/characters/support/f5053.png",
             },
             {
               id: "3465",
@@ -3927,27 +3942,27 @@ const allRareRecruitCharactersList = [
             {
               id: "0075",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0075.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0075.png",
             },
             {
               id: "0077",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0077.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0077.png",
             },
             {
               id: "0210",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0210.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0210.png",
             },
             {
               id: "0217",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0217.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0217.png",
             },
             {
               id: "0219",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0219.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0219.png",
             },
             {
               id: "0221",
@@ -3956,12 +3971,12 @@ const allRareRecruitCharactersList = [
             {
               id: "0223",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0223.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0223.png",
             },
             {
               id: "0225",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0225.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0225.png",
             },
           ],
         ],
@@ -3974,42 +3989,42 @@ const allRareRecruitCharactersList = [
             {
               id: "0500",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0500.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0500.png",
             },
             {
               id: "0502",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0502.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0502.png",
             },
             {
               id: "0504",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0504.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0504.png",
             },
             {
               id: "0506",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0506.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0506.png",
             },
             {
               id: "0508",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0508.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0508.png",
             },
             {
               id: "0586",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0586.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0586.png",
             },
             {
               id: "0588",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0588.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0588.png",
             },
             {
               id: "0590",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0590.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0590.png",
             },
             {
               id: "0785",
@@ -4042,77 +4057,77 @@ const allRareRecruitCharactersList = [
             {
               id: "0251",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0251.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0251.png",
             },
             {
               id: "0253",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0253.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0253.png",
             },
             {
               id: "0255",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0255.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0255.png",
             },
             {
               id: "0257",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0257.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0257.png",
             },
             {
               id: "0259",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0259.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0259.png",
             },
             {
               id: "0449",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0449.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0449.png",
             },
             {
               id: "0451",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0451.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0451.png",
             },
             {
               id: "0453",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0453.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0453.png",
             },
             {
               id: "0455",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0455.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0455.png",
             },
             {
               id: "0457",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0457.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0457.png",
             },
             {
               id: "0639",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0639.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0639.png",
             },
             {
               id: "0641",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0641.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0641.png",
             },
             {
               id: "0643",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0643.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0643.png",
             },
             {
               id: "0645",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0645.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0645.png",
             },
             {
               id: "0647",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0647.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0647.png",
             },
             {
               id: "1182",
@@ -4145,52 +4160,52 @@ const allRareRecruitCharactersList = [
             {
               id: "0308",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0308.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0308.png",
             },
             {
               id: "0310",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0310.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0310.png",
             },
             {
               id: "0312",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0312.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0312.png",
             },
             {
               id: "0314",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0314.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0314.png",
             },
             {
               id: "0316",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0316.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0316.png",
             },
             {
               id: "0357",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0357.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0357.png",
             },
             {
               id: "0359",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0359.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0359.png",
             },
             {
               id: "0361",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0361.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0361.png",
             },
             {
               id: "0363",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0363.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0363.png",
             },
             {
               id: "0365",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0365.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0365.png",
             },
           ],
           [
@@ -4217,17 +4232,17 @@ const allRareRecruitCharactersList = [
             {
               id: "0410",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0410.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0410.png",
             },
             {
               id: "0412",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0412.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0412.png",
             },
             {
               id: "0414",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0414.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0414.png",
             },
           ],
         ],
@@ -4240,22 +4255,22 @@ const allRareRecruitCharactersList = [
             {
               id: "0671",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0671.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0671.png",
             },
             {
               id: "0673",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0673.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0673.png",
             },
             {
               id: "0675",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0675.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0675.png",
             },
             {
               id: "0677",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0677.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0677.png",
             },
           ],
           [
@@ -4292,32 +4307,32 @@ const allRareRecruitCharactersList = [
             {
               id: "0750",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0750.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0750.png",
             },
             {
               id: "0752",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0752.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0752.png",
             },
             {
               id: "0754",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0754.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0754.png",
             },
             {
               id: "0756",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0756.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0756.png",
             },
             {
               id: "0758",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0758.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0758.png",
             },
             {
               id: "0760",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0760.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0760.png",
             },
           ],
           [
@@ -4340,77 +4355,77 @@ const allRareRecruitCharactersList = [
             {
               id: "0838",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0838.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0838.png",
             },
             {
               id: "0840",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0840.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0840.png",
             },
             {
               id: "0842",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0842.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0842.png",
             },
             {
               id: "0844",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0844.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0844.png",
             },
             {
               id: "0846",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0846.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0846.png",
             },
             {
               id: "0872",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0872.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0872.png",
             },
             {
               id: "0874",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0874.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0874.png",
             },
             {
               id: "0876",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0876.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0876.png",
             },
             {
               id: "0878",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0878.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0878.png",
             },
             {
               id: "0880",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0880.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0880.png",
             },
             {
               id: "0991",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0991.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0991.png",
             },
             {
               id: "0993",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0993.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0993.png",
             },
             {
               id: "0995",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0995.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0995.png",
             },
             {
               id: "0997",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0997.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0997.png",
             },
             {
               id: "0999",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0999.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0999.png",
             },
           ],
         ],
@@ -4423,27 +4438,27 @@ const allRareRecruitCharactersList = [
             {
               id: "0906",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0906.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0906.png",
             },
             {
               id: "0908",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0908.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0908.png",
             },
             {
               id: "0910",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0910.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0910.png",
             },
             {
               id: "0912",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0912.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0912.png",
             },
             {
               id: "0914",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0914.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0914.png",
             },
             {
               id: "0937",
@@ -4472,77 +4487,77 @@ const allRareRecruitCharactersList = [
             {
               id: "1025",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1025.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1025.png",
             },
             {
               id: "1027",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1027.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1027.png",
             },
             {
               id: "1029",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1029.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1029.png",
             },
             {
               id: "1031",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1031.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1031.png",
             },
             {
               id: "1033",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1033.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1033.png",
             },
             {
               id: "1075",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1075.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1075.png",
             },
             {
               id: "1077",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1077.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1077.png",
             },
             {
               id: "1079",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1079.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1079.png",
             },
             {
               id: "1081",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1081.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1081.png",
             },
             {
               id: "1083",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1083.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1083.png",
             },
             {
               id: "1125",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1125.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1125.png",
             },
             {
               id: "1127",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1127.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1127.png",
             },
             {
               id: "1129",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1129.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1129.png",
             },
             {
               id: "1131",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1131.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1131.png",
             },
             {
               id: "1133",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1133.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1133.png",
             },
           ],
         ],
@@ -4599,52 +4614,52 @@ const allRareRecruitCharactersList = [
             {
               id: "1230",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1230.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1230.png",
             },
             {
               id: "1232",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1232.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1232.png",
             },
             {
               id: "1234",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1234.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1234.png",
             },
             {
               id: "1236",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1236.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1236.png",
             },
             {
               id: "1238",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1238.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1238.png",
             },
             {
               id: "1316",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1316.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1316.png",
             },
             {
               id: "1318",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1318.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1318.png",
             },
             {
               id: "1320",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1320.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1320.png",
             },
             {
               id: "1322",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1322.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1322.png",
             },
             {
               id: "1324",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1324.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1324.png",
             },
           ],
         ],
@@ -4657,27 +4672,27 @@ const allRareRecruitCharactersList = [
             {
               id: "1270",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1270.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1270.png",
             },
             {
               id: "1272",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1272.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1272.png",
             },
             {
               id: "1274",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1274.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1274.png",
             },
             {
               id: "1276",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1276.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1276.png",
             },
             {
               id: "1278",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1278.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1278.png",
             },
           ],
           [
@@ -4718,22 +4733,22 @@ const allRareRecruitCharactersList = [
             {
               id: "1406",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1406.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1406.png",
             },
             {
               id: "1408",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1408.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1408.png",
             },
             {
               id: "1410",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1410.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1410.png",
             },
             {
               id: "1412",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1412.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1412.png",
             },
           ],
         ],
@@ -4746,77 +4761,77 @@ const allRareRecruitCharactersList = [
             {
               id: "1436",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1436.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1436.png",
             },
             {
               id: "1438",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1438.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1438.png",
             },
             {
               id: "1440",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1440.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1440.png",
             },
             {
               id: "1442",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1442.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1442.png",
             },
             {
               id: "1444",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1444.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1444.png",
             },
             {
               id: "1475",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1475.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1475.png",
             },
             {
               id: "1477",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1477.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1477.png",
             },
             {
               id: "1479",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1479.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1479.png",
             },
             {
               id: "1481",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1481.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1481.png",
             },
             {
               id: "1483",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1483.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1483.png",
             },
             {
               id: "2267",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2267.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2267.png",
             },
             {
               id: "2269",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2269.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2269.png",
             },
             {
               id: "2271",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2271.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2271.png",
             },
             {
               id: "2273",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2273.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2273.png",
             },
             {
               id: "2275",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2275.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2275.png",
             },
           ],
         ],
@@ -4829,47 +4844,47 @@ const allRareRecruitCharactersList = [
             {
               id: "1534",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1534.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1534.png",
             },
             {
               id: "1536",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1536.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1536.png",
             },
             {
               id: "1538",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1538.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1538.png",
             },
             {
               id: "1540",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1540.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1540.png",
             },
             {
               id: "1542",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1542.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1542.png",
             },
             {
               id: "1741",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1741.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1741.png",
             },
             {
               id: "1743",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1743.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1743.png",
             },
             {
               id: "1745",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1745.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1745.png",
             },
             {
               id: "1749",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1749.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1749.png",
             },
           ],
         ],
@@ -4882,42 +4897,42 @@ const allRareRecruitCharactersList = [
             {
               id: "1573",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1573.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1573.png",
             },
             {
               id: "1575",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1575.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1575.png",
             },
             {
               id: "1577",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1577.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1577.png",
             },
             {
               id: "1579",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1579.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1579.png",
             },
             {
               id: "1654",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1654.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1654.png",
             },
             {
               id: "1656",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1656.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1656.png",
             },
             {
               id: "1658",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1658.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1658.png",
             },
             {
               id: "1660",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1660.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1660.png",
             },
           ],
         ],
@@ -4930,22 +4945,22 @@ const allRareRecruitCharactersList = [
             {
               id: "1612",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1612.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1612.png",
             },
             {
               id: "1614",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1614.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1614.png",
             },
             {
               id: "1616",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1616.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1616.png",
             },
             {
               id: "1618",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1618.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1618.png",
             },
           ],
         ],
@@ -4958,49 +4973,49 @@ const allRareRecruitCharactersList = [
             {
               id: "1682",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1682.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1682.png",
             },
             {
               id: "1684",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1684.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1684.png",
             },
             {
               id: "1686",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1686.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1686.png",
             },
             {
               id: "1688",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1688.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1688.png",
             },
           ],
           [
             {
               id: "1753",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1753.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1753.png",
             },
             {
               id: "1755",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1755.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1755.png",
             },
             {
               id: "1757",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1757.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1757.png",
             },
             {
               id: "1759",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1759.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1759.png",
             },
             {
               id: "1761",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1761.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1761.png",
             },
           ],
         ],
@@ -5013,22 +5028,22 @@ const allRareRecruitCharactersList = [
             {
               id: "1700",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1700.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1700.png",
             },
             {
               id: "1702",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1702.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1702.png",
             },
             {
               id: "1704",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1704.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1704.png",
             },
             {
               id: "1706",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1706.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1706.png",
             },
           ],
         ],
@@ -5041,22 +5056,22 @@ const allRareRecruitCharactersList = [
             {
               id: "1796",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1796.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1796.png",
             },
             {
               id: "1798",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1798.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1798.png",
             },
             {
               id: "1800",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1800.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1800.png",
             },
             {
               id: "1802",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1802.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1802.png",
             },
           ],
           [
@@ -5069,44 +5084,44 @@ const allRareRecruitCharactersList = [
             {
               id: "1902",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1902.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1902.png",
             },
             {
               id: "1904",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1904.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1904.png",
             },
             {
               id: "1906",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1906.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1906.png",
             },
             {
               id: "1908",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1908.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1908.png",
             },
           ],
           [
             {
               id: "2420",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2420.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2420.png",
             },
             {
               id: "2422",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2422.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2422.png",
             },
             {
               id: "2424",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2424.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2424.png",
             },
             {
               id: "2426",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2426.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2426.png",
             },
           ],
         ],
@@ -5125,88 +5140,88 @@ const allRareRecruitCharactersList = [
             {
               id: "1834",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1834.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1834.png",
             },
             {
               id: "1836",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1836.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1836.png",
             },
             {
               id: "1838",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1838.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1838.png",
             },
             {
               id: "1840",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1840.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1840.png",
             },
           ],
           [
             {
               id: "2139",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2139.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2139.png",
             },
             {
               id: "2140",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2140.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2140.png",
             },
             {
               id: "2141",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2141.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2141.png",
             },
             {
               id: "2142",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2142.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2142.png",
             },
           ],
           [
             {
               id: "2447",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2447.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2447.png",
             },
             {
               id: "2449",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2449.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2449.png",
             },
             {
               id: "2451",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2451.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2451.png",
             },
             {
               id: "2453",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2453.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2453.png",
             },
           ],
           [
             {
               id: "2448",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2448.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2448.png",
             },
             {
               id: "2450",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2450.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2450.png",
             },
             {
               id: "2452",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2452.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2452.png",
             },
             {
               id: "2454",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2454.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2454.png",
             },
           ],
         ],
@@ -5219,22 +5234,22 @@ const allRareRecruitCharactersList = [
             {
               id: "1953",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1953.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1953.png",
             },
             {
               id: "1955",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1955.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1955.png",
             },
             {
               id: "1957",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1957.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1957.png",
             },
             {
               id: "1959",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1959.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1959.png",
             },
           ],
           [
@@ -5251,17 +5266,17 @@ const allRareRecruitCharactersList = [
             {
               id: "3040",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3040.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3040.png",
             },
             {
               id: "3042",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3042.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3042.png",
             },
             {
               id: "3044",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3044.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3044.png",
             },
           ],
           [
@@ -5294,56 +5309,56 @@ const allRareRecruitCharactersList = [
             {
               id: "2072",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2072.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2072.png",
             },
             {
               id: "2078",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2078.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2078.png",
             },
             {
               id: "2080",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2080.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2080.png",
             },
             {
               id: "2082",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2082.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2082.png",
             },
           ],
           [
             {
               id: "2304",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2304.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2304.png",
             },
             {
               id: "2306",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2306.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2306.png",
             },
             {
               id: "2308",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2308.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2308.png",
             },
             {
               id: "2310",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2310.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2310.png",
             },
           ],
           [
             {
               id: "3067",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3067.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3067.png",
             },
             {
               id: "3069",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3069.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3069.png",
             },
           ],
         ],
@@ -5438,61 +5453,61 @@ const allRareRecruitCharactersList = [
             {
               id: "1987",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1987.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1987.png",
             },
             {
               id: "1989",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1989.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1989.png",
             },
             {
               id: "1991",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1991.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1991.png",
             },
             {
               id: "1993",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1993.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1993.png",
             },
           ],
           [
             {
               id: "2027",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2027.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2027.png",
             },
             {
               id: "2029",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2029.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2029.png",
             },
             {
               id: "2031",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2031.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2031.png",
             },
           ],
           [
             {
               id: "2183",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2183.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2183.png",
             },
             {
               id: "2185",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2185.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2185.png",
             },
             {
               id: "2187",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2187.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2187.png",
             },
             {
               id: "2189",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2189.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2189.png",
             },
           ],
           [
@@ -5523,22 +5538,22 @@ const allRareRecruitCharactersList = [
             {
               id: "2479",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2479.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2479.png",
             },
             {
               id: "2481",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2481.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2481.png",
             },
             {
               id: "2483",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2483.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2483.png",
             },
             {
               id: "2485",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2485.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2485.png",
             },
           ],
         ],
@@ -5551,22 +5566,22 @@ const allRareRecruitCharactersList = [
             {
               id: "2538",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2538.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2538.png",
             },
             {
               id: "2540",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2540.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2540.png",
             },
             {
               id: "2542",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2542.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2542.png",
             },
             {
               id: "2544",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2544.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2544.png",
             },
           ],
         ],
@@ -5579,105 +5594,105 @@ const allRareRecruitCharactersList = [
             {
               id: "2115",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2115.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2115.png",
             },
             {
               id: "2117",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2117.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2117.png",
             },
             {
               id: "2119",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2119.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2119.png",
             },
             {
               id: "2121",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2121.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2121.png",
             },
           ],
           [
             {
               id: "2150",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2150.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2150.png",
             },
             {
               id: "2152",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2152.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2152.png",
             },
             {
               id: "2154",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2154.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2154.png",
             },
             {
               id: "2156",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2156.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2156.png",
             },
           ],
           [
             {
               id: "2238",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2238.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2238.png",
             },
             {
               id: "2240",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2240.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2240.png",
             },
             {
               id: "2242",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2242.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2242.png",
             },
             {
               id: "2244",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2244.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2244.png",
             },
           ],
           [
             {
               id: "2340",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2340.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2340.png",
             },
             {
               id: "2342",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2342.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2342.png",
             },
             {
               id: "2344",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2344.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2344.png",
             },
             {
               id: "2346",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2346.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2346.png",
             },
           ],
           [
             {
               id: "2367",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2367.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2367.png",
             },
             {
               id: "2369",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2369.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2369.png",
             },
             {
               id: "2371",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2371.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2371.png",
             },
           ],
         ],
@@ -5690,46 +5705,46 @@ const allRareRecruitCharactersList = [
             {
               id: "2702",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2702.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2702.png",
             },
             {
               id: "2704",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2704.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2704.png",
             },
             {
               id: "2706",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2706.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2706.png",
             },
           ],
           [
             {
               id: "2984",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2984.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2984.png",
             },
             {
               id: "2986",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2986.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2986.png",
             },
           ],
           [
             {
               id: "3133",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3137.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3137.png",
             },
             {
               id: "3139",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3139.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3139.png",
             },
             {
               id: "3137",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3141.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3141.png",
             },
           ],
           [
@@ -5780,12 +5795,12 @@ const allRareRecruitCharactersList = [
             {
               id: "3104",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3104.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3104.png",
             },
             {
               id: "3106",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3106.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3106.png",
             },
           ],
         ],
@@ -5842,22 +5857,22 @@ const allRareRecruitCharactersList = [
             {
               id: "2966",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2966.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2966.png",
             },
             {
               id: "2968",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2968.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2968.png",
             },
             {
               id: "2970",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2970.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2970.png",
             },
             {
               id: "2972",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2972.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2972.png",
             },
           ],
         ],
@@ -5870,17 +5885,17 @@ const allRareRecruitCharactersList = [
             {
               id: "3006",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3011.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3011.png",
             },
             {
               id: "3008",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3013.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3013.png",
             },
             {
               id: "3010",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3015.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3015.png",
             },
           ],
           [
@@ -5975,22 +5990,22 @@ const allRareRecruitCharactersList = [
             {
               id: "3179",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3179.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3179.png",
             },
             {
               id: "3181",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3181.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3181.png",
             },
             {
               id: "3183",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3183.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3183.png",
             },
             {
               id: "3185",
               imgUrl:
-                "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3185.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3185.png",
             },
           ],
           [

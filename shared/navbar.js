@@ -35,18 +35,13 @@ function getNavbar(level = 0) {
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle waves-effect waves-light"
               data-toggle="dropdown" id="navbarDropdownMenuLink">Guides</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-              <a id="menu-sub-element-guides__how" class="dropdown-item waves-effect waves-light" href="${path}Coulisses.html">Comment les guides sont-ils rédigés
-                ?</a>
+              <a id="menu-sub-element-guides__grand_voyage" class="dropdown-item waves-effect waves-light" href="${path}GrandVoyage.html">Grand Voyage</a>
               <a id="menu-sub-element-guides__raids" class="dropdown-item waves-effect waves-light" href="${path}Raid.html">Combats cruciaux</a>
               <a id="menu-sub-element-guides__colos" class="dropdown-item waves-effect waves-light" href="${path}Colisee.html">Colisées</a>
               <a id="menu-sub-element-guides__arenas" class="dropdown-item waves-effect waves-light" href="${path}Arene.html">Arènes</a>
               <a id="menu-sub-element-guides__ambushes" class="dropdown-item waves-effect waves-light" href="${path}Invasion.html">Attaques ennemies</a>
               <a id="menu-sub-element-guides__fn" class="dropdown-item waves-effect waves-light" href="${path}Fortnight.html">Quêtes permanentes</a>
               <a id="menu-sub-element-guides__special" class="dropdown-item waves-effect waves-light" href="${path}Special.html">Évènements spéciaux</a>
-              <a id="menu-sub-element-guides__next-tm" class="dropdown-item waves-effect waves-light"
-                href="${path}Carte_aux_tresors/Prochaine_carte_aux_tresors.html">Prochaine Carte aux trésors</a>
-              <a id="menu-sub-element-guides__next-kizuna" class="dropdown-item waves-effect waves-light"
-                href="${path}Kizuna/Prochain_Kizuna.html">Prochain combat de l'amitié</a>
               <a id="menu-sub-element-guides__story" class="dropdown-item waves-effect waves-light" href="${path}Histoire.html">Histoire principale</a>
               <a id="menu-sub-element-guides__forests" class="dropdown-item waves-effect waves-light" href="${path}Foret.html">Forêts d'entraînement</a>
               <a id="menu-sub-element-guides__gc" class="dropdown-item waves-effect waves-light" href="${path}Defi_de_Garp.html">Défi de Garp</a>
@@ -69,16 +64,16 @@ function getNavbar(level = 0) {
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
               id="navbarDropdownMenuLink">Aide</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-            <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Bien%20debuter.html">Bien débuter</a>
-            <a id="menu-sub-element-beginner__begin" class="dropdown-item waves-effect waves-light" href="${path}Bateau/">Liste des bateaux</a>
-              <a id="menu-sub-element-beginner__cm" class="dropdown-item waves-effect waves-light"
-                href="${path}Debutant/Souhaits%20de%20Chopper%20Man.html">Souhaits de Chopper Man</a>
+              <a id="menu-sub-element-beginner__supports" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Soutien.html">Effets de soutien spécifiques</a>
+              <a id="menu-sub-element-beginner__lvl-lb" class="dropdown-item waves-effect waves-light"
+                href="${path}Debutant/Level_Limit_Break.html">Level Limit Break</a>
               <a id="menu-sub-element-beginner__lb-plus" class="dropdown-item waves-effect waves-light"
                 href="${path}Debutant/Extension%20du%20depassement%20de%20limites.html">Extension du dépassement de limites</a>
-              <a id="menu-sub-element-beginner__supports" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Soutien.html">Effets de soutien
-                spécifiques</a>
-              <a id="menu-sub-element-beginner__island" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Ile%20des%20collectionneurs.html">Île des collectionneurs</a>
+              <a id="menu-sub-element-beginner__cm" class="dropdown-item waves-effect waves-light"
+                href="${path}Debutant/Souhaits%20de%20Chopper%20Man.html">Souhaits de Chopper Man</a>
               <a id="menu-sub-element-beginner__tl" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Tier%20List.html">Tier Lists</a>
+              <a id="menu-sub-element-beginner__island" class="dropdown-item waves-effect waves-light" href="${path}Debutant/Ile%20des%20collectionneurs.html">Île des collectionneurs</a>
+              <a id="menu-sub-element-beginner__ships" class="dropdown-item waves-effect waves-light" href="${path}Bateau/index.html">Liste des bateaux</a>
             </div>
           </li>
           <li id="menu-element-progress" class="nav-item dropdown">
@@ -117,27 +112,8 @@ function getNavbar(level = 0) {
               <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
             </div>
           </li>
-          <li id="menu-element-thanks" class="nav-item dropdown">
-            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-              id="navbarDropdownMenuLink">Remerciements</a>
-            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-              <a id="menu-sub-element-thanks__thanks" class="dropdown-item" href="${path}Remerciements.html">Remerciements</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCaEa5qxzArxzhHs47zaoRyQ"
-                target="_blank">Chaîne de Timinou</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCP7bjlRx5f1o3CDlHnPc1_g"
-                target="_blank">Chaîne de D. coza</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCe09wTyZiAoK_Hjuw2suKsQ"
-                target="_blank">Chaîne de Towercorner</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCHl23TwRnU_uE4vin8mAbBw"
-                target="_blank">Chaîne de Kaku OPTC</a>
-              <a class="dropdown-item" href="https://www.youtube.com/user/Scaragnark9" target="_blank">Chaîne de
-                Scaragnark</a>
-              <a class="dropdown-item" href="https://www.youtube.com/user/basibidi" target="_blank">Chaîne de Basibidi</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCxv6PfhXPez_1bMzogzvxxw"
-                target="_blank">Chaîne de SkyTrick</a>
-              <a class="dropdown-item" href="https://www.youtube.com/channel/UCd1kIjGDgkd2xPTSShUZniQ"
-                target="_blank">Chaîne de B-Bro</a>
-            </div>
+          <li id="menu-element-thanks" class="nav-item">
+            <a class="nav-link" href="${path}Remerciements.html">Remerciements</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
