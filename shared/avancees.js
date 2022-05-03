@@ -23,12 +23,6 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         imgUrl:
           "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fA.png",
       },
-      characterMaxLevel: {
-        pictureUrl: "https://imgur.com/QsXQ2kL.png",
-        id: "MAX",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fMAX.png",
-      },
       characterMaxSpecial: {
         pictureUrl: "https://imgur.com/76MHSCn.png",
         id: "SKILL",
@@ -41,23 +35,11 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         imgUrl:
           "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fSOCKET.png",
       },
-      characterIconMaxCCHP: {
-        pictureUrl: "https://i.imgur.com/pqdrdu0.png",
-        id: "HP",
+      characterIconMaxCC: {
+        pictureUrl: "https://i.imgur.com/GhoX8pM.png",
+        id: "CC",
         imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fHP.png",
-      },
-      characterIconMaxCCATK: {
-        pictureUrl: "https://i.imgur.com/UAK0erl.png",
-        id: "ATK",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fATK.png",
-      },
-      characterIconMaxCCRCV: {
-        pictureUrl: "https://i.imgur.com/3rglFwY.png",
-        id: "RCV",
-        imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fRCV.png",
+          "https://i.imgur.com/GhoX8pM.png",
       },
       characterIconMaxLB: {
         pictureUrl: "https://imgur.com/LNddvdE.png",
@@ -71,11 +53,11 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         imgUrl:
           "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fPOT.png",
       },
-      characterIconMaxSupport: {
-        pictureUrl: "https://imgur.com/g8Fdgu6.png",
-        id: "ES",
+      characterIconKeyLvlLB: {
+        pictureUrl: "https://imgur.com/QsXQ2kL.png",
+        id: "LVLLB",
         imgUrl:
-          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fES.png",
+          "https://imgur.com/QsXQ2kL.png",
       },
       characterIconKeyLB: {
         pictureUrl: keyLbPictureUrl,
@@ -83,11 +65,15 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         imgUrl:
           "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fKEY.png",
       },
+      characterIconMaxSupport: {
+        pictureUrl: "https://imgur.com/g8Fdgu6.png",
+        id: "ES",
+        imgUrl:
+          "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fES.png",
+      },
     };
 
     Object.keys(characterElements).forEach((key) => {
-
-      console.log('character.hasLb', character.hasLb)
 
       const displayIcon = (key !== "characterIconKeyLB" && key !== "characterIconMaxSupport" && key !== "characterIconMaxLB" && key !== "characterIconRainbow") ||
         (key === "characterIconKeyLB" && character.hasKeyLb) ||
