@@ -81,7 +81,13 @@
       src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
     ></script>
     <script src="shared/analytics.js"></script>
+
+    <script
+      src="https://rawcdn.githack.com/thomasloven/round-slider/master/round-slider.bundle.js"
+      type="module"
+    ></script>
   </head>
+
   <body id="NO-COLOR" class="raidlist">
     <div class="entete">
       <img class="entetefond" src="https://i.imgur.com/adWoClY.png" />
@@ -172,6 +178,29 @@
       );
 
       generateAvanceeList(legendsList, "legends");
+    </script>
+    <script>
+      document.querySelectorAll("round-slider").forEach(function (el) {
+        el.addEventListener("value-changed", function (ev) {
+          if (ev.detail.value !== undefined) {
+            el.parentNode.querySelector(".slider-value").textContent =
+              ev.detail.value;
+
+            if (ev.detail.value > 1) {
+              el.parentNode.classList = "slider-element";
+            } else {
+              el.parentNode.classList = "slider-element disabled";
+            }
+          }
+        });
+
+        el.addEventListener("value-changing", function (ev) {
+          if (ev.detail.value !== undefined) {
+            el.parentNode.querySelector(".slider-value").textContent =
+              ev.detail.value;
+          }
+        });
+      });
     </script>
   </body>
 </html>
