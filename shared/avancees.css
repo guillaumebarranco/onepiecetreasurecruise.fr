@@ -83,3 +83,31 @@ h2 {
   margin-left: 20px;
   text-align: left;
 }
+
+round-slider {
+  max-width: 70px;
+  transition: all 1.3s ease-out 0s;
+}
+
+round-slider.scaling:hover {
+  max-width: 400px;
+}
+
+.slider-element {
+  position: relative;
+  width: 70px;
+  background-image: url('https://i.imgur.com/AwtGfag.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider-element.disabled {
+  background-image: url('https://i.imgur.com/nZLvPPm.png');
+}
+
+.slider-value {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  font-size: 25px;
+}

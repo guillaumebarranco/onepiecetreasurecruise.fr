@@ -53,12 +53,6 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         imgUrl:
           "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fPOT.png",
       },
-      characterIconKeyLvlLB: {
-        pictureUrl: "https://imgur.com/QsXQ2kL.png",
-        id: "LVLLB",
-        imgUrl:
-          "https://imgur.com/QsXQ2kL.png",
-      },
       characterIconKeyLB: {
         pictureUrl: keyLbPictureUrl,
         id: "KEY",
@@ -71,6 +65,12 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         imgUrl:
           "https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/fES.png",
       },
+      characterIconLvlLB: {
+        pictureUrl: "https://imgur.com/QsXQ2kL.png",
+        id: "LVLLB",
+        imgUrl:
+          "https://imgur.com/QsXQ2kL.png",
+      },
     };
 
     Object.keys(characterElements).forEach((key) => {
@@ -81,6 +81,25 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         (key === "characterIconRainbow" && character.hasLb) ||
         (key === "characterIconMaxSupport" && character.hasSupport)
       ;
+
+      // if(key === 'characterIconLvlLB') {
+      //   const characterSliderContainerElement = document.createElement("div");
+      //   characterSliderContainerElement.classList = "slider-element disabled";
+
+      //   const characterSliderElement = document.createElement("round-slider");
+      //   characterSliderElement.min = 0;
+      //   characterSliderElement.max = 9;
+      //   characterSliderElement.value = 0;
+
+      //   const characterSliderValueElement = document.createElement("div");
+      //   characterSliderValueElement.textContent = "0";
+      //   characterSliderValueElement.className = "slider-value";
+
+      //   characterSliderContainerElement.appendChild(characterSliderElement);
+      //   characterSliderContainerElement.appendChild(characterSliderValueElement);
+      //   characterHtmlElement.appendChild(characterSliderContainerElement);
+
+      // } else
 
       if (displayIcon) {
         const characterSpanElement = document.createElement("span");
