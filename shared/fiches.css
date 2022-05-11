@@ -26,3 +26,23 @@ h2 {
   text-align: center;
   padding: 10px;
 }
+
+.character-artworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-artworks img:first-of-type {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .character-artworks {
+    flex-direction: column;
+  }
+
+  .character-artworks img:first-of-type {
+    margin-right: 0;
+  }
+}
