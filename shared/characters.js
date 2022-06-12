@@ -1009,6 +1009,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/4oASID7.png",
               hasLb: true,
               hasKeyLb: true,
+              isSixPlus: true,
               hasSupport: true,
             },
             {
@@ -1032,6 +1033,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/91bniXM.png",
               hasLb: true,
               hasKeyLb: true,
+              isSixPlus: true,
               hasSupport: true,
             },
             {
@@ -1191,6 +1193,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/fLnDXHw.png",
               hasLb: true,
               hasKeyLb: true,
+              isSixPlus: true,
               hasSupport: true,
             },
             {
@@ -1370,6 +1373,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/82eL2gQ.png",
               hasLb: true,
               hasKeyLb: true,
+              isSixPlus: true,
               hasSupport: true,
             },
             {
@@ -1640,6 +1644,13 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3613",
+              imgUrl: "https://i.imgur.com/makQbBj.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -1723,6 +1734,27 @@ const allRareRecruitCharactersList = [
             {
               id: "3515",
               imgUrl: "https://i.imgur.com/j6eF38C.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "3607",
+              imgUrl: "https://i.imgur.com/uBflseK.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "3609",
+              imgUrl: "https://i.imgur.com/GmpscI6.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "3611",
+              imgUrl: "https://i.imgur.com/JTPB4dt.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
@@ -5883,6 +5915,20 @@ const allRareRecruitCharactersList = [
             {
               id: "3435",
               imgUrl: "https://i.imgur.com/G6oZSJP.png",
+            },
+          ],
+          [
+            {
+              id: "3616",
+              imgUrl: "https://i.imgur.com/NLx5ySA.png",
+            },
+            {
+              id: "3617",
+              imgUrl: "https://i.imgur.com/3LIxGQE.png",
+            },
+            {
+              id: "3618",
+              imgUrl: "https://i.imgur.com/poRwtzo.png",
             },
           ],
         ],

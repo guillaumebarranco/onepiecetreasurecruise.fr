@@ -40,7 +40,6 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-guides__colos" class="dropdown-item waves-effect waves-light" href="${path}Colisee.html">Colisées</a>
               <a id="menu-sub-element-guides__arenas" class="dropdown-item waves-effect waves-light" href="${path}Arene.html">Arènes</a>
               <a id="menu-sub-element-guides__ambushes" class="dropdown-item waves-effect waves-light" href="${path}Invasion.html">Attaques ennemies</a>
-              <a id="menu-sub-element-guides__fn" class="dropdown-item waves-effect waves-light" href="${path}Fortnight.html">Quêtes permanentes</a>
               <a id="menu-sub-element-guides__special" class="dropdown-item waves-effect waves-light" href="${path}Special.html">Évènements spéciaux</a>
               <a id="menu-sub-element-guides__story" class="dropdown-item waves-effect waves-light" href="${path}Histoire.html">Histoire principale</a>
               <a id="menu-sub-element-guides__forests" class="dropdown-item waves-effect waves-light" href="${path}Foret.html">Forêts d'entraînement</a>

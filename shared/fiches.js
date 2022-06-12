@@ -222,3 +222,40 @@ jQuery(function () {
     });
   });
 });
+
+
+document.querySelectorAll('.fiche-choices input').forEach(inputElement => {
+  inputElement.addEventListener('change', () => {
+    const displayLlb = document.querySelector('.fiche-choices input[name="llb"]').checked;
+    const displayLbPlus = document.querySelector('.fiche-choices input[name="lbplus"]').checked;
+
+    let displayValue = "classic-ability";
+
+    if(displayLlb && displayLbPlus) {
+      displayValue = 'llb-lbplus-ability';
+    } else if(displayLlb && !displayLbPlus) {
+      displayValue = 'llb-ability';
+    } else if(displayLbPlus && !displayLlb) {
+      displayValue = 'lbplus-ability';
+    }
+
+    document.querySelectorAll('.classic-ability').forEach(element => {
+      element.style.display = 'none';
+    });
+    document.querySelectorAll('.llb-ability').forEach(element => {
+      element.style.display = 'none';
+    });
+    document.querySelectorAll('.lbplus-ability').forEach(element => {
+      element.style.display = 'none';
+    });
+    document.querySelectorAll('.llb-lbplus-ability').forEach(element => {
+      element.style.display = 'none';
+    });
+
+    console.log('displayValue', displayValue);
+
+    document.querySelectorAll(`.${displayValue}`).forEach(element => {
+      element.style.display = 'table-row';
+    });
+  });
+});

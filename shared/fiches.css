@@ -46,3 +46,18 @@ h2 {
     margin-right: 0;
   }
 }
+
+/* .six-stars {
+  display: none;
+} */
+
+.fiche-choices {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.classic-ability,
+.llb-ability,
+.lbplus-ability {
+  display: none;
+}
