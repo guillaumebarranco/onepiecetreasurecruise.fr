@@ -98,6 +98,17 @@
       </div>
     </div>
 
+    <div class="fiche-choices">
+      <div>
+        <label for="llb">Voir les capacités après le Level Limit Break</label>
+        <input type="checkbox" name="llb" checked>
+      </div>
+      <div>
+        <label for="lbplus">Voir les capacités après le LB+</label>
+        <input type="checkbox" name="lbplus" checked>
+      </div>
+    </div>
+
     <table class="fiche-table">
       <tbody>
         <tr>
@@ -155,26 +166,37 @@
         <tr>
           <td class="centered-td" colspan="2"><b>Abilités</b></td>
         </tr>
-        <tr>
+        <!-- Captain Ability -->
+        <tr class="classic-ability">
           <td>Captain Ability</td>
           <td>Multiplie l'ATK des personnages de classe Sabreur par 3 et multiplie les HP par 1,5.</td>
         </tr>
-        <tr>
-          <td>Special (19→15 puis 14 puis 9)</td>
-          <td>Inflige 120 fois son ATK en dégâts non élémentaires sur tous les ennemis et multiplie l'ATK des
-            personnages de classe Sabreur par 2 pendant un tour si le personnage est capitaine ou capitaine ami,
-            sinon par 1,75 pendant un tour et bloque le multiplicateur de combos à 2,5 pendant un tour.</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>Level Limit Break</b>
-          </td>
-        </tr>
-        <tr>
+        <tr class="llb-ability">
           <td>Captain Ability</td>
           <td>Multiplie l'ATK des personnages de classe Sabreur par 5,25 si un ennemi a été vaincu au tour précédent, sinon par 4,5. Multiplie les HP des personnages de classe Sabreur par 1,5.</td>
         </tr>
-        <tr>
+        <tr class="lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de classe Sabreur par 3 et multiplie les HP par 1,5.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de classe Sabreur par 5,25 si un ennemi a été vaincu au tour précédent, sinon par 4,5. Multiplie les HP des personnages de classe Sabreur par 1,5.</td>
+        </tr>
+        <!-- Special -->
+        <tr class="classic-ability">
+          <td>Special (19→15 puis 14)</td>
+          <td>Inflige 120 fois son ATK en dégâts non élémentaires sur tous les ennemis et multiplie l'ATK des personnages de classe Sabreur par 2 pendant un tour si le personnage est capitaine ou capitaine ami, sinon par 1,75 pendant un tour et bloque le multiplicateur de combos à 2,5 pendant un tour.</td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Special (19→15 puis 14)</td>
+          <td>Inflige 250 fois son ATK en dégâts non élémentaires sur tous les ennemis et multiplie l'ATK des personnages de classe Sabreur par 2,25 pendant 1 tour et bloque le multiplicateur de combos à 3,25 pendant un tour. Si l'équipe a déjà un boost d'ATK, multiplie les effets de type des personnages de classe Sabreur par 2 pendant 1 tour.</td>
+        </tr>
+        <tr class="lbplus-ability">
+          <td>Special (19→15 puis 14 puis 9)</td>
+          <td>Inflige 120 fois son ATK en dégâts non élémentaires sur tous les ennemis et multiplie l'ATK des personnages de classe Sabreur par 2 pendant un tour si le personnage est capitaine ou capitaine ami, sinon par 1,75 pendant un tour et bloque le multiplicateur de combos à 2,5 pendant un tour.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
           <td>Special (19→15 puis 14 puis 9)</td>
           <td>Inflige 250 fois son ATK en dégâts non élémentaires sur tous les ennemis et multiplie l'ATK des personnages de classe Sabreur par 2,25 pendant 1 tour et bloque le multiplicateur de combos à 3,25 pendant un tour. Si l'équipe a déjà un boost d'ATK, multiplie les effets de type des personnages de classe Sabreur par 2 pendant 1 tour.</td>
         </tr>

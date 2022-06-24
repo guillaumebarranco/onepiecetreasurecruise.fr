@@ -252,8 +252,6 @@ document.querySelectorAll('.fiche-choices input').forEach(inputElement => {
       element.style.display = 'none';
     });
 
-    console.log('displayValue', displayValue);
-
     document.querySelectorAll(`.${displayValue}`).forEach(element => {
       element.style.display = 'table-row';
     });

@@ -86,8 +86,21 @@
       Fiche (6★+)
     </h2>
     <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1927.png">
+
+    <img src="https://i.imgur.com/fvKR7ng.png">
+
+    <div class="fiche-choices">
+      <div>
+        <label for="llb">Voir les capacités après le Level Limit Break</label>
+        <input type="checkbox" name="llb" checked>
+      </div>
+      <div>
+        <label for="lbplus">Voir les capacités après le LB+</label>
+        <input type="checkbox" name="lbplus" checked>
+      </div>
+    </div>
+
     <table class="fiche-table">
-        <img src="https://i.imgur.com/fvKR7ng.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -148,20 +161,43 @@
               <b>Abilités</b>
             </td>
           </tr>
-          <tr>
+          <!-- Captain Ability -->
+          <tr class="classic-ability">
             <td>Captain Ability</td>
-            <td>Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br>
-              <small>Par 2 si les HP de l'équipe sont au maximum et par 3,5 s'il ne reste qu'un HP à l'équipe.</small>
-            </td>
+            <td>Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
+              <small>Par 2 si les HP de l'équipe sont au maximum et par 3,5 s'il ne reste qu'un HP à l'équipe.</small></td>
           </tr>
-          <tr>
-            <td>Captain Ability (après l'extension du dépassement de limites)</td>
+          <tr class="llb-ability">
+            <td>Captain Ability</td>
+            <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel d'1 tour au début de la quête. Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
+            <small>Par 4 si les HP de l'équipe sont au maximum et par 5 s'il ne reste qu'un HP à l'équipe.</small></td>
+          </tr>
+          <tr class="lbplus-ability">
+            <td>Captain Ability</td>
             <td>Multiplie l'ATK des personnages de classe Intellectuel par 4 et réduit les dégâts subis de 15%.</td>
           </tr>
-          <tr>
-            <td>Special (21→14 puis 13 puis 10)</td>
-            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.
+          <tr class="llb-lbplus-ability">
+            <td>Captain Ability</td>
+            <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel de 2 tours au début de la quête. Réduit les dégâts subis de 15%. Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
+            <small>Par 4 si les HP de l'équipe sont au maximum et par 5,5 s'il ne reste qu'un HP à l'équipe.</small>
             </td>
+          </tr>
+          <!-- Special -->
+          <tr class="classic-ability">
+            <td>Special (21→14 puis 13)</td>
+            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.</td>
+          </tr>
+          <tr class="llb-ability">
+            <td>Special (21→14 puis 13)</td>
+            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK et les effets de cercles des personnages de classe Intellectuel par 2 pendant 1 tour. Change les cercles ([BLK] inclus) des personnages de la rangée du haut et ceux des personnages de la rangée du bas en cercles correspondants. Si les HP sont inférieurs ou égaux à 50%, bloque le minimum du multiplicateur de combos à 2,5 et le maximum du multiplicateur de combos à 25 pendant 1 tour.</td>
+          </tr>
+          <tr class="lbplus-ability">
+            <td>Special (21→14 puis 13 puis 10)</td>
+            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.</td>
+          </tr>
+          <tr class="llb-lbplus-ability">
+            <td>Special (21→14 puis 13 puis 10)</td>
+            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK et les effets de cercles des personnages de classe Intellectuel par 2 pendant 1 tour. Change les cercles ([BLK] inclus) des personnages de la rangée du haut et ceux des personnages de la rangée du bas en cercles correspondants. Si les HP sont inférieurs ou égaux à 50%, bloque le minimum du multiplicateur de combos à 2,5 et le maximum du multiplicateur de combos à 25 pendant 1 tour.</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -724,7 +760,7 @@
 
           <tr>
             <td colspan="2">
-               <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png"
+               <img
                   >  <img
                   >
             </td>
