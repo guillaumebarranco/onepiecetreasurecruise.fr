@@ -2,111 +2,98 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Luffy et Ace</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="LuffyAce">
-    <h1>
-      <center><u>Luffy et Ace</u></center>
+<body id="QCK-STR">
+    <div id="optcnavbar"></div>
+<h1>
+      Luffy et Ace
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/64r8jZ6rOmQ?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/AeI_1PZPEK4?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1984.png"> <img
         src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1985.png"></center>
     <center><img src="https://i.imgur.com/8ONVLIO.png"> <img src="https://i.imgur.com/6ehQVxn.png"> <img
         src="https://i.imgur.com/3nzIlal.png"> <img src="https://i.imgur.com/RoQy9UZ.png"></center>
-    <table>
-      <table align="center">
-        <caption><img src="https://i.imgur.com/6n27q4y.png"><img src="https://i.imgur.com/PqkNPnP.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/6n27q4y.png"><img src="https://i.imgur.com/PqkNPnP.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -116,21 +103,21 @@
             <td>Histoire</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : Capitaine de l'équipage de Chapeau de paille et petit frère d'Ace. Pour sauver Ace, qu'il n'a
               pourtant jamais réussi à vaincre dans sa jeunesse et par qui il a même été secouru, il choisit de lui-même
               affronter les gigantesques effectifs déployés par la Marine lors de la guerre au sommet.<br>
               <hr>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : Commandant de la 2e flotte de Barbe Blanche et grand frère de Luffy. Alors qu'il s'était résigné à
               mourir sur l'échafaud en tant que fils du démon, il retrouve goût à la vie en voyant ses camarades se
               battre pour le sauver.<br>
               <hr>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : Frères de cœur élevés ensemble au mont Corvo. Bien que leurs parcours de pirates les aient emmenés
               dans des directions différentes, Ace ayant rejoint l'équipage de Barbe Blanche et Luffy ayant fondé son
               propre équipage, les liens qui les unissent restent indestructibles.
@@ -140,22 +127,22 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#4C4CFF">QCK</font> (Monkey D. Luffy) / <font color="#DC241C">STR</font> (Portgas D. Ace)
+                  QCK (Monkey D. Luffy) / STR (Portgas D. Ace)
                 </p><b></td>
           </tr>
           <tr>
             <td>Classe 1</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre<br>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre<br>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre
             </td>
           </tr>
@@ -163,15 +150,15 @@
             <td>Classe 2</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur<br>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : <img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;" /> Tireur<br>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur
             </td>
           </tr>
@@ -196,17 +183,17 @@
             <td>HP</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : 3205 puis 3755 après le dépassement de limites puis 3955 après l'extension du dépassement de
               limites<br>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : 2920 puis 3470 après le dépassement de limites puis 3670 après l'extension du dépassement de
               limites<br>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : 3400 puis 3950 après le dépassement de limites puis 4150 après l'extension du dépassement de
               limites
             </td>
@@ -215,17 +202,17 @@
             <td>ATK</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : 1472 puis 1672 après le dépassement de limites puis 1872 après l'extension du dépassement de
               limites<br>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : 1587 puis 1787 après le dépassement de limites puis 1987 après l'extension du dépassement de
               limites<br>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : 1630 puis 1830 après le dépassement de limites puis 2030 après l'extension du dépassement de
               limites
             </td>
@@ -234,17 +221,17 @@
             <td>RCV</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : 386 puis 446 après le dépassement de limites puis 546 après l'extension du dépassement de
               limites<br>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : 372 puis 432 après le dépassement de limites puis 532 après l'extension du dépassement de
               limites<br>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : 400 puis 460 après le dépassement de limites puis 560 après l'extension du dépassement de limites
             </td>
           </tr>
@@ -257,19 +244,19 @@
             <td>Captain Ability</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : Multiplie l'ATK des personnages de classe Libre par 3, les HP par 1,2 et réduit les dégâts subis de
               15%.<br>
               <hr>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : Multiplie les HP des personnages de classe Libre par 1,2 et multiplie l'ATK des personnages de
               classe Libre par 3,5 s'ils ont un cercle correspondant, sinon par 2,25.<br>
               <hr>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : Multiplie les HP des personnages de classe Libre par 1,2 et multiplie l'ATK des personnages de
               classe Libre par 4,25 s'ils ont un cercle correspondant, sinon par 3, et réduit les dégâts subis de 20%.
             </td>
@@ -284,19 +271,19 @@
             <td>Crewmate Ability 1</td>
             <td>
               <b>
-                <font color="#4C4CFF">Monkey D. Luffy</font>
+                Monkey D. Luffy
               </b> : Rend les cercles <b>
-                <font color="#4C4CFF">[QCK]</font>
+                [QCK]
               </b> avantageux pour les personnages de classe Libre.<br>
               <b>
-                <font color="#DC241C">Portgas D. Ace</font>
+                Portgas D. Ace
               </b> : Rend les cercles <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b> avantageux pour les personnages de classe Libre.<br>
               <b>
-                <font color="#4C4CFF">Luffy</font>
+                Luffy
               </b> <b>et</b> <b>
-                <font color="#DC241C">Ace</font>
+                Ace
               </b> : Ajoute 150 en HP, ATK et RCV pour les personnages de classe Libre.
             </td>
           </tr>
@@ -304,7 +291,7 @@
             <td>Effets du changement</td>
             <td>Libère le personnage de "Paralysie", de "Désespoir du capitaine" et de "Lien des cercles" et change son
               cercle (cercle <b>
-                <font color="darkslateblue">[BLK]</font>
+                [BLK]
               </b> inclus) en cercle correspondant.</td>
           </tr>
           <tr>
@@ -315,69 +302,69 @@
           <tr>
             <td>Crewmate Ability 2</td>
             <td>Rend les cercles <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b> avantageux pour les personnages de classe Libre.</td>
           </tr>
           <tr>
             <td>Potential Ability 1</td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 1%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 2%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 3%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 5%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 7%.</td>
           </tr>
           <tr>
             <td>Potential Ability 2</td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> de 1%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> de 2%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> de 3%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> de 5%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> de 7%.</td>
           </tr>
           <tr>
@@ -540,17 +527,16 @@
         </tbody>
       </table>
       <h2>
-        <center><u>Personnages du lot</u></center>
+        Personnages du lot
       </h2>
       <div id="1"></div>
       <h3>
-        <center><u>Fiche de Marco</u></center>
+        Fiche de Marco
       </h3>
       <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1986.png"> <img
           src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1987.png"></center>
-      <table>
-        <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/p1vi2aZ.png"><img src="https://i.imgur.com/FUOt3DW.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/p1vi2aZ.png"><img src="https://i.imgur.com/FUOt3DW.png">
           <tbody>
             <tr>
               <td>Nom</td>
@@ -566,16 +552,16 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </p><b></td>
             </tr>
-            <tr>
-              <td>Classe 1</td>
-              <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+            <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Libre</td>
             </tr>
-            <tr>
-              <td>Classe 2</td>
-              <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+            <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
             </tr>
             <tr>
               <td>Coût</td>
@@ -622,19 +608,19 @@
               <td>Special - Stage 1 (16→10 puis 9 puis 8)</td>
               <td>Réduit la durée de “Lien”, des diminutions de hausse du multiplicateur de combos et des réductions
                 d'ATK de 3 tours, réduit les dégâts subis de 50% pendant un tour et si l'équipe contient au moins 3
-                personnages de type <b style='color:#DC241C'>STR</b>, ajoute 0,5 au multiplicateur de combos pendant un
+                personnages de type <b >STR</b>, ajoute 0,5 au multiplicateur de combos pendant un
                 tour.</td>
             </tr>
             <tr>
               <td>Special - Stage 2 (20→14 puis 13 puis 12)</td>
               <td>Réduit la durée de “Lien”, des diminutions de hausse du multiplicateur de combos et des réductions
                 d'ATK de 5 tours, réduit les dégâts subis de 90% pendant un tour et si l'équipe contient au moins 3
-                personnages de type <b style='color:#DC241C'>STR</b>, ajoute 0,75 au multiplicateur de combos pendant un
+                personnages de type <b >STR</b>, ajoute 0,75 au multiplicateur de combos pendant un
                 tour.</td>
             </tr>
             <tr>
               <td>Crewmate Ability 1</td>
-              <td>Ajoute 150 sur les HP restaurés par les cercles <b style='color:#BC5C0C'>[RCV]</b>.</td>
+              <td>Ajoute 150 sur les HP restaurés par les cercles <b >[RCV]</b>.</td>
             </tr>
             <tr>
               <td colspan="2">
@@ -643,7 +629,7 @@
             </tr>
             <tr>
               <td>Crewmate Ability 2</td>
-              <td>Rend les cercles <b style='color:#BC5C0C'>[RCV]</b> et <b style='color:peru'>[TND]</b> avantageux pour
+              <td>Rend les cercles <b >[RCV]</b> et <b >[TND]</b> avantageux pour
                 les personnages de classe Libre.</td>
             </tr>
             <tr>
@@ -746,13 +732,12 @@
         </table>
         <div id="2"></div>
         <h3>
-          <center><u>Fiche de Little Oz Junior</u></center>
+          Fiche de Little Oz Junior
         </h3>
         <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1988.png"> <img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1989.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/2VecBAt.png"><img src="https://i.imgur.com/aBe8bSj.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/2VecBAt.png"><img src="https://i.imgur.com/aBe8bSj.png">
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -768,16 +753,16 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </p><b></td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                <td>Sabreur</td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                <td>Tenace</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -839,31 +824,31 @@
               <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 1%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 2%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 3%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 4%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 5%.</td>
               </tr>
               <tr>
@@ -943,13 +928,12 @@
           </table>
           <div id="3"></div>
           <h3>
-            <center><u>Fiche de Monkey D. Garp</u></center>
+            Fiche de Monkey D. Garp
           </h3>
           <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1990.png"> <img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1991.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/XHgBZgC.png"><img src="https://i.imgur.com/bAQJrIg.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/XHgBZgC.png"><img src="https://i.imgur.com/bAQJrIg.png">
               <tbody>
                 <tr>
                   <td>Nom</td>
@@ -966,16 +950,16 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </p><b></td>
                 </tr>
-                <tr>
-                  <td>Classe 1</td>
-                  <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+                <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Libre</td>
                 </tr>
-                <tr>
-                  <td>Classe 2</td>
-                  <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
                 </tr>
                 <tr>
                   <td>Coût</td>
@@ -1019,12 +1003,12 @@
                 <tr>
                   <td>Special (19→13 puis 12)</td>
                   <td>Retarde toutes les attaques ennemies de 2 tours et si le capitaine est un personnage de type <b
-                      style='color:#DC241C'>STR</b> ou <b style='color:#4C4CFF'>QCK</b>, ajoute 55 fois son ATK en
+                      >STR</b> ou <b >QCK</b>, ajoute 55 fois son ATK en
                     dégâts additionnels non élémentaires pendant un tour.</td>
                 </tr>
                 <tr>
                   <td>Crewmate Ability 1</td>
-                  <td>Rend les cercles <b style='color:#DC241C'>[STR]</b> avantageux pour les personnages de classe
+                  <td>Rend les cercles <b >[STR]</b> avantageux pour les personnages de classe
                     Libre.</td>
                 </tr>
                 <tr>
@@ -1142,14 +1126,13 @@
             </table>
             <div id="4"></div>
             <h3>
-              <center><u>Fiche de Kobby</u></center>
+              Fiche de Kobby
             </h3>
             <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1992.png"> <img
                 src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1993.png"></center>
-            <table>
-              <table width="85%" align="center">
-                <caption><img src="https://i.imgur.com/GCjIbsZ.png"><img src="https://i.imgur.com/xD9ERpZ.png">
-                </caption>
+            <table class="fiche-table">
+                <img src="https://i.imgur.com/GCjIbsZ.png"><img src="https://i.imgur.com/xD9ERpZ.png">
+
                 <tbody>
                   <tr>
                     <td>Nom</td>
@@ -1165,16 +1148,16 @@
                     <td>Type</td>
                     <td><b>
                         <p>
-                          <font color="#4C4CFF">QCK</font>
+                          QCK
                         </p><b></td>
                   </tr>
-                  <tr>
-                    <td>Classe 1</td>
-                    <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+                  <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Libre</td>
                   </tr>
-                  <tr>
-                    <td>Classe 2</td>
-                    <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                  <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
                   </tr>
                   <tr>
                     <td>Coût</td>
@@ -1220,18 +1203,18 @@
                   </tr>
                   <tr>
                     <td>Special - Stage 1 (16→10 puis 9 puis 7)</td>
-                    <td>Inflige 30 fois son ATK en dégâts de type <b style='color:#4C4CFF'>QCK</b> sur un ennemi, change
-                      les cercles de tous les personnages (cercles <b style='color:darkslateblue'>[BLK]</b> inclus) en
+                    <td>Inflige 30 fois son ATK en dégâts de type <b >QCK</b> sur un ennemi, change
+                      les cercles de tous les personnages (cercles <b >[BLK]</b> inclus) en
                       cercles de type et si l'équipe contient au moins 3 personnages de type <b
-                        style='color:#4C4CFF'>QCK</b>, multiplie l'ATK des personnages de classe Libre par 1,75 pendant
+                        >QCK</b>, multiplie l'ATK des personnages de classe Libre par 1,75 pendant
                       un tour.</td>
                   </tr>
                   <tr>
                     <td>Special - Stage 2 (19→13 puis 12 puis 10)</td>
-                    <td>Inflige 50 fois son ATK en dégâts de type <b style='color:#4C4CFF'>QCK</b> sur un ennemi, change
-                      les cercles de tous les personnages (cercles <b style='color:darkslateblue'>[BLK]</b> inclus) en
+                    <td>Inflige 50 fois son ATK en dégâts de type <b >QCK</b> sur un ennemi, change
+                      les cercles de tous les personnages (cercles <b >[BLK]</b> inclus) en
                       cercles de type et si l'équipe contient au moins 3 personnages de type <b
-                        style='color:#4C4CFF'>QCK</b>, multiplie l'ATK des personnages de classe Libre par 2 pendant un
+                        >QCK</b>, multiplie l'ATK des personnages de classe Libre par 2 pendant un
                       tour.</td>
                   </tr>
                   <tr>
@@ -1245,37 +1228,37 @@
                   </tr>
                   <tr>
                     <td>Crewmate Ability 2</td>
-                    <td>Rend les cercles <b style='color:#4C4CFF'>[QCK]</b> avantageux pour les personnages de classe
+                    <td>Rend les cercles <b >[QCK]</b> avantageux pour les personnages de classe
                       Libre.</td>
                   </tr>
                   <tr>
                     <td>Potential Ability 1</td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 1%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 2%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 3%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 4%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 5%.</td>
                   </tr>
                   <tr>
@@ -1381,31 +1364,31 @@
                   </tr>
                 </tbody>
               </table>
-              <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-              <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-              <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-              <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-              <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-              <div id="scrollUp">
-                <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-              </div>
-              <div class="baspage">
-                <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-              </div>
-              <style>
-                .baspage {
-                  position: relative;
-                  bottom: -1vw;
-                  max-width: 100%;
-                  width: 100%;
-                }
-              </style>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>

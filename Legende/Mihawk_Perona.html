@@ -2,110 +2,97 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Mihawk et Perona</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="CaborageChavipere">
-    <h1>
-      <center><u>Mihawk et Perona</u></center>
+<body id="STR-PSY">
+    <div id="optcnavbar"></div>
+<h1>
+      Mihawk et Perona
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/TMq1zk-v1LA?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/T-YS53Hhzvw?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://i.imgur.com/HK0plw7.png"> <img src="https://i.imgur.com/yipwmpw.png"></center>
     <center><img src="https://i.imgur.com/5fZWgsw.png"> <img src="https://i.imgur.com/1CcN52c.png"> <img
         src="https://i.imgur.com/fSalwak.png"> <img src="https://i.imgur.com/0TAvMhl.png"></center>
-    <table>
-      <table width="85%" align="center">
-        <caption><img src="https://i.imgur.com/he5WI2f.png"><img src="https://i.imgur.com/JPImF1O.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/he5WI2f.png"><img src="https://i.imgur.com/JPImF1O.png">
         <tbody>
           <tr>
             <td width="15%">Nom</td>
@@ -115,21 +102,21 @@
             <td>Histoire</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : Grand corsaire et meilleur sabreur au monde. Impressionné de voir Zoro se prosterner pour ses
               camarades, il accepte de lui enseigner le maniement du sabre pendant deux ans, mais lui interdit toute
               consommation d'alcool jusqu'à ce qu'il réalise le potentiel de ses lames.<br>
               <hr>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : Ancienne membre des quatre mystérieux de Thriller Bark. Lorsque Zoro est envoyé au royaume de
               Ceglok par Kuma, elle le prend sous son aile et le soigne de ses blessures, allant jusqu'à l'accompagner
               sur l'archipel des Sabaody pour lui permettre de retrouver ses camarades.<br>
               <hr>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : Grand corsaire et ancienne membre des quatre mystérieux de Thriller Bark. Pendant toute la durée de
               son apprentissage, Zoro occupe une place centrale de leur quotidien, Mihawk lui enseignant le maniement du
               sabre et Perona les regardant s'entraîner.
@@ -143,22 +130,22 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#DC241C">STR</font> (Mihawk Œil de faucon) / <font color="#ECAC04">PSY</font> (Perona)
+                  STR (Mihawk Œil de faucon) / PSY (Perona)
                 </p><b></td>
           </tr>
           <tr>
             <td>Classe 1</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel
             </td>
           </tr>
@@ -166,15 +153,15 @@
             <td>Classe 2</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux
             </td>
           </tr>
@@ -186,15 +173,15 @@
             <td>Combo</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : 5<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 6<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 6
             </td>
           </tr>
@@ -211,17 +198,17 @@
             <td>HP</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : 3350 puis 3850 après le dépassement de limites puis 4200 après l'extension du dépassement de
               limites.<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 3350 puis 3850 après le dépassement de limites puis 4200 après l'extension du dépassement de
               limites.<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 3702 puis 4202 après le dépassement de limites puis 4552 après l'extension du dépassement de
               limites.<br>
             </td>
@@ -230,17 +217,17 @@
             <td>ATK</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : 1535 puis 1735 après le dépassement de limites puis 1935 après l'extension du dépassement de
               limites.<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 1433 puis 1633 après le dépassement de limites puis 1833 après l'extension du dépassement de
               limites.<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 1605 puis 1805 après le dépassement de limites puis 2005 après l'extension du dépassement de
               limites.<br>
             </td>
@@ -249,17 +236,17 @@
             <td>RCV</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : 355 puis 455 après le dépassement de limites puis 530 après l'extension du dépassement de
               limites.<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 404 puis 504 après le dépassement de limites puis 579 après l'extension du dépassement de
               limites.<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : 423 puis 523 après le dépassement de limites puis 598 après l'extension du dépassement de
               limites.<br>
             </td>
@@ -273,73 +260,73 @@
             <td>Captain Ability</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : Multiplie les HP des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 1,3, multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 3,5 s'ils ont un cercle de type, sinon par 3, rend les cercles <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b> avantageux pour les personnages de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> et réduit les chances d'appartion des cercles <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b>.<br>
               <hr>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : Multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 3,25, multiplie les HP des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 1,3, rend les cercles <b>
-                <font color="#ECAC04">[PSY]</font>
+                [PSY]
               </b> avantageux pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et réduit les chances d'appartion des cercles <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b>.<br>
               <hr>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : Multiplie les HP des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 1,3, multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 4,5 s'ils ont un cercle de type, sinon par 4, rend les cercles de type avantageux pour les
               personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> et réduit les chances d'appartion des cercles <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b>.<br>
             </td>
           </tr>
           <tr>
             <td>Special (19→14 puis 13)</td>
             <td>Enlève 20% des HP de chaque ennemi, change les cercles <b>
-                <font color="darkslateblue">[BLK]</font>
+                [BLK]
               </b> en cercles correspondants, multiplie l'ATK contre les ennemis sous l'effet "Négatif" pendant un
               tour et devient "Mihawk et Perona" pendant 3 tours.</td>
           </tr>
@@ -347,27 +334,27 @@
             <td>Crewmate Ability 1</td>
             <td>
               <b>
-                <font color="#DC241C">Mihawk Œil de faucon</font>
+                Mihawk Œil de faucon
               </b> : Ajoute 75 en HP et ATK pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>.<br>
               <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : Ajoute 75 en ATK et RCV pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>.<br>
               <b>
-                <font color="#DC241C">Mihawk</font>
+                Mihawk
               </b> <b>et</b> <b>
-                <font color="#ECAC04">Perona</font>
+                Perona
               </b> : Ajoute 100 en HP, ATK et RCV pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>.
             </td>
           </tr>
@@ -381,13 +368,13 @@
           <tr>
             <td>Crewmate Ability 2</td>
             <td>Rend les cercles <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b> et <b>
-                <font color="#ECAC04">[PSY]</font>
+                [PSY]
               </b> avantageux pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>.</td>
           </tr>
           <tr>
@@ -572,20 +559,19 @@
         </tbody>
       </table>
       <h2>
-        <center><u>Personnages du lot</u></center>
+        Personnages du lot
       </h2>
       <h3>
-        <center><u>Fiche de Silvers Rayleigh</u></center>
+        Fiche de Silvers Rayleigh
       </h3>
       <center><a href="../Legende/Rayleigh_V3.html" target="_blank"><img src="https://i.imgur.com/fxqg9Vp.png"></a></center>
       <div id="1"></div>
       <h3>
-        <center><u>Fiche d'Emporio Ivankov</u></center>
+        Fiche d'Emporio Ivankov
       </h3>
       <center><img src="https://i.imgur.com/IX929Bt.png"> <img src="https://i.imgur.com/y6b9sqq.png"></center>
-      <table>
-        <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/YyHVfsn.png"><img src="https://i.imgur.com/oCoMF3B.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/YyHVfsn.png"><img src="https://i.imgur.com/oCoMF3B.png">
           <tbody>
             <tr>
               <td width="15%">Nom</td>
@@ -605,16 +591,16 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </p><b></td>
             </tr>
-            <tr>
-              <td>Classe 1</td>
-              <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel</td>
+            <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Intellectuel</td>
             </tr>
-            <tr>
-              <td>Classe 2</td>
-              <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+            <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
             </tr>
             <tr>
               <td>Coût</td>
@@ -659,9 +645,9 @@
               <td>Special (19→13 puis 12)</td>
               <td>Réduit la durée de "Lien des coups spéciaux" de 5 tours, réduit la durée des augmentations de défense
                 dont bénéficient les ennemis de 5 tours et change les cercles désavantageux, <b>
-                  <font color="#BC5C0C">[RCV]</font>
+                  [RCV]
                 </b> et <b>
-                  <font color="peru">[TND]</font>
+                  [TND]
                 </b> en cercles correspondants.</td>
             </tr>
             <tr>
@@ -675,31 +661,31 @@
             <tr>
               <td>Potential Ability 1</td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 1%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 2%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 3%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 4%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 5%.</td>
             </tr>
             <tr>
@@ -888,12 +874,11 @@
         </table>
         <div id="2"></div>
         <h3>
-          <center><u>Fiche d'Héraclès</u></center>
+          Fiche d'Héraclès
         </h3>
         <center><img src="https://i.imgur.com/WRX95rD.png"> <img src="https://i.imgur.com/62ydGn1.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/xlvnHZo.png"><img src="https://i.imgur.com/GA9oSkU.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/xlvnHZo.png"><img src="https://i.imgur.com/GA9oSkU.png">
             <tbody>
               <tr>
                 <td width="15%">Nom</td>
@@ -913,16 +898,16 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </p><b></td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel</td>
+                <td>Intellectuel</td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur</td>
+                <td>Ravageur</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -961,72 +946,72 @@
               <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> par 2,75 et les HP par 1,25.</td>
               </tr>
               <tr>
                 <td>Special (18→12 puis 11)</td>
                 <td>Annule le poison, réduit la durée de "Brûlure" et de "Paralysie" de 4 tours et si l'équipe contient
                   au moins 5 personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b>, multiplie les effets des cercles des personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> par 2 pendant 2 tours.</td>
               </tr>
               <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 50 en ATK pour les personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b>.</td>
               </tr>
               <tr>
                 <td>Crewmate Ability 2</td>
                 <td>Rend les cercles <b>
-                    <font color="#1CAC24">[DEX]</font>
+                    [DEX]
                   </b> pour les personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> si le capitaine est un personnage de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> ou <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b>.</td>
               </tr>
               <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 1%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 2%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 3%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 4%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 5%.</td>
               </tr>
               <tr>
@@ -1058,42 +1043,42 @@
                 <td></td>
                 <td><span>Personnages soutenus :</span><ul>
                   <li>Personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b></li></ul>
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 1% et ajoute 1% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 2% et ajoute 2% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 3% et ajoute 3% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 4% et ajoute 5% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 5% et ajoute 7% des HP et de l'ATK du personnage en HP et ATK pour les personnages soutenus.
                 </td>
               </tr>
@@ -1177,41 +1162,41 @@
               <tr>
                 <td>Capacité</td>
                 <td>Augmente les HP des alliés de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> de <b>1 niveau</b>.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Augmente les HP des alliés de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> de <b>2 niveaux</b>.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Augmente les HP des alliés de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> de <b>3 niveaux</b>.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Augmente les HP des alliés de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> de <b>4 niveaux</b>.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Augmente les HP des alliés de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> et <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b> de <b>5 niveaux</b>.</td>
               </tr>
               <tr>
@@ -1227,12 +1212,11 @@
           </table>
           <div id="3"></div>
           <h3>
-            <center><u>Fiche de Bartholomew Kuma</u></center>
+            Fiche de Bartholomew Kuma
           </h3>
           <center><img src="https://i.imgur.com/pWqtxB0.png"> <img src="https://i.imgur.com/h90MTTh.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/gmvCc35.png"><img src="https://i.imgur.com/GsqqMUF.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/gmvCc35.png"><img src="https://i.imgur.com/GsqqMUF.png">
               <tbody>
                 <tr>
                   <td width="15%">Nom</td>
@@ -1252,16 +1236,16 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#ECAC04">PSY</font>
+                        PSY
                       </p><b></td>
                 </tr>
-                <tr>
-                  <td>Classe 1</td>
-                  <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel</td>
+                <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Intellectuel</td>
                 </tr>
-                <tr>
-                  <td>Classe 2</td>
-                  <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Tenace</td>
                 </tr>
                 <tr>
                   <td>Coût</td>
@@ -1395,31 +1379,31 @@
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de 1% et ajoute 4% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de 2% et ajoute 5% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de 3% et ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de 4% et ajoute 10% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de 5% et ajoute 13% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
@@ -1524,31 +1508,31 @@
                 </tr>
               </tbody>
             </table>
-            <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-            <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-            <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-            <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-            <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-            <div id="scrollUp">
-              <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-            </div>
-            <div class="baspage">
-              <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-            </div>
-            <style>
-              .baspage {
-                position: relative;
-                bottom: -1vw;
-                max-width: 100%;
-                width: 100%;
-              }
-            </style>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>

@@ -2,109 +2,96 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Jinbe V2</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="JinbeDEX">
-    <h1>
-      <center><u>Jinbe V2</u></center>
+<body id="DEX">
+    <div id="optcnavbar"></div>
+<h1>
+      Jinbe V2
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/77tTjF8DSwk?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/3nU28K-hegE?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2264.png"> <img
         src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2265.png"></center>
-    <table>
-      <table align="center">
-        <caption><img src="https://i.imgur.com/aNFtiDu.png"><img src="https://i.imgur.com/5MVsFqg.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/aNFtiDu.png"><img src="https://i.imgur.com/5MVsFqg.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -120,16 +107,16 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </p><b></td>
           </tr>
-          <tr>
-            <td>Classe 1</td>
-            <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+          <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Tenace</td>
           </tr>
-          <tr>
-            <td>Classe 2</td>
-            <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+          <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
           </tr>
           <tr>
             <td>Coût</td>
@@ -170,91 +157,91 @@
           <tr>
             <td>Captain Ability</td>
             <td>Si l'équipe contient un personnage de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, un de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et un de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>, multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 4 s'ils ont un cercle correspondant, sinon par 3, multiplie les HP des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 1,35 et rend les cercles <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b>, <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b> avantageux pour tous les personnages.</td>
           </tr>
           <tr>
             <td>Captain Ability (après l'extension du dépassement de limites)</td>
             <td>Si l'équipe contient un personnage de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, un de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et un de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>, multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 4 s'ils ont un cercle correspondant, sinon par 3,5, multiplie les HP des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 1,35 et rend les cercles <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b>, <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b> avantageux pour tous les personnages.</td>
           </tr>
           <tr>
             <td>Special (20→15 puis 12 puis 10)</td>
             <td>Enlève 20% des HP de chaque ennemi. Si l'équipe a chacun des cercles <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b>, <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b>, <b>
-                <font color="#4C4CFF">[QCK]</font>
+                [QCK]
               </b>, <b>
-                <font color="#ECAC04">[PSY]</font>
+                [PSY]
               </b>, <b>
-                <font color="#A916B6">[INT]</font>
+                [INT]
               </b> et <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b>, multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 2,25 pendant un tour et rend les cercles de type avantageux pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> pendant un tour, sinon, multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> par 1,75 pendant un tour.</td>
           </tr>
           <tr>
@@ -265,11 +252,11 @@
           <tr>
             <td>Crewmate Ability 1</td>
             <td>Ajoute 75 en HP et ATK pour les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b>.</td>
           </tr>
           <tr>
@@ -279,61 +266,61 @@
           <tr>
             <td>Potential Ability 1</td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 1%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 2%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 3%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 5%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 7%.</td>
           </tr>
           <tr>
             <td>Potential Ability 2</td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#A916B6">INT</font>
+                INT
               </b> de 1%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#A916B6">INT</font>
+                INT
               </b> de 2%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#A916B6">INT</font>
+                INT
               </b> de 3%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#A916B6">INT</font>
+                INT
               </b> de 5%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#A916B6">INT</font>
+                INT
               </b> de 7%.</td>
           </tr>
           <tr>
@@ -365,48 +352,48 @@
             <td></td>
             <td>Personnages soutenus :<br>
               <ul style="display: inline;">Personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b></ul><br>
               <ul style="display: inline;">Personnages de type <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b></ul><br>
               <ul style="display: inline;">Personnages de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b></ul>
             </td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 1% et ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
               soutenus.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 2% et ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
               soutenus.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 3% et ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
               soutenus.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 4% et ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
               soutenus.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b> de 5% et ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages
               soutenus.</td>
           </tr>
@@ -490,81 +477,81 @@
           <tr>
             <td>Capacité</td>
             <td>Augmente les HP des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de <b>1 niveau</b> et augmente la défense des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente les HP des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de <b>2 niveaux</b> et augmente la défense des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente les HP des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de <b>3 niveaux</b> et augmente la défense des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente les HP des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de <b>4 niveaux</b> et augmente la défense des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente les HP des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de <b>5 niveaux</b> et augmente la défense des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b>, <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b> et <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 1 niveau.</td>
           </tr>
           <tr>
@@ -600,12 +587,11 @@
       </table>
       <h2>
         <div id="6+"></div>
-        <center><u>Fiche (6★+)</u></center>
+        Fiche (6★+)
       </h2>
       <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f3048.png"></center>
-      <table>
-        <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/sHZS8Tq.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/sHZS8Tq.png">
           <tbody>
             <tr>
               <td>Nom</td>
@@ -621,16 +607,16 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </p><b></td>
             </tr>
-            <tr>
-              <td>Classe 1</td>
-              <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+            <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Tenace</td>
             </tr>
-            <tr>
-              <td>Classe 2</td>
-              <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+            <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
             </tr>
             <tr>
               <td>Coût</td>
@@ -671,91 +657,91 @@
             <tr>
               <td>Captain Ability</td>
               <td> Si l'équipe contient un personnage de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, un de type <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et un de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b>, multiplie l'ATK des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> par 4, multiplie les HP des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> par 1,35 et rend les cercles <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b>, <b>
-                  <font color="#BC5C0C">[RCV]</font>
+                  [RCV]
                 </b> et <b>
-                  <font color="peru">[TND]</font>
+                  [TND]
                 </b> avantageux pour tous les personnages.</td>
             </tr>
             <tr>
               <td>Captain Ability (après l'extension du dépassement de limites)</td>
               <td>Si l'équipe contient un personnage de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, un de type <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et un de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b>, multiplie l'ATK des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> par 4, multiplie les HP des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> par 1,35 et rend les cercles <b>
-                  <font color="#DC241C">[STR]</font>
+                  [STR]
                 </b>, <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b>, <b>
-                  <font color="#BC5C0C">[RCV]</font>
+                  [RCV]
                 </b> et <b>
-                  <font color="peru">[TND]</font>
+                  [TND]
                 </b> avantageux pour tous les personnages.</td>
             </tr>
             <tr>
               <td>Special (20→15 puis 12 puis 10)</td>
               <td>Enlève 20% des HP de chaque ennemi. Si l'équipe a chacun des cercles <b>
-                  <font color="#DC241C">[STR]</font>
+                  [STR]
                 </b>, <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b>, <b>
-                  <font color="#4C4CFF">[QCK]</font>
+                  [QCK]
                 </b>, <b>
-                  <font color="#ECAC04">[PSY]</font>
+                  [PSY]
                 </b> et <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b>, multiplie l'ATK des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> par 2,25 pendant 2 tours et rend les cercles de type avantageux pour les personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> pendant 2 tours, sinon, multiplie l'ATK des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> par 2 pendant un tour.</td>
             </tr>
             <tr>
@@ -766,11 +752,11 @@
             <tr>
               <td>Crewmate Ability 1</td>
               <td>Ajoute 75 en HP et ATK pour les personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b>.</td>
             </tr>
             <tr>
@@ -780,61 +766,61 @@
             <tr>
               <td>Potential Ability 1</td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 1%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 3%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 5%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 7%.</td>
             </tr>
             <tr>
               <td>Potential Ability 2</td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 1%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 2%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 3%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 5%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </b> de 7%.</td>
             </tr>
             <tr>
@@ -866,48 +852,48 @@
               <td></td>
               <td>Personnages soutenus :<br>
                 <ul style="display: inline;">Personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b></ul><br>
                 <ul style="display: inline;">Personnages de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b></ul><br>
                 <ul style="display: inline;">Personnages de type <b>
-                    <font color="#ECAC04">PSY</font>
+                    PSY
                   </b></ul>
               </td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 1% et ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                 personnages soutenus.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2% et ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                 personnages soutenus.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 3% et ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                 personnages soutenus.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 4% et ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                 personnages soutenus.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 5% et ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                 personnages soutenus.</td>
             </tr>
@@ -991,81 +977,81 @@
             <tr>
               <td>Capacité</td>
               <td>Augmente les HP des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de <b>2 niveaux</b>, augmente la défense des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 1 niveau et augmente les chances que les ennemis ratent leur attaque de 1 niveau.</td>
             </tr>
             <tr>
               <td></td>
               <td>Augmente les HP des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de <b>3 niveaux</b>, augmente la défense des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 1 niveau et augmente les chances que les ennemis ratent leur attaque de 1 niveau.</td>
             </tr>
             <tr>
               <td></td>
               <td>Augmente les HP des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de <b>4 niveaux</b>, augmente la défense des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 1 niveau et augmente les chances que les ennemis ratent leur attaque de 1 niveau.</td>
             </tr>
             <tr>
               <td></td>
               <td>Augmente les HP des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de <b>5 niveaux</b>, augmente la défense des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 1 niveau et augmente les chances que les ennemis ratent leur attaque de 1 niveau.</td>
             </tr>
             <tr>
               <td></td>
               <td>Augmente les HP des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de <b>6 niveaux</b>, augmente la défense des alliés de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>, <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 1 niveau et augmente les chances que les ennemis ratent leur attaque de 1 niveau.</td>
             </tr>
             <tr>
@@ -1100,17 +1086,16 @@
           </tbody>
         </table>
         <h2>
-          <center><u>Personnages du lot</u></center>
+          Personnages du lot
         </h2>
         <div id="1"></div>
         <h3>
-          <center><u>Fiche d'Aladdin</u></center>
+          Fiche d'Aladdin
         </h3>
         <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2266.png"> <img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2267.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/MCYD7gy.png"><img src="https://i.imgur.com/iAfzbCv.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/MCYD7gy.png"><img src="https://i.imgur.com/iAfzbCv.png">
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -1126,16 +1111,16 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </p><b></td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                <td>Tenace</td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                <td>Cogneur</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -1182,9 +1167,9 @@
                 <td>Special (19→13 puis 12 puis 10)</td>
                 <td>Réduit la durée de “Lien” et de “Désespoir du capitaine” de 3 tours, bloque les cercles pendant un
                   tour, change respectivement les cercles des personnages de la colonne de droite en cercles <b
-                    style='color:#BC5C0C'>[RCV]</b>, <b style='color:#A916B6'>[INT]</b> et <b
-                    style='color:#4C4CFF'>[QCK]</b> et si le cercle du capitaine ami est un cercle <b
-                    style='color:#1CAC24'>[DEX]</b>, multiplie les effets des cercles de tous les personnages par 1,75
+                    >[RCV]</b>, <b >[INT]</b> et <b
+                    >[QCK]</b> et si le cercle du capitaine ami est un cercle <b
+                    >[DEX]</b>, multiplie les effets des cercles de tous les personnages par 1,75
                   pendant 3 tours.</td>
               </tr>
               <tr>
@@ -1198,7 +1183,7 @@
               </tr>
               <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b style='color:#4C4CFF'>[QCK]</b> et <b style='color:#1CAC24'>[DEX]</b> avantageux
+                <td>Rend les cercles <b >[QCK]</b> et <b >[DEX]</b> avantageux
                   pour le personnage.</td>
               </tr>
               <tr>
@@ -1296,20 +1281,20 @@
               <tr>
                 <td></td>
                 <td>Bloque les cercles des personnages de classe Tenace pendant un tour et change le cercle du capitaine
-                  en cercle <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu utilise son coup spécial (une
+                  en cercle <b >[RCV]</b> si le personnage soutenu utilise son coup spécial (une
                   fois par quête).</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Bloque les cercles des personnages de classe Tenace pendant un tour et change le cercle du capitaine
-                  en cercle <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu utilise son coup spécial (une
+                  en cercle <b >[RCV]</b> si le personnage soutenu utilise son coup spécial (une
                   fois par quête).</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Bloque les cercles des personnages de classe Tenace pendant un tour et change respectivement les
-                  cercles des personnages de la colonne de droite en cercles <b style='color:#BC5C0C'>[RCV]</b>, <b
-                    style='color:#A916B6'>[INT]</b> et <b style='color:#4C4CFF'>[QCK]</b> si le personnage soutenu
+                  cercles des personnages de la colonne de droite en cercles <b >[RCV]</b>, <b
+                    >[INT]</b> et <b >[QCK]</b> si le personnage soutenu
                   utilise son coup spécial (une fois par quête).</td>
               </tr>
               <tr>
@@ -1333,13 +1318,12 @@
           </table>
           <div id="2"></div>
           <h3>
-            <center><u>Fiche de Charlotte Praliné</u></center>
+            Fiche de Charlotte Praliné
           </h3>
           <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2268.png"> <img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2269.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/aORCN2q.png"><img src="https://i.imgur.com/zLdvXyj.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/aORCN2q.png"><img src="https://i.imgur.com/zLdvXyj.png">
               <tbody>
                 <tr>
                   <td>Nom</td>
@@ -1355,16 +1339,16 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </p><b></td>
                 </tr>
-                <tr>
-                  <td>Classe 1</td>
-                  <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel</td>
+                <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Intellectuel</td>
                 </tr>
-                <tr>
-                  <td>Classe 2</td>
-                  <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Tenace</td>
                 </tr>
                 <tr>
                   <td>Coût</td>
@@ -1405,23 +1389,23 @@
                 </tr>
                 <tr>
                   <td>Captain Ability</td>
-                  <td>Multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b> et <b
-                      style='color:#1CAC24'>DEX</b> par 2,25 et restaure les HP avec 1,5 fois sa RCV à la fin de chaque
+                  <td>Multiplie l'ATK des personnages de type <b >STR</b> et <b
+                      >DEX</b> par 2,25 et restaure les HP avec 1,5 fois sa RCV à la fin de chaque
                     tour.</td>
                 </tr>
                 <tr>
                   <td>Special (19→13 puis 12 puis 11)</td>
                   <td>Réduit la durée des augmentations de défense, des réductions de dégâts et des réductions de dégâts
                     au-dessus d'un seuil dont bénéficient les ennemis de 5 tours, change respectivement les cercles des
-                    personnages de la colonne de gauche en cercles <b style='color:#1CAC24'>[DEX]</b>, <b
-                      style='color:#DC241C'>[STR]</b> et <b style='color:#ECAC04'>[PSY]</b> et si le cercle du capitaine
-                    est un cercle <b style='color:#BC5C0C'>[RCV]</b>, restaure les HP avec 13 fois sa RCV à la fin de
+                    personnages de la colonne de gauche en cercles <b >[DEX]</b>, <b
+                      >[STR]</b> et <b >[PSY]</b> et si le cercle du capitaine
+                    est un cercle <b >[RCV]</b>, restaure les HP avec 13 fois sa RCV à la fin de
                     chaque tour pendant 3 tours.</td>
                 </tr>
                 <tr>
                   <td>Crewmate Ability 1</td>
-                  <td>Ajoute 50 en RCV pour les personnages de type <b style='color:#DC241C'>STR</b>, <b
-                      style='color:#1CAC24'>DEX</b> et <b style='color:#ECAC04'>PSY</b>.</td>
+                  <td>Ajoute 50 en RCV pour les personnages de type <b >STR</b>, <b
+                      >DEX</b> et <b >PSY</b>.</td>
                 </tr>
                 <tr>
                   <td colspan="2">
@@ -1430,37 +1414,37 @@
                 </tr>
                 <tr>
                   <td>Crewmate Ability 2</td>
-                  <td>Rend les cercles <b style='color:#4C4CFF'>[QCK]</b> et <b style='color:#DC241C'>[STR]</b>
+                  <td>Rend les cercles <b >[QCK]</b> et <b >[STR]</b>
                     avantageux pour le personnage.</td>
                 </tr>
                 <tr>
                   <td>Potential Ability 1</td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> de 1%.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> de 2%.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> de 3%.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> de 4%.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> de 5%.</td>
                 </tr>
                 <tr>
@@ -1544,14 +1528,13 @@
             </table>
             <div id="3"></div>
             <h3>
-              <center><u>Fiche de Wadatsumi</u></center>
+              Fiche de Wadatsumi
             </h3>
             <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2270.png"> <img
                 src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2271.png"></center>
-            <table>
-              <table width="85%" align="center">
-                <caption><img src="https://i.imgur.com/GHS7FQX.png"><img src="https://i.imgur.com/lIfpHNj.png">
-                </caption>
+            <table class="fiche-table">
+                <img src="https://i.imgur.com/GHS7FQX.png"><img src="https://i.imgur.com/lIfpHNj.png">
+
                 <tbody>
                   <tr>
                     <td>Nom</td>
@@ -1568,16 +1551,16 @@
                     <td>Type</td>
                     <td><b>
                         <p>
-                          <font color="#DC241C">STR</font>
+                          STR
                         </p><b></td>
                   </tr>
-                  <tr>
-                    <td>Classe 1</td>
-                    <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                  <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Tenace</td>
                   </tr>
-                  <tr>
-                    <td>Classe 2</td>
-                    <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                  <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
                   </tr>
                   <tr>
                     <td>Coût</td>
@@ -1623,7 +1606,7 @@
                   <tr>
                     <td>Special (18→12 puis 11 puis 8)</td>
                     <td>Change les cercles des personnages de la colonne de gauche (cercles <b
-                        style='color:darkslateblue'>[BLK]</b> inclus) en cercles correspondants et ajoute 0,7 au
+                        >[BLK]</b> inclus) en cercles correspondants et ajoute 0,7 au
                       multiplicateur de combos pendant 2 tours.</td>
                   </tr>
                   <tr>
@@ -1637,37 +1620,37 @@
                   </tr>
                   <tr>
                     <td>Crewmate Ability 2</td>
-                    <td>Rend les cercles <b style='color:#A916B6'>[INT]</b> avantageux pour les personnages de classe
+                    <td>Rend les cercles <b >[INT]</b> avantageux pour les personnages de classe
                       Tenace.</td>
                   </tr>
                   <tr>
                     <td>Potential Ability 1</td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </b> de 1%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </b> de 2%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </b> de 3%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </b> de 4%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </b> de 5%.</td>
                   </tr>
                   <tr>
@@ -1765,14 +1748,13 @@
               </table>
               <div id="4"></div>
               <h3>
-                <center><u>Fiche d'Octy</u></center>
+                Fiche d'Octy
               </h3>
               <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2272.png"> <img
                   src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2273.png"></center>
-              <table>
-                <table width="85%" align="center">
-                  <caption><img src="https://i.imgur.com/naZlRZB.png"><img src="https://i.imgur.com/nHVYU80.png">
-                  </caption>
+              <table class="fiche-table">
+                  <img src="https://i.imgur.com/naZlRZB.png"><img src="https://i.imgur.com/nHVYU80.png">
+
                   <tbody>
                     <tr>
                       <td>Nom</td>
@@ -1788,16 +1770,16 @@
                       <td>Type</td>
                       <td><b>
                           <p>
-                            <font color="#ECAC04">PSY</font>
+                            PSY
                           </p><b></td>
                     </tr>
-                    <tr>
-                      <td>Classe 1</td>
-                      <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                    <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Sabreur</td>
                     </tr>
-                    <tr>
-                      <td>Classe 2</td>
-                      <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                    <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Tenace</td>
                     </tr>
                     <tr>
                       <td>Coût</td>
@@ -1845,9 +1827,9 @@
                       <td>Special (18→12 puis 10)</td>
                       <td>Inflige 6 coups avec 30 fois son ATK en dégâts non élémentaires sur des ennemis aléatoires,
                         réduit à 0 la défense de tous les ennemis pendant un tour, change les cercles <b
-                          style='color:darkslateblue'>[BLK]</b>, <b style='color:peru'>[TND]</b>, <b
-                          style='color:orange'>[G]</b> et <b style='color:maroon'>[BOMB]</b> en cercles <b
-                          style='color:#BC5C0C'>[RCV]</b> et si le capitaine est un personnage de classe Tenace,
+                          >[BLK]</b>, <b >[TND]</b>, <b
+                          >[G]</b> et <b >[BOMB]</b> en cercles <b
+                          >[RCV]</b> et si le capitaine est un personnage de classe Tenace,
                         multiplie l’ATK contre les ennemis avec leur défense réduite par 1,75 pendant un tour.</td>
                     </tr>
                     <tr>
@@ -1861,8 +1843,8 @@
                     </tr>
                     <tr>
                       <td>Crewmate Ability 2</td>
-                      <td>Si le personnage a un cercle <b style='color:#ECAC04'>[PSY]</b> et qu'il fait un coup
-                        “PARFAIT”, garde son cercle <b style='color:#ECAC04'>[PSY]</b> pour le tour suivant.</td>
+                      <td>Si le personnage a un cercle <b >[PSY]</b> et qu'il fait un coup
+                        “PARFAIT”, garde son cercle <b >[PSY]</b> pour le tour suivant.</td>
                     </tr>
                     <tr>
                       <td>Potential Ability 1</td>
@@ -1924,46 +1906,46 @@
                     </tr>
                     <tr>
                       <td></td>
-                      <td>Change le cercle <b style='color:peru'>[TND]</b>, <b>
-                          <font color="orange">[G]</font>
+                      <td>Change le cercle <b >[TND]</b>, <b>
+                          [G]
                         </b> et <b>
-                          <font color="maroon">[BOMB]</font>
-                        </b> du personnage soutenu en cercle <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu
+                          [BOMB]
+                        </b> du personnage soutenu en cercle <b >[RCV]</b> si le personnage soutenu
                         utilise son coup spécial (une fois par quête).</td>
                     </tr>
                     <tr>
                       <td></td>
-                      <td>Change le cercle <b style='color:peru'>[TND]</b>, <b>
-                          <font color="orange">[G]</font>
+                      <td>Change le cercle <b >[TND]</b>, <b>
+                          [G]
                         </b> et <b>
-                          <font color="maroon">[BOMB]</font>
-                        </b> du personnage soutenu en cercle <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu
+                          [BOMB]
+                        </b> du personnage soutenu en cercle <b >[RCV]</b> si le personnage soutenu
                         utilise son coup spécial (une fois par quête).</td>
                     </tr>
                     <tr>
                       <td></td>
-                      <td>Change le cercle <b style='color:darkslateblue'>[BLK]</b>, <b style='color:peru'>[TND]</b>,
+                      <td>Change le cercle <b >[BLK]</b>, <b >[TND]</b>,
                         <b>
-                          <font color="orange">[G]</font>
+                          [G]
                         </b> et <b>
-                          <font color="maroon">[BOMB]</font>
-                        </b> du personnage soutenu en cercle <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu
+                          [BOMB]
+                        </b> du personnage soutenu en cercle <b >[RCV]</b> si le personnage soutenu
                         utilise son coup spécial (une fois par quête).</td>
                     </tr>
                     <tr>
                       <td></td>
-                      <td>Change le cercle <b style='color:darkslateblue'>[BLK]</b>, <b style='color:peru'>[TND]</b>,
+                      <td>Change le cercle <b >[BLK]</b>, <b >[TND]</b>,
                         <b>
-                          <font color="orange">[G]</font>
+                          [G]
                         </b> et <b>
-                          <font color="maroon">[BOMB]</font>
-                        </b> du personnage soutenu en cercle <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu
+                          [BOMB]
+                        </b> du personnage soutenu en cercle <b >[RCV]</b> si le personnage soutenu
                         utilise son coup spécial (une fois par quête).</td>
                     </tr>
                     <tr>
                       <td></td>
-                      <td>Change les cercles (cercles <b style='color:darkslateblue'>[BLK]</b> inclus) du personnage
-                        soutenu et adjacents en cercles <b style='color:#BC5C0C'>[RCV]</b> si le personnage soutenu
+                      <td>Change les cercles (cercles <b >[BLK]</b> inclus) du personnage
+                        soutenu et adjacents en cercles <b >[RCV]</b> si le personnage soutenu
                         utilise son coup spécial (une fois par quête).</td>
                     </tr>
                     <tr>
@@ -1989,14 +1971,13 @@
                 </table>
                 <div id="5"></div>
                 <h3>
-                  <center><u>Fiche de Keimi</u></center>
+                  Fiche de Keimi
                 </h3>
                 <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2274.png"> <img
                     src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2275.png"></center>
-                <table>
-                  <table width="85%" align="center">
-                    <caption><img src="https://i.imgur.com/1q4FYdF.png"><img src="https://i.imgur.com/MZX74oE.png">
-                    </caption>
+                <table class="fiche-table">
+                    <img src="https://i.imgur.com/1q4FYdF.png"><img src="https://i.imgur.com/MZX74oE.png">
+
                     <tbody>
                       <tr>
                         <td>Nom</td>
@@ -2013,16 +1994,16 @@
                         <td>Type</td>
                         <td><b>
                             <p>
-                              <font color="#ECAC04">PSY</font>
+                              PSY
                             </p><b></td>
                       </tr>
-                      <tr>
-                        <td>Classe 1</td>
-                        <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+                      <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Libre</td>
                       </tr>
-                      <tr>
-                        <td>Classe 2</td>
-                        <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                      <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
                       </tr>
                       <tr>
                         <td>Coût</td>
@@ -2214,31 +2195,31 @@
                       </tr>
                     </tbody>
                   </table>
-                  <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-                  <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-                  <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-                  <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-                  <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-                  <div id="scrollUp">
-                    <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-                  </div>
-                  <div class="baspage">
-                    <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-                  </div>
-                  <style>
-                    .baspage {
-                      position: relative;
-                      bottom: -1vw;
-                      max-width: 100%;
-                      width: 100%;
-                    }
-                  </style>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>

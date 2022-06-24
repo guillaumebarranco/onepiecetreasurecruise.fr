@@ -2,109 +2,96 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Monkey D. Luffy (Snakeman)</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="Lucy">
-    <h1>
-      <center><u>Monkey D. Luffy (Snakeman)</u></center>
+<body id="STR">
+    <div id="optcnavbar"></div>
+<h1>
+      Monkey D. Luffy (Snakeman)
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/Mq80M88lxXs?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/kBiEZiBKQjc?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2957.png"> <img
         src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2958.png"></center>
-    <table>
-      <table width="85%" align="center">
-        <caption><img src="https://i.imgur.com/AXHOMfM.png"><img src="https://i.imgur.com/vGZvMZT.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/AXHOMfM.png"><img src="https://i.imgur.com/vGZvMZT.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -120,16 +107,16 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </p><b></td>
           </tr>
-          <tr>
-            <td>Classe 1</td>
-            <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+          <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Cogneur</td>
           </tr>
-          <tr>
-            <td>Classe 2</td>
-            <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+          <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Libre</td>
           </tr>
           <tr>
             <td>Coût</td>
@@ -170,21 +157,21 @@
           <tr>
             <td>Captain Ability</td>
             <td>Multiplie les HP et la RCV de tous les personnages par 1,3 et rend les cercles <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> avantageux pour tous les personnages. Multiplie l'ATK des personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> par 5 s'ils ont un cercle <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b> ou <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b>, sinon par 4, et multiplie l'ATK des personnages de type <b>
-                <font color="#1CAC24">DEX</font>
+                DEX
               </b>, <b>
-                <font color="#4C4CFF">QCK</font>
+                QCK
               </b>, <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> et <b>
-                <font color="#A916B6">INT</font>
+                INT
               </b> par 3,75.</td>
           </tr>
           <tr>
@@ -216,16 +203,16 @@
             <td>Special</td>
             <td>Inflige 75 fois son ATK en dégâts non élémentaires sur tous les ennemis, multiplie l'ATK de tous les
               personnages par 2 pendant un tour et renforce les personnages de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> en les transformant en personnages de <b>
-                <font color="#DC241C">super type STR</font>
+                super type STR
               </b>.<br>
               <small>Multiplie les effets de type des ATK normales des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> par 2,5 contre les ennemis de type <b>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </b> et par 0,75 contre les ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b>.</small>
             </td>
           </tr>
@@ -241,9 +228,9 @@
           <tr>
             <td>Crewmate Ability 2</td>
             <td>Rend les cercles <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b> et <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> avantageux pour tous les personnages.</td>
           </tr>
           <tr>
@@ -325,7 +312,7 @@
             <td></td>
             <td>Personnages soutenus :<br>
               <ul style="display: inline;">Personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b></ul>
             </td>
           </tr>
@@ -374,7 +361,7 @@
           <tr>
             <td>Special</td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>2 niveaux</b> pendant <b>11 secondes</b>, inflige <b>0,85 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>0,7 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -382,7 +369,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>2 niveaux</b> pendant <b>12 secondes</b>, inflige <b>0,9 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>0,83 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -390,7 +377,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>2 niveaux</b> pendant <b>13 secondes</b>, inflige <b>0,95 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>0,96 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -398,7 +385,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>2 niveaux</b> pendant <b>14 secondes</b>, inflige <b>1 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>1,09 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -406,7 +393,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>3 niveaux</b> pendant <b>15 secondes</b>, inflige <b>1,05 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>1,22 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -414,7 +401,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>3 niveaux</b> pendant <b>16 secondes</b>, inflige <b>1,1 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>1,35 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -422,7 +409,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>3 niveaux</b> pendant <b>17 secondes</b>, inflige <b>1,15 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>1,48 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -430,7 +417,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>4 niveaux</b> pendant <b>18 secondes</b>, inflige <b>1,2 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>1,61 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -438,7 +425,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>4 niveaux</b> pendant <b>19 secondes</b>, inflige <b>1,25 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>1,74 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -446,7 +433,7 @@
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>5 niveaux</b> pendant <b>20 secondes</b>, inflige <b>1,3 fois</b> son ATK à 2 ennemis et
               lorsqu'il reste 30 secondes ou moins, inflige <b>2 fois</b> son ATK aux ennemis à moyenne portée (CT :
               32).</td>
@@ -454,41 +441,41 @@
           <tr>
             <td>Capacité</td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>1 niveau</b> et augmente la vitesse des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>2 niveaux</b> et augmente la vitesse des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>3 niveaux</b> et augmente la vitesse des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>4 niveaux</b> et augmente la vitesse des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 1 niveau.</td>
           </tr>
           <tr>
             <td></td>
             <td>Augmente l'ATK des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de <b>5 niveaux</b> et augmente la vitesse des alliés de type <b>
-                <font color="#DC241C">STR</font>
+                STR
               </b> de 1 niveau.</td>
           </tr>
           <tr>
@@ -523,32 +510,31 @@
         </tbody>
       </table>
       <h2>
-        <center><u>Personnages du lot</u></center>
+        Personnages du lot
       </h2>
       <h3>
-        <center><u>Fiche de Sabo</u></center>
+        Fiche de Sabo
       </h3>
       <center><a href="../Legende/Sabo_V4.html" target="_blank"><img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2960.png"></a></center>
       <h3>
-        <center><u>Fiche de Charlotte Dent-de-chien / Charlotte Katakuri</u></center>
+        Fiche de Charlotte Dent-de-chien / Charlotte Katakuri
       </h3>
       <center><a href="../Legende/Katakuri_V3.html" target="_blank"><img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2962.png"></a></center>
       <h3>
-        <center><u>Fiche de Barbe Noire</u></center>
+        Fiche de Barbe Noire
       </h3>
       <center><a href="../Legende/Barbe_Noire_V2.html" target="_blank"><img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2964.png"></a></center>
       <div id="1"></div>
       <h3>
-        <center><u>Fiche de Boa Hancock</u></center>
+        Fiche de Boa Hancock
       </h3>
       <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2965.png"> <img
           src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2966.png"></center>
-      <table>
-        <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/Xnag369.png"><img src="https://i.imgur.com/I0l2Oc7.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/Xnag369.png"><img src="https://i.imgur.com/I0l2Oc7.png">
           <tbody>
             <tr>
               <td>Nom</td>
@@ -564,16 +550,16 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </p><b></td>
             </tr>
-            <tr>
-              <td>Classe 1</td>
-              <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+            <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Cogneur</td>
             </tr>
-            <tr>
-              <td>Classe 2</td>
-              <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+            <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Libre</td>
             </tr>
             <tr>
               <td>Coût</td>
@@ -612,16 +598,16 @@
             <tr>
               <td>Captain Ability</td>
               <td>Multiplie l'ATK des personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> par 2,5 et la RCV par 1,2.</td>.</td>
             </tr>
             <tr>
               <td>Special (17→11 puis 10)</td>
               <td>Réduit la durée des réductions d'ATK et de "Lien des coups spéciaux" de 5 tours, change les cercles
                 <b>
-                  <font color="darkslateblue">[BLK]</font>
+                  [BLK]
                 </b>, <b>
-                  <font color="maroon">[BOMB]</font>
+                  [BOMB]
                 </b> et désavantageux en cercles correspondants et bloque les cercles pendant un tour.</td>
             </tr>
             <tr>
@@ -636,7 +622,7 @@
             <tr>
               <td>Crewmate Ability 2</td>
               <td>Ajoute 30 en HP, ATK et RCV pour les personnages de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b>.</td>
             </tr>
             <tr>
@@ -739,70 +725,70 @@
               <td>Special</td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>0,75 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>1 niveau</b> pendant <b>16 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>0,83 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>1 niveau</b> pendant <b>16 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>0,91 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>1 niveau</b> pendant <b>17 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>0,99 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>1 niveau</b> pendant <b>17 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>1,07 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>1 niveau</b> pendant <b>18 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>1,15 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>2 niveaux</b> pendant <b>18 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>1,23 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>2 niveaux</b> pendant <b>19 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>1,31 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>2 niveaux</b> pendant <b>19 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>1,39 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>2 niveaux</b> pendant <b>20 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
               <td></td>
               <td>Restaure les HP des alliés à moyenne portée avec <b>1,5 fois</b> sa RCV et augmente l'ATK des alliés
                 de type <b>
-                  <font color="#DC241C">STR</font>
+                  STR
                 </b> de <b>3 niveaux</b> pendant <b>20 secondes</b> (CT : 36).</td>
             </tr>
             <tr>
@@ -855,13 +841,12 @@
         </table>
         <div id="2"></div>
         <h3>
-          <center><u>Fiche de Trafalgar Law</u></center>
+          Fiche de Trafalgar Law
         </h3>
         <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2967.png"> <img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2968.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/KHVOTUo.png"><img src="https://i.imgur.com/tjAsp8G.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/KHVOTUo.png"><img src="https://i.imgur.com/tjAsp8G.png">
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -877,16 +862,16 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </p><b></td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                <td>Sabreur</td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+                <td>Libre</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -925,7 +910,7 @@
               <tr>
                 <td>Captain Ability</td>
                 <td>Multiplie l'ATK des personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b> par 2,5, puis 2,8 après 3 "BIEN", "SUPER" ou "PARFAIT".</td>
               </tr>
               <tr>
@@ -937,7 +922,7 @@
               <tr>
                 <td>Crewmate Ability 1</td>
                 <td>Ajoute 50 en ATK pour les personnages de type <b>
-                    <font color="#DC241C">STR</font>
+                    STR
                   </b>.</td>
               </tr>
               <tr>
@@ -947,7 +932,7 @@
               </tr>
               <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b style='color:#BC5C0C'>[RCV]</b> et <b style='color:peru'>[TND]</b> avantageux
+                <td>Rend les cercles <b >[RCV]</b> et <b >[TND]</b> avantageux
                   pour le personnage.</td>
               </tr>
               <tr>
@@ -1006,42 +991,42 @@
                 <td></td>
                 <td>Personnages soutenus :<br>
                   <ul style="display: inline;">Personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b></ul>
                 </td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 1% et ajoute 1% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                   personnages soutenus.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 2% et ajoute 2% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                   personnages soutenus.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 3% et ajoute 3% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                   personnages soutenus.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 4% et ajoute 4% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                   personnages soutenus.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </b> de 5% et ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les
                   personnages soutenus.</td>
               </tr>
@@ -1162,13 +1147,12 @@
           </table>
           <div id="3"></div>
           <h3>
-            <center><u>Fiche d'Ener</u></center>
+            Fiche d'Ener
           </h3>
           <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2969.png"> <img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2970.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/pELC0vu.png"><img src="https://i.imgur.com/77AYxK8.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/pELC0vu.png"><img src="https://i.imgur.com/77AYxK8.png">
               <tbody>
                 <tr>
                   <td>Nom</td>
@@ -1184,16 +1168,16 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </p><b></td>
                 </tr>
-                <tr>
-                  <td>Classe 1</td>
-                  <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux</td>
+                <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Ambitieux</td>
                 </tr>
-                <tr>
-                  <td>Classe 2</td>
-                  <td><img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;" /> Tireur</td>
+                <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Tireur</td>
                 </tr>
                 <tr>
                   <td>Coût</td>
@@ -1232,21 +1216,21 @@
                 <tr>
                   <td>Captain Ability</td>
                   <td>Multiplie l'ATK des personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> et <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> par 2,5 et restaure les HP avec 5 fois sa RCV à la fin de chaque tour.</td>
                 </tr>
                 <tr>
                   <td>Special (18→12)</td>
                   <td>Réduit le temps de chargement des coups spéciaux des personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> et <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de 2 tours, change les cercles des personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> et <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> en cercles coresspondants, réduit les HP de l'équipe de 50% et inflige 30 fois les HP perdus en
                     dégâts non élémentaires sur tous les ennemis.</td>
                 </tr>
@@ -1261,7 +1245,7 @@
                 </tr>
                 <tr>
                   <td>Crewmate Ability 2</td>
-                  <td>Ajoute 50 en ATK pour les personnages de type <b style='color:#A916B6'>INT</b>.</td>
+                  <td>Ajoute 50 en ATK pour les personnages de type <b >INT</b>.</td>
                 </tr>
                 <tr>
                   <td>Potential Ability 1</td>
@@ -1312,42 +1296,42 @@
                   <td></td>
                   <td>Personnages soutenus :<br>
                     <ul style="display: inline;">Personnages de type <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b></ul>
                   </td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> de 1% et ajoute 1% de l'ATK et de la RCV du personnage en ATK et RCV pour les personnages
                     soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> de 2% et ajoute 2% de l'ATK et de la RCV du personnage en ATK et RCV pour les personnages
                     soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> de 3% et ajoute 3% de l'ATK et de la RCV du personnage en ATK et RCV pour les personnages
                     soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> de 4% et ajoute 5% de l'ATK et de la RCV du personnage en ATK et RCV pour les personnages
                     soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> de 5% et ajoute 7% de l'ATK et de la RCV du personnage en ATK et RCV pour les personnages
                     soutenus.</td>
                 </tr>
@@ -1431,51 +1415,51 @@
                 <tr>
                   <td>Capacité</td>
                   <td>Lorsqu'il reste 6 alliés ou moins dans l'équipe, augmente les HP des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>1 niveau</b>, augmente la vitesse des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>1 niveau</b> et augmente la défense des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b>.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Lorsqu'il reste 6 alliés ou moins dans l'équipe, augmente les HP des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>2 niveaux</b>, augmente la vitesse des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>2 niveaux</b> et augmente la défense des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b>.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Lorsqu'il reste 6 alliés ou moins dans l'équipe, augmente les HP des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b>, augmente la vitesse des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b> et augmente la défense des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b>.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Lorsqu'il reste 6 alliés ou moins dans l'équipe, augmente les HP des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>4 niveaux</b>, augmente la vitesse des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>4 niveaux</b> et augmente la défense des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b>.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Lorsqu'il reste 6 alliés ou moins dans l'équipe, augmente les HP des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>5 niveaux</b>, augmente la vitesse des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>5 niveaux</b> et augmente la défense des alliés de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> de <b>3 niveaux</b>.</td>
                 </tr>
                 <tr>
@@ -1509,14 +1493,13 @@
             </table>
             <div id="4"></div>
             <h3>
-              <center><u>Fiche de Don Quijote Doflamingo</u></center>
+              Fiche de Don Quijote Doflamingo
             </h3>
             <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2971.png"> <img
                 src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2972.png"></center>
-            <table>
-              <table width="85%" align="center">
-                <caption><img src="https://i.imgur.com/Pk3XO1V.png"><img src="https://i.imgur.com/0bZEFGz.png">
-                </caption>
+            <table class="fiche-table">
+                <img src="https://i.imgur.com/Pk3XO1V.png"><img src="https://i.imgur.com/0bZEFGz.png">
+
                 <tbody>
                   <tr>
                     <td>Nom</td>
@@ -1532,16 +1515,16 @@
                     <td>Type</td>
                     <td><b>
                         <p>
-                          <font color="#A916B6">INT</font>
+                          INT
                         </p><b></td>
                   </tr>
-                  <tr>
-                    <td>Classe 1</td>
-                    <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux</td>
+                  <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Ambitieux</td>
                   </tr>
-                  <tr>
-                    <td>Classe 2</td>
-                    <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur</td>
+                  <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Ravageur</td>
                   </tr>
                   <tr>
                     <td>Coût</td>
@@ -1580,9 +1563,9 @@
                   <tr>
                     <td>Captain Ability</td>
                     <td>Multiplie l'ATK des personnages de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> et <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> par 2,75.</td>
                   </tr>
                   <tr>
@@ -1590,13 +1573,13 @@
                     <td>Réduit la durée de "Lien des coups spéciaux" de 2 tours, réduit la durée des réductions de
                       dégâts au-dessus d'un seuil, des augmentations de défense et des augmentations d'ATK dont
                       bénéficient les ennemis de 2 tours et si le capitaine est un personnage de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> ou <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b>, multiplie les effets de type des ATK normales des personnages de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> et <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> par 1,75 pendant un tour.</td>
                   </tr>
                   <tr>
@@ -1611,7 +1594,7 @@
                   <tr>
                     <td>Crewmate Ability 2</td>
                     <td>Rend les cercles <b>
-                        <font color="#DC241C">[STR]</font>
+                        [STR]
                       </b> avantageux pour le personnage.</td>
                   </tr>
                   <tr>
@@ -1757,31 +1740,31 @@
                   <tr>
                     <td>Capacité</td>
                     <td>Lorsqu'il reste 40 secondes ou moins, augmente la vitesse des alliés de type <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> de <b>2 niveaux</b>.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Lorsqu'il reste 40 secondes ou moins, augmente la vitesse des alliés de type <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> de <b>3 niveaux</b>.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Lorsqu'il reste 40 secondes ou moins, augmente la vitesse des alliés de type <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> de <b>4 niveaux</b>.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Lorsqu'il reste 40 secondes ou moins, augmente la vitesse des alliés de type <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> de <b>5 niveaux</b>.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Lorsqu'il reste 40 secondes ou moins, augmente la vitesse des alliés de type <b>
-                        <font color="#A916B6">INT</font>
+                        INT
                       </b> de <b>6 niveaux</b>.</td>
                   </tr>
                   <tr>
@@ -1813,31 +1796,31 @@
                   </tr>
                 </tbody>
               </table>
-              <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-              <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-              <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-              <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-              <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-              <div id="scrollUp">
-                <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-              </div>
-              <div class="baspage">
-                <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-              </div>
-              <style>
-                .baspage {
-                  position: relative;
-                  bottom: -1vw;
-                  max-width: 100%;
-                  width: 100%;
-                }
-              </style>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>
