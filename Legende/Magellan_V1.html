@@ -2,109 +2,96 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Magellan V1</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../style.css" />
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="Magellan">
-    <h1>
-      <center><u>Magellan V1</u></center>
+<body id="DEX">
+    <div id="optcnavbar"></div>
+<h1>
+      Magellan V1
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/m8lHlkXOnz4?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/tJBwkBEBre4?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1697.png"> <img
         src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1698.png"></center>
-    <table>
-      <table align="center">
-        <caption><img src="https://i.imgur.com/pIPJLig.png"><img src="https://i.imgur.com/Kx2GGlT.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/pIPJLig.png"><img src="https://i.imgur.com/Kx2GGlT.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -120,16 +107,16 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#1CAC24">DEX</font>
+                  DEX
                 </p><b></td>
           </tr>
-          <tr>
-            <td>Classe 1</td>
-            <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur</td>
+          <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Ravageur</td>
           </tr>
-          <tr>
-            <td>Classe 2</td>
-            <td><img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;" /> Tireur</td>
+          <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Tireur</td>
           </tr>
           <tr>
             <td>Coût</td>
@@ -426,12 +413,11 @@
       </table>
       <h2>
         <div id="6+"></div>
-        <center><u>Fiche (6★+)</u></center>
+        Fiche (6★+)
       </h2>
       <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2159.png"></center>
-      <table>
-        <table align="center">
-          <caption><img src="https://i.imgur.com/tl8KXQz.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/tl8KXQz.png">
           <tbody>
             <tr>
               <td>Nom</td>
@@ -447,16 +433,16 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#1CAC24">DEX</font>
+                    DEX
                   </p><b></td>
             </tr>
-            <tr>
-              <td>Classe 1</td>
-              <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur</td>
+            <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Ravageur</td>
             </tr>
-            <tr>
-              <td>Classe 2</td>
-              <td><img src="https://i.imgur.com/EgrFZDY.png" height="20" width="20" style="vertical-align: bottom;" /> Tireur</td>
+            <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Tireur</td>
             </tr>
             <tr>
               <td>Coût</td>
@@ -701,35 +687,35 @@
             <tr>
               <td>Capacité</td>
               <td>Réduit la défense des ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2 niveaux. Lorsqu'il reste 5 alliés ou plus dans l'équipe, augmente les HP de tous les alliés de
                 <b>3 niveaux</b>.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit la défense des ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2 niveaux. Lorsqu'il reste 5 alliés ou plus dans l'équipe, augmente les HP de tous les alliés de
                 <b>4 niveaux</b>.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit la défense des ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2 niveaux. Lorsqu'il reste 5 alliés ou plus dans l'équipe, augmente les HP de tous les alliés de
                 <b>5 niveaux</b>.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit la défense des ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2 niveaux. Lorsqu'il reste 5 alliés ou plus dans l'équipe, augmente les HP de tous les alliés de
                 <b>6 niveaux</b>.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit la défense des ennemis de type <b>
-                  <font color="#4C4CFF">QCK</font>
+                  QCK
                 </b> de 2 niveaux. Lorsqu'il reste 5 alliés ou plus dans l'équipe, augmente les HP de tous les alliés de
                 <b>7 niveaux</b>.</td>
             </tr>
@@ -765,17 +751,16 @@
           </tbody>
         </table>
         <h2>
-          <center><u>Personnages du lot</u></center>
+          Personnages du lot
         </h2>
         <div id="1"></div>
         <h3>
-          <center><u>Fiche de Jinbe</u></center>
+          Fiche de Jinbe
         </h3>
         <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1699.png"> <img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1700.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/OBfeNfn.png"><img src="https://i.imgur.com/dc1ykOB.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/OBfeNfn.png"><img src="https://i.imgur.com/dc1ykOB.png">
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -791,16 +776,16 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </p><b></td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                <td>Cogneur</td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                <td>Tenace</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -966,13 +951,12 @@
           </table>
           <div id="2"></div>
           <h3>
-            <center><u>Fiche d'Emporio Ivankov</u></center>
+            Fiche d'Emporio Ivankov
           </h3>
           <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1701.png"> <img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1702.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/jryV46O.png"><img src="https://i.imgur.com/twmZUlL.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/jryV46O.png"><img src="https://i.imgur.com/twmZUlL.png">
               <tbody>
                 <tr>
                   <td>Nom</td>
@@ -989,16 +973,16 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </p><b></td>
                 </tr>
-                <tr>
-                  <td>Classe 1</td>
-                  <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+                <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Libre</td>
                 </tr>
-                <tr>
-                  <td>Classe 2</td>
-                  <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel</td>
+                <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Intellectuel</td>
                 </tr>
                 <tr>
                   <td>Coût</td>
@@ -1045,11 +1029,11 @@
                 </tr>
                 <tr>
                   <td>Special - Stage 2 (12→7)</td>
-                  <td>Change les cercles <b style='color:darkslateblue'>[BLK]</b> en cercles correspondants.</td>
+                  <td>Change les cercles <b >[BLK]</b> en cercles correspondants.</td>
                 </tr>
                 <tr>
                   <td>Special - Stage 3 (15→10)</td>
-                  <td>Change les cercles <b style='color:darkslateblue'>[BLK]</b> et désavantageux en cercles
+                  <td>Change les cercles <b >[BLK]</b> et désavantageux en cercles
                     correspondants.</td>
                 </tr>
                 <tr>
@@ -1127,31 +1111,31 @@
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> de 1% et ajoute 2% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> de 2% et ajoute 4% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> de 3% et ajoute 6% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> de 4% et ajoute 8% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
                   <td></td>
                   <td>Réduit les dégâts subis par les ennemis de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b> de 5% et ajoute 10% des HP du personnage en HP pour les personnages soutenus.</td>
                 </tr>
                 <tr>
@@ -1177,14 +1161,13 @@
             </table>
             <div id="3"></div>
             <h3>
-              <center><u>Fiche d'Hannyabal</u></center>
+              Fiche d'Hannyabal
             </h3>
             <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1703.png"> <img
                 src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1704.png"></center>
-            <table>
-              <table width="85%" align="center">
-                <caption><img src="https://i.imgur.com/5VI2QPa.png"><img src="https://i.imgur.com/6cmMS18.png">
-                </caption>
+            <table class="fiche-table">
+                <img src="https://i.imgur.com/5VI2QPa.png"><img src="https://i.imgur.com/6cmMS18.png">
+
                 <tbody>
                   <tr>
                     <td>Nom</td>
@@ -1200,16 +1183,16 @@
                     <td>Type</td>
                     <td><b>
                         <p>
-                          <font color="#A916B6">INT</font>
+                          INT
                         </p><b></td>
                   </tr>
-                  <tr>
-                    <td>Classe 1</td>
-                    <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux</td>
+                  <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Ambitieux</td>
                   </tr>
-                  <tr>
-                    <td>Classe 2</td>
-                    <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur</td>
+                  <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Ravageur</td>
                   </tr>
                   <tr>
                     <td>Coût</td>
@@ -1247,7 +1230,7 @@
                   </tr>
                   <tr>
                     <td>Captain Ability</td>
-                    <td>Multiplie l'ATK des personnages de type <b style='color:#A916B6'>INT</b> par 2,5 et restaure les
+                    <td>Multiplie l'ATK des personnages de type <b >INT</b> par 2,5 et restaure les
                       HP avec 2 fois sa RCV à la fin de chaque tour.</td>
                   </tr>
                   <tr>
@@ -1267,7 +1250,7 @@
                   </tr>
                   <tr>
                     <td>Crewmate Ability 2</td>
-                    <td>Rend les cercles <b style='color:#BC5C0C'>[RCV]</b> et <b style='color:peru'>[TND]</b>
+                    <td>Rend les cercles <b >[RCV]</b> et <b >[TND]</b>
                       avantageux pour le personnage si le capitaine est un personnage de classe Ambitieux.</td>
                   </tr>
                   <tr>
@@ -1384,14 +1367,13 @@
               </table>
               <div id="4"></div>
               <h3>
-                <center><u>Fiche de Mr 2 Bonclay</u></center>
+                Fiche de Mr 2 Bonclay
               </h3>
               <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1705.png"> <img
                   src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1706.png"></center>
-              <table>
-                <table width="85%" align="center">
-                  <caption><img src="https://i.imgur.com/JJxIK3O.png"><img src="https://i.imgur.com/IwzDGa7.png">
-                  </caption>
+              <table class="fiche-table">
+                  <img src="https://i.imgur.com/JJxIK3O.png"><img src="https://i.imgur.com/IwzDGa7.png">
+
                   <tbody>
                     <tr>
                       <td>Nom</td>
@@ -1408,16 +1390,16 @@
                       <td>Type</td>
                       <td><b>
                           <p>
-                            <font color="#DC241C">STR</font>
+                            STR
                           </p><b></td>
                     </tr>
-                    <tr>
-                      <td>Classe 1</td>
-                      <td><img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre</td>
+                    <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Libre</td>
                     </tr>
-                    <tr>
-                      <td>Classe 2</td>
-                      <td><img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur</td>
+                    <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Cogneur</td>
                     </tr>
                     <tr>
                       <td>Coût</td>
@@ -1455,7 +1437,7 @@
                     </tr>
                     <tr>
                       <td>Captain Ability</td>
-                      <td>Multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b> par 2,5, puis par
+                      <td>Multiplie l'ATK des personnages de type <b >STR</b> par 2,5, puis par
                         3,125 après 3 "PARFAIT" d'affilée.</td>
                     </tr>
                     <tr>
@@ -1540,31 +1522,31 @@
                     <tr>
                       <td></td>
                       <td>Réduit les dégâts subis par les ennemis de type <b>
-                          <font color="#1CAC24">DEX</font>
+                          DEX
                         </b> de 1% et ajoute 5% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>Réduit les dégâts subis par les ennemis de type <b>
-                          <font color="#1CAC24">DEX</font>
+                          DEX
                         </b> de 2% et ajoute 7% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>Réduit les dégâts subis par les ennemis de type <b>
-                          <font color="#1CAC24">DEX</font>
+                          DEX
                         </b> de 3% et ajoute 10% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>Réduit les dégâts subis par les ennemis de type <b>
-                          <font color="#1CAC24">DEX</font>
+                          DEX
                         </b> de 4% et ajoute 12% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
                     <tr>
                       <td></td>
                       <td>Réduit les dégâts subis par les ennemis de type <b>
-                          <font color="#1CAC24">DEX</font>
+                          DEX
                         </b> de 5% et ajoute 15% des HP du personnage en HP pour les personnages soutenus.</td>
                     </tr>
                     <tr>
@@ -1588,31 +1570,31 @@
                     </tr>
                   </tbody>
                 </table>
-                <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-                <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-                <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-                <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-                <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-                <div id="scrollUp">
-                  <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-                </div>
-                <div class="baspage">
-                  <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-                </div>
-                <style>
-                  .baspage {
-                    position: relative;
-                    bottom: -1vw;
-                    max-width: 100%;
-                    width: 100%;
-                  }
-                </style>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>

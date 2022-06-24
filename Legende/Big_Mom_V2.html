@@ -2,111 +2,98 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Big Mom V2</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="Hody">
-    <h1>
-      <center><u>Big Mom V2</u></center>
+<body id="INT">
+    <div id="optcnavbar"></div>
+<h1>
+      Big Mom V2
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/-4mGNWZA8pk?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/-Yp7fY5x3Dc?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2535.png"> <img
         src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2536.png"></center>
     <center><img src="https://i.imgur.com/N6BkSoF.png"> <img src="https://i.imgur.com/SVwCGFB.png"> <img
         src="https://i.imgur.com/CR0G8CF.png"> <img src="https://i.imgur.com/Vf1cv09.png"></center>
-    <table>
-      <table align="center">
-        <caption><img src="https://i.imgur.com/rLuM9Uo.png"><img src="https://i.imgur.com/jJoo30S.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/rLuM9Uo.png"><img src="https://i.imgur.com/jJoo30S.png">
         <tbody>
           <tr>
             <td width="15%">Nom</td>
@@ -116,19 +103,19 @@
             <td>Histoire</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : Capitaine de l'équipage de Big Mom et homies de foudre. Grâce à Big Mom qui lui a donné une partie
               de son âme pour faire de lui son avatar, Zeus a la capacité de lancer des éclairs et de devenir si grand
               qu'il en obscurcit le ciel.<br>
               <hr>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : Capitaine de l'équipage de Big Mom et homies de feu. Grâce à Big Mom, qui lui a donné une partie de
               son âme pour faire de lui son avatar, Prométhée a la capacité de cracher du feu et d'acquérir une taille
               monumentale.<br>
               <hr>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : Capitaines de l'équipage de Big Mom et homies de foudre et de feu. Avec la foudre et les flammes
               que libèrent Zeus et Prométhée lorsqu'elle explose de rage, Big Mom offre une parfaite image de ce à quoi
               peut ressembler un Empereur.
@@ -142,7 +129,7 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#A916B6">INT</font> (Zeus et Big Mom) / <font color="#A916B6">INT</font> (Prométhée et
+                  INT (Zeus et Big Mom) / INT (Prométhée et
                   Big Mom)
                 </p><b></td>
           </tr>
@@ -150,13 +137,13 @@
             <td>Classe 1</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace
             </td>
           </tr>
@@ -164,13 +151,13 @@
             <td>Classe 2</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur
             </td>
           </tr>
@@ -182,13 +169,13 @@
             <td>Combo</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : 4<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : 4<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : 6
             </td>
           </tr>
@@ -205,13 +192,13 @@
             <td>HP</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : 3928 puis 4478 après le dépassement de limites puis 4828 après l'extension du dépassement de limites.<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : 3928 puis 4478 après le dépassement de limites puis 4828 après l'extension du dépassement de limites.<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : 4282 puis 4832 après le dépassement de limites puis 5182 après l'extension du dépassement de limites.
             </td>
           </tr>
@@ -219,13 +206,13 @@
             <td>ATK</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : 1602 puis 1832 après le dépassement de limites puis 2032 après l'extension du dépassement de limites.<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : 1602 puis 1832 après le dépassement de limites puis 2032 après l'extension du dépassement de limites.<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : 1668 puis 1898 après le dépassement de limites puis 2098 après l'extension du dépassement de limites.
             </td>
           </tr>
@@ -233,13 +220,13 @@
             <td>RCV</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : 82 puis 152 après le dépassement de limites puis 227 après l'extension du dépassement de limites.<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : 82 puis 152 après le dépassement de limites puis 227 après l'extension du dépassement de limites.<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : 118 puis 188 après le dépassement de limites puis 263 après l'extension du dépassement de limites.
             </td>
           </tr>
@@ -252,19 +239,19 @@
             <td>Captain Ability</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : Si l'équipe contient un personnage de chaque type, multiplie les dégâts subis par 1,75, multiplie
               l'ATK de tous les personnages par 3,25, les HP par 2 et restaure des HP proportionnellement aux ennemis
               vaincus et à la RCV de l'équipe à la fin de chaque tour.<br>
               <hr>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : Si l'équipe contient un personnage de chaque type, multiplie les dégâts subis par 1,75, multiplie
               l'ATK de tous les personnages par 3,25, les HP par 2 et restaure des HP proportionnellement aux ennemis
               vaincus et à la RCV de l'équipe à la fin de chaque tour.<br>
               <hr>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : Si l'équipe contient un personnage de chaque type, multiplie les dégâts subis par 1,75, multiplie
               l'ATK de tous les personnages par 4, les HP par 2 et restaure des HP proportionnellement aux ennemis
               vaincus et à la RCV de l'équipe à la fin de chaque tour.
@@ -280,29 +267,29 @@
             <td>Crewmate Ability 1</td>
             <td>
               <b>
-                <font color="#A916B6">Zeus et Big Mom</font>
+                Zeus et Big Mom
               </b> : Rend les cercles <b>
-                <font color="#DC241C">[STR]</font>
+                [STR]
               </b>, <b>
-                <font color="#ECAC04">[PSY]</font>
+                [PSY]
               </b> et <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> avantageux pour le personnage.<br>
               <b>
-                <font color="#A916B6">Prométhée et Big Mom</font>
+                Prométhée et Big Mom
               </b> : Rend les cercles <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b>, <b>
-                <font color="#4C4CFF">[QCK]</font>
+                [QCK]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b> avantageux pour le personnage.<br>
               <b>
-                <font color="#A916B6">Zeus, Prométhée et Big Mom</font>
+                Zeus, Prométhée et Big Mom
               </b> : Rend les cercles de type, <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b> et <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> avantageux pour le personnage.
             </td>
           </tr>
@@ -318,31 +305,31 @@
           <tr>
             <td>Potential Ability 1</td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 2%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 3%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 4%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 5%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 7%.</td>
           </tr>
           <tr>
@@ -497,24 +484,23 @@
         </tbody>
       </table>
       <h2>
-        <center><u>Personnages du lot</u></center>
+        Personnages du lot
       </h2>
       <h3>
-        <center><u>Fiche de Luffy et Law</u></center>
+        Fiche de Luffy et Law
       </h3>
       <center><a href="../Legende/Luffy_Law.html" target="_blank"><img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2534.png"></a></center>
       <div id="1"></div>
       <h3>
-        <center><u>Fiche de Lucci et Kaku</u></center>
+        Fiche de Lucci et Kaku
       </h3>
       <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2537.png"> <img
           src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2538.png"></center>
       <center><img src="https://i.imgur.com/YmyYEtu.png"> <img src="https://i.imgur.com/t4Vz2Fl.png"> <img
           src="https://i.imgur.com/5FR9Lqx.png"> <img src="https://i.imgur.com/2oWSvfe.png"></center>
-      <table>
-        <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/n7a5nGl.png"><img src="https://i.imgur.com/sLx9IkF.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/n7a5nGl.png"><img src="https://i.imgur.com/sLx9IkF.png">
           <tbody>
             <tr>
               <td width="15%">Nom</td>
@@ -524,21 +510,21 @@
               <td>Histoire</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : Agent secret travaillant pour le Gouvernement mondial au sein du Cipher Pol numéro 9. En raison
                 de ses aptitudes exceptionnelles, il est considéré comme l'assassin le plus puissant et le plus
                 impitoyable de l'histoire du CP9.<br>
                 <hr>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : Agent secret travaillant pour le Gouvernement mondial au sein du Cipher Pol numéro 9. Malgré son
                 jeune âge, il est considéré comme le deuxième meilleur élément du CP9 après Lucci et parvient à exécuter
                 la technique du "pied-ouragan" avec quatre lames, une à chaque membre.<br>
                 <hr>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : Agents secrets travaillant pour le Gouvernement mondial. Forts de leur statut de numéros 1 et 2
                 du CP9, ils pulvérisent Luffy et Zoro à Water Seven avant d'engager contre eux une violente bataille à
                 Enies Lobby.
@@ -552,22 +538,22 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#DC241C">STR</font> (Rob Lucci) / <font color="#1CAC24">DEX</font> (Kaku)
+                    STR (Rob Lucci) / DEX (Kaku)
                   </p><b></td>
             </tr>
             <tr>
               <td>Classe 1</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : <img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace
               </td>
             </tr>
@@ -575,15 +561,15 @@
               <td>Classe 2</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur
               </td>
             </tr>
@@ -595,15 +581,15 @@
               <td>Combo</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : 6<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 4<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 4
               </td>
             </tr>
@@ -620,17 +606,17 @@
               <td>HP</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : 2765 puis 2975 après le dépassement de limites puis 3325 après l'extension du dépassement de
                 limites.<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 2694 puis 2904 après le dépassement de limites puis 3254 après l'extension du dépassement de
                 limites.<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 2885 puis 3095 après le dépassement de limites puis 3445 après l'extension du dépassement de
                 limites.
               </td>
@@ -639,17 +625,17 @@
               <td>ATK</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : 1466 puis 1576 après le dépassement de limites puis 1776 après l'extension du dépassement de
                 limites.<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 1424 puis 1534 après le dépassement de limites puis 1734 après l'extension du dépassement de
                 limites.<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 1511 puis 1621 après le dépassement de limites puis 1821 après l'extension du dépassement de
                 limites.
               </td>
@@ -658,17 +644,17 @@
               <td>RCV</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : 199 puis 239 après le dépassement de limites puis 314 après l'extension du dépassement de
                 limites.<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 282 puis 322 après le dépassement de limites puis 397 après l'extension du dépassement de
                 limites.<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : 302 puis 342 après le dépassement de limites puis 417 après l'extension du dépassement de limites.
               </td>
             </tr>
@@ -681,19 +667,19 @@
               <td>Captain Ability</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : Multiplie l'ATK des personnages de classe Tenace par 2,75 s'ils ont un cercle correspondant,
                 sinon par 2,25, et réduit la RCV de l'équipe de 50%.<br>
                 <hr>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : Multiplie l'ATK des personnages de classe Tenace par 2,25 et multiplie les dégâts élémentaires
                 infligés par les coups spéciaux des personnages de classe Tenace par 1,2.<br>
                 <hr>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : Multiplie l'ATK des personnages de classe Tenace par 3 s'ils ont un cercle correspondant, sinon
                 par 2,5, et multiplie les dégâts élémentaires infligés par les coups spéciaux des personnages de classe
                 Tenace par 1,5.
@@ -709,21 +695,21 @@
               <td>Crewmate Ability 1</td>
               <td>
                 <b>
-                  <font color="#DC241C">Rob Lucci</font>
+                  Rob Lucci
                 </b> : Ajoute 30 en HP et ATK pour les personnages de classe Tenace et Cogneur.<br>
                 <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : Ajoute 30 en HP et ATK pour les personnages de classe Tenace et Sabreur.<br>
                 <b>
-                  <font color="#DC241C">Lucci</font>
+                  Lucci
                 </b> <b>et</b> <b>
-                  <font color="#1CAC24">Kaku</font>
+                  Kaku
                 </b> : Ajoute 50 en HP et ATK pour les personnages de classe Tenace, Cogneur et Sabreur.
               </td>
             </tr>
             <tr>
               <td>Effets du changement</td>
-              <td>Rend les cercles <b style='color:peru'>[TND]</b> avantageux pour les personnages de classe Tenace,
+              <td>Rend les cercles <b >[TND]</b> avantageux pour les personnages de classe Tenace,
                 Cogneur et Sabreur pendant un tour et ajoute 0,3 au multiplicateur de combos pendant un tour.</td>
             </tr>
             <tr>
@@ -886,15 +872,14 @@
         </table>
         <div id="2"></div>
         <h3>
-          <center><u>Fiche d'Ivankov et Bonclay</u></center>
+          Fiche d'Ivankov et Bonclay
         </h3>
         <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2539.png"> <img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2540.png"></center>
         <center><img src="https://i.imgur.com/wqXv9o1.png"> <img src="https://i.imgur.com/o1BzzkD.png"> <img
             src="https://i.imgur.com/rtTxzRq.png"> <img src="https://i.imgur.com/04lqawN.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/UMsr8Ex.png"><img src="https://i.imgur.com/V4byfew.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/UMsr8Ex.png"><img src="https://i.imgur.com/V4byfew.png">
             <tbody>
               <tr>
                 <td width="15%">Nom</td>
@@ -904,20 +889,20 @@
                 <td>Histoire</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : Lieutenant de l'armée révolutionnaire. Grâce au fruit des hormones, dont les pouvoirs
                   permettent de manipuler les hormones de façon à modifier les gens de l'intérieur, il fait passer les
                   chances de survie de Luffy de 0% à 2 ou 3%.<br>
                   <hr>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : Ancien agent de Baroque Works. Pour sauver Luffy, avec qui il a noué une amitié si forte
                   qu'elle émeut Ivankov, il n'hésite pas à risquer sa propre vie.<br>
                   <hr>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : Lieutenant de l'armée révolutionnaire et ancien agent de Baroque Works. Ému par la façon dont
                   Bonclay soutient son ami dans son combat contre la mort, Ivankov décide de joindre sa voix à la sienne
                   et d'encourager Luffy.
@@ -931,7 +916,7 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#ECAC04">PSY</font> (Emporio Ivankov) / <font color="#DC241C">STR</font> (Mr 2
+                      PSY (Emporio Ivankov) / STR (Mr 2
                       Bonclay)
                     </p><b></td>
               </tr>
@@ -939,15 +924,15 @@
                 <td>Classe 1</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : <img src="https://i.imgur.com/zVl1bkZ.png" height="20" width="20" style="vertical-align: bottom;" /> Libre
                 </td>
               </tr>
@@ -955,15 +940,15 @@
                 <td>Classe 2</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : <img src="https://i.imgur.com/Bb886qJ.png" height="20" width="20" style="vertical-align: bottom;" /> Cogneur
                 </td>
               </tr>
@@ -975,15 +960,15 @@
                 <td>Combo</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : 4<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : 6<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : 6
                 </td>
               </tr>
@@ -1000,17 +985,17 @@
                 <td>HP</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : 2322 puis 2487 après le dépassement de limites puis 2687 après l'extension du dépassement de
                   limites.<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : 2490 puis 2655 après le dépassement de limites puis 2855 après l'extension du dépassement de
                   limites.<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : 2552 puis 2717 après le dépassement de limites puis 2917 après l'extension du dépassement de
                   limites.
                 </td>
@@ -1019,17 +1004,17 @@
                 <td>ATK</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : 1299 puis 1394 après le dépassement de limites puis 1594 après l'extension du dépassement de
                   limites.<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : 1372 puis 1467 après le dépassement de limites puis 1667 après l'extension du dépassement de
                   limites.<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : 1387 puis 1482 après le dépassement de limites puis 1682 après l'extension du dépassement de
                   limites.
                 </td>
@@ -1038,17 +1023,17 @@
                 <td>RCV</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : 388 puis 453 après le dépassement de limites puis 553 après l'extension du dépassement de
                   limites.<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : 355 puis 420 après le dépassement de limites puis 520 après l'extension du dépassement de
                   limites.<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : 401 puis 466 après le dépassement de limites puis 566 après l'extension du dépassement de
                   limites.
                 </td>
@@ -1062,19 +1047,19 @@
                 <td>Captain Ability</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : Multiplie l'ATK des personnages de classe Libre par 2 et restaure les HP avec 2 fois sa RCV à
                   la fin de chaque tour.<br>
                   <hr>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : Multiplie l'ATK des personnages de classe Libre par 2,25, puis par 2,7 après 4 "PARFAIT"
                   d'affilée.<br>
                   <hr>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : Multiplie l'ATK des personnages de classe Libre par 2,75, puis par 3,43 après 4 "PARFAIT"
                   d'affilée et restaure les HP avec 3 fois sa RCV à la fin de chaque tour.
                 </td>
@@ -1089,15 +1074,15 @@
                 <td>Crewmate Ability 1</td>
                 <td>
                   <b>
-                    <font color="#ECAC04">Emporio Ivankov</font>
+                    Emporio Ivankov
                   </b> : Ajoute 50 en RCV pour les personnages de classe Libre.<br>
                   <b>
-                    <font color="#DC241C">Mr 2 Bonclay</font>
+                    Mr 2 Bonclay
                   </b> : Ajoute 50 en ATK pour les personnages de classe Libre.<br>
                   <b>
-                    <font color="#ECAC04">Ivankov</font>
+                    Ivankov
                   </b> <b>et</b> <b>
-                    <font color="#DC241C">Bonclay</font>
+                    Bonclay
                   </b> : Ajoute 75 en ATK et RCV pour les personnages de classe Libre.
                 </td>
               </tr>
@@ -1265,15 +1250,14 @@
           </table>
           <div id="3"></div>
           <h3>
-            <center><u>Fiche de Smoker et Tashigi</u></center>
+            Fiche de Smoker et Tashigi
           </h3>
           <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2541.png"> <img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2542.png"></center>
           <center><img src="https://i.imgur.com/jcWzUkN.png"> <img src="https://i.imgur.com/shzt7QD.png"> <img
               src="https://i.imgur.com/iha2bsL.png"> <img src="https://i.imgur.com/qw9HrRC.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/56fkJ9u.png"><img src="https://i.imgur.com/iW5EjPc.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/56fkJ9u.png"><img src="https://i.imgur.com/iW5EjPc.png">
               <tbody>
                 <tr>
                   <td width="15%">Nom</td>
@@ -1283,21 +1267,21 @@
                   <td>Histoire</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : Vice-amiral à la base G-5 de la Marine. Pris au piège par Vergo à Punk Hazard, il apprend que
                     ce dernier a caché son statut de pirate pour devenir vice-amiral, il l'affronte avec Law afin de lui
                     régler définitivement son compte.<br>
                     <hr>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : Colonel à la base G-5 de la Marine. En plus d'avoir un sens aigu de la justice, elle est
                     également très attentionnée envers ses subalternes, ce qui la conduit à taire la trahison de Vergo
                     pour leur épargner tout choc inutile.<br>
                     <hr>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : Vice-amiral et colonel à la base G-5 de la Marine. Bien qu'ils appartiennent à la Marine, les
                     sentiments que leur inspire l'équipage de Chapeau de paille semblent assez complexes, à tel point
                     qu'ils acceptent de combattre temporairement avec eux sur Punk Hazard.
@@ -1311,22 +1295,22 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#4C4CFF">QCK</font> (Smoker) / <font color="#ECAC04">PSY</font> (Tashigi)
+                        QCK (Smoker) / PSY (Tashigi)
                       </p><b></td>
                 </tr>
                 <tr>
                   <td>Classe 1</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur<br>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur<br>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux
                   </td>
                 </tr>
@@ -1334,16 +1318,16 @@
                   <td>Classe 2</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : <img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux<br>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" />
                     Intellectuel<br>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur
                   </td>
                 </tr>
@@ -1368,15 +1352,15 @@
                   <td>HP</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : 2615 puis 2815 après le dépassement de limites.<br>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : 1989 puis 2189 après le dépassement de limites.<br>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : 2711 puis 2911 après le dépassement de limites.
                   </td>
                 </tr>
@@ -1384,15 +1368,15 @@
                   <td>ATK</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : 1367 puis 1467 après le dépassement de limites.<br>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : 1312 puis 1412 après le dépassement de limites.<br>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : 1402 puis 1502 après le dépassement de limites.
                   </td>
                 </tr>
@@ -1400,15 +1384,15 @@
                   <td>RCV</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : 141 puis 191 après le dépassement de limites.<br>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : 354 puis 404 après le dépassement de limites.<br>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : 388 puis 438 après le dépassement de limites.
                   </td>
                 </tr>
@@ -1421,79 +1405,79 @@
                   <td>Captain Ability</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> : Multiplie l'ATK des personnages de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> par 2,5, multiplie l'ATK des personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b>, <b>
-                      <font color="#1CAC24">DEX</font>
+                      DEX
                     </b>, <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> et <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> par 2 et multiplie les HP de tous les personnages par 1,2.<br>
                     <hr>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : Multiplie l'ATK des personnages de type <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> par 2,5, multiplie l'ATK des personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b>, <b>
-                      <font color="#1CAC24">DEX</font>
+                      DEX
                     </b>, <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> et <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> par 2 et multiplie les HP de tous les personnages par 1,2.<br>
                     <hr>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
+                      Tashigi
                     </b> : Multiplie l'ATK des personnages de type <b>
-                      <font color="#4C4CFF">QCK</font>
+                      QCK
                     </b> et <b>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </b> par 3,25, multiplie l'ATK des personnages de type <b>
-                      <font color="#DC241C">STR</font>
+                      STR
                     </b>, <b>
-                      <font color="#1CAC24">DEX</font>
+                      DEX
                     </b> et <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b> par 2,5 et multiplie les HP de tous les personnages par 1,2.
                   </td>
                 </tr>
                 <tr>
                   <td>Special (21→15 puis 14)</td>
                   <td>Inflige 100 000 points de dégâts fixes sur un ennemi, change les cercles de type et <b
-                      style='color:darkslateblue'>[BLK]</b> en cercles correspondants, bloque les cercles pendant un
+                      >[BLK]</b> en cercles correspondants, bloque les cercles pendant un
                     tour et devient “Smoker et Tashigi” pendant 2 tours.</td>
                 </tr>
                 <tr>
                   <td>Crewmate Ability 1</td>
                   <td>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
-                    </b> : Ajoute 50 en HP pour les personnages de type <b style='color:#4C4CFF'>QCK</b> et <b
-                      style='color:#ECAC04'>PSY</b>.<br>
+                      Smoker
+                    </b> : Ajoute 50 en HP pour les personnages de type <b >QCK</b> et <b
+                      >PSY</b>.<br>
                     <b>
-                      <font color="#ECAC04">Tashigi</font>
-                    </b> : Ajoute 50 en RCV pour les personnages de type <b style='color:#4C4CFF'>QCK</b> et <b
-                      style='color:#ECAC04'>PSY</b>.<br>
+                      Tashigi
+                    </b> : Ajoute 50 en RCV pour les personnages de type <b >QCK</b> et <b
+                      >PSY</b>.<br>
                     <b>
-                      <font color="#4C4CFF">Smoker</font>
+                      Smoker
                     </b> <b>et</b> <b>
-                      <font color="#ECAC04">Tashigi</font>
-                    </b> : Ajoute 75 en HP et RCV pour les personnages de type <b style='color:#4C4CFF'>QCK</b> et <b
-                      style='color:#ECAC04'>PSY</b>.
+                      Tashigi
+                    </b> : Ajoute 75 en HP et RCV pour les personnages de type <b >QCK</b> et <b
+                      >PSY</b>.
                   </td>
                 </tr>
                 <tr>
                   <td>Effets du changement</td>
-                  <td>Mélange les cercles <b style='color:#BC5C0C'>[RCV]</b>, <b style='color:#777'>[EMP]</b>, <b
-                      style='color:orange'>[G]</b> et <b style='color:maroon'>[BOMB]</b> aléatoirement et restaure 1 000
+                  <td>Mélange les cercles <b >[RCV]</b>, <b >[EMP]</b>, <b
+                      >[G]</b> et <b >[BOMB]</b> aléatoirement et restaure 1 000
                     HP.</td>
                 </tr>
                 <tr>
@@ -1503,8 +1487,8 @@
                 </tr>
                 <tr>
                   <td>Crewmate Ability 2</td>
-                  <td>Rend les cercles <b style='color:peru'>[TND]</b> avantageux pour les personnages de type <b
-                      style='color:#4C4CFF'>QCK</b> et <b style='color:#ECAC04'>PSY</b>.</td>
+                  <td>Rend les cercles <b >[TND]</b> avantageux pour les personnages de type <b
+                      >QCK</b> et PSY</b>.</td>
                 </tr>
                 <tr>
                   <td>Potential Ability 1</td>
@@ -1652,16 +1636,15 @@
             </table>
             <div id="4"></div>
             <h3>
-              <center><u>Fiche de Mr 0 et Miss Allsunday</u></center>
+              Fiche de Mr 0 et Miss Allsunday
             </h3>
             <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2543.png"> <img
                 src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2544.png"></center>
             <center><img src="https://i.imgur.com/LkGSUl0.png"> <img src="https://i.imgur.com/KNzO3bP.png"> <img
                 src="https://i.imgur.com/f1nPm2E.png"> <img src="https://i.imgur.com/zrjjrJJ.png"></center>
-            <table>
-              <table width="85%" align="center">
-                <caption><img src="https://i.imgur.com/sug1GgK.png"><img src="https://i.imgur.com/x7fT7V5.png">
-                </caption>
+            <table class="fiche-table">
+                <img src="https://i.imgur.com/sug1GgK.png"><img src="https://i.imgur.com/x7fT7V5.png">
+
                 <tbody>
                   <tr>
                     <td width="15%">Nom</td>
@@ -1671,21 +1654,21 @@
                     <td>Histoire</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : Patron de Baroque Works et membre de l'ordre des sept grands corsaires. Pour mettre la main
                       sur l'arme la plus destructrice au monde, il décide de nouer une alliance avec Miss Allsunday,
                       estimant que son intelligence et sa force de commandement pourraient lui être utiles.<br>
                       <hr>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : Vice-présidente et commandante en chef de Baroque Works. Malgré sa relative loyauté envers
                       Mr 0, avec lequel elle a conclu un accord devant lui permettre de trouver des ponéglyphes, il lui
                       arrive d'agir contre sa volonté en sauvant la vie de certains de ses ennemis.<br>
                       <hr>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : Président et vice-présidente de Baroque Works. Grâce à la combinaison de leurs pouvoirs,
                       ils peuvent immobiliser leurs adversaires et les faire disparaître dans de violentes tempêtes de
                       sable, rendant toute opposition particulièrement ardue.
@@ -1699,24 +1682,24 @@
                     <td>Type</td>
                     <td><b>
                         <p>
-                          <font color="#1CAC24">DEX</font> (Mr 0) / <font color="#A916B6">INT</font> (Miss Allsunday)
+                          DEX (Mr 0) / INT (Miss Allsunday)
                         </p><b></td>
                   </tr>
                   <tr>
                     <td>Classe 1</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" />
                       Intellectuel<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" />
                       Intellectuel<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : <img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel
                     </td>
                   </tr>
@@ -1724,15 +1707,15 @@
                     <td>Classe 2</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : <img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : <img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur
                     </td>
                   </tr>
@@ -1744,15 +1727,15 @@
                     <td>Combo</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : 4<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 4<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 6
                     </td>
                   </tr>
@@ -1769,17 +1752,17 @@
                     <td>HP</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : 2651 puis 2851 après le dépassement de limites puis 3351 après l'extension du dépassement
                       de limites.<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 2008 puis 2208 après le dépassement de limites puis 2708 après l'extension du dépassement
                       de limites.<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 2723 puis 2923 après le dépassement de limites puis 3423 après l'extension du dépassement
                       de limites.
                     </td>
@@ -1788,17 +1771,17 @@
                     <td>ATK</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : 1412 puis 1512 après le dépassement de limites puis 1712 après l'extension du dépassement
                       de limites.<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 1288 puis 1388 après le dépassement de limites puis 1588 après l'extension du dépassement
                       de limites.<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 1431 puis 1531 après le dépassement de limites puis 1731 après l'extension du dépassement
                       de limites.
                     </td>
@@ -1807,17 +1790,17 @@
                     <td>RCV</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : 322 puis 372 après le dépassement de limites puis 422 après l'extension du dépassement de
                       limites.<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 331 puis 381 après le dépassement de limites puis 431 après l'extension du dépassement de
                       limites.<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : 345 puis 395 après le dépassement de limites puis 445 après l'extension du dépassement de
                       limites.
                     </td>
@@ -1831,23 +1814,23 @@
                     <td>Captain Ability</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : Multiplie l'ATK des personnages de classe Intellectuel par 2,5 et rend les cercles <b>
-                        <font color="#1CAC24">[DEX]</font>
+                        [DEX]
                       </b> avantageux pour les personnages de classe Intellectuel.<br>
                       <hr>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : Multiplie l'ATK des personnages de classe Intellectuel par 2,25 et réduit les dégâts subis
                       de 15%.<br>
                       <hr>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : Multiplie l'ATK des personnages de classe Intellectuel par 3, réduit les dégâts subis de
                       20% et rend les cercles <b>
-                        <font color="#1CAC24">[DEX]</font>
+                        [DEX]
                       </b> avantageux pour les personnages de classe Intellectuel.<br>
                     </td>
                   </tr>
@@ -1860,15 +1843,15 @@
                     <td>Crewmate Ability 1</td>
                     <td>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> : Réduit l'inversion de son coup spécial de 3 tours.<br>
                       <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : Réduit la durée de “Lien des coups spéciaux” du personnage de 2 tours.<br>
                       <b>
-                        <font color="#1CAC24">Mr 0</font>
+                        Mr 0
                       </b> <b>et</b> <b>
-                        <font color="#A916B6">Miss Allsunday</font>
+                        Miss Allsunday
                       </b> : Ajoute 50 en HP, ATK et RCV pour les personnages de classe Intellectuel.
                     </td>
                   </tr>
@@ -1878,67 +1861,67 @@
                   </tr>
                   <tr>
                     <td>Crewmate Ability 2</td>
-                    <td>Rend les cercles <b style='color:#1CAC24'>[DEX]</b> avantageux pour les personnages de classe
+                    <td>Rend les cercles <b >[DEX]</b> avantageux pour les personnages de classe
                       Intellectuel.</td>
                   </tr>
                   <tr>
                     <td>Potential Ability 1</td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </b> de 1%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </b> de 2%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </b> de 3%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </b> de 4%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#4C4CFF">QCK</font>
+                        QCK
                       </b> de 5%.</td>
                   </tr>
                   <tr>
                     <td>Potential Ability 2</td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#ECAC04">PSY</font>
+                        PSY
                       </b> de 1%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#ECAC04">PSY</font>
+                        PSY
                       </b> de 2%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#ECAC04">PSY</font>
+                        PSY
                       </b> de 3%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#ECAC04">PSY</font>
+                        PSY
                       </b> de 4%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#ECAC04">PSY</font>
+                        PSY
                       </b> de 5%.</td>
                   </tr>
                   <tr>
@@ -2063,31 +2046,31 @@
                   </tr>
                 </tbody>
               </table>
-              <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-              <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-              <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-              <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-              <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-              <div id="scrollUp">
-                <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-              </div>
-              <div class="baspage">
-                <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-              </div>
-              <style>
-                .baspage {
-                  position: relative;
-                  bottom: -1vw;
-                  max-width: 100%;
-                  width: 100%;
-                }
-              </style>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>

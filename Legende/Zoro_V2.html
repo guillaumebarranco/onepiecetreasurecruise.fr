@@ -2,109 +2,96 @@
 <html>
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-127847674-1');
-  </script>
   <meta charset="utf-8" />
   <title>Roronoa Zoro V2</title>
-  <link href="../bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../shared/generic.css" />
-  <link rel="stylesheet" href="../style.css" />
-  <script src="../Personnages utiles/script.js"></script>
-  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="https://i.imgur.com/qX3dfaM.png" type="image/png">
-  <link rel="icon" sizes="32x32" href="https://i.imgur.com/8878Ai5.png" type="image/png">
-  <link rel="icon" sizes="64x64" href="https://i.imgur.com/g9Z1vTh.png" type="image/png">
-  <link rel="icon" sizes="96x96" href="https://i.imgur.com/JrwHqpx.png" type="image/png">
-  <link rel="icon" sizes="196x196" href="https://i.imgur.com/RlxE1HW.png" type="image/png">
-  <link rel="apple-touch-icon" sizes="152x152" href="https://i.imgur.com/JLXSWVX.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="https://i.imgur.com/Qu453Fa.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="https://i.imgur.com/Axrgthf.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="https://i.imgur.com/lrkVWWl.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://i.imgur.com/dQsf6vt.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="https://i.imgur.com/fayMNRr.png">
-  <meta name="msapplication-TileImage" content="https://i.imgur.com/0Rbziea.png">
-  <meta name="msapplication-TileColor" content="#FFFFFF">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > 200) {
-            $('#scrollUp').css('right');
-          } else {
-            $('#scrollUp').removeAttr('style');
-          }
-        });
-      });
-    });
-  </script>
+  <link href="../bootstrap.css" rel="stylesheet" />
+    <link href="../shared/generic.css" rel="stylesheet" />
+    <link href="../shared/backgrounds.css" rel="stylesheet" />
+    <link href="../shared/fiches.css" rel="stylesheet" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://i.imgur.com/qX3dfaM.png" rel="icon" type="image/png" />
+    <link
+      href="https://i.imgur.com/8878Ai5.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/g9Z1vTh.png"
+      rel="icon"
+      sizes="64x64"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JrwHqpx.png"
+      rel="icon"
+      sizes="96x96"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/RlxE1HW.png"
+      rel="icon"
+      sizes="196x196"
+      type="image/png"
+    />
+    <link
+      href="https://i.imgur.com/JLXSWVX.png"
+      rel="apple-touch-icon"
+      sizes="152x152"
+    />
+    <link
+      href="https://i.imgur.com/Qu453Fa.png"
+      rel="apple-touch-icon"
+      sizes="60x60"
+    />
+    <link
+      href="https://i.imgur.com/Axrgthf.png"
+      rel="apple-touch-icon"
+      sizes="76x76"
+    />
+    <link
+      href="https://i.imgur.com/lrkVWWl.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="https://i.imgur.com/dQsf6vt.png"
+      rel="apple-touch-icon"
+      sizes="120x120"
+    />
+    <link
+      href="https://i.imgur.com/fayMNRr.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <meta
+      content="https://i.imgur.com/0Rbziea.png"
+      name="msapplication-TileImage"
+    />
+    <meta content="#FFFFFF" name="msapplication-TileColor" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
+    ></script>
+    <script src="../shared/analytics.js"></script>
+
 </head>
 
-<div class="entete">
-  <img src="https://i.imgur.com/adWoClY.png" class="entetefond">
-  <img src="https://i.imgur.com/VhPOSwk.png" class="newsboard">
-  <img src="https://i.imgur.com/iTZRvAT.png" class="entetetop">
-  <a href="/"><img src="https://i.imgur.com/g0NAqri.png" class="logo"></a>
-</div>
-<style>
-  .entetetop {
-    position: relative;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .entetefond {
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    width: 100%;
-  }
 
-  .logo {
-    width: 40vw;
-    top: 0;
-    left: 30%;
-    position: relative;
-  }
-
-  .newsboard {
-    top: 0;
-    right: 1vw;
-    max-width: 25%;
-    width: 25%;
-    position: absolute;
-  }
-</style>
-<div id="optcnavbar"></div>
-
-<header><a href="../Legende.html"><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50" alt="logo"></img></a></header>
-
-<body>
-
-  <body id="Mihawk">
-    <h1>
-      <center><u>Roronoa Zoro V2</u></center>
+<body id="INT">
+    <div id="optcnavbar"></div>
+<h1>
+      Roronoa Zoro V2
     </h1>
-    <center><iframe width="336" height="189" src="https://www.youtube.com/embed/OSahNpyFVig?rel=0&amp;showinfo=0"
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><iframe width="336" height="189"
-        src="https://www.youtube.com/embed/4J7K3yacig4?rel=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
     <h2>
-      <center><u>Fiche (6★)</u></center>
+      Fiche (6★)
     </h2>
     <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2476.png"> <img
         src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2477.png"></center>
-    <table>
-      <table align="center">
-        <caption><img src="https://i.imgur.com/8qL1coU.png"><img src="https://i.imgur.com/Resdv6h.png"></caption>
+    <table class="fiche-table">
+        <img src="https://i.imgur.com/8qL1coU.png"><img src="https://i.imgur.com/Resdv6h.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -120,16 +107,16 @@
             <td>Type</td>
             <td><b>
                 <p>
-                  <font color="#A916B6">INT</font>
+                  INT
                 </p><b></td>
           </tr>
-          <tr>
-            <td>Classe 1</td>
-            <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+          <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Sabreur</td>
           </tr>
-          <tr>
-            <td>Classe 2</td>
-            <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux</td>
+          <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Ambitieux</td>
           </tr>
           <tr>
             <td>Coût</td>
@@ -170,33 +157,33 @@
           <tr>
             <td>Captain Ability</td>
             <td>Multiplie l'ATK des personnages de classe Sabreur par 4,025 s'ils ont un cercle <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b> ou <b>
-                <font color="#A916B6">[INT]</font>
+                [INT]
               </b>, sinon par 3,25, multiplie les HP des personnages de classe Sabreur par 1,5 et rend les cercles <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b> et <b>
-                <font color="#A916B6">[INT]</font>
+                [INT]
               </b> avantageux pour les personnages de classe Sabreur.</td>
           </tr>
           <tr>
             <td>Captain Ability (après l'extension du dépassement de limites)</td>
             <td>Multiplie l'ATK des personnages de classe Sabreur par 4,225 s'ils ont un cercle <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b> ou <b>
-                <font color="#A916B6">[INT]</font>
+                [INT]
               </b>, sinon par 3,25, multiplie les HP des personnages de classe Sabreur par 1,5 et rend les cercles <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b> et <b>
-                <font color="#A916B6">[INT]</font>
+                [INT]
               </b> avantageux pour les personnages de classe Sabreur.</td>
           </tr>
           <tr>
             <td>Special (23→17 puis 14 puis 11)</td>
             <td>Inflige 120 fois son ATK en dégâts non élémentaires sur tous les ennemis, rend les cercles <b>
-                <font color="#BC5C0C">[RCV]</font>
+                [RCV]
               </b> et <b>
-                <font color="peru">[TND]</font>
+                [TND]
               </b> avantageux pour les personnages de classe Sabreur pendant 3 tours, multiplie l'ATK des personnages de
               classe Sabreur par 2 pendant un tour et si au moins 4 personnages font un coup "PARFAIT", multiplie l'ATK
               des personnages de type Sabreur par 2,25 au tour suivant.</td>
@@ -213,39 +200,39 @@
           <tr>
             <td>Crewmate Ability 2</td>
             <td>Rend les cercles <b>
-                <font color="#1CAC24">[DEX]</font>
+                [DEX]
               </b> et <b>
-                <font color="#A916B6">[INT]</font>
+                [INT]
               </b> avantageux pour les personnages de classe Sabreur.</td>
           </tr>
           <tr>
             <td>Potential Ability 1</td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 2%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 3%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 4%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 5%.</td>
           </tr>
           <tr>
             <td></td>
             <td>Réduit les dégâts subis par les ennemis de type <b>
-                <font color="#ECAC04">PSY</font>
+                PSY
               </b> de 7%.</td>
           </tr>
           <tr>
@@ -453,12 +440,11 @@
         </tbody>
       </table>
       <h2 id="6+">
-        <center><u>Fiche (6★+)</u></center>
+        Fiche (6★+)
       </h2>
       <center><img src="https://i.imgur.com/mSDcvqZ.png"></center>
-      <table>
-        <table width="85%" align="center">
-          <caption><img src="https://i.imgur.com/8We8FUX.png"></caption>
+      <table class="fiche-table">
+          <img src="https://i.imgur.com/8We8FUX.png">
           <tbody>
             <tr>
               <td>Nom</td>
@@ -474,16 +460,16 @@
               <td>Type</td>
               <td><b>
                   <p>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </p><b></td>
             </tr>
-            <tr>
-              <td>Classe 1</td>
-              <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+            <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Sabreur</td>
             </tr>
-            <tr>
-              <td>Classe 2</td>
-              <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux</td>
+            <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Ambitieux</td>
             </tr>
             <tr>
               <td>Coût</td>
@@ -524,43 +510,43 @@
             <tr>
               <td>Captain Ability</td>
               <td>Multiplie l'ATK des personnages de classe Sabreur par 4,225 s'ils ont un cercle <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> ou <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b>, sinon par 3,25, multiplie les HP des personnages de classe Sabreur par 1,5, réduit les dégâts
                 subis de 10%, augmente les chances d'apparaition des cercles <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> et <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b> et rend les cercles <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> et <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b> avantageux pour les personnages de classe Sabreur.</td>
             </tr>
             <tr>
               <td>Captain Ability (après l'extension du dépassement de limites)</td>
               <td>Multiplie l'ATK des personnages de classe Sabreur par 4,55 s'ils ont un cercle <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> ou <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b>, sinon par 3,5, multiplie les HP des personnages de classe Sabreur par 1,5, réduit les dégâts subis
                 de 10%, augmente les chances d'apparaition des cercles <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> et <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b> et rend les cercles <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> et <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b> avantageux pour les personnages de classe Sabreur.</td>
             </tr>
             <tr>
               <td>Special (23→17 puis 14 puis 11)</td>
               <td>Inflige 200 fois son ATK en dégâts non élémentaires sur tous les ennemis, rend les cercles <b>
-                  <font color="#BC5C0C">[RCV]</font>
+                  [RCV]
                 </b> et <b>
-                  <font color="peru">[TND]</font>
+                  [TND]
                 </b> avantageux pour les personnages de classe Sabreur pendant 3 tours, multiplie l'ATK des personnages
                 de classe Sabreur par 2,25 pendant un tour et si au moins 3 personnages font un coup "PARFAIT",
                 multiplie l'ATK des personnages de type Sabreur par 2,25 au tour suivant.</td>
@@ -577,39 +563,39 @@
             <tr>
               <td>Crewmate Ability 2</td>
               <td>Rend les cercles <b>
-                  <font color="#1CAC24">[DEX]</font>
+                  [DEX]
                 </b> et <b>
-                  <font color="#A916B6">[INT]</font>
+                  [INT]
                 </b> avantageux pour les personnages de classe Sabreur.</td>
             </tr>
             <tr>
               <td>Potential Ability 1</td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 2%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 3%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 4%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 5%.</td>
             </tr>
             <tr>
               <td></td>
               <td>Réduit les dégâts subis par les ennemis de type <b>
-                  <font color="#ECAC04">PSY</font>
+                  PSY
                 </b> de 7%.</td>
             </tr>
             <tr>
@@ -819,22 +805,21 @@
           </tbody>
         </table>
         <h2>
-          <center><u>Personnages du lot</u></center>
+          Personnages du lot
         </h2>
         <h3>
-          <center><u>Fiche de Dracule Mihawk</u></center>
+          Fiche de Dracule Mihawk
         </h3>
         <center><a href="../Legende/Mihawk_V2.html" target="_blank"><img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2475.png"></a></center>
         <div id="1"></div>
         <h3>
-          <center><u>Fiche de Mr 1</u></center>
+          Fiche de Mr 1
         </h3>
         <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2478.png"> <img
             src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2479.png"></center>
-        <table>
-          <table width="85%" align="center">
-            <caption><img src="https://i.imgur.com/l6aCKER.png"><img src="https://i.imgur.com/sMg8kJh.png"></caption>
+        <table class="fiche-table">
+            <img src="https://i.imgur.com/l6aCKER.png"><img src="https://i.imgur.com/sMg8kJh.png">
             <tbody>
               <tr>
                 <td>Nom</td>
@@ -850,16 +835,16 @@
                 <td>Type</td>
                 <td><b>
                     <p>
-                      <font color="#ECAC04">PSY</font>
+                      PSY
                     </p><b></td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 1</td>
-                <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                <td>Sabreur</td>
               </tr>
-              <tr>
+              <tr class="character-classes">
                 <td>Classe 2</td>
-                <td><img src="https://i.imgur.com/LsINwdq.png" height="20" width="20" style="vertical-align: bottom;" /> Intellectuel</td>
+                <td>Intellectuel</td>
               </tr>
               <tr>
                 <td>Coût</td>
@@ -905,8 +890,8 @@
               <tr>
                 <td>Special (18→17 puis 11)</td>
                 <td>Enlève 20% des HP d’un ennemi en ignorant les effets défensifs, mélange les cercles qui ne sont pas
-                  correspondants (cercles <b style='color:darkslateblue'>[BLK]</b> inclus), annule les réductions d'ATK
-                  liées aux cercles <b style='color:darkslateblue'>[BLK]</b> et désavantageux pendant 3 tours et réduit
+                  correspondants (cercles <b >[BLK]</b> inclus), annule les réductions d'ATK
+                  liées aux cercles <b >[BLK]</b> et désavantageux pendant 3 tours et réduit
                   la durée des réductions de dégâts, des augmentations de défense et des réductions de dégâts au-dessus
                   d'un seuil dont bénéficient les ennemis de 3 tours.</td>
               </tr>
@@ -921,37 +906,37 @@
               </tr>
               <tr>
                 <td>Crewmate Ability 2</td>
-                <td>Rend les cercles <b style='color:#ECAC04'>[PSY]</b> avantageux pour les personnages de classe
+                <td>Rend les cercles <b >[PSY]</b> avantageux pour les personnages de classe
                   Sabreur.</td>
               </tr>
               <tr>
                 <td>Potential Ability 1</td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 1%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 2%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 3%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 4%.</td>
               </tr>
               <tr>
                 <td></td>
                 <td>Réduit les dégâts subis par les ennemis de type <b>
-                    <font color="#A916B6">INT</font>
+                    INT
                   </b> de 5%.</td>
               </tr>
               <tr>
@@ -1157,13 +1142,12 @@
           </table>
           <div id="2"></div>
           <h3>
-            <center><u>Fiche de Hyozo</u></center>
+            Fiche de Hyozo
           </h3>
           <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2480.png"> <img
               src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2481.png"></center>
-          <table>
-            <table width="85%" align="center">
-              <caption><img src="https://i.imgur.com/owBoosG.png"><img src="https://i.imgur.com/7OYgt3P.png"></caption>
+          <table class="fiche-table">
+              <img src="https://i.imgur.com/owBoosG.png"><img src="https://i.imgur.com/7OYgt3P.png">
               <tbody>
                 <tr>
                   <td>Nom</td>
@@ -1179,16 +1163,16 @@
                   <td>Type</td>
                   <td><b>
                       <p>
-                        <font color="#1CAC24">DEX</font>
+                        DEX
                       </p><b></td>
                 </tr>
-                <tr>
-                  <td>Classe 1</td>
-                  <td><img src="https://i.imgur.com/EA0ZMlX.png" height="20" width="20" style="vertical-align: bottom;" /> Tenace</td>
+                <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Tenace</td>
                 </tr>
-                <tr>
-                  <td>Classe 2</td>
-                  <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Sabreur</td>
                 </tr>
                 <tr>
                   <td>Coût</td>
@@ -1231,11 +1215,11 @@
                   <td>Captain Ability</td>
                   <td>Multiplie les HP des personnages de classe Sabreur par 1,2. Multiplie l'ATK des personnages de
                     classe Sabreur par 2,25 puis après un enchaînement suivant un personnage de type <b>
-                      <font color="#A916B6">INT</font>
+                      INT
                     </b>, un personnage de type <b>
-                      <font color="#1CAC24">DEX</font>
+                      DEX
                     </b> et un personnage de type <b>
-                      <font color="#1CAC24">DEX</font>
+                      DEX
                     </b>, multiplie l'ATK des personnages de classe Sabreur par 2,81.</td>
                 </tr>
                 <tr>
@@ -1494,14 +1478,13 @@
             </table>
             <div id="3"></div>
             <h3>
-              <center><u>Fiche de Kaku</u></center>
+              Fiche de Kaku
             </h3>
             <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2482.png"> <img
                 src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2483.png"></center>
-            <table>
-              <table width="85%" align="center">
-                <caption><img src="https://i.imgur.com/n7XCjLP.png"><img src="https://i.imgur.com/rnx9MXS.png">
-                </caption>
+            <table class="fiche-table">
+                <img src="https://i.imgur.com/n7XCjLP.png"><img src="https://i.imgur.com/rnx9MXS.png">
+
                 <tbody>
                   <tr>
                     <td>Nom</td>
@@ -1517,16 +1500,16 @@
                     <td>Type</td>
                     <td><b>
                         <p>
-                          <font color="#4C4CFF">QCK</font>
+                          QCK
                         </p><b></td>
                   </tr>
-                  <tr>
-                    <td>Classe 1</td>
-                    <td><img src="https://i.imgur.com/97ymskP.png" height="20" width="20" style="vertical-align: bottom;" /> Ravageur</td>
+                  <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Ravageur</td>
                   </tr>
-                  <tr>
-                    <td>Classe 2</td>
-                    <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                  <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Sabreur</td>
                   </tr>
                   <tr>
                     <td>Coût</td>
@@ -1580,7 +1563,7 @@
                   </tr>
                   <tr>
                     <td>Crewmate Ability 1</td>
-                    <td>Multiplie l'ATK du personnage contre les ennemis de type <b style='color:#1CAC24'>DEX</b> par 2.
+                    <td>Multiplie l'ATK du personnage contre les ennemis de type <b >DEX</b> par 2.
                     </td>
                   </tr>
                   <tr>
@@ -1595,31 +1578,31 @@
                   <tr>
                     <td>Potential Ability 1</td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 1%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 2%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 3%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 4%.</td>
                   </tr>
                   <tr>
                     <td></td>
                     <td>Réduit les dégâts subis par les ennemis de type <b>
-                        <font color="#DC241C">STR</font>
+                        STR
                       </b> de 5%.</td>
                   </tr>
                   <tr>
@@ -1841,14 +1824,13 @@
               </table>
               <div id="4"></div>
               <h3>
-                <center><u>Fiche de Ryuma</u></center>
+                Fiche de Ryuma
               </h3>
               <center><img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2484.png"> <img
                   src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f2485.png"></center>
-              <table>
-                <table width="85%" align="center">
-                  <caption><img src="https://i.imgur.com/0zJVMWQ.png"><img src="https://i.imgur.com/XdHDkLR.png">
-                  </caption>
+              <table class="fiche-table">
+                  <img src="https://i.imgur.com/0zJVMWQ.png"><img src="https://i.imgur.com/XdHDkLR.png">
+
                   <tbody>
                     <tr>
                       <td>Nom</td>
@@ -1864,16 +1846,16 @@
                       <td>Type</td>
                       <td><b>
                           <p>
-                            <font color="#DC241C">STR</font>
+                            STR
                           </p><b></td>
                     </tr>
-                    <tr>
-                      <td>Classe 1</td>
-                      <td><img src="https://i.imgur.com/NPdyphi.png" height="20" width="20" style="vertical-align: bottom;" /> Sabreur</td>
+                    <tr class="character-classes">
+                <td>Classe 1</td>
+                <td>Sabreur</td>
                     </tr>
-                    <tr>
-                      <td>Classe 2</td>
-                      <td><img src="https://i.imgur.com/KD5mQrh.png" height="20" width="20" style="vertical-align: bottom;" /> Ambitieux</td>
+                    <tr class="character-classes">
+                <td>Classe 2</td>
+                <td>Ambitieux</td>
                     </tr>
                     <tr>
                       <td>Coût</td>
@@ -1911,7 +1893,7 @@
                     </tr>
                     <tr>
                       <td>Captain Ability</td>
-                      <td>Multiplie l'ATK des personnages de type <b style='color:#DC241C'>STR</b> par 2,5 et multiplie
+                      <td>Multiplie l'ATK des personnages de type <b >STR</b> par 2,5 et multiplie
                         les HP des personnages de classe Sabreur par 1,2.</td>
                     </tr>
                     <tr>
@@ -1930,7 +1912,7 @@
                     </tr>
                     <tr>
                       <td>Crewmate Ability 2</td>
-                      <td>Rend les cercles <b style='color:#4C4CFF'>[QCK]</b> avantageux pour le personnage.</td>
+                      <td>Rend les cercles <b >[QCK]</b> avantageux pour le personnage.</td>
                     </tr>
                     <tr>
                       <td>Potential Ability 1</td>
@@ -2140,31 +2122,31 @@
                     </tr>
                   </tbody>
                 </table>
-                <script type="text/javascript" src="../Accueil/js/jquery-3.3.1.min.js"></script>
-                <script src="../shared/navbar.js"></script>
-              <script>
-                addNavbar("legends", "", 1);
-              </script>
-                <script type="text/javascript" src="../Accueil/js/popper.min.js"></script>
-                <script type="text/javascript" src="../Accueil/js/bootstrap.min.js"></script>
-                <script type="text/javascript" src="../Accueil/js/mdb.js"></script>
-                <div id="scrollUp">
-                  <a href="#top"><img src="https://i.imgur.com/0f85aFb.png" height="60%" width="60%" /></a>
-                </div>
-                <div class="baspage">
-                  <img src="https://i.imgur.com/zGoXmaU.png" class="baspage">
-                </div>
-                <style>
-                  .baspage {
-                    position: relative;
-                    bottom: -1vw;
-                    max-width: 100%;
-                    width: 100%;
-                  }
-                </style>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../shared/navbar.js"></script>
+    <script>
+      addNavbar("legends", "", 1);
+    </script>
+    <script src="../shared/script.js"></script>
+    <script src="../Accueil/js/popper.min.js" type="text/javascript"></script>
+    <script
+      src="../Accueil/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../Accueil/js/mdb.js" type="text/javascript"></script>
+    <script src="../shared/colors.js"></script>
+    <script src="../shared/fiches.js"></script>
+    <script>
+      setTimeout(() => {
+        $(`.fiche-table`).each((index) => {
+          replaceOrbsColors($(`.fiche-table`)[index]);
+          replaceTypesColors($(`.fiche-table`)[index]);
+        });
+
+        addIconsToClasses();
+      }, 100);
+    </script>
   </body>
 
 </html>
 
-<table class="detail b">
-  <tbody>

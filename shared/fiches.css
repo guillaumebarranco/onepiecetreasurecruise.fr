@@ -61,3 +61,15 @@ h2 {
 .lbplus-ability {
   display: none;
 }
+
+h2, h3, img {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+.fiche-table {
+  text-align: left;
+}
