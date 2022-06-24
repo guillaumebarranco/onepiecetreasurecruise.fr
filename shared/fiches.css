@@ -66,8 +66,15 @@ h2, h3, img {
   text-align: center;
 }
 
+h2+img+img{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 body {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .fiche-table {
