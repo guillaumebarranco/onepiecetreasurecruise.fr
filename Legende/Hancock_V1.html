@@ -98,6 +98,17 @@
       </div>
     </div>
 
+    <div class="fiche-choices">
+      <div>
+        <label for="llb">Voir les capacités après le Level Limit Break</label>
+        <input type="checkbox" name="llb" checked>
+      </div>
+      <div>
+        <label for="lbplus">Voir les capacités après le LB+</label>
+        <input type="checkbox" name="lbplus" checked>
+      </div>
+    </div>
+
     <table class="fiche-table">
       <tbody>
         <tr>
@@ -154,46 +165,41 @@
         <tr>
           <td class="centered-td" colspan="2"><b>Abilités</b></td>
         </tr>
-        <tr>
+        <!-- Captain Ability -->
+        <tr class="classic-ability">
           <td>Captain Ability</td>
-          <td>Multiplie l'ATK des personnages de type <b>
-              QCK
-            </b> et <b>
-              PSY
-            </b> selon les HP de l'équipe au début du tour et si les HP sont en-dessous de 50%, multiplie la RCV des
-            personnages de type <b>
-              QCK
-            </b> et <b>
-              PSY
-            </b> par 1,5.<br>
+          <td>Multiplie l'ATK des personnages de type QCK et PSY selon les HP de l'équipe au début du tour et si les HP sont en-dessous de 50%, multiplie la RCV des personnages de type QCK et PSY par 1,5.<br />
+          <small>Par 2,75 si les HP de l'équipe sont au maximum et par 2,25 s'il ne reste qu'un HP à
+            l'équipe.</small></td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de type QCK et PSY par 5 et rend les cercles [QCK] et [PSY] avantageux pour ces personnages. Si les HP sont en-dessous de 50%, réduit les dégâts subis de 20%, multiplie la RCV des personnages de type QCK et PSY par 1,5 et permet aux personnages de consommer les cercles [RCV] même en cas de coup "PARFAIT".</td>
+        </tr>
+        <tr class="lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de type QCK et PSY selon les HP de l'équipe au début du tour et si les HP sont en-dessous de 50%, multiplie la RCV des personnages de type QCK et PSY par 1,5.<br />
             <small>Par 2,75 si les HP de l'équipe sont au maximum et par 2,25 s'il ne reste qu'un HP à
-              l'équipe.</small>
-          </td>
+              l'équipe.</small></td>
         </tr>
-        <tr>
-          <td>Special (17→13 puis 9)</td>
-          <td>Multiplie l'ATK et la RCV des personnages de type <b>
-              QCK
-            </b> et <b>
-              PSY
-            </b> par 1,75 pendant un tour, retarde toutes les attaques ennemies d'un tour, change le cercle du
-            capitaine en cercle <b>
-              [RCV]
-            </b> et si les HP sont au-dessus de 50%, change les cercles de la colonne de gauche en cercles
-            correspondants.</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>Level Limit Break</b>
-          </td>
-        </tr>
-        <tr>
+        <tr class="llb-lbplus-ability">
           <td>Captain Ability</td>
-          <td>
-            Multiplie l'ATK des personnages de type QCK et PSY par 5 et rend les cercles [QCK] et [PSY] avantageux pour ces personnages. Si les HP sont en-dessous de 50%, réduit les dégâts subis de 20%, multiplie la RCV des personnages de type QCK et PSY par 1,5 et permet aux personnages de consommer les cercles [RCV] même en cas de coup "PARFAIT".
-          </td>
+          <td>Multiplie l'ATK des personnages de type QCK et PSY par 5 et rend les cercles [QCK] et [PSY] avantageux pour ces personnages. Si les HP sont en-dessous de 50%, réduit les dégâts subis de 20%, multiplie la RCV des personnages de type QCK et PSY par 1,5 et permet aux personnages de consommer les cercles [RCV] même en cas de coup "PARFAIT".</td>
         </tr>
-        <tr>
+        <!-- Special -->
+        <tr class="classic-ability">
+          <td>Special (17→13)</td>
+          <td>Multiplie l'ATK et la RCV des personnages de type QCK et PSY par 1,75 pendant un tour, retarde toutes les attaques ennemies d'un tour, change le cercle du capitaine en cercle [RCV] et si les HP sont au-dessus de 50%, change les cercles de la colonne de gauche en cercles correspondants.</td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Special (17→13)</td>
+          <td>Applique l'effet "Mero-mero" à tous les ennemis et retarde tous les ennemis d'1 tour. Multiplie l'ATK et la RCV des personnages de type QCK et PSY par 2,25 pendant 2 tours, change les cercles des personnages de la colonne de droite en [RCV] et ceux des personnages de la colonne de gauche en cercles correspondants. Rend les cercles [RCV] et [TND] avantageux pendant 2 tours.</td>
+        </tr>
+        <tr class="lbplus-ability">
+          <td>Special (17→13 puis 9)</td>
+          <td>Multiplie l'ATK et la RCV des personnages de type QCK et PSY par 1,75 pendant un tour, retarde toutes les attaques ennemies d'un tour, change le cercle du capitaine en cercle [RCV] et si les HP sont au-dessus de 50%, change les cercles de la colonne de gauche en cercles correspondants.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
           <td>Special (17→13 puis 9)</td>
           <td>Applique l'effet "Mero-mero" à tous les ennemis et retarde tous les ennemis d'1 tour. Multiplie l'ATK et la RCV des personnages de type QCK et PSY par 2,25 pendant 2 tours, change les cercles des personnages de la colonne de droite en [RCV] et ceux des personnages de la colonne de gauche en cercles correspondants. Rend les cercles [RCV] et [TND] avantageux pendant 2 tours.</td>
         </tr>

@@ -85,9 +85,22 @@
       <div id="6+"></div>
       Fiche (6★+)
     </h2>
+
     <img src="https://i.imgur.com/bd769sX.png">
+    <img src="https://i.imgur.com/ZwmwcG9.png">
+
+    <div class="fiche-choices">
+      <div>
+        <label for="llb">Voir les capacités après le Level Limit Break</label>
+        <input type="checkbox" name="llb" checked>
+      </div>
+      <div>
+        <label for="lbplus">Voir les capacités après le LB+</label>
+        <input type="checkbox" name="lbplus" checked>
+      </div>
+    </div>
+
     <table class="fiche-table">
-        <img src="https://i.imgur.com/ZwmwcG9.png">
         <tbody>
           <tr>
             <td>Nom</td>
@@ -148,18 +161,39 @@
               <b>Abilités</b>
             </td>
           </tr>
-          <tr>
+          <!-- Captain Ability -->
+          <tr class="classic-ability">
             <td>Captain Ability</td>
-            <td>Multiplie l'ATK des personnages de classe Ambitieux par 3,5, les HP par 1,2 et rend les cercles <b>
-                [PSY]
-              </b> et <b>
-                [INT]
-              </b> avantageux pour les personnages de classe Ambitieux.</td>
+            <td>Multiplie l'ATK des personnages de classe Ambitieux par 3,5, les HP par 1,2 et rend les cercles [PSY] et [INT] avantageux pour les personnages de classe Ambitieux.</td>
           </tr>
-          <tr>
+          <tr class="llb-ability">
+            <td>Captain Ability</td>
+            <td>Multiplie l'ATK des personnages de classe Ambitieux par 5,25 s'ils ont un cercle correspondant, sinon par 5. Multiplie leur HP par 1,2 et rend les cercles [PSY], [INT] et [RCV] avantageux pour les personnages de classe Ambitieux. Restaure les HP avec 1x la RCV du personnage à chaque coup "PARFAIT" réalisé à la fin du tour.</td>
+          </tr>
+          <tr class="lbplus-ability">
+            <td>Captain Ability</td>
+            <td>Multiplie l'ATK des personnages de classe Ambitieux par 3,5, les HP par 1,2 et rend les cercles [PSY] et [INT] avantageux pour les personnages de classe Ambitieux.</td>
+          </tr>
+          <tr class="llb-lbplus-ability">
+            <td>Captain Ability</td>
+            <td>Multiplie l'ATK des personnages de classe Ambitieux par 5,25 s'ils ont un cercle correspondant, sinon par 5. Multiplie leur HP par 1,2 et rend les cercles [PSY], [INT] et [RCV] avantageux pour les personnages de classe Ambitieux. Restaure les HP avec 1x la RCV du personnage à chaque coup "PARFAIT" réalisé à la fin du tour.</td>
+          </tr>
+          <!-- Special -->
+          <tr class="classic-ability">
+            <td>Special (20→15 puis 13)</td>
+            <td>Change les cercles adjacents en cercles correspondants et multiplie les effets des cercles des personnages de classe Ambitieux par 2,25 pendant un tour.</td>
+          </tr>
+          <tr class="llb-ability">
+            <td>Special (20→15 puis 13)</td>
+            <td>Bloque tous les cercles pendant 1 tour, change les cercles adjacents ([BLK] inclus) en cercles correspondants et multiplie les effets des cercles des personnages de classe Ambitieux par 2,25 pendant 2 tours, et les effets de type par 1,75 pendant 2 tours. Rend les coups "PARFAIT" plus faciles à effectuer pendant 1 tour.</td>
+          </tr>
+          <tr class="lbplus-ability">
             <td>Special (20→15 puis 13 puis 12)</td>
-            <td>Change les cercles adjacents en cercles correspondants et multiplie les effets des cercles des
-              personnages de classe Ambitieux par 2,25 pendant un tour.</td>
+            <td>Change les cercles adjacents en cercles correspondants et multiplie les effets des cercles des personnages de classe Ambitieux par 2,25 pendant un tour.</td>
+          </tr>
+          <tr class="llb-lbplus-ability">
+            <td>Special (20→15 puis 13 puis 12)</td>
+            <td>Bloque tous les cercles pendant 1 tour, change les cercles adjacents ([BLK] inclus) en cercles correspondants et multiplie les effets des cercles des personnages de classe Ambitieux par 2,25 pendant 2 tours, et les effets de type par 1,75 pendant 2 tours. Rend les coups "PARFAIT" plus faciles à effectuer pendant 1 tour.</td>
           </tr>
           <tr>
             <td colspan="2">
@@ -1732,7 +1766,7 @@
 
                     <tr>
                       <td colspan="2">
-                        <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f0086.png"
+                        <img
                             > <img
 
                             > <img

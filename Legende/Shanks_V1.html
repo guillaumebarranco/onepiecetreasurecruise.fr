@@ -98,6 +98,17 @@
       </div>
     </div>
 
+    <div class="fiche-choices">
+      <div>
+        <label for="llb">Voir les capacités après le Level Limit Break</label>
+        <input type="checkbox" name="llb" checked>
+      </div>
+      <div>
+        <label for="lbplus">Voir les capacités après le LB+</label>
+        <input type="checkbox" name="lbplus" checked>
+      </div>
+    </div>
+
     <table class="fiche-table">
       <tbody>
         <tr>
@@ -113,10 +124,7 @@
         </tr>
         <tr>
           <td>Type</td>
-          <td><b>
-              <p>
-                PSY
-              </p><b></td>
+          <td><strong>PSY</strong></td>
         </tr>
         <tr class="character-classes">
                 <td>Classe 1</td>
@@ -158,42 +166,39 @@
         <tr>
           <td class="centered-td" colspan="2"><b>Abilités</b></td>
         </tr>
-        <tr>
+        <!-- Captain Ability -->
+        <tr class="classic-ability">
           <td>Captain Ability</td>
-          <td>Multiplie l'ATK des personnages de type <b>
-              PSY
-            </b> par 2,75 et les HP par 1,3. Augmente les chances d'apparition des cercles <b>
-              [PSY]
-            </b> selon les HP de l'équipe au début du tour.</td>
+          <td>Multiplie l'ATK des personnages de type PSY par 2,75 et les HP par 1,3. Augmente les chances d'apparition des cercles [PSY] selon les HP de l'équipe au début du tour.</td>
         </tr>
-        <tr>
-          <td>Captain Ability (après l'extension du dépassement de limites)</td>
-          <td>Multiplie les HP des personnages de type <b>
-              PSY
-            </b> par 1,3 et multiplie l'ATK des personnages de type <b>
-              PSY
-            </b> par 4,25 s'ils ont un cercle correspondant, sinon par 3,5. Augmente les chances d'apparition des
-            cercles <b>
-              [PSY]
-            </b> selon les HP de l'équipe au début du tour.</td>
-        </tr>
-        <tr>
-          <td>Special (19→14 puis 13 puis 7)</td>
-          <td>Inflige 75 fois son ATK en dégâts non élémentaires sur un ennemi, réduit à 0 la défense de tous les
-            ennemis pendant un tour et change les cercles de tous les personnages en cercles <b>
-              [PSY]
-            </b>.</td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <b>Level Limit Break</b>
-          </td>
-        </tr>
-        <tr>
+        <tr class="llb-ability">
           <td>Captain Ability</td>
           <td>Multiplie les HP des personnages de type PSY par 1,3 et multiplie l'ATK des personnages de type PSY par 5 s'ils ont un cercle correspondant, sinon par 4,5. Augmente les chances d'apparition des cercles selon les HP de l'équipe au début du tour.</td>
         </tr>
-        <tr>
+        <tr class="lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie les HP des personnages de type PSY par 1,3 et multiplie l'ATK des personnages de type PSY par 4,25 s'ils ont un cercle correspondant, sinon par 3,5. Augmente les chances d'apparition des cercles [PSY] selon les HP de l'équipe au début du tour.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie les HP des personnages de type PSY par 1,3 et multiplie l'ATK des personnages de type PSY par 5,25 s'ils ont un cercle correspondant, sinon par 4,5. Augmente les chances d'apparition des cercles selon les HP de l'équipe au début du tour. Restaure 1 000 HP à la fin de chaque tour.</td>
+        </tr>
+        <!-- Special -->
+        <tr class="classic-ability">
+          <td>Special (19→14 puis 13)</td>
+          <td>Inflige 75 fois son ATK en dégâts non élémentaires sur un ennemi, réduit à 0 la défense de tous les
+            ennemis pendant un tour et change les cercles de tous les personnages en cercles [PSY].</td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Special (19→14 puis 13)</td>
+          <td>Inflige 75 fois son ATK en dégâts non élémentaires sur un ennemi, réduit à 0 la défense de tous les ennemis pendant un tour et change les cercles de tous les personnages en cercles [PSY]. Multiplie l'ATK des personnages de type PSY par 2,25 pendant 1 tour et si 3 personnages font un coup "PARFAIT", multiplie l'ATK des personnages de type PSY par 2,5 au tour suivant.</td>
+        </tr>
+        <tr class="lbplus-ability">
+          <td>Special (19→14 puis 13 puis 7)</td>
+          <td>Inflige 75 fois son ATK en dégâts non élémentaires sur un ennemi, réduit à 0 la défense de tous les
+            ennemis pendant un tour et change les cercles de tous les personnages en cercles [PSY].</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
           <td>Special (19→14 puis 13 puis 7)</td>
           <td>Inflige 75 fois son ATK en dégâts non élémentaires sur un ennemi, réduit à 0 la défense de tous les ennemis pendant un tour et change les cercles de tous les personnages en cercles [PSY]. Multiplie l'ATK des personnages de type PSY par 2,25 pendant 1 tour et si 3 personnages font un coup "PARFAIT", multiplie l'ATK des personnages de type PSY par 2,5 au tour suivant.</td>
         </tr>
@@ -503,10 +508,7 @@
         </tr>
         <tr>
           <td>Type</td>
-          <td><b>
-              <p>
-                PSY
-              </p><b></td>
+          <td><strong>PSY</strong></td>
         </tr>
         <tr class="character-classes">
                 <td>Classe 1</td>
