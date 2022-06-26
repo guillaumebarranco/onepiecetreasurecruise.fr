@@ -62,7 +62,13 @@ h2 {
   display: none;
 }
 
-h2, h3, img {
+h1, h2, h3, img {
+  text-align: center;
+}
+
+h2+img{
+  display: block;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -72,6 +78,18 @@ h2+img+img{
   text-align: center;
 }
 
+h2+img+img+img{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2+img+img+img+img{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+/*
 body {
   text-align: center;
   overflow-x: hidden;
@@ -79,4 +97,4 @@ body {
 
 .fiche-table {
   text-align: left;
-}
+} */
