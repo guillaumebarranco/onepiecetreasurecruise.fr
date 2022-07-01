@@ -78,16 +78,27 @@
 </head>
 
 <body id="STR">
+    <div class="entete">
+      <img class="entetefond" src="https://i.imgur.com/adWoClY.png" />
+      <img class="newsboard" src="https://i.imgur.com/VhPOSwk.png" />
+      <img class="entetetop" src="https://i.imgur.com/iTZRvAT.png" />
+      <a href="/"><img class="logo" src="https://i.imgur.com/g0NAqri.png" /></a>
+    </div>
     <div id="optcnavbar"></div>
+    <a href="../Legende.html"
+      ><img src="https://i.imgur.com/V3e73Tf.png" height="50" width="50"
+    /></a>
     <h1>Crocodile</h1>
 
-    <h2>
-      <div id="6+"></div>
-      Fiche (6★+)
-    </h2>
-    <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1927.png">
-
-    <img src="https://i.imgur.com/fvKR7ng.png">
+    <div id="6+" class="fiche-container">
+      <h2>Fiche (6★+)</h2>
+      <div>
+        <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1927.png">
+      </div>
+      <div>
+        <img src="https://i.imgur.com/fvKR7ng.png">
+      </div>
+    </div>
 
     <div class="fiche-choices">
       <div>
@@ -101,628 +112,643 @@
     </div>
 
     <table class="fiche-table">
-        <tbody>
-          <tr>
-            <td>Nom</td>
-            <td><b><small>Après le rêve d'Utopia</small><br>Sir Crocodile<b></td>
-          </tr>
-          <tr>
-            <td>Histoire</td>
-            <td>Ancien membre de l'ordre des sept grands corsaires. Après avoir vu son rêve de créer Utopia réduit à
-              néant par Luffy, il se retrouve emprisonné à Impel Down. Bien que ses activités dépassent le cadre de la
-              simple piraterie, il caresse pourtant le désir de devenir le roi des pirates. À la fin de la guerre au
-              sommet, il reprend la mer pour le Nouveau Monde.</td>
-          </tr>
-          <tr>
-            <td>Type</td>
-            <td><strong>STR</strong></td>
-          </tr>
-          <tr class="character-classes">
+      <tbody>
+        <tr>
+          <td>Nom</td>
+          <td><b><small>Après le rêve d'Utopia</small><br>Sir Crocodile<b></td>
+        </tr>
+        <tr>
+          <td>Histoire</td>
+          <td>Ancien membre de l'ordre des sept grands corsaires. Après avoir vu son rêve de créer Utopia réduit à
+            néant par Luffy, il se retrouve emprisonné à Impel Down. Bien que ses activités dépassent le cadre de la
+            simple piraterie, il caresse pourtant le désir de devenir le roi des pirates. À la fin de la guerre au
+            sommet, il reprend la mer pour le Nouveau Monde.</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td><strong>STR</strong></td>
+        </tr>
+        <tr class="character-classes">
+            <td>Classe 1</td>
+            <td>Intellectuel</td>
+        </tr>
+        <tr class="character-classes">
+            <td>Classe 2</td>
+            <td>Ambitieux</td>
+        </tr>
+        <tr>
+          <td>Coût</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>Combo</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Emplacements de pouvoirs</td>
+          <td>4 puis 5 après le dépassement de limites</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Statistiques</b></td>
+        </tr>
+        <tr>
+          <td>HP</td>
+          <td>3701 puis 4201 après le dépassement de limites puis 4701 après l'extension du dépassement de limites
+          </td>
+        </tr>
+        <tr>
+          <td>ATK</td>
+          <td>1502 puis 1702 après le dépassement de limites puis 1902 après l'extension du dépassement de limites
+          </td>
+        </tr>
+        <tr>
+          <td>RCV</td>
+          <td>330 puis 430 après le dépassement de limites puis 480 après l'extension du dépassement de limites</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Abilités</b></td>
+        </tr>
+        <!-- Captain Ability -->
+        <tr class="classic-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
+            <small>Par 2 si les HP de l'équipe sont au maximum et par 3,5 s'il ne reste qu'un HP à l'équipe.</small></td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Captain Ability</td>
+          <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel d'1 tour au début de la quête. Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
+          <small>Par 4 si les HP de l'équipe sont au maximum et par 5 s'il ne reste qu'un HP à l'équipe.</small></td>
+        </tr>
+        <tr class="lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de classe Intellectuel par 4 et réduit les dégâts subis de 15%.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel de 2 tours au début de la quête. Réduit les dégâts subis de 15%. Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
+          <small>Par 4 si les HP de l'équipe sont au maximum et par 5,5 s'il ne reste qu'un HP à l'équipe.</small>
+          </td>
+        </tr>
+        <!-- Special -->
+        <tr class="classic-ability">
+          <td>Special (21→14 puis 13)</td>
+          <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.</td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Special (21→14 puis 13)</td>
+          <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK et les effets de cercles des personnages de classe Intellectuel par 2 pendant 1 tour. Change les cercles ([BLK] inclus) des personnages de la rangée du haut et ceux des personnages de la rangée du bas en cercles correspondants. Si les HP sont inférieurs ou égaux à 50%, bloque le minimum du multiplicateur de combos à 2,5 et le maximum du multiplicateur de combos à 25 pendant 1 tour.</td>
+        </tr>
+        <tr class="lbplus-ability">
+          <td>Special (21→14 puis 13 puis 10)</td>
+          <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
+          <td>Special (21→14 puis 13 puis 10)</td>
+          <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK et les effets de cercles des personnages de classe Intellectuel par 2 pendant 1 tour. Change les cercles ([BLK] inclus) des personnages de la rangée du haut et ceux des personnages de la rangée du bas en cercles correspondants. Si les HP sont inférieurs ou égaux à 50%, bloque le minimum du multiplicateur de combos à 2,5 et le maximum du multiplicateur de combos à 25 pendant 1 tour.</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Dépassement de limites</b></td>
+        </tr>
+        <tr>
+          <td>Crewmate Ability 1</td>
+          <td>Ajoute 50 en ATK pour les personnages de classe Intellectuel.</td>
+        </tr>
+        <tr>
+          <td>Crewmate Ability 2</td>
+          <td>Rend les cercles [DEX] avantageux pour les personnages de classe Intellectuel.</td>
+        </tr>
+        <tr>
+          <td>Potential Ability 1</td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 1%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 2%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 3%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 4%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 5%.</td>
+        </tr>
+        <tr>
+          <td>Potential Ability 2</td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 3% l'ATK du personnage
+            en dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 5% l'ATK du personnage
+            en dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage
+            en dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage
+            en dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage
+            en dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td>Potential Ability 3</td>
+          <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 1 tour.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 2 tours.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 3 tours.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 4 tours.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 5 tours.</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Effets de soutien</b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Personnages soutenus :<br>
+            <ul style="display: inline;">Personnages de classe Intellectuel</ul>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Statistiques de la fête des pirates</b></td>
+        </tr>
+        <tr>
+          <td>Style</td>
+          <td>ATK</td>
+        </tr>
+        <tr>
+          <td>DEF</td>
+          <td>126</td>
+        </tr>
+        <tr>
+          <td>VIT</td>
+          <td>174</td>
+        </tr>
+        <tr>
+          <td>Special</td>
+          <td>Enlève <b>12% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>13% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>14% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>15% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>16% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>17% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>18% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>19% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>20% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>24% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>4 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td>Capacité</td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>2 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>3 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>4 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>5 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>6 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td>Actions principales</td>
+          <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
+        </tr>
+        <tr>
+          <td>Cible des actions</td>
+          <td>Vise les ennemis proches.</td>
+        </tr>
+        <tr>
+          <td>Résistance</td>
+          <td>Restaure 150 HP à intervalles réguliers.</td>
+        </tr>
+
+
+      </tbody>
+    </table>
+
+    <div class="fiche-container">
+      <h2>Fiche (6★)</h2>
+      <div>
+        <!-- <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0719.png"> -->
+        <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0720.png">
+      </div>
+      <div>
+        <img src="https://i.imgur.com/hcQhi4J.png">
+        <img src="https://i.imgur.com/5N2Dc9R.png">
+      </div>
+    </div>
+
+    <table class="fiche-table">
+      <tbody>
+        <tr>
+          <td>Nom</td>
+          <td><b><small>Ancien membre de l'ordre des sept grands corsaires</small><br>Sir Crocodile Logia<b></td>
+        </tr>
+        <tr>
+          <td>Histoire</td>
+          <td>Ancien membre de l'ordre des sept grands corsaires et chef de l'organisation criminelle Baroque Works.
+            Le crochet qui lui sert de main gauche est empoisonné et recouvert de venin de scorpion.</td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td><strong>DEX</strong></td>
+        </tr>
+        <tr class="character-classes">
               <td>Classe 1</td>
               <td>Intellectuel</td>
-          </tr>
-          <tr class="character-classes">
+        </tr>
+        <tr class="character-classes">
               <td>Classe 2</td>
-              <td>Ambitieux</td>
-          </tr>
-          <tr>
-            <td>Coût</td>
-            <td>65</td>
-          </tr>
-          <tr>
-            <td>Combo</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>Emplacements de pouvoirs</td>
-            <td>4 puis 5 après le dépassement de limites</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Statistiques</b></td>
-          </tr>
-          <tr>
-            <td>HP</td>
-            <td>3701 puis 4201 après le dépassement de limites puis 4701 après l'extension du dépassement de limites
-            </td>
-          </tr>
-          <tr>
-            <td>ATK</td>
-            <td>1502 puis 1702 après le dépassement de limites puis 1902 après l'extension du dépassement de limites
-            </td>
-          </tr>
-          <tr>
-            <td>RCV</td>
-            <td>330 puis 430 après le dépassement de limites puis 480 après l'extension du dépassement de limites</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Abilités</b></td>
-          </tr>
-          <!-- Captain Ability -->
-          <tr class="classic-ability">
-            <td>Captain Ability</td>
-            <td>Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
-              <small>Par 2 si les HP de l'équipe sont au maximum et par 3,5 s'il ne reste qu'un HP à l'équipe.</small></td>
-          </tr>
-          <tr class="llb-ability">
-            <td>Captain Ability</td>
-            <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel d'1 tour au début de la quête. Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
-            <small>Par 4 si les HP de l'équipe sont au maximum et par 5 s'il ne reste qu'un HP à l'équipe.</small></td>
-          </tr>
-          <tr class="lbplus-ability">
-            <td>Captain Ability</td>
-            <td>Multiplie l'ATK des personnages de classe Intellectuel par 4 et réduit les dégâts subis de 15%.</td>
-          </tr>
-          <tr class="llb-lbplus-ability">
-            <td>Captain Ability</td>
-            <td>Réduit le temps de chargement des coups spéciaux des personnages de classe Intellectuel de 2 tours au début de la quête. Réduit les dégâts subis de 15%. Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br />
-            <small>Par 4 si les HP de l'équipe sont au maximum et par 5,5 s'il ne reste qu'un HP à l'équipe.</small>
-            </td>
-          </tr>
-          <!-- Special -->
-          <tr class="classic-ability">
-            <td>Special (21→14 puis 13)</td>
-            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.</td>
-          </tr>
-          <tr class="llb-ability">
-            <td>Special (21→14 puis 13)</td>
-            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK et les effets de cercles des personnages de classe Intellectuel par 2 pendant 1 tour. Change les cercles ([BLK] inclus) des personnages de la rangée du haut et ceux des personnages de la rangée du bas en cercles correspondants. Si les HP sont inférieurs ou égaux à 50%, bloque le minimum du multiplicateur de combos à 2,5 et le maximum du multiplicateur de combos à 25 pendant 1 tour.</td>
-          </tr>
-          <tr class="lbplus-ability">
-            <td>Special (21→14 puis 13 puis 10)</td>
-            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK des personnages de classe Intellectuel par 2.</td>
-          </tr>
-          <tr class="llb-lbplus-ability">
-            <td>Special (21→14 puis 13 puis 10)</td>
-            <td>Enlève 20% des HP de chaque ennemi et multiplie l'ATK et les effets de cercles des personnages de classe Intellectuel par 2 pendant 1 tour. Change les cercles ([BLK] inclus) des personnages de la rangée du haut et ceux des personnages de la rangée du bas en cercles correspondants. Si les HP sont inférieurs ou égaux à 50%, bloque le minimum du multiplicateur de combos à 2,5 et le maximum du multiplicateur de combos à 25 pendant 1 tour.</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Dépassement de limites</b></td>
-          </tr>
-          <tr>
-            <td>Crewmate Ability 1</td>
-            <td>Ajoute 50 en ATK pour les personnages de classe Intellectuel.</td>
-          </tr>
-          <tr>
-            <td>Crewmate Ability 2</td>
-            <td>Rend les cercles [DEX] avantageux pour les personnages de classe Intellectuel.</td>
-          </tr>
-          <tr>
-            <td>Potential Ability 1</td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 1%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 2%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 3%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 4%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 5%.</td>
-          </tr>
-          <tr>
-            <td>Potential Ability 2</td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 3% l'ATK du personnage
-              en dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 5% l'ATK du personnage
-              en dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage
-              en dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage
-              en dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage
-              en dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td>Potential Ability 3</td>
-            <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 1 tour.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 2 tours.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 3 tours.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 4 tours.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 5 tours.</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Effets de soutien</b></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Personnages soutenus :<br>
-              <ul style="display: inline;">Personnages de classe Intellectuel</ul>
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Statistiques de la fête des pirates</b></td>
-          </tr>
-          <tr>
-            <td>Style</td>
-            <td>ATK</td>
-          </tr>
-          <tr>
-            <td>DEF</td>
-            <td>126</td>
-          </tr>
-          <tr>
-            <td>VIT</td>
-            <td>174</td>
-          </tr>
-          <tr>
-            <td>Special</td>
-            <td>Enlève <b>12% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>13% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>14% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>15% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>16% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>17% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>18% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>19% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>20% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>24% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>4 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td>Capacité</td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>2 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>3 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>4 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>5 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>6 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td>Actions principales</td>
-            <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
-          </tr>
-          <tr>
-            <td>Cible des actions</td>
-            <td>Vise les ennemis proches.</td>
-          </tr>
-          <tr>
-            <td>Résistance</td>
-            <td>Restaure 150 HP à intervalles réguliers.</td>
-          </tr>
+              <td>Ravageur</td>
+        </tr>
+        <tr>
+          <td>Coût</td>
+          <td>55</td>
+        </tr>
+        <tr>
+          <td>Combo</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Emplacements de pouvoirs</td>
+          <td>4 puis 5 après le dépassement de limites</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Statistiques</b></td>
+        </tr>
+        <tr>
+          <td>HP</td>
+          <td>3621 puis 4121 après le dépassement de limites puis 4621 après l'extension du dépassement de limites
+          </td>
+        </tr>
+        <tr>
+          <td>ATK</td>
+          <td>1435 puis 1635 après le dépassement de limites puis 1835 après l'extension du dépassement de limites
+          </td>
+        </tr>
+        <tr>
+          <td>RCV</td>
+          <td>310 puis 410 après le dépassement de limites puis 460 après l'extension du dépassement de limites</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Abilités</b></td>
+        </tr>
+        <tr>
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br>
+            <small>Par 1,5 si les HP de l'équipe sont au maximum et par 3,25 s'il ne reste qu'un HP à
+              l'équipe.</small>
+          </td>
+        </tr>
+        <tr>
+          <td>Captain Ability (après l'extension du dépassement de limites)</td>
+          <td>Inconnue por le moment.</td>
+        </tr>
+        <tr>
+          <td>Special (21→14 puis 13 puis 10)</td>
+          <td>Multiplie l'ATK des personnages de classe Intellectuel par 2 pendant un tour si les HP sont en-dessous
+            de 30%, sinon par 1,5 pendant un tour, et inflige 20 fois son ATK en dégâts de type DEX sur tous les ennemis.</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Dépassement de limites</b></td>
+        </tr>
+        <tr>
+          <td>Crewmate Ability 1</td>
+          <td>Ajoute 50 en ATK pour les personnages de classe Intellectuel.</td>
+        </tr>
+        <tr>
+          <td>Crewmate Ability 2</td>
+          <td>Rend les cercles [DEX] avantageux pour les personnages de classe Intellectuel.</td>
+        </tr>
+        <tr>
+          <td>Potential Ability 1</td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 1%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 2%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 3%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 4%.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Réduit les dégâts subis par les ennemis de type QCK de 5%.</td>
+        </tr>
+        <tr>
+          <td>Potential Ability 2</td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 3% l'ATK du personnage en
+            dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 5% l'ATK du personnage en
+            dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage en
+            dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage en
+            dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage en
+            dégâts additionnels.</td>
+        </tr>
+        <tr>
+          <td>Potential Ability 3</td>
+          <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 1 tour.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 2 tours.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 3 tours.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 4 tours.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
+            augmentés de 5 tours.</td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Effets de soutien</b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Personnages soutenus :<br>
+            <ul style="display: inline;">Personnages de classe Intellectuel</ul>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
+          </td>
+        </tr>
+        <tr>
+          <td class="centered-td" colspan="2"><b>Statistiques de la fête des pirates</b></td>
+        </tr>
+        <tr>
+          <td>Style</td>
+          <td>ATK</td>
+        </tr>
+        <tr>
+          <td>DEF</td>
+          <td>101</td>
+        </tr>
+        <tr>
+          <td>VIT</td>
+          <td>169</td>
+        </tr>
+        <tr>
+          <td>Special</td>
+          <td>Enlève <b>11% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>12% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>13% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>14% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>15% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>16% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>17% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>18% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>19% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Enlève <b>22% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
+            d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
+        </tr>
+        <tr>
+          <td>Capacité</td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>1 niveau</b> et si les HP sont en-dessous de 60%,
+            augmente l'ATK du personnage de 5 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>2 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>3 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>4 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Augmente l'ATK des alliés de classe Intellectuel de <b>5 niveaux</b> et si les HP sont en-dessous de
+            60%, augmente l'ATK du personnage de 8 niveaux.</td>
+        </tr>
+        <tr>
+          <td>Actions principales</td>
+          <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
+        </tr>
+        <tr>
+          <td>Cible des actions</td>
+          <td>Vise les ennemis proches.</td>
+        </tr>
+        <tr>
+          <td>Résistance</td>
+          <td>Restaure 100 HP à intervalles réguliers.</td>
+        </tr>
 
+        <tr>
+          <td colspan="2">
+              <img
+                >  <img
+                >
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-        </tbody>
-      </table>
+    <div id="scrollUp">
+      <a href="#top"
+        ><img height="60%" src="https://i.imgur.com/0f85aFb.png" width="60%"
+      /></a>
+    </div>
+    <div class="baspage">
+      <img class="baspage" src="https://i.imgur.com/zGoXmaU.png" />
+    </div>
 
-    <h2>
-      Fiche (6★)
-    </h2>
-    <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0719.png"> <img
-        src="https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f0720.png">
-    <table class="fiche-table">
-        <img src="https://i.imgur.com/hcQhi4J.png"><img src="https://i.imgur.com/5N2Dc9R.png">
-        <tbody>
-          <tr>
-            <td>Nom</td>
-            <td><b><small>Ancien membre de l'ordre des sept grands corsaires</small><br>Sir Crocodile Logia<b></td>
-          </tr>
-          <tr>
-            <td>Histoire</td>
-            <td>Ancien membre de l'ordre des sept grands corsaires et chef de l'organisation criminelle Baroque Works.
-              Le crochet qui lui sert de main gauche est empoisonné et recouvert de venin de scorpion.</td>
-          </tr>
-          <tr>
-            <td>Type</td>
-            <td><strong>DEX</strong></td>
-          </tr>
-          <tr class="character-classes">
-                <td>Classe 1</td>
-                <td>Intellectuel</td>
-          </tr>
-          <tr class="character-classes">
-                <td>Classe 2</td>
-                <td>Ravageur</td>
-          </tr>
-          <tr>
-            <td>Coût</td>
-            <td>55</td>
-          </tr>
-          <tr>
-            <td>Combo</td>
-            <td>4</td>
-          </tr>
-          <tr>
-            <td>Emplacements de pouvoirs</td>
-            <td>4 puis 5 après le dépassement de limites</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Statistiques</b></td>
-          </tr>
-          <tr>
-            <td>HP</td>
-            <td>3621 puis 4121 après le dépassement de limites puis 4621 après l'extension du dépassement de limites
-            </td>
-          </tr>
-          <tr>
-            <td>ATK</td>
-            <td>1435 puis 1635 après le dépassement de limites puis 1835 après l'extension du dépassement de limites
-            </td>
-          </tr>
-          <tr>
-            <td>RCV</td>
-            <td>310 puis 410 après le dépassement de limites puis 460 après l'extension du dépassement de limites</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Abilités</b></td>
-          </tr>
-          <tr>
-            <td>Captain Ability</td>
-            <td>Multiplie l'ATK des personnages de classe Intellectuel selon les HP de l'équipe au début du tour.<br>
-              <small>Par 1,5 si les HP de l'équipe sont au maximum et par 3,25 s'il ne reste qu'un HP à
-                l'équipe.</small>
-            </td>
-          </tr>
-          <tr>
-            <td>Captain Ability (après l'extension du dépassement de limites)</td>
-            <td>Inconnue por le moment.</td>
-          </tr>
-          <tr>
-            <td>Special (21→14 puis 13 puis 10)</td>
-            <td>Multiplie l'ATK des personnages de classe Intellectuel par 2 pendant un tour si les HP sont en-dessous
-              de 30%, sinon par 1,5 pendant un tour, et inflige 20 fois son ATK en dégâts de type DEX sur tous les ennemis.</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Dépassement de limites</b></td>
-          </tr>
-          <tr>
-            <td>Crewmate Ability 1</td>
-            <td>Ajoute 50 en ATK pour les personnages de classe Intellectuel.</td>
-          </tr>
-          <tr>
-            <td>Crewmate Ability 2</td>
-            <td>Rend les cercles [DEX] avantageux pour les personnages de classe Intellectuel.</td>
-          </tr>
-          <tr>
-            <td>Potential Ability 1</td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 1%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 2%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 3%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 4%.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Réduit les dégâts subis par les ennemis de type QCK de 5%.</td>
-          </tr>
-          <tr>
-            <td>Potential Ability 2</td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 10% de chances de faire 3% l'ATK du personnage en
-              dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 20% de chances de faire 5% l'ATK du personnage en
-              dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 30% de chances de faire 5% l'ATK du personnage en
-              dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 40% de chances de faire 5% l'ATK du personnage en
-              dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Si un coup "PARFAIT" est effectué avec ce personnage, 50% de chances de faire 7% l'ATK du personnage en
-              dégâts additionnels.</td>
-          </tr>
-          <tr>
-            <td>Potential Ability 3</td>
-            <td>Ajoute 75 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 1 tour.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 100 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 2 tours.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 200 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 3 tours.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 250 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 4 tours.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 300 points d'ATK au tour suivant lorsque des dégâts sont subis et réduit la durée des dégâts
-              augmentés de 5 tours.</td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Effets de soutien</b></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Personnages soutenus :<br>
-              <ul style="display: inline;">Personnages de classe Intellectuel</ul>
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 5% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 6% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 7% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 8% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Ajoute 9% des HP, de l'ATK et de la RCV du personnage en HP, ATK et RCV pour les personnages soutenus.
-            </td>
-          </tr>
-          <tr>
-            <td class="centered-td" colspan="2"><b>Statistiques de la fête des pirates</b></td>
-          </tr>
-          <tr>
-            <td>Style</td>
-            <td>ATK</td>
-          </tr>
-          <tr>
-            <td>DEF</td>
-            <td>101</td>
-          </tr>
-          <tr>
-            <td>VIT</td>
-            <td>169</td>
-          </tr>
-          <tr>
-            <td>Special</td>
-            <td>Enlève <b>11% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>12% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>13% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>14% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>15% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>16% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>1 niveau</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>17% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>18% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>19% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>2 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Enlève <b>22% des HP</b> aux ennemis à longue portée et augmente les chances de tous les alliés
-              d'effectuer une attaque critique de <b>3 niveaux</b> pendant 15 secondes (CT : 19).</td>
-          </tr>
-          <tr>
-            <td>Capacité</td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>1 niveau</b> et si les HP sont en-dessous de 60%,
-              augmente l'ATK du personnage de 5 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>2 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>3 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>4 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td>Augmente l'ATK des alliés de classe Intellectuel de <b>5 niveaux</b> et si les HP sont en-dessous de
-              60%, augmente l'ATK du personnage de 8 niveaux.</td>
-          </tr>
-          <tr>
-            <td>Actions principales</td>
-            <td>ATK normale → ATK normale → ATK renforcée → ATK à pleine puissance</td>
-          </tr>
-          <tr>
-            <td>Cible des actions</td>
-            <td>Vise les ennemis proches.</td>
-          </tr>
-          <tr>
-            <td>Résistance</td>
-            <td>Restaure 100 HP à intervalles réguliers.</td>
-          </tr>
-
-          <tr>
-            <td colspan="2">
-               <img
-                  >  <img
-                  >
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../shared/navbar.js"></script>
     <script>
       addNavbar("legends", "", 1);
