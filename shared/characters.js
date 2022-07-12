@@ -1651,6 +1651,41 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3629",
+              imgUrl: "https://i.imgur.com/jXqzVHu.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3631",
+              imgUrl: "https://i.imgur.com/MJ6BtU9.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3650",
+              imgUrl: "https://i.imgur.com/jG0lAJY.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3652",
+              imgUrl: "https://i.imgur.com/A0uQp2z.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3654",
+              imgUrl: "https://i.imgur.com/gPVMTNX.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -1660,6 +1695,21 @@ const allRareRecruitCharactersList = [
             },
           ],
         ],
+      },
+      {
+        frName: "Personnages exclusifs au Sugo Fest des anniversaires",
+        enName: "Anniversary Sugo-Fest Exclusive",
+        characters: [
+         [
+          {
+            id: "3613",
+            imgUrl: "https://i.imgur.com/makQbBj.png",
+            hasLb: true,
+            hasKeyLb: true,
+            hasSupport: true,
+          },
+         ]
+        ]
       },
       {
         frName: "Personnages exclusifs au Super Sugo-Fest",
@@ -1892,6 +1942,13 @@ const allRareRecruitCharactersList = [
             {
               id: "3563",
               imgUrl: "https://i.imgur.com/ICBg5rN.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3641",
+              imgUrl: "https://i.imgur.com/RuCoGE6.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -2746,77 +2803,77 @@ const allRareRecruitCharactersList = [
           ],
         ],
       },
-      {
-        frName: 'Personnages "Rêve"',
-        enName: "Voyage Dream",
-        characters: [
-          [
-            {
-              id: "0580",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0580.png",
-            },
-            {
-              id: "0597",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0597.png",
-            },
-            {
-              id: "0605",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0605.png",
-            },
-            {
-              id: "0613",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0613.png",
-            },
-            {
-              id: "0651",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0651.png",
-            },
-            {
-              id: "0661",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0661.png",
-            },
-            {
-              id: "0679",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0679.png",
-            },
-            {
-              id: "0711",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0711.png",
-            },
-            {
-              id: "0726",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0726.png",
-            },
-            {
-              id: "0745",
-              imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f0745.png",
-            },
-            {
-              id: "0802",
-              imgUrl:
-                "https://onepiece-treasurecruise.com/wp-content/uploads/f0802.png",
-            },
-            {
-              id: "5030",
-              imgUrl: "https://imgur.com/lKZk4kK.png",
-            },
-            {
-              id: "5032",
-              imgUrl: "https://imgur.com/KAAhdik.png",
-            },
-          ],
-        ],
-      },
+      // {
+      //   frName: 'Personnages "Rêve"',
+      //   enName: "Voyage Dream",
+      //   characters: [
+      //     [
+      //       {
+      //         id: "0580",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/periods_lrr/f0580.png",
+      //       },
+      //       {
+      //         id: "0597",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0597.png",
+      //       },
+      //       {
+      //         id: "0605",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0605.png",
+      //       },
+      //       {
+      //         id: "0613",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0613.png",
+      //       },
+      //       {
+      //         id: "0651",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0651.png",
+      //       },
+      //       {
+      //         id: "0661",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0661.png",
+      //       },
+      //       {
+      //         id: "0679",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0679.png",
+      //       },
+      //       {
+      //         id: "0711",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0711.png",
+      //       },
+      //       {
+      //         id: "0726",
+      //         imgUrl:
+      //           "https://onepiecetreasurecruise.fr/img/characters/rr/f0726.png",
+      //       },
+      //       {
+      //         id: "0745",
+      //         imgUrl:
+      //           "https://onepiece-treasurecruise.com/wp-content/uploads/f0745.png",
+      //       },
+      //       {
+      //         id: "0802",
+      //         imgUrl:
+      //           "https://onepiece-treasurecruise.com/wp-content/uploads/f0802.png",
+      //       },
+      //       {
+      //         id: "5030",
+      //         imgUrl: "https://imgur.com/lKZk4kK.png",
+      //       },
+      //       {
+      //         id: "5032",
+      //         imgUrl: "https://imgur.com/KAAhdik.png",
+      //       },
+      //     ],
+      //   ],
+      // },
       {
         frName: "Personnages limités au recrutement rare (LRR)",
         enName: "Rare Recruit Limited Characters (LRR)",
@@ -5931,6 +5988,16 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/poRwtzo.png",
             },
           ],
+          [
+            {
+              id: "3655",
+              imgUrl: "https://i.imgur.com/Gd6mTb7.png",
+            },
+            {
+              id: "3656",
+              imgUrl: "https://i.imgur.com/1GjD9HY.png",
+            }
+          ],
         ],
       },
       {
@@ -6288,6 +6355,16 @@ const allRareRecruitCharactersList = [
             {
               id: "3578",
               imgUrl: "https://i.imgur.com/dCPW0uD.png",
+            },
+          ],
+          [
+            {
+              id: "3632",
+              imgUrl: "https://i.imgur.com/IgxhrsE.png",
+            },
+            {
+              id: "3633",
+              imgUrl: "https://i.imgur.com/uY9H4nk.png",
             },
           ]
         ],
