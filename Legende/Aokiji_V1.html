@@ -91,10 +91,21 @@
       <h1>Aokiji V1</h1>
       <h2>Fiche (6★+)</h2>
       <div>
-        <img src="https://onepiece-treasurecruise.com/en/wp-content/uploads/sites/2/f1764.png" width="110" />
+        <img src="https://onepiecetreasurecruise.fr/img/characters/legend/sixplus/f1764.png" width="110" />
       </div>
       <div>
         <img src="https://i.imgur.com/xhpO7Fv.png" width="640" />
+      </div>
+    </div>
+
+    <div class="fiche-choices">
+      <div>
+        <label for="llb">Voir les capacités après le Level Limit Break</label>
+        <input type="checkbox" name="llb" checked>
+      </div>
+      <div>
+        <label for="lbplus">Voir les capacités après le LB+</label>
+        <input type="checkbox" name="lbplus" checked>
       </div>
     </div>
 
@@ -116,7 +127,7 @@
           <td><strong>QCK</strong></td>
         </tr>
         <tr class="character-classes">
-          <td >Classe 1</td>
+          <td>Classe 1</td>
           <td>Tireur</td>
         </tr>
         <tr class="character-classes">
@@ -155,23 +166,39 @@
         <tr>
           <td class="centered-td" colspan="2"><b>Abilités</b></td>
         </tr>
-        <tr>
+        <!-- Captain Ability -->
+        <tr class="classic-ability">
           <td>Captain Ability</td>
-          <td>Multiplie l'ATK de tous les personnages par 2,25 et les HP par 1,25. Si un ennemi a été vaincu au tour
-            précédent, multiplie légèrement l'ATK (3,5 au maximum pour un ennemi vaincu par tour sur 5 tours
-            d'affilée).</td>
+          <td>Multiplie l'ATK de tous les personnages par 2,25 et les HP par 1,25. Si un ennemi a été vaincu au tour précédent, multiplie légèrement l'ATK (3,5 au maximum pour un ennemi vaincu par tour sur 5 tours d'affilée).</td>
         </tr>
-        <tr>
-          <td>Captain Ability (après l'extension du dépassement de limites)</td>
-          <td>Multiplie l'ATK de tous les personnages par 3 et les HP par 1,25. Si un ennemi a été vaincu au tour
-            précédent, multiplie légèrement l'ATK (4 au maximum pour un ennemi vaincu par tour sur 5 tours
-            d'affilée).</td>
+        <tr class="llb-ability">
+          <td>Captain Ability</td>
+          <td>Réduit le temps de chargement du coup spécial du personnage de 3 tours au début de la quête et ceux de l'équipe d'1 tour. Multiplie l'ATK de tous les personnages par 4,25 et les HP par 1,25. Si un ennemi a été vaincu au tour précédent, multiplie légèrement l'ATK (5 au maximum pour un ennemi vaincu par tour sur 5 tours d'affilée). Au début du 3ème stage, multiplie l'ATK et les effets de cercles de tous les personnages par 1,75 pendant 2 tours.</td>
         </tr>
-        <tr>
+        <tr class="lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Multiplie l'ATK de tous les personnages par 3 et les HP par 1,25. Si un ennemi a été vaincu au tour précédent, multiplie légèrement l'ATK (4 au maximum pour un ennemi vaincu par tour sur 5 tours d'affilée).</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
+          <td>Captain Ability</td>
+          <td>Réduit le temps de chargement du coup spécial du personnage de 3 tours au début de la quête et ceux de l'équipe d'1 tour. Multiplie l'ATK de tous les personnages par 4,5 et les HP par 1,35. Si un ennemi a été vaincu au tour précédent, multiplie légèrement l'ATK (5,25 au maximum pour un ennemi vaincu par tour sur 5 tours d'affilée). Au début du 3ème stage, multiplie l'ATK et les effets de cercles de tous les personnages par 2 pendant 2 tours.</td>
+        </tr>
+        <!-- Special -->
+        <tr class="classic-ability">
+          <td>Special (19→13 puis 12)</td>
+          <td>Rallonge d'un tour les augmentations d'ATK et les augmentations d'effets des cercles, bloque le multiplicateur de combos à 2,5 pendant un tour et inflige 100 000 points de dégâts fixes sur tous les ennemis en ignorant les effets défensifs.</td>
+        </tr>
+        <tr class="llb-ability">
+          <td>Special (19→13 puis 12)</td>
+          <td>Rallonge d'un tour les augmentations d'ATK et les augmentations d'effets des cercles, bloque le minimum du multiplicateur de combos à 2,75 et le maximum à 35 pendant un tour et inflige 1 000 000 de points de dégâts fixes sur tous les ennemis en ignorant les effets défensifs.</td>
+        </tr>
+        <tr class="lbplus-ability">
           <td>Special (19→13 puis 12 puis 10)</td>
-          <td>Rallonge d'un tour les augmentations d'ATK et les augmentations d'effets des cercles, bloque le
-            multiplicateur de combos à 2,5 pendant un tour et inflige 100 000 points de dégâts fixes sur tous les
-            ennemis en ignorant les effets défensifs.</td>
+          <td>Rallonge d'un tour les augmentations d'ATK et les augmentations d'effets des cercles, bloque le multiplicateur de combos à 2,5 pendant un tour et inflige 100 000 points de dégâts fixes sur tous les ennemis en ignorant les effets défensifs.</td>
+        </tr>
+        <tr class="llb-lbplus-ability">
+          <td>Special (19→13 puis 12 puis 10)</td>
+          <td>Rallonge d'un tour les augmentations d'ATK et les augmentations d'effets des cercles, bloque le minimum du multiplicateur de combos à 2,75 et le maximum à 35 pendant un tour et inflige 1 000 000 de points de dégâts fixes sur tous les ennemis en ignorant les effets défensifs.</td>
         </tr>
         <tr>
           <td class="centered-td" colspan="2"><b>Dépassement de limites</b></td>
