@@ -1686,6 +1686,34 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "3670",
+              imgUrl: "https://i.imgur.com/KKOejsK.jpg",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3674",
+              imgUrl: "https://i.imgur.com/A9Nd2fr.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3676",
+              imgUrl: "https://i.imgur.com/EYu5vbX.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3682",
+              imgUrl: "https://i.imgur.com/HW47USL.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -1695,21 +1723,6 @@ const allRareRecruitCharactersList = [
             },
           ],
         ],
-      },
-      {
-        frName: "Personnages exclusifs au Sugo Fest des anniversaires",
-        enName: "Anniversary Sugo-Fest Exclusive",
-        characters: [
-         [
-          {
-            id: "3613",
-            imgUrl: "https://i.imgur.com/makQbBj.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-         ]
-        ]
       },
       {
         frName: "Personnages exclusifs au Super Sugo-Fest",
@@ -1809,6 +1822,71 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: false,
             },
+            {
+              id: "3680",
+              imgUrl: "https://i.imgur.com/RbT7Vmh.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Personnages exclusifs au Sugo-Fest de la carte aux trésors",
+        enName: "Treasure Map Sugo-Fest Exclusive",
+        characters: [
+          [
+            {
+              id: "3364",
+              imgUrl: "https://i.imgur.com/PdvRBur.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+              jpnOnly: false,
+            },
+            {
+              id: "3462",
+              imgUrl: "https://i.imgur.com/BfufBzx.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3483",
+              imgUrl: "https://i.imgur.com/L5P6EnA.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3523",
+              imgUrl: "https://i.imgur.com/yotAiDx.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3543",
+              imgUrl: "https://i.imgur.com/0HdQ8HK.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "3563",
+              imgUrl: "https://i.imgur.com/ICBg5rN.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3641",
+              imgUrl: "https://i.imgur.com/RuCoGE6.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
@@ -1895,66 +1973,30 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "3637",
+              imgUrl: "https://i.imgur.com/T8B0Jmu.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
       {
-        frName: "Personnages exclusifs au Sugo-Fest de la carte aux trésors",
-        enName: "Treasure Map Sugo-Fest Exclusive",
+        frName: "Personnages exclusifs au Sugo Fest des anniversaires",
+        enName: "Anniversary Sugo-Fest Exclusive",
         characters: [
-          [
-            {
-              id: "3364",
-              imgUrl: "https://i.imgur.com/PdvRBur.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: true,
-              jpnOnly: false,
-            },
-            {
-              id: "3462",
-              imgUrl: "https://i.imgur.com/BfufBzx.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: true,
-            },
-            {
-              id: "3483",
-              imgUrl: "https://i.imgur.com/L5P6EnA.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: true,
-            },
-            {
-              id: "3523",
-              imgUrl: "https://i.imgur.com/yotAiDx.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: true,
-            },
-            {
-              id: "3543",
-              imgUrl: "https://i.imgur.com/0HdQ8HK.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: false,
-            },
-            {
-              id: "3563",
-              imgUrl: "https://i.imgur.com/ICBg5rN.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: true,
-            },
-            {
-              id: "3641",
-              imgUrl: "https://i.imgur.com/RuCoGE6.png",
-              hasLb: true,
-              hasKeyLb: true,
-              hasSupport: true,
-            },
-          ],
-        ],
+         [
+          {
+            id: "3613",
+            imgUrl: "https://i.imgur.com/makQbBj.png",
+            hasLb: true,
+            hasKeyLb: true,
+            hasSupport: true,
+          },
+         ]
+        ]
       },
       {
         frName: "6+",
@@ -2266,6 +2308,14 @@ const allRareRecruitCharactersList = [
             {
               id: "3592",
               imgUrl: "https://i.imgur.com/k5m9KaS.png",
+            },
+            {
+              id: "3625",
+              imgUrl: "https://i.imgur.com/fcFkZHa.png",
+            },
+            {
+              id: "3666",
+              imgUrl: "https://i.imgur.com/qG7dvPr.png",
             },
           ],
         ],
@@ -3592,6 +3642,112 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
+        frName: "Personnages du recrutement rare pour les Cartes aux trésors",
+        enName: "Treasure Map Rare Recruits Characters",
+        characters: [
+          [
+            {
+              id: "3365",
+              imgUrl: "https://i.imgur.com/uKT6gNm.png",
+            },
+            {
+              id: "3366",
+              imgUrl: "https://i.imgur.com/smD3wSn.png",
+            },
+            {
+              id: "3367",
+              imgUrl: "https://i.imgur.com/YPasv26.png",
+            },
+            {
+              id: "3463",
+              imgUrl: "https://i.imgur.com/i3tNh4q.png",
+            },
+            {
+              id: "3464",
+              imgUrl: "https://i.imgur.com/siVlfwM.png",
+            },
+            {
+              id: "3484",
+              imgUrl: "https://i.imgur.com/CtM9t6z.png",
+            },
+            {
+              id: "3485",
+              imgUrl: "https://i.imgur.com/Bda1cdM.png",
+            },
+            {
+              id: "3524",
+              imgUrl:
+                "https://i.imgur.com/xcZmVnp.png",
+            },
+            {
+              id: "3525",
+              imgUrl:
+                "https://i.imgur.com/2uwLLQq.png",
+            },
+            {
+              id: "3544",
+              imgUrl:
+                "https://i.imgur.com/UZtZbNb.png",
+            },
+            {
+              id: "3545",
+              imgUrl:
+                "https://i.imgur.com/XpBgi2T.png",
+            },
+            {
+              id: "3564",
+              imgUrl:
+                "https://i.imgur.com/FHpYfYm.png",
+            },
+            {
+              id: "3565",
+              imgUrl:
+                "https://i.imgur.com/xHYRu1F.png",
+            },
+            {
+              id: "3642",
+              imgUrl:
+                "https://i.imgur.com/8SFAT8S.png",
+            },
+            {
+              id: "3643",
+              imgUrl:
+                "https://i.imgur.com/AA4E9Ha.png",
+            },
+            {
+              id: "3643",
+              imgUrl:
+                "https://i.imgur.com/XJoCLWL.jpg",
+            },
+            {
+              id: "3643",
+              imgUrl:
+                "https://i.imgur.com/MZkxFSH.jpg",
+            },
+            {
+              id: "3643",
+              imgUrl:
+                "https://i.imgur.com/2cwawo8.jpg",
+            },
+            {
+              id: "3686",
+              imgUrl:
+                "https://i.imgur.com/ivqQS1x.png",
+            },
+            {
+              id: "3687",
+              imgUrl:
+                "https://i.imgur.com/8nGKsCL.png",
+            },
+            {
+              id: "3688",
+              imgUrl:
+                "https://i.imgur.com/cA8K1na.png",
+            },
+          ],
+        ],
+      },
+      {
         frName: "Personnages limités pour les combats de l'amitié",
         enName: "Kizuna Clash Limited Characters",
         characters: [
@@ -3762,6 +3918,30 @@ const allRareRecruitCharactersList = [
               id: "3591",
               imgUrl: "https://i.imgur.com/OP0T3iL.png",
             },
+            {
+              id: "3623",
+              imgUrl: "https://i.imgur.com/USksQBl.png",
+            },
+            {
+              id: "3624",
+              imgUrl: "https://i.imgur.com/yUT8BR8.png",
+            },
+            {
+              id: "3646",
+              imgUrl: "https://i.imgur.com/eXya0HY.png",
+            },
+            {
+              id: "3647",
+              imgUrl: "https://i.imgur.com/YpERIG9.png",
+            },
+            {
+              id: "3664",
+              imgUrl: "https://i.imgur.com/3MSTKdg.png",
+            },
+            {
+              id: "3665",
+              imgUrl: "https://i.imgur.com/7BcLbFG.png",
+            },
           ],
         ],
       },
@@ -3906,7 +4086,26 @@ const allRareRecruitCharactersList = [
               id: "3583",
               imgUrl: "https://i.imgur.com/xf6SSbZ.png",
             },
-
+            {
+              id: "3605",
+              imgUrl: "https://i.imgur.com/q5kQVoE.png",
+            },
+            {
+              id: "3638",
+              imgUrl: "https://i.imgur.com/liQPosx.png",
+            },
+            {
+              id: "3639",
+              imgUrl: "https://i.imgur.com/W4Vb0Q6.png",
+            },
+            {
+              id: "3658",
+              imgUrl: "https://i.imgur.com/NLhNEe2.jpg",
+            },
+            {
+              id: "3679",
+              imgUrl: "https://i.imgur.com/9gT0Cx3.png",
+            },
           ],
         ],
       },
@@ -4045,7 +4244,16 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://i.imgur.com/1jxsrXv.png",
             },
-
+            {
+              id: "3622",
+              imgUrl:
+                "https://i.imgur.com/vj6TUHE.png",
+            },
+            {
+              id: "3667",
+              imgUrl:
+                "https://i.imgur.com/X0ZZf5P.png",
+            },
           ],
         ],
       },
@@ -4408,16 +4616,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/tylk8to.png",
             },
           ],
-          [
-            {
-              id: "3463",
-              imgUrl: "https://i.imgur.com/i3tNh4q.png",
-            },
-            {
-              id: "3464",
-              imgUrl: "https://i.imgur.com/siVlfwM.png",
-            },
-          ],
+
         ],
       },
       {
@@ -5263,30 +5462,7 @@ const allRareRecruitCharactersList = [
                 "https://i.imgur.com/veJ4Cqn.png",
             },
           ],
-          [
-            {
-              id: "3544",
-              imgUrl:
-                "https://i.imgur.com/UZtZbNb.png",
-            },
-            {
-              id: "3545",
-              imgUrl:
-                "https://i.imgur.com/XpBgi2T.png",
-            },
-          ],
-          [
-            {
-              id: "3564",
-              imgUrl:
-                "https://i.imgur.com/FHpYfYm.png",
-            },
-            {
-              id: "3565",
-              imgUrl:
-                "https://i.imgur.com/xHYRu1F.png",
-            },
-          ],
+
         ],
       },
       {
@@ -5308,6 +5484,29 @@ const allRareRecruitCharactersList = [
               id: "3558",
               imgUrl:
                 "https://i.imgur.com/NfqrxA0.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Mugiwaras Film Red",
+        enName: "Red Movie Mugiwaras",
+        characters: [
+          [
+            {
+              id: "3683",
+              imgUrl:
+                "https://i.imgur.com/LFxSuds.png",
+            },
+            {
+              id: "3684",
+              imgUrl:
+                "https://i.imgur.com/AJtyAaU.png",
+            },
+            {
+              id: "3685",
+              imgUrl:
+                "https://i.imgur.com/Rne6gIt.png",
             },
           ],
         ]
@@ -5483,6 +5682,12 @@ const allRareRecruitCharactersList = [
             {
               id: "3456",
               imgUrl: "https://i.imgur.com/MxBzYCB.png",
+            },
+          ],
+          [
+            {
+              id: "3677",
+              imgUrl: "https://i.imgur.com/W5WI052.png",
             },
           ],
         ],
@@ -6124,19 +6329,7 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/rr/f3015.png",
             },
-          ],
-          [
-            {
-              id: "3524",
-              imgUrl:
-                "https://i.imgur.com/xcZmVnp.png",
-            },
-            {
-              id: "3525",
-              imgUrl:
-                "https://i.imgur.com/2uwLLQq.png",
-            },
-          ],
+          ]
         ],
       },
       {
@@ -6298,26 +6491,6 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
-        frName: "MUGIWARA 56",
-        enName: "MUGIWARA 56",
-        characters: [
-          [
-            {
-              id: "3365",
-              imgUrl: "https://i.imgur.com/uKT6gNm.png",
-            },
-            {
-              id: "3366",
-              imgUrl: "https://i.imgur.com/smD3wSn.png",
-            },
-            {
-              id: "3367",
-              imgUrl: "https://i.imgur.com/YPasv26.png",
-            },
-          ],
-        ],
-      },
-      {
         frName: "Ennemis de Luffy",
         enName: "Luffy's foes",
         characters: [
@@ -6331,16 +6504,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/FOy8bF8.png",
             },
           ],
-          [
-            {
-              id: "3484",
-              imgUrl: "https://i.imgur.com/CtM9t6z.png",
-            },
-            {
-              id: "3485",
-              imgUrl: "https://i.imgur.com/Bda1cdM.png",
-            },
-          ],
+
         ],
       },
       {
