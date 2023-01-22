@@ -181,6 +181,16 @@
     </script>
     <script>
       document.querySelectorAll("round-slider").forEach(function (el) {
+        const value = Number(
+          el.parentNode.querySelector(".slider-value").textContent
+        );
+
+        if (value > 1) {
+          el.parentNode.classList = "slider-element";
+        } else {
+          el.parentNode.classList = "slider-element disabled";
+        }
+
         el.addEventListener("value-changed", function (ev) {
           if (ev.detail.value !== undefined) {
             el.parentNode.querySelector(".slider-value").textContent =
@@ -191,6 +201,8 @@
             } else {
               el.parentNode.classList = "slider-element disabled";
             }
+
+            localStorage.setItem(el.parentNode.id, ev.detail.value.toString());
           }
         });
 
