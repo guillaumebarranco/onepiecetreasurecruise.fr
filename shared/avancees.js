@@ -82,26 +82,29 @@ function generateAvanceeList(charactersList, whichList = 'legends') {
         (key === "characterIconMaxSupport" && character.hasSupport)
       ;
 
-      // if(key === 'characterIconLvlLB') {
-      //   const characterSliderContainerElement = document.createElement("div");
-      //   characterSliderContainerElement.classList = "slider-element disabled";
+      if(key === 'characterIconLvlLB') {
+        const characterSliderContainerElement = document.createElement("div");
+        characterSliderContainerElement.classList = "slider-element disabled";
+        characterSliderContainerElement.id = `f${character.id}${characterElements[key].id}`;
 
-      //   const characterSliderElement = document.createElement("round-slider");
-      //   characterSliderElement.min = 0;
-      //   characterSliderElement.max = 9;
-      //   characterSliderElement.value = 0;
+        const characterSliderElement = document.createElement("round-slider");
+        characterSliderElement.min = 0;
+        characterSliderElement.max = 9;
+        characterSliderElement.value = localStorage.getItem(`f${character.id}${characterElements[key].id}`) ?
+        Number(localStorage.getItem(`f${character.id}${characterElements[key].id}`))
+        : 0;
 
-      //   const characterSliderValueElement = document.createElement("div");
-      //   characterSliderValueElement.textContent = "0";
-      //   characterSliderValueElement.className = "slider-value";
+        const characterSliderValueElement = document.createElement("div");
+        characterSliderValueElement.textContent = localStorage.getItem(`f${character.id}${characterElements[key].id}`) ?
+        localStorage.getItem(`f${character.id}${characterElements[key].id}`).toString()
+        : "0";
+        characterSliderValueElement.className = "slider-value";
 
-      //   characterSliderContainerElement.appendChild(characterSliderElement);
-      //   characterSliderContainerElement.appendChild(characterSliderValueElement);
-      //   characterHtmlElement.appendChild(characterSliderContainerElement);
+        characterSliderContainerElement.appendChild(characterSliderElement);
+        characterSliderContainerElement.appendChild(characterSliderValueElement);
+        characterHtmlElement.appendChild(characterSliderContainerElement);
 
-      // } else
-
-      if (displayIcon) {
+      } else if (displayIcon) {
         const characterSpanElement = document.createElement("span");
         const characterImgElement = document.createElement("img");
 
