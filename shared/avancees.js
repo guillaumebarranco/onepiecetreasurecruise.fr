@@ -130,3 +130,136 @@ function addAvanceeCategoryTitle(title) {
   rewardsCharactersTitle.textContent = title;
   charactersContainerElement.appendChild(rewardsCharactersTitle);
 }
+
+
+function updateCharactersDupes(charName) {
+  document.querySelectorAll("round-slider").forEach(function (el) {
+    const value = Number(
+      el.parentNode.querySelector(".slider-value").textContent
+    );
+
+    if (value > 1) {
+      el.parentNode.classList = "slider-element";
+    } else {
+      el.parentNode.classList = "slider-element disabled";
+    }
+
+    el.addEventListener("value-changed", function (ev) {
+      if (ev.detail.value !== undefined) {
+        el.parentNode.querySelector(".slider-value").textContent =
+          ev.detail.value;
+
+        if (ev.detail.value > 1) {
+          el.parentNode.classList = "slider-element";
+        } else {
+          el.parentNode.classList = "slider-element disabled";
+        }
+
+        localStorage.setItem(el.parentNode.id, ev.detail.value.toString());
+
+        countMaxLlbCharacters(charName);
+      }
+    });
+
+    el.addEventListener("value-changing", function (ev) {
+      if (ev.detail.value !== undefined) {
+        el.parentNode.querySelector(".slider-value").textContent =
+          ev.detail.value;
+      }
+    });
+  });
+
+  countMaxLlbCharacters(charName);
+}
+
+function countMaxLlbCharacters(charName) {
+  const charactersDupesCount = {
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0,
+    6: 0,
+    7: 0,
+    8: 0,
+    9: 0,
+  };
+
+  document.querySelectorAll("round-slider").forEach(function (el) {
+    const value = Number(
+      el.parentNode.querySelector(".slider-value").textContent
+    );
+
+    if (value === 1) {
+      charactersDupesCount[1] = charactersDupesCount[1] + 1;
+    }
+
+    if (value === 2) {
+      charactersDupesCount[2] = charactersDupesCount[2] + 1;
+    }
+
+    if (value === 3) {
+      charactersDupesCount[3] = charactersDupesCount[3] + 1;
+    }
+
+    if (value === 4) {
+      charactersDupesCount[4] = charactersDupesCount[4] + 1;
+    }
+
+    if (value === 5) {
+      charactersDupesCount[5] = charactersDupesCount[5] + 1;
+    }
+
+    if (value === 6) {
+      charactersDupesCount[6] = charactersDupesCount[6] + 1;
+    }
+
+    if (value === 7) {
+      charactersDupesCount[7] = charactersDupesCount[7] + 1;
+    }
+
+    if (value === 8) {
+      charactersDupesCount[8] = charactersDupesCount[8] + 1;
+    }
+
+    if (value === 9) {
+      charactersDupesCount[9] = charactersDupesCount[9] + 1;
+    }
+  });
+
+  document.querySelector(
+    "#lvl1LlbCharacters"
+  ).textContent = `1 dupe = ${charactersDupesCount[1]} ${charName}`;
+
+  document.querySelector(
+    "#lvl2LlbCharacters"
+  ).textContent = `2 dupes = ${charactersDupesCount[2]} ${charName}`;
+
+  document.querySelector(
+    "#lvl3LlbCharacters"
+  ).textContent = `3 dupes = ${charactersDupesCount[3]} ${charName}`;
+
+  document.querySelector(
+    "#lvl4LlbCharacters"
+  ).textContent = `4 dupes = ${charactersDupesCount[4]} ${charName}`;
+
+  document.querySelector(
+    "#lvl5LlbCharacters"
+  ).textContent = `5 dupes = ${charactersDupesCount[5]} ${charName}`;
+
+  document.querySelector(
+    "#lvl6LlbCharacters"
+  ).textContent = `6 dupes = ${charactersDupesCount[6]} ${charName}`;
+
+  document.querySelector(
+    "#lvl7LlbCharacters"
+  ).textContent = `7 dupes = ${charactersDupesCount[7]} ${charName}`;
+
+  document.querySelector(
+    "#lvl8LlbCharacters"
+  ).textContent = `8 dupes = ${charactersDupesCount[8]} ${charName}`;
+
+  document.querySelector(
+    "#maxLlbCharacters"
+  ).textContent = `LLB max : ${charactersDupesCount[9]} ${charName}`;
+}

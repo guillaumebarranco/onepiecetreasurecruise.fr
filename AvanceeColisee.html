@@ -81,7 +81,13 @@
       src="https://www.googletagmanager.com/gtag/js?id=UA-127847674-1"
     ></script>
     <script src="shared/analytics.js"></script>
+
+    <script
+      src="https://rawcdn.githack.com/thomasloven/round-slider/master/round-slider.bundle.js"
+      type="module"
+    ></script>
   </head>
+
   <body id="NO-COLOR" class="raidlist">
     <div class="entete">
       <img class="entetefond" src="https://i.imgur.com/adWoClY.png" />
@@ -131,6 +137,36 @@
           <h3>Effets de soutien au maximum</h3>
         </li>
       </ul>
+
+      <div class="llb-container">
+        <div id="lvl1LlbCharacters" class="llb-info">
+          1 dupe = 0 personnages
+        </div>
+        <div id="lvl2LlbCharacters" class="llb-info">
+          2 dupes = 0 personnages
+        </div>
+        <div id="lvl3LlbCharacters" class="llb-info">
+          3 dupes = 0 personnages
+        </div>
+        <div id="lvl4LlbCharacters" class="llb-info">
+          4 dupes = 0 personnages
+        </div>
+        <div id="lvl5LlbCharacters" class="llb-info">
+          5 dupes = 0 personnages
+        </div>
+        <div id="lvl6LlbCharacters" class="llb-info">
+          6 dupes = 0 personnages
+        </div>
+        <div id="lvl7LlbCharacters" class="llb-info">
+          7 dupes = 0 personnages
+        </div>
+        <div id="lvl8LlbCharacters" class="llb-info">
+          8 dupes = 0 personnages
+        </div>
+        <div id="maxLlbCharacters" class="llb-info">
+          LLB max = 0 personnages
+        </div>
+      </div>
 
       <div class="characters-container"></div>
     </div>
@@ -1166,6 +1202,8 @@
       generateAvanceeList(neoColoCharactersList);
       addAvanceeCategoryTitle('Colisées "Ex"');
       generateAvanceeList(exColoCharactersList);
+
+      updateCharactersDupes("personnages");
     </script>
   </body>
 </html>

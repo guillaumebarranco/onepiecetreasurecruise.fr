@@ -111,3 +111,20 @@ round-slider.scaling:hover {
   left: 28px;
   font-size: 25px;
 }
+
+.characters-container {
+  margin-top: 20px;
+}
+
+.llb-info {
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.llb-container {
+  background-color: rgba(255,255,255,0.8);
+  width: fit-content;
+  padding: 10px;
+  margin-left: 20px;
+}
