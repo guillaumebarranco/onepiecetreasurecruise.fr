@@ -92,30 +92,21 @@ function getNavbar(level = 0) {
               <a id="menu-sub-element-progress__avancee-kizuna" class="dropdown-item" href="${path}AvanceeCombatAmitie.html">Avancée des personnages des combats de l'amitié</a>
             </div>
           </li>
-          <li id="menu-element-website-events" class="nav-item dropdown">
-            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-              id="navbarDropdownMenuLink">Évènements</a>
-            <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
-              <a id="menu-sub-element-website-events__creations" class="dropdown-item" href="${path}Creations.html">Créations de personnages</a>
-              <a id="menu-sub-element-website-events__awards-2019" class="dropdown-item" href="${path}Awards/">Awards 2019</a>
-              <a id="menu-sub-element-website-events__awards-2020" class="dropdown-item" href="${path}Awards2020/">Awards 2020</a>
-            </div>
+          <li id="menu-element-legends" class="nav-item">
+            <a class="nav-link"  href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://discord.gg/FVHa9vKy" target="_blank">Discord</a>
           </li>
           <li id="menu-element-other-websites" class="nav-item dropdown">
             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
-              id="navbarDropdownMenuLink">Sites</a>
+              id="navbarDropdownMenuLink">Autres</a>
             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
               <a class="dropdown-item" href="https://optc-db.github.io/" target="_blank">OPTC Database</a>
               <a class="dropdown-item" href="https://lukforce.bitbucket.io/" target="_blank">OPTC Voyage Log</a>
               <a class="dropdown-item" href="https://www.nakama.network/" target="_blank">Nakama Network</a>
-              <a class="dropdown-item" href="http://optc-tierlist.com/" target="_blank">Tier List Maker</a>
+              <a class="dropdown-item" href="${path}Remerciements.html">Remerciements</a>
             </div>
-          </li>
-          <li id="menu-element-thanks" class="nav-item">
-            <a class="nav-link" href="${path}Remerciements.html">Remerciements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://discord.gg/6bJvuT8" target="_blank">Discord</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
@@ -141,6 +132,16 @@ function getNavbar(level = 0) {
     </nav>
   `;
 }
+
+// <li id="menu-element-website-events" class="nav-item dropdown">
+//             <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown"
+//               id="navbarDropdownMenuLink">Évènements</a>
+//             <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu dropdown-secondary">
+//               <a id="menu-sub-element-website-events__creations" class="dropdown-item" href="${path}Creations.html">Créations de personnages</a>
+//               <a id="menu-sub-element-website-events__awards-2019" class="dropdown-item" href="${path}Awards/">Awards 2019</a>
+//               <a id="menu-sub-element-website-events__awards-2020" class="dropdown-item" href="${path}Awards2020/">Awards 2020</a>
+//             </div>
+//           </li>
 
 /*
 legends
