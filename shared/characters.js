@@ -6248,6 +6248,24 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/w7WcJub.png",
             },
           ],
+          [
+            {
+              id: "4103",
+              imgUrl: "https://i.imgur.com/Pv8IQFS.png",
+            },
+            {
+              id: "4104",
+              imgUrl: "https://i.imgur.com/USIXm9y.png",
+            },
+            {
+              id: "4105",
+              imgUrl: "https://i.imgur.com/JVUJUxB.png",
+            },
+            {
+              id: "4106",
+              imgUrl: "https://i.imgur.com/tCgr3Dr.png",
+            },
+          ],
         ],
       },
       {
@@ -6727,6 +6745,16 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/JHoFxdx.png",
             },
           ],
+          [
+            {
+              id: "4064",
+              imgUrl: "https://i.imgur.com/EhLIfgf.png",
+            },
+            {
+              id: "4065",
+              imgUrl: "https://i.imgur.com/DhD51OS.png",
+            }
+          ],
         ]
       },
       {
@@ -6897,7 +6925,6 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/FltV2pg.png",
             },
           ],
-
         ],
       },
     ],
@@ -7823,6 +7850,20 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/yTaufk0.png",
             },
           ],
+          [
+            {
+              id: "4044",
+              imgUrl: "https://i.imgur.com/PGx4MM2.png",
+            },
+            {
+              id: "4045",
+              imgUrl: "https://i.imgur.com/aSiCktm.png",
+            },
+            {
+              id: "4046",
+              imgUrl: "https://i.imgur.com/KFvBwWn.png",
+            },
+          ],
         ],
       },
       {
@@ -8026,6 +8067,32 @@ const allRareRecruitCharactersList = [
             {
               id: "3998",
               imgUrl: "https://i.imgur.com/pJzKJGn.png",
+            }
+          ],
+          [
+            {
+              id: "4022",
+              imgUrl: "https://i.imgur.com/appBUov.png",
+            },
+            {
+              id: "4023",
+              imgUrl: "https://i.imgur.com/lkH4zRh.png",
+            }
+          ]
+        ]
+      },
+      {
+        frName: "Egghead",
+        enName: "Egghead",
+        characters: [
+          [
+            {
+              id: "4086",
+              imgUrl: "https://i.imgur.com/dPt1GX3.png",
+            },
+            {
+              id: "4087",
+              imgUrl: "https://i.imgur.com/p7ac6hJ.png",
             }
           ]
         ]
