@@ -2415,6 +2415,13 @@ const allRareRecruitCharactersList = [
             hasKeyLb: true,
             hasSupport: true,
           },
+          {
+            id: "4111",
+            imgUrl: "https://i.imgur.com/SacYljl.png",
+            hasLb: true,
+            hasKeyLb: true,
+            hasSupport: true,
+          },
          ]
         ]
       },
@@ -5489,14 +5496,6 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/rr/f0225.png",
             },
-          ],
-        ],
-      },
-      {
-        frName: 'Personnages "passables"',
-        enName: "Fake Golds",
-        characters: [
-          [
             {
               id: "0500",
               imgUrl:
@@ -6502,34 +6501,7 @@ const allRareRecruitCharactersList = [
           ],
         ],
       },
-      {
-        frName: "Combat à mort de l'Âge d'or de la piraterie",
-        enName: "Clash of the Great Pirate Era",
-        characters: [
-          [
-            {
-              id: "1612",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1612.png",
-            },
-            {
-              id: "1614",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1614.png",
-            },
-            {
-              id: "1616",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1616.png",
-            },
-            {
-              id: "1618",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1618.png",
-            },
-          ],
-        ],
-      },
+
       {
         frName: "Commémoration du 20e anniversaire",
         enName: "20th Anniversary",
@@ -6692,25 +6664,6 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
-        frName: "Minks",
-        enName: "Minks",
-        characters: [
-          [
-            {
-              id: "3537",
-              imgUrl:
-                "https://i.imgur.com/cbULeQQ.png",
-            },
-            {
-              id: "3538",
-              imgUrl:
-                "https://i.imgur.com/veJ4Cqn.png",
-            },
-          ],
-
-        ],
-      },
-      {
         frName: "Fourreaux Rouges",
         enName: "Red Scabards",
         characters: [
@@ -6842,6 +6795,18 @@ const allRareRecruitCharactersList = [
         characters: [
           [
             {
+              id: "3537",
+              imgUrl:
+                "https://i.imgur.com/cbULeQQ.png",
+            },
+            {
+              id: "3538",
+              imgUrl:
+                "https://i.imgur.com/veJ4Cqn.png",
+            },
+          ],
+          [
+            {
               id: "3632",
               imgUrl: "https://i.imgur.com/IgxhrsE.png",
             },
@@ -6931,6 +6896,22 @@ const allRareRecruitCharactersList = [
           ],
         ],
       },
+      {
+        frName: "Cross Guild",
+        enName: "Cross Guild",
+        characters: [
+          [
+            {
+              id: "4112",
+              imgUrl: "https://i.imgur.com/y77daog.png",
+            },
+            {
+              id: "4113",
+              imgUrl: "https://i.imgur.com/1duKBC5.png",
+            }
+          ]
+        ]
+      }
     ],
   },
   {
@@ -7362,9 +7343,31 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
-        frName: "Ennemis de Roronoa Zoro",
-        enName: "Enemies of Roronoa Zoro",
+        frName: "Ennemis des Mugiwaras",
+        enName: "Enemies of Mugiwaras",
         characters: [
+          [
+            {
+              id: "1612",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1612.png",
+            },
+            {
+              id: "1614",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1614.png",
+            },
+            {
+              id: "1616",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1616.png",
+            },
+            {
+              id: "1618",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1618.png",
+            },
+          ],
           [
             {
               id: "2479",
@@ -7385,6 +7388,16 @@ const allRareRecruitCharactersList = [
               id: "2485",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/rr/f2485.png",
+            },
+          ],
+          [
+            {
+              id: "3475",
+              imgUrl: "https://i.imgur.com/IjK6hLL.png",
+            },
+            {
+              id: "3476",
+              imgUrl: "https://i.imgur.com/FOy8bF8.png",
             },
           ],
         ],
@@ -7709,6 +7722,16 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/K9NZCXc.png",
             },
           ],
+          [
+            {
+              id: "3168",
+              imgUrl: "https://i.imgur.com/WphYmaK.png",
+            },
+            {
+              id: "3170",
+              imgUrl: "https://i.imgur.com/JolLaHR.png",
+            }
+          ]
         ],
       },
       {
@@ -7919,22 +7942,6 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
-        frName: "Noël",
-        enName: "Christmas",
-        characters: [
-          [
-            {
-              id: "3168",
-              imgUrl: "https://i.imgur.com/WphYmaK.png",
-            },
-            {
-              id: "3170",
-              imgUrl: "https://i.imgur.com/JolLaHR.png",
-            },
-          ],
-        ],
-      },
-      {
         frName: "7ème anniversaire de la version japonaise",
         enName: "7th birthday of japanese version",
         characters: [
@@ -7966,23 +7973,6 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/vcHpuzK.png",
             },
           ],
-        ],
-      },
-      {
-        frName: "Ennemis de Luffy",
-        enName: "Luffy's foes",
-        characters: [
-          [
-            {
-              id: "3475",
-              imgUrl: "https://i.imgur.com/IjK6hLL.png",
-            },
-            {
-              id: "3476",
-              imgUrl: "https://i.imgur.com/FOy8bF8.png",
-            },
-          ],
-
         ],
       },
       {
