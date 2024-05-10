@@ -2361,6 +2361,27 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
+            },
+            {
+              id: "4150",
+              imgUrl: "https://i.imgur.com/1KStxco.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4152",
+              imgUrl: "https://i.imgur.com/1E0pQ11.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4154",
+              imgUrl: "https://i.imgur.com/QtGOO6C.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
             }
           ],
         ],
@@ -2450,6 +2471,13 @@ const allRareRecruitCharactersList = [
           {
             id: "4111",
             imgUrl: "https://i.imgur.com/SacYljl.png",
+            hasLb: true,
+            hasKeyLb: true,
+            hasSupport: true,
+          },
+          {
+            id: "4151",
+            imgUrl: "https://i.imgur.com/vy78nDw.png",
             hasLb: true,
             hasKeyLb: true,
             hasSupport: true,
@@ -3216,6 +3244,10 @@ const allRareRecruitCharactersList = [
             {
               id: "4139",
               imgUrl: "https://i.imgur.com/fV2sdY5.png",
+            },
+            {
+              id: "4162",
+              imgUrl: "https://i.imgur.com/A3qKkGk.png",
             },
           ],
         ],
@@ -4744,6 +4776,16 @@ const allRareRecruitCharactersList = [
               id: "4135",
               imgUrl:
                 "https://i.imgur.com/WcIGFAU.png",
+            },
+            {
+              id: "4158",
+              imgUrl:
+                "https://i.imgur.com/gLmszHs.png",
+            },
+            {
+              id: "4159",
+              imgUrl:
+                "https://i.imgur.com/scUmj51.png",
             },
           ],
         ],
@@ -7006,6 +7048,26 @@ const allRareRecruitCharactersList = [
             }
           ]
         ]
+      },
+      {
+        frName: "Equipage de Kid/Law",
+        enName: "Kid/Law crew",
+        characters: [
+          [
+            {
+              id: "4143",
+              imgUrl: "https://i.imgur.com/RUL8zHA.png",
+            },
+            {
+              id: "4144",
+              imgUrl: "https://i.imgur.com/Lt81Xzv.png",
+            },
+            {
+              id: "4145",
+              imgUrl: "https://i.imgur.com/SKAhPlA.png",
+            }
+          ]
+        ]
       }
     ],
   },
@@ -7493,6 +7555,16 @@ const allRareRecruitCharactersList = [
             {
               id: "3476",
               imgUrl: "https://i.imgur.com/FOy8bF8.png",
+            },
+          ],
+          [
+            {
+              id: "4125",
+              imgUrl: "https://i.imgur.com/o3Ry0Qt.png",
+            },
+            {
+              id: "4126",
+              imgUrl: "https://i.imgur.com/lHVQxgZ.png",
             },
           ],
         ],
@@ -8183,6 +8255,20 @@ const allRareRecruitCharactersList = [
               id: "4087",
               imgUrl: "https://i.imgur.com/p7ac6hJ.png",
             }
+          ],
+          [
+            {
+              id: "4155",
+              imgUrl: "https://i.imgur.com/uKKBGpk.png",
+            },
+            {
+              id: "4156",
+              imgUrl: "https://i.imgur.com/fG66nJj.png",
+            },
+            {
+              id: "4157",
+              imgUrl: "https://i.imgur.com/X5Ghwix.png",
+            },
           ]
         ]
       }
