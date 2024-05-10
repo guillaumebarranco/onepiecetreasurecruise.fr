@@ -2364,7 +2364,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "4150",
-              imgUrl: "https://i.imgur.com/1KStxco.png",
+              imgUrl: "https://i.imgur.com/mudKUK7.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -2378,7 +2378,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "4154",
-              imgUrl: "https://i.imgur.com/QtGOO6C.png",
+              imgUrl: "https://i.imgur.com/1KStxco.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
