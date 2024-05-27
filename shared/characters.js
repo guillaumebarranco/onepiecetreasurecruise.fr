@@ -2110,6 +2110,22 @@ const allRareRecruitCharactersList = [
               hasSupport: false,
             },
             {
+              id: "4171",
+              imgUrl:
+                "https://i.imgur.com/4fTXCU3.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4172",
+              imgUrl:
+                "https://i.imgur.com/F2jJXuJ.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -2697,6 +2713,13 @@ const allRareRecruitCharactersList = [
             {
               id: "4137",
               imgUrl: "https://i.imgur.com/AFV5fRF.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4167",
+              imgUrl: "https://i.imgur.com/Ve1MJV2.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
