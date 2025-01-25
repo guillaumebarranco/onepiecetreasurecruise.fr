@@ -2198,6 +2198,38 @@ const allRareRecruitCharactersList = [
               hasSupport: false,
             },
             {
+              id: "4276",
+              imgUrl:
+                "https://i.imgur.com/8SRXpcq.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4288",
+              imgUrl:
+                "https://i.imgur.com/weVWKJZ.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4307",
+              imgUrl:
+                "https://i.imgur.com/fNWY8WU.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4308",
+              imgUrl:
+                "https://i.imgur.com/x6NBArG.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -2499,6 +2531,27 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
+            },
+            {
+              id: "4290",
+              imgUrl: "https://i.imgur.com/zLHigi6.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4291",
+              imgUrl: "https://i.imgur.com/fC2y2Kl.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4293",
+              imgUrl: "https://i.imgur.com/UMmEMmB.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
             }
           ],
         ],
@@ -2620,6 +2673,13 @@ const allRareRecruitCharactersList = [
             hasLb: true,
             hasKeyLb: true,
             hasSupport: false,
+          },
+          {
+            id: "4275",
+            imgUrl: "https://i.imgur.com/XCihNKs.png",
+            hasLb: true,
+            hasKeyLb: true,
+            hasSupport: true,
           },
          ]
         ]
@@ -2762,6 +2822,20 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "4282",
+              imgUrl: "https://i.imgur.com/yxN1O6S.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4300",
+              imgUrl: "https://i.imgur.com/qUOjCN0.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            }
           ],
         ],
       },
@@ -2903,6 +2977,20 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "4285",
+              imgUrl: "https://i.imgur.com/chNnEtN.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4303",
+              imgUrl: "https://i.imgur.com/pFvcRNz.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            }
           ],
         ],
       },
@@ -3019,6 +3107,20 @@ const allRareRecruitCharactersList = [
             {
               id: "4247",
               imgUrl: "https://i.imgur.com/LVX14cx.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4281",
+              imgUrl: "https://i.imgur.com/9lARFuN.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4299",
+              imgUrl: "https://i.imgur.com/LClG9CM.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -3496,6 +3598,22 @@ const allRareRecruitCharactersList = [
             {
               id: "4274",
               imgUrl: "https://i.imgur.com/qXEpsPr.png",
+            },
+            {
+              id: "4287",
+              imgUrl: "https://i.imgur.com/WYdFbGb.png",
+            },
+            {
+              id: "4289",
+              imgUrl: "https://i.imgur.com/lam7wYk.png",
+            },
+            {
+              id: "4294",
+              imgUrl: "https://i.imgur.com/lbAfn5D.png",
+            },
+            {
+              id: "4306",
+              imgUrl: "https://i.imgur.com/iHEORcE.png",
             },
           ],
         ],
@@ -4720,6 +4838,70 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/Bda1cdM.png",
             },
             {
+              id: "3388",
+              imgUrl: "https://i.imgur.com/qfthlRd.png",
+            },
+            {
+              id: "3387",
+              imgUrl: "https://i.imgur.com/QSNcyC3.png",
+            },
+            {
+              id: "3386",
+              imgUrl: "https://i.imgur.com/849lDAt.png",
+            },
+            {
+              id: "3412",
+              imgUrl: "https://i.imgur.com/gNKNf2P.png",
+            },
+            {
+              id: "3413",
+              imgUrl: "https://i.imgur.com/0CFjXNi.png",
+            },
+            {
+              id: "3414",
+              imgUrl: "https://i.imgur.com/dIe5n2N.png",
+            },
+            {
+              id: "3439",
+              imgUrl: "https://i.imgur.com/9YVM1ZS.png",
+            },
+            {
+              id: "3440",
+              imgUrl: "https://i.imgur.com/x3DjtEq.png",
+            },
+            {
+              id: "3441",
+              imgUrl: "https://i.imgur.com/6jEMWwe.png",
+            },
+            {
+              id: "3442",
+              imgUrl: "https://i.imgur.com/SinyQFr.png",
+            },
+            {
+              id: "3502",
+              imgUrl: "https://i.imgur.com/0yix7ZR.png",
+            },
+            {
+              id: "3503",
+              imgUrl: "https://i.imgur.com/i02gYtq.png",
+            },
+            {
+              id: "3504",
+              imgUrl: "https://i.imgur.com/sV4M6Cr.png",
+            },
+            {
+              id: "3584",
+              imgUrl: "https://i.imgur.com/d0xmP3o.png",
+            },
+            {
+              id: "3585",
+              imgUrl: "https://i.imgur.com/N2q8CIB.png",
+            },
+            {
+              id: "3586",
+              imgUrl: "https://i.imgur.com/5ODtEOJ.png",
+            },
+            {
               id: "3524",
               imgUrl:
                 "https://i.imgur.com/xcZmVnp.png",
@@ -4899,7 +5081,6 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://i.imgur.com/rFFCOC1.png",
             },
-
             {
               id: "4030",
               imgUrl:
@@ -5012,68 +5193,20 @@ const allRareRecruitCharactersList = [
                 "https://i.imgur.com/Q0U8PuI.png",
             },
             {
-              id: "3388",
-              imgUrl: "https://i.imgur.com/qfthlRd.png",
+              id: "4301",
+              imgUrl: "https://i.imgur.com/6zrOYpr.png",
             },
             {
-              id: "3387",
-              imgUrl: "https://i.imgur.com/QSNcyC3.png",
+              id: "4302",
+              imgUrl: "https://i.imgur.com/rq44LIA.png",
             },
             {
-              id: "3386",
-              imgUrl: "https://i.imgur.com/849lDAt.png",
+              id: "4283",
+              imgUrl: "https://i.imgur.com/UYeJUVO.png",
             },
             {
-              id: "3412",
-              imgUrl: "https://i.imgur.com/gNKNf2P.png",
-            },
-            {
-              id: "3413",
-              imgUrl: "https://i.imgur.com/0CFjXNi.png",
-            },
-            {
-              id: "3414",
-              imgUrl: "https://i.imgur.com/dIe5n2N.png",
-            },
-            {
-              id: "3439",
-              imgUrl: "https://i.imgur.com/9YVM1ZS.png",
-            },
-            {
-              id: "3440",
-              imgUrl: "https://i.imgur.com/x3DjtEq.png",
-            },
-            {
-              id: "3441",
-              imgUrl: "https://i.imgur.com/6jEMWwe.png",
-            },
-            {
-              id: "3442",
-              imgUrl: "https://i.imgur.com/SinyQFr.png",
-            },
-            {
-              id: "3502",
-              imgUrl: "https://i.imgur.com/0yix7ZR.png",
-            },
-            {
-              id: "3503",
-              imgUrl: "https://i.imgur.com/i02gYtq.png",
-            },
-            {
-              id: "3504",
-              imgUrl: "https://i.imgur.com/sV4M6Cr.png",
-            },
-            {
-              id: "3584",
-              imgUrl: "https://i.imgur.com/d0xmP3o.png",
-            },
-            {
-              id: "3585",
-              imgUrl: "https://i.imgur.com/N2q8CIB.png",
-            },
-            {
-              id: "3586",
-              imgUrl: "https://i.imgur.com/5ODtEOJ.png",
+              id: "4284",
+              imgUrl: "https://i.imgur.com/KyauGdX.png",
             },
           ],
         ],
@@ -5441,6 +5574,14 @@ const allRareRecruitCharactersList = [
               id: "4272",
               imgUrl: "https://i.imgur.com/l2IMoWs.png",
             },
+            {
+              id: "4286",
+              imgUrl: "https://i.imgur.com/IziklJu.png",
+            },
+            {
+              id: "4304",
+              imgUrl: "https://i.imgur.com/PAN6kTL.png",
+            },
           ],
         ],
       },
@@ -5713,6 +5854,10 @@ const allRareRecruitCharactersList = [
               id: "4248",
               imgUrl: "https://i.imgur.com/RvKCdHk.png",
             },
+            {
+              id: "4264",
+              imgUrl: "https://i.imgur.com/cOW2EJl.png",
+            },
           ],
         ],
       },
@@ -5940,6 +6085,11 @@ const allRareRecruitCharactersList = [
               id: "4273",
               imgUrl:
                 "https://i.imgur.com/aAjtYME.png",
+            },
+            {
+              id: "4305",
+              imgUrl:
+                "https://i.imgur.com/9ed3xw9.png",
             },
           ],
         ],
