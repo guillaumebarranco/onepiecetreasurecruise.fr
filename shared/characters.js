@@ -2230,6 +2230,54 @@ const allRareRecruitCharactersList = [
               hasSupport: false,
             },
             {
+              id: "4336",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4336.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4337",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4337.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4338",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4338.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4353",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4353.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4354",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4354.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4381",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4381.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -2552,6 +2600,41 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
+            },
+            {
+              id: "4365",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4365.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4366",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4366.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4380",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4380.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4387",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4387.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4388",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4388.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
             }
           ],
         ],
@@ -2560,128 +2643,163 @@ const allRareRecruitCharactersList = [
         frName: "Personnages exclusifs au Sugo Fest des anniversaires",
         enName: "Anniversary Sugo-Fest Exclusive",
         characters: [
-         [
-          {
-            id: "3613",
-            imgUrl: "https://i.imgur.com/makQbBj.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "3745",
-            imgUrl: "https://i.imgur.com/dZYEapX.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "3755",
-            imgUrl: "https://i.imgur.com/QLtph2G.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "3830",
-            imgUrl: "https://i.imgur.com/ouXQOTe.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "3832",
-            imgUrl: "https://i.imgur.com/CH8kQfk.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "3839",
-            imgUrl: "https://i.imgur.com/XbTpfdY.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "3880",
-            imgUrl: "https://i.imgur.com/oHjLzxS.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: false,
-          },
-          {
-            id: "4011",
-            imgUrl: "https://i.imgur.com/8shBQUD.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "4012",
-            imgUrl: "https://i.imgur.com/gR7QcyB.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "4029",
-            imgUrl: "https://i.imgur.com/x4w6AMD.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "4100",
-            imgUrl: "https://i.imgur.com/NbUMU3k.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "4111",
-            imgUrl: "https://i.imgur.com/SacYljl.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-          {
-            id: "4151",
-            imgUrl: "https://i.imgur.com/vy78nDw.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
+          [
+            {
+              id: "3613",
+              imgUrl: "https://i.imgur.com/makQbBj.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3745",
+              imgUrl: "https://i.imgur.com/dZYEapX.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3755",
+              imgUrl: "https://i.imgur.com/QLtph2G.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3830",
+              imgUrl: "https://i.imgur.com/ouXQOTe.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3832",
+              imgUrl: "https://i.imgur.com/CH8kQfk.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3839",
+              imgUrl: "https://i.imgur.com/XbTpfdY.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "3880",
+              imgUrl: "https://i.imgur.com/oHjLzxS.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4011",
+              imgUrl: "https://i.imgur.com/8shBQUD.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4012",
+              imgUrl: "https://i.imgur.com/gR7QcyB.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4029",
+              imgUrl: "https://i.imgur.com/x4w6AMD.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4100",
+              imgUrl: "https://i.imgur.com/NbUMU3k.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4111",
+              imgUrl: "https://i.imgur.com/SacYljl.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4151",
+              imgUrl: "https://i.imgur.com/vy78nDw.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
 
-          {
-            id: "4257",
-            imgUrl: "https://i.imgur.com/ej6iw1a.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: false,
-          },
-          {
-            id: "4267",
-            imgUrl: "https://i.imgur.com/pCXYjlE.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: false,
-          },
-          {
-            id: "4268",
-            imgUrl: "https://i.imgur.com/Twn6sEe.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: false,
-          },
-          {
-            id: "4275",
-            imgUrl: "https://i.imgur.com/XCihNKs.png",
-            hasLb: true,
-            hasKeyLb: true,
-            hasSupport: true,
-          },
-         ]
+            {
+              id: "4257",
+              imgUrl: "https://i.imgur.com/ej6iw1a.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4267",
+              imgUrl: "https://i.imgur.com/pCXYjlE.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4268",
+              imgUrl: "https://i.imgur.com/Twn6sEe.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4275",
+              imgUrl: "https://i.imgur.com/XCihNKs.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4322",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4322.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4323",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4323.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4329",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4329.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4367",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4367.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4391",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4391.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+          ]
         ]
       },
       {
@@ -2835,7 +2953,21 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
-            }
+            },
+            {
+              id: "4314",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4314.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4345",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4345.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
@@ -2990,7 +3122,35 @@ const allRareRecruitCharactersList = [
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
-            }
+            },
+            {
+              id: "4319",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4319.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4333",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4333.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4348",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4348.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4392",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4392.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
@@ -3121,6 +3281,49 @@ const allRareRecruitCharactersList = [
             {
               id: "4299",
               imgUrl: "https://i.imgur.com/LClG9CM.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4313",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4313.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4328",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4328.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4343",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4343.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Personnages exclusifs dans les missions échangeables",
+        enName: "Exchangable Sugo-Fest Exclusive",
+        characters: [
+          [
+            {
+              id: "4067",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4067.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4238",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4238.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -3614,6 +3817,55 @@ const allRareRecruitCharactersList = [
             {
               id: "4306",
               imgUrl: "https://i.imgur.com/iHEORcE.png",
+            },
+            {
+              id: "4321",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4321.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4335",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4335.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4344",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4344.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4350",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4350.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4371",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4371.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4378",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4378.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4393",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4393.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
             },
           ],
         ],
@@ -5208,6 +5460,30 @@ const allRareRecruitCharactersList = [
               id: "4284",
               imgUrl: "https://i.imgur.com/KyauGdX.png",
             },
+            {
+              id: "4301",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4301.png",
+            },
+            {
+              id: "4302",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4302.png",
+            },
+            {
+              id: "4315",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4315.png",
+            },
+            {
+              id: "4316",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4316.png",
+            },
+            {
+              id: "4346",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4346.png",
+            },
+            {
+              id: "4347",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4347.png",
+            },
           ],
         ],
       },
@@ -5582,6 +5858,26 @@ const allRareRecruitCharactersList = [
               id: "4304",
               imgUrl: "https://i.imgur.com/PAN6kTL.png",
             },
+            {
+              id: "4320",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4320.png",
+            },
+            {
+              id: "4334",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4334.png",
+            },
+            {
+              id: "4349",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4349.png",
+            },
+            {
+              id: "4375",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4375.png",
+            },
+            {
+              id: "4376",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4376.png",
+            },
           ],
         ],
       },
@@ -5858,6 +6154,14 @@ const allRareRecruitCharactersList = [
               id: "4264",
               imgUrl: "https://i.imgur.com/cOW2EJl.png",
             },
+            {
+              id: "4360",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4360.png",
+            },
+            {
+              id: "4386",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4386.png",
+            },
           ],
         ],
       },
@@ -6090,6 +6394,14 @@ const allRareRecruitCharactersList = [
               id: "4305",
               imgUrl:
                 "https://i.imgur.com/9ed3xw9.png",
+            },
+            {
+              id: "4332",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4332.png",
+            },
+            {
+              id: "4377",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4377.png",
             },
           ],
         ],
@@ -6421,7 +6733,7 @@ const allRareRecruitCharactersList = [
       },
       {
         frName: "Armée révolutionnaire",
-        enName: "Revolutionnary Army",
+        enName: "Revolutionary Army",
         characters: [
           [
             {
@@ -6855,7 +7167,27 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://i.imgur.com/VNixUEq.png",
             },
-          ]
+          ],
+          [
+            {
+              id: "4243",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4243.png",
+            },
+            {
+              id: "4244",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4244.png",
+            },
+          ],
+          [
+            {
+              id: "4382",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4382.png",
+            },
+            {
+              id: "4383",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4383.png",
+            },
+          ],
         ],
       },
       {
@@ -6917,11 +7249,21 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/tCgr3Dr.png",
             },
           ],
+          [
+            {
+              id: "4222",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4222.png",
+            },
+            {
+              id: "4223",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4223.png",
+            },
+          ],
         ],
       },
       {
         frName: "Nouvelle vie - Équipage de Chapeau de paille",
-        enName: "Reunion of the Straw Hat Pirates",
+        enName: "Reunion of Mugiwara",
         characters: [
           [
             {
@@ -7050,7 +7392,7 @@ const allRareRecruitCharactersList = [
       },
       {
         frName: "Complices de l'équipage de Chapeau de paille",
-        enName: "Straw Hat's Accomplices",
+        enName: "Mugiwara's Accomplices",
         characters: [
           [
             {
@@ -7579,7 +7921,39 @@ const allRareRecruitCharactersList = [
             }
           ]
         ]
-      }
+      },
+      {
+        frName: "ASL Frères",
+        enName: "ASL Brothers",
+        characters: [
+          [
+            {
+              id: "4295",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4295.png",
+            },
+            {
+              id: "4296",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4296.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Pirates Rocks",
+        enName: "Rocks Pirates",
+        characters: [
+          [
+            {
+              id: "4389",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4389.png",
+            },
+            {
+              id: "4390",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4390.png",
+            },
+          ],
+        ]
+      },
     ],
   },
   {
@@ -8078,6 +8452,16 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/lHVQxgZ.png",
             },
           ],
+          [
+            {
+              id: "4339",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4339.png",
+            },
+            {
+              id: "4340",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4340.png",
+            },
+          ],
         ],
       },
       {
@@ -8569,6 +8953,26 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/KFvBwWn.png",
             },
           ],
+          [
+            {
+              id: "4214",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4214.png",
+            },
+            {
+              id: "4215",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4215.png",
+            },
+          ],
+          [
+            {
+              id: "4277",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4277.png",
+            },
+            {
+              id: "4278",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4278.png",
+            },
+          ],
         ],
       },
       {
@@ -8724,8 +9128,8 @@ const allRareRecruitCharactersList = [
         ]
       },
       {
-        frName: "Equipage de Shanks",
-        enName: "Red-hair Pirates",
+        frName: "Equipage de Shanks le Roux et Alliés",
+        enName: "Red-hair Pirates and Allies",
         characters: [
           [
             {
@@ -8750,7 +9154,17 @@ const allRareRecruitCharactersList = [
               id: "4023",
               imgUrl: "https://i.imgur.com/lkH4zRh.png",
             }
-          ]
+          ],
+          [
+            {
+              id: "4234",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4234.png",
+            },
+            {
+              id: "4235",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4235.png",
+            },
+          ],
         ]
       },
       {
@@ -8780,9 +9194,145 @@ const allRareRecruitCharactersList = [
               id: "4157",
               imgUrl: "https://i.imgur.com/X5Ghwix.png",
             },
-          ]
+          ],
+          [
+            {
+              id: "4158",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4158.png",
+            },
+            {
+              id: "4159",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4159.png",
+            },
+          ],
+          [
+            {
+              id: "4309",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4309.png",
+            },
+            {
+              id: "4310",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4310.png",
+            },
+          ],
+          [
+            {
+              id: "4324",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4324.png",
+            },
+            {
+              id: "4325",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4325.png",
+            },
+          ],
+          [
+            {
+              id: "4330",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4330.png",
+            },
+            {
+              id: "4331",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4331.png",
+            },
+          ],
+          [
+            {
+              id: "4355",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4355.png",
+            },
+            {
+              id: "4356",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4356.png",
+            },
+          ],
+          [
+            {
+              id: "4368",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4368.png",
+            },
+            {
+              id: "4369",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4369.png",
+            },
+            {
+              id: "4370",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4370.png",
+            },
+            {
+              id: "4372",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4372.png",
+            },
+          ],
         ]
-      }
+      },
+      {
+        frName: "Souvenirs des Mugiwara",
+        enName: "Memories of Mugiwara",
+        characters: [
+          [
+            {
+              id: "4173",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4173.png",
+            },
+            {
+              id: "4174",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4174.png",
+            },
+          ],
+          [
+            {
+              id: "4188",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4188.png",
+            },
+            {
+              id: "4189",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4189.png",
+            },
+          ],
+          [
+            {
+              id: "4203",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4203.png",
+            },
+            {
+              id: "4204",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4204.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Flashback d'Oden",
+        enName: "Flashback of Oden",
+        characters: [
+          [
+            {
+              id: "4258",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4258.png",
+            },
+            {
+              id: "4259",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4259.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Quatre empereurs",
+        enName: "Four Emperors",
+        characters: [
+          [
+            {
+              id: "4269",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4269.png",
+            },
+            {
+              id: "4270",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4270.png",
+            },
+          ],
+        ]
+      },
     ],
   },
 ];
