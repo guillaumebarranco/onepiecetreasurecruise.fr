@@ -7954,6 +7954,38 @@ const allRareRecruitCharactersList = [
           ],
         ]
       },
+      {
+        frName: "Flashback d'Oden",
+        enName: "Flashback of Oden",
+        characters: [
+          [
+            {
+              id: "4258",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4258.png",
+            },
+            {
+              id: "4259",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4259.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Quatre empereurs",
+        enName: "Four Emperors",
+        characters: [
+          [
+            {
+              id: "4269",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4269.png",
+            },
+            {
+              id: "4270",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4270.png",
+            },
+          ],
+        ]
+      },
     ],
   },
   {
@@ -9297,38 +9329,6 @@ const allRareRecruitCharactersList = [
             {
               id: "4204",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4204.png",
-            },
-          ],
-        ]
-      },
-      {
-        frName: "Flashback d'Oden",
-        enName: "Flashback of Oden",
-        characters: [
-          [
-            {
-              id: "4258",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4258.png",
-            },
-            {
-              id: "4259",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4259.png",
-            },
-          ],
-        ]
-      },
-      {
-        frName: "Quatre empereurs",
-        enName: "Four Emperors",
-        characters: [
-          [
-            {
-              id: "4269",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4269.png",
-            },
-            {
-              id: "4270",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4270.png",
             },
           ],
         ]
