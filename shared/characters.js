@@ -2294,6 +2294,22 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "4409",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4409.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4410",
+              imgUrl:
+                "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4410.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
@@ -8039,6 +8055,22 @@ const allRareRecruitCharactersList = [
             {
               id: "4270",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4270.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "God Valley",
+        enName: "God Valley",
+        characters: [
+          [
+            {
+              id: "4411",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4411.png",
+            },
+            {
+              id: "4412",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4412.png",
             },
           ],
         ]
