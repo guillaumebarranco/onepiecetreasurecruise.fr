@@ -1774,7 +1774,7 @@ const allRareRecruitCharactersList = [
             },
             {
               id: "3574",
-              imgUrl: "https://i.imgur.com/hOVR0Zh.png",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/3/500/3574.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
