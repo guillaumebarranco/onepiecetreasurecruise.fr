@@ -2697,6 +2697,20 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "4441",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4441.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4443",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4443.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
@@ -6584,646 +6598,12 @@ const allRareRecruitCharactersList = [
     ],
   },
   {
-    frName: "Personnages du Recrutement Rare (1ère partie)",
-    enName: "Rare Recruit Characters (1st part)",
+    frName: "Personnages du Recrutement Rare - Équipages et Groupes",
+    enName: "Rare Recruit Characters - Crew and Groups",
     sections: [
       {
-        frName: "Premiers personnages",
-        enName: "First Characters",
-        characters: [
-          [
-            {
-              id: "0075",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0075.png",
-            },
-            {
-              id: "0077",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0077.png",
-            },
-            {
-              id: "0210",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0210.png",
-            },
-            {
-              id: "0217",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0217.png",
-            },
-            {
-              id: "0219",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0219.png",
-            },
-            {
-              id: "0221",
-              imgUrl: "https://i.imgur.com/mvjdayi.png",
-            },
-            {
-              id: "0223",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0223.png",
-            },
-            {
-              id: "0225",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0225.png",
-            },
-            {
-              id: "0500",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0500.png",
-            },
-            {
-              id: "0502",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0502.png",
-            },
-            {
-              id: "0504",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0504.png",
-            },
-            {
-              id: "0506",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0506.png",
-            },
-            {
-              id: "0508",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0508.png",
-            },
-            {
-              id: "0586",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0586.png",
-            },
-            {
-              id: "0588",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0588.png",
-            },
-            {
-              id: "0590",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0590.png",
-            },
-            {
-              id: "0785",
-              imgUrl: "https://i.imgur.com/waLBe4P.png",
-            },
-            {
-              id: "0787",
-              imgUrl: "https://i.imgur.com/qP7Jjjw.png",
-            },
-            {
-              id: "0789",
-              imgUrl: "https://i.imgur.com/4BSGasB.png",
-            },
-            {
-              id: "0791",
-              imgUrl: "https://i.imgur.com/e3v6jgG.png",
-            },
-            {
-              id: "0793",
-              imgUrl: "https://i.imgur.com/cKQzHYv.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Équipage de Barbe Blanche",
-        enName: "Whitebeard Pirates",
-        characters: [
-          [
-            {
-              id: "0251",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0251.png",
-            },
-            {
-              id: "0253",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0253.png",
-            },
-            {
-              id: "0255",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0255.png",
-            },
-            {
-              id: "0257",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0257.png",
-            },
-            {
-              id: "0259",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0259.png",
-            },
-            {
-              id: "0449",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0449.png",
-            },
-            {
-              id: "0451",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0451.png",
-            },
-            {
-              id: "0453",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0453.png",
-            },
-            {
-              id: "0455",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0455.png",
-            },
-            {
-              id: "0457",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0457.png",
-            },
-            {
-              id: "0639",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0639.png",
-            },
-            {
-              id: "0641",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0641.png",
-            },
-            {
-              id: "0643",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0643.png",
-            },
-            {
-              id: "0645",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0645.png",
-            },
-            {
-              id: "0647",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0647.png",
-            },
-            {
-              id: "1182",
-              imgUrl: "https://i.imgur.com/TD8DA7U.png",
-            },
-            {
-              id: "1184",
-              imgUrl: "https://i.imgur.com/0hyGWhs.png",
-            },
-            {
-              id: "1186",
-              imgUrl: "https://i.imgur.com/GRYYYdc.png",
-            },
-            {
-              id: "1188",
-              imgUrl: "https://i.imgur.com/5KLShsY.png",
-            },
-            {
-              id: "1190",
-              imgUrl: "https://i.imgur.com/wkXDkil.png",
-            },
-          ],
-          [
-            {
-              id: "3911",
-              imgUrl: "https://i.imgur.com/Yvuyet0.png",
-            },
-            {
-              id: "3912",
-              imgUrl: "https://i.imgur.com/wzxQFRv.png",
-            },
-            {
-              id: "3913",
-              imgUrl: "https://i.imgur.com/nKUbCdf.png",
-            },
-          ]
-        ],
-      },
-      {
-        frName: "Supernovas",
-        enName: "Supernovas",
-        characters: [
-          [
-            {
-              id: "0308",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0308.png",
-            },
-            {
-              id: "0310",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0310.png",
-            },
-            {
-              id: "0312",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0312.png",
-            },
-            {
-              id: "0314",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0314.png",
-            },
-            {
-              id: "0316",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0316.png",
-            },
-            {
-              id: "0357",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0357.png",
-            },
-            {
-              id: "0359",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0359.png",
-            },
-            {
-              id: "0361",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0361.png",
-            },
-            {
-              id: "0363",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0363.png",
-            },
-            {
-              id: "0365",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0365.png",
-            },
-          ],
-          [
-            {
-              id: "3308",
-              imgUrl: "https://i.imgur.com/qaOG9yN.png",
-            },
-            {
-              id: "3309",
-              imgUrl: "https://i.imgur.com/3JKmgbW.png",
-            },
-            {
-              id: "3310",
-              imgUrl: "https://i.imgur.com/1L5waP5.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Grands corsaires",
-        enName: "Warlords of the Sea",
-        characters: [
-          [
-            {
-              id: "0410",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0410.png",
-            },
-            {
-              id: "0412",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0412.png",
-            },
-            {
-              id: "0414",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0414.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Armée révolutionnaire",
-        enName: "Revolutionary Army",
-        characters: [
-          [
-            {
-              id: "0671",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0671.png",
-            },
-            {
-              id: "0673",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0673.png",
-            },
-            {
-              id: "0675",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0675.png",
-            },
-            {
-              id: "0677",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0677.png",
-            },
-          ],
-          [
-            {
-              id: "2563",
-              imgUrl: "https://i.imgur.com/nCArGto.png",
-            },
-            {
-              id: "2565",
-              imgUrl: "https://i.imgur.com/n8aVWFR.png",
-            },
-            {
-              id: "2567",
-              imgUrl: "https://i.imgur.com/tylk8to.png",
-            },
-          ],
-          [
-            {
-              id: "3840",
-              imgUrl: "https://i.imgur.com/1n1iXlL.png",
-            },
-            {
-              id: "3841",
-              imgUrl: "https://i.imgur.com/sTBAY1b.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "CP9",
-        enName: "CP9",
-        characters: [
-          [
-            {
-              id: "0750",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0750.png",
-            },
-            {
-              id: "0752",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0752.png",
-            },
-            {
-              id: "0754",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0754.png",
-            },
-            {
-              id: "0756",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0756.png",
-            },
-            {
-              id: "0758",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0758.png",
-            },
-            {
-              id: "0760",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0760.png",
-            },
-          ],
-          [
-            {
-              id: "3423",
-              imgUrl: "https://i.imgur.com/DSkKmcZ.png",
-            },
-            {
-              id: "3424",
-              imgUrl: "https://i.imgur.com/4hNSBkc.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Équipage de Don Quijote",
-        enName: "Donquixote Pirates",
-        characters: [
-          [
-            {
-              id: "0838",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0838.png",
-            },
-            {
-              id: "0840",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0840.png",
-            },
-            {
-              id: "0842",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0842.png",
-            },
-            {
-              id: "0844",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0844.png",
-            },
-            {
-              id: "0846",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0846.png",
-            },
-            {
-              id: "0872",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0872.png",
-            },
-            {
-              id: "0874",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0874.png",
-            },
-            {
-              id: "0876",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0876.png",
-            },
-            {
-              id: "0878",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0878.png",
-            },
-            {
-              id: "0880",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0880.png",
-            },
-            {
-              id: "0991",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0991.png",
-            },
-            {
-              id: "0993",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0993.png",
-            },
-            {
-              id: "0995",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0995.png",
-            },
-            {
-              id: "0997",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0997.png",
-            },
-            {
-              id: "0999",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0999.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "3D2Y",
-        enName: "3D2Y",
-        characters: [
-          [
-            {
-              id: "0906",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0906.png",
-            },
-            {
-              id: "0908",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0908.png",
-            },
-            {
-              id: "0910",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0910.png",
-            },
-            {
-              id: "0912",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0912.png",
-            },
-            {
-              id: "0914",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f0914.png",
-            },
-            {
-              id: "0937",
-              imgUrl: "https://i.imgur.com/oL9cW6s.png",
-            },
-            {
-              id: "0939",
-              imgUrl: "https://i.imgur.com/nmCUUtf.png",
-            },
-            {
-              id: "0941",
-              imgUrl: "https://i.imgur.com/bVgwopi.png",
-            },
-            {
-              id: "0943",
-              imgUrl: "https://i.imgur.com/YjD4FgS.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Corrida Colosseum",
-        enName: "Corrida Colosseum",
-        characters: [
-          [
-            {
-              id: "1025",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1025.png",
-            },
-            {
-              id: "1027",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1027.png",
-            },
-            {
-              id: "1029",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1029.png",
-            },
-            {
-              id: "1031",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1031.png",
-            },
-            {
-              id: "1033",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1033.png",
-            },
-            {
-              id: "1075",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1075.png",
-            },
-            {
-              id: "1077",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1077.png",
-            },
-            {
-              id: "1079",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1079.png",
-            },
-            {
-              id: "1081",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1081.png",
-            },
-            {
-              id: "1083",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1083.png",
-            },
-            {
-              id: "1125",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1125.png",
-            },
-            {
-              id: "1127",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1127.png",
-            },
-            {
-              id: "1129",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1129.png",
-            },
-            {
-              id: "1131",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1131.png",
-            },
-            {
-              id: "1133",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1133.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Équipage de Chapeau de paille vivant avec conviction",
-        enName: "Pirate Who Lives By His Code",
+        frName: "Équipage de Chapeau de paille",
+        enName: "Mugiwara",
         characters: [
           [
             {
@@ -7263,414 +6643,6 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://i.imgur.com/IGA9xeY.png",
             },
           ],
-        ],
-      },
-      {
-        frName: "Marine",
-        enName: "Marines",
-        characters: [
-          [
-            {
-              id: "1230",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1230.png",
-            },
-            {
-              id: "1232",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1232.png",
-            },
-            {
-              id: "1234",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1234.png",
-            },
-            {
-              id: "1236",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1236.png",
-            },
-            {
-              id: "1238",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1238.png",
-            },
-            {
-              id: "1316",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1316.png",
-            },
-            {
-              id: "1318",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1318.png",
-            },
-            {
-              id: "1320",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1320.png",
-            },
-            {
-              id: "1322",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1322.png",
-            },
-            {
-              id: "1324",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1324.png",
-            },
-          ],
-          [
-            {
-              id: "3724",
-              imgUrl:
-                "https://i.imgur.com/L4jtn7a.png",
-            },
-            {
-              id: "3725",
-              imgUrl:
-                "https://i.imgur.com/MRkhwvd.png",
-            },
-            {
-              id: "3726",
-              imgUrl:
-                "https://i.imgur.com/oLNRdoX.png",
-            },
-            {
-              id: "3727",
-              imgUrl:
-                "https://i.imgur.com/VNixUEq.png",
-            },
-          ],
-          [
-            {
-              id: "4243",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4243.png",
-            },
-            {
-              id: "4244",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4244.png",
-            },
-          ],
-          [
-            {
-              id: "4382",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4382.png",
-            },
-            {
-              id: "4383",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4383.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Équipage de Barbe Noire",
-        enName: "Blackbeard Pirates",
-        characters: [
-          [
-            {
-              id: "1270",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1270.png",
-            },
-            {
-              id: "1272",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1272.png",
-            },
-            {
-              id: "1274",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1274.png",
-            },
-            {
-              id: "1276",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1276.png",
-            },
-            {
-              id: "1278",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1278.png",
-            },
-          ],
-          [
-            {
-              id: "3283",
-              imgUrl: "https://i.imgur.com/CxdlY1Z.png",
-            },
-            {
-              id: "3284",
-              imgUrl: "https://i.imgur.com/w7WcJub.png",
-            },
-          ],
-          [
-            {
-              id: "4103",
-              imgUrl: "https://i.imgur.com/Pv8IQFS.png",
-            },
-            {
-              id: "4104",
-              imgUrl: "https://i.imgur.com/USIXm9y.png",
-            },
-            {
-              id: "4105",
-              imgUrl: "https://i.imgur.com/JVUJUxB.png",
-            },
-            {
-              id: "4106",
-              imgUrl: "https://i.imgur.com/tCgr3Dr.png",
-            },
-          ],
-          [
-            {
-              id: "4222",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4222.png",
-            },
-            {
-              id: "4223",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4223.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Nouvelle vie - Équipage de Chapeau de paille",
-        enName: "Reunion of Mugiwara",
-        characters: [
-          [
-            {
-              id: "1364",
-              imgUrl: "https://i.imgur.com/LWn8OwM.png",
-            },
-            {
-              id: "1366",
-              imgUrl: "https://i.imgur.com/xHuKlDT.png",
-            },
-            {
-              id: "1368",
-              imgUrl: "https://i.imgur.com/u9CRe34.png",
-            },
-            {
-              id: "1370",
-              imgUrl: "https://i.imgur.com/zEnujt5.png",
-            },
-          ],
-          [
-            {
-              id: "1406",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1406.png",
-            },
-            {
-              id: "1408",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1408.png",
-            },
-            {
-              id: "1410",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1410.png",
-            },
-            {
-              id: "1412",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1412.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Île des Hommes-Poissons",
-        enName: "Fish-Man Island",
-        characters: [
-          [
-            {
-              id: "1436",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1436.png",
-            },
-            {
-              id: "1438",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1438.png",
-            },
-            {
-              id: "1440",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1440.png",
-            },
-            {
-              id: "1442",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1442.png",
-            },
-            {
-              id: "1444",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1444.png",
-            },
-            {
-              id: "1475",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1475.png",
-            },
-            {
-              id: "1477",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1477.png",
-            },
-            {
-              id: "1479",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1479.png",
-            },
-            {
-              id: "1481",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1481.png",
-            },
-            {
-              id: "1483",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1483.png",
-            },
-            {
-              id: "2267",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2267.png",
-            },
-            {
-              id: "2269",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2269.png",
-            },
-            {
-              id: "2271",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2271.png",
-            },
-            {
-              id: "2273",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2273.png",
-            },
-            {
-              id: "2275",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2275.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Complices de l'équipage de Chapeau de paille",
-        enName: "Mugiwara's Accomplices",
-        characters: [
-          [
-            {
-              id: "1534",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1534.png",
-            },
-            {
-              id: "1536",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1536.png",
-            },
-            {
-              id: "1538",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1538.png",
-            },
-            {
-              id: "1540",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1540.png",
-            },
-            {
-              id: "1542",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1542.png",
-            },
-            {
-              id: "1741",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1741.png",
-            },
-            {
-              id: "1743",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1743.png",
-            },
-            {
-              id: "1745",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1745.png",
-            },
-            {
-              id: "1749",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1749.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Zo",
-        enName: "Zou",
-        characters: [
-          [
-            {
-              id: "1573",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1573.png",
-            },
-            {
-              id: "1575",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1575.png",
-            },
-            {
-              id: "1577",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1577.png",
-            },
-            {
-              id: "1579",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1579.png",
-            },
-            {
-              id: "1654",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1654.png",
-            },
-            {
-              id: "1656",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1656.png",
-            },
-            {
-              id: "1658",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1658.png",
-            },
-            {
-              id: "1660",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1660.png",
-            },
-          ],
-        ],
-      },
-
-      {
-        frName: "Commémoration du 20e anniversaire",
-        enName: "20th Anniversary",
-        characters: [
           [
             {
               id: "1682",
@@ -7723,556 +6695,152 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
-        frName: "Impel Down",
-        enName: "Impel Down",
+        frName: "Chapeau de paille, amis et ennemis",
+        enName: "Mugiwara, Friends and Foes",
         characters: [
           [
             {
-              id: "1700",
+              id: "1612",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1700.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1612.png",
             },
             {
-              id: "1702",
+              id: "1614",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1702.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1614.png",
             },
             {
-              id: "1704",
+              id: "1616",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1704.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1616.png",
             },
             {
-              id: "1706",
+              id: "1618",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1706.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Dressrosa",
-        enName: "Dressrosa",
-        characters: [
-          [
-            {
-              id: "1796",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1796.png",
-            },
-            {
-              id: "1798",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1798.png",
-            },
-            {
-              id: "1800",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1800.png",
-            },
-            {
-              id: "1802",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1802.png",
-            },
-          ],
-          [
-            { id: "1871", imgUrl: "https://i.imgur.com/epN9tKm.png" },
-            { id: "1873", imgUrl: "https://i.imgur.com/LW119vn.png" },
-            { id: "1875", imgUrl: "https://i.imgur.com/piClmMO.png" },
-            { id: "1877", imgUrl: "https://i.imgur.com/6yPiOmr.png" },
-          ],
-          [
-            {
-              id: "1902",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1902.png",
-            },
-            {
-              id: "1904",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1904.png",
-            },
-            {
-              id: "1906",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1906.png",
-            },
-            {
-              id: "1908",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1908.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1618.png",
             },
           ],
           [
             {
-              id: "2420",
+              id: "2479",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2420.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2479.png",
             },
             {
-              id: "2422",
+              id: "2481",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2422.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2481.png",
             },
             {
-              id: "2424",
+              id: "2483",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2424.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2483.png",
             },
             {
-              id: "2426",
+              id: "2485",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2426.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Fourreaux Rouges",
-        enName: "Red Scabards",
-        characters: [
-          [
-            {
-              id: "3556",
-              imgUrl:
-                "https://i.imgur.com/LDu53SS.png",
-            },
-            {
-              id: "3557",
-              imgUrl:
-                "https://i.imgur.com/AyxyzSc.png",
-            },
-            {
-              id: "3558",
-              imgUrl:
-                "https://i.imgur.com/NfqrxA0.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2485.png",
             },
           ],
           [
             {
-              id: "3746",
-              imgUrl: "https://i.imgur.com/crUeCyH.png",
-            },
-            {
-              id: "3747",
-              imgUrl: "https://i.imgur.com/vmc1nqI.png",
-            },
-            {
-              id: "3748",
-              imgUrl: "https://i.imgur.com/0nkLcsq.png",
-            },
-            {
-              id: "3749",
-              imgUrl: "https://i.imgur.com/JHoFxdx.png",
-            },
-          ],
-          [
-            {
-              id: "4064",
-              imgUrl: "https://i.imgur.com/EhLIfgf.png",
-            },
-            {
-              id: "4065",
-              imgUrl: "https://i.imgur.com/DhD51OS.png",
-            }
-          ],
-        ]
-      },
-      {
-        frName: "Film Red",
-        enName: "Red Movie",
-        characters: [
-          [
-            {
-              id: "3683",
+              id: "2538",
               imgUrl:
-                "https://i.imgur.com/LFxSuds.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2538.png",
             },
             {
-              id: "3684",
+              id: "2540",
               imgUrl:
-                "https://i.imgur.com/AJtyAaU.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2540.png",
             },
             {
-              id: "3685",
+              id: "2542",
               imgUrl:
-                "https://i.imgur.com/Rne6gIt.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2542.png",
             },
-          ],
-          [
             {
-              id: "3698",
+              id: "2544",
               imgUrl:
-                "https://i.imgur.com/wgHMu5W.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2544.png",
+            },
+          ],
+          [
+            {
+              id: "2864",
+              imgUrl: "https://i.imgur.com/6miuVmX.png",
             },
             {
-              id: "3699",
+              id: "2866",
+              imgUrl: "https://i.imgur.com/P96011R.png",
+            },
+          ],
+          [
+            {
+              id: "2966",
               imgUrl:
-                "https://i.imgur.com/KNB4Gtq.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2966.png",
             },
             {
-              id: "3700",
+              id: "2968",
               imgUrl:
-                "https://i.imgur.com/PMpC8bD.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2968.png",
             },
-          ],
-          [
             {
-              id: "3709",
+              id: "2970",
               imgUrl:
-                "https://i.imgur.com/hGFNaze.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2970.png",
             },
             {
-              id: "3711",
+              id: "2972",
               imgUrl:
-                "https://i.imgur.com/wJjikOT.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2972.png",
             },
+          ],
+          [
             {
-              id: "3712",
+              id: "3006",
               imgUrl:
-                "https://i.imgur.com/siMiVO7.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3011.png",
             },
-          ],
-        ]
-      },
-      {
-        frName: "Spade Pirates",
-        enName: "Spade Pirates",
-        characters: [
-          [
             {
-              id: "3833",
+              id: "3008",
               imgUrl:
-                "https://i.imgur.com/668DEkc.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3013.png",
             },
             {
-              id: "3834",
+              id: "3010",
               imgUrl:
-                "https://i.imgur.com/dgi7Ryq.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3015.png",
             },
-          ],
-        ]
-      },
-      {
-        frName: "Onigashima",
-        enName: "Onigashima",
-        characters: [
-          [
-            {
-              id: "3537",
-              imgUrl:
-                "https://i.imgur.com/cbULeQQ.png",
-            },
-            {
-              id: "3538",
-              imgUrl:
-                "https://i.imgur.com/veJ4Cqn.png",
-            },
-          ],
-          [
-            {
-              id: "3632",
-              imgUrl: "https://i.imgur.com/IgxhrsE.png",
-            },
-            {
-              id: "3633",
-              imgUrl: "https://i.imgur.com/uY9H4nk.png",
-            },
-          ],
-
-          [
-            {
-              id: "3756",
-              imgUrl: "https://i.imgur.com/dQBxrH3.png",
-            },
-            {
-              id: "3757",
-              imgUrl: "https://i.imgur.com/ltSACW0.png",
-            },
-          ],
-          [
-            {
-              id: "3767",
-              imgUrl: "https://i.imgur.com/9PPukBi.png",
-            },
-            {
-              id: "3768",
-              imgUrl: "https://i.imgur.com/2goEeuj.png",
-            },
-            {
-              id: "3769",
-              imgUrl: "https://i.imgur.com/2v0vf5Q.png",
-            },
-          ],
-          [
-            {
-              id: "3853",
-              imgUrl: "https://i.imgur.com/qwf6bPm.png",
-            },
-            {
-              id: "3854",
-              imgUrl: "https://i.imgur.com/zs6M23g.png",
-            },
-          ],
-          [
-            {
-              id: "3949",
-              imgUrl: "https://i.imgur.com/DGGYxK5.png",
-            },
-            {
-              id: "3950",
-              imgUrl: "https://i.imgur.com/mPjhs59.png",
-            },
-            {
-              id: "3951",
-              imgUrl: "https://i.imgur.com/XBWQxHU.png",
-            },
-          ],
-          [
-            {
-              id: "3960",
-              imgUrl: "https://i.imgur.com/0GGSTcZ.png",
-            },
-            {
-              id: "3961",
-              imgUrl: "https://i.imgur.com/CniNnoZ.png",
-            },
-          ],
-          [
-            {
-              id: "3974",
-              imgUrl: "https://i.imgur.com/KR7bjh1.png",
-            },
-            {
-              id: "3975",
-              imgUrl: "https://i.imgur.com/embvrFq.png",
-            },
-          ],
-          [
-            {
-              id: "3987",
-              imgUrl: "https://i.imgur.com/0rtEjai.png",
-            },
-            {
-              id: "3988",
-              imgUrl: "https://i.imgur.com/FltV2pg.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Cross Guild",
-        enName: "Cross Guild",
-        characters: [
-          [
-            {
-              id: "4112",
-              imgUrl: "https://i.imgur.com/y77daog.png",
-            },
-            {
-              id: "4113",
-              imgUrl: "https://i.imgur.com/1duKBC5.png",
-            }
           ]
-        ]
-      },
-      {
-        frName: "Equipage de Kid/Law",
-        enName: "Kid/Law crew",
-        characters: [
           [
-            {
-              id: "4143",
-              imgUrl: "https://i.imgur.com/RUL8zHA.png",
-            },
-            {
-              id: "4144",
-              imgUrl: "https://i.imgur.com/Lt81Xzv.png",
-            },
-            {
-              id: "4145",
-              imgUrl: "https://i.imgur.com/SKAhPlA.png",
-            }
-          ]
-        ]
-      },
-      {
-        frName: "ASL Frères",
-        enName: "ASL Brothers",
-        characters: [
-          [
-            {
-              id: "4295",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4295.png",
-            },
-            {
-              id: "4296",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4296.png",
-            },
+          {
+            id: "3475",
+            imgUrl: "https://i.imgur.com/IjK6hLL.png",
+          },
+          {
+            id: "3476",
+            imgUrl: "https://i.imgur.com/FOy8bF8.png",
+          },
           ],
-        ]
-      },
-      {
-        frName: "Pirates Rocks",
-        enName: "Rocks Pirates",
-        characters: [
           [
             {
-              id: "4389",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4389.png",
+              id: "4125",
+              imgUrl: "https://i.imgur.com/o3Ry0Qt.png",
             },
             {
-              id: "4390",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4390.png",
-            },
-          ],
-        ]
-      },
-      {
-        frName: "Flashback d'Oden",
-        enName: "Flashback of Oden",
-        characters: [
-          [
-            {
-              id: "4258",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4258.png",
-            },
-            {
-              id: "4259",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4259.png",
-            },
-          ],
-        ]
-      },
-      {
-        frName: "Quatre empereurs",
-        enName: "Four Emperors",
-        characters: [
-          [
-            {
-              id: "4269",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4269.png",
-            },
-            {
-              id: "4270",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4270.png",
-            },
-          ],
-        ]
-      },
-      {
-        frName: "God Valley",
-        enName: "God Valley",
-        characters: [
-          [
-            {
-              id: "4411",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4411.png",
-            },
-            {
-              id: "4412",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4412.png",
-            },
-          ],
-        ]
-      },
-    ],
-  },
-  {
-    frName: "Personnages du Recrutement Rare (2ème partie)",
-    enName: "Rare Recruit Characters (2nd part)",
-    sections: [
-      {
-        frName: "Germa 66",
-        enName: "Germa 66",
-        characters: [
-          [
-            {
-              id: "1834",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1834.png",
-            },
-            {
-              id: "1836",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1836.png",
-            },
-            {
-              id: "1838",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1838.png",
-            },
-            {
-              id: "1840",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1840.png",
+              id: "4126",
+              imgUrl: "https://i.imgur.com/lHVQxgZ.png",
             },
           ],
           [
             {
-              id: "2139",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2139.png",
+              id: "4339",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4339.png",
             },
             {
-              id: "2140",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2140.png",
-            },
-            {
-              id: "2141",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2141.png",
-            },
-            {
-              id: "2142",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2142.png",
-            },
-          ],
-          [
-            {
-              id: "2447",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2447.png",
-            },
-            {
-              id: "2449",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2449.png",
-            },
-            {
-              id: "2451",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2451.png",
-            },
-            {
-              id: "2453",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2453.png",
-            },
-          ],
-          [
-            {
-              id: "2448",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2448.png",
-            },
-            {
-              id: "2450",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2450.png",
-            },
-            {
-              id: "2452",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2452.png",
-            },
-            {
-              id: "2454",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2454.png",
+              id: "4340",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4340.png",
             },
           ],
         ],
@@ -8389,338 +6957,608 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
-        frName: "Île Tougato",
-        enName: "Whole Cake Island",
+        frName: "Supernovas",
+        enName: "Supernovas",
         characters: [
           [
             {
-              id: "2072",
+              id: "0308",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2072.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0308.png",
             },
             {
-              id: "2078",
+              id: "0310",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2078.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0310.png",
             },
             {
-              id: "2080",
+              id: "0312",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2080.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0312.png",
             },
             {
-              id: "2082",
+              id: "0314",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2082.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0314.png",
+            },
+            {
+              id: "0316",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0316.png",
+            },
+            {
+              id: "0357",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0357.png",
+            },
+            {
+              id: "0359",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0359.png",
+            },
+            {
+              id: "0361",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0361.png",
+            },
+            {
+              id: "0363",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0363.png",
+            },
+            {
+              id: "0365",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0365.png",
             },
           ],
           [
             {
-              id: "2304",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2304.png",
+              id: "3308",
+              imgUrl: "https://i.imgur.com/qaOG9yN.png",
             },
             {
-              id: "2306",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2306.png",
+              id: "3309",
+              imgUrl: "https://i.imgur.com/3JKmgbW.png",
             },
             {
-              id: "2308",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2308.png",
-            },
-            {
-              id: "2310",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2310.png",
-            },
-          ],
-          [
-            {
-              id: "3067",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3067.png",
-            },
-            {
-              id: "3069",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3069.png",
+              id: "3310",
+              imgUrl: "https://i.imgur.com/1L5waP5.png",
             },
           ],
         ],
       },
       {
-        frName: "Films de One Piece",
-        enName: "One Piece Movies",
+        frName: "Marine",
+        enName: "Marines",
         characters: [
           [
             {
-              id: "2101",
-              imgUrl: "https://i.imgur.com/Ijwn9ge.png",
+              id: "1230",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1230.png",
             },
             {
-              id: "2103",
-              imgUrl: "https://i.imgur.com/CMfRibg.png",
+              id: "1232",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1232.png",
             },
             {
-              id: "2105",
-              imgUrl: "https://i.imgur.com/elGfmUV.png",
+              id: "1234",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1234.png",
             },
             {
-              id: "2107",
-              imgUrl: "https://i.imgur.com/IEFEkG7.png",
-            },
-          ],
-          [
-            {
-              id: "2203",
-              imgUrl: "https://i.imgur.com/reshbwB.png",
+              id: "1236",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1236.png",
             },
             {
-              id: "2205",
-              imgUrl: "https://i.imgur.com/GRkpHlp.png",
-            },
-          ],
-          [
-            {
-              id: "2332",
-              imgUrl: "https://i.imgur.com/CTsKU9z.png",
+              id: "1238",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1238.png",
             },
             {
-              id: "2334",
-              imgUrl: "https://i.imgur.com/9ruuCGw.png",
-            },
-          ],
-          [
-            {
-              id: "2653",
-              imgUrl: "https://i.imgur.com/pXBgQJ8.png",
+              id: "1316",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1316.png",
             },
             {
-              id: "2655",
-              imgUrl: "https://i.imgur.com/CzrAURF.png",
+              id: "1318",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1318.png",
             },
             {
-              id: "2657",
-              imgUrl: "https://i.imgur.com/OFN6aqN.png",
-            },
-          ],
-          [
-            {
-              id: "2674",
-              imgUrl: "https://i.imgur.com/LjgNNPP.png",
+              id: "1320",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1320.png",
             },
             {
-              id: "2676",
-              imgUrl: "https://i.imgur.com/2bvB3ya.png",
+              id: "1322",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1322.png",
             },
             {
-              id: "2678",
-              imgUrl: "https://i.imgur.com/QULAIcT.png",
+              id: "1324",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1324.png",
             },
           ],
           [
             {
-              id: "2881",
-              imgUrl: "https://i.imgur.com/TBczhRG.png",
+              id: "3724",
+              imgUrl:
+                "https://i.imgur.com/L4jtn7a.png",
             },
             {
-              id: "2882",
-              imgUrl: "https://i.imgur.com/VwZz6Bq.png",
+              id: "3725",
+              imgUrl:
+                "https://i.imgur.com/MRkhwvd.png",
+            },
+            {
+              id: "3726",
+              imgUrl:
+                "https://i.imgur.com/oLNRdoX.png",
+            },
+            {
+              id: "3727",
+              imgUrl:
+                "https://i.imgur.com/VNixUEq.png",
+            },
+          ],
+          [
+            {
+              id: "4243",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4243.png",
+            },
+            {
+              id: "4244",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4244.png",
+            },
+          ],
+          [
+            {
+              id: "4382",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4382.png",
+            },
+            {
+              id: "4383",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4383.png",
+            },
+          ],
+          [
+            {
+              id: "4444",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4444.png",
+            },
+            {
+              id: "4445",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4445.png",
+            },
+            {
+              id: "4446",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4446.png",
             },
           ],
         ],
       },
       {
-        frName: "Marine Ford",
-        enName: "Marine Ford",
+        frName: "Sept Grands corsaires",
+        enName: "Seven Warlords of the Sea",
         characters: [
           [
             {
-              id: "1987",
+              id: "0410",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1987.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0410.png",
             },
             {
-              id: "1989",
+              id: "0412",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1989.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0412.png",
             },
             {
-              id: "1991",
+              id: "0414",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1991.png",
-            },
-            {
-              id: "1993",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1993.png",
-            },
-          ],
-          [
-            {
-              id: "2027",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2027.png",
-            },
-            {
-              id: "2029",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2029.png",
-            },
-            {
-              id: "2031",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2031.png",
-            },
-          ],
-          [
-            {
-              id: "2183",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2183.png",
-            },
-            {
-              id: "2185",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2185.png",
-            },
-            {
-              id: "2187",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2187.png",
-            },
-            {
-              id: "2189",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2189.png",
-            },
-          ],
-          [
-            {
-              id: "3255",
-              imgUrl: "https://imgur.com/s8REEjf.png",
-            },
-            {
-              id: "3257",
-              imgUrl: "https://imgur.com/qHDOMGL.png",
-            },
-            {
-              id: "3259",
-              imgUrl: "https://imgur.com/XmFJ75L.png",
-            },
-            {
-              id: "3261",
-              imgUrl: "https://imgur.com/HynHhPk.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0414.png",
             },
           ],
         ],
       },
       {
-        frName: "Ennemis des Mugiwaras",
-        enName: "Enemies of Mugiwaras",
+        frName: "CP9",
+        enName: "CP9",
         characters: [
           [
             {
-              id: "1612",
+              id: "0750",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1612.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0750.png",
             },
             {
-              id: "1614",
+              id: "0752",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1614.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0752.png",
             },
             {
-              id: "1616",
+              id: "0754",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1616.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0754.png",
             },
             {
-              id: "1618",
+              id: "0756",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f1618.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0756.png",
+            },
+            {
+              id: "0758",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0758.png",
+            },
+            {
+              id: "0760",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0760.png",
             },
           ],
           [
             {
-              id: "2479",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2479.png",
+              id: "3423",
+              imgUrl: "https://i.imgur.com/DSkKmcZ.png",
             },
             {
-              id: "2481",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2481.png",
-            },
-            {
-              id: "2483",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2483.png",
-            },
-            {
-              id: "2485",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2485.png",
-            },
-          ],
-          [
-            {
-              id: "3475",
-              imgUrl: "https://i.imgur.com/IjK6hLL.png",
-            },
-            {
-              id: "3476",
-              imgUrl: "https://i.imgur.com/FOy8bF8.png",
-            },
-          ],
-          [
-            {
-              id: "4125",
-              imgUrl: "https://i.imgur.com/o3Ry0Qt.png",
-            },
-            {
-              id: "4126",
-              imgUrl: "https://i.imgur.com/lHVQxgZ.png",
-            },
-          ],
-          [
-            {
-              id: "4339",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4339.png",
-            },
-            {
-              id: "4340",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4340.png",
+              id: "3424",
+              imgUrl: "https://i.imgur.com/4hNSBkc.png",
             },
           ],
         ],
       },
       {
-        frName: "5ème anniversaire de la version japonaise",
-        enName: "5th Anniversary of the Japanese version",
+        frName: "Armée révolutionnaire",
+        enName: "Revolutionary Army",
         characters: [
           [
             {
-              id: "2538",
+              id: "0671",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2538.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0671.png",
             },
             {
-              id: "2540",
+              id: "0673",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2540.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0673.png",
             },
             {
-              id: "2542",
+              id: "0675",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2542.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0675.png",
             },
             {
-              id: "2544",
+              id: "0677",
               imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2544.png",
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0677.png",
+            },
+          ],
+          [
+            {
+              id: "2563",
+              imgUrl: "https://i.imgur.com/nCArGto.png",
+            },
+            {
+              id: "2565",
+              imgUrl: "https://i.imgur.com/n8aVWFR.png",
+            },
+            {
+              id: "2567",
+              imgUrl: "https://i.imgur.com/tylk8to.png",
+            },
+          ],
+          [
+            {
+              id: "3840",
+              imgUrl: "https://i.imgur.com/1n1iXlL.png",
+            },
+            {
+              id: "3841",
+              imgUrl: "https://i.imgur.com/sTBAY1b.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Germa 66",
+        enName: "Germa 66",
+        characters: [
+          [
+            {
+              id: "1834",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1834.png",
+            },
+            {
+              id: "1836",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1836.png",
+            },
+            {
+              id: "1838",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1838.png",
+            },
+            {
+              id: "1840",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1840.png",
+            },
+          ],
+          [
+            {
+              id: "2139",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2139.png",
+            },
+            {
+              id: "2140",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2140.png",
+            },
+            {
+              id: "2141",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2141.png",
+            },
+            {
+              id: "2142",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2142.png",
+            },
+          ],
+          [
+            {
+              id: "2447",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2447.png",
+            },
+            {
+              id: "2449",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2449.png",
+            },
+            {
+              id: "2451",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2451.png",
+            },
+            {
+              id: "2453",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2453.png",
+            },
+          ],
+          [
+            {
+              id: "2448",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2448.png",
+            },
+            {
+              id: "2450",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2450.png",
+            },
+            {
+              id: "2452",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2452.png",
+            },
+            {
+              id: "2454",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2454.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Équipage de Barbe Blanche",
+        enName: "Whitebeard Pirates",
+        characters: [
+          [
+            {
+              id: "0251",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0251.png",
+            },
+            {
+              id: "0253",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0253.png",
+            },
+            {
+              id: "0255",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0255.png",
+            },
+            {
+              id: "0257",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0257.png",
+            },
+            {
+              id: "0259",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0259.png",
+            },
+            {
+              id: "0449",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0449.png",
+            },
+            {
+              id: "0451",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0451.png",
+            },
+            {
+              id: "0453",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0453.png",
+            },
+            {
+              id: "0455",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0455.png",
+            },
+            {
+              id: "0457",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0457.png",
+            },
+            {
+              id: "0639",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0639.png",
+            },
+            {
+              id: "0641",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0641.png",
+            },
+            {
+              id: "0643",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0643.png",
+            },
+            {
+              id: "0645",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0645.png",
+            },
+            {
+              id: "0647",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0647.png",
+            },
+            {
+              id: "1182",
+              imgUrl: "https://i.imgur.com/TD8DA7U.png",
+            },
+            {
+              id: "1184",
+              imgUrl: "https://i.imgur.com/0hyGWhs.png",
+            },
+            {
+              id: "1186",
+              imgUrl: "https://i.imgur.com/GRYYYdc.png",
+            },
+            {
+              id: "1188",
+              imgUrl: "https://i.imgur.com/5KLShsY.png",
+            },
+            {
+              id: "1190",
+              imgUrl: "https://i.imgur.com/wkXDkil.png",
+            },
+          ],
+          [
+            {
+              id: "3359",
+              imgUrl: "https://i.imgur.com/LitbZ34.png",
+            },
+            {
+              id: "3911",
+              imgUrl: "https://i.imgur.com/Yvuyet0.png",
+            },
+            {
+              id: "3912",
+              imgUrl: "https://i.imgur.com/wzxQFRv.png",
+            },
+            {
+              id: "3913",
+              imgUrl: "https://i.imgur.com/nKUbCdf.png",
+            },
+          ]
+        ],
+      },
+      {
+        frName: "Équipage de Don Quijote",
+        enName: "Donquixote Pirates",
+        characters: [
+          [
+            {
+              id: "0838",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0838.png",
+            },
+            {
+              id: "0840",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0840.png",
+            },
+            {
+              id: "0842",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0842.png",
+            },
+            {
+              id: "0844",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0844.png",
+            },
+            {
+              id: "0846",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0846.png",
+            },
+            {
+              id: "0872",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0872.png",
+            },
+            {
+              id: "0874",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0874.png",
+            },
+            {
+              id: "0876",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0876.png",
+            },
+            {
+              id: "0878",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0878.png",
+            },
+            {
+              id: "0880",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0880.png",
+            },
+            {
+              id: "0991",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0991.png",
+            },
+            {
+              id: "0993",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0993.png",
+            },
+            {
+              id: "0995",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0995.png",
+            },
+            {
+              id: "0997",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0997.png",
+            },
+            {
+              id: "0999",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0999.png",
             },
           ],
         ],
@@ -8854,6 +7692,131 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
+        frName: "Equipage de Shanks le Roux et Alliés",
+        enName: "Red-hair Pirates and Allies",
+        characters: [
+          [
+            {
+              id: "3358",
+              imgUrl: "https://i.imgur.com/cD3l6JN.png",
+            },
+            {
+              id: "3360",
+              imgUrl: "https://i.imgur.com/vcHpuzK.png",
+            },
+          ],
+          [
+            {
+              id: "3996",
+              imgUrl: "https://i.imgur.com/A3fRq9w.png",
+            },
+            {
+              id: "3997",
+              imgUrl: "https://i.imgur.com/Q5tlUZk.png",
+            },
+            {
+              id: "3998",
+              imgUrl: "https://i.imgur.com/pJzKJGn.png",
+            }
+          ],
+          [
+            {
+              id: "4022",
+              imgUrl: "https://i.imgur.com/appBUov.png",
+            },
+            {
+              id: "4023",
+              imgUrl: "https://i.imgur.com/lkH4zRh.png",
+            }
+          ],
+          [
+            {
+              id: "4234",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4234.png",
+            },
+            {
+              id: "4235",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4235.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Équipage de Barbe Noire",
+        enName: "Blackbeard Pirates",
+        characters: [
+          [
+            {
+              id: "1270",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1270.png",
+            },
+            {
+              id: "1272",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1272.png",
+            },
+            {
+              id: "1274",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1274.png",
+            },
+            {
+              id: "1276",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1276.png",
+            },
+            {
+              id: "1278",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1278.png",
+            },
+          ],
+          [
+            {
+              id: "3283",
+              imgUrl: "https://i.imgur.com/CxdlY1Z.png",
+            },
+            {
+              id: "3284",
+              imgUrl: "https://i.imgur.com/w7WcJub.png",
+            },
+          ],
+          [
+            {
+              id: "4103",
+              imgUrl: "https://i.imgur.com/Pv8IQFS.png",
+            },
+            {
+              id: "4104",
+              imgUrl: "https://i.imgur.com/USIXm9y.png",
+            },
+            {
+              id: "4105",
+              imgUrl: "https://i.imgur.com/JVUJUxB.png",
+            },
+            {
+              id: "4106",
+              imgUrl: "https://i.imgur.com/tCgr3Dr.png",
+            },
+          ],
+          [
+            {
+              id: "4222",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4222.png",
+            },
+            {
+              id: "4223",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4223.png",
+            },
+            {
+              id: "4269",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4269.png",
+            },
+          ],
+        ],
+      },
+      {
         frName: "Équipage des cent bêtes",
         enName: "Beasts Pirates",
         characters: [
@@ -8968,6 +7931,421 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
+        frName: "Fourreaux Rouges",
+        enName: "Red Scabards",
+        characters: [
+          [
+            {
+              id: "3556",
+              imgUrl:
+                "https://i.imgur.com/LDu53SS.png",
+            },
+            {
+              id: "3557",
+              imgUrl:
+                "https://i.imgur.com/AyxyzSc.png",
+            },
+            {
+              id: "3558",
+              imgUrl:
+                "https://i.imgur.com/NfqrxA0.png",
+            },
+          ],
+          [
+            {
+              id: "3746",
+              imgUrl: "https://i.imgur.com/crUeCyH.png",
+            },
+            {
+              id: "3747",
+              imgUrl: "https://i.imgur.com/vmc1nqI.png",
+            },
+            {
+              id: "3748",
+              imgUrl: "https://i.imgur.com/0nkLcsq.png",
+            },
+            {
+              id: "3749",
+              imgUrl: "https://i.imgur.com/JHoFxdx.png",
+            },
+          ],
+          [
+            {
+              id: "4064",
+              imgUrl: "https://i.imgur.com/EhLIfgf.png",
+            },
+            {
+              id: "4065",
+              imgUrl: "https://i.imgur.com/DhD51OS.png",
+            }
+          ],
+        ]
+      },
+      {
+        frName: "Équipage de Roger",
+        enName: "Roger Pirates",
+        characters: [
+          [
+            {
+              id: "3179",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3179.png",
+            },
+            {
+              id: "3181",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3181.png",
+            },
+            {
+              id: "3183",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3183.png",
+            },
+            {
+              id: "3185",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3185.png",
+            },
+          ],
+          [
+            {
+              id: "3516",
+              imgUrl: "https://i.imgur.com/SOLxHwm.png",
+            },
+            {
+              id: "3517",
+              imgUrl: "https://i.imgur.com/8cejaL0.png",
+            },
+          ],
+          [
+            {
+              id: "3812",
+              imgUrl: "https://i.imgur.com/pxcWtdY.png",
+            },
+            {
+              id: "3813",
+              imgUrl: "https://i.imgur.com/qQRVCgj.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Spade Pirates",
+        enName: "Spade Pirates",
+        characters: [
+          [
+            {
+              id: "3833",
+              imgUrl:
+                "https://i.imgur.com/668DEkc.png",
+            },
+            {
+              id: "3834",
+              imgUrl:
+                "https://i.imgur.com/dgi7Ryq.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Équipage des Heart & des Kid",
+        enName: "Heart & Kid Pirates",
+        characters: [
+          [
+            {
+              id: "4143",
+              imgUrl: "https://i.imgur.com/RUL8zHA.png",
+            },
+            {
+              id: "4144",
+              imgUrl: "https://i.imgur.com/Lt81Xzv.png",
+            },
+            {
+              id: "4145",
+              imgUrl: "https://i.imgur.com/SKAhPlA.png",
+            }
+          ]
+        ]
+      },
+      {
+        frName: "Cross Guild",
+        enName: "Cross Guild",
+        characters: [
+          [
+            {
+              id: "4112",
+              imgUrl: "https://i.imgur.com/y77daog.png",
+            },
+            {
+              id: "4113",
+              imgUrl: "https://i.imgur.com/1duKBC5.png",
+            }
+          ]
+        ]
+      },
+      {
+        frName: "Pirates Rocks",
+        enName: "Rocks Pirates",
+        characters: [
+          [
+            {
+              id: "4389",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4389.png",
+            },
+            {
+              id: "4390",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/300/4390.png",
+            },
+          ],
+        ]
+      },
+    ]
+  },
+  {
+    frName: "Personnages du Recrutement Rare - Arcs",
+    enName: "Rare Recruit Characters - Arcs",
+    sections: [
+      {
+        frName: "Premiers personnages",
+        enName: "First Characters",
+        characters: [
+          [
+            {
+              id: "0075",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0075.png",
+            },
+            {
+              id: "0077",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0077.png",
+            },
+            {
+              id: "0210",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0210.png",
+            },
+            {
+              id: "0217",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0217.png",
+            },
+            {
+              id: "0219",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0219.png",
+            },
+            {
+              id: "0221",
+              imgUrl: "https://i.imgur.com/mvjdayi.png",
+            },
+            {
+              id: "0223",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0223.png",
+            },
+            {
+              id: "0225",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0225.png",
+            },
+            {
+              id: "0500",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0500.png",
+            },
+            {
+              id: "0502",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0502.png",
+            },
+            {
+              id: "0504",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0504.png",
+            },
+            {
+              id: "0506",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0506.png",
+            },
+            {
+              id: "0508",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0508.png",
+            },
+            {
+              id: "0586",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0586.png",
+            },
+            {
+              id: "0588",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0588.png",
+            },
+            {
+              id: "0590",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0590.png",
+            },
+            {
+              id: "0785",
+              imgUrl: "https://i.imgur.com/waLBe4P.png",
+            },
+            {
+              id: "0787",
+              imgUrl: "https://i.imgur.com/qP7Jjjw.png",
+            },
+            {
+              id: "0789",
+              imgUrl: "https://i.imgur.com/4BSGasB.png",
+            },
+            {
+              id: "0791",
+              imgUrl: "https://i.imgur.com/e3v6jgG.png",
+            },
+            {
+              id: "0793",
+              imgUrl: "https://i.imgur.com/cKQzHYv.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Films",
+        enName: "Movies",
+        characters: [
+          [
+            {
+              id: "2101",
+              imgUrl: "https://i.imgur.com/Ijwn9ge.png",
+            },
+            {
+              id: "2103",
+              imgUrl: "https://i.imgur.com/CMfRibg.png",
+            },
+            {
+              id: "2105",
+              imgUrl: "https://i.imgur.com/elGfmUV.png",
+            },
+            {
+              id: "2107",
+              imgUrl: "https://i.imgur.com/IEFEkG7.png",
+            },
+          ],
+          [
+            {
+              id: "2203",
+              imgUrl: "https://i.imgur.com/reshbwB.png",
+            },
+            {
+              id: "2205",
+              imgUrl: "https://i.imgur.com/GRkpHlp.png",
+            },
+          ],
+          [
+            {
+              id: "2332",
+              imgUrl: "https://i.imgur.com/CTsKU9z.png",
+            },
+            {
+              id: "2334",
+              imgUrl: "https://i.imgur.com/9ruuCGw.png",
+            },
+          ],
+          [
+            {
+              id: "2653",
+              imgUrl: "https://i.imgur.com/pXBgQJ8.png",
+            },
+            {
+              id: "2655",
+              imgUrl: "https://i.imgur.com/CzrAURF.png",
+            },
+            {
+              id: "2657",
+              imgUrl: "https://i.imgur.com/OFN6aqN.png",
+            },
+          ],
+          [
+            {
+              id: "2674",
+              imgUrl: "https://i.imgur.com/LjgNNPP.png",
+            },
+            {
+              id: "2676",
+              imgUrl: "https://i.imgur.com/2bvB3ya.png",
+            },
+            {
+              id: "2678",
+              imgUrl: "https://i.imgur.com/QULAIcT.png",
+            },
+          ],
+          [
+            {
+              id: "2881",
+              imgUrl: "https://i.imgur.com/TBczhRG.png",
+            },
+            {
+              id: "2882",
+              imgUrl: "https://i.imgur.com/VwZz6Bq.png",
+            },
+          ],
+          [
+            {
+              id: "3683",
+              imgUrl:
+                "https://i.imgur.com/LFxSuds.png",
+            },
+            {
+              id: "3684",
+              imgUrl:
+                "https://i.imgur.com/AJtyAaU.png",
+            },
+            {
+              id: "3685",
+              imgUrl:
+                "https://i.imgur.com/Rne6gIt.png",
+            },
+          ],
+          [
+            {
+              id: "3698",
+              imgUrl:
+                "https://i.imgur.com/wgHMu5W.png",
+            },
+            {
+              id: "3699",
+              imgUrl:
+                "https://i.imgur.com/KNB4Gtq.png",
+            },
+            {
+              id: "3700",
+              imgUrl:
+                "https://i.imgur.com/PMpC8bD.png",
+            },
+          ],
+          [
+            {
+              id: "3709",
+              imgUrl:
+                "https://i.imgur.com/hGFNaze.png",
+            },
+            {
+              id: "3711",
+              imgUrl:
+                "https://i.imgur.com/wJjikOT.png",
+            },
+            {
+              id: "3712",
+              imgUrl:
+                "https://i.imgur.com/siMiVO7.png",
+            },
+          ],
+        ],
+      },
+      {
         frName: "Halloween",
         enName: "Halloween",
         characters: [
@@ -9000,6 +8378,627 @@ const allRareRecruitCharactersList = [
         ],
       },
       {
+        frName: "Impel Down",
+        enName: "Impel Down",
+        characters: [
+          [
+            {
+              id: "1700",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1700.png",
+            },
+            {
+              id: "1702",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1702.png",
+            },
+            {
+              id: "1704",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1704.png",
+            },
+            {
+              id: "1706",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1706.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Marine Ford",
+        enName: "Marine Ford",
+        characters: [
+          [
+            {
+              id: "1987",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1987.png",
+            },
+            {
+              id: "1989",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1989.png",
+            },
+            {
+              id: "1991",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1991.png",
+            },
+            {
+              id: "1993",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1993.png",
+            },
+          ],
+          [
+            {
+              id: "2027",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2027.png",
+            },
+            {
+              id: "2029",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2029.png",
+            },
+            {
+              id: "2031",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2031.png",
+            },
+          ],
+          [
+            {
+              id: "2183",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2183.png",
+            },
+            {
+              id: "2185",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2185.png",
+            },
+            {
+              id: "2187",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2187.png",
+            },
+            {
+              id: "2189",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2189.png",
+            },
+          ],
+          [
+            {
+              id: "3255",
+              imgUrl: "https://imgur.com/s8REEjf.png",
+            },
+            {
+              id: "3257",
+              imgUrl: "https://imgur.com/qHDOMGL.png",
+            },
+            {
+              id: "3259",
+              imgUrl: "https://imgur.com/XmFJ75L.png",
+            },
+            {
+              id: "3261",
+              imgUrl: "https://imgur.com/HynHhPk.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "3D2Y",
+        enName: "3D2Y",
+        characters: [
+          [
+            {
+              id: "0906",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0906.png",
+            },
+            {
+              id: "0908",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0908.png",
+            },
+            {
+              id: "0910",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0910.png",
+            },
+            {
+              id: "0912",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0912.png",
+            },
+            {
+              id: "0914",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f0914.png",
+            },
+            {
+              id: "0937",
+              imgUrl: "https://i.imgur.com/oL9cW6s.png",
+            },
+            {
+              id: "0939",
+              imgUrl: "https://i.imgur.com/nmCUUtf.png",
+            },
+            {
+              id: "0941",
+              imgUrl: "https://i.imgur.com/bVgwopi.png",
+            },
+            {
+              id: "0943",
+              imgUrl: "https://i.imgur.com/YjD4FgS.png",
+            },
+          ],
+          [
+            {
+              id: "1364",
+              imgUrl: "https://i.imgur.com/LWn8OwM.png",
+            },
+            {
+              id: "1366",
+              imgUrl: "https://i.imgur.com/xHuKlDT.png",
+            },
+            {
+              id: "1368",
+              imgUrl: "https://i.imgur.com/u9CRe34.png",
+            },
+            {
+              id: "1370",
+              imgUrl: "https://i.imgur.com/zEnujt5.png",
+            },
+          ],
+          [
+            {
+              id: "1406",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1406.png",
+            },
+            {
+              id: "1408",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1408.png",
+            },
+            {
+              id: "1410",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1410.png",
+            },
+            {
+              id: "1412",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1412.png",
+            },
+          ],
+          [
+            {
+              id: "1534",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1534.png",
+            },
+            {
+              id: "1536",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1536.png",
+            },
+            {
+              id: "1538",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1538.png",
+            },
+            {
+              id: "1540",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1540.png",
+            },
+            {
+              id: "1542",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1542.png",
+            },
+            {
+              id: "1741",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1741.png",
+            },
+            {
+              id: "1743",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1743.png",
+            },
+            {
+              id: "1745",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1745.png",
+            },
+            {
+              id: "1749",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1749.png",
+            },
+          ],
+          [
+            {
+              id: "2899",
+              imgUrl: "https://i.imgur.com/y6b9sqq.png",
+            },
+            {
+              id: "2901",
+              imgUrl: "https://i.imgur.com/62ydGn1.png",
+            },
+            {
+              id: "2903",
+              imgUrl: "https://i.imgur.com/h90MTTh.png",
+            },
+          ],
+          [
+            {
+              id: "4295",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4295.png",
+            },
+            {
+              id: "4296",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4296.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Île des Hommes-Poissons",
+        enName: "Fish-Man Island",
+        characters: [
+          [
+            {
+              id: "1436",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1436.png",
+            },
+            {
+              id: "1438",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1438.png",
+            },
+            {
+              id: "1440",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1440.png",
+            },
+            {
+              id: "1442",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1442.png",
+            },
+            {
+              id: "1444",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1444.png",
+            },
+            {
+              id: "1475",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1475.png",
+            },
+            {
+              id: "1477",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1477.png",
+            },
+            {
+              id: "1479",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1479.png",
+            },
+            {
+              id: "1481",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1481.png",
+            },
+            {
+              id: "1483",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1483.png",
+            },
+            {
+              id: "2267",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2267.png",
+            },
+            {
+              id: "2269",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2269.png",
+            },
+            {
+              id: "2271",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2271.png",
+            },
+            {
+              id: "2273",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2273.png",
+            },
+            {
+              id: "2275",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2275.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Dressrosa",
+        enName: "Dressrosa",
+        characters: [
+          [
+            {
+              id: "1025",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1025.png",
+            },
+            {
+              id: "1027",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1027.png",
+            },
+            {
+              id: "1029",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1029.png",
+            },
+            {
+              id: "1031",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1031.png",
+            },
+            {
+              id: "1033",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1033.png",
+            },
+            {
+              id: "1075",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1075.png",
+            },
+            {
+              id: "1077",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1077.png",
+            },
+            {
+              id: "1079",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1079.png",
+            },
+            {
+              id: "1081",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1081.png",
+            },
+            {
+              id: "1083",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1083.png",
+            },
+            {
+              id: "1125",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1125.png",
+            },
+            {
+              id: "1127",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1127.png",
+            },
+            {
+              id: "1129",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1129.png",
+            },
+            {
+              id: "1131",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1131.png",
+            },
+            {
+              id: "1133",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1133.png",
+            },
+          ],
+          [
+            {
+              id: "1796",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1796.png",
+            },
+            {
+              id: "1798",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1798.png",
+            },
+            {
+              id: "1800",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1800.png",
+            },
+            {
+              id: "1802",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1802.png",
+            },
+          ],
+          [
+            { id: "1871", imgUrl: "https://i.imgur.com/epN9tKm.png" },
+            { id: "1873", imgUrl: "https://i.imgur.com/LW119vn.png" },
+            { id: "1875", imgUrl: "https://i.imgur.com/piClmMO.png" },
+            { id: "1877", imgUrl: "https://i.imgur.com/6yPiOmr.png" },
+          ],
+          [
+            {
+              id: "1902",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1902.png",
+            },
+            {
+              id: "1904",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1904.png",
+            },
+            {
+              id: "1906",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1906.png",
+            },
+            {
+              id: "1908",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1908.png",
+            },
+          ],
+          [
+            {
+              id: "2420",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2420.png",
+            },
+            {
+              id: "2422",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2422.png",
+            },
+            {
+              id: "2424",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2424.png",
+            },
+            {
+              id: "2426",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2426.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Zo",
+        enName: "Zou",
+        characters: [
+          [
+            {
+              id: "1573",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1573.png",
+            },
+            {
+              id: "1575",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1575.png",
+            },
+            {
+              id: "1577",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1577.png",
+            },
+            {
+              id: "1579",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1579.png",
+            },
+            {
+              id: "1654",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1654.png",
+            },
+            {
+              id: "1656",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1656.png",
+            },
+            {
+              id: "1658",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1658.png",
+            },
+            {
+              id: "1660",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f1660.png",
+            },
+          ],
+        ],
+      },
+      {
+        frName: "Île Tougato",
+        enName: "Whole Cake Island",
+        characters: [
+          [
+            {
+              id: "2072",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2072.png",
+            },
+            {
+              id: "2078",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2078.png",
+            },
+            {
+              id: "2080",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2080.png",
+            },
+            {
+              id: "2082",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2082.png",
+            },
+          ],
+          [
+            {
+              id: "2304",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2304.png",
+            },
+            {
+              id: "2306",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2306.png",
+            },
+            {
+              id: "2308",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2308.png",
+            },
+            {
+              id: "2310",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f2310.png",
+            },
+          ],
+          [
+            {
+              id: "3067",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3067.png",
+            },
+            {
+              id: "3069",
+              imgUrl:
+                "https://onepiecetreasurecruise.fr/img/characters/rr/f3069.png",
+            },
+          ],
+        ],
+      },
+      {
         frName: "Rêverie",
         enName: "Levely",
         characters: [
@@ -9026,81 +9025,6 @@ const allRareRecruitCharactersList = [
               id: "3170",
               imgUrl: "https://i.imgur.com/JolLaHR.png",
             }
-          ]
-        ],
-      },
-      {
-        frName: "6ème anniversaire de la version japonaise",
-        enName: "6th Anniversary of the Japanese version",
-        characters: [
-          [
-            {
-              id: "2864",
-              imgUrl: "https://i.imgur.com/6miuVmX.png",
-            },
-            {
-              id: "2866",
-              imgUrl: "https://i.imgur.com/P96011R.png",
-            },
-          ],
-          [
-            {
-              id: "2899",
-              imgUrl: "https://i.imgur.com/y6b9sqq.png",
-            },
-            {
-              id: "2901",
-              imgUrl: "https://i.imgur.com/62ydGn1.png",
-            },
-            {
-              id: "2903",
-              imgUrl: "https://i.imgur.com/h90MTTh.png",
-            },
-          ],
-          [
-            {
-              id: "2966",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2966.png",
-            },
-            {
-              id: "2968",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2968.png",
-            },
-            {
-              id: "2970",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2970.png",
-            },
-            {
-              id: "2972",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f2972.png",
-            },
-          ],
-        ],
-      },
-      {
-        frName: "Personnages choisis",
-        enName: "Selected Characters",
-        characters: [
-          [
-            {
-              id: "3006",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3011.png",
-            },
-            {
-              id: "3008",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3013.png",
-            },
-            {
-              id: "3010",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3015.png",
-            },
           ]
         ],
       },
@@ -9198,6 +9122,16 @@ const allRareRecruitCharactersList = [
           ],
           [
             {
+              id: "4258",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4258.png",
+            },
+            {
+              id: "4259",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4259.png",
+            },
+          ],
+          [
+            {
               id: "4277",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4277.png",
             },
@@ -9205,60 +9139,16 @@ const allRareRecruitCharactersList = [
               id: "4278",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4278.png",
             },
-          ],
-        ],
-      },
-      {
-        frName: "Équipage de Roger",
-        enName: "Roger Pirates",
-        characters: [
-          [
             {
-              id: "3179",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3179.png",
-            },
-            {
-              id: "3181",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3181.png",
-            },
-            {
-              id: "3183",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3183.png",
-            },
-            {
-              id: "3185",
-              imgUrl:
-                "https://onepiecetreasurecruise.fr/img/characters/rr/f3185.png",
-            },
-          ],
-          [
-            {
-              id: "3516",
-              imgUrl: "https://i.imgur.com/SOLxHwm.png",
-            },
-            {
-              id: "3517",
-              imgUrl: "https://i.imgur.com/8cejaL0.png",
-            },
-          ],
-          [
-            {
-              id: "3812",
-              imgUrl: "https://i.imgur.com/pxcWtdY.png",
-            },
-            {
-              id: "3813",
-              imgUrl: "https://i.imgur.com/qQRVCgj.png",
+              id: "4270",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4270.png",
             },
           ],
         ],
       },
       {
-        frName: "7ème anniversaire de la version japonaise",
-        enName: "7th birthday of japanese version",
+        frName: "Onigashima",
+        enName: "Onigashima",
         characters: [
           [
             {
@@ -9276,24 +9166,16 @@ const allRareRecruitCharactersList = [
           ],
           [
             {
-              id: "3358",
-              imgUrl: "https://i.imgur.com/cD3l6JN.png",
+              id: "3537",
+              imgUrl:
+                "https://i.imgur.com/cbULeQQ.png",
             },
             {
-              id: "3359",
-              imgUrl: "https://i.imgur.com/LitbZ34.png",
-            },
-            {
-              id: "3360",
-              imgUrl: "https://i.imgur.com/vcHpuzK.png",
+              id: "3538",
+              imgUrl:
+                "https://i.imgur.com/veJ4Cqn.png",
             },
           ],
-        ],
-      },
-      {
-        frName: "Equipage de Luffy - Onigashima",
-        enName: "Onigashima - Mugiwaras",
-        characters: [
           [
             {
               id: "3577",
@@ -9312,6 +9194,60 @@ const allRareRecruitCharactersList = [
             {
               id: "3615",
               imgUrl: "https://i.imgur.com/pzRvkJm.png",
+            },
+          ],
+          [
+            {
+              id: "3632",
+              imgUrl: "https://i.imgur.com/IgxhrsE.png",
+            },
+            {
+              id: "3633",
+              imgUrl: "https://i.imgur.com/uY9H4nk.png",
+            },
+          ],
+          [
+            {
+              id: "3756",
+              imgUrl: "https://i.imgur.com/dQBxrH3.png",
+            },
+            {
+              id: "3757",
+              imgUrl: "https://i.imgur.com/ltSACW0.png",
+            },
+          ],
+          [
+            {
+              id: "3767",
+              imgUrl: "https://i.imgur.com/9PPukBi.png",
+            },
+            {
+              id: "3768",
+              imgUrl: "https://i.imgur.com/2goEeuj.png",
+            },
+            {
+              id: "3769",
+              imgUrl: "https://i.imgur.com/2v0vf5Q.png",
+            },
+          ],
+          [
+            {
+              id: "3793",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/3/700/3793.png",
+            },
+            {
+              id: "3794",
+              imgUrl: "https://i.imgur.com/nnY1QKK.png",
+            },
+          ],
+          [
+            {
+              id: "3853",
+              imgUrl: "https://i.imgur.com/qwf6bPm.png",
+            },
+            {
+              id: "3854",
+              imgUrl: "https://i.imgur.com/zs6M23g.png",
             },
           ],
           [
@@ -9350,52 +9286,82 @@ const allRareRecruitCharactersList = [
           ],
           [
             {
-              id: "3793",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/3/700/3793.png",
+              id: "3949",
+              imgUrl: "https://i.imgur.com/DGGYxK5.png",
             },
             {
-              id: "3794",
-              imgUrl: "https://i.imgur.com/nnY1QKK.png",
+              id: "3950",
+              imgUrl: "https://i.imgur.com/mPjhs59.png",
+            },
+            {
+              id: "3951",
+              imgUrl: "https://i.imgur.com/XBWQxHU.png",
             },
           ],
-        ]
+          [
+            {
+              id: "3960",
+              imgUrl: "https://i.imgur.com/0GGSTcZ.png",
+            },
+            {
+              id: "3961",
+              imgUrl: "https://i.imgur.com/CniNnoZ.png",
+            },
+          ],
+          [
+            {
+              id: "3974",
+              imgUrl: "https://i.imgur.com/KR7bjh1.png",
+            },
+            {
+              id: "3975",
+              imgUrl: "https://i.imgur.com/embvrFq.png",
+            },
+          ],
+          [
+            {
+              id: "3987",
+              imgUrl: "https://i.imgur.com/0rtEjai.png",
+            },
+            {
+              id: "3988",
+              imgUrl: "https://i.imgur.com/FltV2pg.png",
+            },
+          ],
+        ],
       },
       {
-        frName: "Equipage de Shanks le Roux et Alliés",
-        enName: "Red-hair Pirates and Allies",
+        frName: "Souvenirs des Mugiwara",
+        enName: "Memories of Mugiwara",
         characters: [
           [
             {
-              id: "3996",
-              imgUrl: "https://i.imgur.com/A3fRq9w.png",
+              id: "4173",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4173.png",
             },
             {
-              id: "3997",
-              imgUrl: "https://i.imgur.com/Q5tlUZk.png",
+              id: "4174",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4174.png",
             },
-            {
-              id: "3998",
-              imgUrl: "https://i.imgur.com/pJzKJGn.png",
-            }
           ],
           [
             {
-              id: "4022",
-              imgUrl: "https://i.imgur.com/appBUov.png",
+              id: "4188",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4188.png",
             },
             {
-              id: "4023",
-              imgUrl: "https://i.imgur.com/lkH4zRh.png",
-            }
+              id: "4189",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4189.png",
+            },
           ],
           [
             {
-              id: "4234",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4234.png",
+              id: "4203",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4203.png",
             },
             {
-              id: "4235",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4235.png",
+              id: "4204",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4204.png",
             },
           ],
         ]
@@ -9519,41 +9485,21 @@ const allRareRecruitCharactersList = [
         ]
       },
       {
-        frName: "Souvenirs des Mugiwara",
-        enName: "Memories of Mugiwara",
+        frName: "God Valley",
+        enName: "God Valley",
         characters: [
           [
             {
-              id: "4173",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4173.png",
+              id: "4411",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4411.png",
             },
             {
-              id: "4174",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4174.png",
-            },
-          ],
-          [
-            {
-              id: "4188",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4188.png",
-            },
-            {
-              id: "4189",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/100/4189.png",
-            },
-          ],
-          [
-            {
-              id: "4203",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4203.png",
-            },
-            {
-              id: "4204",
-              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4204.png",
+              id: "4412",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4412.png",
             },
           ],
         ]
       },
-    ],
+    ]
   },
 ];
