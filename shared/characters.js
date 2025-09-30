@@ -6812,16 +6812,16 @@ const allRareRecruitCharactersList = [
               imgUrl:
                 "https://onepiecetreasurecruise.fr/img/characters/rr/f3015.png",
             },
-          ]
+          ],
           [
-          {
-            id: "3475",
-            imgUrl: "https://i.imgur.com/IjK6hLL.png",
-          },
-          {
-            id: "3476",
-            imgUrl: "https://i.imgur.com/FOy8bF8.png",
-          },
+            {
+              id: "3475",
+              imgUrl: "https://i.imgur.com/IjK6hLL.png",
+            },
+            {
+              id: "3476",
+              imgUrl: "https://i.imgur.com/FOy8bF8.png",
+            },
           ],
           [
             {
