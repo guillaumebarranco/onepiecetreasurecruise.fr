@@ -2333,6 +2333,20 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "4459",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4459.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4460",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4460.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl: "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
               hasLb: true,
@@ -3282,6 +3296,13 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: false,
             },
+            {
+              id: "4456",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4456.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
           ],
         ],
       },
@@ -4029,6 +4050,20 @@ const allRareRecruitCharactersList = [
             {
               id: "4439",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4439.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4458",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4458.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4465",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4465.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: false,
@@ -6072,6 +6107,10 @@ const allRareRecruitCharactersList = [
               id: "4438",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4437.png",
             },
+            {
+              id: "4457",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4457.png",
+            },
           ],
         ],
       },
@@ -6620,7 +6659,7 @@ const allRareRecruitCharactersList = [
   },
   {
     frName: "Personnages du Recrutement Rare - Équipages et Groupes",
-    enName: "Rare Recruit Characters - Crew and Groups",
+    enName: "Rare Recruit - Crew and Groups",
     sections: [
       {
         frName: "Équipage de Chapeau de paille",
@@ -7773,8 +7812,8 @@ const allRareRecruitCharactersList = [
         ]
       },
       {
-        frName: "Équipage de Barbe Noire",
-        enName: "Blackbeard Pirates",
+        frName: "Équipage de Barbe Noire et Alliés",
+        enName: "Blackbeard Pirates and Allies",
         characters: [
           [
             {
@@ -7843,6 +7882,16 @@ const allRareRecruitCharactersList = [
             {
               id: "4269",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/200/4269.png",
+            },
+          ],
+          [
+            {
+              id: "4461",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4461.png",
+            },
+            {
+              id: "4462",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4462.png",
             },
           ],
         ],
@@ -8134,7 +8183,7 @@ const allRareRecruitCharactersList = [
   },
   {
     frName: "Personnages du Recrutement Rare - Arcs",
-    enName: "Rare Recruit Characters - Arcs",
+    enName: "Rare Recruit - Arcs",
     sections: [
       {
         frName: "Premiers personnages",
