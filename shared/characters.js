@@ -2909,6 +2909,13 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "4469",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4469.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ]
         ]
       },
@@ -5651,14 +5658,6 @@ const allRareRecruitCharactersList = [
               id: "4252",
               imgUrl:
                 "https://i.imgur.com/Q0U8PuI.png",
-            },
-            {
-              id: "4301",
-              imgUrl: "https://i.imgur.com/6zrOYpr.png",
-            },
-            {
-              id: "4302",
-              imgUrl: "https://i.imgur.com/rq44LIA.png",
             },
             {
               id: "4283",
@@ -9567,6 +9566,16 @@ const allRareRecruitCharactersList = [
             {
               id: "4435",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4435.png",
+            },
+          ],
+          [
+            {
+              id: "4470",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4470.png",
+            },
+            {
+              id: "4471",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4471.png",
             },
           ],
         ]
