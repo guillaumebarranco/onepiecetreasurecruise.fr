@@ -2347,6 +2347,13 @@ const allRareRecruitCharactersList = [
               hasSupport: true,
             },
             {
+              id: "4493",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4493.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
               id: "5014",
               imgUrl: "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
               hasLb: true,
@@ -2735,6 +2742,27 @@ const allRareRecruitCharactersList = [
             {
               id: "4453",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4453.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4490",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4490.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4491",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4491.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4492",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4492.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -3524,6 +3552,13 @@ const allRareRecruitCharactersList = [
             {
               id: "4482",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4482.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4498",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4498.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -9666,6 +9701,16 @@ const allRareRecruitCharactersList = [
             {
               id: "4471",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4471.png",
+            },
+          ],
+          [
+            {
+              id: "4494",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4494.png",
+            },
+            {
+              id: "4495",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4495.png",
             },
           ],
         ]
