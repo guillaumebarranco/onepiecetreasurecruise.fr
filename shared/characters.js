@@ -2174,7 +2174,7 @@ const allRareRecruitCharactersList = [
               hasSupport: false,
             },
             {
-              id: "4238",
+              id: "4240",
               imgUrl:
                 "https://i.imgur.com/aYA1SA8.png",
               hasLb: true,
@@ -5869,16 +5869,6 @@ const allRareRecruitCharactersList = [
                 "https://i.imgur.com/WcIGFAU.png",
             },
             {
-              id: "4158",
-              imgUrl:
-                "https://i.imgur.com/gLmszHs.png",
-            },
-            {
-              id: "4159",
-              imgUrl:
-                "https://i.imgur.com/scUmj51.png",
-            },
-            {
               id: "4180",
               imgUrl:
                 "https://i.imgur.com/3AejJ5M.png",
@@ -6405,7 +6395,7 @@ const allRareRecruitCharactersList = [
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4423.png",
             },
             {
-              id: "4438",
+              id: "4437",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4437.png",
             },
             {
