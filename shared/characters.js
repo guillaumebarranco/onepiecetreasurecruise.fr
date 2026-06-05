@@ -2403,6 +2403,27 @@ const allRareRecruitCharactersList = [
               hasSupport: false,
             },
             {
+              id: "4583",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4583.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4584",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4584.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4585",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4585.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
               id: "5014",
               imgUrl: "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
               hasLb: true,
@@ -3059,6 +3080,20 @@ const allRareRecruitCharactersList = [
             {
               id: "4529",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4529.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4576",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/500/4576.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4577",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4577.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -4372,6 +4407,13 @@ const allRareRecruitCharactersList = [
             {
               id: "4549",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4549.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4579",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4579.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -6460,6 +6502,10 @@ const allRareRecruitCharactersList = [
             {
               id: "4548",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4548.png",
+            },
+            {
+              id: "4578",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4578.png",
             },
           ],
         ],
@@ -10042,6 +10088,22 @@ const allRareRecruitCharactersList = [
             {
               id: "4412",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4412.png",
+            },
+          ],
+        ]
+      },
+      {
+        frName: "Elbaph",
+        enName: "Elbaph",
+        characters: [
+          [
+            {
+              id: "4586",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4586.png",
+            },
+            {
+              id: "4587",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4587.png",
             },
           ],
         ]
