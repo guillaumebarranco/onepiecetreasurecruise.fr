@@ -2424,6 +2424,20 @@ const allRareRecruitCharactersList = [
               hasSupport: false,
             },
             {
+              id: "4597",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4597.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4598",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4598.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
               id: "5014",
               imgUrl: "https://onepiecetreasurecruise.fr/img/characters/legend/sixstars/f5014.png",
               hasLb: true,
@@ -3569,6 +3583,13 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: true,
             },
+            {
+              id: "4594",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4594.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
           ],
         ],
       },
@@ -4428,6 +4449,13 @@ const allRareRecruitCharactersList = [
             {
               id: "4579",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4579.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: true,
+            },
+            {
+              id: "4596",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4596.png",
               hasLb: true,
               hasKeyLb: true,
               hasSupport: true,
@@ -6529,6 +6557,10 @@ const allRareRecruitCharactersList = [
               id: "4578",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4578.png",
             },
+            {
+              id: "4595",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4595.png",
+            },
           ],
         ],
       },
@@ -8354,6 +8386,16 @@ const allRareRecruitCharactersList = [
             {
               id: "4462",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/400/4462.png",
+            },
+          ],
+          [
+            {
+              id: "4599",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/500/4599.png",
+            },
+            {
+              id: "4600",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/600/4600.png",
             },
           ],
         ],
