@@ -2479,6 +2479,20 @@ const allRareRecruitCharactersList = [
               hasKeyLb: true,
               hasSupport: false,
             },
+            {
+              id: "4648",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/600/4648.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
+            {
+              id: "4649",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/600/4649.png",
+              hasLb: true,
+              hasKeyLb: true,
+              hasSupport: false,
+            },
           ],
         ],
       },
@@ -9156,6 +9170,12 @@ const allRareRecruitCharactersList = [
                 "https://onepiecetreasurecruise.fr/img/characters/rr/f3106.png",
             },
           ],
+          [
+            {
+              id: "4650",
+              imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/glo/4/600/4650.png",
+            }
+          ]
         ],
       },
       {
