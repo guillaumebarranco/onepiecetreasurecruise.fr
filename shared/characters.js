@@ -10570,7 +10570,7 @@ const allRareRecruitCharactersList = [
               id: "4667",
               imgUrl: "https://2shankz.github.io/optc-db.github.io/api/images/thumbnail/jap/4/600/4667.png",
             },
-          ]
+          ],
           [
             {
               id: "4683",
